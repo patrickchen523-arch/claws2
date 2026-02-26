@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "skills": {
+    "gitclaw": {
+      "version": "1.0.0",
+      "installedAt": 1772102037340
+    },
+    "trend-watcher": {
+      "version": "1.0.1",
+      "installedAt": 1772102054557
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1772102065105
+    }
+  }
+}
