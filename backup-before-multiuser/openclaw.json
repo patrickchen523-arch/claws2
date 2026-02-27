@@ -1,0 +1,105 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.2.24",
+    "lastTouchedAt": "2026-02-26T09:45:35.524Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-02-26T09:45:35.518Z",
+    "lastRunVersion": "2026.2.24",
+    "lastRunCommand": "configure",
+    "lastRunMode": "local"
+  },
+  "browser": {
+    "enabled": true,
+    "evaluateEnabled": true,
+    "noSandbox": true,
+    "profiles": {
+      "openclaw": {
+        "cdpPort": 18800,
+        "color": "#FF4500"
+      }
+    }
+  },
+  "auth": {
+    "profiles": {
+      "google:default": {
+        "provider": "google",
+        "mode": "api_key"
+      }
+    }
+  },
+  "models": {
+    "mode": "merge",
+    "providers": {
+      "nuwa": {
+        "baseUrl": "https://api.nuwaflux.com/v1",
+        "apiKey": "sk-So6VdILCemhwQttmVxPEZDOBWwjmtsoZm8cKRPgXcng4zufC",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "claude-sonnet-4-6",
+            "name": "Claude 3.5 Sonnet 4.6",
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {
+        "primary": "nuwa/claude-sonnet-4-6",
+        "fallbacks": []
+      },
+      "models": {
+        "nuwa/claude-sonnet-4-6": {},
+        "google/gemini-2.5-flash": {}
+      },
+      "workspace": "/root/.openclaw/workspace"
+    },
+    "list": [
+      {
+        "id": "main",
+        "name": "main",
+        "workspace": "/root/.openclaw/workspace",
+        "agentDir": "/root/.openclaw/agents/main/agent"
+      }
+    ]
+  },
+  "tools": {
+    "web": {
+      "search": {
+        "enabled": true,
+        "apiKey": "BSAF7QQMZ1kT_IyyTnMH_OASYD2lb4V"
+      }
+    }
+  },
+  "messages": {
+    "queue": {
+      "mode": "steer"
+    }
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "dmPolicy": "pairing",
+      "botToken": "8588721790:AAGSWGbINHqjBwKwWaPhO6h1Xi_KhnI9zZM",
+      "groupPolicy": "allowlist",
+      "streaming": "off"
+    }
+  },
+  "gateway": {
+    "mode": "local",
+    "auth": {
+      "mode": "token",
+      "token": "00d1c62c3b6e6797989c042fc464539e34d3cc4c1e31b6a4"
+    }
+  }
+}
