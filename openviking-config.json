@@ -1,0 +1,24 @@
+{
+  "storage": {
+    "workspace": "/root/.openviking/workspace"
+  },
+  "log": {
+    "level": "INFO",
+    "output": "stdout"
+  },
+  "embedding": {
+    "dense": {
+      "api_base": "https://api.jina.ai/v1",
+      "api_key": "jina_c896500a82f547c597acb73d0ad5af24zChVTxTfvoHJyZ_8QkVpgoC6R8da",
+      "provider": "jina",
+      "dimension": 768,
+      "model": "jina-embeddings-v2-base-zh"
+    }
+  },
+  "vlm": {
+    "api_base": "https://api.minimax.chat/v1",
+    "api_key": "sk-cp-rk2TVwkV5oTRpbf343LNsflsI6lDzs32ah3ui4kgVIsCiupo8WIcwmOrTKNg7fklTE9xXZ4Yl4kI7fBZdviTgZhb4B1fEbSZBezYRVBh8HDBCeSdHaL2ci0",
+    "provider": "litellm",
+    "model": "minimax/MiniMax-M2.5"
+  }
+}

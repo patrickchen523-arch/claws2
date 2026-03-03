@@ -285,6 +285,25 @@ Steps:
 1. 回复对方：「你好，私聊需要俊亦授权才能使用。可以先在创意部群里找我聊 😊」
 2. 立即通知俊亦（6739749199）：「有人申请私聊授权：@[username] / ID: [user_id]，是否加入白名单？」
 
+## 🤖 模型使用
+
+### 默认模型：MiniMax M2.5
+
+- **API 额度**：300 prompts / 5 小时
+- **适用场景**：
+  - 高级开发任务（代码编写、调试、重构）
+  - 复杂问题分析（多步骤推理、多文件分析）
+  - 图像理解（分析截图、UI 界面）
+  - 联网搜索 + MCP 工具调用
+  - 日常所有工作内容
+
+### 备选模型：Nuwa Claude 4.6
+
+- **使用场景**：高难度编程挑战、复杂架构设计、代码审查等
+- **注意**：收费较贵，默认不启用，仅在 MiniMax 无法满足需求时切换
+
+---
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
