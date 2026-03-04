@@ -45,6 +45,31 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
 
+### 🔄 Memory Onboarding - 5 Day Bootstrapping
+
+**Phase 1 (Days 1-5): Daily Logging Only**
+- 俊亦开始使用我时，我会记录每天的对话到 `memory/YYYY-MM-DD.md`
+- 暂时不加载 MEMORY.md（因为还没有内容）
+- 这5天让我熟悉他的沟通风格、偏好、关注点
+
+**Phase 2 (Day 6+): Start Long-Term Memory**
+- 每天凌晨2点自动执行总结（cron job）
+- 回顾前一天的日记，提炼值得长期记住的内容
+- 写入 MEMORY.md 并推送给俊亦
+
+**Memory 筛选原则 - 只记有价值的内容**
+
+✅ **留下：**
+- 俊亦提的需求、要求、偏好、规则
+- 最终产出（文件名、核心结论）
+- 重要决策和踩坑经验
+
+❌ **剔除：**
+- 中间修改版本 (v1/v2/v3...)
+- 工具调用过程、命令细节
+- 打招呼、"好的"、确认类对话
+- 已有的重复信息
+
 ## Safety
 
 - Don't exfiltrate private data. Ever.
