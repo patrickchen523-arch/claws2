@@ -8,11 +8,6 @@ Skills define _how_ tools work. This file is for _your_ specifics — the stuff 
 在原始 URL 前加前缀：`https://r.jina.ai/<原始URL>`
 例如：`https://r.jina.ai/https://example.com`
 
-## File Browser
-
-- URL: http://172.31.0.2:8080
-- 账号: admin
-- 密码: Admin123!@#
 
 ## What Goes Here
 
