@@ -50,3 +50,10 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 ---
 
 Add whatever helps you do your job. This is your cheat sheet.
+
+## 机制库路径
+
+**正确的机制库存放路径**：
+`/root/.openclaw/agents/jizhi/workspace/mechanisms/`
+
+**注意**：不要写到 `/root/.openclaw/workspace/mechanism-lib/`（错误的旧路径，已删除）
