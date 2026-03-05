@@ -39,6 +39,7 @@ jizhi-workspace/
 | 喵喵的结合 (Mewgenics) | Roguelike | 3 |
 | 阿卡姆诺瓦 (Ark Nova) | 策略桌游 | 2 |
 | 幸运房东 (Luck Be a Landlord) | Roguelike | 2 |
+| 我的花园世界 (My Garden World) | 女性向模拟经营 | 2 |
 | 英雄联盟 (League of Legends) | MOBA | 1+ |
 
 ```markdown
