@@ -1,6 +1,6 @@
 # 机制库索引
 
-> 最后更新：2026-03-05
+> 最后更新：2026-03-06
 
 ---
 
@@ -19,7 +19,9 @@
 | BlackMythWukong | - | 0 |
 | CallOfDutyBlackOps6 | - | 0 |
 | Celeste | - | 0 |
+| DanZaiPaiDui | - | 0 |
 | DeltaForce | - | 0 |
+| dnf-origins | - | 1 |
 | DNFOrigins | - | 0 |
 | DragonsDogma2 | - | 0 |
 | EldenRingShadowOfTheErdtree | - | 0 |
@@ -46,7 +48,9 @@
 | NiNoKuniCrossingWorlds | - | 0 |
 | NoRestForTheWicked | - | 0 |
 | Palworld | - | 0 |
+| path-of-exile-2 | - | 2 |
 | PathOfExile2 | - | 0 |
+| Payday3 | - | 0 |
 | Persona3Reload | - | 0 |
 | Persona5PhantomX | - | 0 |
 | Remnant2 | - | 0 |
@@ -71,6 +75,7 @@
 | YanYunShiLiuSheng | - | 0 |
 | YiHuan | - | 0 |
 | YongJieWuJianShouYou | - | 0 |
+| zenless-zone-zero | - | 1 |
 | ZenlessZoneZero | - | 0 |
 
 ---
@@ -88,8 +93,17 @@
 ### barony
 - death-ghost-system
 
+### delta-force
+- operator-system
+
+### dnf-origins
+- grinding-system
+
 ### gunfire-reborn
 - bd-share-system
+
+### helldivers-2
+- strategic-command-system
 
 ### league-of-legends
 - hextech-chaos
@@ -107,8 +121,25 @@
 - friend-assist-system
 - guild-cultivation-system
 
+### palworld
+- pal-gear-system
+- pal-labor-system
+
+### path-of-exile-2
+- season-economy-system
+- skill-gem-system
+
+### payday-3
+- co-op-heist-gameplay
+
+### sanguo-mouding-tianxia
+- slg-profession-system
+
 ### valorant
 - cosmetic-upgrade-system
 - skill-system
+
+### zenless-zone-zero
+- tv-battle-mode-system
 
 *本索引每天自动更新*
