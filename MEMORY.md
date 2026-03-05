@@ -122,3 +122,31 @@
 **量化数据**：
 - 6种 Runner / 6大派系 / 4+地图 / 6类武器Mod / 100+改装组合
 - 测试期 PCU 峰值：143,621 人
+
+---
+
+## 技能记录
+
+### game-report-generator (2026-03-05)
+
+生成游戏分析报告 HTML/PDF 的 skill。
+
+**报告结构**：
+- 第一页：游戏产品、X-Statement、玩法原型、游戏支柱
+- 第二页：核心体验（+循环图）、目标用户、竞争环境等（待填写）
+
+**工作流程**：
+1. 收集 game-analyse-sdd 输出的数据
+2. 运行脚本生成 HTML
+3. 浏览器预览
+4. 打印为 PDF
+
+**当前可视化程度**：
+- 游戏循环：文字 + 箭头
+- 支柱实现：精简短语
+
+**待改进**：嵌入 Mermaid/Chart.js 图表或生成图片嵌入
+
+**可选：Leonardo.ai 图像生成**
+- API Key 可用时可用于生成游戏循环图、支柱可视化图表
+- 调用方式：curl POST 到 https://cloud.leonardo.ai/api/rest/v1/generations

@@ -1,0 +1,36 @@
+{
+  "game_name": "Marathon",
+  "category": "PvPvE撤离射击",
+  "analysis_date": "2026年3月5日",
+  "disclaimer": "游戏即将于2026年3月5日发售，以下信息基于测试阶段数据",
+  "basic_info": {
+    "游戏3C": {"detail": "3D第一人称射击", "source": "官方资料"},
+    "游玩人数": {"detail": "1-3人联机", "source": "Steam"},
+    "游戏类型": {"detail": "PvPvE撤离射击", "source": "官方"},
+    "美术风格": {"detail": "Vectorheart酸性科幻", "source": "官方"}
+  },
+  "old_wine": {
+    "title": "Escape from Tarkov",
+    "core_interest": "搜刮→对抗→撤离循环，高惩罚",
+    "commercial": "Peak 20万+在线"
+  },
+  "new_wine": {
+    "highlights": [
+      "Vectorheart酸性科幻美术",
+      "RPG化三层构筑系统",
+      "6大企业派系合约"
+    ]
+  },
+  "gameplay": [
+    {"type": "剧情战役", "content": "单人叙事", "players": "1人"},
+    {"type": "竞技场", "content": "PvP对抗", "players": "多人"}
+  ],
+  "game_loop": ["选择机体", "配置装备", "进入地图", "搜刮战斗", "撤离"],
+  "content_capacity": ["6种Runner机体", "6大派系", "4+地图", "100+武器组合"],
+  "features": [
+    {"title": "Vectorheart酸性科幻美术", "description": "撤离品类独一份的视觉语言"}
+  ],
+  "data_performance": {
+    "测试期PCU": "143,621人"
+  }
+}
