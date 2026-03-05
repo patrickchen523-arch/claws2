@@ -145,8 +145,4 @@
 - 游戏循环：文字 + 箭头
 - 支柱实现：精简短语
 
-**待改进**：嵌入 Mermaid/Chart.js 图表或生成图片嵌入
-
-**可选：Leonardo.ai 图像生成**
-- API Key 可用时可用于生成游戏循环图、支柱可视化图表
-- 调用方式：curl POST 到 https://cloud.leonardo.ai/api/rest/v1/generations
+**待改进**：嵌入 Mermaid/Chart.js 图表

@@ -312,7 +312,7 @@ Steps:
 
 ## 🤖 模型使用
 
-### 默认模型：MiniMax M2.5
+### 默认模型：MiniMax M2.5-highspeed
 
 - **API 额度**：300 prompts / 5 小时
 - **适用场景**：

@@ -51,12 +51,6 @@ python3 generate_report.py --json data.json --output report.html
 - 游戏循环：用 `→` 箭头连接步骤
 - 支柱实现：用精简短语描述
 
-**可选方案（需要额外处理）**：
-- 嵌入 Mermaid 流程图
-- 嵌入 Chart.js 图表
-- 手动绘制后嵌入图片
-- **Leonardo.ai**：可用 API 生成游戏循环图、支柱可视化图表
-
 ### 4. 输出 PDF
 
 在浏览器中 Ctrl+P → 另存为 PDF

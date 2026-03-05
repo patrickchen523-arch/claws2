@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>《三国：天下归心》游戏分析报告</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; font-size: 10pt; line-height: 1.5; color: #333; width: 700px; margin: 0 auto; padding: 30px; }
+        h1 { font-size: 18pt; text-align: center; margin-bottom: 15px; }
+        h2 { font-size: 12pt; border-bottom: 1px solid #999; padding-bottom: 5px; margin: 20px 0 10px 0; }
+        h3 { font-size: 10pt; margin: 15px 0 8px 0; font-weight: bold; }
+        .meta { text-align: center; color: #666; font-size: 9pt; margin-bottom: 15px; }
+        .disclaimer { background: #f5f5f5; border-left: 3px solid #999; padding: 8px 12px; font-size: 8pt; color: #666; font-style: italic; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 9pt; }
+        th, td { border: 1px solid #999; padding: 5px 8px; text-align: left; }
+        th { background: #f0f0f0; font-weight: bold; }
+        ul { margin: 5px 0 5px 20px; }
+        li { margin: 3px 0; }
+        .x-statement { background: #f9f9f9; border: 1px solid #ddd; padding: 10px; margin: 10px 0; font-size: 9pt; }
+        .prototype { display: flex; gap: 15px; margin: 10px 0; }
+        .prototype-box { flex: 1; border: 1px solid #999; padding: 10px; font-size: 9pt; }
+        .prototype-box.old { background: #f5f5f5; }
+        .prototype-box.new { background: #fff; }
+        .prototype-title { font-weight: bold; margin-bottom: 5px; }
+        .pillar { margin: 10px 0; padding: 8px; border-left: 3px solid #666; background: #f9f9f9; }
+        .pillar-title { font-weight: bold; font-size: 9pt; }
+        .pillar-method { color: #666; font-size: 8pt; margin-top: 3px; }
+        .loop { text-align: center; padding: 10px; background: #f5f5f5; margin: 10px 0; font-size: 9pt; }
+        .loop .arrow { color: #666; margin: 0 5px; }
+        .experience { margin: 10px 0; }
+        .exp-sec { margin: 8px 0; }
+        .exp-label { font-weight: bold; color: #666; font-size: 9pt; }
+        .placeholder { color: #999; font-style: italic; }
+        .page-break { page-break-before: always; }
+        .img-center { display: block; margin: 15px auto; max-width: 100%; }
+    </style>
+</head>
+<body>
+    <!-- ========== 第一页 ========== -->
+    <h1>游戏产品：《三国：天下归心》</h1>
+    <div class="meta">
+        <span>分析日期：2026年3月5日</span>
+        <span>分析师：游戏分析师 Agent</span>
+    </div>
+    <div class="disclaimer"><strong>⚠️ 信息声明</strong>：本报告基于公开资料整理，数据截至报告日期。游戏尚在测试阶段，部分内容可能调整。</div>
+    
+    <h2>X-Statement 公式</h2>
+    <div class="x-statement">三国题材SLG国战游戏，融合自由交易与零惩罚转国等创新玩法，玩家通过九宫格布阵、特色追击战斗，在国家式社交中体验爽快与策略并重的三国乱世。</div>
+    
+    <h2>玩法原型</h2>
+    <div class="prototype">
+        <div class="prototype-box old">
+            <div class="prototype-title">【旧酒】COK列王的纷争</div>
+            <div>SLG城建+联盟GVG+资源采集，COKlike品类全球流水超数十亿美元</div>
+        </div>
+        <div class="prototype-box new">
+            <div class="prototype-title">【新瓶】三国：天下归心</div>
+            <div>自由交易+零惩罚转国+九宫格布阵+特色追击，告别种田内卷，强调爽快与策略并重</div>
+        </div>
+    </div>
+    
+    <h2>游戏支柱</h2>
+    <div class="pillar">
+            <div class="pillar-title">1. 国家式社交系统</div>
+            <div class="pillar-method">国家为整体→玩家为效力→转国/兼并/灭国→零压力社交</div>
+        </div><div class="pillar">
+            <div class="pillar-title">2. 自由交易系统</div>
+            <div class="pillar-method">玩家自由交易→资源流通→经济驱动→生态活跃</div>
+        </div><div class="pillar">
+            <div class="pillar-title">3. 零惩罚转国</div>
+            <div class="pillar-method">随时转国→无惩罚→降低流失→提升体验</div>
+        </div><div class="pillar">
+            <div class="pillar-title">4. 九宫格布阵+追击</div>
+            <div class="pillar-method">九宫格站位→特色追击→策略深度→战斗爽快感</div>
+        </div>
+    
+    <!-- 支柱可视化图片 -->
+    <img src="" alt="游戏支柱" class="img-center" style="max-width:100%;">
+    
+    <div class="page-break"></div>
+    
+    <!-- ========== 第二页 ========== -->
+    <h2>核心体验</h2>
+    <div class="experience">
+        <div class="exp-sec">
+            <div class="exp-label">以秒为单位：</div>
+            <div>点击布阵，释放技能，观看战斗动画，击杀敌人</div>
+        </div>
+        <div class="exp-sec">
+            <div class="exp-label">以分钟/小时为单位：</div>
+            <div>布阵调整→资源交易→国家战争→赛季结算</div>
+        </div>
+    </div>
+    
+    <h2>游戏循环</h2>
+    <div class="loop">加入国家 <span class="arrow">→</span> 发展建设 <span class="arrow">→</span> 布阵战斗 <span class="arrow">→</span> 自由交易 <span class="arrow">→</span> 国家战争 <span class="arrow">→</span> 赛季轮回</div>
+    <!-- 游戏循环可视化图片 -->
+    <img src="" alt="游戏循环" class="img-center" style="max-width:100%;">
+    
+    <h2>目标用户</h2>
+    <p class="placeholder">（待填写）</p>
+    
+    <h2>竞争环境</h2>
+    <p class="placeholder">（待填写）</p>
+    
+    <h2>核心乐趣</h2>
+    <p class="placeholder">（待填写）</p>
+    
+    <h2>商业化</h2>
+    <p class="placeholder">（待填写）</p>
+    
+    <h2>耐玩性与游戏目标</h2>
+    <p class="placeholder">（待填写）</p>
+</body>
+</html>
