@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>优秀游戏机制库</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #fff;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #8b949e;
+            margin-bottom: 40px;
+            font-size: 1.1rem;
+        }
+        
+        /* 筛选标签 */
+        .filter-bar {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .filter-tag {
+            background: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: #c9d1d9;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .filter-tag:hover, .filter-tag.active {
+            background: rgba(88, 166, 255, 0.3);
+            border-color: #58a6ff;
+            color: #fff;
+        }
+        
+        .filter-tag:active {
+            transform: scale(0.95);
+        }
+        
+        /* 卡片隐藏动画 */
+        .mechanism-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+        
+        .mechanism-card.hidden {
+            display: none;
+        }
+        
+        .mechanism-card.fade-in {
+            animation: fadeIn 0.4s ease-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        /* 机制卡片 */
+        .mechanism-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 25px;
+        }
+        
+        .mechanism-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+        
+        .mechanism-card.hidden {
+            display: none;
+        }
+        
+        .mechanism-card.fade-in {
+            animation: fadeIn 0.4s ease-out;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .mechanism-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(88, 166, 255, 0.5);
+            box-shadow: 0 10px 40px rgba(88, 166, 255, 0.15);
+        }
+        
+        .card-header {
+            background: linear-gradient(135deg, rgba(88, 166, 255, 0.2), rgba(0, 242, 254, 0.1));
+            padding: 20px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .card-game {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .game-icon {
+            font-size: 1.5rem;
+        }
+        
+        .game-name {
+            color: #58a6ff;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+        
+        .card-title {
+            color: #fff;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .card-summary {
+            color: #8b949e;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+        
+        .card-tags {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 12px;
+        }
+        
+        .tag {
+            background: rgba(88, 166, 255, 0.2);
+            color: #58a6ff;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+        }
+        
+        .card-body {
+            padding: 20px;
+        }
+        
+        .section-title {
+            color: #f0f6fc;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        .section-content {
+            color: #8b949e;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        .paintoin {
+            background: rgba(248, 81, 73, 0.1);
+            border-left: 3px solid #f85149;
+            padding: 12px;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 15px;
+        }
+        
+        .paintoin-title {
+            color: #f85149;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .paintoin-content {
+            color: #c9d1d9;
+            font-size: 0.85rem;
+        }
+        
+        .solution {
+            background: rgba(63, 185, 80, 0.1);
+            border-left: 3px solid #3fb550;
+            padding: 12px;
+            border-radius: 0 8px 8px 0;
+        }
+        
+        .solution-title {
+            color: #3fb550;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .solution-content {
+            color: #c9d1d9;
+            font-size: 0.85rem;
+        }
+        
+        .reference {
+            background: rgba(255, 214, 0, 0.1);
+            border-left: 3px solid #ffd700;
+            padding: 12px;
+            border-radius: 0 8px 8px 0;
+            margin-top: 15px;
+        }
+        
+        .reference-title {
+            color: #ffd700;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .reference-content {
+            color: #c9d1d9;
+            font-size: 0.85rem;
+        }
+        
+        /* 统计 */
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 50px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #58a6ff;
+        }
+        
+        .stat-label {
+            color: #8b949e;
+            font-size: 0.85rem;
+            margin-top: 5px;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .mechanism-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats-bar {
+                gap: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏆 优秀游戏机制库</h1>
+        <p class="subtitle">精选入库机制 - 可复用的设计智慧</p>
+        
+        <!-- 筛选标签 -->
+        <div class="filter-bar">
+            <span class="filter-tag active" data-filter="all">全部</span>
+            <span class="filter-tag" data-filter="growth">成长构建</span>
+            <span class="filter-tag" data-filter="social">社交合作</span>
+            <span class="filter-tag" data-filter="strategy">策略决策</span>
+            <span class="filter-tag" data-filter="combat">战斗系统</span>
+            <span class="filter-tag" data-filter="economy">经济系统</span>
+        </div>
+        
+        <!-- 机制卡片 -->
+        <div class="mechanism-grid">
+            
+            <!-- 机制1: 死亡幽灵系统 -->
+            <div class="mechanism-card">
+                <div class="card-header">
+                    <div class="card-game">
+                        <span class="game-icon">🏰</span>
+                        <span class="game-name">Barony</span>
+                    </div>
+                    <h3 class="card-title">💀 死亡幽灵系统</h3>
+                    <p class="card-summary">队友挂了也能继续帮忙——死了但没完全死</p>
+                    <div class="card-tags">
+                        <span class="tag">多人协作</span>
+                        <span class="tag">死亡转化</span>
+                        <span class="tag">RPG</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="section-title">🎯 机制描述</div>
+                    <div class="section-content">
+                        多人模式下，玩家死亡后可选择化作幽灵继续存在。幽灵可以开门、激活开关、推动物品，但无法直接攻击敌人。到达下一层地牢后自动复活。
+                    </div>
+                    
+                    <div class="paintoin">
+                        <div class="paintoin-title">😰 解决痛点</div>
+                        <div class="paintoin-content">多人游戏中队友死亡后只能观战，非常无聊，尤其是Roguelike高难度游戏</div>
+                    </div>
+                    
+                    <div class="solution">
+                        <div class="solution-title">✨ 体验目标</div>
+                        <div class="solution-content">让死亡玩家继续贡献团队价值，实现"死了但没完全死"的体验</div>
+                    </div>
+                    
+                    <div class="reference">
+                        <div class="reference-title">🔗 相似参考</div>
+                        <div class="reference-content">《以撒的结合》队友死亡后可拾取道具</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 机制2: 指数成长系统 -->
+            <div class="mechanism-card">
+                <div class="card-header">
+                    <div class="card-game">
+                        <span class="game-icon">🃏</span>
+                        <span class="game-name">Balatro</span>
+                    </div>
+                    <h3 class="card-title">📈 指数成长系统</h3>
+                    <p class="card-summary">多重倍率叠加产生爆炸式成长，正反馈极强</p>
+                    <div class="card-tags">
+                        <span class="tag">指数成长</span>
+                        <span class="tag">正反馈</span>
+                        <span class="tag">BD构筑</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="section-title">🎯 机制描述</div>
+                    <div class="section-content">
+                        采用乘法叠加计分：基础分 × 牌型倍率 × 小丑牌倍率1 × 小丑牌倍率2... 100分 × 2 × 4 × 3 = 2400，再加一张倍率2.5的卡牌就变成6000。
+                    </div>
+                    
+                    <div class="paintoin">
+                        <div class="paintoin-title">😰 解决痛点</div>
+                        <div class="paintoin-content">传统游戏的线性成长（每级+10%）正反馈不够强</div>
+                    </div>
+                    
+                    <div class="solution">
+                        <div class="solution-title">✨ 体验目标</div>
+                        <div class="solution-content">创造"爆炸式"正反馈，看着分数从100变成10000，爽感极强</div>
+                    </div>
+                    
+                    <div class="reference">
+                        <div class="reference-title">🔗 相似参考</div>
+                        <div class="reference-content">《杀戮尖塔》卡牌叠加 / 《以撒的结合》道具乘法</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 机制3: 双轨竞争系统 -->
+            <div class="mechanism-card">
+                <div class="card-header">
+                    <div class="card-game">
+                        <span class="game-icon">🦁</span>
+                        <span class="game-name">Ark Nova</span>
+                    </div>
+                    <h3 class="card-title">⚖️ 双轨竞争系统</h3>
+                    <p class="card-summary">两条相互制约的积分轨道，平衡发展才能赢</p>
+                    <div class="card-tags">
+                        <span class="tag">双轨竞争</span>
+                        <span class="tag">资源权衡</span>
+                        <span class="tag">策略决策</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="section-title">🎯 机制描述</div>
+                    <div class="section-content">
+                        同时推进两条轨道：Appeal（吸引游客）和 Conservation（保护动物）。Conservation嵌套在Appeal内部，提升需要消耗Appeal点数。两条轨道的差值决定最终得分。
+                    </div>
+                    
+                    <div class="paintoin">
+                        <div class="paintoin-title">😰 解决痛点</div>
+                        <div class="paintoin-content">避免单一最优解，鼓励玩家多元化发展策略</div>
+                    </div>
+                    
+                    <div class="solution">
+                        <div class="solution-title">✨ 体验目标</div>
+                        <div class="solution-content">创造"取 vs 舍"的权衡乐趣</div>
+                    </div>
+                    
+                    <div class="reference">
+                        <div class="reference-title">🔗 相似参考</div>
+                        <div class="reference-content">《Race for the Galaxy》资源轮盘</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 机制4: 技能宝石系统 -->
+            <div class="mechanism-card">
+                <div class="card-header">
+                    <div class="card-game">
+                        <span class="game-icon">💎</span>
+                        <span class="game-name">Path of Exile 2</span>
+                    </div>
+                    <h3 class="card-title">💎 技能宝石系统</h3>
+                    <p class="card-summary">所有职业都能使用所有技能，通过宝石自由组合</p>
+                    <div class="card-tags">
+                        <span class="tag">技能组合</span>
+                        <span class="tag">宝石镶嵌</span>
+                        <span class="tag">自由构筑</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="section-title">🎯 机制描述</div>
+                    <div class="section-content">
+                        240种主动技能宝石 + 200种辅助宝石（改变技能效果）。所有职业都能使用所有技能，通过不同的宝石组合实现不同的BD构筑。
+                    </div>
+                    
+                    <div class="paintoin">
+                        <div class="paintoin-title">😰 解决痛点</div>
+                        <div class="paintoin-content">传统ARPG中职业技能是固定的，玩家只能选择职业</div>
+                    </div>
+                    
+                    <div class="solution">
+                        <div class="solution-title">✨ 体验目标</div>
+                        <div class="solution-content">创造极高自由度，每个玩家都能构建独特的BD</div>
+                    </div>
+                    
+                    <div class="reference">
+                        <div class="reference-title">🔗 相似参考</div>
+                        <div class="reference-content">《火炬之光》技能石 / 《暗黑破坏神》技能树</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 机制5: BD组件共享 -->
+            <div class="mechanism-card">
+                <div class="card-header">
+                    <div class="card-game">
+                        <span class="game-icon">🔫</span>
+                        <span class="game-name">Gunfire Reborn</span>
+                    </div>
+                    <h3 class="card-title">🤝 BD组件共享</h3>
+                    <p class="card-summary">多人模式共享武器秘卷，把运气驱动变协作驱动</p>
+                    <div class="card-tags">
+                        <span class="tag">多人合作</span>
+                        <span class="tag">资源共享</span>
+                        <span class="tag">社交驱动</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="section-title">🎯 机制描述</div>
+                    <div class="section-content">
+                        多人模式下，队友可以共享武器和秘卷。你拿到的装备可以给队友，队友的强力武器也能传给你。从"单人运气"变成"团队协作"。
+                    </div>
+                    
+                    <div class="paintoin">
+                        <div class="paintoin-title">😰 解决痛点</div>
+                        <div class="paintoin-content">单人Roguelite游戏体验完全依赖运气，多人模式也各自为战</div>
+                    </div>
+                    
+                    <div class="solution">
+                        <div class="solution-title">✨ 体验目标</div>
+                        <div class="solution-content">把"运气驱动"变成"协作驱动"，强化社交黏性</div>
+                    </div>
+                    
+                    <div class="reference">
+                        <div class="reference-title">🔗 相似参考</div>
+                        <div class="reference-content">《雨中冒险》道具共享</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 机制6: 卡位强度系统 -->
+            <div class="mechanism-card">
+                <div class="card-header">
+                    <div class="card-game">
+                        <span class="game-icon">🦁</span>
+                        <span class="game-name">Ark Nova</span>
+                    </div>
+                    <h3 class="card-title">📍 卡位强度系统</h3>
+                    <p class="card-summary">越晚打出的卡牌越强，规划顺序成为策略关键</p>
+                    <div class="card-tags">
+                        <span class="tag">顺序规划</span>
+                        <span class="tag">策略深度</span>
+                        <span class="tag">卡牌游戏</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="section-title">🎯 机制描述</div>
+                    <div class="section-content">
+                        卡牌的强度由打出顺序决定，后打出的卡牌效果更强。玩家需要规划每张卡的打出顺序，顺序不同导致结果差异巨大。
+                    </div>
+                    
+                    <div class="paintoin">
+                        <div class="paintoin-title">😰 解决痛点</div>
+                        <div class="paintoin-content">传统卡牌游戏中卡牌效果是固定的，策略维度单一</div>
+                    </div>
+                    
+                    <div class="solution">
+                        <div class="solution-title">✨ 体验目标</div>
+                        <div class="solution-content">增加"顺序规划"策略维度，每局都需要思考最优顺序</div>
+                    </div>
+                    
+                    <div class="reference">
+                        <div class="reference-title">🔗 相似参考</div>
+                        <div class="reference-content">《皇室战争》卡序 / 《游戏王》连锁</div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- 统计 -->
+        <div class="stats-bar">
+            <div class="stat-item">
+                <div class="stat-number">18</div>
+                <div class="stat-label">入库游戏</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">27</div>
+                <div class="stat-label">入库机制</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">6</div>
+                <div class="stat-label">精选展示</div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // 筛选功能
+        const filterTags = document.querySelectorAll('.filter-tag');
+        const cards = document.querySelectorAll('.mechanism-card');
+        
+        // 每个卡片对应的分类
+        const cardCategories = {
+            'growth': ['指数成长系统', '技能宝石系统'],
+            'social': ['死亡幽灵系统', 'BD组件共享'],
+            'strategy': ['双轨竞争系统', '卡位强度系统'],
+            'combat': ['技能宝石系统'],
+            'economy': []
+        };
+        
+        filterTags.forEach(tag => {
+            tag.addEventListener('click', () => {
+                // 更新激活状态
+                filterTags.forEach(t => t.classList.remove('active'));
+                tag.classList.add('active');
+                
+                const filter = tag.dataset.filter;
+                
+                // 隐藏所有卡片
+                cards.forEach(card => {
+                    card.classList.add('hidden');
+                    card.classList.remove('fade-in');
+                });
+                
+                // 显示匹配的卡片
+                let visibleCount = 0;
+                cards.forEach(card => {
+                    const title = card.querySelector('.card-title').textContent;
+                    let shouldShow = false;
+                    
+                    if (filter === 'all') {
+                        shouldShow = true;
+                    } else if (cardCategories[filter]) {
+                        shouldShow = cardCategories[filter].some(t => title.includes(t));
+                    }
+                    
+                    if (shouldShow) {
+                        card.classList.remove('hidden');
+                        setTimeout(() => card.classList.add('fade-in'), visibleCount * 100);
+                        visibleCount++;
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
