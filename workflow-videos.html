@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI游戏拆解工作流 - 视频演示</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', monospace;
+            background: #0d1117;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #58a6ff;
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #8b949e;
+            margin-bottom: 40px;
+        }
+        
+        /* 视频播放器样式 */
+        .video-player {
+            background: #161b22;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #30363d;
+            margin-bottom: 30px;
+        }
+        
+        .video-header {
+            background: #21262d;
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid #30363d;
+        }
+        
+        .video-title {
+            color: #f0f6fc;
+            font-size: 1rem;
+        }
+        
+        .video-duration {
+            color: #8b949e;
+            font-size: 0.85rem;
+        }
+        
+        .video-screen {
+            aspect-ratio: 16/9;
+            background: #0d1117;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        /* 终端模拟器 */
+        .terminal {
+            height: 100%;
+            padding: 20px;
+            font-size: 14px;
+            line-height: 1.6;
+            overflow: hidden;
+        }
+        
+        .terminal-line {
+            margin-bottom: 4px;
+            opacity: 0;
+            animation: fadeIn 0.1s forwards;
+        }
+        
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+        
+        .prompt {
+            color: #7ee787;
+        }
+        
+        .command {
+            color: #f0f6fc;
+        }
+        
+        .output {
+            color: #8b949e;
+            white-space: pre-wrap;
+        }
+        
+        .output-success {
+            color: #7ee787;
+        }
+        
+        .output-highlight {
+            color: #58a6ff;
+            font-weight: bold;
+        }
+        
+        .output-error {
+            color: #f85149;
+        }
+        
+        /* 进度条 */
+        .video-progress {
+            background: #21262d;
+            height: 4px;
+            cursor: pointer;
+        }
+        
+        .progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #58a6ff, #1f6feb);
+            width: 0%;
+            transition: width 0.3s;
+        }
+        
+        /* 播放控制 */
+        .video-controls {
+            background: #21262d;
+            padding: 12px 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .play-btn {
+            background: #238636;
+            border: none;
+            color: white;
+            padding: 8px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+        
+        .play-btn:hover {
+            background: #2ea043;
+        }
+        
+        .play-btn.paused {
+            background: #58a6ff;
+        }
+        
+        .speed-control {
+            color: #8b949e;
+            font-size: 13px;
+            margin-left: auto;
+        }
+        
+        /* 视频列表 */
+        .video-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .video-card {
+            background: #161b22;
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid #30363d;
+            cursor: pointer;
+            transition: border-color 0.2s, transform 0.2s;
+        }
+        
+        .video-card:hover {
+            border-color: #58a6ff;
+            transform: translateY(-3px);
+        }
+        
+        .video-card.active {
+            border-color: #58a6ff;
+        }
+        
+        .card-preview {
+            aspect-ratio: 16/9;
+            background: #0d1117;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        
+        .play-icon {
+            width: 50px;
+            height: 50px;
+            background: rgba(88, 166, 255, 0.2);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.2s;
+        }
+        
+        .video-card:hover .play-icon {
+            transform: scale(1.1);
+            background: rgba(88, 166, 255, 0.4);
+        }
+        
+        .play-icon svg {
+            width: 24px;
+            height: 24px;
+            fill: #58a6ff;
+            margin-left: 4px;
+        }
+        
+        .card-info {
+            padding: 15px;
+        }
+        
+        .card-title {
+            color: #f0f6fc;
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+        
+        .card-desc {
+            color: #8b949e;
+            font-size: 0.85rem;
+        }
+        
+        .card-duration {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        
+        /* 流程概览 */
+        .overview-section {
+            margin-top: 50px;
+            padding: 30px;
+            background: #161b22;
+            border-radius: 12px;
+            border: 1px solid #30363d;
+        }
+        
+        .overview-title {
+            color: #58a6ff;
+            font-size: 1.3rem;
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        
+        .overview-flow {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .flow-step {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .flow-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, #238636, #2ea043);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-8px); }
+        }
+        
+        .flow-step:nth-child(1) .flow-icon { animation-delay: 0s; }
+        .flow-step:nth-child(3) .flow-icon { animation-delay: 0.5s; }
+        .flow-step:nth-child(5) .flow-icon { animation-delay: 1s; }
+        .flow-step:nth-child(7) .flow-icon { animation-delay: 1.5s; }
+        
+        .flow-label {
+            color: #f0f6fc;
+            font-size: 0.95rem;
+        }
+        
+        .flow-arrow {
+            color: #58a6ff;
+            font-size: 1.5rem;
+        }
+        
+        /* 提示 */
+        .tip {
+            background: rgba(56, 139, 253, 0.1);
+            border: 1px solid rgba(56, 139, 253, 0.3);
+            border-radius: 8px;
+            padding: 15px;
+            margin-top: 30px;
+            color: #8b949e;
+            font-size: 0.9rem;
+        }
+        
+        .tip strong {
+            color: #58a6ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 视频演示</h1>
+        <p class="subtitle">AI游戏拆解工作流 - 实际操作演示</p>
+        
+        <!-- 主要播放器 -->
+        <div class="video-player">
+            <div class="video-header">
+                <span class="video-title" id="videoTitle">正在加载...</span>
+                <span class="video-duration" id="videoDuration">00:00 / 02:30</span>
+            </div>
+            
+            <div class="video-screen">
+                <div class="terminal" id="terminal">
+                    <!-- 终端内容将通过 JS 注入 -->
+                </div>
+            </div>
+            
+            <div class="video-progress">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+            
+            <div class="video-controls">
+                <button class="play-btn" id="playBtn" onclick="togglePlay()">▶ 播放</button>
+                <span class="speed-control">速度: <select id="speedSelect" onchange="changeSpeed()">
+                    <option value="0.5">0.5x</option>
+                    <option value="1" selected>1x</option>
+                    <option value="1.5">1.5x</option>
+                    <option value="2">2x</option>
+                </select></span>
+            </div>
+        </div>
+        
+        <!-- 视频列表 -->
+        <div class="video-list">
+            <div class="video-card active" onclick="selectVideo(0)">
+                <div class="card-preview">
+                    <div class="play-icon">
+                        <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                    <span class="card-duration">02:30</span>
+                </div>
+                <div class="card-info">
+                    <div class="card-title">Barony 拆解演示</div>
+                    <div class="card-desc">完整演示 AI 如何拆解一款游戏</div>
+                </div>
+            </div>
+            
+            <div class="video-card" onclick="selectVideo(1)">
+                <div class="card-preview">
+                    <div class="play-icon">
+                        <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                    <span class="card-duration">01:00</span>
+                </div>
+                <div class="card-info">
+                    <div class="card-title">工作流流程概览</div>
+                    <div class="card-desc">4个步骤快速了解完整流程</div>
+                </div>
+            </div>
+            
+            <div class="video-card" onclick="selectVideo(2)">
+                <div class="card-preview">
+                    <div class="play-icon">
+                        <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                    </div>
+                    <span class="card-duration">03:00</span>
+                </div>
+                <div class="card-info">
+                    <div class="card-title">机制入库演示</div>
+                    <div class="card-desc">如何筛选并入库优质机制</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 流程概览 -->
+        <div class="overview-section">
+            <h2 class="overview-title">🔄 工作流流程概览</h2>
+            <div class="overview-flow">
+                <div class="flow-step">
+                    <div class="flow-icon">📥</div>
+                    <span class="flow-label">信息收集</span>
+                </div>
+                <span class="flow-arrow">→</span>
+                <div class="flow-step">
+                    <div class="flow-icon">🔬</div>
+                    <span class="flow-label">SDD 拆解</span>
+                </div>
+                <span class="flow-arrow">→</span>
+                <div class="flow-step">
+                    <div class="flow-icon">🎯</div>
+                    <span class="flow-label">机制筛选</span>
+                </div>
+                <span class="flow-arrow">→</span>
+                <div class="flow-step">
+                    <div class="flow-icon">💾</div>
+                    <span class="flow-label">格式化入库</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tip">
+            <strong>💡 提示：</strong>当前为交互式终端模拟演示。实际视频录制需要在有图形界面的桌面环境中使用 OBS 或其他录屏工具进行。
+        </div>
+    </div>
+    
+    <script>
+        // 视频内容数据
+        const videos = [
+            {
+                title: "Barony 拆解演示",
+                duration: "02:30",
+                lines: [
+                    { type: "command", text: '拆解游戏 "Barony"' },
+                    { type: "output", text: "正在搜索游戏信息..." },
+                    { type: "output", text: "找到 Steam 商店页面，提取核心玩法..." },
+                    { type: "output", text: "✓ 基础信息: 第一人称 Roguelike, 最多4人合作" },
+                    { type: "output", text: "✓ 开发者: Treyarch / Lightning Rod Games" },
+                    { type: "output", text: "✓ 特色系统: 13种职业, 死亡幽灵系统, 随机地牢" },
+                    { type: "output-highlight", text: "\n生成 X-Statement..." },
+                    { type: "output", text: "暗黑奇幻第一人称Roguelike地牢探险，融合永久死亡与多人合作，" },
+                    { type: "output", text: "玩家扮演13种职业，在随机地牢中对抗怪物，死亡后化作幽灵继续协助队友。" },
+                    { type: "output-highlight", text: "\n分析核心支柱..." },
+                    { type: "output", text: "支柱1: 13种职业体系 - 从战士/法师到小丑/殡葬师" },
+                    { type: "output", text: "支柱2: 死亡幽灵系统 - 死亡后变幽灵继续协助(已入库)" },
+                    { type: "output", text: "支柱3: 随机地牢 + 永久死亡" },
+                    { type: "output-highlight", text: "\n筛选入库机制..." },
+                    { type: "output-success", text: "✓ 死亡幽灵系统 - 已入库 /mechanisms/barony/" },
+                    { type: "output", text: "\n完成! 耗时 45秒" }
+                ]
+            },
+            {
+                title: "工作流流程概览",
+                duration: "01:00",
+                lines: [
+                    { type: "command", text: "查看工作流" },
+                    { type: "output-highlight", text: "\n=== AI游戏拆解工作流 ===" },
+                    { type: "output", text: "\n步骤1: 📥 信息收集" },
+                    { type: "output", text: "   工具: web_search + web_fetch" },
+                    { type: "output", text: "   输出: 开发者、玩法、评测、数据" },
+                    { type: "output", text: "\n步骤2: 🔬 SDD拆解" },
+                    { type: "output", text: "   工具: game-analyse-sdd skill" },
+                    { type: "output", text: "   输出: X-Statement、支柱、体验、社交维度" },
+                    { type: "output", text: "\n步骤3: 🎯 机制筛选" },
+                    { type: "output", text: "   标准: 解决痛点、非缝合、可复制" },
+                    { type: "output", text: "\n步骤4: 💾 格式化入库" },
+                    { type: "output", text: "   工具: game-entry-formatter skill" },
+                    { type: "output", text: "   输出: 机制卡 .md 文件" },
+                    { type: "output-highlight", text: "\n统计: 7+游戏, 10+机制" }
+                ]
+            },
+            {
+                title: "机制入库演示",
+                duration: "03:00",
+                lines: [
+                    { type: "command", text: '查看已入库机制' },
+                    { type: "output", text: "\n=== 已入库优秀机制 ===" },
+                    { type: "output-highlight", text: "\n1. Balatro - 指数成长系统" },
+                    { type: "output", text: "   创新: 多重乘法叠加，100→10000爆炸正反馈" },
+                    { type: "output-highlight", text: "\n2. Barony - 死亡幽灵系统" },
+                    { type: "output", text: "   创新: 死亡后化作幽灵继续协助队友" },
+                    { type: "output-highlight", text: "\n3. Ark Nova - 双轨竞争系统" },
+                    { type: "output", text: "   创新: 两条轨道相互制约，平衡发展" },
+                    { type: "output-highlight", text: "\n4. Gunfire Reborn - BD组件共享" },
+                    { type: "output", text: "   创新: 多人模式共享武器秘卷，协作驱动" },
+                    { type: "output", text: "\n... 共10+机制" },
+                    { type: "command", text: '机制库路径: /root/.openclaw/agents/jizhi/workspace/mechanisms/' }
+                ]
+            }
+        ];
+        
+        let currentVideo = 0;
+        let isPlaying = false;
+        let currentLine = 0;
+        let speed = 1;
+        let playInterval = null;
+        
+        function selectVideo(index) {
+            currentVideo = index;
+            currentLine = 0;
+            isPlaying = false;
+            clearInterval(playInterval);
+            
+            // 更新UI
+            document.querySelectorAll('.video-card').forEach((card, i) => {
+                card.classList.toggle('active', i === index);
+            });
+            
+            document.getElementById('videoTitle').textContent = videos[index].title;
+            document.getElementById('videoDuration').textContent = `00:00 / ${videos[index].duration}`;
+            document.getElementById('progressBar').style.width = '0%';
+            document.getElementById('playBtn').textContent = '▶ 播放';
+            document.getElementById('playBtn').classList.remove('paused');
+            
+            // 清空终端
+            document.getElementById('terminal').innerHTML = '';
+        }
+        
+        function togglePlay() {
+            isPlaying = !isPlaying;
+            const btn = document.getElementById('playBtn');
+            
+            if (isPlaying) {
+                btn.textContent = '⏸ 暂停';
+                btn.classList.add('paused');
+                playNextLine();
+                playInterval = setInterval(playNextLine, 800 / speed);
+            } else {
+                btn.textContent = '▶ 播放';
+                btn.classList.remove('paused');
+                clearInterval(playInterval);
+            }
+        }
+        
+        function playNextLine() {
+            const video = videos[currentVideo];
+            if (currentLine >= video.lines.length) {
+                isPlaying = false;
+                clearInterval(playInterval);
+                document.getElementById('playBtn').textContent = '▶ 重播';
+                document.getElementById('playBtn').classList.remove('paused');
+                return;
+            }
+            
+            const line = video.lines[currentLine];
+            const terminal = document.getElementById('terminal');
+            
+            let lineHtml = '';
+            if (line.type === 'command') {
+                lineHtml = `<div class="terminal-line"><span class="prompt">$ </span><span class="command">${line.text}</span></div>`;
+            } else if (line.type === 'output') {
+                lineHtml = `<div class="terminal-line"><span class="output">${line.text}</span></div>`;
+            } else if (line.type === 'output-highlight') {
+                lineHtml = `<div class="terminal-line"><span class="output-highlight">${line.text}</span></div>`;
+            } else if (line.type === 'output-success') {
+                lineHtml = `<div class="terminal-line"><span class="output-success">${line.text}</span></div>`;
+            } else if (line.type === 'output-error') {
+                lineHtml = `<div class="terminal-line"><span class="output-error">${line.text}</span></div>`;
+            }
+            
+            terminal.innerHTML += lineHtml;
+            terminal.scrollTop = terminal.scrollHeight;
+            
+            // 更新进度
+            const progress = ((currentLine + 1) / video.lines.length) * 100;
+            document.getElementById('progressBar').style.width = `${progress}%`;
+            
+            currentLine++;
+        }
+        
+        function changeSpeed() {
+            speed = parseFloat(document.getElementById('speedSelect').value);
+            if (isPlaying) {
+                clearInterval(playInterval);
+                playInterval = setInterval(playNextLine, 800 / speed);
+            }
+        }
+        
+        // 初始化
+        selectVideo(0);
+    </script>
+</body>
+</html>

@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI游戏拆解工作流</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #fff;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-shadow: 0 0 30px rgba(79, 172, 254, 0.5);
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #a0a0a0;
+            font-size: 1.1rem;
+            margin-bottom: 50px;
+        }
+        
+        /* 视频演示区域 */
+        .video-section {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 50px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .video-section-title {
+            color: #00f2fe;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+        }
+        
+        .video-card {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        
+        .video-placeholder {
+            aspect-ratio: 16/9;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            cursor: pointer;
+            transition: all 0.3s;
+            position: relative;
+        }
+        
+        .video-placeholder:hover {
+            background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
+        }
+        
+        .video-placeholder svg {
+            width: 60px;
+            height: 60px;
+            fill: #4facfe;
+            margin-bottom: 15px;
+        }
+        
+        .video-placeholder p {
+            font-size: 0.95rem;
+        }
+        
+        .video-label {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(79, 172, 254, 0.9);
+            color: #1a1a2e;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+        
+        .video-title {
+            padding: 15px;
+            color: #fff;
+            font-size: 1rem;
+        }
+        
+        .workflow {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .step {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #1a1a2e;
+            flex-shrink: 0;
+            box-shadow: 0 0 20px rgba(79, 172, 254, 0.5);
+        }
+        
+        .step-content {
+            flex: 1;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 24px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .step-title {
+            color: #4facfe;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        
+        .step-desc {
+            color: #c0c0c0;
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+        
+        .tools {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        
+        .tool-tag {
+            background: rgba(79, 172, 254, 0.2);
+            color: #4facfe;
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            border: 1px solid rgba(79, 172, 254, 0.3);
+        }
+        
+        .arrow {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        
+        .arrow svg {
+            width: 30px;
+            height: 30px;
+            fill: #4facfe;
+            opacity: 0.6;
+        }
+        
+        .output {
+            background: rgba(0, 242, 254, 0.1);
+            border: 1px solid rgba(0, 242, 254, 0.3);
+            border-radius: 12px;
+            padding: 16px;
+            margin-top: 12px;
+        }
+        
+        .output-title {
+            color: #00f2fe;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .output-list {
+            color: #a0a0a0;
+            font-size: 0.9rem;
+            padding-left: 20px;
+        }
+        
+        .output-list li {
+            margin-bottom: 4px;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-top: 50px;
+            flex-wrap: wrap;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .stat-label {
+            color: #a0a0a0;
+            font-size: 0.9rem;
+            margin-top: 5px;
+        }
+        
+        /* 案例演示 */
+        .case-section {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 30px;
+            margin-top: 50px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .case-title {
+            color: #00f2fe;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .case-game {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+        
+        .case-game-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+        }
+        
+        .case-game-info h3 {
+            color: #fff;
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+        
+        .case-game-info p {
+            color: #a0a0a0;
+            font-size: 0.9rem;
+        }
+        
+        .case-result {
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+        }
+        
+        .case-result h4 {
+            color: #4facfe;
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+        
+        .case-result p {
+            color: #c0c0c0;
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+        
+        .case-result .highlight {
+            color: #00f2fe;
+            font-weight: 600;
+        }
+        
+        .case-pillars {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .pillar {
+            background: rgba(79, 172, 254, 0.1);
+            border: 1px solid rgba(79, 172, 254, 0.3);
+            border-radius: 10px;
+            padding: 15px;
+        }
+        
+        .pillar-title {
+            color: #4facfe;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .pillar-desc {
+            color: #a0a0a0;
+            font-size: 0.85rem;
+        }
+        
+        /* 动画流程 */
+        .flow-animation {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 30px;
+            background: rgba(0, 0, 0, 0.3);
+            border-radius: 12px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .flow-step {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: #1a1a2e;
+            padding: 12px 20px;
+            border-radius: 25px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            animation: pulse 2s infinite;
+        }
+        
+        .flow-arrow {
+            color: #4facfe;
+            font-size: 1.5rem;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        .flow-step:nth-child(1) { animation-delay: 0s; }
+        .flow-step:nth-child(3) { animation-delay: 0.3s; }
+        .flow-step:nth-child(5) { animation-delay: 0.6s; }
+        .flow-step:nth-child(7) { animation-delay: 0.9s; }
+        
+        @media (max-width: 768px) {
+            .step {
+                flex-direction: column;
+            }
+            
+            .step-number {
+                width: 50px;
+                height: 50px;
+                font-size: 1.2rem;
+            }
+            
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            .stats {
+                gap: 25px;
+            }
+            
+            .video-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .flow-animation {
+                flex-direction: column;
+            }
+            
+            .flow-arrow {
+                transform: rotate(90deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎮 AI游戏拆解工作流</h1>
+        <p class="subtitle">自动化游戏分析 → 结构化输出 → 机制沉淀</p>
+        
+        <!-- 流程动画 -->
+        <div class="flow-animation">
+            <div class="flow-step">📥 收集</div>
+            <span class="flow-arrow">→</span>
+            <div class="flow-step">🔬 拆解</div>
+            <span class="flow-arrow">→</span>
+            <div class="flow-step">🎯 筛选</div>
+            <span class="flow-arrow">→</span>
+            <div class="flow-step">💾 入库</div>
+        </div>
+        
+        <!-- 视频演示区域 -->
+        <div class="video-section">
+            <h2 class="video-section-title">🎬 视频演示</h2>
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-placeholder">
+                        <span class="video-label">概览</span>
+                        <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        <p>工作流流程概览</p>
+                        <p style="font-size: 0.8rem; margin-top: 8px; color: #888;">(制作中...)</p>
+                    </div>
+                    <div class="video-title">工作流流程概览</div>
+                </div>
+                
+                <div class="video-card">
+                    <div class="video-placeholder">
+                        <span class="video-label">实操</span>
+                        <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        <p>Barony 拆解演示</p>
+                        <p style="font-size: 0.8rem; margin-top: 8px; color: #888;">(制作中...)</p>
+                    </div>
+                    <div class="video-title">Barony 拆解案例演示</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- 案例演示 -->
+        <div class="case-section">
+            <h2 class="case-title">📋 案例演示：Barony</h2>
+            
+            <div class="case-game">
+                <div class="case-game-icon">🏰</div>
+                <div class="case-game-info">
+                    <h3>Barony 男爵</h3>
+                    <p>第一人称 Roguelike 地牢探险 / 最多4人合作</p>
+                </div>
+            </div>
+            
+            <div class="case-result">
+                <h4>X-Statement 一句话公式</h4>
+                <p>
+                    <span class="highlight">暗黑奇幻第一人称Roguelike</span>地牢探险游戏，
+                    融合<span class="highlight">永久死亡</span>与<span class="highlight">多人合作</span>要素，
+                    玩家扮演<span class="highlight">13种职业</span>（战士、法师、盗贼、小丑等），
+                    在随机生成的地牢中对抗怪物、收集装备、解锁魔法，
+                    并在死亡后化作<span class="highlight">幽灵</span>继续协助队友。
+                </p>
+                
+                <h4>核心支柱</h4>
+                <div class="case-pillars">
+                    <div class="pillar">
+                        <div class="pillar-title">🎭 13种职业体系</div>
+                        <div class="pillar-desc">从经典战士/法师/盗贼到小丑、殡葬师等独特职业，每种职业有独特技能和玩法</div>
+                    </div>
+                    <div class="pillar">
+                        <div class="pillar-title">💀 死亡幽灵系统</div>
+                        <div class="pillar-desc">死亡后化作幽灵继续协助队友，解决多人游戏死亡后无聊的痛点</div>
+                    </div>
+                    <div class="pillar">
+                        <div class="pillar-title">🗺️ 随机地牢</div>
+                        <div class="pillar-desc">每次进入都是全新地牢，永久死亡机制带来高风险高回报体验</div>
+                    </div>
+                    <div class="pillar">
+                        <div class="pillar-title">⚔️ 深度RPG系统</div>
+                        <div class="pillar-desc">丰富装备、法术、传奇神器，复杂数值和协同配合</div>
+                    </div>
+                </div>
+                
+                <h4 style="margin-top: 20px;">玩法原型</h4>
+                <p>
+                    <strong>借鉴：</strong>《Ultima Underworld》《System Shock》《Daggerfall》<br>
+                    <strong>核心理念：</strong>经典Roguelike的硬核随机体验 + 3D第一人称沉浸感<br>
+                    <strong>独特创新：</strong>死亡后变幽灵继续参与 + 多人合作乐趣
+                </p>
+            </div>
+        </div>
+        
+        <div class="workflow" style="margin-top: 50px;">
+            <!-- Step 1 -->
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <div class="step-title">📥 信息收集</div>
+                    <div class="step-desc">全网搜索游戏相关内容，包括官网、媒体评测、玩家反馈、商业数据等</div>
+                    <div class="tools">
+                        <span class="tool-tag">web_search</span>
+                        <span class="tool-tag">web_fetch</span>
+                    </div>
+                    <div class="output">
+                        <div class="output-title">输出</div>
+                        <ul class="output-list">
+                            <li>开发者、发行时间、平台</li>
+                            <li>核心玩法、系统介绍</li>
+                            <li>玩家反馈、讨论热点</li>
+                            <li>商业数据（销量、在线）</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="arrow">
+                <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+            </div>
+            
+            <!-- Step 2 -->
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <div class="step-title">🔬 标准化拆解 (SDD)</div>
+                    <div class="step-desc">使用 game-analyse-sdd 技能，按模板输出结构化分析报告</div>
+                    <div class="tools">
+                        <span class="tool-tag">game-analyse-sdd</span>
+                    </div>
+                    <div class="output">
+                        <div class="output-title">输出</div>
+                        <ul class="output-list">
+                            <li><strong>X-Statement</strong> - 一句话公式（题材+玩法+卖点）</li>
+                            <li><strong>玩法原型</strong> - 借鉴了谁、理念是什么、独特改进</li>
+                            <li><strong>核心支柱</strong> - 3-4个关键支柱（体验→手段→参数）</li>
+                            <li><strong>核心体验</strong> - 秒级体验 + 分钟/小时节奏</li>
+                            <li><strong>社交维度</strong> - 匹配方式、社交场景、活人感</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="arrow">
+                <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+            </div>
+            
+            <!-- Step 3 -->
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <div class="step-title">🎯 机制筛选</div>
+                    <div class="step-desc">根据入库标准，判断哪些机制值得沉淀到机制库</div>
+                    <div class="output">
+                        <div class="output-title">筛选标准</div>
+                        <ul class="output-list">
+                            <li>✓ 解决明确痛点（非为创新而创新）</li>
+                            <li>✓ 非简单缝合（有独特设计）</li>
+                            <li>✓ 可复制到其他游戏</li>
+                            <li>✓ 有借鉴先例但有改进</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="arrow">
+                <svg viewBox="0 0 24 24"><path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/></svg>
+            </div>
+            
+            <!-- Step 4 -->
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-content">
+                    <div class="step-title">💾 格式化入库</div>
+                    <div class="step-desc">使用 game-entry-formatter 技能，输出标准化的机制卡</div>
+                    <div class="tools">
+                        <span class="tool-tag">game-entry-formatter</span>
+                    </div>
+                    <div class="output">
+                        <div class="output-title">输出</div>
+                        <ul class="output-list">
+                            <li>机制卡文件 (.md)</li>
+                            <li>包含：机制名称、创新点、解决痛点、设计参数、可复用场景</li>
+                            <li>路径：/mechanisms/[游戏名]/</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-item">
+                <div class="stat-number">7+</div>
+                <div class="stat-label">已拆解游戏</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">10+</div>
+                <div class="stat-label">已入库机制</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">∞</div>
+                <div class="stat-label">可扩展品类</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
