@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net">
+  <diagram id="p1_cover" name="封面">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="p1_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1_title" value="Hades 游戏拆解分析" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=48;fontColor=#000000;fontFamily=方正尚酷简体;" vertex="1" parent="1">
+          <mxGeometry x="120" y="380" width="1400" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1_sub" value="快节奏动作 Roguelike + 死亡叙事融合" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#666666;fontFamily=冬青黑体简体中文 W3;" vertex="1" parent="1">
+          <mxGeometry x="120" y="480" width="800" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1_info" value="游戏类型：Roguelike / 动作 / ARPG&#xa;开发者：Supergiant Games&#xa;Steam 峰值：54,240人" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;" vertex="1" parent="1">
+          <mxGeometry x="120" y="580" width="600" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1_date" value="2026年3月" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=18;fontColor=#666666;fontFamily=Century Gothic;" vertex="1" parent="1">
+          <mxGeometry x="120" y="720" width="200" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="p1_bar" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="1040" width="1920" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p2_toc" name="目录">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="p2_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2_tl" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="20" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2_tr" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="0" width="1880" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2_title" value="目录" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=36;fontColor=#0170C1;fontFamily=方正尚酷简体;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="600" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2_en" value="CONTENTS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#000000;fontFamily=Garage Gothic;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="400" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2_item1" value="01&#9;游戏概述" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=28;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;" vertex="1" parent="1">
+          <mxGeometry x="120" y="250" width="600" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2_item2" value="02&#9;核心机制 - 神明祝福系统" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=28;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="600" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2_item3" value="03&#9;核心机制 - 死亡叙事融合" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=28;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;" vertex="1" parent="1">
+          <mxGeometry x="120" y="390" width="600" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2_item4" value="04&#9;核心机制 - 惩罚契约系统" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=28;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;" vertex="1" parent="1">
+          <mxGeometry x="120" y="460" width="600" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2_item5" value="05&#9;总结" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=28;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;" vertex="1" parent="1">
+          <mxGeometry x="120" y="530" width="600" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="p2_bot" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="1050" width="1920" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p3_overview" name="游戏概述">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="p3_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_tl" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="20" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_tr" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="0" width="1880" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_title" value="01 游戏概述" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=36;fontColor=#0170C1;fontFamily=方正尚酷简体;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="600" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_en" value="GAME OVERVIEW" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#000000;fontFamily=Garage Gothic;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="400" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_box1" value="&#xa;  开发者&#xa;  Supergiant Games&#xa;  （代表作：Bastion、Transistor、Pyre）" style="text;html=1;strokeColor=#0170C1;fillColor=#F5F9FF;align=left;verticalAlign=middle;fontSize=20;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="350" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_box2" value="&#xa;  上线时间&#xa;  2020年12月正式版&#xa;  Steam 峰值：54,240人" style="text;html=1;strokeColor=#0170C1;fillColor=#F5F9FF;align=left;verticalAlign=middle;fontSize=20;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="350" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_box3" value="&#xa;  平台&#xa;  PC (Steam) / Switch / PS4/PS5 / Xbox" style="text;html=1;strokeColor=#0170C1;fillColor=#F5F9FF;align=left;verticalAlign=middle;fontSize=20;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="240" width="350" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_loop" value="&#xa;  核心循环&#xa;  房间战斗 → 选择祝福 → BOSS → 死亡/通关 → 圣殿成长 → 再战" style="text;html=1;strokeColor=#0170C1;fillColor=#E8F4FD;align=left;verticalAlign=middle;fontSize=22;fontColor=#0170C1;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="480" width="1150" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="p3_bot" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="1050" width="1920" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p4_blessing" name="神明祝福系统">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="p4_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4_tl" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="20" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4_tr" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="0" width="1880" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4_title" value="02 核心机制 - 神明祝福系统" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=36;fontColor=#0170C1;fontFamily=方正尚酷简体;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="800" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4_en" value="BLESSING SYSTEM" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#000000;fontFamily=Garage Gothic;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="400" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4_desc" value="一句话解释：&#xa;就像抽卡组卡组——每打完一轮怪从3张&quot;神卡&quot;里选一张&#xa;10个神仙各有绝活，组合起来能玩出上百种套路" style="text;html=1;strokeColor=#FF9500;fillColor=#FFF8E8;align=left;verticalAlign=middle;fontSize=22;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="800" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4_point1" value="&#xa;  随机祝福选择&#xa;  10位希腊神明，每位10+祝福&#xa;  传奇祝福/双重祝福/祝福升级" style="text;html=1;strokeColor=#0170C1;fillColor=#F5F9FF;align=left;verticalAlign=middle;fontSize=18;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="380" width="350" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4_point2" value="&#xa;  树状技能解锁&#xa;  Build基于基础操作&#xa;  需要先解锁A+B才能解锁C&#xa;  提供明确的中长期目标" style="text;html=1;strokeColor=#0170C1;fillColor=#F5F9FF;align=left;verticalAlign=middle;fontSize=18;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="380" width="350" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4_point3" value="&#xa;  策略深度&#xa;  思考祝福组合效果&#xa;  规划解锁路径&#xa;  成就构建满足感" style="text;html=1;strokeColor=#0170C1;fillColor=#F5F9FF;align=left;verticalAlign=middle;fontSize=18;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="380" width="350" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="p4_bot" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="1050" width="1920" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p5_narrative" name="死亡叙事融合">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="p5_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry"/>
+        </mxCell>
+        <mxCell id="p5_tl" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="20" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="p5_tr" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="0" width="1880" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="p5_title" value="03 核心机制 - 死亡叙事融合" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=36;fontColor=#0170C1;fontFamily=方正尚酷简体;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="800" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="p5_en" value="DEATH NARRATIVE FUSION" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#000000;fontFamily=Garage Gothic;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="500" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="p5_desc" value="一句话解释：&#xa;就像死了还能听故事——每次&quot;死掉&quot;不是结束&#xa;而是回到老家和NPC聊聊天，推进剧情还能变强" style="text;html=1;strokeColor=#FF9500;fillColor=#FFF8E8;align=left;verticalAlign=middle;fontSize=22;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="800" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="p5_box1" value="&#xa;  死亡 = 回家&#xa;  玩家被击败后回到&#xa;  &quot;冥王圣殿&quot;" style="text;html=1;strokeColor=#0170C1;fillColor=#F5F9FF;align=left;verticalAlign=middle;fontSize=18;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="380" width="350" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="p5_box2" value="&#xa;  叙事推进&#xa;  与NPC对话解锁&#xa;  亲情/友情/爱情线" style="text;html=1;strokeColor=#0170C1;fillColor=#F5F9FF;align=left;verticalAlign=middle;fontSize=18;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="380" width="350" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="p5_box3" value="&#xa;  死亡积累&#xa;  保留&quot;黑暗&quot;&quot;钥匙&quot;&#xa;  货币用于成长" style="text;html=1;strokeColor=#0170C1;fillColor=#F5F9FF;align=left;verticalAlign=middle;fontSize=18;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="380" width="350" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="p5_problem" value="&#xa;  解决痛点&#xa;  传统Roguelike死亡带来挫败感&#xa;  死亡成为玩家最期待的时刻" style="text;html=1;strokeColor=#E74C3C;fillColor=#FEF0EF;align=left;verticalAlign=middle;fontSize=20;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="580" width="1150" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="p5_bot" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="1050" width="1920" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p6_pact" name="惩罚契约系统">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="p6_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry"/>
+        </mxCell>
+        <mxCell id="p6_tl" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="20" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="p6_tr" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="0" width="1880" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="p6_title" value="04 核心机制 - 惩罚契约系统" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=36;fontColor=#0170C1;fontFamily=方正尚酷简体;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="800" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="p6_en" value="PACT OF PUNISHMENT" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#000000;fontFamily=Garage Gothic;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="500" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="p6_desc" value="一句话解释：&#xa;就像给自己加&quot;debuff&quot;换奖励——签订契约给自己增加各种惩罚&#xa;难度越高给的稀有资源越多" style="text;html=1;strokeColor=#FF9500;fillColor=#FFF8E8;align=left;verticalAlign=middle;fontSize=22;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="220" width="800" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="p6_box1" value="&#xa;  热度等级&#xa;  0-64，可叠加多个修改器&#xa;  数值越高难度越大" style="text;html=1;strokeColor=#0170C1;fillColor=#F5F9FF;align=left;verticalAlign=middle;fontSize=18;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="380" width="350" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="p6_box2" value="&#xa;  修改器类型&#xa;  敌人血量/伤害增加&#xa;  祝福获取减少/房间敌人增多" style="text;html=1;strokeColor=#0170C1;fillColor=#F5F9FF;align=left;verticalAlign=middle;fontSize=18;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="380" width="350" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="p6_box3" value="&#xa;  奖励机制&#xa;  难度越高，通关后&#xa;  &quot;黑暗&quot;&quot;泰坦之血&quot;越多" style="text;html=1;strokeColor=#0170C1;fillColor=#F5F9FF;align=left;verticalAlign=middle;fontSize=18;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="380" width="350" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="p6_goal" value="&#xa;  解决痛点&#xa;  通关后&quot;没事干&quot;——高难度提供持续挑战目标&#xa;  &quot;高风险高回报&quot;的永恒驱动力" style="text;html=1;strokeColor=#27AE60;fillColor=#E8F8F0;align=left;verticalAlign=middle;fontSize=20;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="580" width="1150" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="p6_bot" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="1050" width="1920" height="30" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="p7_summary" name="总结">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="0" page="1" pageScale="1" pageWidth="1920" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="p7_bg" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1920" height="1080" as="geometry"/>
+        </mxCell>
+        <mxCell id="p7_tl" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="20" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="p7_tr" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0170C1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="0" width="1880" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="p7_title" value="05 总结" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=36;fontColor=#0170C1;fontFamily=方正尚酷简体;" vertex="1" parent="1">
+          <mxGeometry x="120" y="80" width="600" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="p7_en" value="SUMMARY" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#000000;fontFamily=Garage Gothic;" vertex="1" parent="1">
+          <mxGeometry x="120" y="150" width="400" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="p7_card1" value="神明祝福系统&#xa;━&#xa;Roguelike BD构筑标杆&#xa;10神 × 10+祝福&#xa;树状技能解锁" style="text;html=1;strokeColor=#0170C1;fillColor=#F5F9FF;align=center;verticalAlign=middle;fontSize=18;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="240" width="280" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="p7_card2" value="死亡叙事融合&#xa;━&#xa;死亡从惩罚变激励&#xa;叙事驱动成长&#xa;情感连接NPC" style="text;html=1;strokeColor=#0170C1;fillColor=#F5F9FF;align=center;verticalAlign=middle;fontSize=18;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="240" width="280" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="p7_card3" value="惩罚契约系统&#xa;━&#xa;高难度=高回报&#xa;0-64热度可选&#xa;提供长期目标" style="text;html=1;strokeColor=#0170C1;fillColor=#F5F9FF;align=center;verticalAlign=middle;fontSize=18;fontColor=#333333;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="760" y="240" width="280" height="200" as="geometry"/>
+        </mxCell>
+        <mxCell id="p7_conclusion" value="Hades 通过神明祝福系统、死亡叙事融合、惩罚契约系统三大创新机制&#xa;重新定义了 Roguelike 的体验标准，成为行业标杆" style="text;html=1;strokeColor=#0170C1;fillColor=#E8F4FD;align=center;verticalAlign=middle;fontSize=24;fontColor=#0170C1;fontFamily=冬青黑体简体中文 W3;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="500" width="1150" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="p7_thanks" value="谢谢观看" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=36;fontColor=#333333;fontFamily=方正尚酷简体;" vertex="1" parent="1">
+          <mxGeometry x="120" y="700" width="600" height
