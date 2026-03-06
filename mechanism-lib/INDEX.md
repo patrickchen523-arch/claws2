@@ -1,6 +1,6 @@
 # 机制库索引
 
-> 最后更新：2026-03-06
+> 最后更新：2026-03-07
 
 ---
 
@@ -16,14 +16,17 @@
 | BaiJingHuiLang | - | 0 |
 | balatro | - | 2 |
 | barony | - | 1 |
+| Barony | - | 1 |
 | BlackMythWukong | - | 0 |
 | CallOfDutyBlackOps6 | - | 0 |
 | Celeste | - | 0 |
+| CitiesSkylines | - | 2 |
 | DanZaiPaiDui | - | 0 |
 | DeltaForce | - | 0 |
 | dnf-origins | - | 1 |
 | DNFOrigins | - | 0 |
 | DragonsDogma2 | - | 0 |
+| DysonSphereProgram | - | 2 |
 | EldenRingShadowOfTheErdtree | - | 0 |
 | Enshrouded | - | 0 |
 | Frostpunk2 | - | 0 |
@@ -53,6 +56,7 @@
 | Payday3 | - | 0 |
 | Persona3Reload | - | 0 |
 | Persona5PhantomX | - | 0 |
+| PlanetZoo | - | 1 |
 | Remnant2 | - | 0 |
 | RiseOfTheRonin | - | 0 |
 | SanguoMoudingTianxia | - | 0 |
@@ -61,11 +65,13 @@
 | ShaoNianJinYiWei | - | 0 |
 | ShiJieZhiWai | - | 0 |
 | SpaceMarine2 | - | 0 |
+| StardewValley | - | 2 |
 | StreetFighter6 | - | 0 |
 | Tarisland | - | 0 |
 | Tekken8 | - | 0 |
 | TorchlightInfinite | - | 0 |
 | TowerOfFantasy | - | 0 |
+| TwoPointHospital | - | 1 |
 | UnicornOverlord | - | 0 |
 | valorant | - | 2 |
 | WangZheRongYaoPoXiao | - | 0 |
@@ -82,6 +88,11 @@
 
 ## 机制索引
 
+### AlbionOnline
+- 沙盒式自由经济系统
+- 游戏卡
+- 装备等于职业系统
+
 ### ark-nova
 - card-position-strength
 - dual-track-competition
@@ -93,14 +104,31 @@
 ### barony
 - death-ghost-system
 
+### Barony
+- 死亡幽灵系统
+
+### CitiesSkylines
+- TrafficAI
+- ZoningSystem
+
 ### delta-force
 - operator-system
 
 ### dnf-origins
 - grinding-system
 
+### DysonSphereProgram
+- AssemblyLine
+- InterstellarLogistics
+
 ### gunfire-reborn
 - bd-share-system
+
+### Hades
+- 惩罚契约系统
+- 死亡叙事融合系统
+- 游戏卡
+- 神明祝福系统
 
 ### helldivers-2
 - strategic-command-system
@@ -111,6 +139,10 @@
 ### lucky-landlord
 - rent-pressure-system
 - slot-machine-symbol-engine
+
+### Marathon
+- 三层构筑系统
+- 游戏卡
 
 ### mewgenics
 - breeding-system
@@ -132,8 +164,25 @@
 ### payday-3
 - co-op-heist-gameplay
 
+### PlanetZoo
+- AnimalBehaviorAI
+
+### pokemon-pokopia
+- ditto-form-exploration
+- move-based-terrain-modification
+
+### Raft
+- 游戏卡
+
 ### sanguo-mouding-tianxia
 - slg-profession-system
+
+### StardewValley
+- SkillSystem
+- TimeManagement
+
+### TwoPointHospital
+- DepartmentFlow
 
 ### valorant
 - cosmetic-upgrade-system
