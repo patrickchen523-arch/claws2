@@ -175,14 +175,31 @@
 - 影之诗 (Shadowverse) - Cygames，2016年
 
 ## 当前进度
-- 品类索引：12 (完成策略卡牌)
+- 品类索引：13 (完成赛车)
 
 ## 入库统计
-- 游戏卡：92款（策略卡牌新增10款）
-- 机制卡：82个（策略卡牌新增7个）
+- 游戏卡：98款（赛车品类新增6款）
+- 机制卡：88个（赛车品类新增6个）
 
 ## 入库游戏卡
-### 自走棋新品类
+### 策略卡牌新品类
+- Hearthstone.md
+- Shadowverse.md
+- YuGiOhMasterDuel.md
+- Gwent.md
+- Onmyoji.md
+- MarvelSnap.md
+- YuGiOhDuelLinks.md
+- MagicArena.md
+- MirageDuel.md
+
+### 赛车新品类
+- ForzaHorizon5.md
+- NeedForSpeedHeat.md
+- RealRacing3.md
+- Asphalt9.md
+- QQFeiChe.md
+- KartRider.md
 - AutoChess.md
 - TeamfightTactics.md
 - DotaUnderlords.md
@@ -358,3 +375,29 @@
 - 连锁系统（游戏王）
 - 式神战斗区系统（阴阳师百闻牌）
 - 延迟埋牌机制（秘境对决）
+
+### 赛车品类
+- 漂移集气系统（QQ飞车）
+- 氮气加速系统（狂野飙车9）
+- 开放世界探索（地平线5）
+- 日夜循环热度系统（极品飞车热度）
+- 技术进阶系统（地平线5）
+- 真实车辆授权系统（真实赛车3）
+
+### 赛车 (2026-03-08)
+#### 端游 (5款)
+- 极限竞速：地平线5 (Forza Horizon 5) - Playground Games，2021年，IGN10分满分
+- 极品飞车：热度 (Need for Speed Heat) - EA，2019年
+- 飙酷车神 (The Crew) - 育碧，2014年
+- 神力科莎 (Assetto Corsa) - Kunos，2014年
+- GT赛车7 (Gran Turismo 7) - Polyphony Digital，2022年
+
+#### 手游 (5款)
+- 真实赛车3 (Real Racing 3) - EA，2013年，移动端真实竞速标杆
+- 狂野飙车9：竞速传奇 (Asphalt 9) - Gameloft，2018年
+- QQ飞车手游 - 腾讯，2018年，iOS年度下载量领先
+- 跑跑卡丁车官方竞速版 - 腾讯，2019年
+- 王牌竞速 - 腾讯，2021年
+
+## 当前进度
+- 品类索引：13 (完成赛车)
