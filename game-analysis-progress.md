@@ -39,10 +39,42 @@
 - 英雄联盟手游 - 腾讯/Riot，2020年
 - 英魂之刃 - 腾讯，2015年
 
+### 搜打撤 - 撤离射击 (2026-03-07)
+#### 端游 (5款)
+- 逃离塔科夫 (Escape from Tarkov) - Battlestate Games，2016/2025年，销量100万+
+- 暗区突围：无限 (Arena Breakout: Infinite) - 腾讯，2024年，首日100万玩家
+- 三角洲行动 (Delta Force) - 腾讯，2024年，日活3000万
+- 使命召唤战区 (Call of Duty: Warzone) - 动视，2020年，累计下载1亿+
+- ARC Raiders - Embark Studios，2025年
+
+#### 手游 (5款)
+- 暗区突围 (Arena Breakout) - 腾讯魔方，2022年，全球1亿用户
+- 三角洲行动手游 - 腾讯，2024年
+- 和平精英 (Game For Peace) - 腾讯光子，2019年，DAU峰值8000万
+- 使命召唤战区手游 - 动视/腾讯，2024年
+- 萤火突击 (Farlight 84) - 腾讯，2023年
+
 ## 当前进度
-- 品类索引：2 (搜打撤)
-- 下次执行：搜打撤
+- 品类索引：3 (战棋)
+- 下次执行：战棋
 
 ## 入库统计
-- 游戏卡：14款（新增6款）
-- 机制卡：19个（新增7个）
+- 游戏卡：20款（新增6款）
+- 机制卡：26个（新增7个）
+
+## 入库游戏卡
+- EscapeFromTarkov.md
+- ArenaBreakoutInfinite.md
+- CallOfDutyWarzone.md
+- ARCRaiders.md
+- ArenaBreakout.md
+- DeltaForce.md
+
+## 入库机制卡
+- 撤离机制
+- 装备带入带出
+- 大金系统
+- 干员技能系统
+- 古拉格复活
+- 装备舱系统
+- 曼德尔砖机制
