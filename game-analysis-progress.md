@@ -69,21 +69,51 @@
 - 钢岚 - 紫龙游戏，2023年
 - 铃兰之剑 - 心动网络，2023年
 
+### 自走棋 (2026-03-07)
+#### 端游 (5款)
+- 刀塔自走棋 (Auto Chess) - 巨鸟多多，2019年，Dota2自定义地图，同时在线50万+
+- 云顶之弈 (Teamfight Tactics) - 拳头，2019年，英雄联盟内置模式
+- 刀塔霸业 (Dota Underlords) - Valve，2019年
+- 战三国 - 网易，2019年
+- 酒馆战棋 (Hearthstone Battlegrounds) - 暴雪，2019年
+
+#### 手游 (5款)
+- 金铲铲之战 - 腾讯，2021年，云顶之弈正版授权
+- 多多自走棋 - 巨鸟多多/龙渊，2019年，首周营收120万人民币
+- 王者模拟战 - 腾讯，2019年
+- 漫威对决 - 网易，2021年
+- 战歌竞技场 - 腾讯，2020年
+
 ## 当前进度
-- 品类索引：4 (自走棋)
-- 下次执行：自走棋
+- 品类索引：5 (塔防)
+- 下次执行：塔防
 
 ## 入库统计
-- 游戏卡：30款（新增10款）
-- 机制卡：34个（新增8个）
+- 游戏卡：40款（自走棋新增10款）
+- 机制卡：42个（自走棋新增8个）
 
 ## 入库游戏卡
+### 自走棋新品类
+- AutoChess.md
+- TeamfightTactics.md
+- DotaUnderlords.md
+- ZhanSanguo.md
+- Battlegrounds.md
+- JinChanChan.md
+- DuoduoAutoChess.md
+- WangzheMoniqi.md
+- MarvelDuel.md
+- ZhangeArena.md
+
+### 搜打撤品类
 - EscapeFromTarkov.md
 - ArenaBreakoutInfinite.md
 - CallOfDutyWarzone.md
 - ARCRaiders.md
 - ArenaBreakout.md
 - DeltaForce.md
+
+### 战棋品类
 - FireEmblemThreeHouses.md
 - TacticsOgre.md
 - AdvanceWars.md
@@ -96,6 +126,15 @@
 - Lilanyuzijian.md
 
 ## 入库机制卡
+### 自走棋新品类
+- 羁绊系统（刀塔自走棋）
+- 棋子升星系统（刀塔自走棋）
+- 共用卡池机制（刀塔自走棋）
+- 金币利息系统（刀塔自走棋）
+- 海克斯强化系统（云顶之弈）
+- 英雄技能系统（酒馆战棋）
+- 双人合作模式（金铲铲之战）
+
 ### 搜打撤品类
 - 撤离机制
 - 装备带入带出
