@@ -54,13 +54,28 @@
 - 使命召唤战区手游 - 动视/腾讯，2024年
 - 萤火突击 (Farlight 84) - 腾讯，2023年
 
+### 战棋 - 策略战棋 (2026-03-07)
+#### 端游 (5款)
+- 火焰纹章：风花雪月 (Fire Emblem: Three Houses) - 任天堂，2019年，全球412万份
+- 皇家骑士团2 (Tactics Ogre) - Quest/SE，1995年/2010年，71万份
+- 高级战争 (Advance Wars) - 任天堂，2022年
+- 战纹 (Wargroove) - Chucklefish，2019年
+- 三角战略 (Triangle Strategy) - 史艾，2022年
+
+#### 手游 (5款)
+- 梦幻模拟战 - 紫龙游戏，2018年，iOS年度收入第12位
+- 天地劫：幽城再临 - 紫龙游戏，2021年，首周iOS第七
+- 火焰纹章：英雄 (Fire Emblem Heroes) - 任天堂，2017年
+- 钢岚 - 紫龙游戏，2023年
+- 铃兰之剑 - 心动网络，2023年
+
 ## 当前进度
-- 品类索引：3 (战棋)
-- 下次执行：战棋
+- 品类索引：4 (自走棋)
+- 下次执行：自走棋
 
 ## 入库统计
-- 游戏卡：20款（新增6款）
-- 机制卡：26个（新增7个）
+- 游戏卡：30款（新增10款）
+- 机制卡：34个（新增8个）
 
 ## 入库游戏卡
 - EscapeFromTarkov.md
@@ -69,8 +84,19 @@
 - ARCRaiders.md
 - ArenaBreakout.md
 - DeltaForce.md
+- FireEmblemThreeHouses.md
+- TacticsOgre.md
+- AdvanceWars.md
+- Wargroove.md
+- TriangleStrategy.md
+- Langrisser.md
+- TianDiJie.md
+- FireEmblemHeroes.md
+- GangLan.md
+- Lilanyuzijian.md
 
 ## 入库机制卡
+### 搜打撤品类
 - 撤离机制
 - 装备带入带出
 - 大金系统
@@ -78,3 +104,12 @@
 - 古拉格复活
 - 装备舱系统
 - 曼德尔砖机制
+
+### 战棋品类
+- 兵种相克系统（梦幻模拟战）
+- 转职树系统（火焰纹章风花雪月）
+- WT行动顺序系统（皇家骑士团2）
+- 高低差战场系统（皇家骑士团2）
+- 指挥官CO技能系统（高级战争）
+- 属性相克系统（天地劫）
+- 多结局政治剧情系统（皇家骑士团2）
