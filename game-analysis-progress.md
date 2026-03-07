@@ -159,12 +159,27 @@
 - 逆水寒手游 - 网易，2023年
 - 塔瑞斯世界 - 腾讯，2024年
 
+#### 手游 (5款)
+- 游戏王：决斗链接 (Yu-Gi-Oh! Duel Links) - KONAMI，2017年
+- 阴阳师：百闻牌 - 网易，2019年
+- 漫威终极逆转 (Marvel Snap) - Nuverse，2022年，TGA年度最佳移动游戏
+- 秘境对决 - 网易，2017年
+- 倩女幽魂录 - 网易，2016年
+
+### 策略卡牌 (2026-03-08)
+#### 端游 (5款)
+- 炉石传说 (Hearthstone) - 暴雪，2014年，全球7000万用户
+- 巫师之昆特牌 (Gwent) - CDPR，2018年
+- 游戏王：大师决斗 (Yu-Gi-Oh! Master Duel) - KONAMI，2022年，卡池10000+张
+- 万智牌：竞技场 (Magic: The Gathering Arena) - Wizards of the Coast，2018年
+- 影之诗 (Shadowverse) - Cygames，2016年
+
 ## 当前进度
-- 品类索引：11 (完成MMO)
+- 品类索引：12 (完成策略卡牌)
 
 ## 入库统计
-- 游戏卡：82款（MMO新增10款）
-- 机制卡：75个（MMO新增9个）
+- 游戏卡：92款（策略卡牌新增10款）
+- 机制卡：82个（策略卡牌新增7个）
 
 ## 入库游戏卡
 ### 自走棋新品类
@@ -250,6 +265,17 @@
 - RevelationMobile.md
 - Tarisland.md
 
+### 策略卡牌新品类
+- Hearthstone.md
+- Shadowverse.md
+- YuGiOhMasterDuel.md
+- Gwent.md
+- Onmyoji.md
+- MarvelSnap.md
+- YuGiOhDuelLinks.md
+- MagicArena.md
+- MirageDuel.md
+
 ## 入库机制卡
 ### 自走棋新品类
 - 羁绊系统（刀塔自走棋）
@@ -323,3 +349,12 @@
 - 功力系统（天涯明月刀）
 - 庄园系统（逆水寒）
 - 捏脸系统（一梦江湖）
+
+### 策略卡牌品类
+- 法力水晶系统（炉石传说）
+- 进化系统（影之诗）
+- 位置机制（漫威终极逆转）
+- 三行战场系统（昆特牌）
+- 连锁系统（游戏王）
+- 式神战斗区系统（阴阳师百闻牌）
+- 延迟埋牌机制（秘境对决）
