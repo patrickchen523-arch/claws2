@@ -129,12 +129,27 @@
 - 香肠派对 (Sausage Man) - 心动网络，2017年，TapTap下载超1.2亿
 - 生死狙击 (CrossFire Legends) - 腾讯，2015年
 
+### RPG - 角色扮演 (2026-03-07)
+#### 端游 (5款)
+- 黑神话：悟空 (Black Myth: Wukong) - 游戏科学，2024年，Steam销量2200万份，收入超10亿美元
+- 龙之信条2 (Dragon's Dogma 2) - Capcom，2024年，全球销量350万套
+- 最终幻想7：重生 (FF7 Rebirth) - SE，2024年
+- 霍格沃茨之遗 (Hogwarts Legacy) - Avalanche，2023年
+- 星空 (Starfield) - Bethesda，2023年
+
+#### 手游 (5款)
+- 幻塔 (Tower of Fantasy) - 完美世界，2021年，全球累计流水超40亿元
+- 崩坏：星穹铁道 (Honkai: Star Rail) - 米哈游，2023年
+- 龙之谷2 (Dragon Nest 2) - 盛趣游戏，2020年
+- 鸣潮 (Wuthering Waves) - 库洛，2023年
+- 异星战争 (ARZ: Anomaly) - 完美世界，2022年
+
 ## 当前进度
-- 品类索引：9 (完成FPS)
+- 品类索引：10 (完成RPG)
 
 ## 入库统计
-- 游戏卡：62款（FPS新增10款）
-- 机制卡：59个（FPS新增5个）
+- 游戏卡：72款（RPG新增10款）
+- 机制卡：65个（RPG新增6个）
 
 ## 入库游戏卡
 ### 自走棋新品类
@@ -196,6 +211,18 @@
 - SausageMan.md
 - CFLegends.md
 
+### RPG新品类
+- BlackMythWukong.md
+- DragonsDogma2.md
+- FF7Rebirth.md
+- HogwartsLegacy.md
+- Starfield.md
+- TowerOfFantasy.md
+- HonkaiStarRail.md
+- DragonNest2.md
+- WutheringWaves.md
+- ARZAnomaly.md
+
 ## 入库机制卡
 ### 自走棋新品类
 - 羁绊系统（刀塔自走棋）
@@ -250,3 +277,11 @@
 - 干员技能系统（彩虹六号）
 - 英雄技能系统（无畏契约）
 - 连杀奖励系统（使命召唤）
+
+### RPG品类
+- 棍法系统（黑神话：悟空）
+- 法术系统（黑神话：悟空）
+- 随从系统（龙之信条2）
+- 捏脸系统（幻塔）
+- 模拟宇宙（崩坏：星穹铁道）
+- 共鸣技能（鸣潮）
