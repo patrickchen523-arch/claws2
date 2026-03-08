@@ -643,9 +643,55 @@
 - 恐龙快打 (Cadillacs and Dinosaurs) - 卡普空，1993年，载具+恐龙题材
 - 名将 (Captain Commando) - 卡普空，1991年，职业差异化设计
 
+### RTS补充 (2026-03-08)
+#### 端游 (5款)
+- 命令与征服：红色警戒3 (Command & Conquer: Red Alert 3) - EA Los Angeles，2008年
+- 英雄连 (Company of Heroes) - Relic Entertainment，2006年
+- 最高指挥官 (Supreme Commander) - Gas Powered Games，2007年
+- 帝国时代3决定版 (Age of Empires III) - Microsoft，2020年
+- 家园 (Homeworld) - Relic Entertainment，1999年
+
+#### 手游 (5款)
+- 墟土之争 - 网易，2017年
+- 铁锈战争 (Rusted Warfare) - Cross Construct，2015年
+- 装甲帝国 - 国内厂商
+- 世界之战 - 网易
+
 ## 当前进度
-- 品类索引：24（塔防补充第二波完成）
-- 状态：所有15个品类已完成首轮拆解，塔防正在进行补充分析
+- 品类索引：25（RTS补充完成）
+- 状态：所有15个品类已完成首轮拆解，RTS正在进行补充分析
+
+## 入库统计
+- 游戏卡：132款（RTS补充新增7款）
+- 机制卡：142个（RTS补充新增8个）
+
+## 入库游戏卡
+### RTS补充新品类
+- RedAlert3.md
+- CompanyOfHeroes.md
+- SupremeCommander.md
+- AgeOfEmpires3.md
+- XutuZhizhan.md
+- RustedWarfare.md
+
+## 入库机制卡
+### RTS补充新品类
+- 三阵营差异化设计（红色警戒3）
+- 海军单位系统（红色警戒3）
+- 超武指挥官技能系统（红色警戒3）
+- 可破坏物理环境（英雄连）
+- 掩体压制系统（英雄连）
+- 胜利点控制（英雄连）
+- 战略战术双视角（最高指挥官）
+- 实验级巨型单位（最高指挥官）
+- 指挥官亲自作战（最高指挥官）
+- 时代演进系统（帝国时代3）
+- 主城支援卡系统（帝国时代3）
+- 本土英雄单位（帝国时代3）
+- 3编队指挥系统（墟土之争）
+- 全局战略法术（墟土之争）
+- 极简UI触控设计（铁锈战争）
+- 触屏操作优化（铁锈战争）
 
 ## 入库统计
 - 游戏卡：140款（塔防补充新增10款）
