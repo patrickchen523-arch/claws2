@@ -31,18 +31,16 @@
 - 单一货币内循环
 
 ## 入库统计
-- 游戏卡：136款（新增：死亡细胞、黑帝斯）
-- 机制卡：169个（Roguelike品类新增6个）
+- 游戏卡：137款（新增：EVE Online）
+- 机制卡：173个（经济系统品类新增4个）
 
 ## 入库机制卡
-### Roguelike品类
-- [Roguelite]-DeadCells-RogueVania融合机制
-- [Roguelite]-DeadCells-蓝图解锁系统
-- [Roguelite]-DeadCells-武器构建系统
-- [Roguelite]-Hades-叙事驱动机制
-- [Roguelite]-Hades-祝福Build系统
-- [Roguelite]-Hades-多武器形态系统
+### 经济系统品类（新增）
+- [经济系统]-EVE-双向订单匹配市场
+- [经济系统]-EVE-玩家生产制造链
+- [经济系统]-EVE-区域差异化市场
+- [经济系统]-EVE-温和通胀货币系统
 
 ## 当前进度
-- 品类索引：35（Roguelike品类分析完成）
+- 品类索引：36（EVE Online经济系统分析完成）
 - 状态：已完成15个品类首轮拆解 + 多个子玩法补充分析
