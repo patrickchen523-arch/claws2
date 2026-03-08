@@ -471,3 +471,32 @@
 - 社区谱面创作系统（osu!）
 - BGA视听联动系统（DJMAX）
 - 剧情叙事融合系统（Deemo）
+
+### 策略卡牌补充 (2026-03-08)
+#### 端游补充
+- Legends of Runeterra (符文之地传奇) - 拳头公司，2020年
+
+#### 手游补充
+- 我叫MT Online - 乐动卓越，2013年
+
+## 入库统计
+- 游戏卡：115款（策略卡牌补充新增2款）
+- 机制卡：110个（策略卡牌补充新增7个）
+
+## 入库游戏卡
+### 策略卡牌补充新品类
+- LegendsOfRuneterra.md
+- WoJiaoMT.md
+
+## 入库机制卡
+### 策略卡牌补充新品类
+- 攻守响应机制（Legends of Runeterra）
+- 法术速度系统（Legends of Runeterra）
+- 英雄升级系统（Legends of Runeterra）
+- 格挡攻防机制（Legends of Runeterra）
+- 召唤之门BOSS系统（我叫MT）
+- 宠物融合系统（我叫MT）
+
+## 当前进度
+- 品类索引：16（策略卡牌补充完成）
+- 状态：所有15个品类已完成首轮拆解，当前进行补充分析
