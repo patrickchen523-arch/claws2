@@ -644,6 +644,42 @@
 - 名将 (Captain Commando) - 卡普空，1991年，职业差异化设计
 
 ## 当前进度
+- 品类索引：24（塔防补充第二波完成）
+- 状态：所有15个品类已完成首轮拆解，塔防正在进行补充分析
+
+## 入库统计
+- 游戏卡：140款（塔防补充新增10款）
+- 机制卡：165个（塔防补充新增12个）
+
+## 入库游戏卡
+### 塔防补充新品类
+- DefenseGrid.md
+- Thronefall.md
+- Fieldrunners.md
+- Sanctum.md
+- OrcsMustDie.md
+- BloonsTD6.md
+- AFKArena.md
+- BuXiZhiLu.md
+- TowerDefenseThreeKingdoms.md
+- SuperTower.md
+
+## 入库机制卡
+### 塔防补充新品类
+- 能量核心收集机制（Defense Grid）
+- 时间回溯系统（Defense Grid）
+- 波次信息预判系统（Defense Grid）
+- 昼夜循环决策系统（Thronefall）
+- 国王亲自战斗系统（Thronefall）
+- 极简Build构筑系统（Thronefall）
+- 开放空间路径创造系统（Fieldrunners）
+- 四种基础炮塔体系（Fieldrunners）
+- 迷宫建造与路径规划系统（Sanctum）
+- FPS战斗参与系统（Sanctum）
+- 陷阱策略组合系统（Orcs Must Die）
+- 即时战斗参与系统（Orcs Must Die）
+
+## 当前进度
 - 品类索引：23（街机动作过关补充第二波完成）
 - 状态：所有15个品类已完成首轮拆解，街机动作过关正在进行补充分析
 
