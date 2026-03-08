@@ -31,17 +31,18 @@
 - 单一货币内循环
 
 ## 入库统计
-- 游戏卡：134款（无新增）
-- 机制卡：163个（经济系统新增4个）
+- 游戏卡：136款（新增：死亡细胞、黑帝斯）
+- 机制卡：169个（Roguelike品类新增6个）
 
 ## 入库机制卡
-### 经济系统子玩法
-- MMO-梦幻西游-三货币经济系统
-- MMO-梦幻西游-三界功绩系统
-- MMO-梦幻西游-藏宝阁交易系统
-- ARPG-DNF-装备交易时间锁
-- ARPG-原神-体力系统
+### Roguelike品类
+- [Roguelite]-DeadCells-RogueVania融合机制
+- [Roguelite]-DeadCells-蓝图解锁系统
+- [Roguelite]-DeadCells-武器构建系统
+- [Roguelite]-Hades-叙事驱动机制
+- [Roguelite]-Hades-祝福Build系统
+- [Roguelite]-Hades-多武器形态系统
 
 ## 当前进度
-- 品类索引：34（经济系统子玩法分析完成）
+- 品类索引：35（Roguelike品类分析完成）
 - 状态：已完成15个品类首轮拆解 + 多个子玩法补充分析
