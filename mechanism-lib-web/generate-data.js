@@ -458,24 +458,25 @@ function extractGameInfo(parsed, filename) {
   }
   
   // === 关联资产 / 收录机制 ===
-  // 先收集所有机制，用于后续验证
-  const allMechanisms = []; // 将在 main 函数中填充
-  
   const mechKeywords = ['关联资产', '收录机制', '收录的机制'];
   for (const kw of mechKeywords) {
     if (sections[kw]) {
       const section = sections[kw];
-      // Extract mechanism references - format: [品类]-游戏名-机制名 或 > 机制名
-      const mechMatches = section.match(/>\s*([^<\n]+)/g);
+      
+      // 匹配 > - 或 - 开头的行（两种格式都支持）
+      const mechMatches = section.match(/[>-]\s*([^<\n]+)/g);
       if (mechMatches) {
         for (const m of mechMatches) {
-          const mechName = m.replace(/^>\s*/, '').replace(/\n/g, '').trim();
+          let mechName = m.replace(/^[>-]\s*/, '').replace(/\n/g, '').trim();
+          // 清理前缀的 - 
+          mechName = mechName.replace(/^-\s*/, '').trim();
           if (mechName && !mechName.includes('待关联') && !mechName.includes('暂无') && mechName.length > 2) {
             info.relatedMechanisms.push(mechName);
           }
         }
       }
-      // Also try to match [品类]-游戏名-机制名 pattern
+      
+      // 也匹配 [品类]-游戏名-机制名 pattern
       const bracketMatches = section.match(/\[[^\]]+\]-[^\-]+\-[^\-]+/g);
       if (bracketMatches) {
         for (const m of bracketMatches) {
@@ -556,6 +557,69 @@ for (const [gameKey, gameInfo] of Object.entries(games)) {
 }
 
 console.log(`Validated: ${validMechCount} valid mechanisms, ${invalidMechCount} cleaned up`);
+
+// ============ 自动同步机制到游戏卡 ============
+console.log('\n[Sync] 同步机制卡到游戏卡...');
+
+// 扫描机制目录，匹配游戏卡
+const mechDirs = fs.readdirSync(MECHANISMS_DIR);
+let syncAddCount = 0;
+
+for (const dir of mechDirs) {
+  const dirPath = path.join(MECHANISMS_DIR, dir);
+  if (!fs.statSync(dirPath).isDirectory()) continue;
+  
+  // 跳过误放的游戏卡
+  if (dir.includes('gamecard')) continue;
+  
+  // 查找对应游戏文件
+  const gameFile = path.join(GAMES_DIR, dir + '.md');
+  if (!fs.existsSync(gameFile)) continue;
+  
+  // 读取游戏卡
+  let gameContent = fs.readFileSync(gameFile, 'utf-8');
+  
+  // 获取该目录下的所有机制
+  const mechFiles = fs.readdirSync(dirPath).filter(f => f.endsWith('.md'));
+  
+  if (mechFiles.length === 0) continue;
+  
+  // 检查是否需要更新
+  let needUpdate = false;
+  
+  if (gameContent.includes('（待关联')) {
+    // 替换待关联标记
+    const mechNames = mechFiles.map(f => {
+      let name = f.replace('.md', '').replace('[Qualify]', '').replace('[Excellent]', '').replace('[not_comfirmed]', '');
+      return `- ${name}`;
+    });
+    gameContent = gameContent.replace('（待关联该游戏下的机制卡）', mechNames.join('\n'));
+    needUpdate = true;
+    syncAddCount += mechFiles.length;
+  } else {
+    // 检查是否已包含所有机制
+    for (const f of mechFiles) {
+      const name = f.replace('.md', '').replace('[Qualify]', '').replace('[Excellent]', '').replace('[not_comfirmed]', '');
+      if (!gameContent.includes(name)) {
+        // 需要添加
+        if (gameContent.includes('收录机制')) {
+          gameContent = gameContent.replace(
+            /(收录机制[^:]*：[^\n]*(?:\n[^\n]*)*)/,
+            `$1\n- ${name}`
+          );
+          needUpdate = true;
+          syncAddCount++;
+        }
+      }
+    }
+  }
+  
+  if (needUpdate) {
+    fs.writeFileSync(gameFile, gameContent);
+  }
+}
+
+console.log(`  ✓ 同步完成 (新增 ${syncAddCount} 条关联)`);
 
 const output = { mechanisms, games, stats: { mechanismCount: mechCount, gameCount: gameCount } };
 

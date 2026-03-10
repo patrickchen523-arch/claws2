@@ -8117,11 +8117,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "[搜打撤]-[ARC Raiders]-PvPvE撤离机制",
-        "[搜打撤]-[ARC Raiders]-基地建设升级系统",
-        "[搜打撤]-[ARC Raiders]-机械敌人AI系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "ARCRaiders.md"
     },
     "ARK": {

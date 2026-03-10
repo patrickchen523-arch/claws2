@@ -8074,9 +8074,7 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "MOBA-300英雄-7v7团战模式",
-        "MOBA-300英雄-动漫角色技能还原",
-        "MOBA-300英雄-多模式并存设计"
+        "- MOBA-300英雄-7v7团战模式"
       ],
       "filename": "300Heroes.md"
     },
@@ -8117,11 +8115,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "[搜打撤]-[ARC Raiders]-PvPvE撤离机制",
-        "[搜打撤]-[ARC Raiders]-基地建设升级系统",
-        "[搜打撤]-[ARC Raiders]-机械敌人AI系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "ARCRaiders.md"
     },
     "ARK": {
@@ -8181,12 +8175,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "兵种相克系统",
-        "CO指挥官系统",
-        "指挥官CO技能系统",
-        "指挥官技能系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "AdvanceWars.md"
     },
     "AgeOfEmpires2DE": {
@@ -8206,12 +8195,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "孙子兵法教学系统",
-        "文明差异化系统",
-        "时代演进系统",
-        "资源采集系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "AgeOfEmpires2DE.md"
     },
     "AgeOfEmpires3": {
@@ -8575,9 +8559,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "自走棋-酒馆战棋-英雄技能系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "Battlegrounds.md"
     },
     "BlackMythWukong": {
@@ -8597,10 +8579,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "棍法系统",
-        "法术系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "BlackMythWukong.md"
     },
     "BoomBeach": {
@@ -8801,10 +8780,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "街机-恐龙快打-载具召唤系统",
-        "街机-恐龙快打-恐龙互动系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "CadillacsAndDinosaurs.md"
     },
     "CallOfDuty": {
@@ -8908,10 +8884,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "街机-名将-角色职业技能系统",
-        "街机-名将-连招系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "CaptainCommando.md"
     },
     "CardGameDeckBuilding": {
@@ -8931,12 +8904,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "策略卡牌-炉石传说-职业限制机制",
-        "策略卡牌-影之诗-同名卡机制",
-        "策略卡牌-昆特牌-卡组限制系统",
-        "策略卡牌-通用-卡牌分解合成系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "CardGameDeckBuilding.md"
     },
     "CarrotFantasy": {
@@ -8956,9 +8924,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "塔防 - 保卫萝卜 - 金萝卜评价系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "CarrotFantasy.md"
     },
     "Celeste": {
@@ -8998,10 +8964,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "模拟经营-都市天际线-交通AI路径系统",
-        "模拟经营-都市天际线-城市分区系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "CitiesSkylines.md"
     },
     "CivilizationVI": {
@@ -9021,10 +8984,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "策略经营-文明6-城区规划系统",
-        "策略经营-文明6-文明特质系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "CivilizationVI.md"
     },
     "ClashOfClans": {
@@ -9288,9 +9248,7 @@
         }
       ],
       "achievements": "",
-      "relatedMechanisms": [
-        "音游-Cytus-动态判定线扫描系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "Cytus.md"
     },
     "DJMAX": {
@@ -9310,9 +9268,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "音游-DJMAX-BGA视听联动系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "DJMAX.md"
     },
     "DNF": {
@@ -9332,9 +9288,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "ARPG-DNF-装备交易时间锁"
-      ],
+      "relatedMechanisms": [],
       "filename": "DNF.md"
     },
     "DNFMobile": {
@@ -9476,8 +9430,7 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[模拟经营]-潜水员戴夫-日夜双循环玩法",
-        "模拟经营-潜水员戴夫-日夜双循环玩法"
+        "[模拟经营]-潜水员戴夫-日夜双循环玩法"
       ],
       "filename": "DaveTheDiver.md"
     },
@@ -9560,9 +9513,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "音游-Deemo-剧情叙事融合系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "Deemo.md"
     },
     "DeltaForce": {
@@ -9642,10 +9593,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "ARPG-暗黑破坏神4-巅峰等级系统",
-        "ARPG-暗黑破坏神4-暗金装备与词缀系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "DiabloIV.md"
     },
     "DianFengJiSu": {
@@ -9665,11 +9613,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "赛车-巅峰极速-动态天气系统",
-        "赛车-巅峰极速-车辆改装系统",
-        "赛车-巅峰极速-3A拟真物理"
-      ],
+      "relatedMechanisms": [],
       "filename": "DianFengJiSu.md"
     },
     "Dota2": {
@@ -9689,9 +9633,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "MOBA-DOTA2-反补机制"
-      ],
+      "relatedMechanisms": [],
       "filename": "Dota2.md"
     },
     "DotaUnderlords": {
@@ -9755,7 +9697,6 @@
       "achievements": "",
       "relatedMechanisms": [
         "[RPG]-DragonsDogma2-随从系统",
-        "RPG-DragonsDogma2-随从系统",
         "[RPG]-DragonsDogma2-职业系统",
         "[RPG]-DragonsDogma2-开放世界探索"
       ],
@@ -9800,10 +9741,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "模拟经营-戴森球计划-流水线空间规划",
-        "模拟经营-戴森球计划-跨星球物流系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "DysonSphereProgram.md"
     },
     "EVEOnline": {
@@ -9870,10 +9808,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "开放世界探索",
-        "死亡惩罚与记忆系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "EldenRing.md"
     },
     "EldenRingShadowOfTheErdtree": {
@@ -10039,10 +9974,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "MMO-梦幻西游-副本分级系统",
-        "MMO-梦幻西游-三货币经济系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "FantasyWestJourney.md"
     },
     "FantasyWestJourney2": {
@@ -10062,10 +9994,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "[RPG-大话西游2-坐骑管制系统]",
-        "[RPG-大话西游2-坐骑技能系统]"
-      ],
+      "relatedMechanisms": [],
       "filename": "FantasyWestJourney2.md"
     },
     "FantasyWestwardJourney": {
@@ -10170,10 +10099,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "街机-快打旋风-角色差异化系统",
-        "街机-快打旋风-武器系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "FinalFight.md"
     },
     "FireEmblemHeroes": {
@@ -10258,11 +10184,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "赛车-地平线5-开放世界探索",
-        "赛车-地平线5-技术进阶系统",
-        "赛车-地平线5-车辆改装系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "ForzaHorizon5.md"
     },
     "Frostpunk": {
@@ -10384,11 +10306,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "体力系统",
-        "元素反应系统",
-        "抽卡与命座系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "GenshinImpact.md"
     },
     "GhostBlade": {
@@ -10508,9 +10426,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "格斗-罪恶装备-RC取消"
-      ],
+      "relatedMechanisms": [],
       "filename": "GuiltyGearStrive.md"
     },
     "Gwent": {
@@ -10530,10 +10446,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "策略卡牌-昆特牌-三行战场系统",
-        "策略卡牌-昆特牌-卡组限制系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "Gwent.md"
     },
     "Hades": {
@@ -10597,10 +10510,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "模拟经营-开心猫舍-猫咪换装系统",
-        "模拟经营-开心猫舍-猫咪培育系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "HappyCatCafe.md"
     },
     "HayDay": {
@@ -10640,9 +10550,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "策略卡牌-炉石传说-法力水晶系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "Hearthstone.md"
     },
     "Hellblade2": {
@@ -10723,9 +10631,7 @@
         }
       ],
       "achievements": "",
-      "relatedMechanisms": [
-        "MOBA-HOTS-共享经验机制"
-      ],
+      "relatedMechanisms": [],
       "filename": "HeroesOfTheStorm.md"
     },
     "HogwartsLegacy": {
@@ -10766,8 +10672,7 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[模拟经营]-梦幻家园-三消装修融合",
-        "模拟经营-梦幻家园-三消装修融合"
+        "[模拟经营]-梦幻家园-三消装修融合"
       ],
       "filename": "HomesAndGardens.md"
     },
@@ -10808,9 +10713,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "连招与QTE系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "HonkaiImpact3rd.md"
     },
     "HonkaiStarRail": {
@@ -10830,9 +10733,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "模拟宇宙"
-      ],
+      "relatedMechanisms": [],
       "filename": "HonkaiStarRail.md"
     },
     "HonorOfKings": {
@@ -10852,9 +10753,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "MOBA-王者荣耀-社交匹配系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "HonorOfKings.md"
     },
     "IdleHeroes": {
@@ -11002,7 +10901,6 @@
       "achievements": "",
       "relatedMechanisms": [
         "[自走棋]-金铲铲之战-双人合作模式",
-        "自走棋-金铲铲之战-双人合作模式",
         "[自走棋]-金铲铲之战-羁绊系统",
         "[自走棋]-金铲铲之战-海克斯强化系统"
       ],
@@ -11089,9 +10987,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "赛车-跑跑卡丁车-漂移集气系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "KartRider.md"
     },
     "KingdomRush": {
@@ -11111,9 +11007,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "塔防 - 王国保卫战 - 兵营拦截系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "KingdomRush.md"
     },
     "KnightmareTower": {
@@ -11133,9 +11027,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "街机-龙王战士-RPG升级系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "KnightmareTower.md"
     },
     "KnightsOfTheRound": {
@@ -11155,10 +11047,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "街机-圆桌骑士-骑马战斗系统",
-        "街机-圆桌骑士-金币装备系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "KnightsOfTheRound.md"
     },
     "KnightsOfValour": {
@@ -11180,7 +11069,6 @@
       "achievements": "",
       "relatedMechanisms": [
         "[街机]-KnightsOfValour-技能连招系统",
-        "街机-KnightsOfValour-天书魔法系统",
         "[街机]-KnightsOfValour-爆气系统",
         "[街机]-KnightsOfValour-天书魔法系统"
       ],
@@ -11271,7 +11159,6 @@
       "achievements": "",
       "relatedMechanisms": [
         "[策略卡牌]-Legends of Runeterra-攻守响应机制",
-        "[策略卡牌]-[Legends of Runeterra]-[格挡攻防机制]",
         "[策略卡牌]-Legends of Runeterra-法术速度系统",
         "[策略卡牌]-Legends of Runeterra-英雄升级系统",
         "[策略卡牌]-Legends of Runeterra-格挡攻防机制"
@@ -11478,9 +11365,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "漫威对决 / Marvel Duel"
-      ],
+      "relatedMechanisms": [],
       "filename": "MarvelDuel.md"
     },
     "MarvelSnap": {
@@ -11500,9 +11385,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "策略卡牌-漫威终极逆转-位置机制"
-      ],
+      "relatedMechanisms": [],
       "filename": "MarvelSnap.md"
     },
     "MetalSlug": {
@@ -11524,7 +11407,6 @@
       "achievements": "",
       "relatedMechanisms": [
         "[街机]-MetalSlug-载具系统",
-        "街机-MetalSlug-载具系统",
         "[街机]-MetalSlug-武器升级系统",
         "[街机]-MetalSlug-人质营救系统"
       ],
@@ -11547,10 +11429,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "模拟经营-喵喵茶餐厅-模块化搭建系统",
-        "模拟经营-喵喵茶餐厅-森林探险玩法"
-      ],
+      "relatedMechanisms": [],
       "filename": "MiaoMiaoTeaRestaurant.md"
     },
     "Minecraft": {
@@ -11651,8 +11530,7 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[模拟经营]-摩尔庄园-摩尔豆经济系统",
-        "模拟经营-摩尔庄园-摩尔豆经济系统"
+        "[模拟经营]-摩尔庄园-摩尔豆经济系统"
       ],
       "filename": "MoleManor.md"
     },
@@ -11694,7 +11572,6 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "格斗-真快11-定制连击",
         "[格斗]-MortalKombat11-剧情模式"
       ],
       "filename": "MortalKombat11.md"
@@ -11717,7 +11594,6 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "格斗-火影忍者-奥义系统",
         "[格斗]-NarutoMobile-奥义系统"
       ],
       "filename": "NarutoMobile.md"
@@ -11739,10 +11615,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "赛车-极品飞车热度-日夜循环热度系统",
-        "赛车-极品飞车热度-车辆改装系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "NeedForSpeedHeat.md"
     },
     "NetEaseRevelation": {
@@ -11824,10 +11697,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "策略卡牌-阴阳师百闻牌-式神战斗区系统",
-        "MOBA-Onmyoji-无符文系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "Onmyoji.md"
     },
     "Overwatch": {
@@ -11887,9 +11757,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "缩圈博弈系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "PUBG.md"
     },
     "Paladins": {
@@ -12094,9 +11962,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "音游-Phigros-判定线移动机制"
-      ],
+      "relatedMechanisms": [],
       "filename": "Phigros.md"
     },
     "PlanetZoo": {
@@ -12116,9 +11982,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "模拟经营-动物园之星-动物行为AI系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "PlanetZoo.md"
     },
     "PlantsVsZombies": {
@@ -12138,9 +12002,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "塔防 - 植物大战僵尸 - 阳光资源系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "PlantsVsZombies.md"
     },
     "QQFeiChe": {
@@ -12160,9 +12022,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "赛车-QQ飞车-漂移集气系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "QQFeiChe.md"
     },
     "R6Siege": {
@@ -12242,9 +12102,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "赛车-真实赛车3-真实车辆授权系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "RealRacing3.md"
     },
     "RedAlert2": {
@@ -12392,10 +12250,7 @@
         }
       ],
       "achievements": "",
-      "relatedMechanisms": [
-        "赛车-山脊赛车-甩尾氮气加速系统",
-        "赛车-山脊赛车-氮气加速系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "RidgeRacer.md"
     },
     "RiseOfTheRonin": {
@@ -12435,10 +12290,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "模拟经营-过山车大亨3-游客AI系统",
-        "模拟经营-过山车大亨3-设施编辑器"
-      ],
+      "relatedMechanisms": [],
       "filename": "RollerCoasterTycoon3.md"
     },
     "Rust": {
@@ -12600,10 +12452,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "策略卡牌-影之诗-进化系统",
-        "策略卡牌-影之诗-同名卡机制"
-      ],
+      "relatedMechanisms": [],
       "filename": "Shadowverse.md"
     },
     "ShaoNianJinYiWei": {
@@ -12663,11 +12512,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "MOBA-时空召唤-无锁定操作机制",
-        "MOBA-时空召唤-公平竞技设计",
-        "MOBA-时空召唤-战术标记系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "SkyArena.md"
     },
     "SonsOfTheForest": {
@@ -12708,8 +12553,7 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[格斗]-SoulcaliburVI-武器系统",
-        "格斗-灵魂能力6-武器系统"
+        "[格斗]-SoulcaliburVI-武器系统"
       ],
       "filename": "SoulcaliburVI.md"
     },
@@ -12794,9 +12638,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "模拟经营-星露谷物语-时间资源管理"
-      ],
+      "relatedMechanisms": [],
       "filename": "StardewValley.md"
     },
     "Starfield": {
@@ -12816,9 +12658,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "游戏卡：星空 (Starfield)"
-      ],
+      "relatedMechanisms": [],
       "filename": "Starfield.md"
     },
     "StreetFighter6": {
@@ -12840,7 +12680,6 @@
       "achievements": "",
       "relatedMechanisms": [
         "[格斗]-StreetFighter6-现代模式",
-        "格斗-街头霸王6-现代模式",
         "[格斗]-StreetFighter6-Drive系统"
       ],
       "filename": "StreetFighter6.md"
@@ -12886,7 +12725,6 @@
       "achievements": "",
       "relatedMechanisms": [
         "[战棋]-TacticsOgre-WT行动顺序系统",
-        "战棋-皇家骑士团2-WT行动顺序系统",
         "[战棋]-TacticsOgre-高低差战场系统",
         "[战棋]-TacticsOgre-多结局政治剧情"
       ],
@@ -12977,7 +12815,6 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "格斗-铁拳7-Rage系统",
         "[格斗]-Tekken7-Rage系统"
       ],
       "filename": "Tekken7.md"
@@ -13080,8 +12917,7 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[战棋]-TianDiJie-属性相克系统",
-        "战棋-天地劫-属性相克系统"
+        "[战棋]-TianDiJie-属性相克系统"
       ],
       "filename": "TianDiJie.md"
     },
@@ -13124,7 +12960,6 @@
       "achievements": "",
       "relatedMechanisms": [
         "[RPG]-TowerOfFantasy-开放世界探索",
-        "RPG-TowerOfFantasy-捏脸系统",
         "[RPG]-TowerOfFantasy-武器系统",
         "[RPG]-TowerOfFantasy-捏脸系统"
       ],
@@ -13147,11 +12982,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "赛车-赛道狂飙-赛道编辑器系统",
-        "赛车-TrackMania-排位匹配系统",
-        "赛车-赛道狂飙-玩家自制内容生态"
-      ],
+      "relatedMechanisms": [],
       "filename": "TrackMania.md"
     },
     "TriangleStrategy": {
@@ -13191,9 +13022,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "模拟经营-双点医院-科室流程优化系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "TwoPointHospital.md"
     },
     "UnicornOverlord": {
@@ -13401,7 +13230,6 @@
       "achievements": "",
       "relatedMechanisms": [
         "[策略卡牌]-我叫MT-召唤之门BOSS系统",
-        "[策略卡牌]-[我叫MT]-[召唤之门BOSS系统]",
         "[策略卡牌]-我叫MT-宠物融合系统"
       ],
       "filename": "WoJiaoMT.md"
@@ -13467,7 +13295,6 @@
       ],
       "achievements": "",
       "relatedMechanisms": [
-        "RPG-WutheringWaves-共鸣技能",
         "[RPG]-WutheringWaves-共鸣技能"
       ],
       "filename": "WutheringWaves.md"
@@ -13631,9 +13458,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "策略卡牌-游戏王-连锁系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "YuGiOhMasterDuel.md"
     },
     "Zelda": {
@@ -13783,8 +13608,7 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[Roguelike]-Barony-死亡幽灵系统",
-        "RPG-Barony-死亡幽灵系统"
+        "[Roguelike]-Barony-死亡幽灵系统"
       ],
       "filename": "barony.md"
     },
@@ -13851,8 +13675,7 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[开放世界探索]-[艾尔登法环]-赐福点存档机制",
-        "ARPG-艾尔登法环-死亡惩罚与记忆系统"
+        "[开放世界探索]-[艾尔登法环]-赐福点存档机制"
       ],
       "filename": "eldenring.md"
     },
@@ -14057,9 +13880,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "音游-osu!-社区谱面创作系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "osu.md"
     },
     "path-of-exile-2": {
