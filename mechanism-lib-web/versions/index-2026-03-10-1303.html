@@ -339,7 +339,7 @@
   
   <main>
     <div class="search-bar">
-      <input type="text" class="search-input" id="searchInput" placeholder="搜索... (多个关键词用空格分隔，支持交集搜索)">
+      <input type="text" class="search-input" id="searchInput" placeholder="搜索...">
       <select class="filter-select" id="tagFilter">
         <option value="">全部标签</option>
       </select>
@@ -436,14 +436,11 @@
       
       if (currentTab === 'mechanisms') {
         return Object.entries(data.mechanisms).filter(([key, m]) => {
-          // 多个关键词用空格分隔，支持交集搜索
-          const keywords = query.trim().split(/\s+/).filter(k => k);
-          const matchQuery = keywords.length === 0 || keywords.every(kw => 
-            m.title.toLowerCase().includes(kw) ||
-            m.gameName?.toLowerCase().includes(kw) ||
-            m.simpleDesc?.toLowerCase().includes(kw) ||
-            (m.tags && m.tags.some(t => t.toLowerCase().includes(kw)))
-          );
+          const matchQuery = !query || 
+            m.title.toLowerCase().includes(query) ||
+            m.gameName?.toLowerCase().includes(query) ||
+            m.simpleDesc?.toLowerCase().includes(query) ||
+            (m.tags && m.tags.some(t => t.toLowerCase().includes(query)));
           const matchTag = !tag || (m.tags && m.tags.includes(tag));
           return matchQuery && matchTag;
         });

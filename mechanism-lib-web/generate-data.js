@@ -371,8 +371,11 @@ function extractGameInfo(parsed, filename) {
     xStatement: '',
     tagline: '',
     playerStats: '',
+    coreLoop: '',
+    difficulty: '',
     prototype: '',
     pillars: [],
+    achievements: '',
     filename: filename
   };
   
@@ -398,14 +401,38 @@ function extractGameInfo(parsed, filename) {
   // === X-Statement (could be in main section or 补充信息) ===
   if (sections['X-Statement']) {
     info.xStatement = sections['X-Statement'].replace(/[*#>]/g, '').trim();
-  } else if (sections['补充信息']) {
-    const match = sections['补充信息'].match(/###\s*X-Statement\s*\n?>\s*([^#\n]+)/);
-    if (match) info.xStatement = match[1].trim();
+  } else {
+    // 尝试从 补充信息（来自 game-analyse-sdd） 获取
+    const suppKey = Object.keys(sections).find(k => k.includes('补充信息'));
+    if (suppKey) {
+      const match = sections[suppKey].match(/###\s*X-Statement\s*\n?>\s*([^#\n]+)/);
+      if (match) info.xStatement = match[1].trim();
+    }
   }
   
   // === 玩法原型 ===
   if (sections['玩法原型']) {
     info.prototype = sections['玩法原型'].replace(/[*#]/g, '').trim();
+  }
+  
+  // === 玩法环境 ===
+  if (sections['玩法环境']) {
+    const section = sections['玩法环境'];
+    // 核心循环
+    const loopMatch = section.match(/\*\*核心循环\*\*[：:]?\s*>?\s*([^#\n]+)/);
+    if (loopMatch) info.coreLoop = loopMatch[1].trim();
+    // 操作门槛
+    const diffMatch = section.match(/\*\*操作门槛\*\*[：:]?\s*>?\s*([^#\n]+)/);
+    if (diffMatch) info.difficulty = diffMatch[1].trim();
+  }
+  
+  // === 商业成就 ===
+  if (sections['补充信息']) {
+    const section = sections['补充信息'];
+    const achMatch = section.match(/###\s*商业成就\s*([\s\S]+)$/);
+    if (achMatch) {
+      info.achievements = achMatch[1].replace(/[-*]\s*/g, ' ').replace(/\n+/g, '; ').trim();
+    }
   }
   
   // === 核心支柱 ===
