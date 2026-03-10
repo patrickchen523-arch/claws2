@@ -218,19 +218,6 @@
       border-radius: 4px;
     }
     
-    .similar-list {
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-    }
-    
-    .similar-item {
-      padding: 0.5rem 0.75rem;
-      background: #f8fafc;
-      border-radius: 6px;
-      font-size: 0.9rem;
-    }
-    
     /* Modal */
     .modal-overlay {
       position: fixed;
@@ -573,43 +560,14 @@
         `;
       }
       
-      // 相似机制 - 每行一个，格式【游戏-机制】，点击跳转到对应机制
+      // 相似机制
       if (m.similarMechanisms && m.similarMechanisms.length > 0) {
-        const similarHtml = m.similarMechanisms
-          .filter(s => s && (s.mechanism || s.game))
-          .map(similar => {
-            const gameName = similar.game || '';
-            const mechanismName = similar.mechanism || '';
-            
-            if (!gameName && !mechanismName) return '';
-            
-            // 尝试在机制库中查找匹配的机制（根据游戏名+机制名）
-            const mechEntry = Object.entries(data.mechanisms).find(([key, mech]) => {
-              if (gameName && mech.gameName) {
-                return mech.gameName.toLowerCase().includes(gameName.toLowerCase()) &&
-                       mech.title.toLowerCase().includes(mechanismName.toLowerCase());
-              }
-              return mech.title.toLowerCase().includes(mechanismName.toLowerCase());
-            });
-            
-            const display = gameName ? `【${gameName}】${mechanismName}` : mechanismName;
-            
-            if (mechEntry) {
-              return `<div class="similar-item"><span class="modal-link" onclick="showMechanism('${mechEntry[0]}')">${display}</span></div>`;
-            } else {
-              return `<div class="similar-item">${display}</div>`;
-            }
-          })
-          .join('');
-        
-        if (similarHtml) {
-          html += `
-            <div class="modal-section">
-              <h3>相似机制</h3>
-              <div class="similar-list">${similarHtml}</div>
-            </div>
-          `;
-        }
+        html += `
+          <div class="modal-section">
+            <h3>相似机制</h3>
+            <p>${m.similarMechanisms.join(' / ')}</p>
+          </div>
+        `;
       }
       
       // 核心标签

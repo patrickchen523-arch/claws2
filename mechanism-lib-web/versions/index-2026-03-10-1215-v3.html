@@ -573,29 +573,29 @@
         `;
       }
       
-      // 相似机制 - 每行一个，格式【游戏-机制】，点击跳转到对应机制
+      // 相似机制 - 每行一个，格式【游戏-机制】
       if (m.similarMechanisms && m.similarMechanisms.length > 0) {
         const similarHtml = m.similarMechanisms
-          .filter(s => s && (s.mechanism || s.game))
+          .filter(s => s && (s.mechanism || s.game))  // 过滤空对象
           .map(similar => {
             const gameName = similar.game || '';
             const mechanismName = similar.mechanism || '';
             
             if (!gameName && !mechanismName) return '';
             
-            // 尝试在机制库中查找匹配的机制（根据游戏名+机制名）
-            const mechEntry = Object.entries(data.mechanisms).find(([key, mech]) => {
-              if (gameName && mech.gameName) {
-                return mech.gameName.toLowerCase().includes(gameName.toLowerCase()) &&
-                       mech.title.toLowerCase().includes(mechanismName.toLowerCase());
-              }
-              return mech.title.toLowerCase().includes(mechanismName.toLowerCase());
-            });
+            // 尝试在游戏库中查找匹配的游戏
+            let gameEntry = null;
+            if (gameName) {
+              gameEntry = Object.entries(data.games).find(([key, g]) => 
+                g.title.toLowerCase().includes(gameName.toLowerCase()) ||
+                g.gameName?.toLowerCase().includes(gameName.toLowerCase())
+              );
+            }
             
             const display = gameName ? `【${gameName}】${mechanismName}` : mechanismName;
             
-            if (mechEntry) {
-              return `<div class="similar-item"><span class="modal-link" onclick="showMechanism('${mechEntry[0]}')">${display}</span></div>`;
+            if (gameEntry) {
+              return `<div class="similar-item"><span class="modal-link" onclick="showGame('${gameEntry[0]}')">${display}</span></div>`;
             } else {
               return `<div class="similar-item">${display}</div>`;
             }

@@ -573,29 +573,32 @@
         `;
       }
       
-      // 相似机制 - 每行一个，格式【游戏-机制】，点击跳转到对应机制
+      // 相似机制 - 每行一个，格式【游戏-机制】
       if (m.similarMechanisms && m.similarMechanisms.length > 0) {
         const similarHtml = m.similarMechanisms
-          .filter(s => s && (s.mechanism || s.game))
+          .filter(s => s && s.length > 1 && s !== '：')  // 过滤无效内容
           .map(similar => {
-            const gameName = similar.game || '';
-            const mechanismName = similar.mechanism || '';
+            // 尝试提取游戏名：尝试匹配《游戏名》或"游戏名"
+            let gameName = '';
+            let mechanismName = similar;
             
-            if (!gameName && !mechanismName) return '';
+            const bookMatch = similar.match(/[《"]([^》"]+)[》"]/);
+            if (bookMatch) {
+              gameName = bookMatch[1];
+              mechanismName = similar.replace(bookMatch[0], '').replace(/[《"》]/g, '').trim();
+            }
             
-            // 尝试在机制库中查找匹配的机制（根据游戏名+机制名）
-            const mechEntry = Object.entries(data.mechanisms).find(([key, mech]) => {
-              if (gameName && mech.gameName) {
-                return mech.gameName.toLowerCase().includes(gameName.toLowerCase()) &&
-                       mech.title.toLowerCase().includes(mechanismName.toLowerCase());
-              }
-              return mech.title.toLowerCase().includes(mechanismName.toLowerCase());
-            });
+            // 尝试在游戏库中查找匹配的游戏
+            const gameEntry = Object.entries(data.games).find(([key, g]) => 
+              !gameName ? false : 
+              g.title.toLowerCase().includes(gameName.toLowerCase()) ||
+              g.gameName?.toLowerCase().includes(gameName.toLowerCase())
+            );
             
-            const display = gameName ? `【${gameName}】${mechanismName}` : mechanismName;
+            const display = gameName ? `【${gameName}】${mechanismName}` : `【${similar}】`;
             
-            if (mechEntry) {
-              return `<div class="similar-item"><span class="modal-link" onclick="showMechanism('${mechEntry[0]}')">${display}</span></div>`;
+            if (gameEntry) {
+              return `<div class="similar-item"><span class="modal-link" onclick="showGame('${gameEntry[0]}')">${display}</span></div>`;
             } else {
               return `<div class="similar-item">${display}</div>`;
             }
