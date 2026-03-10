@@ -81,20 +81,6 @@
       "demo": "GIF或视频链接（待补充）",
       "filename": "[Qualify]多模式并存设计.md"
     },
-    "7DaysToDie/生存FPS-7-Days-to-Die-血月丧尸潮系统.md": {
-      "title": "[生存 FPS]-7 Days to Die - 血月丧尸潮系统",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决末日生存\"苟活发育后无限躺平\"的倦怠感，通过固定周期高强度压力打破静态发育节奏",
-      "experienceGoal": "制造极致的生存紧张感与防御战爽感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "生存FPS-7-Days-to-Die-血月丧尸潮系统.md"
-    },
     "AdvanceWars/[Excellent]兵种相克系统.md": {
       "title": "[战棋]-[高级战争]-兵种相克系统",
       "gameName": "高级战争",
@@ -370,20 +356,6 @@
       "demo": "https://www.bilibili.com/video/BV1sW411Y7Gk/",
       "filename": "[Qualify]HomeCityCards.md"
     },
-    "AlbionOnline/MMORPG-阿尔比恩-资源分区设计.md": {
-      "title": "[MMORPG]-阿尔比恩-资源分区设计",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决MMO经济通胀和装备获取无成本的问题",
-      "experienceGoal": "提供心跳加速的肾上腺素体验",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "MMORPG-阿尔比恩-资源分区设计.md"
-    },
     "AlbionOnline/[Excellent]沙盒式自由经济系统.md": {
       "title": "[MMORPG]-[AlbionOnline]-[沙盒式自由经济系统]",
       "gameName": "Albion Online",
@@ -437,48 +409,6 @@
       ],
       "demo": "（待补充：切换装备演示 GIF）",
       "filename": "[Qualify]装备等于职业系统.md"
-    },
-    "AnimalCrossing/模拟经营-动物森友会-大头菜.md": {
-      "title": "[模拟经营]-动物森友会-大头菜",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决单机经营玩法缺乏随机乐趣和社交乐趣的问题",
-      "experienceGoal": "促进玩家之间信息沟通和联机，提供暴富机会",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "模拟经营-动物森友会-大头菜.md"
-    },
-    "ApexLegends/[BR]-Apex英雄-进化护盾.md": {
-      "title": "[BR]-Apex英雄-进化护盾",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决早期大逃杀游戏\"避战苟活收益远高于刚枪\"的痛点，避免辛辛苦苦搜刮一身神装被\"老六\"偷袭的极强挫败感",
-      "experienceGoal": "提供\"以战养战\"的正反馈爽感，鼓励玩家主动寻找交战，创造\"越打越强\"的滚雪球体验",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[BR]-Apex英雄-进化护盾.md"
-    },
-    "ArcaneOdyssey/RPG-杖剑传说-一键带副本.md": {
-      "title": "[RPG]-杖剑传说-一键带副本",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决社交互助精力成本太高的问题，老玩家带新也需要一直手操",
-      "experienceGoal": "提供老带新和互惠场景，大佬无需操作即可协助新人",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "RPG-杖剑传说-一键带副本.md"
     },
     "Arknights/[Excellent]ProbabilityProgression.md": {
       "title": "抽卡系统-明日方舟-概率递进机制",
@@ -582,20 +512,6 @@
       ],
       "demo": "GIF动图或视频链接",
       "filename": "[Qualify]OperatorSkillSystem.md"
-    },
-    "AshesOfCreation/MMORPG-创世灰烬-节点城市系统.md": {
-      "title": "[MMORPG]-创世灰烬-节点城市系统",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决传统MMO世界静态不变的无聊感",
-      "experienceGoal": "让阵营GVG对抗引入现实地缘政治的格局概念",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "MMORPG-创世灰烬-节点城市系统.md"
     },
     "AutoChess/[Excellent]QizishengxingXitong.md": {
       "title": "自走棋-刀塔自走棋-棋子升星系统",
@@ -714,20 +630,6 @@
       "demo": "",
       "filename": "[Qualify]YingxiongJinengXitong.md"
     },
-    "BestEleven/足球-最佳11人-模拟生涯.md": {
-      "title": "[足球]-最佳11人-模拟生涯",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "传统生涯模式耗时长，模拟生涯通过选择题简化",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "足球-最佳11人-模拟生涯.md"
-    },
     "BlackMythWukong/[Qualify]棍法系统.md": {
       "title": "RPG-BlackMythWukong-棍法系统",
       "gameName": "黑神话：悟空",
@@ -782,20 +684,6 @@
       "demo": "https://www.bilibili.com/video/BV1JD421s7oM/ （法术演示）",
       "filename": "[Qualify]法术系统.md"
     },
-    "BuriedBornes2/肉鸽-BuriedBornes2-离群亡魂异步PVP系统.md": {
-      "title": "[肉鸽]-BuriedBornes2-离群亡魂异步PVP系统",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "传统回合制卡牌中PVE与PVP玩法难以兼容，此机制化解了矛盾",
-      "experienceGoal": "将异步PVP玩法与肉鸽元素结合，塑造独特的\"回合制搜打撤\"体验",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "肉鸽-BuriedBornes2-离群亡魂异步PVP系统.md"
-    },
     "CODMW3/[Qualify]连杀奖励系统.md": {
       "title": "[FPS]CODMW3-连杀奖励系统",
       "gameName": "使命召唤：现代战争3",
@@ -823,34 +711,6 @@
       "demo": "COD连杀奖励演示视频",
       "filename": "[Qualify]连杀奖励系统.md"
     },
-    "COK/[SLG]-COK+联盟宝箱.md": {
-      "title": "[SLG]-COK+联盟宝箱",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "将\"贫富差距\"转化为了\"共生关系\"，大佬氪金被赋予利他属性，平民玩家则通过联盟宝箱蹭奖励，自发维护大佬",
-      "experienceGoal": "满足大R付费体验，氪佬充钱 →全盟领奖→频道刷\"谢谢老板\"→氪佬爽了→氪佬继续充钱",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[SLG]-COK+联盟宝箱.md"
-    },
-    "CS2/[FPS]-Counter-Strike 2-体积烟雾互动系统.md": {
-      "title": "[FPS]-Counter-Strike 2-体积烟雾互动系统",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "消除 CS:GO 时代\"单向烟\"与\"静态灰块\"的不公平体验。过去玩家利用贴图差异制造只有自己能看穿的\"单向烟\"，且烟雾一旦形成即为不可互动的\"视觉禁区\"",
-      "experienceGoal": "强化动态战术决策。让烟雾从\"静态掩体\"变为\"动态资源\"。通过允许玩家消耗资源/暴露信息去换取短暂的清晰视野，创造了全新的\"风险-回报\"博弈点",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[FPS]-Counter-Strike 2-体积烟雾互动系统.md"
-    },
     "CS2/[Qualify]经济博弈系统.md": {
       "title": "[FPS]CS2-经济博弈系统",
       "gameName": "反恐精英2",
@@ -877,48 +737,6 @@
       ],
       "demo": "CS2经济系统演示视频",
       "filename": "[Qualify]经济博弈系统.md"
-    },
-    "Calabiyau/[TPS]-卡拉彼丘-弦化机制.md": {
-      "title": "[TPS]-卡拉彼丘-弦化机制",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决传统射击游戏中\"掩体博弈\"的静态死板体验。在常规射击中，掩体后的信息获取和位移受限，弦化让\"墙体\"从障碍变成了\"高速公路\"和\"信息位\"",
-      "experienceGoal": "创造非对称的空间维度博弈。利用 2D 形态的\"薄\"来规避致命伤害，通过\"爬墙\"打破常规地图路径的思维定式，提供\"降维打击\"的战术爽感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[TPS]-卡拉彼丘-弦化机制.md"
-    },
-    "CallOfDutyWarzone/[BR]-使命召唤战区-古拉格对决.md": {
-      "title": "[BR]-使命召唤战区-古拉格对决",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决大逃杀中\"落地成盒\"或中途暴毙后，漫长且极度无聊的\"观战垃圾时间\"",
-      "experienceGoal": "提供\"不服再干一次\"的翻盘机会，用纯粹的个人枪法对抗来消解被老六阴死的愤怒",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[BR]-使命召唤战区-古拉格对决.md"
-    },
-    "CallOfDutyWarzone/[FPS]-使命召唤-连杀奖励系统.md": {
-      "title": "[FPS]-使命召唤-连杀奖励系统",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决传统FPS对战中，技术好的玩家只能通过干瘪的\"K/D数据\"来体现价值，缺乏实质性降维打击和战场统治力反馈的痛点",
-      "experienceGoal": "创造极致的\"滚雪球\"爽感与个人英雄主义巅峰。连杀奖励的阶梯式解锁，给玩家提供了极强的短期求生目标驱动；而呼叫高阶连杀时的火力倾泻，能产生无可比拟的心理优越感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[FPS]-使命召唤-连杀奖励系统.md"
     },
     "CardGameGeneral/[Qualify]DustSystem.md": {
       "title": "策略卡牌-通用-卡牌分解合成系统",
@@ -973,34 +791,6 @@
       ],
       "demo": "GIF动图或视频链接",
       "filename": "[Qualify]GoldenCarrotSystem.md"
-    },
-    "ChanganFantasy/回合制MMO-长安幻想-天都争锋.md": {
-      "title": "[回合制MMO]-[长安幻想]-[天都争锋]",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "满足回合制MMO中喜欢SLG玩法的用户需求",
-      "experienceGoal": "提供SLG核心玩法循环体验",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "回合制MMO-长安幻想-天都争锋.md"
-    },
-    "ChanganFantasy/回合制MMO-长安幻想-赛季挑战.md": {
-      "title": "[回合制MMO]-[长安幻想]-[赛季挑战]",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "满足回合制MMO中喜欢PVE硬核玩家成就感缺失的问题",
-      "experienceGoal": "通过全服竞速共斗，让PVE硬核玩家有成就展示舞台",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "回合制MMO-长安幻想-赛季挑战.md"
     },
     "CitiesSkylines/[Qualify]TrafficAI.md": {
       "title": "模拟经营-都市天际线-交通AI路径系统",
@@ -1110,20 +900,6 @@
       "demo": "城区规划演示图（需补充）",
       "filename": "[not_comfirmed]DistrictPlanning.md"
     },
-    "ClashRoyale/即时策略-皇室战争-父子局.md": {
-      "title": "[即时策略]-皇室战争-父子局",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决好友之间约战奖励较低、缺乏社交动力的问题",
-      "experienceGoal": "通过身份符号激发玩家再战欲望",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "即时策略-皇室战争-父子局.md"
-    },
     "CompanyOfHeroes/[Qualify]CoverSuppression.md": {
       "title": "[RTS]-CompanyOfHeroes-掩体压制系统",
       "gameName": "英雄连",
@@ -1232,20 +1008,6 @@
       "demo": "https://www.bilibili.com/video/BV1Qx411j7JV/ （DJMAX BGA集锦）",
       "filename": "[Excellent]BGA视听联动系统.md"
     },
-    "DNF/MMORPG-DNF-变身怪物.md": {
-      "title": "[MMORPG]-DNF-变身怪物",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决传统多人PVP模式单一固化的问题",
-      "experienceGoal": "让玩家化身BOSS，体验不同的战斗方式",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "MMORPG-DNF-变身怪物.md"
-    },
     "DNF/[Qualify]深渊副本.md": {
       "title": "格斗-DNF-深渊副本",
       "gameName": "DNF",
@@ -1345,20 +1107,6 @@
       ],
       "demo": "反补操作演示视频",
       "filename": "[Qualify]LastHitDenial.md"
-    },
-    "DarkestDungeon/RPG-暗黑地牢-理智值压力系统.md": {
-      "title": "[RPG]-暗黑地牢-理智值/压力系统",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决传统RPG角色状态扁平化的设定",
-      "experienceGoal": "在后半期创造极度紧张的背水一战氛围",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "RPG-暗黑地牢-理智值压力系统.md"
     },
     "DaveTheDiver/[Qualify]DayNightLoop.md": {
       "title": "模拟经营-潜水员戴夫-日夜双循环玩法",
@@ -1494,34 +1242,6 @@
       ],
       "demo": "https://www.bilibili.com/video/BV1Vx411q7D7/ （Deemo剧情动画合集）",
       "filename": "[Excellent]剧情叙事融合系统.md"
-    },
-    "DeltaForce/FPS夺金-三角洲行动-玩家扮演BOSS赤枭巡猎.md": {
-      "title": "[FPS夺金]-三角洲行动-玩家扮演 BOSS・赤枭巡猎",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "传统BOSS为固定AI、行为单一，打法套路化易疲劳",
-      "experienceGoal": "扮演BOSS的爽感、高风险高回报带来的成就感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "FPS夺金-三角洲行动-玩家扮演BOSS赤枭巡猎.md"
-    },
-    "DeltaForce/FPS夺金-三角洲行动-神秘脑机Ⅱ型渡鸦寻宝.md": {
-      "title": "[FPS夺金]-三角洲行动-神秘脑机Ⅱ型（渡鸦寻宝）",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决搜打撤游戏\"漫无目的跑图\"的低效问题",
-      "experienceGoal": "提供寻宝的紧张刺激感，满足玩家对高价值物资的需求",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "FPS夺金-三角洲行动-神秘脑机Ⅱ型渡鸦寻宝.md"
     },
     "DiabloIV/[Qualify]巅峰等级系统.md": {
       "title": "ARPG-暗黑破坏神4-巅峰等级系统",
@@ -1693,34 +1413,6 @@
       "demo": "雨天/雪天赛道实机演示",
       "filename": "[not_comfirmed]DynamicWeather.md"
     },
-    "DontStarve/生存沙盒-DontStarve-动态天气系统.md": {
-      "title": "[生存沙盒]-Don't Starve-动态天气系统",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决沙盒生存\"资源无限囤积后躺平\"的无聊感",
-      "experienceGoal": "营造真实生存的紧迫感与挑战感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "生存沙盒-DontStarve-动态天气系统.md"
-    },
-    "DontStarve/生存沙盒-DontStarve-环境压力系统.md": {
-      "title": "[生存沙盒]-Don't Starve-环境压力系统",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决沙盒生存游戏\"无限苟活\"的无聊感",
-      "experienceGoal": "营造真实生存的压迫感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "生存沙盒-DontStarve-环境压力系统.md"
-    },
     "DragonsDogma2/[Qualify]随从系统.md": {
       "title": "RPG-DragonsDogma2-随从系统",
       "gameName": "龙之信条2",
@@ -1801,62 +1493,6 @@
       ],
       "demo": "暂无，建议B站搜索\"戴森球计划 星际物流 教程\"",
       "filename": "[Qualify]InterstellarLogistics.md"
-    },
-    "EASportsFC26/足球-FC25-SquadBattles-45粒进球挑战.md": {
-      "title": "[足球]-FC 25-Squad Battles 模式-45粒进球挑战",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决任务耗时过长且重复枯燥的问题",
-      "experienceGoal": "快速获得奖励，解放玩家时间",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "足球-FC25-SquadBattles-45粒进球挑战.md"
-    },
-    "EASportsFC26/足球-FC26-RUSH模式金球致胜制玩法.md": {
-      "title": "[足球]-FC 26 RUSH模式 金球致胜制玩法",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "省去传统加时赛，直接将比赛推向最高潮",
-      "experienceGoal": "制造\"一球定胜负\"的紧张感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "足球-FC26-RUSH模式金球致胜制玩法.md"
-    },
-    "EASportsFC26/足球-FC26-UT模式-进化系统.md": {
-      "title": "[足球]-FC 26-UT模式-进化系统",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决玩家\"想赢但不想用大众脸\"的问题",
-      "experienceGoal": "赋予玩家独家定制的掌控感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "足球-FC26-UT模式-进化系统.md"
-    },
-    "EASportsFC26/足球-FC26-联赛模式欧冠赛制.md": {
-      "title": "[足球]-FC26-联赛模式-欧冠赛制",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决旧赛制强队4轮出线后开始\"划水\"的问题",
-      "experienceGoal": "每分必争，前8名与第9名待遇截然不同",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "足球-FC26-联赛模式欧冠赛制.md"
     },
     "EVEOnline/[Excellent]EVE-温和通胀货币系统.md": {
       "title": "[经济系统]-EVE-温和通胀货币系统",
@@ -1939,34 +1575,6 @@
       ],
       "demo": "EVE工业界面与生产流程演示（待补充）",
       "filename": "[Qualify]EVE-玩家生产制造链.md"
-    },
-    "EggyParty/UGC-蛋仔派对-剧本扮演.md": {
-      "title": "[UGC]-蛋仔派对-剧本扮演",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决玩家在游戏大厅缺乏和其他人互动契机",
-      "experienceGoal": "提供特殊交互，让多名玩家参与同一情景",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "UGC-蛋仔派对-剧本扮演.md"
-    },
-    "EggyParty/UGC-蛋仔派对-默契挑战.md": {
-      "title": "[UGC]-蛋仔派对-默契挑战",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决陌生玩家间缺乏话题导致社交破冰困难",
-      "experienceGoal": "创造社交破冰效果，展示稀有皮肤快感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "UGC-蛋仔派对-默契挑战.md"
     },
     "EggyParty/[Qualify]UGC地图工坊.md": {
       "title": "[派对游戏]-[蛋仔派对]-[UGC地图工坊]",
@@ -2142,118 +1750,6 @@
       "demo": "https://www.bilibili.com/video/BV1GJ411x7h7/",
       "filename": "[Qualify]死亡惩罚与记忆系统.md"
     },
-    "Enshrouded/[生存沙盒]-雾锁王国-水方块动态建造体.md": {
-      "title": "[生存沙盒]-雾锁王国-水方块・动态建造体",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "突破传统\"静态建材\"限制，让液体成为可设计的建筑模块",
-      "experienceGoal": "水利工程成就感、动态水景美学、功能与美学结合的建造乐趣",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[生存沙盒]-雾锁王国-水方块动态建造体.md"
-    },
-    "EscapeFromTarkov/[撤离类]-逃离塔科夫-安全箱.md": {
-      "title": "[撤离类]-逃离塔科夫-安全箱",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决硬核撤离游戏中\"死亡掉落全身上下所有物品\"带来的极度挫败感。防止新手或运气不佳的玩家陷入\"疯狂破产-无法起装\"的死亡螺旋",
-      "experienceGoal": "提供底线安全感。即使这一局开局不顺或最终战死，只要摸到了高价值的\"小金（如显卡、比特币）\"塞进裤裆（安全箱），这局就\"血赚不亏\"，将负面情绪转化为确定的收益快感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[撤离类]-逃离塔科夫-安全箱.md"
-    },
-    "Expedition33/回合制-远征33号-即时反应与弹反机制.md": {
-      "title": "[回合制]-远征33号-即时反应与弹反机制",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决传统回合制敌方回合的垃圾时间",
-      "experienceGoal": "将动作游戏的肌肉记忆与回合制脑力规划结合",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "回合制-远征33号-即时反应与弹反机制.md"
-    },
-    "F1/RAC-通用-防御驾驶.md": {
-      "title": "[RAC]-[通用]-[防御驾驶]",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决竞速只有\"谁跑得快\"单一维度，领先后缺乏操作内容的问题",
-      "experienceGoal": "增加\"位置博弈\"对抗维度，营造近身缠斗的紧张感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "RAC-通用-防御驾驶.md"
-    },
-    "F1Manager/RAC-F1-manager-赛季制资源管理策略.md": {
-      "title": "[RAC]-[F1 manager]-[赛季制资源管理策略]",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "不同赛季之间车辆体验同质化问题",
-      "experienceGoal": "为多赛季生涯提供持续策略决策",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "RAC-F1-manager-赛季制资源管理策略.md"
-    },
-    "FCMobile/足球-FC足球世界-图鉴系统.md": {
-      "title": "[足球]-FC足球世界-图鉴系统",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决闲置资源囤积问题，将过期资源变废为宝",
-      "experienceGoal": "提供收集即提升的爽感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "足球-FC足球世界-图鉴系统.md"
-    },
-    "FCMobile/足球-FC足球世界-进攻对战.md": {
-      "title": "[足球]-FC足球世界-进攻对战",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决碎片化时间无法体验完整足球游戏的问题",
-      "experienceGoal": "用最短时间体验完整比赛爽感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "足球-FC足球世界-进攻对战.md"
-    },
-    "FF14/MMO-FF14-宠物互动彩蛋.md": {
-      "title": "[MMO]-FF14-宠物互动彩蛋",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决陌生人社交缺乏话题契机的问题",
-      "experienceGoal": "为携带同种道具的玩家牵线，形成破冰效应",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "MMO-FF14-宠物互动彩蛋.md"
-    },
     "FPS/[Excellent]FPS-干员技能系统.md": {
       "title": "[FPS]-[三角洲行动]-干员技能系统",
       "gameName": "三角洲行动",
@@ -2307,20 +1803,6 @@
       "similarMechanisms": [],
       "demo": "三角洲行动载具演示",
       "filename": "[Excellent]FPS-载具作战系统.md"
-    },
-    "Fantasian/JRPG-Fantasian-Dimengeon存怪系统.md": {
-      "title": "[JRPG]-Fantasian-Dimengeon存怪系统",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决传统回合制JRPG中频繁切屏导致\"拖沓感\"严重的问题",
-      "experienceGoal": "将枯燥的\"打杂兵\"转化为\"割草无双\"的爽感体验",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "JRPG-Fantasian-Dimengeon存怪系统.md"
     },
     "FantasyWestJourney/[Excellent]MasterApprenticeSystem.md": {
       "title": "MMO-梦幻西游-师徒系统",
@@ -2659,48 +2141,6 @@
       "demo": "游戏内 Battle Pass 界面截图",
       "filename": "[Qualify]DualPassSystem.md"
     },
-    "ForzaHorizon5/RAC-极限竞速地平线-时间回溯.md": {
-      "title": "[RAC]-[极限竞速：地平线]-[时间回溯]",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决玩家一次失误就葬送整场比赛的问题",
-      "experienceGoal": "创造低挫败感、高容错率的驾驶体验",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "RAC-极限竞速地平线-时间回溯.md"
-    },
-    "ForzaHorizon5/RAC-通用-幽灵车陪跑.md": {
-      "title": "[RAC]-[通用]-[幽灵车陪跑]",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "计时赛单人跑圈缺乏参照物和竞争感",
-      "experienceGoal": "给玩家一个可追赶的实体目标",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "RAC-通用-幽灵车陪跑.md"
-    },
-    "GTAV/RAC-GTAol-载具切换.md": {
-      "title": "[RAC]-[GTAol]-[载具切换]",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决单一载具竞速容易因车辆性能差距导致前半段定胜负、后半段无悬念的问题",
-      "experienceGoal": "将一场比赛变为多维适应力的综合考验，每次切换制造排名重洗机会",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "RAC-GTAol-载具切换.md"
-    },
     "General/[Excellent]ChallengeTaskSystem.md": {
       "title": "商业化-通用-挑战任务系统",
       "gameName": "堡垒之夜",
@@ -2948,34 +2388,6 @@
       ],
       "demo": "https://www.bilibili.com/video/BV1sK4y1a7uE/",
       "filename": "[Qualify]抽卡与命座系统.md"
-    },
-    "GooseGooseDuck/[非对称]-鹅鸭杀-双中立阵营机制.md": {
-      "title": "[非对称]-鹅鸭杀-双中立阵营机制",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "传统\"好人 vs 狼人\"的零和对抗让不少休闲玩家望而却步。双中立阵营的引入有效稀释了对抗浓度",
-      "experienceGoal": "降低对抗强度和社交压力，让休闲玩家能以\"第三方旁观者\"的轻松心态参与游戏",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[非对称]-鹅鸭杀-双中立阵营机制.md"
-    },
-    "GranblueFantasy/联机共斗ARPG-碧蓝幻想Relink-LinkTime.md": {
-      "title": "[联机共斗ARPG]-碧蓝幻想Relink-Link Time",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决多人游戏中各打各的\"单机化\"问题",
-      "experienceGoal": "打造\"心意相通\"的羁绊感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "联机共斗ARPG-碧蓝幻想Relink-LinkTime.md"
     },
     "GuildSystem/[Qualify]FantasyWestJourney-GuildFacility.md": {
       "title": "MMO-梦幻西游-帮派设施升级系统",
@@ -3368,20 +2780,6 @@
       "demo": "培育效果展示（需补充）",
       "filename": "[not_comfirmed]CatBreeding.md"
     },
-    "HeartTown/模拟经营-心动小镇-飞地机制.md": {
-      "title": "[模拟经营]-心动小镇-飞地机制",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决大世界难以遇到其他玩家、屋子不方便展示的问题",
-      "experienceGoal": "形成温馨的邻里社区氛围",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "模拟经营-心动小镇-飞地机制.md"
-    },
     "Hearthstone/[Qualify]ClassRestriction.md": {
       "title": "策略卡牌-炉石传说-职业限制机制",
       "gameName": "炉石传说",
@@ -3435,20 +2833,6 @@
       ],
       "demo": "GIF：炉石传说法力水晶随回合增长演示",
       "filename": "[Qualify]法力水晶系统.md"
-    },
-    "Helldivers2/[TPS]-绝地潜兵2-战略配备指令输入.md": {
-      "title": "[TPS]-绝地潜兵2-战略配备指令输入",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决\"战斗节奏过载\"导致的策略感丧失。传统射击游戏一键释放技能会导致玩家无脑点击；该机制强制玩家在激战中执行\"不可中断的复杂操作\"，人为制造战术空档",
-      "experienceGoal": "强化\"极限操作\"的成就感。在坦克追击、虫潮包围下冷静按出\"500KG炸弹\"指令并成功脱身的爽感，远超简单的一键释放",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[TPS]-绝地潜兵2-战略配备指令输入.md"
     },
     "HeroesOfTheStorm/[not_comfirmed]SharedExperience.md": {
       "title": "MOBA-HOTS-共享经验机制",
@@ -3746,132 +3130,6 @@
       "demo": "开黑组队界面/亲密关系展示",
       "filename": "[not_comfirmed]SocialMatchmaking.md"
     },
-    "HuaTangZhi/回合制MMO-幻唐志-精力系统.md": {
-      "title": "[回合制MMO]-[幻唐志]-[精力系统]",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决用户被迫参与不喜欢玩法的情况",
-      "experienceGoal": "用户仅体验喜欢的玩法即可获得全部奖励",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "回合制MMO-幻唐志-精力系统.md"
-    },
-    "HuaTangZhi/回合制MMO-幻唐志逍遥外传-专属宠物天赋.md": {
-      "title": "[回合制MMO]-[幻唐志：逍遥外传]-[专属宠物天赋]",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决用户在老宠物培养上的沉没成本问题",
-      "experienceGoal": "让每一只宠物都有在不同战斗环境中出场的机会",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "回合制MMO-幻唐志逍遥外传-专属宠物天赋.md"
-    },
-    "HuaTangZhi/回合制MMO-幻唐志逍遥外传-启明之战.md": {
-      "title": "[回合制MMO]-[幻唐志：逍遥外传]-[启明之战]",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决新服节奏过快，头部玩家没有匹配对手导致流失的问题",
-      "experienceGoal": "让新服玩家提前体验顶级赛事内容，防范头部玩家流失",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "回合制MMO-幻唐志逍遥外传-启明之战.md"
-    },
-    "HuaTangZhi/回合制MMO-幻唐志逍遥外传-成就月.md": {
-      "title": "[回合制MMO]-[幻唐志：逍遥外传]-[成就月]",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决年度资料片更新后内容触达面小的问题",
-      "experienceGoal": "让用户渐进式实现成就挑战，逐步熟悉年度资料片内容",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "回合制MMO-幻唐志逍遥外传-成就月.md"
-    },
-    "HuaTangZhi/回合制MMO-幻唐志逍遥外传-灵兽对战.md": {
-      "title": "[回合制MMO]-[幻唐志：逍遥外传]-[灵兽对战]",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "满足回合制MMO中喜欢宝可梦like玩法的用户需求",
-      "experienceGoal": "通过抓宠-培养-战斗的体验提供替代体验",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "回合制MMO-幻唐志逍遥外传-灵兽对战.md"
-    },
-    "HuaTangZhi/回合制MMO-幻唐志逍遥外传-玲珑遗迹.md": {
-      "title": "[回合制MMO]-[幻唐志：逍遥外传]-[玲珑遗迹]",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "满足回合制MMO中喜欢Roguelike玩法的用户需求",
-      "experienceGoal": "通过随机搭配战斗策略组合，为玩家提供每次不同的体验",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "回合制MMO-幻唐志逍遥外传-玲珑遗迹.md"
-    },
-    "HuaTangZhi/回合制MMO-幻唐志逍遥外传-竖屏适配体验设计.md": {
-      "title": "[回合制MMO]-[幻唐志：逍遥外传]-[竖屏适配体验设计]",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "空有交互界面的竖屏设计，而没有竖屏实际带来的便捷体验",
-      "experienceGoal": "实现更便捷的定制化竖屏交互体验",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "回合制MMO-幻唐志逍遥外传-竖屏适配体验设计.md"
-    },
-    "InazumaEleven/足球-闪电十一人-工资帽.md": {
-      "title": "[足球]-闪电十一人：英雄们的胜利之路-工资帽",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "平衡游戏环境，防止堆砌最强角色",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "足球-闪电十一人-工资帽.md"
-    },
-    "InfiniteNikki/开放世界-无限暖暖-大世界异步合影.md": {
-      "title": "[开放世界]-无限暖暖-大世界异步合影",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决同步拍照精力成本高、单机环境难以实现社交的问题",
-      "experienceGoal": "在单机环境中提供异步社交，展示玩家服装搭配",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "开放世界-无限暖暖-大世界异步合影.md"
-    },
     "IntoTheBreach/[Qualify]BuildingProtection.md": {
       "title": "[战棋]-[陷阵之志]-[建筑保护目标]",
       "gameName": "陷阵之志",
@@ -4078,20 +3336,6 @@
       ],
       "demo": "身份系统介绍：https://www.bilibili.com/video/BV1QW411P7F4/",
       "filename": "[Qualify]身份系统.md"
-    },
-    "Kards/Roguelike-卡厄思梦境-类肉鸽搜打撤的存档带出机制.md": {
-      "title": "[Roguelike]-卡厄思梦境-类肉鸽搜打撤的存档带出机制",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "满足玩家对极品构筑不舍得放弃的心理",
-      "experienceGoal": "延续单局爽感，打破Roguelike每次全新开始的设定",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "Roguelike-卡厄思梦境-类肉鸽搜打撤的存档带出机制.md"
     },
     "KingdomRush/[Qualify]ActiveSkillSystem.md": {
       "title": "塔防 - 王国保卫战 - 主动技能系统",
@@ -4479,48 +3723,6 @@
       "demo": "暂无（需补充GIF或视频链接）",
       "filename": "[not_comfirmed]BlockMechanism.md"
     },
-    "LibraryOfRuina/卡牌-废墟图书馆-动态拼点博弈机制.md": {
-      "title": "[卡牌]-Library of Ruina-动态拼点博弈机制",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决传统卡牌游戏\"你打你的，我打我的\"的交互割裂感",
-      "experienceGoal": "增强回合制战斗的交互感和动作碰撞感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "卡牌-废墟图书馆-动态拼点博弈机制.md"
-    },
-    "LostLight/FPS夺金-萤火突击-俘虏绑架机制.md": {
-      "title": "[FPS夺金]-萤火突击-俘虏绑架机制",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决传统搜打撤游戏中击败敌人后仅能搜刮尸体的单一收益模式",
-      "experienceGoal": "制造满载而归的掠夺快感，通过关小黑屋和追踪复仇增加社交互动",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "FPS夺金-萤火突击-俘虏绑架机制.md"
-    },
-    "Marathon/FPS夺金-失落星船-植入物与核心.md": {
-      "title": "[FPS夺金]-失落星船：马拉松-植入物与核心",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决传统搜打撤\"数值固化\"问题，防止老手凭借装备无脑碾压新手",
-      "experienceGoal": "降低纯枪法门槛，提升策略深度",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "FPS夺金-失落星船-植入物与核心.md"
-    },
     "Marathon/[Excellent]三层构筑系统.md": {
       "title": "[FPS]-[Marathon]-[三层构筑系统]",
       "gameName": "Marathon",
@@ -4552,34 +3754,6 @@
       "demo": "（待补充：配装界面截图/GIF）",
       "filename": "[Excellent]三层构筑系统.md"
     },
-    "MarioKart/RAC-非拟真赛车-名次道具分配.md": {
-      "title": "[RAC]-[非拟真赛车]-[名次道具分配]",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "纯竞速比赛中一旦拉开差距就再难追回",
-      "experienceGoal": "压缩领先与落后的差距，让每一局都有悬念",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "RAC-非拟真赛车-名次道具分配.md"
-    },
-    "MarioKart/RAC-非拟真赛车-漂移集气资源转化.md": {
-      "title": "[RAC]-[非拟真赛车]-[漂移集气/资源转化]",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "传统拟真赛车游戏过弯操作单一",
-      "experienceGoal": "建立\"以技巧换速度\"的核心循环",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "RAC-非拟真赛车-漂移集气资源转化.md"
-    },
     "MarvelDuel/_index.md": {
       "title": "漫威对决 / Marvel Duel",
       "gameName": "",
@@ -4593,20 +3767,6 @@
       "similarMechanisms": [],
       "demo": "",
       "filename": "_index.md"
-    },
-    "MarvelRivals/[TPS]-[漫威争锋]-[天赋强化].md": {
-      "title": "[TPS]-[漫威争锋]-[天赋强化]",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "传统模式无局内成长，后期玩法重复乏味",
-      "experienceGoal": "创造\"天胡\"局的爽感，增加每一局的不可预测性和差异化。强化割草感，营造无双的超级英雄体验。",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[TPS]-[漫威争锋]-[天赋强化].md"
     },
     "MarvelSnap/[Qualify]位置机制.md": {
       "title": "策略卡牌-漫威终极逆转-位置机制",
@@ -4634,48 +3794,6 @@
       ],
       "demo": "GIF：漫威终极逆转位置机制演示",
       "filename": "[Qualify]位置机制.md"
-    },
-    "MatchdayChampions/足球-Matchday-Champions-比赛玩法.md": {
-      "title": "[足球]-Matchday Champions-比赛玩法",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "相比传统足球游戏无需操作，比赛节奏更快",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "足球-Matchday-Champions-比赛玩法.md"
-    },
-    "MayBe/放置RPG-出发吧麦芬-双人匹配挂机.md": {
-      "title": "[放置RPG]-出发吧麦芬-双人匹配/挂机",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决常规组队RPG操作压力大、同步互助精力成本高的问题",
-      "experienceGoal": "提供无压力陪伴感，强调互帮互助",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "放置RPG-出发吧麦芬-双人匹配挂机.md"
-    },
-    "MengHuanNewZhuXian/回合制MMO-梦幻新诛仙-大漠狐冢.md": {
-      "title": "[回合制MMO]-[梦幻新诛仙]-[大漠狐冢]",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "满足回合制MMO中喜欢搜打撤玩法的用户需求",
-      "experienceGoal": "通过开局收集-资源争夺-大金撤离的体验，为搜打撤用户提供替代体验",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "回合制MMO-梦幻新诛仙-大漠狐冢.md"
     },
     "MetalSlug/[Qualify]人质营救系统.md": {
       "title": "街机-MetalSlug-人质营救系统",
@@ -4862,20 +3980,6 @@
       "demo": "https://www.youtube.com/watch?v=2A8h3v9j5W4",
       "filename": "[Qualify]定制连击.md"
     },
-    "MyGardenWorld/模拟经营-我的花园世界-交换花.md": {
-      "title": "[模拟经营]-我的花园世界-交换花",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决单人全图鉴目标过于困难、缺乏合作目标的问题",
-      "experienceGoal": "通过交换形成社交互助和老带新",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "模拟经营-我的花园世界-交换花.md"
-    },
     "NarutoMobile/[Qualify]奥义系统.md": {
       "title": "格斗-火影忍者-奥义系统",
       "gameName": "Naruto Mobile",
@@ -4925,62 +4029,6 @@
       ],
       "demo": "庄园系统演示：https://www.bilibili.com/video/BV1GJ411x7h7/",
       "filename": "[Qualify]庄园系统.md"
-    },
-    "Nightbound/夺金-永劫无间无间镖客-局外镖契保险.md": {
-      "title": "[夺金]-永劫无间无间镖客-局外镖契保险",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决搜打撤类游戏中高投入高风险带来的挫败感",
-      "experienceGoal": "提供付费获取高回报的爽感，允许出现双倍大红，提供战败补偿",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "夺金-永劫无间无间镖客-局外镖契保险.md"
-    },
-    "Nightbound/夺金-永劫无间无间镖客-满江红商友良赌坊玩法.md": {
-      "title": "[夺金]-永劫无间无间镖客-满江红商友良赌坊玩法",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决对局中期资源积累后缺乏刺激点和目标的问题",
-      "experienceGoal": "提供心跳加速的赌徒快感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "夺金-永劫无间无间镖客-满江红商友良赌坊玩法.md"
-    },
-    "NightboundMobile/夺金-永劫无间手游-花露机制时间进度升级式物资.md": {
-      "title": "[夺金]-永劫无间手游-花露机制&时间进度升级式物资",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决夺金模式中后期缺乏动态博弈目标的问题",
-      "experienceGoal": "创造\"养蛊式\"的刺激感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "夺金-永劫无间手游-花露机制时间进度升级式物资.md"
-    },
-    "Nioh/ARPG-仁王-三段架势系统.md": {
-      "title": "[ARPG]-仁王-三段架势系统",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决单一武器动作模组有限的问题",
-      "experienceGoal": "赋予玩家\"见招拆招\"的大师感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "ARPG-仁王-三段架势系统.md"
     },
     "Onmyoji/[Qualify]RuneFreeSystem.md": {
       "title": "MOBA-Onmyoji-无符文系统",
@@ -5036,20 +4084,6 @@
       "demo": "GIF：阴阳师百闻牌式神战斗区演示",
       "filename": "[Qualify]式神战斗区系统.md"
     },
-    "PEAK/生存冒险-PEAK-队友整蛊.md": {
-      "title": "[生存冒险]-PEAK-队友整蛊",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决合作闯关多把难度放在操作上、容易互相责怪的问题",
-      "experienceGoal": "通过诙谐的误伤机制增加社交情景",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "生存冒险-PEAK-队友整蛊.md"
-    },
     "PUBG/[Qualify]缩圈博弈系统.md": {
       "title": "[FPS]PUBG-缩圈博弈系统",
       "gameName": "绝地求生",
@@ -5076,76 +4110,6 @@
       ],
       "demo": "缩圈实况演示视频",
       "filename": "[Qualify]缩圈博弈系统.md"
-    },
-    "PathOfExile/ARPG-流放之路-技能天赋.md": {
-      "title": "[ARPG]-流放之路-技能天赋",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决技能固定化的限制",
-      "experienceGoal": "实现\"我的技能我做主\"的高度定制化成就感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "ARPG-流放之路-技能天赋.md"
-    },
-    "PeaceEliteSubway/夺金-和平精英地铁逃生-动力机甲玩法.md": {
-      "title": "[夺金]-和平精英地铁逃生-动力机甲玩法",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决夺金模式中后期缺乏\"统治力\"装备的问题",
-      "experienceGoal": "提供\"人形高达\"的降维打击爽感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "夺金-和平精英地铁逃生-动力机甲玩法.md"
-    },
-    "PeaceEliteTomb/夺金-和平精英古墓迷途-PVE式交互大金彩蛋.md": {
-      "title": "[夺金]-和平精英古墓迷途-PVE式交互大金/彩蛋",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决传统夺金模式\"搜刮-撤离\"流程机械枯燥的问题",
-      "experienceGoal": "提供\"文物有灵\"的沉浸式惊喜感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "夺金-和平精英古墓迷途-PVE式交互大金彩蛋.md"
-    },
-    "PeaceEliteTomb/夺金-和平精英古墓迷途-赛季制类MMO法宝.md": {
-      "title": "[夺金]-和平精英古墓迷途-赛季制类MMO法宝",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决传统夺金模式\"一局清空、缺乏长线积累\"的问题",
-      "experienceGoal": "提供长期养成成就感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "夺金-和平精英古墓迷途-赛季制类MMO法宝.md"
-    },
-    "Persona5/JRPG-女神异闻录5-One-More与极总攻击.md": {
-      "title": "[JRPG]-女神异闻录5-One More与极总攻击",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决传统回合制战斗节奏拖沓的问题",
-      "experienceGoal": "构建极致的奖励正反馈循环",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "JRPG-女神异闻录5-One-More与极总攻击.md"
     },
     "Phigros/[Qualify]判定线移动机制.md": {
       "title": "音游-Phigros-判定线移动机制",
@@ -5227,20 +4191,6 @@
       ],
       "demo": "GIF动图或视频链接",
       "filename": "[Excellent]SunlightSystem.md"
-    },
-    "ProjectZomboid/生存沙盒-Project-Zomboid-声音视野系统.md": {
-      "title": "[生存沙盒]-Project Zomboid - 声音/视野（丧尸感知与潜行）系统",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决末日生存\"无脑硬刚\"的单一玩法问题，让生存策略更具层次感",
-      "experienceGoal": "营造拟真末日的紧张博弈感，带来\"如履薄冰的谨慎\"与\"背刺秒杀的爽感\"",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "生存沙盒-Project-Zomboid-声音视野系统.md"
     },
     "R6Siege/[Qualify]可破坏环境系统.md": {
       "title": "[FPS]R6Siege-可破坏环境系统",
@@ -5828,20 +4778,6 @@
       "demo": "https://www.bilibili.com/video/BV1sW411Y7V8/",
       "filename": "[not_comfirmed]NavalUnits.md"
     },
-    "RefereeSimulator/足球-裁判模拟器.md": {
-      "title": "[足球]-裁判模拟器",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "为玩家提供验证性体验，获得掌控比赛的快感",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "足球-裁判模拟器.md"
-    },
     "RidgeRacer/[Qualify]DriftNitrousSystem.md": {
       "title": "赛车-山脊赛车-甩尾氮气加速系统",
       "gameName": "山脊赛车",
@@ -5953,244 +4889,6 @@
       "demo": "游客行为演示视频（需补充）",
       "filename": "[Qualify]VisitorAI.md"
     },
-    "Rust/[生存沙盒]-RUST-基地建造.md": {
-      "title": "[生存沙盒]-RUST-基地建造",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决生存游戏中\"无固定家园\"的漂泊感，提供长期进度沉淀载体",
-      "experienceGoal": "提供\"家园归属感\"与\"防御成就感\"，让玩家通过精心设计的基地布局对抗掠夺",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[生存沙盒]-RUST-基地建造.md"
-    },
-    "Rust/[生存沙盒]-RUST-枪械后坐力控制.md": {
-      "title": "[生存沙盒]-RUST-枪械后坐力控制",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "降低\"无脑扫射\"，拉高PVP对抗深度，区分新手与高手",
-      "experienceGoal": "精准击杀的爽感、熟练度成长、高手操作优越感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[生存沙盒]-RUST-枪械后坐力控制.md"
-    },
-    "Rust/[生存沙盒]-RUST-爆炸物破防.md": {
-      "title": "[生存沙盒]-RUST-爆炸物破防",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决\"纯枪械无法有效破坏建筑\"导致的攻防僵局，让PvP从单纯枪战延伸为\"资源战+战术破防\"",
-      "experienceGoal": "创造\"攻坚成功\"的掠夺爽感，强化\"高成本高回报\"的决策张力",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[生存沙盒]-RUST-爆炸物破防.md"
-    },
-    "Rust/[生存沙盒]-RUST-采集小游戏.md": {
-      "title": "[生存沙盒]-RUST-采集小游戏",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "缓解采集动作的单调性、重复性，避免长期采集导致的体验疲劳",
-      "experienceGoal": "提升采集趣味性、操作参与感，获得资源加成的爽感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[生存沙盒]-RUST-采集小游戏.md"
-    },
-    "SanGuoZhanLue/[SLG]-三国志战略版-动态地图.md": {
-      "title": "[SLG]-三国志战略版-动态地图",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决\"地缘僵化\"。传统SLG地图是静态的，关卡和码头一旦被堵死，战局易陷入长期的拉锯战或垃圾时间。通过动态地图调整地图连通性，让劣势方有机会利用\"天时地利\"打破僵局",
-      "experienceGoal": "还原\"天时地利\"的真实战争感。强制玩家跳出固定思维（如只能走码头、关卡），利用环境变化创造\"奇袭\"高光（如：趁涨汛期无险可守直捣黄龙），增加战场的不可预测性和翻盘点",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[SLG]-三国志战略版-动态地图.md"
-    },
-    "SanGuoZhanLue/[SLG]-三国志战略版-季节主题玩法.md": {
-      "title": "[SLG]-三国志战略版-季节主题玩法",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决\"赛季疲劳感\"，通过规则重置，春季解决前期发育慢的焦虑，夏季用火攻水战丰富阵地战枯燥，秋季解决资源枯竭导致的战斗停滞，冬季打破龟缩防守的僵局",
-      "experienceGoal": "打造\"过山车式\"的赛季心流，春季提供\"私服般\"的数值爽感，让玩家快速发育成长，夏季通过火攻、水战强化对抗激烈程度，秋季提供\"无限续航\"的战斗爽感，让玩家打得起仗、敢打仗，冬季提供\"绝地翻盘\"的紧张感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[SLG]-三国志战略版-季节主题玩法.md"
-    },
-    "SanGuoZhanLue/[SLG]-三国志战略版-自由行军与碰撞交战.md": {
-      "title": "[SLG]-三国志战略版-自由行军与碰撞交战",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决传统率土-Like点对点\"飞线\"行军缺乏过程变数，没有操作空间的问题",
-      "experienceGoal": "引入RTS微操，衍生敢死队探路、走位拉扯等技巧，拉高操作上限",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[SLG]-三国志战略版-自由行军与碰撞交战.md"
-    },
-    "SanGuoZhanLue/[SLG]-三战-兵种相克机制.md": {
-      "title": "[SLG]-三战-兵种相克机制",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "避免SLG沦为纯粹的\"数值对撞\"，缺乏以小博大的操作空间",
-      "experienceGoal": "增加侦察预判的乐趣，实现\"以弱胜强\"的高光时刻",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[SLG]-三战-兵种相克机制.md"
-    },
-    "SanguoBinghe/[SLG]-COK+车头车身设定.md": {
-      "title": "[SLG]-COK+车头车身设定",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "COK的强数值底层机制导致付费=战力，高付费玩家对低付费玩家形成碾压态势，而通过\"车头车身\"机制，中小R的T3/T4兵也能在车头T5/T6科技加持下打出伤害，强化参与感",
-      "experienceGoal": "营造\"大佬带飞，兄弟齐心\"的集体荣誉感，大R通过车头身份，满足社交虚荣心，中小R通过车身参与，获得\"狐假虎威\"的战斗爽感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[SLG]-COK+车头车身设定.md"
-    },
-    "SanguoBinghe/[SLG]-三冰-武将等级共享.md": {
-      "title": "[SLG]-三冰-武将等级共享",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决抽到新卡没资源练级，导致新卡压箱底的沉没成本痛点",
-      "experienceGoal": "鼓励玩家大胆尝试不同阵容，提升抽卡带来的即时爽感（即插即用）",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[SLG]-三冰-武将等级共享.md"
-    },
-    "SanguoBinghe/[SLG]-三国冰河时代-侦察玩法.md": {
-      "title": "[SLG]-三国冰河时代-侦察玩法",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "避免前期信息过载，以及\"盲打\"带来的巨大战损和挫败感",
-      "experienceGoal": "引入信息战，强化知己知彼的策略谋划感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[SLG]-三国冰河时代-侦察玩法.md"
-    },
-    "SanguoBinghe/[SLG]-三国冰河时代-国家官职与区域任命.md": {
-      "title": "[SLG]-三国冰河时代-国家官职与区域任命",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决获胜仅给一次性资源难以满足大R玩家长线认同感和炫耀需求的问题",
-      "experienceGoal": "制造荣誉感和掌控感，刺激同盟凝聚力及区服内玩家的社交互动（恩怨）",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[SLG]-三国冰河时代-国家官职与区域任命.md"
-    },
-    "SanguoBinghe/[SLG]-三国冰河时代-城池连通与区域解锁.md": {
-      "title": "[SLG]-三国冰河时代-城池连通与区域解锁",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决自由大地图前期冲突过于随机、战线过长导致玩家不知道往哪打的问题",
-      "experienceGoal": "将宏大目标切割成清晰的线性小目标，制造局部高压团战，让战争节奏更可控",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[SLG]-三国冰河时代-城池连通与区域解锁.md"
-    },
-    "SanguoBinghe/[SLG]-三国冰河时代-居民管理.md": {
-      "title": "[SLG]-三国冰河时代-居民管理",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决COK前期枯燥的等待期问题，传统COK前期只有枯燥的造兵、升级建筑倒计时，依靠剧情+数值膨胀做驱动。而引入轻量化经营玩法，丰富了玩家的前期操作&玩法乐趣（点气泡、安排工作等），有效填充了新手期的留存漏斗",
-      "experienceGoal": "用轻量化的模拟经营玩法包装数值验证的挂机游戏，为玩家提供\"上帝视角\"的掌控感与通过简单操作获得的即时满足感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[SLG]-三国冰河时代-居民管理.md"
-    },
-    "SanguoMoudingTianxia/[SLG]-三谋-六大职业分工PVP.md": {
-      "title": "[SLG]-三谋-六大职业分工PVP",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决SLG玩法同质化，避免战力低的玩家失去价值",
-      "experienceGoal": "赋予每个玩家独特不可替代性，强化社交粘性和团队荣誉感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[SLG]-三谋-六大职业分工PVP.md"
-    },
-    "SanguoMoudingTianxia/[SLG]-三谋-智能铺路与连地机制.md": {
-      "title": "[SLG]-三谋-智能铺路与连地机制",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决传统SLG\"打地铺路\"操作枯燥且碎肝，导致上班族大量流失的痛点",
-      "experienceGoal": "解放玩家机械劳动精力，聚焦武将搭配和同盟打架等高反馈核心玩法",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[SLG]-三谋-智能铺路与连地机制.md"
-    },
-    "ShadowOfMordor/RPG-中土世界-宿敌系统.md": {
-      "title": "[RPG]-中土世界-宿敌系统",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决开放世界怪物一次性消耗的问题",
-      "experienceGoal": "让小怪活过来，与玩家产生\"私人恩怨\"的情感连接",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "RPG-中土世界-宿敌系统.md"
-    },
     "Shadowverse/[Qualify]SameNameCard.md": {
       "title": "策略卡牌-影之诗-同名卡机制",
       "gameName": "影之诗",
@@ -6244,34 +4942,6 @@
       ],
       "demo": "GIF：影之诗进化系统演示",
       "filename": "[Qualify]进化系统.md"
-    },
-    "Shadowverse/卡牌-影之诗2-公园观棋.md": {
-      "title": "[卡牌]-影之诗2-公园观棋",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决卡牌游戏对其他玩家展示弱、游戏内不方便也没动力观战的问题",
-      "experienceGoal": "提供破冰场所，增强观战体验",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "卡牌-影之诗2-公园观棋.md"
-    },
-    "Sifu/ACT-师父-年龄系统.md": {
-      "title": "[ACT]-师父-年龄系统",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "给传统Roguelike死亡复活提供新的包装形式",
-      "experienceGoal": "营造\"修行与岁月演变\"的哲学意境",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "ACT-师父-年龄系统.md"
     },
     "SkyArena/[Qualify]公平竞技设计.md": {
       "title": "MOBA-时空召唤-公平竞技设计",
@@ -6354,62 +5024,6 @@
       "demo": "GIF或视频链接（待补充）",
       "filename": "[Qualify]无锁定操作机制.md"
     },
-    "SkyChildrenOfTheLight/MMO-光遇-MBTI玩法.md": {
-      "title": "[MMO]-光遇-MBTI玩法",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决游戏内展示维度不足、难以寻找同好的问题",
-      "experienceGoal": "通过性格标签促进破冰和身份认同",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "MMO-光遇-MBTI玩法.md"
-    },
-    "SkyChildrenOfTheLight/MMO-光遇-小黑机制.md": {
-      "title": "[MMO]-光遇-小黑机制",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决公共场景社交缺乏信息隐私的问题",
-      "experienceGoal": "提供陌生人社交保护，增加破冰阶段仪式感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "MMO-光遇-小黑机制.md"
-    },
-    "SkyChildrenOfTheLight/MMO-光遇-留言板机制.md": {
-      "title": "[MMO]-光遇-留言板机制",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决同步互助精力成本高、陌生人社交缺乏话题契机的问题",
-      "experienceGoal": "为游戏增设异步社交场所，通过点赞互助",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "MMO-光遇-留言板机制.md"
-    },
-    "SonsOfTheForest/[生存恐怖沙盒]-森林之子-自由模块化建筑与防御工事.md": {
-      "title": "[生存恐怖沙盒]-森林之子-自由模块化建筑与防御工事",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决生存庇护需求，打破固定蓝图限制，避免建造体验单一",
-      "experienceGoal": "获得自主建造的成就感，享受个性化基地设计的乐趣",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[生存恐怖沙盒]-森林之子-自由模块化建筑与防御工事.md"
-    },
     "SoulcaliburVI/[not_comfirmed]武器系统.md": {
       "title": "格斗-灵魂能力6-武器系统",
       "gameName": "Soulcalibur VI",
@@ -6432,34 +5046,6 @@
       ],
       "demo": "https://www.youtube.com/watch?v=Qqy7X1dXZc4",
       "filename": "[not_comfirmed]武器系统.md"
-    },
-    "SpaceKillerClown/[非对称]-外太空杀人小丑-死亡小游戏.md": {
-      "title": "[非对称]-外太空杀人小丑-死亡小游戏",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "非对称恐怖游戏中，被淘汰的玩家通常只能观战，体验断层明显",
-      "experienceGoal": "将死亡状态转化为支援角色体验，降低观战无聊时间",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[非对称]-外太空杀人小丑-死亡小游戏.md"
-    },
-    "Splatoon3/[TPS]-Splatoon 3-潜墨游动机制.md": {
-      "title": "[TPS]-Splatoon 3-潜墨游动机制",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "消除传统 FPS \"换弹时间\"的负面体验。将枯燥的等待装填转化为富有战术深度的位移与博弈过程，避免了战斗中断的无趣感",
-      "experienceGoal": "创造\"动静结合\"的快节奏博弈。提供极高的地图垂直度与机动性，让玩家在\"上浮开火\"与\"下潜闪避\"的切换中获得流畅的节奏感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[TPS]-Splatoon 3-潜墨游动机制.md"
     },
     "StardewValley/[Qualify]SkillSystem.md": {
       "title": "模拟经营-星露谷物语-多维技能系统",
@@ -6574,62 +5160,6 @@
       ],
       "demo": "https://www.youtube.com/watch?v=7b9DmBSohJ4",
       "filename": "[Qualify]现代模式.md"
-    },
-    "Supernatural/[非对称]-超自然行动组-双人牵手.md": {
-      "title": "[非对称]-超自然行动组-双人牵手",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "1. 新手玩家不会玩，可由老玩家通过牵手来降低上手门槛；新手对地图不熟悉，老玩家带路；新手不会打怪物，老玩家代打。2. 同玩好友可通过这种亲密互动增进感情",
-      "experienceGoal": "让新人感受到\"被照顾\"的陪伴感与安全感；让老玩家获得\"带人通关\"的成就感与情感连接",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[非对称]-超自然行动组-双人牵手.md"
-    },
-    "Supernatural/[非对称]-超自然行动组-可附身角色.md": {
-      "title": "[非对称]-超自然行动组-可附身角色",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "新手玩家对操作和地图不熟练，使用该角色可通过附身和提供辅助的形式为队友提供加成，同时减少自身操作压力，一举两得",
-      "experienceGoal": "让辅助玩家在不直接参与战斗的情况下，通过陪伴、减负、分担伤害等方式产生实质性贡献，降低辅助位的被动感；同时布布的可爱形象本身也具有高传播价值",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[非对称]-超自然行动组-可附身角色.md"
-    },
-    "Supernatural/[非对称]-超自然行动组-宝宝模式.md": {
-      "title": "[非对称]-超自然行动组-宝宝模式",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "恐怖题材天然对恐惧阈值低的玩家（如女性用户、低龄玩家、休闲向玩家）形成进入壁垒；强制恐怖氛围导致潜在用户群体流失，限制了游戏的破圈能力",
-      "experienceGoal": "在不破坏核心玩法难度与游戏完整性的前提下，软化视觉恐惧感，让\"不敢玩恐怖游戏\"不再成为拒绝入坑的理由；同时萌系形象本身具有传播价值，可带动二创与社交分享",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[非对称]-超自然行动组-宝宝模式.md"
-    },
-    "Supernatural/[非对称]-超自然行动组-龙珠房.md": {
-      "title": "[非对称]-超自然行动组-龙珠房",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "传统搜打撤游戏中，每局的资源分布较为均质，缺乏能让团队围绕同一目标产生强协作动机的\"核心事件\"",
-      "experienceGoal": "在常规摸金节奏中植入一个高风险高回报的决策节点，让每一局都有机会出现\"赌一把\"的戏剧性时刻；同时通过怪物压力的升级，强制激活团队护送与分工协作，将社交互动从可选变为必要",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[非对称]-超自然行动组-龙珠房.md"
     },
     "SupremeCommander/[Qualify]DualView.md": {
       "title": "[RTS]-SupremeCommander-战略战术双视角",
@@ -6862,20 +5392,6 @@
       "demo": "战斗演示GIF或视频（待补充）",
       "filename": "[not_comfirmed]WT行动顺序系统.md"
     },
-    "TeamSonicRacing/RAC-索尼克赛车-地图拼接.md": {
-      "title": "[RAC]-[索尼克赛车]-[地图拼接]",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "固定赛道反复跑后背板严重，新鲜感衰减快",
-      "experienceGoal": "每一局都有\"未知赛道\"的新鲜感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "RAC-索尼克赛车-地图拼接.md"
-    },
     "TeamfightTactics/[Excellent]羁绊组合系统.md": {
       "title": "[自走棋]-[云顶之弈]-羁绊组合系统",
       "gameName": "云顶之弈",
@@ -7072,20 +5588,6 @@
       "demo": "https://www.youtube.com/watch?v=YQHv-qHKt8U",
       "filename": "[Qualify]Rage系统.md"
     },
-    "TexasChainsaw/[非对称]-德州电锯杀人狂-第三方势力爷爷.md": {
-      "title": "[非对称]-德州电锯杀人狂-第三方势力\"爷爷\"",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "传统非对称对抗中，杀手压力来源固定；爷爷机制引入\"动态成长的全局威胁\"",
-      "experienceGoal": "让幸存者感受时间越长越危险的生存焦虑；让杀手在\"喂血升级\"与\"立即追杀\"间做决策",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[非对称]-德州电锯杀人狂-第三方势力爷爷.md"
-    },
     "TianDiJie/[not_comfirmed]属性相克系统.md": {
       "title": "战棋-天地劫-属性相克系统",
       "gameName": "TianDiJie",
@@ -7239,48 +5741,6 @@
       "demo": "暂无，建议B站搜索\"双点医院 布局 攻略\"",
       "filename": "[Qualify]DepartmentFlow.md"
     },
-    "UmaMusume/养成-赛马娘类-逐代繁衍与因子继承机制.md": {
-      "title": "[养成]-赛马娘类-逐代繁衍与因子继承机制",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "打破肉鸽游戏\"死亡一无所有\"的设定",
-      "experienceGoal": "创造超长线的养成体验",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "养成-赛马娘类-逐代繁衍与因子继承机制.md"
-    },
-    "UnicornOverlord/策略-圣兽之王-可定制战术逻辑系统.md": {
-      "title": "[策略]-圣兽之王-可定制战术逻辑系统",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决后期队伍庞大带来的操作疲劳",
-      "experienceGoal": "将操作执行转变为顶层设计",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "策略-圣兽之王-可定制战术逻辑系统.md"
-    },
-    "Valorant/[FPS]-无畏契约-经济请求（发枪）系统.md": {
-      "title": "[FPS]-无畏契约-经济请求（发枪）系统",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "消除传统 FPS 中\"手动丢枪\"的低效率与风险。解决了路人对局中沟通成本高、扔枪容易被路过队友误拾、以及扔枪位置错误导致的拾取失败等负面体验",
-      "experienceGoal": "强化团队协作的即时正反馈。确保全队经济利用最大化，提升\"强起轮\"或\"发枪轮\"的战术整齐度，减少无效沟通引起的负面情绪",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[FPS]-无畏契约-经济请求（发枪）系统.md"
-    },
     "Valorant/[Qualify]英雄技能系统.md": {
       "title": "[FPS]Valorant-英雄技能系统",
       "gameName": "无畏契约",
@@ -7307,34 +5767,6 @@
       ],
       "demo": "Valorant英雄技能演示视频",
       "filename": "[Qualify]英雄技能系统.md"
-    },
-    "WinterFall/[SLG]-无尽冬日-探险副本与放置挂机.md": {
-      "title": "[SLG]-无尽冬日-探险副本与放置挂机",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决建筑升级时间长、存在无聊真空期的问题",
-      "experienceGoal": "填补碎片化时间，提供源源不断的短期正反馈",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[SLG]-无尽冬日-探险副本与放置挂机.md"
-    },
-    "WinterFall/[SLG]-无尽冬日-联盟总动员.md": {
-      "title": "[SLG]-无尽冬日-联盟总动员",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决低战/平民玩家的无价值感，在SLG中，低战力玩家几乎是炮灰，毫无参与感。但在总动员活动里，勤奋的0氪玩家也可以通过完成简单的采集任务等，贡献和大哥一样的积分，极大地满足了平民玩家的团队存在感和自我价值实现",
-      "experienceGoal": "营造\"不抛弃不放弃\"的集体凝聚力与\"不想拖后腿\"的社交压力，当联盟晋级段位时，所有成员都会获得专属头像框/铭牌，形成集体荣誉锚点，而联盟通常会规定\"每人必须做满X分，否则踢出\"，这种社交压力迫使潜水怪不得不上线做任务，是极强的促活手段",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[SLG]-无尽冬日-联盟总动员.md"
     },
     "WoJiaoMT/[Qualify]PetFusion.md": {
       "title": "[策略卡牌]-[我叫MT]-[宠物融合系统]",
@@ -7552,20 +5984,6 @@
       "demo": "https://www.bilibili.com/video/BV1Vx4y1N7bX/",
       "filename": "[not_comfirmed]共鸣技能.md"
     },
-    "Xenoblade3/JRPG-异度之刃3-职业精通与融合系统.md": {
-      "title": "[JRPG]-异度之刃3-职业精通与融合系统",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "传统RPG单职业养成到顶后，转职面临从零开始的成本",
-      "experienceGoal": "打破职业壁垒，创造终极缝合BD",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "JRPG-异度之刃3-职业精通与融合系统.md"
-    },
     "XutuZhizhan/[Qualify]ThreeSquads.md": {
       "title": "[RTS]-XutuZhizhan-3编队指挥系统",
       "gameName": "墟土之争",
@@ -7619,34 +6037,6 @@
       ],
       "demo": "GIF：游戏王连锁系统演示",
       "filename": "[Qualify]连锁系统.md"
-    },
-    "Zelda/开放世界-塞尔达传说-究极手UGC创造.md": {
-      "title": "[开放世界]-塞尔达传说-究极手UGC创造",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决开放世界内容一次性消耗的问题",
-      "experienceGoal": "提供\"创意即战力\"的爽快感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "开放世界-塞尔达传说-究极手UGC创造.md"
-    },
-    "ZhuXian/MMORPG-诛仙世界-车轮战机制.md": {
-      "title": "[MMORPG]-诛仙世界-车轮战机制",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "解决传统MMO多人PVP只能群体混战纯靠数值比拼的问题",
-      "experienceGoal": "让玩家从\"战将\"变成\"帅将\"",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "MMORPG-诛仙世界-车轮战机制.md"
     },
     "ark-nova/[Qualify]card-position-strength.md": {
       "title": "[策略桌游]-ArkNova-卡位强度系统",
@@ -9690,26 +8080,6 @@
       ],
       "filename": "300Heroes.md"
     },
-    "7DaysToDie": {
-      "title": "7 Days to Die / 七日杀",
-      "gameName": "7 Days to Die / 七日杀",
-      "developer": "The Fun Pimps",
-      "publisher": "",
-      "platform": "PC",
-      "releaseDate": "2013年",
-      "genre": "末日生存、FPS、建造、开放世界、恐怖生存、多人联机",
-      "monetization": "买断制",
-      "xStatement": "MC+DayZ+尸潮\n\nMC建造+DayZ生存+丧尸围城的末日硬核生存FPS，7日一波尸潮的节奏型生存游戏。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "搜刮物资/制作工具 -> 搭建防御工事 -> 升级装备/技能 -> 日常探索/清剿丧尸 -> 应对每7日一次的大规模尸潮 -> 解锁更高阶科技与装备",
-      "difficulty": "中等偏上。基础搜刮/建造易上手，基地防御布局有策略深度",
-      "prototype": "玩法原型：MC建造 + DayZ生存 + 尸潮\n\n- 被借鉴游戏的核心理念：建造 + 生存 + 尸潮\n- 本游戏在此基础上改出的独特体验：\n  1. 七日尸潮\n  2. 技能树配点\n  3. 方块建造破坏\n\n---",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [],
-      "filename": "7DaysToDie.md"
-    },
     "AFKJourney": {
       "title": "剑与远征：启程 / AFK Journey",
       "gameName": "剑与远征：启程 / AFK Journey",
@@ -9755,19 +8125,19 @@
       "filename": "ARCRaiders.md"
     },
     "ARK": {
-      "title": "ARK: Survival Evolved / 方舟：生存进化",
-      "gameName": "ARK: Survival Evolved / 方舟：生存进化",
+      "title": "ARK / 方舟生存进化",
+      "gameName": "方舟生存进化 / ARK",
       "developer": "Studio Wildcard",
       "publisher": "",
-      "platform": "PC / 主机",
+      "platform": "PC / 主机 / 移动端",
       "releaseDate": "2017年",
-      "genre": "开放世界生存、驯服养成、建造、多人联机",
-      "monetization": "买断制",
-      "xStatement": "恐龙版硬核生存\n\n恐龙版的硬核生存+驯服养成+部落对抗的开放世界沙盒。\n\n---",
-      "tagline": "",
+      "genre": "生存 / 恐龙",
+      "monetization": "",
+      "xStatement": "恐龙驯养生存建造，多人开放世界",
+      "tagline": "恐龙驯养",
       "playerStats": "",
-      "coreLoop": "收集基础资源 -> 制作工具/武器 -> 搭建营地 -> 驯服恐龙 -> 培育强化 -> 建造大型部落基地 -> 挑战BOSS",
-      "difficulty": "中等偏高。基础生存逻辑清晰，但驯服机制、部落管理复杂",
+      "coreLoop": "",
+      "difficulty": "",
       "prototype": "",
       "pillars": [],
       "achievements": "",
@@ -9905,48 +8275,27 @@
       "filename": "Aladedu.md"
     },
     "AlbionOnline": {
-      "title": "Albion Online / 阿尔比恩 Online",
-      "gameName": "Albion Online / 阿尔比恩 Online",
-      "developer": "Sandbox Interactive",
+      "title": "阿尔比恩 Online / Albion Online",
+      "gameName": "阿尔比恩 Online (Albion Online)",
+      "developer": "",
       "publisher": "",
-      "platform": "PC / 移动端",
-      "releaseDate": "2017年",
-      "genre": "MMORPG、沙盒、传奇like",
-      "monetization": "买断制",
-      "xStatement": "全掉落沙盒MMO\n\n用搜打撤的高风险高刺激替代传统MMO枯燥的发育积累。\n\n---",
-      "tagline": "",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "MMORPG / 沙盒 / 开放世界",
+      "monetization": "",
+      "xStatement": "",
+      "tagline": "\"装备=职业\"的沙盒 MMORPG + 玩家驱动自由经济",
       "playerStats": "",
-      "coreLoop": "采集/制造 -> 装备基础成型 -> 进入高风险区 -> PVP/PVE战斗 -> 死亡全掉落 -> 重新积累",
-      "difficulty": "中。上手易，生存难",
+      "coreLoop": "采集资源 → 制造装备 → 市场交易 → 战斗/GVG → 循环",
+      "difficulty": "中等。上手简单但精通难，需要理解经济系统和战斗系统",
       "prototype": "",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "MMORPG-阿尔比恩-资源分区设计"
+        "[MMORPG]-[AlbionOnline]-[装备等于职业系统]",
+        "[MMORPG]-[AlbionOnline]-[沙盒式自由经济系统]"
       ],
       "filename": "AlbionOnline.md"
-    },
-    "AnimalCrossing": {
-      "title": "Animal Crossing / 集合啦！动物森友会",
-      "gameName": "Animal Crossing / 集合啦！动物森友会",
-      "developer": "Nintendo",
-      "publisher": "",
-      "platform": "Switch",
-      "releaseDate": "2020年",
-      "genre": "模拟经营",
-      "monetization": "买断制",
-      "xStatement": "大头菜交易\n\n模拟物价波动和倒卖差价的经营玩法。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "特定时间购买大头菜 -> 关注价格波动 -> 寻找高卖价岛屿 -> 抛售获益",
-      "difficulty": "低。仅需移动和工具交互",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "模拟经营-动物森友会-大头菜"
-      ],
-      "filename": "AnimalCrossing.md"
     },
     "AnotherCrabsTreasure": {
       "title": "蟹蟹寻宝奇遇 / Another Crab's Treasure",
@@ -9970,48 +8319,44 @@
     },
     "ApexLegends": {
       "title": "Apex Legends / APEX英雄",
-      "gameName": "Apex Legends (Apex英雄)",
-      "developer": "",
-      "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "大逃杀 (BR)、英雄射击、第一人称射击",
-      "monetization": "",
-      "xStatement": "",
-      "tagline": "加入了守望先锋英雄技能体系的快节奏高机动性大逃杀",
-      "playerStats": "",
-      "coreLoop": "跳伞落地搜刮 -> 寻找并交战升级护甲 -> 利用技能转点跑毒 -> 决战圈吃鸡",
-      "difficulty": "偏高。需要极强的跟枪定位能力（TTK较长）以及对身法（滑铲跳、蹬墙跳）的熟练掌握",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[BR]-Apex英雄-进化护盾"
-      ],
-      "filename": "ApexLegends.md"
-    },
-    "ArcaneOdyssey": {
-      "title": "杖剑传说 / Arcane Odyssey",
-      "gameName": "杖剑传说 / Arcane Odyssey",
-      "developer": "-",
-      "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "",
-      "genre": "放置挂机RPG、奇幻冒险",
-      "monetization": "免费内购",
-      "xStatement": "放置冒险\n\n轻度放置的异世界RPG冒险。\n\n---",
+      "gameName": "APEX英雄 / Apex Legends",
+      "developer": "Respawn Entertainment",
+      "publisher": "Electronic Arts (EA)",
+      "platform": "PC / 主机 / 移动端",
+      "releaseDate": "2019年2月4日",
+      "genre": "大逃杀 / FPS",
+      "monetization": "免费内购制 (F2P)",
+      "xStatement": "3人组队 + 英雄技能射击大逃杀\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "进入新副本 -> 匹配/组队进行攻略 -> 获得奖励 -> 挑战高难副本",
-      "difficulty": "低。主要玩法为放置",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "一键带副本",
-        "RPG-杖剑传说-一键带副本"
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《Apex Legends》基于《Titanfall 2》Pilot 技能系统的体验\n\n- 被借鉴游戏的核心理念：《Titanfall 2》中的 Pilot（驾驶员）拥有独特的技能组合，每个职业都有位移技、战术技能和大招\n- 本游戏在此基础上改出的独特体验：\n  1. 去掉机甲系统，专注于英雄技能设计\n  2. 大逃杀框架下的团队协作\n  3. 引入\"复活\"机制降低惩罚，增强社交粘性\n  4. Ping 系统替代语音交流，降低社交门槛\n\n---",
+      "pillars": [
+        {
+          "title": "英雄技能系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "3人组队 + 复活机制",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "高节奏战斗 + 长TTK",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "ping 指挥系统",
+          "experience": "",
+          "design": ""
+        }
       ],
-      "filename": "ArcaneOdyssey.md"
+      "achievements": "",
+      "relatedMechanisms": [],
+      "filename": "ApexLegends.md"
     },
     "ArenaBreakout": {
       "title": "Arena Breakout / 暗区突围",
@@ -10092,28 +8437,6 @@
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "ArmoredCore6.md"
-    },
-    "AshesOfCreation": {
-      "title": "Ashes of Creation / 创世灰烬",
-      "gameName": "Ashes of Creation / 创世灰烬",
-      "developer": "Ashes of Creation LLC",
-      "publisher": "",
-      "platform": "PC",
-      "releaseDate": "",
-      "genre": "MMORPG、沙盒、动态世界",
-      "monetization": "买断制",
-      "xStatement": "玩家行为改变世界\n\n玩家行为永久改变地形与城市兴衰的动态世界MMO。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "探索/采集 -> 推动节点发展 -> 触发攻城战/副本 -> 改变地貌/经济 -> 影响服务器格局",
-      "difficulty": "中（战斗），高（社交/策略）",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "MMORPG-创世灰烬-节点城市系统"
-      ],
-      "filename": "AshesOfCreation.md"
     },
     "Asphalt9": {
       "title": "Asphalt 9 / 狂野飙车9",
@@ -10257,28 +8580,6 @@
       ],
       "filename": "Battlegrounds.md"
     },
-    "BestEleven": {
-      "title": "最佳11人 / Best Eleven",
-      "gameName": "最佳11人 / Best Eleven",
-      "developer": "-",
-      "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "",
-      "genre": "体育经营、策略卡牌",
-      "monetization": "免费内购",
-      "xStatement": "卡牌足球\n\n拥有一流3D比赛画面的足球经理简易版，实质是披着写实足球外衣的卡牌游戏。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "抽卡签约球星 -> 消耗资源养成 -> 进入3D比赛 -> 关键时刻QTE决策",
-      "difficulty": "低。不需要实时操作，仅需关键时刻做战术选择",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "足球-最佳11人-模拟生涯"
-      ],
-      "filename": "BestEleven.md"
-    },
     "BlackMythWukong": {
       "title": "Black Myth Wukong / 黑神话悟空",
       "gameName": "黑神话：悟空 / Black Myth: Wukong",
@@ -10322,26 +8623,6 @@
       "relatedMechanisms": [],
       "filename": "BoomBeach.md"
     },
-    "Borderlands3": {
-      "title": "Borderlands 3 / 无主之地 3",
-      "gameName": "Borderlands 3 / 无主之地 3",
-      "developer": "",
-      "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "第一人称射击 (FPS) / 刷宝射击 (Looter Shooter)",
-      "monetization": "",
-      "xStatement": "",
-      "tagline": "带着成千上万种\"逆天\"枪械在废土刷怪掉宝的射击版暗黑",
-      "playerStats": "",
-      "coreLoop": "接受任务 -> 突突突击杀敌人 -> 满地捡装备 -> 升级技能树/构筑 Build -> 挑战更强 Boss",
-      "difficulty": "低至中等。不需要极佳的竞技瞄准，更侧重于玩家对职业数值与武器词条的理解",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [],
-      "filename": "Borderlands3.md"
-    },
     "BrawlStars": {
       "title": "Brawl Stars / 荒野乱斗",
       "gameName": "荒野乱斗 / Brawl Stars",
@@ -10361,29 +8642,6 @@
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "BrawlStars.md"
-    },
-    "BuriedBornes2": {
-      "title": "BuriedBornes2 / 埋骨之地2",
-      "gameName": "BuriedBornes2 / 埋骨之地2",
-      "developer": "-",
-      "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "",
-      "genre": "Roguelike、回合制、卡牌RPG",
-      "monetization": "免费内购",
-      "xStatement": "亡魂肉鸽\n\n将玩家死亡化作他人挑战的硬核地牢肉鸽。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "创建角色下本 -> 打怪获取装备技能 -> 死亡留下亡魂数据 -> 他人遭遇亡魂 -> 击败获取极品装备",
-      "difficulty": "低。文字点击操作",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "因子继承",
-        "肉鸽-BuriedBornes2-离群亡魂异步PVP系统"
-      ],
-      "filename": "BuriedBornes2.md"
     },
     "CFLegends": {
       "title": "生死狙击 / CrossFire Legends",
@@ -10506,49 +8764,24 @@
       "relatedMechanisms": [],
       "filename": "CODModernWarfare3.md"
     },
-    "COK": {
-      "title": "COK / 乱世王者",
-      "gameName": "COK (Clash of Kings) / 乱世王者",
-      "developer": "智明星空 / 腾讯",
-      "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "2016年",
-      "genre": "SLG、联盟",
-      "monetization": "内购制",
-      "xStatement": "COK-like 联盟策略SLG\n\n经典 COK-like 联盟策略游戏，融合资源发育、行军战斗与联盟社交，玩家在沙盘地图中发育成长，通过联盟协作争夺资源与领土。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "采集资源 -> 升级建筑/科技 -> 训练部队 -> 联盟协作 -> 战斗争夺 -> 获得资源",
-      "difficulty": "中等。需要理解资源循环、建筑升级顺序、联盟配合",
-      "prototype": "核心玩法：《COK》基于 COC 战斗系统的体验创新\n\n- 被借鉴游戏的核心理念：COC 的即时战斗玩法和资源循环\n- 本游戏在此基础上改出的独特体验：\n  1. 引入大地图沙盘，行军有了空间策略\n  2. 联盟系统强化，PVP 变成联盟战\n  3. 武将系统，增加 RPG 养成深度\n\n---",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "like"
-      ],
-      "filename": "COK.md"
-    },
     "CS2": {
       "title": "Counter-Strike 2 / CS2",
-      "gameName": "Counter-Strike 2 / CS2",
-      "developer": "",
+      "gameName": "CS2 / 反恐精英2",
+      "developer": "Valve",
       "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "第一人称战术射击 (Tactical FPS)",
+      "platform": "PC",
+      "releaseDate": "2023年",
+      "genre": "FPS",
       "monetization": "",
       "xStatement": "",
-      "tagline": "战术FPS的标杆，从物理引擎底层重构的CS:GO",
+      "tagline": "经典竞技射击",
       "playerStats": "",
-      "coreLoop": "局前起枪 -> 投掷物封路/抢位 -> 爆破/拆解交火 -> 经济结算与调整",
-      "difficulty": "高。对急停射击、投掷物落点（Lineups）及地图信息博弈有极高要求",
+      "coreLoop": "",
+      "difficulty": "",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "[FPS]-Counter-Strike 2-体积烟雾互动系统",
-        "[FPS]-Counter-Strike 2"
-      ],
+      "relatedMechanisms": [],
       "filename": "CS2.md"
     },
     "CadillacsAndDinosaurs": {
@@ -10574,48 +8807,24 @@
       ],
       "filename": "CadillacsAndDinosaurs.md"
     },
-    "Calabiyau": {
-      "title": "卡拉彼丘 (Calabiyau / Strinova)",
-      "gameName": "卡拉彼丘 (Calabiyau / Strinova)",
-      "developer": "",
-      "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "第三人称战术射击 (TPS) / 英雄竞技 / 二次元",
-      "monetization": "",
-      "xStatement": "",
-      "tagline": "可以随时变成\"纸片人\"贴墙走位的二次元双边射击",
-      "playerStats": "",
-      "coreLoop": "选人起枪 -> 技能+射击对抗 -> 达成胜利目标(击杀/爆破等)",
-      "difficulty": "中到高。在传统射击的准星控制基础上，增加了2D/3D形态切换、空间攀爬及技能博弈",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[TPS]-卡拉彼丘-弦化机制"
-      ],
-      "filename": "Calabiyau.md"
-    },
     "CallOfDuty": {
-      "title": "Call of Duty / 使命召唤 - 多人对战模式",
-      "gameName": "Call of Duty (使命召唤 - 多人对战模式)",
-      "developer": "",
+      "title": "Call of Duty / 使命召唤",
+      "gameName": "使命召唤 / Call of Duty",
+      "developer": "Activision",
       "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "街机射击 (Arcade Shooter) / 竞技场FPS",
+      "platform": "PC / 主机 / 移动端",
+      "releaseDate": "2003年（首作）",
+      "genre": "FPS",
       "monetization": "",
       "xStatement": "",
-      "tagline": "节奏极快、主打好莱坞爆米花式火爆体验的街机流第一人称射击游戏",
+      "tagline": "军事射击",
       "playerStats": "",
-      "coreLoop": "冲刺遭遇 -> 极短TTK对枪击杀 -> 积累分数/连杀 -> 释放毁灭性战场支援 -> 死亡快速复活再战",
-      "difficulty": "中等。枪械后坐力较低，上手容易，但对反应速度、跑位（Spawn Trap控制）和跟枪要求较高",
+      "coreLoop": "",
+      "difficulty": "",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "[FPS]-使命召唤-连杀奖励系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "CallOfDuty.md"
     },
     "CallOfDutyBlackOps6": {
@@ -10659,25 +8868,26 @@
       "filename": "CallOfDutyMobile.md"
     },
     "CallOfDutyWarzone": {
-      "title": "Call of Duty: Warzone / 使命召唤：战区",
-      "gameName": "Call of Duty: Warzone (使命召唤：战区)",
+      "title": "使命召唤战区 / Call of Duty: Warzone",
+      "gameName": "使命召唤战区 (Call of Duty: Warzone)",
       "developer": "",
       "publisher": "",
       "platform": "",
       "releaseDate": "",
-      "genre": "大逃杀 (BR)、第一人称射击",
+      "genre": "FPS / 大逃杀",
       "monetization": "",
       "xStatement": "",
-      "tagline": "能买枪、能复活的街机风爽快版PUBG",
+      "tagline": "150人规模+COD枪械定制的大逃杀",
       "playerStats": "",
-      "coreLoop": "跳伞落地 -> 做合约赚钱/搜刮 -> 购买定制武器箱 -> 死亡进古拉格/花钱复活队友 -> 决战",
-      "difficulty": "中等。枪械后坐力小（极易控枪），但对索敌反应速度和\"先开枪\"的要求极高（TTK短）",
+      "coreLoop": "跳伞落地→搜刮物资/做合约→购物站买枪→缩圈战斗→吃鸡",
+      "difficulty": "中 - 比传统COD更容易上手，但枪械系统深度高",
       "prototype": "",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[BR]-使命召唤战区-古拉格对决",
-        "[FPS]-使命召唤-连杀奖励系统"
+        "[大逃杀]-CallOfDutyWarzone-古拉格复活系统",
+        "[大逃杀]-CallOfDutyWarzone-装备舱Loadout系统",
+        "[大逃杀]-CallOfDutyWarzone-合约系统"
       ],
       "filename": "CallOfDutyWarzone.md"
     },
@@ -10771,29 +8981,6 @@
       "relatedMechanisms": [],
       "filename": "Celeste.md"
     },
-    "ChanganFantasy": {
-      "title": "长安幻想",
-      "gameName": "长安幻想",
-      "developer": "网易",
-      "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "",
-      "genre": "回合制MMO",
-      "monetization": "免费内购",
-      "xStatement": "妖灵进化\n\n以\"妖灵进化\"为核心，让玩家在唐风奇幻世界中体验轻松抓宠、策略养成的竖屏回合制手游。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "资源积累 -> 角色等级养成 -> 策略战斗(PVP/PVE) -> 社交关系",
-      "difficulty": "门槛较低，存在难度分级",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "回合制MMO-长安幻想-天都争锋",
-        "回合制MMO-长安幻想-赛季挑战"
-      ],
-      "filename": "ChanganFantasy.md"
-    },
     "CitiesSkylines": {
       "title": "Cities: Skylines / 都市天际线",
       "gameName": "都市天际线 (Cities: Skylines)",
@@ -10862,24 +9049,22 @@
     },
     "ClashRoyale": {
       "title": "Clash Royale / 皇室战争",
-      "gameName": "Clash Royale / 皇室战争",
+      "gameName": "皇室战争 / Clash Royale",
       "developer": "Supercell",
       "publisher": "",
-      "platform": "移动端",
+      "platform": "移动端 / PC",
       "releaseDate": "2016年",
-      "genre": "即时策略、卡牌对战",
-      "monetization": "免费内购",
-      "xStatement": "赌上社交名誉的即时策略对抗\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "消耗圣水部署单位/法术 -> 攻防博弈 -> 摧毁对方基地获胜",
-      "difficulty": "中。基础操作简单，但高操作频率和策略要求",
+      "genre": "即时策略 / 卡牌",
+      "monetization": "",
+      "xStatement": "Supercell即时策略卡牌手游，玩家组卡组对战，争夺奖杯",
+      "tagline": "塔防卡牌对战",
+      "playerStats": "全球总收入超30亿美元，月活超2.5亿",
+      "coreLoop": "玩家组卡组，在竞技场中对战，争夺奖杯，升级卡牌",
+      "difficulty": "中等 - 需要理解卡牌克制和费用管理",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "即时策略-皇室战争-父子局"
-      ],
+      "relatedMechanisms": [],
       "filename": "ClashRoyale.md"
     },
     "ClashofClans": {
@@ -11131,25 +9316,24 @@
       "filename": "DJMAX.md"
     },
     "DNF": {
-      "title": "Dungeon & Fighter / 地下城与勇士",
-      "gameName": "Dungeon & Fighter / 地下城与勇士",
-      "developer": "Neople / 腾讯",
+      "title": "DNF / 地下城与勇士：起源",
+      "gameName": "地下城与勇士：起源 (DNF手游)",
+      "developer": "",
       "publisher": "",
-      "platform": "PC / 移动端",
-      "releaseDate": "2005年",
-      "genre": "MMOACT、2D横版格斗",
-      "monetization": "免费内购",
-      "xStatement": "横版格斗巅峰\n\n2D横版格斗巅峰，曾推出限时玩家变身怪物非对称活动的网游。\n\n---",
-      "tagline": "",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "ACT / 横版格斗",
+      "monetization": "",
+      "xStatement": "",
+      "tagline": "横版格斗手游开山之作",
       "playerStats": "",
-      "coreLoop": "刷图/团本 -> 强化装备/增幅 -> 数值成长毕业 -> 新版本追求更高数值",
-      "difficulty": "中高。极度依赖连招/空间博弈",
+      "coreLoop": "职业技能连招+深渊副本养成，通过刷图获取装备强化角色。",
+      "difficulty": "中等。自动战斗和手动操作结合，上手较为容易。",
       "prototype": "",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "职业技能连招",
-        "MMORPG-DNF-变身怪物"
+        "ARPG-DNF-装备交易时间锁"
       ],
       "filename": "DNF.md"
     },
@@ -11274,26 +9458,6 @@
       "relatedMechanisms": [],
       "filename": "DarkSouls.md"
     },
-    "DarkestDungeon": {
-      "title": "Darkest Dungeon / 暗黑地牢",
-      "gameName": "Darkest Dungeon / 暗黑地牢",
-      "developer": "Red Hook Studios",
-      "publisher": "",
-      "platform": "PC / 主机 / 移动端",
-      "releaseDate": "2016年",
-      "genre": "Roguelike、回合约策略、恐惧管理",
-      "monetization": "买断制",
-      "xStatement": "恐惧管理RPG\n\n结合了塔科夫掉落恐惧的单机/异步Roguelike。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "局外招募/购买补给 -> 深入地牢探索 -> 团灭前抉择是否撤退 -> 成功撤退带出资源/死亡角色全损",
-      "difficulty": "中。决策门槛极高",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [],
-      "filename": "DarkestDungeon.md"
-    },
     "DaveTheDiver": {
       "title": "游戏名 / Game Name",
       "gameName": "潜水员戴夫 / Dave the Diver",
@@ -11375,9 +9539,7 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[Roguelite]-DeadCells-蓝图解锁系统",
-        "武器构建系统",
-        "RogueVania融合机制"
+        "[Roguelite]-DeadCells-蓝图解锁系统"
       ],
       "filename": "DeadCells.md"
     },
@@ -11509,49 +9671,6 @@
         "赛车-巅峰极速-3A拟真物理"
       ],
       "filename": "DianFengJiSu.md"
-    },
-    "DirtRally": {
-      "title": "DiRT Rally / 尘埃拉力赛",
-      "gameName": "DiRT Rally / 尘埃拉力赛",
-      "developer": "Codemasters",
-      "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "2015年",
-      "genre": "拟真拉力赛模拟",
-      "monetization": "买断制",
-      "xStatement": "硬核拉力模拟\n\n硬核拉力赛模拟，挑战人与车的极限。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "参加拉力赛段 -> 听从领航员指令高速飞驰 -> 以最短时间完成赛段 -> 赢得赛事获得奖金 -> 购买/升级拉力赛车",
-      "difficulty": "极高。路面复杂多变，对车辆控制要求极高",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [],
-      "filename": "DirtRally.md"
-    },
-    "DontStarve": {
-      "title": "Don't Starve / 饥荒",
-      "gameName": "Don't Starve / 饥荒",
-      "developer": "Klei Entertainment",
-      "publisher": "",
-      "platform": "PC / 移动端",
-      "releaseDate": "2013年",
-      "genre": "生存冒险、2D沙盒、生存管理、开放世界、多人联机",
-      "monetization": "买断制",
-      "xStatement": "暗黑童话硬核生存\n\n暗黑童话风的硬核生存+探索+管理类游戏，更残酷的MC生存模式。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "收集基础资源（草/树枝/矿石）-> 制作工具/食物/建筑 -> 维持三维状态（饥饿/理智/生命）-> 探索地图/洞穴 -> 应对季节变化与怪物袭击 -> 挑战特殊BOSS/解锁科技",
-      "difficulty": "中等偏上。基础生存逻辑易理解，但资源管理、季节应对复杂",
-      "prototype": "玩法原型：生存管理 + 季节循环 + 探索\n\n- 被借鉴游戏的核心理念：生存挑战 + 资源管理\n- 本游戏在此基础上改出的独特体验：\n  1. 三维状态管理\n  2. 季节循环\n  3. 科技树解锁\n  4. 怪物仇恨机制\n\n---",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "生存沙盒-DontStarve-环境压力系统",
-        "生存沙盒-DontStarve-动态天气系统"
-      ],
-      "filename": "DontStarve.md"
     },
     "Dota2": {
       "title": "Dota 2",
@@ -11687,28 +9806,6 @@
       ],
       "filename": "DysonSphereProgram.md"
     },
-    "EASportsFC26": {
-      "title": "EA Sports FC 26",
-      "gameName": "EA Sports FC 26",
-      "developer": "EA Sports",
-      "publisher": "",
-      "platform": "PC / 主机 / 移动端",
-      "releaseDate": "2025年",
-      "genre": "体育竞技",
-      "monetization": "买断制",
-      "xStatement": "足球年货\n\n足球界的年货。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "开包或交易获取球员 -> 组建阵容 -> PVP对局 -> 赢取奖励 -> 升级阵容",
-      "difficulty": "中高。入门简单，但排位赛要求极高反应速度",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "足球-FC26-UT模式-进化系统"
-      ],
-      "filename": "EASportsFC26.md"
-    },
     "EVEOnline": {
       "title": "EVE Online / 星战前夜",
       "gameName": "星战前夜 / EVE Online",
@@ -11727,33 +9824,32 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[经济系统]-EVE-玩家生产制造链",
-        "EVE-温和通胀货币系统",
-        "EVE-区域差异化市场",
-        "EVE-双向订单匹配市场"
+        "[经济系统]-EVE-玩家生产制造链"
       ],
       "filename": "EVEOnline.md"
     },
     "EggyParty": {
-      "title": "蛋仔派对 / Eggy Party",
-      "gameName": "蛋仔派对 / Eggy Party",
-      "developer": "网易",
+      "title": "游戏名 / Eggy Party",
+      "gameName": "蛋仔派对",
+      "developer": "",
       "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "2022年",
-      "genre": "休闲竞技、派对游戏",
-      "monetization": "免费内购",
-      "xStatement": "派对闯关\n\n带皮肤展示的多人派对PVP。\n\n---",
-      "tagline": "",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "休闲竞技 / 派对游戏",
+      "monetization": "",
+      "xStatement": "",
+      "tagline": "中国版《糖豆人》+ UGC创意工坊",
       "playerStats": "",
-      "coreLoop": "抽选目标颜色 -> 换上对应颜色皮肤 -> 展示皮肤 -> 决定出局玩家",
-      "difficulty": "低。仅需更换皮肤并站在对应位置",
+      "coreLoop": "32名玩家进入闯关地图，经过3轮障碍淘汰赛后剩余8人进入生存挑战，最终决出冠军。单局约10分钟。",
+      "difficulty": "低门槛，易上手。触控操作简单，强调综艺效果和社交欢乐。",
       "prototype": "",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "UGC-蛋仔派对-默契挑战",
-        "UGC-蛋仔派对-剧本扮演"
+        "[派对游戏]-蛋仔派对-UGC地图工坊",
+        "[派对游戏]-[蛋仔派对]-[魂蛋观战模式]",
+        "[派对游戏]-蛋仔派对-道具对抗系统",
+        "[派对游戏]-蛋仔派对-魂蛋观战模式"
       ],
       "filename": "EggyParty.md"
     },
@@ -11821,136 +9917,50 @@
       "filename": "Enshrouded.md"
     },
     "EscapeFromTarkov": {
-      "title": "Escape from Tarkov / 逃离塔科夫",
-      "gameName": "Escape from Tarkov (逃离塔科夫)",
+      "title": "Escape from Tarkov 游戏卡",
+      "gameName": "",
       "developer": "",
       "publisher": "",
       "platform": "",
       "releaseDate": "",
-      "genre": "搜刮射击 (Looter Shooter) / 撤离类 (Extraction) / 硬核FPS",
+      "genre": "",
       "monetization": "",
-      "xStatement": "",
-      "tagline": "极致硬核、主打\"搜刮-战斗-撤离\"的拟真军事射击游戏",
-      "playerStats": "",
-      "coreLoop": "选配装备入局 -> 搜集物资/与其他玩家或AI交火 -> 规划路线前往撤离点 -> 成功带出局外建立长期经济",
-      "difficulty": "极高。需要背板复杂地图与撤离点、掌握拟真的枪械弹道、理解复杂的独立肢体医疗与护甲穿透系统",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[撤离类]-逃离塔科夫-安全箱"
-      ],
-      "filename": "EscapeFromTarkov.md"
-    },
-    "Expedition33": {
-      "title": "Clair Obscur: Expedition 33 / 远征33号",
-      "gameName": "Clair Obscur: Expedition 33 / 远征33号",
-      "developer": "Moonage Games",
-      "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "2025年",
-      "genre": "RPG、回合制策略、动作元素",
-      "monetization": "买断制",
-      "xStatement": "融入弹反的回合制RPG\n\n融入了《只狼》弹反快感的回合制RPG。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "探索地图 -> 遭遇战进入回合制面板 -> 在敌我回合中穿插QTE攻防 -> 结算成长",
-      "difficulty": "中高。需要回合制思考+动态视力反应",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "回合制-远征33号-即时反应与弹反机制"
-      ],
-      "filename": "Expedition33.md"
-    },
-    "ExtractionShooter": {
-      "title": "搜打撤 / Extraction Shooter",
-      "gameName": "搜打撤 / Extraction Shooter",
-      "developer": "",
-      "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "FPS、搜打撤、撤离",
-      "monetization": "",
-      "xStatement": "带装备进入、带物资撤出的射击游戏\n\n玩家携带装备进入对局，搜刮物资、击败敌人，完成任务后从撤离点撤出，带出物资。\n\n---",
+      "xStatement": "硬核拟真FPS搜打撤，搜刮物资撤离，死了装备全丢\n\n---",
       "tagline": "",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "代表游戏：逃离塔科夫、撤离zone、Hunt: Showdown\n\n核心特征：\n1. 高风险高回报：进入对局有死亡惩罚\n2. 装备带入带出：装备可带入局内，死亡掉落\n3. 撤离机制：达到撤离条件才能带出物资\n\n---",
-      "pillars": [],
+      "prototype": "| 系统 | 玩法原型 | 核心理念 | 独特改进 |\n|------|----------|----------|----------|\n| 搜打撤 | 《ARMA》系列 | 硬核生存 | 品类开创者，赌徒心理 |\n| 枪械 | 《拟真FPS》(ARMA/Operation Flashpoint) | 极致模拟 | 复杂配件系统 |\n| 经济 | 《EVE Online》 | 自由市场 | 物品交易与物价波动 |\n\n玩法原型分析：\n- 《逃离塔科夫》的核心体验是基于赌场一夜暴富的赌徒心理：玩家带着筹码（装备）进入赌场（地图），可能满载而归、一夜暴富，也可能血本无归（装备全丢）\n- 借鉴了《ARMA》系列的硬核生存玩法，但将节奏大幅加快，聚焦于搜打撤核心循环\n- 枪械系统借鉴了拟真FPS理念，但增加了独特的配件DIY系统，让枪械改装成为核心乐趣之一\n\n---",
+      "pillars": [
+        {
+          "title": "搜打撤体验",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "PMC/SCAV双模式",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "硬核枪械系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "经济系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "技能系统",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [],
-      "filename": "ExtractionShooter.md"
-    },
-    "F1": {
-      "title": "F1 Series / F1系列",
-      "gameName": "F1 Series / F1系列",
-      "developer": "Codemasters / EA",
-      "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "历年",
-      "genre": "拟真赛车模拟",
-      "monetization": "买断制",
-      "xStatement": "F1官方授权模拟\n\n官方授权的最权威F1世界一级方程式锦标赛模拟游戏。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "参加练习赛/排位赛/正赛 -> 管理轮胎/燃油 -> 争取积分/胜利 -> 发展车队",
-      "difficulty": "极高。需要精准驾驶技术和比赛策略",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "RAC-通用-防御驾驶"
-      ],
-      "filename": "F1.md"
-    },
-    "FCMobile": {
-      "title": "FC Mobile / FC 足球世界",
-      "gameName": "FC Mobile / FC 足球世界",
-      "developer": "EA Sports",
-      "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "",
-      "genre": "体育动作、卡牌养成",
-      "monetization": "免费内购",
-      "xStatement": "轻量化足球手游\n\n把主机版FC装进口袋的轻量化版本，兼具手操竞技与卡牌养成。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "刷每日活动拿资源 -> 抽卡提升球队 -> 打PVP提升段位",
-      "difficulty": "中低。采用虚拟摇杆+4个功能键模式，有AI辅助防守",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "足球-FC足球世界-进攻对战",
-        "足球-FC足球世界-图鉴系统"
-      ],
-      "filename": "FCMobile.md"
-    },
-    "FF14": {
-      "title": "Final Fantasy XIV / 最终幻想14",
-      "gameName": "Final Fantasy XIV / 最终幻想14",
-      "developer": "Square Enix",
-      "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "2010年",
-      "genre": "MMORPG",
-      "monetization": "点卡/月卡",
-      "xStatement": "最终幻想\n\n用于整备、社交的多人非战斗场景。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "游玩场景 -> 与他人互动 -> 匹配和离开",
-      "difficulty": "低。仅需移动和交互",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "宠物互动",
-        "MMO-FF14-宠物互动彩蛋"
-      ],
-      "filename": "FF14.md"
+      "filename": "EscapeFromTarkov.md"
     },
     "FF7Rebirth": {
       "title": "最终幻想7：重生 / Final Fantasy VII Rebirth",
@@ -12012,28 +10022,73 @@
       "relatedMechanisms": [],
       "filename": "Fallout76.md"
     },
-    "Fantasian": {
-      "title": "Fantasian / 失落的星尘",
-      "gameName": "Fantasian / 失落的星尘",
-      "developer": "Mistwalker / Square Enix",
+    "FantasyWestJourney": {
+      "title": "梦幻西游 / Fantasy West Journey",
+      "gameName": "梦幻西游",
+      "developer": "",
       "publisher": "",
-      "platform": "Apple Arcade",
-      "releaseDate": "2021年",
-      "genre": "JRPG、传统回合制",
-      "monetization": "订阅制",
-      "xStatement": "暗雷优化JRPG\n\n将烦人的随机暗雷变成一口气解决的割草爽局。\n\n---",
-      "tagline": "",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "MMO / 回合制 / 角色扮演",
+      "monetization": "",
+      "xStatement": "",
+      "tagline": "Q版回合制MMO + 经典国产西游IP",
       "playerStats": "",
-      "coreLoop": "探索地图 -> 开启存怪装置吸收暗雷 -> 到达上限进入战斗 -> 用AOE清空积攒怪物 -> 获取海量经验",
-      "difficulty": "低。战前准备+自动平A",
+      "coreLoop": "做任务→升级→组队刷副本→获取装备和金钱→提升角色属性→挑战更高难度副本",
+      "difficulty": "- 上手难度中等，回合制战斗策略性强",
       "prototype": "",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "Dimengeon",
-        "JRPG-Fantasian-Dimengeon存怪系统"
+        "MMO-梦幻西游-副本分级系统",
+        "MMO-梦幻西游-三货币经济系统"
       ],
-      "filename": "Fantasian.md"
+      "filename": "FantasyWestJourney.md"
+    },
+    "FantasyWestJourney2": {
+      "title": "大话西游2 / Fantasy West Journey 2",
+      "gameName": "大话西游2（经典版）",
+      "developer": "",
+      "publisher": "",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "RPG / 回制MMO",
+      "monetization": "",
+      "xStatement": "",
+      "tagline": "中国风回合制MMO，梦幻西游的直接竞品",
+      "playerStats": "",
+      "coreLoop": "- 日常任务→升级→装备打造→召唤兽培养→坐骑培养→PK",
+      "difficulty": "- 中等偏上，需要理解回合制战斗和复杂养成系统",
+      "prototype": "",
+      "pillars": [],
+      "achievements": "",
+      "relatedMechanisms": [
+        "[RPG-大话西游2-坐骑管制系统]",
+        "[RPG-大话西游2-坐骑技能系统]"
+      ],
+      "filename": "FantasyWestJourney2.md"
+    },
+    "FantasyWestwardJourney": {
+      "title": "Fantasy Westward Journey / 一梦江湖",
+      "gameName": "一梦江湖（Fantasy Westward Journey）",
+      "developer": "",
+      "publisher": "",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "MMORPG手游",
+      "monetization": "",
+      "xStatement": "",
+      "tagline": "网易武侠MMO手游代表作，捏脸自由度极高",
+      "playerStats": "",
+      "coreLoop": "- 升级→副本→PVP/帮战→外观收集",
+      "difficulty": "- 较低门槛，适合手游玩家",
+      "prototype": "",
+      "pillars": [],
+      "achievements": "",
+      "relatedMechanisms": [
+        "[MMO]-FantasyWestwardJourney-捏脸系统"
+      ],
+      "filename": "FantasyWestwardJourney.md"
     },
     "Farlight84": {
       "title": "游戏卡 - 萤火突击 (Farlight 84)",
@@ -12187,25 +10242,26 @@
       "filename": "Fortnite.md"
     },
     "ForzaHorizon5": {
-      "title": "Forza Horizon 5 / 地平线5",
-      "gameName": "Forza Horizon 5 / 地平线5",
-      "developer": "Playground Games",
+      "title": "极限竞速：地平线5 / Forza Horizon 5",
+      "gameName": "极限竞速：地平线5 (Forza Horizon 5)",
+      "developer": "",
       "publisher": "",
-      "platform": "PC / Xbox",
-      "releaseDate": "2021年",
-      "genre": "开放世界街机赛车",
-      "monetization": "买断制",
-      "xStatement": "墨西哥开放世界赛车\n\n在风景如画的墨西哥享受顶级的开放世界街机赛车嘉年华。\n\n---",
-      "tagline": "",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "开放世界竞速 / Racing",
+      "monetization": "",
+      "xStatement": "",
+      "tagline": "开放世界竞速游戏的天花板，观光旅游模拟器",
       "playerStats": "",
-      "coreLoop": "探索地图 -> 参加赛事/完成挑战 -> 获得奖励 -> 解锁/购买/改装车辆",
-      "difficulty": "较低。辅助功能强大，新手友好",
+      "coreLoop": "玩家在墨西哥开放世界中驾驶数百辆名车，参加各种赛事和活动，通过比赛获得经验和奖励，解锁更多内容和车辆",
+      "difficulty": "入门简单，精通难。娱乐玩家可以轻松享受驾驶乐趣，硬核玩家可以追求技术和成绩",
       "prototype": "",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "RAC-极限竞速地平线-时间回溯",
-        "RAC-通用-幽灵车陪跑"
+        "赛车-地平线5-开放世界探索",
+        "赛车-地平线5-技术进阶系统",
+        "赛车-地平线5-车辆改装系统"
       ],
       "filename": "ForzaHorizon5.md"
     },
@@ -12250,25 +10306,23 @@
       "filename": "Frostpunk2.md"
     },
     "GTAV": {
-      "title": "Grand Theft Auto Online / GTAOL",
-      "gameName": "Grand Theft Auto Online / GTAOL",
-      "developer": "Rockstar Games",
+      "title": "GTA V / 侠盗猎车手5",
+      "gameName": "侠盗猎车手5 / Grand Theft Auto V",
+      "developer": "Rockstar North",
       "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "2013年",
-      "genre": "开放世界、动作冒险、多人在线",
-      "monetization": "免费内购",
-      "xStatement": "犯罪帝国成长\n\n在庞大的虚拟都市中，从街头混混成长为犯罪帝国的霸主。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "做任务/抢劫/经营产业 -> 赚钱和声望 -> 购买资产 -> 参与更大型的抢劫和PVP活动",
-      "difficulty": "较低。任务引导清晰",
+      "platform": "PC / PS / Xbox",
+      "releaseDate": "2013年9月",
+      "genre": "开放世界 / 犯罪",
+      "monetization": "",
+      "xStatement": "Rockstar开放世界，洛杉矶洛圣都，三主角切换",
+      "tagline": "Rockstar开放世界神作",
+      "playerStats": "销量超2亿份，收入超60亿美元",
+      "coreLoop": "玩家在洛圣都完成任务，体验犯罪人生",
+      "difficulty": "中等 - 自由度极高",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "RAC-GTAol-载具切换"
-      ],
+      "relatedMechanisms": [],
       "filename": "GTAV.md"
     },
     "GameForPeace": {
@@ -12397,69 +10451,6 @@
       "relatedMechanisms": [],
       "filename": "GoblinSlayer.md"
     },
-    "GooseGooseDuck": {
-      "title": "鹅鸭杀 / Goose Goose Duck",
-      "gameName": "鹅鸭杀 / Goose Goose Duck",
-      "developer": "Gaggle Studios",
-      "publisher": "",
-      "platform": "PC / 移动端",
-      "releaseDate": "2021年",
-      "genre": "社交推理",
-      "monetization": "免费内购制",
-      "xStatement": "角色技能丰富的社交推理游戏\n\n继承狼人杀核心玩法，融合多职业技能与阵营博弈。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "做任务/刀人 -> 发现尸体/开会 -> 发言推理 -> 投票放逐",
-      "difficulty": "低。操作简单，核心在发言和逻辑",
-      "prototype": "玩法原型：《狼人杀》+ 职业技能系统\n\n- 被借鉴游戏的核心理念：狼人杀的发言推理框架\n- 本游戏在此基础上改出的独特体验：\n  1. 丰富技能系统\n  2. 任务系统\n  3. 多中立阵营\n\n---",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[非对称]-鹅鸭杀-双中立阵营机制",
-        "双中立阵营机制"
-      ],
-      "filename": "GooseGooseDuck.md"
-    },
-    "GranTurismo": {
-      "title": "Gran Turismo / GT赛车",
-      "gameName": "Gran Turismo / GT赛车",
-      "developer": "Polyphony Digital",
-      "publisher": "",
-      "platform": "PlayStation",
-      "releaseDate": "1997年",
-      "genre": "拟真赛车模拟",
-      "monetization": "买断制",
-      "xStatement": "真实驾驶百科全书\n\nThe Real Driving Simulator，追求极致真实的赛车文化百科全书。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "参加驾照考试/赛事 -> 赢得比赛获得奖金 -> 购买/调校车辆 -> 挑战更高级别赛事",
-      "difficulty": "很高。强调真实物理和车辆调校",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [],
-      "filename": "GranTurismo.md"
-    },
-    "GranblueFantasy": {
-      "title": "Granblue Fantasy: Relink / 碧蓝幻想Relink",
-      "gameName": "Granblue Fantasy: Relink / 碧蓝幻想Relink",
-      "developer": "Cygames / P",
-      "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "2024年",
-      "genre": "联机共斗ARPG、二次元",
-      "monetization": "买断制",
-      "xStatement": "二次元共斗\n\n二次元味儿十足战斗爽快的共斗动作游戏。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "四人组队进入副本 -> 积攒昏厥槽 -> 触发Link Time -> 爆发输出 -> 完成副本挑战",
-      "difficulty": "高。不同角色有不同攻击机制",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [],
-      "filename": "GranblueFantasy.md"
-    },
     "GrowAGarden": {
       "title": "Grow a Garden",
       "gameName": "Grow a Garden",
@@ -12565,10 +10556,7 @@
       "relatedMechanisms": [
         "[Roguelike]-[Hades]-[神明祝福系统]",
         "[Roguelike]-[Hades]-[死亡叙事融合系统]",
-        "[Roguelike]-[Hades]-[惩罚契约系统]",
-        "叙事驱动机制",
-        "多武器形态系统",
-        "祝福Build系统"
+        "[Roguelike]-[Hades]-[惩罚契约系统]"
       ],
       "filename": "Hades.md"
     },
@@ -12635,29 +10623,6 @@
       "relatedMechanisms": [],
       "filename": "HayDay.md"
     },
-    "HeartTown": {
-      "title": "心动小镇 / Lethal Company",
-      "gameName": "心动小镇",
-      "developer": "-",
-      "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "",
-      "genre": "开放世界社交经营",
-      "monetization": "免费内购",
-      "xStatement": "算法匹配邻居\n\n算法匹配邻居的小镇模拟生活。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "随机和邻居的小屋位置 -> 建设个性化小屋 -> 邻里串门互动 -> 产生情感链接",
-      "difficulty": "低。一键串门、点赞留言",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "飞地机制",
-        "模拟经营-心动小镇-飞地机制"
-      ],
-      "filename": "HeartTown.md"
-    },
     "Hearthstone": {
       "title": "Hearthstone / 炉石传说",
       "gameName": "炉石传说 / Hearthstone",
@@ -12701,25 +10666,23 @@
       "filename": "Hellblade2.md"
     },
     "Helldivers2": {
-      "title": "HELLDIVERS 2 / 绝地潜兵 2",
-      "gameName": "HELLDIVERS 2 / 绝地潜兵 2",
-      "developer": "",
+      "title": "Helldivers 2 / 绝地潜兵2",
+      "gameName": "绝地潜兵2 / Helldivers 2",
+      "developer": "Arrowhead Game Studios",
       "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "第三人称射击 (TPS) / 战术协作 (Co-op) / PVE",
+      "platform": "PC / PS5",
+      "releaseDate": "2024年2月8日",
+      "genre": "第三人称射击 / 合作",
       "monetization": "",
-      "xStatement": "",
-      "tagline": "带\"友军误伤\"的硬核科幻大兵模拟器",
-      "playerStats": "",
-      "coreLoop": "降落执行任务 -> 极高压对群战斗 -> 完成任务撤离并解锁新配备",
-      "difficulty": "中等至极高。射击压力尚可，但高压环境下\"盲操指令\"的心理素质与肌肉记忆要求极高",
+      "xStatement": "Arrowhead第三人称射击，4人合作对抗虫族/机器人",
+      "tagline": "4人合作射击",
+      "playerStats": "销量超1500万份",
+      "coreLoop": "4人小队执行任务，击败敌人，呼叫撤离",
+      "difficulty": "中等 - 需要团队配合",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "[TPS]-绝地潜兵2-战略配备指令输入"
-      ],
+      "relatedMechanisms": [],
       "filename": "Helldivers2.md"
     },
     "HeroesOfTheStorm": {
@@ -12894,34 +10857,6 @@
       ],
       "filename": "HonorOfKings.md"
     },
-    "HuaTangZhi": {
-      "title": "幻唐志：逍遥外传",
-      "gameName": "幻唐志：逍遥外传",
-      "developer": "网易",
-      "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "",
-      "genre": "回合制MMO",
-      "monetization": "免费内购",
-      "xStatement": "社交回合手游\n\n让玩家在深度回合策略与轻松社交氛围中，体验成长成就的快乐社交回合手游。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "资源积累 -> 角色等级养成 -> 策略战斗(PVP/PVE) -> 社交关系",
-      "difficulty": "门槛较低，但策略体验深度高，存在难度分级",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "回合制MMO-幻唐志逍遥外传-竖屏适配体验设计",
-        "回合制MMO-幻唐志逍遥外传-灵兽对战",
-        "回合制MMO-幻唐志逍遥外传-玲珑遗迹",
-        "回合制MMO-幻唐志逍遥外传-成就月",
-        "回合制MMO-幻唐志逍遥外传-启明之战",
-        "回合制MMO-幻唐志逍遥外传-专属宠物天赋",
-        "回合制MMO-幻唐志-精力系统"
-      ],
-      "filename": "HuaTangZhi.md"
-    },
     "IdleHeroes": {
       "title": "Idle Heroes / 放置奇兵",
       "gameName": "放置奇兵 / Idle Heroes",
@@ -12941,51 +10876,6 @@
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "IdleHeroes.md"
-    },
-    "InazumaEleven": {
-      "title": "Inazuma Eleven / 闪电11人",
-      "gameName": "Inazuma Eleven / 闪电11人",
-      "developer": "Level-5",
-      "publisher": "",
-      "platform": "主机 / 移动端",
-      "releaseDate": "2011年",
-      "genre": "JRPG、幻想体育、收集养成",
-      "monetization": "买断制",
-      "xStatement": "足球版勇者斗恶龙\n\n足球版的《勇者斗恶龙》+热血少年漫，披着足球外衣的超能力战斗JRPG。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "推进剧情 -> 遭遇战斗 -> 释放必杀技 -> 赢得比赛并招募对手 -> 练级组建梦之队",
-      "difficulty": "中低。本质指令战斗，决定胜负关键是属性克制和数值",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "足球-闪电十一人-工资帽"
-      ],
-      "filename": "InazumaEleven.md"
-    },
-    "InfiniteNikki": {
-      "title": "无限暖暖 / Infinity Nikki",
-      "gameName": "无限暖暖 / Infinity Nikki",
-      "developer": "叠纸游戏",
-      "publisher": "",
-      "platform": "PC / 移动端",
-      "releaseDate": "2024年",
-      "genre": "开放世界冒险、换装养成",
-      "monetization": "免费内购",
-      "xStatement": "换装大世界\n\n换装版开放大世界探索解谜。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "探索开放世界 -> 利用套装能力解谜/通关 -> 获取新设计图/外观材料",
-      "difficulty": "中。含跑跳、滑翔等操作校验",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "大世界异步合影",
-        "开放世界-无限暖暖-大世界异步合影"
-      ],
-      "filename": "InfiniteNikki.md"
     },
     "IntoTheBreach": {
       "title": "游戏卡 - Into the Breach (陷阵之志)",
@@ -13182,28 +11072,6 @@
       "relatedMechanisms": [],
       "filename": "KOF98.md"
     },
-    "Kards": {
-      "title": "卡厄思梦境 / Kards",
-      "gameName": "卡厄思梦境",
-      "developer": "Kards",
-      "publisher": "",
-      "platform": "PC",
-      "releaseDate": "",
-      "genre": "卡牌RPG、Roguelike",
-      "monetization": "免费",
-      "xStatement": "天胡局存档可带出\n\n天胡局存档可带出局外体验的杀戮尖塔。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "搭配角色 -> 进入单局肉鸽冒险 -> 获取变异卡牌 -> 通关撤离带出存档",
-      "difficulty": "中。策略卡牌玩法有门槛",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "Roguelike-卡厄思梦境-类肉鸽搜打撤的存档带出机制"
-      ],
-      "filename": "Kards.md"
-    },
     "KartRider": {
       "title": "跑跑卡丁车官方竞速版",
       "gameName": "跑跑卡丁车官方竞速版 (KartRider: Drift)",
@@ -13364,22 +11232,24 @@
     },
     "LeagueOfLegends": {
       "title": "League of Legends / 英雄联盟",
-      "gameName": "League of Legends / 英雄联盟",
+      "gameName": "英雄联盟 / League of Legends",
       "developer": "Riot Games",
       "publisher": "",
       "platform": "PC / 移动端",
       "releaseDate": "2009年",
       "genre": "MOBA",
-      "monetization": "免费内购",
-      "xStatement": "MOBA经典\n\n全球最受欢迎的MOBA游戏。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "发育 -> 团战 -> 推塔 -> 获胜",
-      "difficulty": "中等。需要兵线运营、视野控制、团队配合",
+      "monetization": "",
+      "xStatement": "Riot 5v5 MOBA，MOBA品类开创者",
+      "tagline": "MOBA品类开创者",
+      "playerStats": "月活1.8亿，营收18.2亿美元",
+      "coreLoop": "5v5对战，推塔获胜",
+      "difficulty": "中等 - 需要练习",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[MOBA]-LoL极地大乱斗-海克斯强化"
+      ],
       "filename": "LeagueOfLegends.md"
     },
     "LegendsOfRuneterra": {
@@ -13407,28 +11277,6 @@
         "[策略卡牌]-Legends of Runeterra-格挡攻防机制"
       ],
       "filename": "LegendsOfRuneterra.md"
-    },
-    "LibraryOfRuina": {
-      "title": "Library of Ruina / 废墟图书馆",
-      "gameName": "Library of Ruina / 废墟图书馆",
-      "developer": "Project Moon",
-      "publisher": "",
-      "platform": "PC",
-      "releaseDate": "2021年",
-      "genre": "卡牌策略、回合制RPG、剧情向",
-      "monetization": "买断制",
-      "xStatement": "掷骰卡牌对战\n\n将掷骰子与卡牌碰撞结合的硬核对波模拟器。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "接待宾客 -> 配置书页卡组 -> 战斗内掷骰子拼点 -> 获取书籍用于强化和推进主线",
-      "difficulty": "极高。包含拼点、混乱值等多重复杂计算",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "卡牌-废墟图书馆-动态拼点博弈机制"
-      ],
-      "filename": "LibraryOfRuina.md"
     },
     "LiesOfP": {
       "title": "匹诺曹的谎言 (Lies of P)",
@@ -13489,28 +11337,6 @@
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "LostArk.md"
-    },
-    "LostLight": {
-      "title": "萤火突击 / Lost Light",
-      "gameName": "萤火突击 / Lost Light",
-      "developer": "网易",
-      "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "2022年",
-      "genre": "FPS、搜打撤",
-      "monetization": "免费内购制",
-      "xStatement": "能抓BOSS当宠物的硬核版猫鼠游戏\n\n能抓BOSS当宠物，把敌人捆成大金带回家的硬核版猫鼠游戏。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "发现目标 -> 击倒控制（扎带捆绑）-> 背负撤离 -> 局外收益",
-      "difficulty": "中等偏高。需要精准射击能力，同时背负俘虏时移动受限",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "FPS夺金-萤火突击-俘虏绑架机制"
-      ],
-      "filename": "LostLight.md"
     },
     "LoveAndDeepspace": {
       "title": "恋与深空 (Love and Deepspace)",
@@ -13631,31 +11457,9 @@
       ],
       "achievements": "",
       "relatedMechanisms": [
-        "FPS夺金-失落星船-植入物与核心"
+        "[FPS]-[Marathon]-[三层构筑系统]"
       ],
       "filename": "Marathon.md"
-    },
-    "MarioKart": {
-      "title": "Mario Kart / 马里奥赛车",
-      "gameName": "Mario Kart / 马里奥赛车",
-      "developer": "Nintendo",
-      "publisher": "",
-      "platform": "主机 / 移动端",
-      "releaseDate": "1992年",
-      "genre": "道具赛车、派对游戏",
-      "monetization": "买断制",
-      "xStatement": "全家欢道具乱斗\n\n全家欢的道具乱斗派对赛车游戏。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "选择角色/赛车 -> 比赛中使用道具干扰对手 -> 争取名次 -> 解锁新角色/配件",
-      "difficulty": "极低。操作简单，核心乐趣在于道具使用",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "RAC-非拟真赛车-名次道具分配"
-      ],
-      "filename": "MarioKart.md"
     },
     "MarvelDuel": {
       "title": "漫威对决 - 游戏拆解分析",
@@ -13679,28 +11483,6 @@
       ],
       "filename": "MarvelDuel.md"
     },
-    "MarvelRivals": {
-      "title": "Marvel Rivals / 漫威争锋",
-      "gameName": "Marvel Rivals / 漫威争锋",
-      "developer": "",
-      "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "TPS 对战 / MOBA+FPS",
-      "monetization": "",
-      "xStatement": "",
-      "tagline": "6v6超级英雄TPS对战",
-      "playerStats": "",
-      "coreLoop": "选英雄->对抗（推车/占点）->释放技能->团队配合->获胜",
-      "difficulty": "中等。需要了解英雄技能、团队配合、地图机制",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[TPS]-[漫威争锋]-[天赋强化]"
-      ],
-      "filename": "MarvelRivals.md"
-    },
     "MarvelSnap": {
       "title": "Marvel Snap",
       "gameName": "Marvel Snap",
@@ -13722,70 +11504,6 @@
         "策略卡牌-漫威终极逆转-位置机制"
       ],
       "filename": "MarvelSnap.md"
-    },
-    "MatchdayChampions": {
-      "title": "Matchday Champions",
-      "gameName": "Matchday Champions",
-      "developer": "-",
-      "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "",
-      "genre": "休闲策略、卡牌",
-      "monetization": "免费内购",
-      "xStatement": "卡牌对战足球\n\n足球卡牌对战游戏。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "收集球星卡 -> 组建首发阵容 -> 异步/自动进行比赛 -> 赢取卡包",
-      "difficulty": "极低。纯比拼战力",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "足球-Matchday-Champions-比赛玩法"
-      ],
-      "filename": "MatchdayChampions.md"
-    },
-    "MayBe": {
-      "title": "出发吧麦芬",
-      "gameName": "出发吧麦芬",
-      "developer": "心动网络",
-      "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "",
-      "genre": "放置类MMORPG、双人合作RPG",
-      "monetization": "免费内购",
-      "xStatement": "双人社交版放置挂机\n\n双人社交版的放置挂机冒险。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "组建双人小队 -> 自动推进副本 -> 获取装备/材料 -> 挑战更高阶主线",
-      "difficulty": "低。全挂机战斗，只特定团本需要手动释放技能",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [],
-      "filename": "MayBe.md"
-    },
-    "MengHuanNewZhuXian": {
-      "title": "梦幻新诛仙",
-      "gameName": "梦幻新诛仙",
-      "developer": "完美世界",
-      "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "",
-      "genre": "回合制MMO",
-      "monetization": "免费内购",
-      "xStatement": "元素交互回合\n\n以\"元素交互\"回合战斗核心，自由探索的3D仙侠开放世界回合制手游。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "资源积累 -> 角色等级养成 -> 策略战斗(PVP/PVE) -> 社交关系",
-      "difficulty": "门槛较低，策略深度高",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "回合制MMO-梦幻新诛仙-大漠狐冢"
-      ],
-      "filename": "MengHuanNewZhuXian.md"
     },
     "MetalSlug": {
       "title": "合金弹头 / Metal Slug",
@@ -13981,28 +11699,6 @@
       ],
       "filename": "MortalKombat11.md"
     },
-    "MyGardenWorld": {
-      "title": "我的花园世界",
-      "gameName": "我的花园世界",
-      "developer": "-",
-      "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "",
-      "genre": "模拟经营、种田",
-      "monetization": "免费内购",
-      "xStatement": "古风花园\n\n以图鉴收集为目标的古风模拟经营。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "种植花卉 -> 完成订单 -> 完成公会目标 -> 解锁更多花卉",
-      "difficulty": "低。仅需种植点击操作",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "模拟经营-我的花园世界-交换花"
-      ],
-      "filename": "MyGardenWorld.md"
-    },
     "NarutoMobile": {
       "title": "火影忍者手游",
       "gameName": "火影忍者手游",
@@ -14091,74 +11787,6 @@
       "relatedMechanisms": [],
       "filename": "NiNoKuniCrossingWorlds.md"
     },
-    "Nightbound": {
-      "title": "永劫无间-无间镖客模式",
-      "gameName": "永劫无间-无间镖客模式",
-      "developer": "网易、24 Entertainment",
-      "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "",
-      "genre": "FPS / 搜打撤 / 武侠格斗",
-      "monetization": "",
-      "xStatement": "武侠吃鸡+搜打撤\n\n带武侠吃鸡玩法的搜打撤游戏。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "局前BD战备 -> 局内搜刮/战斗 -> 撤离收获物资",
-      "difficulty": "中等。需枪法、战术、干员技能综合能力",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "载具作战",
-        "夺金-永劫无间无间镖客-局外镖契保险",
-        "夺金-永劫无间无间镖客-满江红商友良赌坊玩法"
-      ],
-      "filename": "Nightbound.md"
-    },
-    "NightboundMobile": {
-      "title": "永劫无间手游-侠影夺金模式",
-      "gameName": "永劫无间手游-侠影夺金模式",
-      "developer": "网易",
-      "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "",
-      "genre": "FPS / 搜打撤 / 武侠格斗",
-      "monetization": "",
-      "xStatement": "武侠吃鸡搜打撤\n\n带武侠吃鸡玩法的搜打撤游戏。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "局前BD战备 -> 局内搜刮/战斗 -> 撤离收获物资",
-      "difficulty": "中等。无需高熟练度连招，但对阵容搭配和战备BD组合要求较高",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [],
-      "filename": "NightboundMobile.md"
-    },
-    "Nioh": {
-      "title": "仁王系列 / Nioh",
-      "gameName": "仁王系列 / Nioh",
-      "developer": "Team Ninja",
-      "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "2017年",
-      "genre": "ARPG、动作、类魂",
-      "monetization": "买断制",
-      "xStatement": "动作设计资源资产化\n\n让动作设计资源成为公司核心资产的ARPG。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "探索关卡 -> 遭遇强敌 -> 选择姿势切换 -> 残心回复战斗资源 -> 击败敌人获取装备/技能 -> 深化Build",
-      "difficulty": "极高",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "资源管理",
-        "车轮战",
-        "ARPG-仁王-三段架势系统"
-      ],
-      "filename": "Nioh.md"
-    },
     "NoRestForTheWicked": {
       "title": "恶意不息 (No Rest For The Wicked)",
       "gameName": "",
@@ -14242,28 +11870,6 @@
       "relatedMechanisms": [],
       "filename": "Overwatch2.md"
     },
-    "PEAK": {
-      "title": "PEAK / 极限攀登",
-      "gameName": "PEAK / 极限攀登",
-      "developer": "-",
-      "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "",
-      "genre": "多人合作动作、物理模拟",
-      "monetization": "免费内购",
-      "xStatement": "合作攀岩\n\n注重多人互坑的合作攀岩模拟器。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "徒手攀爬/使用装备 -> 应对地貌灾害/突发天气 -> 团队协作互助或互坑 -> 登顶",
-      "difficulty": "中。基础操作简单，高物理操控与协作门槛",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "生存冒险-PEAK-队友整蛊"
-      ],
-      "filename": "PEAK.md"
-    },
     "PUBG": {
       "title": "PUBG / 绝地求生",
       "gameName": "绝地求生 / PUBG",
@@ -14307,45 +11913,66 @@
       "filename": "Paladins.md"
     },
     "Palworld": {
-      "title": "Palworld / 幻兽帕鲁",
-      "gameName": "Palworld / 幻兽帕鲁",
-      "developer": "Pocketpair",
+      "title": "游戏卡 - Palworld (幻兽帕鲁)",
+      "gameName": "",
+      "developer": "",
       "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "2024年",
-      "genre": "开放世界生存、收集养成、建造、动作射击",
-      "monetization": "买断制",
-      "xStatement": "宝可梦+方舟+枪械射击\n\n宝可梦+方舟生存进化+枪械射击的缝合怪开放世界生存游戏。\n\n---",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "",
+      "monetization": "",
+      "xStatement": "公式：多人开放世界生存建造 + 帕鲁捕捉养成打工 + 枪械战斗\n\n- 基础信息：多人（最高32人服务器）、开放世界、帕鲁捕捉养成、基地建造、生存战斗\n- 品类：开放世界生存 / 养成建造\n- 核心差异点：将宝可梦式宠物养成融入硬核生存建造，帕鲁代替人工打工\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "收集资源 -> 建造基地 -> 捕捉帕鲁 -> 培育强化 -> 自动化生产 -> 探索/战斗/抵御入侵",
-      "difficulty": "中等偏低。基础生存建造易上手，帕鲁培育有深度",
-      "prototype": "玩法原型：方舟 + 宝可梦 + 射击\n\n- 被借鉴游戏的核心理念：生存建造 + 宝可梦养成 + 射击战斗\n- 本游戏在此基础上改出的独特体验：\n  1. 帕鲁捕捉与培育\n  2. 基地自动化\n  3. 伙伴技能联动\n\n---",
-      "pillars": [],
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《Palworld》是基于《ARK: Survival Evolved》的体验：\n\n- ARK 的核心理念：开放世界生存 + 恐龙宠物伙伴 + 基地建造\n- 本游戏独特体验：\n  1. 帕鲁打工系统：帕鲁自动进行采集、建造、生产等劳动，玩家从\"亲自干活\"转变为\"管理帕鲁\"\n  2. 宝可梦式捕捉：沿用宝可梦的精灵球捕捉方式，降低捕捉门槛\n  3. 枪械战斗：相比 ARK 的冷兵器，引入现代枪械系统提升战斗力\n  4. 黑暗讽刺风格：帕鲁会被吃掉、用于赌博等，区别于宝可梦的\"友谊\"主题\n\n设计参考来源：\n- 核心玩法：借鉴《ARK: Survival Evolved》的怪物伙伴系统（CEO Takuro Mizobe 访谈确认）\n- 生存机制：借鉴《Rust》的资源采集、基地建造、PvP 劫掠\n- 帕鲁捕捉：借鉴宝可梦的精灵球捕捉模式\n- 战斗系统：现代枪械 + 冷兵器结合\n\n---",
+      "pillars": [
+        {
+          "title": "帕鲁捕捉与养成 -> 100+帕鲁类型 + 捕捉/升级/变异 -> 差异化战斗/劳动定位",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "帕鲁打工系统 -> 自动化劳动替代手动 -> 基地全自动运转",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "开放世界生存 -> 探索/采集/建造/战斗 -> 自由度和风险并存",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "PvP 与多人协作 -> 32人服务器 + 公会系统 + 劫掠/防御",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[生存建造]-幻兽帕鲁-帕鲁生产劳动系统"
+      ],
       "filename": "Palworld.md"
     },
     "PathOfExile": {
       "title": "Path of Exile / 流放之路",
-      "gameName": "Path of Exile / 流放之路",
+      "gameName": "流放之路 / Path of Exile",
       "developer": "Grinding Gear Games",
       "publisher": "",
       "platform": "PC",
       "releaseDate": "2013年",
-      "genre": "ARPG、刷宝",
-      "monetization": "免费内购",
-      "xStatement": "无限技能Build\n\n拥有无限可能性的技能build的暗黑类刷宝游戏。\n\n---",
-      "tagline": "",
+      "genre": "ARPG / 刷宝",
+      "monetization": "",
+      "xStatement": "GGG暗黑like刷宝，天赋树+技能石",
+      "tagline": "暗黑-like",
       "playerStats": "",
-      "coreLoop": "刷图打宝 -> 获取技能宝石/天赋点 -> 技能组合构建BD -> 挑战更高阶地图/Boss",
-      "difficulty": "高。需要极强的数学逻辑和Build规划能力",
+      "coreLoop": "",
+      "difficulty": "",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "ARPG-流放之路-技能天赋"
-      ],
+      "relatedMechanisms": [],
       "filename": "PathOfExile.md"
     },
     "PathOfExile2": {
@@ -14410,50 +12037,6 @@
       ],
       "filename": "Payday3.md"
     },
-    "PeaceEliteSubway": {
-      "title": "和平精英-地铁逃生模式",
-      "gameName": "和平精英-地铁逃生模式",
-      "developer": "腾讯光子",
-      "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "",
-      "genre": "FPS、搜打撤",
-      "monetization": "",
-      "xStatement": "PUBG版搜打撤玩法\n\nPUBG版的搜打撤玩法。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "携带装备进入 -> 搜刮物资/击败BOSS -> 前往辐射区 -> 寻找撤离点 -> 成功撤出 -> 变卖物资",
-      "difficulty": "中等。基础枪战操作易上手，但物资认知、风险决策需要学习成本",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "夺金-和平精英地铁逃生-动力机甲玩法"
-      ],
-      "filename": "PeaceEliteSubway.md"
-    },
-    "PeaceEliteTomb": {
-      "title": "和平精英-古墓迷途模式",
-      "gameName": "和平精英-古墓迷途模式",
-      "developer": "腾讯光子",
-      "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "",
-      "genre": "FPS、搜打撤、微恐近战",
-      "monetization": "",
-      "xStatement": "PUBG版微恐近战搜打版的微恐近撤\n\nPUBG战搜打撤玩法。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "战前配置职业/法宝 -> 入局搜刮物资/击杀怪物 -> 前往地下区域 -> 挑战最终BOSS -> 前往撤离点",
-      "difficulty": "中等。需要掌握FPS基础，同时理解搜打撤风险决策和职业/法宝搭配",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "夺金-和平精英古墓迷途-赛季制类MMO法宝"
-      ],
-      "filename": "PeaceEliteTomb.md"
-    },
     "Persona3Reload": {
       "title": "女神异闻录3Reload (Persona 3 Reload)",
       "gameName": "",
@@ -14473,26 +12056,6 @@
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "Persona3Reload.md"
-    },
-    "Persona5": {
-      "title": "Persona 5 / 女神异闻录5",
-      "gameName": "Persona 5 / 女神异闻录5",
-      "developer": "Atlus",
-      "publisher": "",
-      "platform": "PC / 主机 / 移动端",
-      "releaseDate": "2016年",
-      "genre": "JRPG、回合制、角色扮演",
-      "monetization": "买断制",
-      "xStatement": "潮酷JRPG\n\n把\"找弱点\"做成极限连招的潮酷JRPG。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "潜入殿堂 -> 遭遇暗雷进入战斗 -> 试探/利用弱点触发One More -> 总攻击清场",
-      "difficulty": "中等。需要记忆属性克制表和技能规划",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [],
-      "filename": "Persona5.md"
     },
     "Persona5PhantomX": {
       "title": "女神异闻录：夜幕魅影 (Persona 5: The Phantom X)",
@@ -14580,26 +12143,6 @@
       ],
       "filename": "PlantsVsZombies.md"
     },
-    "ProjectZomboid": {
-      "title": "Project Zomboid / 僵尸毁灭工程",
-      "gameName": "Project Zomboid / 僵尸毁灭工程",
-      "developer": "The Indie Stone",
-      "publisher": "",
-      "platform": "PC",
-      "releaseDate": "2013年",
-      "genre": "生存沙盒、俯视角RPG、末日生存",
-      "monetization": "买断制",
-      "xStatement": "硬核版DayZ\n\n带生存管理的硬核版DayZ，侧重长期生存与角色养成的末日沙盒游戏。永久死亡机制，核心是\"尽可能活得更久\"。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "搜刮物资 -> 建造/加固庇护所 -> 维持角色状态（吃喝/伤病/压力）-> 躲避/对抗丧尸 -> 探索扩张与技能成长",
-      "difficulty": "高。需掌握物资管理、战斗技巧、建筑搭建、疾病预防、情绪调节等多维度生存知识，新手期容错率极低，死亡代价大",
-      "prototype": "玩法原型：生存管理 + 永久死亡\n\n- 被借鉴游戏的核心理念：DayZ 的生存框架 + 模拟经营\n- 本游戏在此基础上改出的独特体验：\n  1. 永久死亡机制（角色死亡即存档删除）\n  2. 情绪系统（Moodle）\n  3. 伤口感染系统\n  4. 声音/视野机制\n\n---",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [],
-      "filename": "ProjectZomboid.md"
-    },
     "QQFeiChe": {
       "title": "QQ飞车手游",
       "gameName": "QQ飞车手游",
@@ -14642,40 +12185,20 @@
       "relatedMechanisms": [],
       "filename": "R6Siege.md"
     },
-    "ROC": {
-      "title": "Race of Champions / 车王争霸赛",
-      "gameName": "Race of Champions / 车王争霸赛",
-      "developer": "-",
-      "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "历年",
-      "genre": "场地赛车模拟",
-      "monetization": "买断制",
-      "xStatement": "同场竞技\n\n在真实ROC赛事规则下，驾驶同款赛车与传奇车手一决高下。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "选择车手 -> 在平行赛道或追逐赛道上进行1v1对决 -> 淘汰对手晋级 -> 赢得冠军",
-      "difficulty": "较高。车辆相同考验纯粹驾驶技术",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [],
-      "filename": "ROC.md"
-    },
     "Raft": {
       "title": "Raft / 木筏求生",
-      "gameName": "Raft / 木筏求生",
-      "developer": "Redbeet Interactive",
+      "gameName": "Raft (木筏求生)",
+      "developer": "",
       "publisher": "",
-      "platform": "PC",
-      "releaseDate": "2018年",
-      "genre": "海洋生存、沙盒建造、冒险探索",
-      "monetization": "买断制",
-      "xStatement": "海上漂流建造\n\n带海上漂流建造的生存版我的世界。\n\n---",
-      "tagline": "",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "生存 / 沙盒 / 冒险",
+      "monetization": "",
+      "xStatement": "",
+      "tagline": "海上拾荒求生的沙盒建造游戏",
       "playerStats": "",
-      "coreLoop": "打捞海上物资 -> 制作工具/扩建木筏 -> 种植养殖/净化淡水 -> 抵御鲨鱼 -> 探索岛屿",
-      "difficulty": "低至中等。基础操作简单，后期有门槛",
+      "coreLoop": "收集漂浮物资 → 防御鲨鱼 → 建造升级木筏 → 满足饥饿口渴 → 解锁雷达找岛屿 → 推进剧情",
+      "difficulty": "中等。上手需要适应漂浮物收集节奏",
       "prototype": "",
       "pillars": [],
       "achievements": "",
@@ -14788,26 +12311,6 @@
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "RedDeadRedemption2.md"
-    },
-    "RefereeSimulator": {
-      "title": "裁判模拟器",
-      "gameName": "裁判模拟器",
-      "developer": "-",
-      "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "",
-      "genre": "模拟类",
-      "monetization": "买断制",
-      "xStatement": "裁判视角\n\n扮演足球裁判的游戏。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "阅读比赛画面 -> 突发事件判罚 -> 决定出牌力度 -> 控制比赛压力值 -> 赛后评分",
-      "difficulty": "低。核心是做选择题",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [],
-      "filename": "RefereeSimulator.md"
     },
     "Remnant2": {
       "title": "遗迹与黑暗 (Remnant 2)",
@@ -14940,27 +12443,22 @@
     },
     "Rust": {
       "title": "Rust / 腐蚀",
-      "gameName": "Rust / 腐蚀",
+      "gameName": "腐蚀 / Rust",
       "developer": "Facepunch Studios",
       "publisher": "",
-      "platform": "PC",
+      "platform": "PC / 主机",
       "releaseDate": "2018年",
-      "genre": "生存沙盒 / FPS / 建造 / PvPvE",
-      "monetization": "买断制",
-      "xStatement": "硬核 PvPvE 生存沙盒\n\n类 DayZ + 七日杀的高对抗生存游戏，带生存与建造的硬核PvPvE沙盒射击。\n\n---",
-      "tagline": "",
+      "genre": "生存 / PVP",
+      "monetization": "",
+      "xStatement": "Facepunch生存建造，PVP掠夺",
+      "tagline": "硬核生存PVP",
       "playerStats": "",
-      "coreLoop": "搜刮资源 -> 建造基地 -> 制作装备 -> 防御/掠夺其他玩家 -> 应对环境与NPC威胁",
-      "difficulty": "极高。需掌握射击、建造、资源管理、PvP战术",
-      "prototype": "玩法原型：DayZ + 七日杀\n\n- 被借鉴游戏的核心理念：生存建造与PvP对抗\n- 本游戏在此基础上改出的独特体验：\n  1. 基地建造系统\n  2. 辐射区机制\n  3. 服务器清档\n\n---",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "[生存沙盒]-RUST-爆炸物破防",
-        "[生存沙盒]-RUST-基地建造",
-        "[生存沙盒]-RUST-采集小游戏",
-        "[生存沙盒]-RUST-枪械后坐力控制"
-      ],
+      "relatedMechanisms": [],
       "filename": "Rust.md"
     },
     "RustedWarfare": {
@@ -15003,80 +12501,25 @@
       "relatedMechanisms": [],
       "filename": "SamuraiShodown.md"
     },
-    "SanGuoZhanLue": {
-      "title": "三国志·战略版",
-      "gameName": "三国志·战略版",
+    "SanguoMoudingTianxia": {
+      "title": "三国谋定天下",
+      "gameName": "",
       "developer": "",
       "publisher": "",
       "platform": "",
       "releaseDate": "",
-      "genre": "硬核沙盘策略、SLG",
+      "genre": "",
       "monetization": "",
       "xStatement": "",
-      "tagline": "\"主打真实地形碰撞和兵种微操博弈的硬核拟真三国SLG\"",
-      "playerStats": "",
-      "coreLoop": "抽卡配将 -> 手动铺路打地积攒资源 -> 大地图自由行军/拦截博弈 -> 攻城拔寨/千人同屏同盟国战（注：强调地缘政治和真实行军时间成本，策略深度极高）",
-      "difficulty": "较高。需要深度理解武将池的战法联动、兵种克制循环关系，且需要实时关注战报进行\"藏兵\"、\"斯巴达探路\"、\"中途拦截吃克制\"等大地图微操",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[SLG]-三战-兵种相克机制",
-        "[SLG]-三国志战略版-动态地图",
-        "[SLG]-三国志战略版-季节主题玩法",
-        "[SLG]-三国志战略版-兵种相克机制",
-        "[SLG]-三国志战略版-自由行军与碰撞交战"
-      ],
-      "filename": "SanGuoZhanLue.md"
-    },
-    "SanguoBinghe": {
-      "title": "三国冰河时代 / Ice Age",
-      "gameName": "三国冰河时代",
-      "developer": "壳木游戏",
-      "publisher": "",
-      "platform": "移动端（出海为主）",
-      "releaseDate": "2019年",
-      "genre": "SLG、模拟经营",
-      "monetization": "内购制",
-      "xStatement": "三国题材冰雪生存SLG\n\n融合冰雪生存题材与SLG策略玩法，玩家在极寒环境中经营城市、发展科技，通过联盟协作争夺领土。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "收集资源/加煤抗寒 -> 城建扩张/居民健康管理 -> 联盟GVG",
-      "difficulty": "中等。前期模拟经营门槛低，后期SLG需要联盟配合",
-      "prototype": "玩法原型：COK-like + 冰雪生存题材创新\n\n- 被借鉴游戏的核心理念：COK 的联盟战斗框架 + 冰汽时代的生存题材\n- 本游戏在此基础上改出的独特体验：\n  1. 冰雪生存题材差异化\n  2. 简化版居民管理系统\n  3. 联盟GVG为核心出口\n\n---",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[SLG]-三国冰河时代-居民管理",
-        "[SLG]-三国冰河时代-城池连通与区域解锁",
-        "[SLG]-三冰-武将等级共享",
-        "[SLG]-三国冰河时代-侦察玩法",
-        "[SLG]-三国冰河时代-国家官职与区域任命"
-      ],
-      "filename": "SanguoBinghe.md"
-    },
-    "SanguoMoudingTianxia": {
-      "title": "三国谋定天下 / 三国谋定天下",
-      "gameName": "三国谋定天下",
-      "developer": "",
-      "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "多职业沙盘策略、SLG",
-      "monetization": "",
-      "xStatement": "",
-      "tagline": "\"带有MMO职业分工和护肝自动铺路的现代化三国SLG\"",
-      "playerStats": "",
-      "coreLoop": "开局选择职业/降生州 -> 自动铺路/打地获取资源 -> 职业配合攻城/PVP -> 赛季结算重置（注：降低了铺地门槛，放大了团战配合与职业技能博弈的权重）",
-      "difficulty": "中偏低。不需要玩家卡秒铺路、频繁上线盯盘，门槛主要集中在\"战法/武将搭配\"以及\"同盟战役中的职业技能配合\"（如造投石车，放陷阱）",
+      "coreLoop": "",
+      "difficulty": "",
       "prototype": "",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[SLG]-三谋-六大职业分工PVP",
-        "[SLG]-三谋-智能铺路与连地机制",
-        "[SLG]-三国谋定天下-六大职业分工PVP",
-        "[SLG]-三国谋定天下-智能铺路与连地机制"
+        "[SLG]-三国谋定天下-职业系统SLG"
       ],
       "filename": "SanguoMoudingTianxia.md"
     },
@@ -15140,47 +12583,26 @@
       "relatedMechanisms": [],
       "filename": "SeaOfThieves.md"
     },
-    "ShadowOfMordor": {
-      "title": "Middle-earth: Shadow of Mordor / 中土世界：暗影魔多",
-      "gameName": "Middle-earth: Shadow of Mordor / 中土世界：暗影魔多",
-      "developer": "Monolith Productions",
-      "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "2014年",
-      "genre": "ARPG、开放世界、动作冒险",
-      "monetization": "买断制",
-      "xStatement": "动态宿敌系统\n\n让每个兽人都有名字、记忆和复仇计划的动态宿敌系统开创者。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "潜行/战斗 -> 击杀/羞辱兽人 -> 兽人记住你并升级 -> 兽人发起复仇/晋升 -> 再次遭遇并终结恩怨",
-      "difficulty": "中等",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "RPG-中土世界-宿敌系统"
-      ],
-      "filename": "ShadowOfMordor.md"
-    },
     "Shadowverse": {
-      "title": "Shadowverse / 影之诗",
-      "gameName": "Shadowverse / 影之诗",
-      "developer": "Cygames",
+      "title": "游戏名 / Game Name",
+      "gameName": "影之诗 / Shadowverse",
+      "developer": "",
       "publisher": "",
-      "platform": "移动端 / PC",
-      "releaseDate": "2016年",
-      "genre": "卡牌对战",
-      "monetization": "免费内购",
-      "xStatement": "牌佬社区\n\n牌佬的线上文化社区。\n\n---",
-      "tagline": "",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "CCG / 策略卡牌",
+      "monetization": "",
+      "xStatement": "",
+      "tagline": "日系二次元风格的竞技卡牌游戏",
       "playerStats": "",
-      "coreLoop": "与他人互动 -> 匹配对战 -> 观看直播",
-      "difficulty": "低。仅需操作虚拟摇杆移动和观看",
+      "coreLoop": "使用进化点进行卡牌进化->利用回合优势战场->将对手生命值降至0获胜",
+      "difficulty": "中低上手难度，日系美术风格吸引二次元用户",
       "prototype": "",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "卡牌-影之诗2-公园观棋"
+        "策略卡牌-影之诗-进化系统",
+        "策略卡牌-影之诗-同名卡机制"
       ],
       "filename": "Shadowverse.md"
     },
@@ -15224,28 +12646,6 @@
       "relatedMechanisms": [],
       "filename": "ShiJieZhiWai.md"
     },
-    "Sifu": {
-      "title": "Sifu / 师父",
-      "gameName": "Sifu / 师父",
-      "developer": "Sloclap",
-      "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "2022年",
-      "genre": "ACT、功夫、Roguelike",
-      "monetization": "买断制",
-      "xStatement": "死亡即变老\n\n死亡即变老，在寿命耗尽前通关的功夫复仇动作游戏。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "关卡推进 -> 战斗/死亡 -> 年龄增长 -> 解锁永久技能 -> 在70岁前击败最终BOSS",
-      "difficulty": "极高。精准格挡/闪避时机，且随年龄增长容错率越来越低",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "ACT-师父-年龄系统"
-      ],
-      "filename": "Sifu.md"
-    },
     "SkyArena": {
       "title": "游戏卡-时空召唤",
       "gameName": "时空召唤 / Sky Arena",
@@ -15270,71 +12670,24 @@
       ],
       "filename": "SkyArena.md"
     },
-    "SkyChildrenOfTheLight": {
-      "title": "光遇 / Sky: Children of the Light",
-      "gameName": "光遇 / Sky: Children of the Light",
-      "developer": "thatgamecompany",
+    "SonsOfTheForest": {
+      "title": "Sons of the Forest / 森林之子",
+      "gameName": "森林之子 / Sons of the Forest",
+      "developer": "Endnight Games",
       "publisher": "",
-      "platform": "移动端 / PC / Switch",
-      "releaseDate": "2019年",
-      "genre": "社交冒险",
-      "monetization": "免费内购",
-      "xStatement": "情感社交\n\n与其他人互相扶持前进的社交冒险。\n\n---",
-      "tagline": "",
+      "platform": "PC",
+      "releaseDate": "2023年（EA）/ 2024年（正式版）",
+      "genre": "生存恐怖",
+      "monetization": "",
+      "xStatement": "Endnight生存恐怖，森林续作",
+      "tagline": "森林续作",
       "playerStats": "",
-      "coreLoop": "探索收集烛火 -> 与他人互动建立羁绊 -> 共同攻克地图难关",
-      "difficulty": "低。仅需虚拟摇杆移动和交互",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "小黑机制",
-        "MMO-光遇-小黑机制",
-        "MMO-光遇-留言板机制",
-        "MMO-光遇-MBTI玩法"
-      ],
-      "filename": "SkyChildrenOfTheLight.md"
-    },
-    "SnowRunner": {
-      "title": "SnowRunner / 雪地奔驰",
-      "gameName": "SnowRunner / 雪地奔驰",
-      "developer": "Saber Interactive",
-      "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "2020年",
-      "genre": "驾驶模拟、越野、沙盒",
-      "monetization": "买断制",
-      "xStatement": "末日送货模拟器\n\n挑战极限路况的硬核卡车驾驶模拟器。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "接受运输任务 -> 规划路线 -> 克服恶劣地形 -> 完成任务获得金钱 -> 解锁/升级卡车",
-      "difficulty": "较高。强调真实物理反馈，需要策略",
+      "coreLoop": "",
+      "difficulty": "",
       "prototype": "",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [],
-      "filename": "SnowRunner.md"
-    },
-    "SonsOfTheForest": {
-      "title": "Sons of the Forest / 森林之子",
-      "gameName": "Sons of the Forest / 森林之子",
-      "developer": "Endnight Games",
-      "publisher": "",
-      "platform": "PC",
-      "releaseDate": "2023年",
-      "genre": "开放世界生存、第一人称恐怖、建造制作",
-      "monetization": "买断制",
-      "xStatement": "AI伙伴协作生存\n\n带AI伙伴协作的升级版森林，侧重荒岛生存与恐怖探索。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "搜集物资 -> 建造庇护所/制作工具 -> 寻找必需品 -> 对抗野人/变异体 -> 探索洞穴/遗迹",
-      "difficulty": "中等。基础易上手，高级建造有门槛",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[生存恐怖沙盒]-森林之子-自由模块化建筑与防御工事"
-      ],
       "filename": "SonsOfTheForest.md"
     },
     "SoulcaliburVI": {
@@ -15360,28 +12713,6 @@
       ],
       "filename": "SoulcaliburVI.md"
     },
-    "SpaceKillerClown": {
-      "title": "外太空杀人小丑 / Killer Klowns from Outer Space",
-      "gameName": "外太空杀人小丑 / Killer Klowns from Outer Space",
-      "developer": "Teravision Games",
-      "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "2024年",
-      "genre": "非对称对抗",
-      "monetization": "买断制",
-      "xStatement": "3v7 乱斗版恐怖非对称对抗\n\n3名小丑玩家 vs 7名人类玩家。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "小丑：收割人类制作棉花糖茧 -> 触发\"小丑末日\"",
-      "difficulty": "高",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[非对称]-外太空杀人小丑-死亡小游戏"
-      ],
-      "filename": "SpaceKillerClown.md"
-    },
     "SpaceMarine2": {
       "title": "战锤40K：星际战士2 (Warhammer 40K: Space Marine 2)",
       "gameName": "",
@@ -15401,28 +12732,6 @@
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "SpaceMarine2.md"
-    },
-    "Splatoon3": {
-      "title": "Splatoon 3 / 喷射战士 3",
-      "gameName": "Splatoon 3 / 喷射战士 3",
-      "developer": "",
-      "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "第三人称射击 (TPS) / 涂地",
-      "monetization": "",
-      "xStatement": "",
-      "tagline": "把\"换弹\"变成了\"潜行冲浪\"",
-      "playerStats": "",
-      "coreLoop": "涂抹地面 -> 潜墨移动/回墨 -> 寻找角度/接敌 -> 占领要地 (控制中心)",
-      "difficulty": "中等至极高。基础射击门槛低（涂地即贡献），但进阶身法（体感瞄准、鱿鱼滚行）有极高的操作天花板",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[TPS]-Splatoon 3-潜墨游动机制"
-      ],
-      "filename": "Splatoon3.md"
     },
     "Squad": {
       "title": "Squad / 战术小队",
@@ -15536,31 +12845,6 @@
       ],
       "filename": "StreetFighter6.md"
     },
-    "Supernatural": {
-      "title": "超自然行动组 / The Finals",
-      "gameName": "超自然行动组 - 摸金撤离 / The Finals",
-      "developer": "Embark Studios",
-      "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "2023年",
-      "genre": "PVE摸金、非对称",
-      "monetization": "免费内购制",
-      "xStatement": "PVE摸金撤离\n\n去掉PVP对抗，仅有PVE打怪的组队夺金游戏。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "地图探索 -> 开棺 -> 打怪 -> 金额达标并在截止时间内撤离",
-      "difficulty": "中等。考验团队沟通、地图记忆能力",
-      "prototype": "玩法原型：搜打撤 + 职业技能\n\n- 被借鉴游戏的核心理念：搜打撤的撤离机制\n- 本游戏在此基础上改出的独特体验：\n  1. 纯PVE，无对抗\n  2. 地图可破坏\n  3. 职业技能系统\n\n---",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[非对称]-超自然行动组-双人牵手",
-        "[非对称]-超自然行动组-宝宝模式",
-        "[非对称]-超自然行动组-可附身角色",
-        "[非对称]-超自然行动组-龙珠房"
-      ],
-      "filename": "Supernatural.md"
-    },
     "SupremeCommander": {
       "title": "Supreme Commander / 最高指挥官",
       "gameName": "Supreme Commander（最高指挥官）",
@@ -15604,8 +12888,7 @@
         "[战棋]-TacticsOgre-WT行动顺序系统",
         "战棋-皇家骑士团2-WT行动顺序系统",
         "[战棋]-TacticsOgre-高低差战场系统",
-        "[战棋]-TacticsOgre-多结局政治剧情",
-        "多结局政治剧情系统"
+        "[战棋]-TacticsOgre-多结局政治剧情"
       ],
       "filename": "TacticsOgre.md"
     },
@@ -15654,28 +12937,6 @@
       "relatedMechanisms": [],
       "filename": "Tarisland.md"
     },
-    "TeamSonicRacing": {
-      "title": "Team Sonic Racing / 索尼克赛车",
-      "gameName": "Team Sonic Racing / 索尼克赛车",
-      "developer": "Sumo Digital",
-      "publisher": "",
-      "platform": "PC / 主机 / 移动端",
-      "releaseDate": "2019年",
-      "genre": "团队道具赛车",
-      "monetization": "买断制",
-      "xStatement": "团队协作赛车\n\n强调团队协作的索尼克主题道具赛车。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "组成三人小队比赛 -> 互相传送道具 -> 团队总分决定胜负 -> 解锁车辆部件",
-      "difficulty": "较低。上手简单，团队配合增加策略深度",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "RAC-索尼克赛车-地图拼接"
-      ],
-      "filename": "TeamSonicRacing.md"
-    },
     "TeamfightTactics": {
       "title": "Teamfight Tactics / 云顶之弈",
       "gameName": "云顶之弈 / Teamfight Tactics",
@@ -15694,11 +12955,7 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[自走棋]-[云顶之弈]-装备合成系统",
-        "羁绊组合系统",
-        "公共牌池抓取",
-        "共享选秀轮盘",
-        "利息经济系统"
+        "[自走棋]-[云顶之弈]-装备合成系统"
       ],
       "filename": "TeamfightTactics.md"
     },
@@ -15747,46 +13004,23 @@
     },
     "Terraria": {
       "title": "Terraria / 泰拉瑞亚",
-      "gameName": "Terraria / 泰拉瑞亚",
+      "gameName": "泰拉瑞亚 / Terraria",
       "developer": "Re-Logic",
       "publisher": "",
-      "platform": "PC / 移动端",
+      "platform": "PC / 主机 / 移动端",
       "releaseDate": "2011年",
-      "genre": "2D沙盒、横版动作、冒险RPG",
-      "monetization": "买断制",
-      "xStatement": "2D版我的世界\n\n2D版我的世界，融合横版动作、RPG成长与沙盒建造。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "采集资源 -> 建造基地/制作装备 -> 探索地表/地下/空岛/地狱 -> 挑战BOSS -> 解锁新内容",
-      "difficulty": "中等。基础易上手，后期有较高技巧要求",
+      "genre": "2D沙盒",
+      "monetization": "",
+      "xStatement": "Re-Logic 2D沙盒建造，探索挖掘战斗",
+      "tagline": "2D沙盒建造",
+      "playerStats": "销量超2000万",
+      "coreLoop": "",
+      "difficulty": "",
       "prototype": "",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "Terraria.md"
-    },
-    "TexasChainsaw": {
-      "title": "德州电锯杀人狂 / Texas Chainsaw Massacre",
-      "gameName": "德州电锯杀人狂 / Texas Chainsaw Massacre",
-      "developer": "Gun Interactive",
-      "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "2023年",
-      "genre": "非对称对抗",
-      "monetization": "买断制",
-      "xStatement": "3v4 非对称恐怖对抗\n\n基于经典恐怖电影IP，3人家族 vs 4人受害者。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "受害者：挣脱 -> 搜集工具 -> 撬锁/修发电机 -> 逃出生天",
-      "difficulty": "高。需要熟悉复杂立体地图",
-      "prototype": "玩法原型：《黎明杀机》类非对称 + 电影IP\n\n- 被借鉴游戏的核心理念：非对称追逃框架\n- 本游戏在此基础上改出的独特体验：\n  1. 3v4人数差异\n  2. 爷爷第三方势力\n  3. 死亡小游戏\n\n---",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "第三方势力\"爷爷\"",
-        "死亡小游戏"
-      ],
-      "filename": "TexasChainsaw.md"
     },
     "TheForest": {
       "title": "The Forest / 森林",
@@ -15962,49 +13196,24 @@
       ],
       "filename": "TwoPointHospital.md"
     },
-    "UmaMusume": {
-      "title": "赛马娘 / Uma Musume",
-      "gameName": "赛马娘 / Uma Musume",
-      "developer": "Cygames",
-      "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "2021年",
-      "genre": "模拟养成、Roguelite、放置类",
-      "monetization": "免费内购",
-      "xStatement": "跨代养成\n\n将单局肉鸽结果转化为下一代起跑线的养成循环。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "培育一代角色 -> 参加比赛/探索积累属性和因子 -> 角色退役 -> 将其作为父母培育下一代 -> 属性叠加突破上限",
-      "difficulty": "低。选择式培育决策",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "因子继承",
-        "养成-赛马娘类-逐代繁衍与因子继承机制"
-      ],
-      "filename": "UmaMusume.md"
-    },
     "UnicornOverlord": {
-      "title": "Unicorn Overlord / 圣兽之王",
-      "gameName": "Unicorn Overlord / 圣兽之王",
-      "developer": "Vanillaware / Atlus",
+      "title": "圣兽之王 (Unicorn Overlord)",
+      "gameName": "",
+      "developer": "",
       "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "2024年",
-      "genre": "SRPG、自动战斗策略、肉鸽",
-      "monetization": "买断制",
-      "xStatement": "编程逻辑战术\n\n把编程逻辑具象化为战术卡片的自动模拟器。\n\n---",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "",
+      "monetization": "",
+      "xStatement": "",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "战前编队 -> 编写行动逻辑 -> 部署小队接触敌人 -> 观看自动战斗 -> 优化逻辑",
-      "difficulty": "高。需要逻辑思维If-Then-Else",
+      "coreLoop": "",
+      "difficulty": "",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "策略-圣兽之王-可定制战术逻辑系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "UnicornOverlord.md"
     },
     "VRising": {
@@ -16027,46 +13236,24 @@
       "relatedMechanisms": [],
       "filename": "VRising.md"
     },
-    "Valheim": {
-      "title": "Valheim / 英灵神殿",
-      "gameName": "Valheim / 英灵神殿",
-      "developer": "Iron Gate Studio",
-      "publisher": "",
-      "platform": "PC",
-      "releaseDate": "2021年",
-      "genre": "开放世界生存、建造、探索冒险、动作角色扮演、多人联机",
-      "monetization": "买断制",
-      "xStatement": "北欧神话生存冒险\n\n北欧神话背景的生存建造+硬核探索冒险的开放世界沙盒游戏。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "收集基础资源 -> 搭建营地 -> 挑战英灵BOSS -> 解锁新配方/材料 -> 升级装备/基地 -> 探索更高阶生物群落 -> 挑战更强BOSS",
-      "difficulty": "中等偏高。基础建造易上手，战斗有硬直/格挡等硬核判定",
-      "prototype": "玩法原型：生存建造 + 北欧神话 + BOSS挑战\n\n- 被借鉴游戏的核心理念：生存建造 + 探索冒险\n- 本游戏在此基础上改出的独特体验：\n  1. BOSS解锁进度\n  2. 硬核战斗判定\n  3. 生物群落梯度\n\n---",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [],
-      "filename": "Valheim.md"
-    },
     "Valorant": {
-      "title": "VALORANT / 无畏契约",
-      "gameName": "VALORANT / 无畏契约",
-      "developer": "",
+      "title": "Valorant / 无畏契约",
+      "gameName": "无畏契约 / Valorant",
+      "developer": "Riot Games",
       "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "第一人称战术射击 (Tactical FPS)",
+      "platform": "PC / 主机 / 移动端",
+      "releaseDate": "2020年",
+      "genre": "战术射击",
       "monetization": "",
-      "xStatement": "",
-      "tagline": "\"带有英雄技能的 CS:GO\"",
+      "xStatement": "Riot 5v5战术射击，技能+枪法",
+      "tagline": "Riot技能射击",
       "playerStats": "",
-      "coreLoop": "局前起枪 -> 部署技能/站位 -> 定点爆破/拆解对垒 -> 局后结算",
-      "difficulty": "高。强调准星控制（急停）、地图信息博弈、以及多英雄技能间的排列组合",
+      "coreLoop": "",
+      "difficulty": "",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "[FPS]-无畏契约-经济请求（发枪）系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "Valorant.md"
     },
     "WangZheRongYaoPoXiao": {
@@ -16195,28 +13382,6 @@
       "relatedMechanisms": [],
       "filename": "Warhammer40KRogueTrader.md"
     },
-    "WinterFall": {
-      "title": "无尽冬日 / Whiteout Survival",
-      "gameName": "无尽冬日 (Whiteout Survival)",
-      "developer": "",
-      "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "生存模拟经营、放置RPG、SLG",
-      "monetization": "",
-      "xStatement": "",
-      "tagline": "\"冰汽时代模拟经营+放置挂机+重度SLG出海爆款\"",
-      "playerStats": "",
-      "coreLoop": "收集资源/加煤抗寒 -> 城建扩张/居民健康管理 -> 英雄小队推图挂机 -> 解锁世界大地图加入联盟进行GVG（注：前期通过冰雪生存制造紧迫感，后期无缝衔接至传统大沙盘互殴）",
-      "difficulty": "极低。前期以轻度模拟经营（分配居民工作、加煤炭）和副玩法（点点点推关）为主，过渡极其平滑，极少出现\"卡战力\"的挫败感",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[SLG]-无尽冬日-联盟总动员"
-      ],
-      "filename": "WinterFall.md"
-    },
     "WoJiaoMT": {
       "title": "游戏名 / 我叫MT Online",
       "gameName": "我叫MT Online",
@@ -16259,8 +13424,7 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[MMO]-WorldOfWarcraft-天赋树系统",
-        "副本机制"
+        "[MMO]-WorldOfWarcraft-天赋树系统"
       ],
       "filename": "WorldOfWarcraft.md"
     },
@@ -16327,29 +13491,6 @@
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "XCOM.md"
-    },
-    "Xenoblade3": {
-      "title": "Xenoblade Chronicles 3 / 异度神剑3",
-      "gameName": "Xenoblade Chronicles 3 / 异度神剑3",
-      "developer": "Monolith Soft / Nintendo",
-      "publisher": "",
-      "platform": "主机 / PC",
-      "releaseDate": "2022年",
-      "genre": "JRPG、即时战斗带指令、开放世界",
-      "monetization": "买断制",
-      "xStatement": "职业缝合大师\n\n将职业缝合玩到极致的全员兼职导师。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "解锁新英雄 -> 角色转职该职业 -> 战斗获取CP升级职业 -> 达到满级精通 -> 将精通技能跨职业装备 -> 构筑终极缝合怪",
-      "difficulty": "中高。战前职业搭配、融合战技设定",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "英雄系统",
-        "JRPG-异度之刃3-职业精通与融合系统"
-      ],
-      "filename": "Xenoblade3.md"
     },
     "XianJianShiJie": {
       "title": "仙剑世界",
@@ -16496,25 +13637,23 @@
       "filename": "YuGiOhMasterDuel.md"
     },
     "Zelda": {
-      "title": "塞尔达传说：王国之泪 / Zelda: Tears of the Kingdom",
-      "gameName": "塞尔达传说：王国之泪 / Zelda: Tears of the Kingdom",
+      "title": "Zelda / 塞尔达传说",
+      "gameName": "塞尔达传说 / The Legend of Zelda",
       "developer": "Nintendo",
       "publisher": "",
-      "platform": "Switch",
-      "releaseDate": "2023年",
-      "genre": "开放世界、UGC创造",
-      "monetization": "买断制",
-      "xStatement": "乐高积木拼接UGC\n\n把乐高积木拼接/机械工程学融入UGC创造。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "探索解谜 -> 收集左纳乌装置 -> 究极手组合载具/武器 -> 利用创意解法击败敌人 -> 解锁新区域",
-      "difficulty": "低（战斗），极高（创造）",
+      "platform": "主机 / Switch",
+      "releaseDate": "1986年（首作）",
+      "genre": "动作冒险",
+      "monetization": "",
+      "xStatement": "Nintendo开放世界动作冒险，林克救公主",
+      "tagline": "Nintendo动作冒险",
+      "playerStats": "旷野之息3000万+",
+      "coreLoop": "",
+      "difficulty": "",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "开放世界-塞尔达传说-究极手UGC创造"
-      ],
+      "relatedMechanisms": [],
       "filename": "Zelda.md"
     },
     "ZenlessZoneZero": {
@@ -16580,28 +13719,6 @@
         "[自走棋]-战歌竞技场-羁绊系统"
       ],
       "filename": "ZhangeArena.md"
-    },
-    "ZhuXian": {
-      "title": "诛仙世界",
-      "gameName": "诛仙世界",
-      "developer": "完美世界",
-      "publisher": "",
-      "platform": "PC",
-      "releaseDate": "2023年",
-      "genre": "MMORPG、仙侠、PVP竞技",
-      "monetization": "免费内购制",
-      "xStatement": "UE5仙侠MMO\n\nUE5加持美术升级的传统MMO。\n\n---",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "日常任务/副本 -> 提升装等 -> 参与PVE/PVP/GVG -> 追求数值毕业",
-      "difficulty": "中等",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "MMORPG-诛仙世界-车轮战机制"
-      ],
-      "filename": "ZhuXian.md"
     },
     "ark-nova": {
       "title": "阿卡姆诺瓦 / Ark Nova",
@@ -16690,8 +13807,7 @@
       "achievements": "",
       "relatedMechanisms": [
         "[战棋]-[神界原罪2]-元素互动DIP系统",
-        "[战棋]-[神界原罪2]-自由角色构建系统",
-        "free-character-build"
+        "[战棋]-[神界原罪2]-自由角色构建系统"
       ],
       "filename": "divinity2.md"
     },
@@ -17071,7 +14187,7 @@
       ],
       "achievements": "",
       "relatedMechanisms": [
-        "[FPS]-无畏契约-经济请求（发枪）系统"
+        "[FPS]-无畏契约-技能系统"
       ],
       "filename": "valorant.md"
     },
@@ -17187,7 +14303,7 @@
     }
   },
   "stats": {
-    "mechanismCount": 432,
-    "gameCount": 338
+    "mechanismCount": 317,
+    "gameCount": 279
   }
 }

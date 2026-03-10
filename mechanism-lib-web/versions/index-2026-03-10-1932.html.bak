@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>机制库 | Jizhi Design Library</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    :root {
+      --primary: #2563eb;
+      --primary-light: #3b82f6;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #1e293b;
+      --text-secondary: #64748b;
+      --border: #e2e8f0;
+      --accent: #f59e0b;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    
+    /* Header */
+    header {
+      background: var(--card-bg);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    
+    .header-content {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--primary);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .logo-icon {
+      width: 32px;
+      height: 32px;
+      background: var(--primary);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1rem;
+    }
+    
+    /* Tabs */
+    .tabs {
+      display: flex;
+      gap: 0.5rem;
+    }
+    
+    .tab {
+      padding: 0.5rem 1.25rem;
+      border: none;
+      background: transparent;
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      cursor: pointer;
+      border-radius: 6px;
+      transition: all 0.2s;
+    }
+    
+    .tab:hover {
+      background: var(--bg);
+    }
+    
+    .tab.active {
+      background: var(--primary);
+      color: white;
+    }
+    
+    /* Main */
+    main {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    
+    /* Search */
+    .search-bar {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    
+    .search-input {
+      flex: 1;
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 1rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    
+    .search-input:focus {
+      border-color: var(--primary);
+    }
+    
+    .filter-select {
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.95rem;
+      background: white;
+      cursor: pointer;
+    }
+    
+    /* Stats */
+    .stats {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 1.5rem;
+      color: var(--text-secondary);
+      font-size: 0.9rem;
+    }
+    
+    .stat-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .stat-num {
+      font-weight: 600;
+      color: var(--primary);
+    }
+    
+    /* Grid */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1rem;
+    }
+    
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .card:hover {
+      border-color: var(--primary);
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.1);
+      transform: translateY(-2px);
+    }
+    
+    .card-header {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+    
+    .card-title {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text);
+    }
+    
+    .card-meta {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+    }
+    
+    .card-game {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      background: var(--bg);
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+    }
+    
+    .card-desc {
+      font-size: 0.9rem;
+      color: var(--text-secondary);
+      margin-bottom: 0.75rem;
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+    
+    .tag {
+      font-size: 0.75rem;
+      padding: 0.25rem 0.5rem;
+      background: #eff6ff;
+      color: var(--primary);
+      border-radius: 4px;
+    }
+    
+    .similar-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    
+    .similar-item {
+      padding: 0.5rem 0.75rem;
+      background: #f8fafc;
+      border-radius: 6px;
+      font-size: 0.9rem;
+    }
+    
+    /* Modal */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 200;
+      padding: 1rem;
+    }
+    
+    .modal-overlay.active {
+      display: flex;
+    }
+    
+    .modal {
+      background: var(--card-bg);
+      border-radius: 16px;
+      max-width: 900px;
+      width: 100%;
+      max-height: 90vh;
+      overflow-y: auto;
+    }
+    
+    .modal-header {
+      padding: 1.5rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .modal-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+    
+    .modal-close {
+      width: 32px;
+      height: 32px;
+      border: none;
+      background: var(--bg);
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1.25rem;
+      color: var(--text-secondary);
+    }
+    
+    .modal-body {
+      padding: 1.5rem;
+    }
+    
+    .modal-section {
+      margin-bottom: 1.5rem;
+    }
+    
+    .modal-section h3 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.05em;
+    }
+    
+    .modal-section p {
+      color: var(--text);
+    }
+    
+    .modal-link {
+      color: var(--primary);
+      cursor: pointer;
+      text-decoration: underline;
+    }
+    
+    .modal-link:hover {
+      color: var(--primary-light);
+    }
+    
+    /* Empty state */
+    .empty {
+      text-align: center;
+      padding: 4rem 2rem;
+      color: var(--text-secondary);
+    }
+    
+    /* Hidden */
+    .hidden {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-content">
+      <div class="logo">
+        <div class="logo-icon">⚡</div>
+        <span>机制库</span>
+      </div>
+      <div class="tabs">
+        <button class="tab active" data-tab="mechanisms">机制库</button>
+        <button class="tab" data-tab="games">游戏库</button>
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <div class="search-bar">
+      <input type="text" class="search-input" id="searchInput" placeholder="搜索... (多个关键词用空格分隔，支持交集搜索)">
+      <select class="filter-select" id="tagFilter">
+        <option value="">全部标签</option>
+      </select>
+    </div>
+    
+    <div class="stats">
+      <div class="stat-item">
+        <span class="stat-num" id="mechCount">0</span> 个机制
+      </div>
+      <div class="stat-item">
+        <span class="stat-num" id="gameCount">0</span> 个游戏
+      </div>
+    </div>
+    
+    <div class="grid" id="grid"></div>
+    
+    <div class="empty hidden" id="empty">
+      <p>没有找到相关内容</p>
+    </div>
+  </main>
+  
+  <!-- Mechanism Modal -->
+  <div class="modal-overlay" id="mechModal">
+    <div class="modal">
+      <div class="modal-header">
+        <div class="modal-title" id="mechModalTitle"></div>
+        <button class="modal-close" onclick="closeModal()">×</button>
+      </div>
+      <div class="modal-body" id="mechModalBody"></div>
+    </div>
+  </div>
+  
+  <!-- Game Modal -->
+  <div class="modal-overlay" id="gameModal">
+    <div class="modal">
+      <div class="modal-header">
+        <div class="modal-title" id="gameModalTitle"></div>
+        <button class="modal-close" onclick="closeModal()">×</button>
+      </div>
+      <div class="modal-body" id="gameModalBody"></div>
+    </div>
+  </div>
+  
+  <script>
+    let data = { mechanisms: {}, games: {}, stats: {} };
+    let currentTab = 'mechanisms';
+    
+    // Load data
+    async function loadData() {
+      const response = await fetch('data.json');
+      data = await response.json();
+      renderStats();
+      populateTagFilter();
+      renderGrid();
+    }
+    
+    function renderStats() {
+      document.getElementById('mechCount').textContent = data.stats.mechanismCount;
+      document.getElementById('gameCount').textContent = data.stats.gameCount;
+    }
+    
+    function populateTagFilter() {
+      const tags = new Set();
+      Object.values(data.mechanisms).forEach(m => {
+        m.tags.forEach(t => tags.add(t));
+      });
+      
+      const select = document.getElementById('tagFilter');
+      Array.from(tags).sort().forEach(tag => {
+        const option = document.createElement('option');
+        option.value = tag;
+        option.textContent = tag;
+        select.appendChild(option);
+      });
+    }
+    
+    // Tab switching
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        currentTab = tab.dataset.tab;
+        renderGrid();
+      });
+    });
+    
+    // Search & Filter
+    document.getElementById('searchInput').addEventListener('input', renderGrid);
+    document.getElementById('tagFilter').addEventListener('change', renderGrid);
+    
+    function getFilteredData() {
+      const query = document.getElementById('searchInput').value.toLowerCase();
+      const tag = document.getElementById('tagFilter').value;
+      
+      if (currentTab === 'mechanisms') {
+        return Object.entries(data.mechanisms).filter(([key, m]) => {
+          // 多个关键词用空格分隔，支持交集搜索
+          const keywords = query.trim().split(/\s+/).filter(k => k);
+          const matchQuery = keywords.length === 0 || keywords.every(kw => 
+            m.title.toLowerCase().includes(kw) ||
+            m.gameName?.toLowerCase().includes(kw) ||
+            m.simpleDesc?.toLowerCase().includes(kw) ||
+            (m.tags && m.tags.some(t => t.toLowerCase().includes(kw)))
+          );
+          const matchTag = !tag || (m.tags && m.tags.includes(tag));
+          return matchQuery && matchTag;
+        });
+      } else {
+        return Object.entries(data.games).filter(([key, g]) => {
+          const matchQuery = !query ||
+            g.title.toLowerCase().includes(query) ||
+            g.gameName?.toLowerCase().includes(query) ||
+            g.xStatement?.toLowerCase().includes(query);
+          return matchQuery;
+        });
+      }
+    }
+    
+    function renderGrid() {
+      const grid = document.getElementById('grid');
+      const empty = document.getElementById('empty');
+      const filtered = getFilteredData();
+      
+      if (filtered.length === 0) {
+        grid.innerHTML = '';
+        empty.classList.remove('hidden');
+        return;
+      }
+      
+      empty.classList.add('hidden');
+      
+      if (currentTab === 'mechanisms') {
+        grid.innerHTML = filtered.map(([key, m]) => `
+          <div class="card" onclick="showMechanism('${key}')">
+            <div class="card-header">
+              <div class="card-title">${m.title}</div>
+              <div class="card-meta">
+                ${m.gameName ? `<div class="card-game">${m.gameName}</div>` : ''}
+              </div>
+            </div>
+            <div class="card-desc">${m.simpleDesc || '暂无描述'}</div>
+            <div class="card-tags">
+              ${m.tags.map(t => `<span class="tag">${t}</span>`).join('')}
+            </div>
+          </div>
+        `).join('');
+      } else {
+        grid.innerHTML = filtered.map(([key, g]) => `
+          <div class="card" onclick="showGame('${key}')">
+            <div class="card-header">
+              <div class="card-title">${g.gameName || g.title}</div>
+              <div class="card-meta">
+                <div class="card-game">${g.genre || '未知'}</div>
+              </div>
+            </div>
+            <div class="card-desc">${g.xStatement || '暂无 X-Statement'}</div>
+          </div>
+        `).join('');
+      }
+    }
+    
+    // Modal functions
+    function showMechanism(key) {
+      closeModal(); // 关闭现有弹窗
+      
+      const m = data.mechanisms[key];
+      document.getElementById('mechModalTitle').textContent = m.title;
+      
+      let html = '';
+      
+      // 来源游戏 - 检查游戏库中是否存在
+      if (m.gameName) {
+        // 查找是否有对应的游戏卡
+        const gameExists = Object.values(data.games).some(g => 
+          g.title.toLowerCase().includes(m.gameName.toLowerCase()) ||
+          g.gameName?.toLowerCase().includes(m.gameName.toLowerCase())
+        );
+        
+        if (gameExists) {
+          html += `
+            <div class="modal-section">
+              <h3>来源游戏</h3>
+              <p><span class="modal-link" onclick="showGameByName('${m.gameName}')">${m.gameName}</span></p>
+            </div>
+          `;
+        } else {
+          html += `
+            <div class="modal-section">
+              <h3>来源游戏</h3>
+              <p>${m.gameName}</p>
+            </div>
+          `;
+        }
+      }
+      
+      // 一句话解释
+      if (m.simpleDesc) {
+        html += `
+          <div class="modal-section">
+            <h3>一句话解释</h3>
+            <p>${m.simpleDesc}</p>
+          </div>
+        `;
+      }
+      
+      // 机制描述
+      if (m.mechanismDesc) {
+        html += `
+          <div class="modal-section">
+            <h3>机制描述</h3>
+            <p>${m.mechanismDesc}</p>
+          </div>
+        `;
+      }
+      
+      // 核心规则
+      if (m.coreRules) {
+        html += `
+          <div class="modal-section">
+            <h3>核心规则</h3>
+            <p>${m.coreRules}</p>
+          </div>
+        `;
+      }
+      
+      // 触发条件
+      if (m.trigger) {
+        html += `
+          <div class="modal-section">
+            <h3>触发条件</h3>
+            <p>${m.trigger}</p>
+          </div>
+        `;
+      }
+      
+      // 解决痛点
+      if (m.painPoint) {
+        html += `
+          <div class="modal-section">
+            <h3>解决痛点</h3>
+            <p>${m.painPoint}</p>
+          </div>
+        `;
+      }
+      
+      // 体验目标
+      if (m.experienceGoal) {
+        html += `
+          <div class="modal-section">
+            <h3>体验目标</h3>
+            <p>${m.experienceGoal}</p>
+          </div>
+        `;
+      }
+      
+      // 相似机制 - 每行一个，格式【游戏-机制】，点击跳转到对应机制
+      if (m.similarMechanisms && m.similarMechanisms.length > 0) {
+        const similarHtml = m.similarMechanisms
+          .filter(s => s && (s.mechanism || s.game))
+          .map(similar => {
+            const gameName = similar.game || '';
+            const mechanismName = similar.mechanism || '';
+            
+            if (!gameName && !mechanismName) return '';
+            
+            // 尝试在机制库中查找匹配的机制（根据游戏名+机制名）
+            const mechEntry = Object.entries(data.mechanisms).find(([key, mech]) => {
+              if (gameName && mech.gameName) {
+                return mech.gameName.toLowerCase().includes(gameName.toLowerCase()) &&
+                       mech.title.toLowerCase().includes(mechanismName.toLowerCase());
+              }
+              return mech.title.toLowerCase().includes(mechanismName.toLowerCase());
+            });
+            
+            const display = gameName ? `【${gameName}】${mechanismName}` : mechanismName;
+            
+            if (mechEntry) {
+              return `<div class="similar-item"><span class="modal-link" onclick="showMechanism('${mechEntry[0]}')">${display}</span></div>`;
+            } else {
+              return `<div class="similar-item">${display}</div>`;
+            }
+          })
+          .join('');
+        
+        if (similarHtml) {
+          html += `
+            <div class="modal-section">
+              <h3>相似机制</h3>
+              <div class="similar-list">${similarHtml}</div>
+            </div>
+          `;
+        }
+      }
+      
+      // 核心标签
+      if (m.tags && m.tags.length > 0) {
+        html += `
+          <div class="modal-section">
+            <h3>核心标签</h3>
+            <div class="card-tags">
+              ${m.tags.map(t => `<span class="tag">${t}</span>`).join('')}
+            </div>
+          </div>
+        `;
+      }
+      
+      if (!html) {
+        html = '<p>暂无详细信息</p>';
+      }
+      
+      document.getElementById('mechModalBody').innerHTML = html;
+      document.getElementById('mechModal').classList.add('active');
+    }
+    
+    function showGame(key) {
+      closeModal(); // 关闭现有弹窗
+      
+      const g = data.games[key];
+      if (!g) return;
+      
+      document.getElementById('gameModalTitle').textContent = g.title;
+      
+      let html = '';
+      
+      // X-Statement
+      if (g.xStatement) {
+        html += `
+          <div class="modal-section">
+            <h3>X-Statement</h3>
+            <p>${g.xStatement}</p>
+          </div>
+        `;
+      }
+      
+      // 一句话对标
+      if (g.tagline) {
+        html += `
+          <div class="modal-section">
+            <h3>一句话对标</h3>
+            <p>${g.tagline}</p>
+          </div>
+        `;
+      }
+      
+      // 玩家数据
+      if (g.playerStats) {
+        html += `
+          <div class="modal-section">
+            <h3>玩家数据</h3>
+            <p>${g.playerStats}</p>
+          </div>
+        `;
+      }
+      
+      // 基本信息
+      const basicInfo = [];
+      if (g.developer) basicInfo.push(`开发者: ${g.developer}`);
+      if (g.publisher) basicInfo.push(`发行商: ${g.publisher}`);
+      if (g.platform) basicInfo.push(`平台: ${g.platform}`);
+      if (g.releaseDate) basicInfo.push(`上线时间: ${g.releaseDate}`);
+      if (g.genre) basicInfo.push(`游戏类型: ${g.genre}`);
+      if (g.monetization) basicInfo.push(`收费模式: ${g.monetization}`);
+      
+      if (basicInfo.length > 0) {
+        html += `
+          <div class="modal-section">
+            <h3>基本信息</h3>
+            <p>${basicInfo.join('<br>')}</p>
+          </div>
+        `;
+      }
+      
+      // 核心支柱
+      if (g.pillars && g.pillars.length > 0) {
+        html += `
+          <div class="modal-section">
+            <h3>核心支柱</h3>
+            ${g.pillars.map(p => `
+              <div style="margin-bottom: 1rem;">
+                <strong>${p.title}</strong><br>
+                <span style="color: var(--text-secondary); font-size: 0.9em;">${p.experience}</span>
+              </div>
+            `).join('')}
+          </div>
+        `;
+      }
+      
+      // 收录机制（关联跳转）
+      if (g.relatedMechanisms && g.relatedMechanisms.length > 0) {
+        const mechHtml = g.relatedMechanisms.map(mechRef => {
+          // mechRef 格式: [品类]-游戏名-机制名
+          // 提取机制名
+          const cleanRef = mechRef.replace(/[\[\]]/g, '');
+          const parts = cleanRef.split('-');
+          const targetMechName = parts.length >= 3 ? parts.slice(2).join('-') : cleanRef;
+          
+          // 在机制库中查找匹配 - 主要通过机制名匹配
+          const mechEntry = Object.entries(data.mechanisms).find(([key, m]) => {
+            if (!m.title) return false;
+            // 检查机制标题是否包含目标机制名
+            return m.title.includes(targetMechName) || targetMechName.includes(m.title);
+          });
+          
+          if (mechEntry) {
+            return `<div class="similar-item"><span class="modal-link" onclick="showMechanism('${mechEntry[0]}')">${mechRef}</span></div>`;
+          } else {
+            return `<div class="similar-item">${mechRef}</div>`;
+          }
+        }).join('');
+        
+        html += `
+          <div class="modal-section">
+            <h3>收录机制</h3>
+            <div class="similar-list">${mechHtml}</div>
+          </div>
+        `;
+      }
+      
+      if (!html) {
+        html = '<p>暂无详细信息</p>';
+      }
+      
+      document.getElementById('gameModalBody').innerHTML = html;
+      document.getElementById('gameModal').classList.add('active');
+    }
+    
+    function showGameByName(gameName) {
+      if (!gameName) return;
+      
+      // Find game by name (case insensitive)
+      const entry = Object.entries(data.games).find(([key, g]) => 
+        g.title.toLowerCase().includes(gameName.toLowerCase()) ||
+        g.gameName?.toLowerCase().includes(gameName.toLowerCase())
+      );
+      
+      if (entry) {
+        showGame(entry[0]); // showGame 会先调用 closeModal
+      }
+    }
+    
+    function closeModal() {
+      document.querySelectorAll('.modal-overlay').forEach(m => m.classList.remove('active'));
+    }
+    
+    // Close modal on overlay click
+    document.querySelectorAll('.modal-overlay').forEach(overlay => {
+      overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) closeModal();
+      });
+    });
+    
+    // Close modal on escape
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
+    });
+    
+    // Init
+    loadData();
+  </script>
+</body>
+</html>
