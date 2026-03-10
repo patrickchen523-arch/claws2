@@ -162,6 +162,10 @@ function extractField(text, fieldName) {
     if (!content.startsWith('**')) return content;
   }
   
+  // Pattern 3: **field**：\n> content (blockquote on next line)
+  match = text.match(new RegExp(`${fieldName}[^\\n]*\\n>\\s*([^<\\n]+)`));
+  if (match) return match[1].trim();
+  
   return '';
 }
 
@@ -217,6 +221,12 @@ function extractMechanismInfo(parsed, filename) {
   // === 2. 通俗转译 ===
   if (sections['通俗转译']) {
     const section = sections['通俗转译'];
+    info.simpleDesc = extractField(section, '一句话解释');
+  }
+  
+  // === 2.5 备选：从机制描述章节提取一句话解释 ===
+  if (!info.simpleDesc && sections['机制描述']) {
+    const section = sections['机制描述'];
     info.simpleDesc = extractField(section, '一句话解释');
   }
   
