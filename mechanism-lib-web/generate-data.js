@@ -376,6 +376,7 @@ function extractGameInfo(parsed, filename) {
     prototype: '',
     pillars: [],
     achievements: '',
+    relatedMechanisms: [],
     filename: filename
   };
   
@@ -456,6 +457,37 @@ function extractGameInfo(parsed, filename) {
     }
   }
   
+  // === 关联资产 / 收录机制 ===
+  // 先收集所有机制，用于后续验证
+  const allMechanisms = []; // 将在 main 函数中填充
+  
+  const mechKeywords = ['关联资产', '收录机制', '收录的机制'];
+  for (const kw of mechKeywords) {
+    if (sections[kw]) {
+      const section = sections[kw];
+      // Extract mechanism references - format: [品类]-游戏名-机制名 或 > 机制名
+      const mechMatches = section.match(/>\s*([^<\n]+)/g);
+      if (mechMatches) {
+        for (const m of mechMatches) {
+          const mechName = m.replace(/^>\s*/, '').replace(/\n/g, '').trim();
+          if (mechName && !mechName.includes('待关联') && !mechName.includes('暂无') && mechName.length > 2) {
+            info.relatedMechanisms.push(mechName);
+          }
+        }
+      }
+      // Also try to match [品类]-游戏名-机制名 pattern
+      const bracketMatches = section.match(/\[[^\]]+\]-[^\-]+\-[^\-]+/g);
+      if (bracketMatches) {
+        for (const m of bracketMatches) {
+          const cleanM = m.replace(/\n/g, '').trim();
+          if (!info.relatedMechanisms.includes(cleanM)) {
+            info.relatedMechanisms.push(cleanM);
+          }
+        }
+      }
+    }
+  }
+  
   return info;
 }
 
@@ -492,6 +524,38 @@ for (const file of gameFiles) {
   games[file.replace('.md', '')] = info;
   gameCount++;
 }
+
+// 验证并清理无效的 relatedMechanisms
+let validMechCount = 0;
+let invalidMechCount = 0;
+for (const [gameKey, gameInfo] of Object.entries(games)) {
+  if (gameInfo.relatedMechanisms && gameInfo.relatedMechanisms.length > 0) {
+    const validMechs = [];
+    
+    for (const mechRef of gameInfo.relatedMechanisms) {
+      const cleanRef = mechRef.replace(/[\[\]]/g, '');
+      const parts = cleanRef.split('-');
+      const targetMechName = parts.length >= 3 ? parts.slice(2).join('-') : cleanRef;
+      
+      // 在机制库中查找匹配
+      const mechEntry = Object.entries(mechanisms).find(([key, m]) => {
+        if (!m.title) return false;
+        return m.title.includes(targetMechName) || targetMechName.includes(m.title);
+      });
+      
+      if (mechEntry) {
+        validMechs.push(mechRef);
+        validMechCount++;
+      } else {
+        invalidMechCount++;
+      }
+    }
+    
+    gameInfo.relatedMechanisms = validMechs;
+  }
+}
+
+console.log(`Validated: ${validMechCount} valid mechanisms, ${invalidMechCount} cleaned up`);
 
 const output = { mechanisms, games, stats: { mechanismCount: mechCount, gameCount: gameCount } };
 

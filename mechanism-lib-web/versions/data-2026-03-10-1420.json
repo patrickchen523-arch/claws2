@@ -8237,7 +8237,9 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[RPG]-ARZAnomaly-科幻装备系统"
+      ],
       "filename": "ARZAnomaly.md"
     },
     "AdvanceWars": {
@@ -8337,7 +8339,10 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[格斗]-Aladedu-横版格斗玩法",
+        "[格斗]-Aladedu-MMO社交系统"
+      ],
       "filename": "Aladedu.md"
     },
     "AlbionOnline": {
@@ -8741,7 +8746,11 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[FPS]-CFMobile-快节奏枪战对抗",
+        "[FPS]-CFMobile-枪械收集与养成",
+        "[FPS]-CFMobile-多模式社交竞技"
+      ],
       "filename": "CFMobile.md"
     },
     "CODM": {
@@ -8822,7 +8831,10 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[FPS]-CODMW3-剧情战役",
+        "[FPS]-CODMW3-多人模式"
+      ],
       "filename": "CODModernWarfare3.md"
     },
     "CS2": {
@@ -9148,7 +9160,8 @@
       "achievements": "",
       "relatedMechanisms": [
         "[RTS]-CompanyOfHeroes-可破坏物理环境",
-        "[RTS]-CompanyOfHeroes-掩体压制系统"
+        "[RTS]-CompanyOfHeroes-掩体压制系统",
+        "[RTS]-CompanyOfHeroes-胜利点控制"
       ],
       "filename": "CompanyOfHeroes.md"
     },
@@ -9269,7 +9282,11 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[FPS]-CrossFireLegends-快节奏枪战",
+        "[FPS]-CrossFireLegends-经典IP情怀",
+        "[FPS]-CrossFireLegends-社交生态"
+      ],
       "filename": "CrossFireLegends.md"
     },
     "Cyberpunk2077": {
@@ -9512,7 +9529,9 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[模拟经营]-潜水员戴夫-日夜双循环玩法"
+        "[模拟经营]-潜水员戴夫-日夜双循环玩法",
+        "[模拟经营]-潜水员戴夫-蓝洞探索系统",
+        "[模拟经营]-潜水员戴夫-餐厅经营系统"
       ],
       "filename": "DaveTheDiver.md"
     },
@@ -9991,7 +10010,9 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[RPG]-FF7Rebirth-召唤兽系统"
+      ],
       "filename": "FF7Rebirth.md"
     },
     "FallGuys": {
@@ -10194,7 +10215,10 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[战棋]-FireEmblemHeroes-轻量化战棋系统",
+        "[战棋]-FireEmblemHeroes-颜色抽卡系统"
+      ],
       "filename": "FireEmblemHeroes.md"
     },
     "FireEmblemThreeHouses": {
@@ -10340,6 +10364,7 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
+        "[大逃杀]-GameForPeace-缩圈机制",
         "[大逃杀]-GameForPeace-四人组队系统"
       ],
       "filename": "GameForPeace.md"
@@ -10361,7 +10386,10 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[战棋]-GangLan-机师机体分离系统",
+        "[战棋]-GangLan-协同攻击系统"
+      ],
       "filename": "GangLan.md"
     },
     "GenshinImpact": {
@@ -10401,7 +10429,9 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[MMO]-GhostBlade-剧情电影化系统"
+      ],
       "filename": "GhostBlade.md"
     },
     "GirlsFrontline2": {
@@ -10501,7 +10531,10 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[格斗]-GuiltyGearStrive-RomanCancel系统",
+        "[格斗]-GuiltyGearStrive-Break系统"
+      ],
       "filename": "GuiltyGearStrive.md"
     },
     "Gwent": {
@@ -10726,7 +10759,9 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[RPG]-HogwartsLegacy-魔法学习系统"
+      ],
       "filename": "HogwartsLegacy.md"
     },
     "HomesAndGardens": {
@@ -10747,7 +10782,8 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[模拟经营]-梦幻家园-三消装修融合"
+        "[模拟经营]-梦幻家园-三消装修融合",
+        "[模拟经营]-梦幻家园-剧情驱动装修"
       ],
       "filename": "HomesAndGardens.md"
     },
@@ -10768,7 +10804,10 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[RTS]-Homeworld2-3D空间作战体系",
+        "[RTS]-Homeworld2-母舰养成系统"
+      ],
       "filename": "Homeworld2.md"
     },
     "HonkaiImpact3rd": {
@@ -10931,7 +10970,8 @@
       "achievements": "",
       "relatedMechanisms": [
         "[MMO]-JX3-轻功系统",
-        "[MMO]-JX3-捏脸系统"
+        "[MMO]-JX3-捏脸系统",
+        "[MMO]-JX3-外观皮肤系统"
       ],
       "filename": "JX3.md"
     },
@@ -11020,7 +11060,9 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[MMO]-JusticeMobile-移动端还原设计"
+      ],
       "filename": "JusticeMobile.md"
     },
     "KOF98": {
@@ -11040,7 +11082,9 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[格斗]-KOF98-经典连招系统"
+      ],
       "filename": "KOF98.md"
     },
     "KartRider": {
@@ -11164,7 +11208,11 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[大逃杀]-KnivesOut-快节奏刚枪体验",
+        "[大逃杀]-KnivesOut-社交裂变与组队玩法",
+        "[大逃杀]-KnivesOut-本土化内容运营"
+      ],
       "filename": "KnivesOut.md"
     },
     "Langrisser": {
@@ -11186,7 +11234,9 @@
       "achievements": "",
       "relatedMechanisms": [
         "[战棋]-梦幻模拟战-兵种相克系统",
-        "[战棋]-梦幻模拟战-英雄士兵双养成"
+        "[战棋]-梦幻模拟战-英雄士兵双养成",
+        "[战棋]-梦幻模拟战-地形影响机制",
+        "[战棋]-梦幻模拟战-超时空随机副本"
       ],
       "filename": "Langrisser.md"
     },
@@ -11231,7 +11281,9 @@
         "[策略卡牌]-Legends of Runeterra-攻守响应机制",
         "[策略卡牌]-Legends of Runeterra-法术速度系统",
         "[策略卡牌]-Legends of Runeterra-英雄升级系统",
-        "[策略卡牌]-Legends of Runeterra-格挡攻防机制"
+        "[策略卡牌]-Legends of Runeterra-格挡攻防机制",
+        "[策略卡牌]-Legends of Runeterra-攻守响应机制> [策略卡牌]",
+        "[策略卡牌]-Legends of Runeterra-英雄升级系统> [策略卡牌]"
       ],
       "filename": "LegendsOfRuneterra.md"
     },
@@ -11272,7 +11324,10 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[战棋]-Lilanyuzijian-传统转职系统",
+        "[战棋]-Lilanyuzijian-技能继承系统"
+      ],
       "filename": "Lilanyuzijian.md"
     },
     "LostArk": {
@@ -11598,7 +11653,9 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[模拟经营]-摩尔庄园-摩尔豆经济系统"
+        "[模拟经营]-摩尔庄园-摩尔豆经济系统",
+        "[模拟经营]-摩尔庄园-服装收集系统",
+        "[模拟经营]-摩尔庄园-社交小镇系统"
       ],
       "filename": "MoleManor.md"
     },
@@ -11640,6 +11697,7 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
+        "[格斗]-MortalKombat11-血腥终结技",
         "[格斗]-MortalKombat11-剧情模式"
       ],
       "filename": "MortalKombat11.md"
@@ -11662,6 +11720,7 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
+        "[格斗]-NarutoMobile-忍术连打系统",
         "[格斗]-NarutoMobile-奥义系统"
       ],
       "filename": "NarutoMobile.md"
@@ -11704,7 +11763,8 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[MMO]-NetEaseRevelation-庄园系统"
+        "[MMO]-NetEaseRevelation-庄园系统",
+        "[MMO]-NetEaseRevelation-NPC互动系统"
       ],
       "filename": "NetEaseRevelation.md"
     },
@@ -12187,6 +12247,7 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
+        "[RTS]-RedAlert2-阵营特色单位设计",
         "[RTS]-RedAlert2-超级武器系统"
       ],
       "filename": "RedAlert2.md"
@@ -12210,7 +12271,8 @@
       "achievements": "",
       "relatedMechanisms": [
         "[RTS]-RedAlert3-三阵营差异化设计",
-        "[RTS]-RedAlert3-海军单位系统"
+        "[RTS]-RedAlert3-海军单位系统",
+        "[RTS]-RedAlert3-超武指挥官技能系统"
       ],
       "filename": "RedAlert3.md"
     },
@@ -12394,7 +12456,10 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[RTS]-RustedWarfare-极简UI触控设计",
+        "[RTS]-RustedWarfare-触屏操作优化"
+      ],
       "filename": "RustedWarfare.md"
     },
     "SamuraiShodown": {
@@ -12414,7 +12479,10 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[格斗]-SamuraiShodown-一闪系统",
+        "[格斗]-SamuraiShodown-武器击飞"
+      ],
       "filename": "SamuraiShodown.md"
     },
     "SanguoMoudingTianxia": {
@@ -12454,7 +12522,11 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[大逃杀]-SausageMan-诙谐画风体验",
+        "[大逃杀]-SausageMan-硬核射击手感",
+        "[大逃杀]-SausageMan-快节奏战术博弈"
+      ],
       "filename": "SausageMan.md"
     },
     "SeaOfStars": {
@@ -12615,7 +12687,8 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[格斗]-SoulcaliburVI-武器系统"
+        "[格斗]-SoulcaliburVI-武器系统",
+        "[格斗]-SoulcaliburVI-8WayRun系统"
       ],
       "filename": "SoulcaliburVI.md"
     },
@@ -12720,7 +12793,9 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[RPG]-Starfield-太空探索系统"
+      ],
       "filename": "Starfield.md"
     },
     "StreetFighter6": {
@@ -12742,7 +12817,8 @@
       "achievements": "",
       "relatedMechanisms": [
         "[格斗]-StreetFighter6-现代模式",
-        "[格斗]-StreetFighter6-Drive系统"
+        "[格斗]-StreetFighter6-Drive系统",
+        "[格斗]-StreetFighter6-世界本模式"
       ],
       "filename": "StreetFighter6.md"
     },
@@ -12764,7 +12840,9 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[RTS]-SupremeCommander-战略战术双视角"
+        "[RTS]-SupremeCommander-战略战术双视角",
+        "[RTS]-SupremeCommander-实验级巨型单位",
+        "[RTS]-SupremeCommander-指挥官亲自作战"
       ],
       "filename": "SupremeCommander.md"
     },
@@ -12834,7 +12912,9 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[MMO]-Tarisland-不氪金商业模式"
+      ],
       "filename": "Tarisland.md"
     },
     "TeamfightTactics": {
@@ -12875,6 +12955,7 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
+        "[格斗]-Tekken7-3D移动系统",
         "[格斗]-Tekken7-Rage系统"
       ],
       "filename": "Tekken7.md"
@@ -12977,7 +13058,9 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[战棋]-TianDiJie-属性相克系统"
+        "[战棋]-TianDiJie-属性相克系统",
+        "[战棋]-TianDiJie-技能联动系统",
+        "[战棋]-TianDiJie-多维度养成系统"
       ],
       "filename": "TianDiJie.md"
     },
@@ -13062,7 +13145,10 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[战棋]-TriangleStrategy-政策辩论系统",
+        "[战棋]-TriangleStrategy-信念值系统"
+      ],
       "filename": "TriangleStrategy.md"
     },
     "TwoPointHospital": {
@@ -13247,7 +13333,8 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[战棋]-Wargroove-指挥官技能系统"
+        "[战棋]-Wargroove-指挥官技能系统",
+        "[战棋]-Wargroove-地图编辑器系统"
       ],
       "filename": "Wargroove.md"
     },
@@ -13290,7 +13377,9 @@
       "achievements": "",
       "relatedMechanisms": [
         "[策略卡牌]-我叫MT-召唤之门BOSS系统",
-        "[策略卡牌]-我叫MT-宠物融合系统"
+        "[策略卡牌]-我叫MT-宠物融合系统",
+        "[策略卡牌]-我叫MT-八大职业组合系统",
+        "[策略卡牌]-我叫MT-召唤之门BOSS系统> [策略卡牌]"
       ],
       "filename": "WoJiaoMT.md"
     },
@@ -13353,6 +13442,8 @@
       ],
       "achievements": "",
       "relatedMechanisms": [
+        "[RPG]-WutheringWaves-动作战斗系统",
+        "[RPG]-WutheringWaves-声骸系统",
         "[RPG]-WutheringWaves-共鸣技能"
       ],
       "filename": "WutheringWaves.md"
@@ -13415,7 +13506,8 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[RTS]-XutuZhizhan-3编队指挥系统"
+        "[RTS]-XutuZhizhan-3编队指挥系统",
+        "[RTS]-XutuZhizhan-全局战略法术"
       ],
       "filename": "XutuZhizhan.md"
     },
@@ -13709,7 +13801,8 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[ARPG]-DNFOrigins-搬砖系统"
+        "[ARPG]-DNFOrigins-搬砖系统",
+        "[ARPG]-DNFOrigins-技能链系统"
       ],
       "filename": "dnf-origins.md"
     },
@@ -13797,6 +13890,7 @@
       "relatedMechanisms": [
         "[动作肉鸽]-[哈迪斯]-[武器多形态切换]",
         "[动作肉鸽]-[哈迪斯]-[神明祝福组合]",
+        "[动作肉鸽]-[哈迪斯]-[冲刺无敌帧机制]",
         "[动作肉鸽]-[哈迪斯]-[局外升级系统]",
         "[动作肉鸽]-[哈迪斯]-[死亡循环叙事合理化]"
       ],
@@ -13819,7 +13913,9 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[MOBA]-LoL极地大乱斗-海克斯强化`"
+      ],
       "filename": "league-of-legends.md"
     },
     "lol": {
@@ -13976,7 +14072,8 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[生活模拟]-Pokopia-百变怪变身拓展"
+        "[生活模拟]-Pokopia-百变怪变身拓展",
+        "[生活模拟]-Pokopia-地形移动能力修改"
       ],
       "filename": "pokemon-pokopia.md"
     },
@@ -14079,6 +14176,7 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
+        "[MOBA]-王者荣耀-梦境大乱斗单路地图",
         "[MOBA]-王者荣耀-随机分配英雄机制",
         "[MOBA]-王者荣耀-公用英雄池"
       ],

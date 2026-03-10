@@ -502,8 +502,6 @@
     
     // Modal functions
     function showMechanism(key) {
-      closeModal(); // 关闭现有弹窗
-      
       const m = data.mechanisms[key];
       document.getElementById('mechModalTitle').textContent = m.title;
       
@@ -639,8 +637,6 @@
     }
     
     function showGame(key) {
-      closeModal(); // 关闭现有弹窗
-      
       const g = data.games[key];
       if (!g) return;
       
@@ -714,17 +710,10 @@
       // 收录机制（关联跳转）
       if (g.relatedMechanisms && g.relatedMechanisms.length > 0) {
         const mechHtml = g.relatedMechanisms.map(mechRef => {
-          // mechRef 格式: [品类]-游戏名-机制名
-          // 提取机制名
-          const cleanRef = mechRef.replace(/[\[\]]/g, '');
-          const parts = cleanRef.split('-');
-          const targetMechName = parts.length >= 3 ? parts.slice(2).join('-') : cleanRef;
-          
-          // 在机制库中查找匹配 - 主要通过机制名匹配
+          // 尝试匹配机制库中的机制
+          // 格式: [品类]-游戏名-机制名
           const mechEntry = Object.entries(data.mechanisms).find(([key, m]) => {
-            if (!m.title) return false;
-            // 检查机制标题是否包含目标机制名
-            return m.title.includes(targetMechName) || targetMechName.includes(m.title);
+            return m.title && mechRef.toLowerCase().includes(m.title.toLowerCase());
           });
           
           if (mechEntry) {
@@ -760,7 +749,8 @@
       );
       
       if (entry) {
-        showGame(entry[0]); // showGame 会先调用 closeModal
+        closeModal();
+        setTimeout(() => showGame(entry[0]), 100);
       }
     }
     
