@@ -118,6 +118,19 @@ function parseMdFile(content) {
   const titleMatch = content.match(/^#\s+(.+)$/m);
   if (titleMatch) result.title = titleMatch[1].trim();
   
+  // 章节别名映射（兼容不同命名格式）
+  const sectionAliases = {
+    '基本信息': '基础信息',
+    '机制描述': '机制拆解',
+    '通俗转译': '机制拆解',
+    '相似机制': '关联参考'
+  };
+  for (const [alias, standard] of Object.entries(sectionAliases)) {
+    if (result.sections[alias] && !result.sections[standard]) {
+      result.sections[standard] = result.sections[alias];
+    }
+  }
+  
   return result;
 }
 
@@ -170,6 +183,8 @@ function extractField(text, fieldName) {
 }
 
 function extractMechanismInfo(parsed, filename) {
+  if (filename.includes('血月')) {
+  }
   const sections = parsed.sections;
   
   const info = {
@@ -246,6 +261,20 @@ function extractMechanismInfo(parsed, filename) {
       }
     }
     
+    // 备选：从"机制详述"提取
+    if (!info.mechanismDesc && section) {
+      // 匹配机制详述后面的所有内容直到触发条件
+      const descMatch = section.match(/机制详述[\s\S]*?(?=触发条件)/);
+      if (descMatch) {
+        info.mechanismDesc = descMatch[0]
+          .replace('机制详述', '')
+          .replace(/[：:]/g, '')
+          .replace(/\*\*/g, '')
+          .replace(/^[\s\n>]+/, '')
+          .trim();
+      }
+    }
+    
     // 核心规则
     match = section.match(/\*\*核心规则[：:]\*\*\s*([\s\S]+?)(?=\*\*|触发)/);
     if (match) {
@@ -254,6 +283,13 @@ function extractMechanismInfo(parsed, filename) {
     
     // 触发条件
     info.trigger = extractField(section, '触发条件');
+    // 备选：从"触发条件"提取
+    if (!info.trigger) {
+      const triggerMatch = section.match(/触发条件[：:][\s\S]+?(?=\*\*|##|$)/);
+      if (triggerMatch) {
+        info.trigger = triggerMatch[0].replace('触发条件', '').replace(/[：:]/g, '').trim();
+      }
+    }
   }
   
   // === 4. 设计意图 ===
@@ -267,6 +303,26 @@ function extractMechanismInfo(parsed, filename) {
   if (sections['关联参考']) {
     const section = sections['关联参考'];
     const similarList = [];
+    
+    // Pattern 0: 表格格式 | 游戏 | 机制 |
+    const tableLines = section.match(/\|[^|]+\|[^|]+\|[\s\S]+/);
+    if (tableLines) {
+      const tableText = tableLines[0];
+      const rows = tableText.split('\n');
+      for (const row of rows) {
+        // 使用split提取单元格
+        const cells = row.split('|').filter(c => c.trim());
+        if (cells.length >= 2) {
+          const game = cells[0].trim();
+          const mechanism = cells[1].trim();
+          // 跳过表头
+          if (game === '游戏' || mechanism === '机制' || game.includes('---')) continue;
+          if (game && mechanism) {
+            similarList.push({ game, mechanism });
+          }
+        }
+      }
+    }
     
     // Pattern 1: 《Game》mechanism / "Game" mechanism
     let matches = section.match(/[《"]([^》"]+)[》"]\s*([^<\n]+)/g);

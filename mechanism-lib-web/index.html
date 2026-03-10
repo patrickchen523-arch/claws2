@@ -122,15 +122,6 @@
       border-color: var(--primary);
     }
     
-    .filter-select {
-      padding: 0.75rem 1rem;
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      font-size: 0.95rem;
-      background: white;
-      cursor: pointer;
-    }
-    
     /* Stats */
     .stats {
       display: flex;
@@ -346,9 +337,6 @@
   <main>
     <div class="search-bar">
       <input type="text" class="search-input" id="searchInput" placeholder="搜索... (多个关键词用空格分隔，支持交集搜索)">
-      <select class="filter-select" id="tagFilter">
-        <option value="">全部标签</option>
-      </select>
     </div>
     
     <div class="stats">
@@ -398,28 +386,12 @@
       const response = await fetch('data.json');
       data = await response.json();
       renderStats();
-      populateTagFilter();
       renderGrid();
     }
     
     function renderStats() {
       document.getElementById('mechCount').textContent = data.stats.mechanismCount;
       document.getElementById('gameCount').textContent = data.stats.gameCount;
-    }
-    
-    function populateTagFilter() {
-      const tags = new Set();
-      Object.values(data.mechanisms).forEach(m => {
-        m.tags.forEach(t => tags.add(t));
-      });
-      
-      const select = document.getElementById('tagFilter');
-      Array.from(tags).sort().forEach(tag => {
-        const option = document.createElement('option');
-        option.value = tag;
-        option.textContent = tag;
-        select.appendChild(option);
-      });
     }
     
     // Tab switching
@@ -432,13 +404,11 @@
       });
     });
     
-    // Search & Filter
+    // Search
     document.getElementById('searchInput').addEventListener('input', renderGrid);
-    document.getElementById('tagFilter').addEventListener('change', renderGrid);
     
     function getFilteredData() {
       const query = document.getElementById('searchInput').value.toLowerCase();
-      const tag = document.getElementById('tagFilter').value;
       
       if (currentTab === 'mechanisms') {
         return Object.entries(data.mechanisms).filter(([key, m]) => {
@@ -450,8 +420,7 @@
             m.simpleDesc?.toLowerCase().includes(kw) ||
             (m.tags && m.tags.some(t => t.toLowerCase().includes(kw)))
           );
-          const matchTag = !tag || (m.tags && m.tags.includes(tag));
-          return matchQuery && matchTag;
+          return matchQuery;
         });
       } else {
         return Object.entries(data.games).filter(([key, g]) => {
@@ -488,7 +457,7 @@
             </div>
             <div class="card-desc">${m.simpleDesc || '暂无描述'}</div>
             <div class="card-tags">
-              ${m.tags.map(t => `<span class="tag">${t}</span>`).join('')}
+              ${m.tags.map(t => `<span class="tag" onclick="event.stopPropagation(); searchByTag('${t}')">${t}</span>`).join('')}
             </div>
           </div>
         `).join('');
@@ -508,6 +477,16 @@
     }
     
     // Modal functions
+    // 标签点击搜索功能
+    function searchByTag(tag) {
+      const searchInput = document.getElementById('searchInput');
+      searchInput.value = tag;
+      document.getElementById('tabMechanisms').click();
+      // 手动触发 input 事件以更新搜索结果
+      searchInput.dispatchEvent(new Event('input'));
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    
     function showMechanism(key) {
       closeModal(); // 关闭现有弹窗
       
@@ -646,7 +625,7 @@
           <div class="modal-section">
             <h3>核心标签</h3>
             <div class="card-tags">
-              ${m.tags.map(t => `<span class="tag">${t}</span>`).join('')}
+              ${m.tags.map(t => `<span class="tag" onclick="searchByTag('${t}')">${t}</span>`).join('')}
             </div>
           </div>
         `;

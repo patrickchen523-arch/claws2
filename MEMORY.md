@@ -551,6 +551,120 @@
 - HonorOfKings.md（游戏卡）
 
 **当前进度**：
-- 游戏卡：133款（+1）
-- 机制卡：152个（+4）
+- 游戏卡：338款
+- 机制卡：432个
 - 品类拆解：15个品类首轮拆解完成
+
+## 技术笔记
+
+### 解析器章节别名映射 (2026-03-10)
+处理机制库中章节命名不一致的问题：
+- 基本信息 → 基础信息
+- 机制描述/通俗转译 → 机制拆解
+- 相似机制 → 关联参考
+- 标签分隔符标准化：顿号、逗号、斜杠统一为逗号+空格
+
+### 相似机制表格解析
+修复Markdown表格解析：使用split('|')代替正则匹配提取单元格内容
+
+---
+
+## 今日工作总结 (2026-03-10)
+
+### 机制库展示网页
+**地址**: http://88.88.88.88:8888
+
+**完成功能**:
+1. MVP原型：解析脚本+前端展示
+2. Tab切换：机制库/游戏库
+3. 关键词搜索：支持标签搜索+多关键词AND搜索
+4. 标签筛选下拉
+5. 跳转功能：机制卡↔游戏卡、相似机制跳转
+6. 弹窗互斥优化
+7. **标签点击搜索**：点击标签跳回主界面并自动搜索
+
+**数据统计**:
+- 机制卡：432个
+- 游戏卡：338款
+- 字段完整性：gameName/tags/trigger 430+, mechanismDesc 428, similarMechanisms 362
+
+### 今日入库 (2026-03-10 下午)
+**批量入库**：90+机制卡，30+游戏卡
+
+**品类**:
+- 赛车游戏 (9): ForzaHorizon5, MarioKart, SnowRunner, GranTurismo, F1, TeamSonicRacing, DirtRally, ROC, GTAV
+- 回合制MMO (3): 幻唐志逍遥外传, 长安幻想, 梦幻新诛仙
+- 社交游戏 (15+): LeagueOfLegends, EggyParty, SkyChildren, InfiniteNikki, ArcaneOdyssey, FF14, AnimalCrossing等
+- 足球游戏 (6): EASportsFC26, FCMobile, BestEleven, MatchdayChampions, InazumaEleven, RefereeSimulator
+- SOC/生存 (10+): 7DaysToDie, Rust, Valheim, TheForest等
+
+**入库机制示例**:
+- 赛车：时间回溯、漂移集气、幽灵车陪跑、地图拼接
+- MMO：灵兽对战、玲珑遗迹、精力系统、天都争锋
+- 社交：剧本扮演、小黑机制、大世界异步合影、宠物互动
+- 足球：45球挑战、金球致胜、进化系统、工资帽
+
+### 评分与优化
+- 初始评分：21%未通过(19/90)
+- 修复后：97%通过，平均3.11分
+- 修复内容：添加类比词、关联标签、相似机制
+
+### 解析器修复 (今晚)
+**问题**：新批次字段解析失败
+- 章节命名不一致
+- 标签分隔符不统一
+- 表格解析bug
+
+**修复结果**:
+| 字段 | 修复前 | 修复后 |
+|------|--------|--------|
+| gameName | 315 | 430 |
+| tags | 315 | 430 |
+| similarMechanisms | 299 | 362 |
+
+---
+
+## 网页设计技术笔记
+
+### 架构
+- 纯静态HTML + 内联JS/CSS，无需后端
+- 数据源：`data.json`（由 `generate-data.js` 从md文件生成）
+- HTTP服务：Python simple http.server (端口8888)
+
+### generate-data.js 解析器
+**核心逻辑**：
+1. `parseMdFile()` - 解析Markdown章节结构
+2. `extractMechanismInfo()` - 提取机制卡字段
+3. `extractGameInfo()` - 提取游戏卡字段
+4. `syncMechanismsToGames()` - 同步关联
+
+**章节别名映射**（重要）：
+- 基本信息 → 基础信息
+- 机制描述/通俗转译 → 机制拆解
+- 相似机制 → 关联参考
+
+**字段提取模式**：
+- `extractField(text, fieldName)` - 通用字段提取
+- 备选正则：处理不同格式（如 **字段**：\n> 内容）
+
+**表格解析**：
+- 使用 `split('|')` 而非正则匹配提取单元格
+
+### 前端 index.html
+**核心函数**：
+- `renderGrid()` - 渲染卡片网格，支持机制/游戏Tab切换
+- `searchByTag(tag)` - 标签点击搜索，跳转主界面并自动搜索
+- `showMechanism(key)` / `showGame(key)` - 弹窗显示详情
+
+**搜索逻辑**：
+- 关键词AND搜索：`tags.some(t => t.includes(kw))`
+- 标签筛选：`tags.includes(tagFilter)`
+
+**事件处理**：
+- 标签点击：`event.stopPropagation()` 防止触发卡片点击
+
+### 后续迭代方向
+1. 嵌入 Mermaid/Chart.js 图表（游戏循环、支柱实现可视化）
+2. 标签云可视化
+3. 批量导出PDF功能
+4. 移动端适配
