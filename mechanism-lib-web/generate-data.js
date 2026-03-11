@@ -620,6 +620,9 @@ function extractGameInfo(parsed, filename) {
     if (sections[kw]) {
       const section = sections[kw];
       
+      // 用于去重的 Set
+      const seen = new Set();
+      
       // 匹配 > - 或 - 开头的行（两种格式都支持）
       const mechMatches = section.match(/[>-]\s*([^<\n]+)/g);
       if (mechMatches) {
@@ -629,7 +632,7 @@ function extractGameInfo(parsed, filename) {
           mechName = mechName.replace(/^-\s*/, '').trim();
           // 清理反引号
           mechName = mechName.replace(/^`|`$/g, '');
-          // 过滤日期格式、分隔线和无效内容
+          // 过滤无效内容
           if (mechName && 
               !mechName.includes('待关联') && 
               !mechName.includes('暂无') && 
@@ -642,19 +645,32 @@ function extractGameInfo(parsed, filename) {
               !mechName.match(/^\d{4}-\d{2}-\d{2}/) &&
               mechName !== '-' &&
               !mechName.startsWith('---') &&
-              !mechName.includes('|')) {
-            info.relatedMechanisms.push(mechName);
+              !mechName.includes('|') &&
+              // 过滤空机制名，如 [战棋]-
+              !mechName.match(/^\[[^\]]+\]-$/) &&
+              !mechName.match(/^\[[^\]]+\]-[^\-]+-$/)) {
+            // 标准化后去重
+            const normalized = mechName.toLowerCase().replace(/\s+/g, '');
+            if (!seen.has(normalized)) {
+              seen.add(normalized);
+              info.relatedMechanisms.push(mechName);
+            }
           }
         }
       }
       
-      // 也匹配 [品类]-游戏名-机制名 pattern 或 [前缀]机制名 pattern
+      // 也匹配 [品类]-游戏名-机制名 pattern
       const bracketMatches = section.match(/\[[^\]]+\]-[^\-]+\-[^\-]+/g);
       if (bracketMatches) {
         for (const m of bracketMatches) {
           const cleanM = m.replace(/\n/g, '').trim();
-          if (!info.relatedMechanisms.includes(cleanM)) {
-            info.relatedMechanisms.push(cleanM);
+          // 过滤空机制名
+          if (!cleanM.match(/^\[[^\]]+\]-$/) && !cleanM.match(/^\[[^\]]+\]-[^\-]+-$/)) {
+            const normalized = cleanM.toLowerCase().replace(/\s+/g, '');
+            if (!seen.has(normalized)) {
+              seen.add(normalized);
+              info.relatedMechanisms.push(cleanM);
+            }
           }
         }
       }
@@ -666,13 +682,28 @@ function extractGameInfo(parsed, filename) {
           let cleanM = m.replace(/\n/g, '').trim();
           // 清理反引号
           cleanM = cleanM.replace(/^`|`$/g, '');
+          
+          // 提取前缀后的内容
+          const afterPrefix = cleanM.replace(/^\[[^\]]+\]/, '');
+          
+          // 过滤无效内容
           if (cleanM && 
               !cleanM.includes('待关联') && 
               !cleanM.includes('暂无') && 
               cleanM.length > 2 &&
               !cleanM.match(/^\d{2}-\d{2}$/) &&
-              !info.relatedMechanisms.includes(cleanM)) {
-            info.relatedMechanisms.push(cleanM);
+              // 过滤不完整的 [xxx]- 格式
+              !cleanM.match(/^\[[^\]]+\]-$/) &&
+              !cleanM.match(/^\[[^\]]+\]-[^\-]+-$/) &&
+              // 过滤前缀后以 - 开头的错误拆分结果
+              !afterPrefix.startsWith('-') &&
+              // 确保有实际机制名
+              afterPrefix.length > 2) {
+            const normalized = cleanM.toLowerCase().replace(/\s+/g, '');
+            if (!seen.has(normalized)) {
+              seen.add(normalized);
+              info.relatedMechanisms.push(cleanM);
+            }
           }
         }
       }

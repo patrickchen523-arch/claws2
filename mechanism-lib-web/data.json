@@ -9975,134 +9975,6 @@
       "filename": "[Qualify]weapon-system.md",
       "source": "AI生成-未甄别"
     },
-    "fireemblemthreehouses/[Qualify]job-tree.md": {
-      "title": "[战棋]-[火焰纹章风花雪月]-职业转职树系统",
-      "gameName": "火焰之纹章：风花雪月",
-      "tags": [
-        "养成",
-        "成长可视化",
-        "策略"
-      ],
-      "simpleDesc": "就像RPG游戏练级转职一样, 但更复杂——角色可以多次转职, 每次转职不仅改变职业, 还能继承上一个职业的强力技能, 形成个性化build",
-      "mechanismDesc": "- 角色有职业树：初级职业→中级职业→高级职业→大师职业\n- 每个职业有专属技能, 转职后可继承前一个职业的技能\n- 武器熟练度决定可转职方向（剑, 斧, 枪, 弓, 魔法, 骑行, 飞行, 重甲）\n- 转职需要特定条件（等级, 熟练度, 职业证）\n- 同一角色不同培养路线差异巨大",
-      "coreRules": "",
-      "trigger": "- 角色达到转职等级要求",
-      "painPoint": "- 传统战棋角色成长线性, 培养方向单一",
-      "experienceGoal": "- 通过职业树提供角色培养的策略深度",
-      "similarMechanisms": [
-        {
-          "game": "皇家骑士团2",
-          "mechanism": "的职业系统相对简化"
-        },
-        {
-          "game": "最终幻想战略版",
-          "mechanism": "也有转职系统, 但技能继承较弱"
-        },
-        {
-          "game": "神界原罪2",
-          "mechanism": "的技能组合更自由, 但无职业限制"
-        }
-      ],
-      "demo": "GIF, 视频链接待补充",
-      "filename": "[Qualify]job-tree.md",
-      "source": "AI生成-未甄别"
-    },
-    "fireemblemthreehouses/[Qualify]multi-route.md": {
-      "title": "[战棋]-[火焰纹章风花雪月]-多线叙事选择系统",
-      "gameName": "火焰之纹章：风花雪月",
-      "tags": [
-        "叙事",
-        "角色差异",
-        "重玩驱动"
-      ],
-      "simpleDesc": "就像你选择加入不同帮派——选择黑鹫, 青狮, 金鹿三个学级, 故事走向完全不一样, 曾经的同伴可能成为敌人, 让玩家好奇\"另一条线会发生什么\"",
-      "mechanismDesc": "- 游戏开篇选择三个势力之一：黑鹫, 青狮, 金鹿\n- 每个势力有独立的主线剧情, 约12章\n- 三个势力剧情完全不同, 角色立场随势力变化\n- 同一角色在不同线路中可能是友军, 敌军, 或保持中立\n- 四条线路（包含IF路线）总计可玩内容超过100小时\n- 继承系统允许继承上一周目部分培养资源",
-      "coreRules": "",
-      "trigger": "- 游戏开篇第一章选择学级",
-      "painPoint": "- 传统单机战棋游戏一周目后缺乏重玩动力",
-      "experienceGoal": "- 通过三条完全不同的故事线创造重玩价值",
-      "similarMechanisms": [
-        {
-          "game": "火焰纹章if",
-          "mechanism": "的双线叙事（白夜, 暗夜）"
-        },
-        {
-          "game": "歧路旅人",
-          "mechanism": "的多角色视角叙事"
-        },
-        {
-          "game": "女神异闻谱5",
-          "mechanism": "的多结局系统"
-        }
-      ],
-      "demo": "GIF, 视频链接待补充",
-      "filename": "[Qualify]multi-route.md",
-      "source": "AI生成-未甄别"
-    },
-    "fireemblemthreehouses/[Qualify]support-attack.md": {
-      "title": "[战棋]-[火焰纹章风花雪月]-支援度援护战斗",
-      "gameName": "火焰之纹章：风花雪月",
-      "tags": [
-        "情感转化",
-        "战斗系统",
-        "角色绑定"
-      ],
-      "simpleDesc": "就像现实中和好兄弟一起打架, 你们配合越默契, 战斗中越能互相照应——支援度越高, 战斗时越容易触发援护攻击和防御",
-      "mechanismDesc": "- 角色之间存在支援度等级（C, B, A, S）, 通过共同战斗, 茶会话, 送礼提升\n- 战斗中, 相邻的高支援度角色可以",
-      "coreRules": "",
-      "trigger": "- 角色相邻（攻击范围1格内）",
-      "painPoint": "- 传统战棋游戏角色间缺乏情感联结, 角色只是战斗工具",
-      "experienceGoal": "- 将\"养成角色\"转化为\"战场实际优势\", 形成情感-实力的正反馈",
-      "similarMechanisms": [
-        {
-          "game": "皇家骑士团2",
-          "mechanism": "也存在支援系统, 但未与战斗直接挂钩"
-        },
-        {
-          "game": "女神异闻录5",
-          "mechanism": "社群等级影响Persona能力, 属于间接增益"
-        },
-        {
-          "game": "火焰纹章",
-          "mechanism": "系列历代的支援系统, 本作是集大成者"
-        }
-      ],
-      "demo": "GIF, 视频链接待补充",
-      "filename": "[Qualify]support-attack.md",
-      "source": "人工"
-    },
-    "fireemblemthreehouses/[Qualify]tea-party.md": {
-      "title": "[战棋]-[火焰纹章风花雪月]-茶会话社交系统",
-      "gameName": "火焰之纹章：风花雪月",
-      "tags": [
-        "日常养成",
-        "社交",
-        "角色魅力"
-      ],
-      "simpleDesc": "就像在模拟经营游戏里和NPC培养感情——邀请角色喝茶聊天, 选择正确话题增加好感, 同时还能了解角色的背景故事和性格",
-      "mechanismDesc": "- 玩家消耗\"自由时间\"邀请角色参加茶会话\n- 茶会话有3轮对话, 每轮3个话题可选\n- 根据角色偏好选择正确话题可大幅提升支援度\n- 选择对方喜欢茶叶可获得额外加成\n- 连续正确可进入\"自由谈话\"模式, 观察角色动画\n- 茶会话同时增加主角\"魅力\"属性",
-      "coreRules": "",
-      "trigger": "- 需消耗游戏内\"自由时间\"",
-      "painPoint": "- 传统战棋游戏日常养成部分枯燥, 只是重复刷数值",
-      "experienceGoal": "- 将枯燥的\"刷好感\"转化为有趣的互动玩法",
-      "similarMechanisms": [
-        {
-          "game": "女神异闻录5",
-          "mechanism": "的社群对话系统（选择对话提升社群等级）"
-        },
-        {
-          "game": "火焰纹章",
-          "mechanism": "系列传统的支援对话"
-        },
-        {
-          "game": "牧场物语",
-          "mechanism": "的送礼系统"
-        }
-      ],
-      "demo": "GIF, 视频链接待补充",
-      "filename": "[Qualify]tea-party.md",
-      "source": "人工"
-    },
     "genshin/[Excellent]god-eye-offering.md": {
       "title": "[开放世界探索]-[原神]-神瞳供奉系统",
       "gameName": "原神",
@@ -11681,11 +11553,7 @@
       "relatedMechanisms": [
         "[搜打撤]-[ARC Raiders]-PvPvE撤离机制",
         "[搜打撤]-[ARC Raiders]-基地建设升级系统",
-        "[搜打撤]-[ARC Raiders]-机械敌人AI系统",
-        "[搜打撤]-",
-        "[ARC Raiders]-PvPvE撤离机制",
-        "[ARC Raiders]-基地建设升级系统",
-        "[ARC Raiders]-机械敌人AI系统"
+        "[搜打撤]-[ARC Raiders]-机械敌人AI系统"
       ],
       "filename": "ARCRaiders.md",
       "source": "人工"
@@ -14369,12 +14237,7 @@
         "[战棋]-[火焰纹章风花雪月]-支援度援护战斗",
         "[战棋]-[火焰纹章风花雪月]-职业转职树系统",
         "[战棋]-[火焰纹章风花雪月]-茶会话社交系统",
-        "[战棋]-[火焰纹章风花雪月]-多线叙事选择系统",
-        "[战棋]-",
-        "[火焰纹章风花雪月]-支援度援护战斗",
-        "[火焰纹章风花雪月]-职业转职树系统",
-        "[火焰纹章风花雪月]-茶会话社交系统",
-        "[火焰纹章风花雪月]-多线叙事选择系统"
+        "[战棋]-[火焰纹章风花雪月]-多线叙事选择系统"
       ],
       "filename": "FireEmblemThreeHouses.md",
       "source": "人工"
@@ -14869,9 +14732,7 @@
         "[Roguelike]-[Hades]-[惩罚契约系统]",
         "叙事驱动机制",
         "多武器形态系统",
-        "祝福Build系统",
-        "[Roguelike]-",
-        "[Hades]-"
+        "祝福Build系统"
       ],
       "filename": "Hades.md",
       "source": "人工"
@@ -15375,9 +15236,7 @@
         "[战棋]-[陷阵之志]-[完全信息博弈]",
         "BuildingProtection",
         "DisplacementOverKill",
-        "FullInfoCombat",
-        "[战棋]-",
-        "[陷阵之志]-"
+        "FullInfoCombat"
       ],
       "filename": "IntoTheBreach.md",
       "source": "人工"
@@ -15743,9 +15602,7 @@
         "[战棋]-梦幻模拟战-地形影响机制",
         "[战棋]-梦幻模拟战-超时空随机副本",
         "HeroSoldierDualProgression",
-        "UnitRockPaperScissors",
-        "[战棋]-",
-        "[梦幻模拟战]-"
+        "UnitRockPaperScissors"
       ],
       "filename": "Langrisser.md",
       "source": "人工"
@@ -16107,8 +15964,6 @@
         "[FPS]-[Marathon]-[三层构筑系统]收录机制：",
         "FPS夺金-失落星船-植入物与核心",
         "[FPS]-[Marathon]-[三层构筑系统]收录机制：>",
-        "[FPS]-",
-        "[Marathon]-",
         "[三层构筑系统]收录机制："
       ],
       "filename": "Marathon.md",
@@ -16181,9 +16036,7 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[TPS]-[漫威争锋]-[天赋强化]",
-        "[TPS]-",
-        "[漫威争锋]-"
+        "[TPS]-[漫威争锋]-[天赋强化]"
       ],
       "filename": "MarvelRivals.md",
       "source": "人工"
@@ -18404,12 +18257,7 @@
         "[战棋]-[皇家骑士团2]-WT行动顺序系统",
         "[战棋]-[皇家骑士团2]-高低差地形战场",
         "[战棋]-[皇家骑士团2]-35种地形系统",
-        "[战棋]-[皇家骑士团2]-团队等级上限机制",
-        "[战棋]-",
-        "[皇家骑士团2]-WT行动顺序系统",
-        "[皇家骑士团2]-高低差地形战场",
-        "[皇家骑士团2]-35种地形系统",
-        "[皇家骑士团2]-团队等级上限机制"
+        "[战棋]-[皇家骑士团2]-团队等级上限机制"
       ],
       "filename": "TacticsOgreReborn.md",
       "source": "人工"
@@ -18484,9 +18332,7 @@
         "HaikesiQianghuaXitong",
         "公共牌池抓取",
         "共享选秀轮盘",
-        "利息经济系统",
-        "[自走棋]-",
-        "[云顶之弈]-装备合成系统"
+        "利息经济系统"
       ],
       "filename": "TeamfightTactics.md",
       "source": "人工"
@@ -19145,9 +18991,7 @@
         "[策略卡牌]-我叫MT-八大职业组合系统",
         "PetFusion",
         "SummonGate",
-        "[策略卡牌]-[我叫MT]-[召唤之门BOSS系统]> [策略卡牌]",
-        "[策略卡牌]-",
-        "[我叫MT]-"
+        "[策略卡牌]-[我叫MT]-[召唤之门BOSS系统]> [策略卡牌]"
       ],
       "filename": "WoJiaoMT.md",
       "source": "人工"
@@ -19642,10 +19486,7 @@
         "[战棋]-[神界原罪2]-元素互动DIP系统",
         "[战棋]-[神界原罪2]-自由角色构建系统",
         "element-dip-system",
-        "free-character-build",
-        "[战棋]-",
-        "[神界原罪2]-元素互动DIP系统",
-        "[神界原罪2]-自由角色构建系统"
+        "free-character-build"
       ],
       "filename": "divinity2.md",
       "source": "人工"
@@ -19695,9 +19536,7 @@
       "relatedMechanisms": [
         "[开放世界探索]-[艾尔登法环]-赐福点存档机制",
         "ARPG-艾尔登法环-死亡惩罚与记忆系统",
-        "grace-point",
-        "[开放世界探索]-",
-        "[艾尔登法环]-赐福点存档机制"
+        "grace-point"
       ],
       "filename": "eldenring.md",
       "source": "人工"
@@ -19721,9 +19560,7 @@
       "achievements": "",
       "relatedMechanisms": [
         "[开放世界探索]-[原神]-神瞳供奉系统",
-        "god-eye-offering",
-        "[开放世界探索]-",
-        "[原神]-神瞳供奉系统"
+        "god-eye-offering"
       ],
       "filename": "genshin.md",
       "source": "人工"
@@ -19775,9 +19612,7 @@
         "[动作肉鸽]-[哈迪斯]-[神明祝福组合]",
         "[动作肉鸽]-[哈迪斯]-[冲刺无敌帧机制]",
         "[动作肉鸽]-[哈迪斯]-[局外升级系统]",
-        "[动作肉鸽]-[哈迪斯]-[死亡循环叙事合理化]",
-        "[动作肉鸽]-",
-        "[哈迪斯]-"
+        "[动作肉鸽]-[哈迪斯]-[死亡循环叙事合理化]"
       ],
       "filename": "hades.md",
       "source": "人工"
@@ -20120,10 +19955,7 @@
       "achievements": "",
       "relatedMechanisms": [
         "[战棋]-[XCOM2]-极端RNG命中率系统",
-        "[战棋]-[XCOM2]-掩体侧翼博弈系统",
-        "[战棋]-",
-        "[XCOM2]-极端RNG命中率系统",
-        "[XCOM2]-掩体侧翼博弈系统"
+        "[战棋]-[XCOM2]-掩体侧翼博弈系统"
       ],
       "filename": "xcom2.md",
       "source": "人工"
@@ -20169,9 +20001,7 @@
       "relatedMechanisms": [
         "[搜打撤]-[逃离塔科夫]-装备带入带出系统",
         "korok-seed-collection",
-        "gradual-region-unlock",
-        "[搜打撤]-",
-        "[逃离塔科夫]-装备带入带出系统"
+        "gradual-region-unlock"
       ],
       "filename": "zelda.md",
       "source": "人工"
@@ -20249,7 +20079,7 @@
     }
   },
   "stats": {
-    "mechanismCount": 433,
+    "mechanismCount": 429,
     "gameCount": 340
   }
 }
