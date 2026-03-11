@@ -477,13 +477,19 @@
     }
     
     // Modal functions
-    // 标签点击搜索功能
+    // 标签点击搜索功能 - 在弹窗中也能搜索
     function searchByTag(tag) {
+      closeModal(); // 关闭弹窗
+      
+      // 切换到机制库 Tab
+      document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+      document.querySelector('.tab[data-tab="mechanisms"]').classList.add('active');
+      currentTab = 'mechanisms';
+      
+      // 设置搜索框并直接触发搜索
       const searchInput = document.getElementById('searchInput');
-      searchInput.value = tag;
-      document.getElementById('tabMechanisms').click();
-      // 手动触发 input 事件以更新搜索结果
-      searchInput.dispatchEvent(new Event('input'));
+      searchInput.value = tag + ' ';
+      renderGrid(); // 直接调用确保更新
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
     
