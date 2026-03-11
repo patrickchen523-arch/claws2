@@ -738,11 +738,18 @@
       
       // 来源游戏 - 检查游戏库中是否存在
       if (m.gameName) {
+        // 标准化匹配函数
+        const normalize = (s) => s.replace(/[,/\\].*$/, '').trim().toLowerCase();
+        const normMechName = normalize(m.gameName);
+        
         // 查找是否有对应的游戏卡
-        const gameExists = Object.values(data.games).some(g => 
-          g.title.toLowerCase().includes(m.gameName.toLowerCase()) ||
-          g.gameName?.toLowerCase().includes(m.gameName.toLowerCase())
-        );
+        const gameExists = Object.values(data.games).some(g => {
+          const normGameName = normalize(g.gameName || '');
+          return g.title.toLowerCase().includes(m.gameName.toLowerCase()) ||
+                 g.gameName?.toLowerCase().includes(m.gameName.toLowerCase()) ||
+                 normalize(g.title).includes(normMechName) ||
+                 normGameName.includes(normMechName);
+        });
         
         if (gameExists) {
           html += `

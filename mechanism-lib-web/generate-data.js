@@ -633,10 +633,16 @@ function extractGameInfo(parsed, filename) {
           if (mechName && 
               !mechName.includes('待关联') && 
               !mechName.includes('暂无') && 
+              !mechName.includes('game-card') &&
+              !mechName.includes('gamecard') &&
+              !mechName.includes('创建时间') &&
+              !mechName.includes('关联标签') &&
               mechName.length > 2 &&
-              !mechName.match(/^\d{2}-\d{2}$/) &&
+              !mechName.match(/^\d{2}-\d{2}/) &&
+              !mechName.match(/^\d{4}-\d{2}-\d{2}/) &&
               mechName !== '-' &&
-              !mechName.startsWith('---')) {
+              !mechName.startsWith('---') &&
+              !mechName.includes('|')) {
             info.relatedMechanisms.push(mechName);
           }
         }
@@ -718,33 +724,32 @@ for (const [gameKey, gameInfo] of Object.entries(games)) {
     const validMechs = [];
     
     for (const mechRef of gameInfo.relatedMechanisms) {
-      const cleanRef = mechRef.replace(/[\[\]]/g, '');
+      const cleanRef = mechRef.replace(/[\[\]]/g, '').trim();
       
-      // 提取机制名（去除 [前缀] 格式，如 [Excellent] 或 [Qualify]）
-      let targetMechName = cleanRef;
-      // 尝试匹配 [前缀]机制名 格式
-      const prefixMatch = cleanRef.match(/^([^\]]+)\](.+)$/);
-      if (prefixMatch) {
-        targetMechName = prefixMatch[2]; // 提取中括号后面的部分
-      }
-      
-      // 在机制库中查找匹配（更宽松的匹配）
+      // 宽松匹配：检查收录字符串是否包含在机制标题中
       const mechEntry = Object.entries(mechanisms).find(([key, m]) => {
         if (!m.title) return false;
-        // 尝试多种匹配方式
-        const titleWithoutBrackets = m.title.replace(/[\[\]]/g, '');
-        // 提取机制名部分（去除 [品类]-[游戏名]- 格式）
-        let titleMechName = titleWithoutBrackets;
-        const titleMatch = titleWithoutBrackets.match(/^.+?\-.+?\-(.+)$/);
-        if (titleMatch) {
-          titleMechName = titleMatch[1];
-        }
+        const title = m.title;
         
-        return m.title.includes(targetMechName) || 
-               targetMechName.includes(titleMechName) ||
-               titleMechName.includes(targetMechName) ||
-               m.title.includes(cleanRef) ||
-               cleanRef.includes(titleMechName);
+        // 方案1: 收录字符串是否包含在机制标题中
+        // 方案2: 机制标题是否包含收录字符串（去掉前缀后的核心名）
+        // 方案3: 提取核心机制名进行匹配
+        
+        // 提取机制卡标题中的核心名（去掉品类和英文名）
+        let coreName = title;
+        // 去掉 [品类] 前缀
+        coreName = coreName.replace(/^\[[^\]]+\]/, '');
+        // 去掉 英文名 - 或 英文名 / 部分
+        coreName = coreName.replace(/^[^-]+\s*[-/]\s*/, '');
+        
+        // 直接包含检查
+        return title.includes(cleanRef) || 
+               cleanRef.includes(title.replace(/[\[\]]/g, '')) ||
+               title.includes(coreName) ||
+               coreName.includes(cleanRef) ||
+               // 去掉所有空格和特殊符号后对比
+               title.replace(/[\s\-\[\]]/g, '').includes(cleanRef.replace(/[\s\-\[\]]/g, '')) ||
+               cleanRef.replace(/[\s\-\[\]]/g, '').includes(title.replace(/[\s\-\[\]]/g, '').replace(/^[^-]+\-[^-]+\-/, ''));
       });
       
       if (mechEntry) {
