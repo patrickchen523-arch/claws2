@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mechanisms' Library</title>
+  <title>机制库丨Mechanisms' Library</title>
   <style>
     * {
       margin: 0;
@@ -205,6 +205,7 @@
       display: flex;
       flex-wrap: wrap;
       gap: 0.5rem;
+      margin-top: 0.5rem;
     }
     
     .tag {
@@ -991,17 +992,86 @@
       document.getElementById('gameModal').classList.add('active');
     }
     
+    // 游戏名映射表（前端用）
+    // 格式：'显示名': '游戏卡key'
+    const GAME_NAME_MAP = {
+      // 核心游戏（英文 key）
+      'AgeOfEmpires2DE': 'AgeOfEmpires2DE', 'AgeOfEmpires3': 'AgeOfEmpires3', 'AgeOfEmpires4': 'AgeOfEmpires4',
+      '7DaysToDie': '7DaysToDie', 'AlbionOnline': 'AlbionOnline', 'AshesOfCreation': 'AshesOfCreation',
+      'ArenaBreakout': 'ArenaBreakout', 'AutoChess': 'AutoChess', 'Battlegrounds': 'Battlegrounds',
+      'CallOfDuty': 'CallOfDuty', 'CallOfDutyWarzone': 'CallOfDutyWarzone', 'DNF': 'DNF',
+      'DarkestDungeon': 'DarkestDungeon', 'DontStarve': 'DontStarve', 'Enshrouded': 'Enshrouded',
+      'F1Manager': 'F1Manager', 'FCMobile': 'FCMobile', 'FantasyWestJourney': 'FantasyWestJourney',
+      'FinalFantasy14': 'FinalFantasy14', 'FireEmblemThreeHouses': 'FireEmblemThreeHouses',
+      'ForzaHorizon5': 'ForzaHorizon5', 'GTAOnline': 'GTAOnline', 'Helldivers2': 'Helldivers2',
+      'InazumaEleven': 'InazumaEleven', 'LibraryofRuina': 'LibraryofRuina', 'LostLight': 'LostLight',
+      'Marathon': 'Marathon', 'MarioKart': 'MarioKart', 'NeedForSpeed': 'NeedForSpeed',
+      'MarvelSnap': 'MarvelSnap', 'NarutoMobile': 'NarutoMobile', 'NarakaBladepoint': 'NarakaBladepoint',
+      'Onmyoji': 'Onmyoji', 'PathOfExile': 'PathOfExile', 'PeacekeeperElite': 'PeacekeeperElite',
+      'Persona5': 'Persona5', 'ProjectZomboid': 'ProjectZomboid', 'Asphalt9': 'Asphalt9',
+      'Rust': 'Rust', 'RomanceOfTheThreeKingdoms': 'RomanceOfTheThreeKingdoms', 'Shadowverse': 'Shadowverse',
+      'Sifu': 'Sifu', 'SonoftheForest': 'SonoftheForest', 'TacticsOgre': 'TacticsOgre',
+      'TeamSonicRacing': 'TeamSonicRacing', 'UmaMusume': 'UmaMusume', 'UnicornOverlord': 'UnicornOverlord',
+      'WorldOfWarcraft': 'WorldOfWarcraft', 'XenobladeChronicles3': 'XenobladeChronicles3',
+      'YuGiOhMasterDuel': 'YuGiOhMasterDuel', 'Zelda': 'Zelda',
+      // 中文/别名
+      '帝国时代2': 'AgeOfEmpires2DE', '帝国时代3': 'AgeOfEmpires3', '帝国时代4': 'AgeOfEmpires4',
+      '七日杀': '7DaysToDie', '阿尔比恩': 'AlbionOnline', '创世灰烬': 'AshesOfCreation',
+      '暗黑地牢': 'DarkestDungeon', '饥荒': 'DontStarve', '雾锁王国': 'Enshrouded',
+      'F1 manager': 'F1Manager', '梦幻西游': 'FantasyWestJourney', 'FF14': 'FinalFantasy14',
+      '地平线5': 'ForzaHorizon5', 'GTA Online': 'GTAOnline', '绝地潜兵2': 'Helldivers2',
+      '废墟图书馆': 'LibraryofRuina', '萤火突击': 'LostLight', '失落星船': 'Marathon',
+      '马里奥赛车': 'MarioKart', '跑跑卡丁车': 'NeedForSpeed', '极品飞车': 'NeedForSpeed',
+      '漫威终极逆转': 'MarvelSnap', '火影忍者': 'NarutoMobile', '永劫无间': 'NarakaBladepoint',
+      '决战平安京': 'Onmyoji', '流放之路': 'PathOfExile', '和平精英': 'PeacekeeperElite',
+      '女神异闻录5': 'Persona5', '狂野飙车9': 'Asphalt9', '腐蚀': 'Rust',
+      '三国志战略版': 'RomanceOfTheThreeKingdoms', '影之诗': 'Shadowverse', '师父': 'Sifu',
+      '森林之子': 'SonoftheForest', '皇家骑士团2': 'TacticsOgre', '索尼克赛车': 'TeamSonicRacing',
+      '赛马娘': 'UmaMusume', '圣兽之王': 'UnicornOverlord', '魔兽世界': 'WorldOfWarcraft',
+      '异度之刃3': 'XenobladeChronicles3', '游戏王': 'YuGiOhMasterDuel', '塞尔达传说': 'Zelda',
+      '暗区突围': 'ArenaBreakout',
+    };
+    
     function showGameByName(gameName) {
       if (!gameName) return;
       
-      // Find game by name (case insensitive)
-      const entry = Object.entries(data.games).find(([key, g]) => 
-        g.title.toLowerCase().includes(gameName.toLowerCase()) ||
-        g.gameName?.toLowerCase().includes(gameName.toLowerCase())
-      );
+      // 标准化游戏名：移除逗号、斜杠等分隔符，统一为空格
+      const normalize = (s) => s.replace(/[,/\\].*$/, '').trim().toLowerCase();
+      const normInput = normalize(gameName);
       
-      if (entry) {
-        showGame(entry[0]); // showGame 会先调用 closeModal
+      // 尝试提取有效的游戏名进行匹配
+      const namesToTry = [];
+      
+      // 1. 直接用原名
+      namesToTry.push(gameName);
+      
+      // 2. 清理逗号/斜杠分隔的多个名字
+      if (gameName.includes(',') || gameName.includes('/')) {
+        gameName.split(/[,/]/).forEach(n => namesToTry.push(n.trim()));
+      }
+      
+      // 3. 提取第一个有效名字（通常是英文名）
+      const firstName = gameName.split(/[,/]/)[0].trim();
+      if (firstName) namesToTry.push(firstName);
+      
+      // 尝试每个名字
+      for (const name of namesToTry) {
+        // 先尝试映射表
+        if (GAME_NAME_MAP[name] && data.games[GAME_NAME_MAP[name]]) {
+          showGame(GAME_NAME_MAP[name]);
+          return;
+        }
+        
+        // 再尝试模糊匹配
+        const entry = Object.entries(data.games).find(([key, g]) => 
+          g.title.toLowerCase().includes(name.toLowerCase()) ||
+          g.gameName?.toLowerCase().includes(name.toLowerCase()) ||
+          normalize(g.gameName) === normInput
+        );
+        if (entry) {
+          showGame(entry[0]);
+          return;
+        }
       }
     }
     

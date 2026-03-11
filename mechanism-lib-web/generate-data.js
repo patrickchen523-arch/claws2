@@ -82,6 +82,84 @@ function normalizeTag(tag) {
 }
 
 /**
+ * 游戏名映射表：中文名/别名 → 游戏卡key
+ */
+const GAME_NAME_MAP = {
+  // 帝国时代
+  '帝国时代2决定版': 'AgeOfEmpires2DE',
+  // 生存
+  '7 Days to Die': '7DaysToDie',
+  '七日杀': '7DaysToDie',
+  '阿尔比恩': 'AlbionOnline',
+  '创世灰烬': 'AshesOfCreation',
+  '饥荒': 'DontStarve',
+  '雾锁王国': 'Enshrouded',
+  '森林之子': 'SonoftheForest',
+  'Project Zomboid': 'ProjectZomboid',
+  '僵尸毁灭工程': 'ProjectZomboid',
+  'Rust': 'Rust',
+  '腐蚀': 'Rust',
+  // 自走棋/战棋
+  '刀塔自走棋': 'AutoChess',
+  '酒馆战棋': 'Battlegrounds',
+  '火焰纹章风花雪月': 'FireEmblemThreeHouses',
+  '皇家骑士团2': 'TacticsOgre',
+  // FPS/射击
+  '使命召唤': 'CallOfDuty',
+  '使命召唤战区': 'CallOfDutyWarzone',
+  '绝地潜兵2': 'Helldivers2',
+  'HELLDIVERS 2': 'Helldivers2',
+  '萤火突击': 'LostLight',
+  '和平精英': 'PeacekeeperElite',
+  // RPG/MMO
+  'DNF': 'DNF',
+  '地下城与勇士': 'DNF',
+  '暗黑地牢': 'DarkestDungeon',
+  '梦幻西游': 'FantasyWestJourney',
+  '大话西游2': 'FantasyWestJourney',
+  '最终幻想14': 'FinalFantasy14',
+  'FF14': 'FinalFantasy14',
+  '魔兽世界': 'WorldOfWarcraft',
+  '流放之路': 'PathOfExile',
+  '女神异闻录5': 'Persona5',
+  'Fantasian': 'Fantasian',
+  '失落的星尘': 'Fantasian',
+  '异度之刃3': 'XenobladeChronicles3',
+  '师父': 'Sifu',
+  '赛马娘': 'UmaMusume',
+  '废墟图书馆': 'LibraryofRuina',
+  // 赛车
+  '地平线5': 'ForzaHorizon5',
+  '极限竞速：地平线5': 'ForzaHorizon5',
+  'Forza Horizon 5': 'ForzaHorizon5',
+  'F1 manager': 'F1Manager',
+  'F1正作': 'F1Manager',
+  'GTA Online': 'GTAOnline',
+  '马里奥赛车': 'MarioKart',
+  '跑跑卡丁车': 'QQFeiChe',
+  '极品飞车': 'NeedForSpeed',
+  '狂野飙车9': 'Asphalt9',
+  '索尼克赛车': 'TeamSonicRacing',
+  // 卡牌
+  '影之诗': 'Shadowverse',
+  '游戏王': 'YuGiOhMasterDuel',
+  '漫威终极逆转': 'MarvelSnap',
+  // SLG
+  '三国志战略版': 'RomanceOfTheThreeKingdoms',
+  // 其他
+  '永劫无间': 'NarakaBladepoint',
+  '决战平安京': 'Onmyoji',
+  '火影忍者': 'NarutoMobile',
+  '塞尔达传说': 'Zelda',
+  '塞尔达传说：荒野之息': 'Zelda',
+  '圣兽之王': 'UnicornOverlord',
+  '暗区突围': 'ArenaBreakout',
+  '失落星船': 'Marathon',
+  '马拉松': 'Marathon',
+  '闪电十一人': 'InazumaEleven',
+};
+
+/**
  * 标准化标签数组
  */
 function normalizeTags(tags) {
@@ -199,7 +277,8 @@ function extractMechanismInfo(parsed, filename) {
     experienceGoal: '',
     similarMechanisms: [],
     demo: '',
-    filename: filename
+    filename: filename,
+    source: '人工' // 默认人工
   };
   
   // === 1. 基础信息 ===
@@ -229,6 +308,11 @@ function extractMechanismInfo(parsed, filename) {
           .filter(t => t && t.length > 0);
         // 标准化标签
         info.tags = normalizeTags(rawTags);
+      }
+      else if (row.key.includes('来源')) {
+        // 来源字段：人工 / AI生成-已甄别 / AI生成-未甄别
+        const sourceValue = row.value.replace(/\*\*/g, '').trim();
+        if (sourceValue) info.source = sourceValue;
       }
     }
   }
@@ -419,6 +503,11 @@ function extractMechanismInfo(parsed, filename) {
     if (filenameMatch) info.gameName = filenameMatch[2].trim();
   }
   
+  // 映射游戏名到标准key
+  if (info.gameName && GAME_NAME_MAP[info.gameName]) {
+    info.gameName = GAME_NAME_MAP[info.gameName];
+  }
+  
   return info;
 }
 
@@ -443,7 +532,8 @@ function extractGameInfo(parsed, filename) {
     pillars: [],
     achievements: '',
     relatedMechanisms: [],
-    filename: filename
+    filename: filename,
+    source: '人工' // 默认人工
   };
   
   // === 基本信息 ===
@@ -462,6 +552,7 @@ function extractGameInfo(parsed, filename) {
       else if (key.includes('收费模式')) info.monetization = value;
       else if (key.includes('一句话对标')) info.tagline = value;
       else if (key.includes('玩家数据')) info.playerStats = value;
+      else if (key.includes('来源')) info.source = value;
     }
   }
   
@@ -536,18 +627,45 @@ function extractGameInfo(parsed, filename) {
           let mechName = m.replace(/^[>-]\s*/, '').replace(/\n/g, '').trim();
           // 清理前缀的 - 
           mechName = mechName.replace(/^-\s*/, '').trim();
-          if (mechName && !mechName.includes('待关联') && !mechName.includes('暂无') && mechName.length > 2) {
+          // 清理反引号
+          mechName = mechName.replace(/^`|`$/g, '');
+          // 过滤日期格式、分隔线和无效内容
+          if (mechName && 
+              !mechName.includes('待关联') && 
+              !mechName.includes('暂无') && 
+              mechName.length > 2 &&
+              !mechName.match(/^\d{2}-\d{2}$/) &&
+              mechName !== '-' &&
+              !mechName.startsWith('---')) {
             info.relatedMechanisms.push(mechName);
           }
         }
       }
       
-      // 也匹配 [品类]-游戏名-机制名 pattern
+      // 也匹配 [品类]-游戏名-机制名 pattern 或 [前缀]机制名 pattern
       const bracketMatches = section.match(/\[[^\]]+\]-[^\-]+\-[^\-]+/g);
       if (bracketMatches) {
         for (const m of bracketMatches) {
           const cleanM = m.replace(/\n/g, '').trim();
           if (!info.relatedMechanisms.includes(cleanM)) {
+            info.relatedMechanisms.push(cleanM);
+          }
+        }
+      }
+      
+      // 匹配 [前缀]机制名 格式 (如 [Excellent]沙盒式自由经济系统)
+      const simpleBracketMatches = section.match(/\[[^\]]+\][^\[\n]+/g);
+      if (simpleBracketMatches) {
+        for (const m of simpleBracketMatches) {
+          let cleanM = m.replace(/\n/g, '').trim();
+          // 清理反引号
+          cleanM = cleanM.replace(/^`|`$/g, '');
+          if (cleanM && 
+              !cleanM.includes('待关联') && 
+              !cleanM.includes('暂无') && 
+              cleanM.length > 2 &&
+              !cleanM.match(/^\d{2}-\d{2}$/) &&
+              !info.relatedMechanisms.includes(cleanM)) {
             info.relatedMechanisms.push(cleanM);
           }
         }
@@ -601,13 +719,32 @@ for (const [gameKey, gameInfo] of Object.entries(games)) {
     
     for (const mechRef of gameInfo.relatedMechanisms) {
       const cleanRef = mechRef.replace(/[\[\]]/g, '');
-      const parts = cleanRef.split('-');
-      const targetMechName = parts.length >= 3 ? parts.slice(2).join('-') : cleanRef;
       
-      // 在机制库中查找匹配
+      // 提取机制名（去除 [前缀] 格式，如 [Excellent] 或 [Qualify]）
+      let targetMechName = cleanRef;
+      // 尝试匹配 [前缀]机制名 格式
+      const prefixMatch = cleanRef.match(/^([^\]]+)\](.+)$/);
+      if (prefixMatch) {
+        targetMechName = prefixMatch[2]; // 提取中括号后面的部分
+      }
+      
+      // 在机制库中查找匹配（更宽松的匹配）
       const mechEntry = Object.entries(mechanisms).find(([key, m]) => {
         if (!m.title) return false;
-        return m.title.includes(targetMechName) || targetMechName.includes(m.title);
+        // 尝试多种匹配方式
+        const titleWithoutBrackets = m.title.replace(/[\[\]]/g, '');
+        // 提取机制名部分（去除 [品类]-[游戏名]- 格式）
+        let titleMechName = titleWithoutBrackets;
+        const titleMatch = titleWithoutBrackets.match(/^.+?\-.+?\-(.+)$/);
+        if (titleMatch) {
+          titleMechName = titleMatch[1];
+        }
+        
+        return m.title.includes(targetMechName) || 
+               targetMechName.includes(titleMechName) ||
+               titleMechName.includes(targetMechName) ||
+               m.title.includes(cleanRef) ||
+               cleanRef.includes(titleMechName);
       });
       
       if (mechEntry) {
