@@ -1,6 +1,6 @@
 # 机制库索引
 
-> 最后更新：2026-03-11
+> 最后更新：2026-03-12
 
 ---
 
@@ -9,8 +9,8 @@
 | 游戏 | 类型 | 机制数 |
 |------|------|--------|
 | 300Heroes | - | 3 |
-| 7DaysToDie | - | 2 |
-| AdvanceWars | - | 4 |
+| 7DaysToDie | - | 1 |
+| AdvanceWars | - | 2 |
 | AFKJourney | - | 0 |
 | AgeOfEmpires2DE | - | 4 |
 | AgeOfEmpires3 | - | 1 |
@@ -26,7 +26,7 @@
 | ArenaBreakout | - | 0 |
 | ARK | - | 0 |
 | Arknights | - | 4 |
-| ark-nova | - | 3 |
+| ark-nova | - | 2 |
 | ArmoredCore6 | - | 0 |
 | ARZAnomaly | - | 0 |
 | AshesOfCreation | - | 1 |
@@ -35,7 +35,7 @@
 | AutoChess | - | 4 |
 | BaiJingHuiLang | - | 0 |
 | balatro | - | 2 |
-| BaldursGate3 | - | 0 |
+| BaldursGate3 | - | 3 |
 | barony | - | 1 |
 | Barony | - | 1 |
 | Battlegrounds | - | 1 |
@@ -57,7 +57,7 @@
 | Celeste | - | 0 |
 | CFLegends | - | 0 |
 | CFMobile | - | 0 |
-| ChanganFantasy | - | 2 |
+| ChanganFantasy | - | 3 |
 | CitiesSkylines | - | 2 |
 | CivilizationVI | - | 2 |
 | ClashofClans | - | 0 |
@@ -92,7 +92,7 @@
 | DianFengJiSu | - | 4 |
 | DirtRally | - | 0 |
 | divinity2 | - | 2 |
-| DJMAX | - | 1 |
+| DJMAX | - | 2 |
 | DNF | - | 4 |
 | DNFMobile | - | 4 |
 | dnf-origins | - | 1 |
@@ -169,7 +169,7 @@
 | InfiniteNikki | - | 1 |
 | IntoTheBreach | - | 3 |
 | ItTakesTwo | - | 0 |
-| JiaoCuoZhanXian | - | 0 |
+| JiaoCuoZhanXian | - | 1 |
 | JinChanChan | - | 1 |
 | Justice | - | 0 |
 | JusticeMobile | - | 0 |
@@ -199,7 +199,7 @@
 | MaoDianJiangLin | - | 0 |
 | Marathon | - | 2 |
 | MarioKart | - | 2 |
-| MarvelDuel | - | 1 |
+| MarvelDuel | - | 0 |
 | MarvelRivals | - | 1 |
 | MarvelSnap | - | 1 |
 | MatchdayChampions | - | 1 |
@@ -224,7 +224,7 @@
 | NightboundMobile | - | 1 |
 | NiNoKuniCrossingWorlds | - | 0 |
 | Nioh | - | 1 |
-| NoRestForTheWicked | - | 1 |
+| NoRestForTheWicked | - | 0 |
 | OnePieceTreasureCruise | - | 0 |
 | Onmyoji | - | 2 |
 | osu | - | 1 |
@@ -269,13 +269,13 @@
 | SamuraiShodown | - | 0 |
 | SanguoBinghe | - | 6 |
 | sanguo-mouding-tianxia | - | 1 |
-| SanguoMoudingTianxia | - | 2 |
+| SanguoMoudingTianxia | - | 3 |
 | SanGuoZhanLue | - | 4 |
 | satisfactory | - | 0 |
 | SausageMan | - | 0 |
 | SeaOfStars | - | 0 |
 | SeaOfThieves | - | 0 |
-| ShadowOfMordor | - | 1 |
+| ShadowOfMordor | - | 2 |
 | Shadowverse | - | 3 |
 | ShaoNianJinYiWei | - | 0 |
 | ShiJieZhiWai | - | 0 |
@@ -291,7 +291,7 @@
 | Squad | - | 0 |
 | StarCraft2 | - | 0 |
 | StardewValley | - | 2 |
-| Starfield | - | 1 |
+| Starfield | - | 0 |
 | StreetFighter6 | - | 2 |
 | Supernatural | - | 4 |
 | SupremeCommander | - | 1 |
@@ -314,10 +314,11 @@
 | TwoPointHospital | - | 1 |
 | UmaMusume | - | 1 |
 | UnicornOverlord | - | 1 |
-| Valheim | - | 0 |
+| Valheim | - | 1 |
 | valorant | - | 2 |
 | Valorant | - | 2 |
-| VRising | - | 0 |
+| VAMPIR | - | 1 |
+| VRising | - | 1 |
 | WangzheMoniqi | - | 0 |
 | wangzherongyao | - | 0 |
 | WangZheRongYaoPoXiao | - | 0 |
@@ -358,13 +359,10 @@
 - [Qualify]多模式并存设计
 
 ### 7DaysToDie
-- game-card
 - 生存FPS-7-Days-to-Die-血月丧尸潮系统
 
 ### AdvanceWars
 - [Excellent]兵种相克系统
-- [Qualify]CO指挥官系统
-- [Qualify]指挥官CO技能系统
 - [Qualify]指挥官技能系统
 
 ### AgeOfEmpires2DE
@@ -397,7 +395,6 @@
 - [Qualify]OperatorSkillSystem
 
 ### ark-nova
-- gamecard
 - [Qualify]card-position-strength
 - [Qualify]dual-track-competition
 
@@ -413,6 +410,11 @@
 ### balatro
 - [Qualify]exponential-growth-system
 - [Qualify]poker-card-bd-system
+
+### BaldursGate3
+- RPG-博德之门3-分支对话树
+- RPG-博德之门3-回合制战棋战斗
+- RPG-博德之门3-角色出身背景系统
 
 ### barony
 - [Qualify]death-ghost-system
@@ -460,6 +462,7 @@
 ### ChanganFantasy
 - 回合制MMO-长安幻想-天都争锋
 - 回合制MMO-长安幻想-赛季挑战
+- 游戏卡-长安幻想
 
 ### CitiesSkylines
 - [Qualify]TrafficAI
@@ -527,6 +530,7 @@
 - [Qualify]free-character-build
 
 ### DJMAX
+- DJMAX-游戏卡
 - [Excellent]BGA视听联动系统
 
 ### DNF
@@ -635,12 +639,6 @@
 ### finalfight
 - [Qualify]role-differentiation
 - [Qualify]weapon-system
-
-### fireemblemthreehouses
-- [Qualify]job-tree
-- [Qualify]multi-route
-- [Qualify]support-attack
-- [Qualify]tea-party
 
 ### FireEmblemThreeHouses
 - [Qualify]转职树系统
@@ -779,6 +777,9 @@
 - [Qualify]DisplacementOverKill
 - [Qualify]FullInfoCombat
 
+### JiaoCuoZhanXian
+- 游戏卡
+
 ### JinChanChan
 - [Qualify]ShuangrenHezuoMoshi
 
@@ -839,6 +840,8 @@
 - [Qualify]rent-pressure-system
 - [Qualify]slot-machine-symbol-engine
 
+### MaoDianJiangLin
+
 ### Marathon
 - [Excellent]三层构筑系统
 - FPS夺金-失落星船-植入物与核心
@@ -848,7 +851,6 @@
 - RAC-非拟真赛车-漂移集气资源转化
 
 ### MarvelDuel
-- _index
 
 ### MarvelRivals
 - [TPS]-[漫威争锋]-[天赋强化]
@@ -924,7 +926,6 @@
 - ARPG-仁王-三段架势系统
 
 ### NoRestForTheWicked
-- gamecard
 
 ### Onmyoji
 - [Qualify]RuneFreeSystem
@@ -1042,6 +1043,7 @@
 ### SanguoMoudingTianxia
 - [SLG]-三谋-六大职业分工PVP
 - [SLG]-三谋-智能铺路与连地机制
+- 游戏卡-三国谋定天下
 
 ### SanGuoZhanLue
 - [SLG]-三国志战略版-动态地图
@@ -1051,6 +1053,7 @@
 
 ### ShadowOfMordor
 - RPG-中土世界-宿敌系统
+- 游戏卡-中土世界暗影魔多
 
 ### Shadowverse
 - [Qualify]SameNameCard
@@ -1087,7 +1090,6 @@
 - [Qualify]TimeManagement
 
 ### Starfield
-- game-card
 
 ### StreetFighter6
 - [Qualify]Drive系统
@@ -1152,6 +1154,9 @@
 ### UnicornOverlord
 - 策略-圣兽之王-可定制战术逻辑系统
 
+### Valheim
+- gamecard
+
 ### valorant
 - [Qualify]cosmetic-upgrade-system
 - [Qualify]skill-system
@@ -1159,6 +1164,12 @@
 ### Valorant
 - [FPS]-无畏契约-经济请求（发枪）系统
 - [Qualify]英雄技能系统
+
+### VAMPIR
+- AdrenalineBloodSuckSystem
+
+### VRising
+- BloodPoolResourceSystem
 
 ### WinterFall
 - [SLG]-无尽冬日-探险副本与放置挂机
