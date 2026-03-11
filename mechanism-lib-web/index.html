@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>机制库 | Jizhi Design Library</title>
+  <title>Mechanisms' Library</title>
   <style>
     * {
       margin: 0;
@@ -313,6 +313,43 @@
       color: var(--primary-light);
     }
     
+    /* Pagination */
+    .pagination {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-top: 2rem;
+      padding: 1rem 0;
+      flex-wrap: wrap;
+    }
+    
+    .page-btn {
+      padding: 0.5rem 0.75rem;
+      border: 1px solid var(--border);
+      background: var(--card-bg);
+      color: var(--text);
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s;
+      min-width: 40px;
+    }
+    
+    .page-btn:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+    
+    .page-btn.active {
+      background: var(--primary);
+      color: white;
+      border-color: var(--primary);
+    }
+    
+    .page-btn:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    
     /* Empty state */
     .empty {
       text-align: center;
@@ -327,6 +364,125 @@
   </style>
 </head>
 <body>
+  <!-- Login Overlay -->
+  <div class="login-overlay" id="loginOverlay">
+    <div class="login-box">
+      <div class="login-icon">🔐</div>
+      <h2>机制库访问</h2>
+      <p>请输入访问密码</p>
+      <input type="password" id="loginPassword" placeholder="请输入密码" />
+      <button onclick="checkPassword()">进入</button>
+      <p class="login-error" id="loginError"></p>
+    </div>
+  </div>
+  
+  <script>
+    // Password protection
+    const CORRECT_PASSWORD = 'guestpw4mechanism';
+    let isLoggedIn = false;
+    
+    function checkPassword() {
+      const input = document.getElementById('loginPassword').value;
+      const error = document.getElementById('loginError');
+      
+      if (input === CORRECT_PASSWORD) {
+        isLoggedIn = true;
+        document.getElementById('loginOverlay').classList.add('hidden');
+        localStorage.setItem('mechanism_lib_logged_in', 'true');
+      } else {
+        error.textContent = '密码错误，请重试';
+        document.getElementById('loginPassword').value = '';
+      }
+    }
+    
+    // Check if already logged in
+    if (localStorage.getItem('mechanism_lib_logged_in') === 'true') {
+      isLoggedIn = true;
+      document.getElementById('loginOverlay').classList.add('hidden');
+    }
+    
+    // Enter key support
+    document.getElementById('loginPassword').addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') checkPassword();
+    });
+  </script>
+  
+  <style>
+    .login-overlay {
+      position: fixed;
+      inset: 0;
+      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+    
+    .login-overlay.hidden {
+      display: none;
+    }
+    
+    .login-box {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 16px;
+      text-align: center;
+      max-width: 360px;
+      width: 90%;
+    }
+    
+    .login-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    
+    .login-box h2 {
+      margin-bottom: 0.5rem;
+      color: var(--text);
+    }
+    
+    .login-box > p {
+      color: var(--text-secondary);
+      margin-bottom: 1.5rem;
+    }
+    
+    .login-box input {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    
+    .login-box input:focus {
+      outline: none;
+      border-color: var(--primary);
+    }
+    
+    .login-box button {
+      width: 100%;
+      padding: 0.75rem;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    
+    .login-box button:hover {
+      background: var(--primary-light);
+    }
+    
+    .login-error {
+      color: #dc2626;
+      margin-top: 1rem;
+      font-size: 0.9rem;
+    }
+  </style>
+  
   <header>
     <div class="header-content">
       <div class="logo">
@@ -355,6 +511,9 @@
     </div>
     
     <div class="grid" id="grid"></div>
+    
+    <!-- Pagination -->
+    <div class="pagination" id="pagination"></div>
     
     <div class="empty hidden" id="empty">
       <p>没有找到相关内容</p>
@@ -386,6 +545,9 @@
   <script>
     let data = { mechanisms: {}, games: {}, stats: {} };
     let currentTab = 'mechanisms';
+    let currentPage = 1;
+    const PAGE_SIZE = 40;
+    let filteredData = [];
     
     // Load data
     async function loadData() {
@@ -406,6 +568,7 @@
         document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
         tab.classList.add('active');
         currentTab = tab.dataset.tab;
+        currentPage = 1; // 重置到第一页
         renderGrid();
       });
     });
@@ -439,21 +602,85 @@
       }
     }
     
+    function renderPagination(totalItems) {
+      const pagination = document.getElementById('pagination');
+      const totalPages = Math.ceil(totalItems / PAGE_SIZE);
+      
+      if (totalPages <= 1) {
+        pagination.innerHTML = '';
+        return;
+      }
+      
+      let html = '';
+      
+      // 上一页
+      html += `<button class="page-btn" onclick="goToPage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''}>上一页</button>`;
+      
+      // 页码
+      const maxVisiblePages = 5;
+      let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
+      let endPage = Math.min(totalPages, startPage + maxVisiblePages - 1);
+      
+      if (endPage - startPage < maxVisiblePages - 1) {
+        startPage = Math.max(1, endPage - maxVisiblePages + 1);
+      }
+      
+      // 第一页
+      if (startPage > 1) {
+        html += `<button class="page-btn" onclick="goToPage(1)">1</button>`;
+        if (startPage > 2) html += `<span style="padding: 0.5rem;">...</span>`;
+      }
+      
+      // 中间页码
+      for (let i = startPage; i <= endPage; i++) {
+        html += `<button class="page-btn ${i === currentPage ? 'active' : ''}" onclick="goToPage(${i})">${i}</button>`;
+      }
+      
+      // 最后一页
+      if (endPage < totalPages) {
+        if (endPage < totalPages - 1) html += `<span style="padding: 0.5rem;">...</span>`;
+        html += `<button class="page-btn" onclick="goToPage(${totalPages})">${totalPages}</button>`;
+      }
+      
+      // 下一页
+      html += `<button class="page-btn" onclick="goToPage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled' : ''}>下一页</button>`;
+      
+      // 总数信息
+      html += `<span style="margin-left: 1rem; color: var(--text-secondary); font-size: 0.9rem;">共 ${totalItems} 条</span>`;
+      
+      pagination.innerHTML = html;
+    }
+    
+    function goToPage(page) {
+      currentPage = page;
+      renderGrid();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    
     function renderGrid() {
       const grid = document.getElementById('grid');
       const empty = document.getElementById('empty');
-      const filtered = getFilteredData();
+      filteredData = getFilteredData();
       
-      if (filtered.length === 0) {
+      if (filteredData.length === 0) {
         grid.innerHTML = '';
+        document.getElementById('pagination').innerHTML = '';
         empty.classList.remove('hidden');
         return;
       }
       
       empty.classList.add('hidden');
       
+      // 分页切片
+      const start = (currentPage - 1) * PAGE_SIZE;
+      const end = start + PAGE_SIZE;
+      const pageData = filteredData.slice(start, end);
+      
+      // 渲染分页控件
+      renderPagination(filteredData.length);
+      
       if (currentTab === 'mechanisms') {
-        grid.innerHTML = filtered.map(([key, m]) => `
+        grid.innerHTML = pageData.map(([key, m]) => `
           <div class="card" onclick="showMechanism('${key}')">
             <div class="card-header">
               <div class="card-title">${m.title}</div>
@@ -468,7 +695,7 @@
           </div>
         `).join('');
       } else {
-        grid.innerHTML = filtered.map(([key, g]) => `
+        grid.innerHTML = pageData.map(([key, g]) => `
           <div class="card" onclick="showGame('${key}')">
             <div class="card-header">
               <div class="card-title">${g.gameName || g.title}</div>
@@ -491,6 +718,7 @@
       document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
       document.querySelector('.tab[data-tab="mechanisms"]').classList.add('active');
       currentTab = 'mechanisms';
+      currentPage = 1; // 重置到第一页
       
       // 设置搜索框并直接触发搜索
       const searchInput = document.getElementById('searchInput');

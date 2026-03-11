@@ -170,12 +170,21 @@ description: 将游戏拆解分析结果格式化为 jizhi 机制库可入库的
 - 机制：`/root/.openclaw/agents/jizhi/workspace/mechanisms/[游戏英文名]/[机制名].md`
 - 游戏：`/root/.openclaw/agents/jizhi/workspace/games/[游戏英文名].md`
 
-### 步骤 6：重新生成网页数据
-运行同步脚本：
+### 步骤 6：重新生成网页数据（增量更新）
+
+**推荐：增量更新（只更新新增的文件）**：
+```bash
+cd /root/.openclaw/workspace/mechanism-lib-web
+node update-data.js <新增机制卡路径> [新增游戏卡路径]
+```
+
+**备选：全量更新（重新解析所有文件）**：
 ```bash
 cd /root/.openclaw/workspace/mechanism-lib-web
 node generate-data.js
 ```
+
+> 增量更新更快，适合单次入库；全量更新会重新校验所有关联，适合批量处理。
 
 ---
 

@@ -737,6 +737,87 @@
       "demo": "",
       "filename": "[Qualify]JinbilixiXitong.md"
     },
+    "BaldursGate3/RPG-博德之门3-分支对话树.md": {
+      "title": "RPG-博德之门3-分支对话树",
+      "gameName": "博德之门3",
+      "tags": [
+        "RPG",
+        "分支选择",
+        "叙事"
+      ],
+      "simpleDesc": "每个NPC对话都像树枝分叉，你的选择会影响剧情走向、角色关系甚至结局",
+      "mechanismDesc": "电影化叙事+网状对话系统，关键特点：\n- 大量分支对话：每个重要NPC有数十个对话选项\n- 即时反馈：选择影响NPC态度、解锁/关闭任务线\n- 魅力/技能检定：对话中可使用角色属性掷骰决定结果\n- 多周目差异：选择影响后续周目内容\n- 队友关系动态：对话选择影响队友好感度",
+      "coreRules": "",
+      "trigger": "- 与NPC互动时自动进入对话树",
+      "painPoint": "- 传统RPG对话只是\"点击下一步\"",
+      "experienceGoal": "- 让玩家感觉\"我在塑造这个故事\"",
+      "similarMechanisms": [
+        {
+          "game": "质量效应系列",
+          "mechanism": "对话轮盘+队友关系"
+        },
+        {
+          "game": "巫师3",
+          "mechanism": "分支对话+后果"
+        }
+      ],
+      "demo": "待补充",
+      "filename": "RPG-博德之门3-分支对话树.md"
+    },
+    "BaldursGate3/RPG-博德之门3-回合制战棋战斗.md": {
+      "title": "RPG-博德之门3-回合制战棋战斗",
+      "gameName": "博德之门3",
+      "tags": [
+        "战棋",
+        "环境互动",
+        "策略"
+      ],
+      "simpleDesc": "像下棋一样打怪——每回合规划角色移动和攻击位置，利用地形高低、遮挡物、水火元素创造优势",
+      "mechanismDesc": "基于DND5e规则的回合制战斗，关键特点：\n- 1d20骰子系统：攻击判定、检定扔骰子\n- 优势/劣势机制：根据 상황 掷两次取高低\n- 环境互动：可击落悬挂物、点燃油渍、冰冻水面\n- 位置策略：高位攻击有优势、侧翼背刺有奖励\n- 协作战斗：队友之间可创造协同效果",
+      "coreRules": "",
+      "trigger": "- 进入战斗后自动切换回合制模式",
+      "painPoint": "- 传统CRPG战斗只是数值对轰",
+      "experienceGoal": "- 让战斗像解谜一样有趣",
+      "similarMechanisms": [
+        {
+          "game": "神界原罪2",
+          "mechanism": "环境互动战斗"
+        },
+        {
+          "game": "XCOM2",
+          "mechanism": "掩体和位置策略"
+        }
+      ],
+      "demo": "待补充",
+      "filename": "RPG-博德之门3-回合制战棋战斗.md"
+    },
+    "BaldursGate3/RPG-博德之门3-角色出身背景系统.md": {
+      "title": "RPG-博德之门3-角色出身背景系统",
+      "gameName": "博德之门3",
+      "tags": [
+        "RPG",
+        "叙事",
+        "角色定制"
+      ],
+      "simpleDesc": "就像选\"英雄\"时不仅选技能，还选这个角色的故事剧本——不同出身决定角色自带的初始装备、对话选项和剧情走向",
+      "mechanismDesc": "玩家创建角色时可选择不同出身背景（贵族、士兵、盗贼、学者等），每个出身提供：\n- 初始属性加成和专长\n- 独有对话选项（影响NPC态度和任务解法）\n- 独特开场剧情动画\n- 特定物品和技能",
+      "coreRules": "",
+      "trigger": "- 角色创建时选择",
+      "painPoint": "- 传统RPG角色创建过于机械，玩家只是点属性数值",
+      "experienceGoal": "- 让玩家在创角阶段就感受到\"这个角色有自己的故事\"",
+      "similarMechanisms": [
+        {
+          "game": "开拓者正义之怒",
+          "mechanism": "Pathfinder规则的背景系统"
+        },
+        {
+          "game": "上古卷轴5",
+          "mechanism": "出身技能加成"
+        }
+      ],
+      "demo": "待补充",
+      "filename": "RPG-博德之门3-角色出身背景系统.md"
+    },
     "Barony/[Qualify]死亡幽灵系统.md": {
       "title": "RPG-Barony-死亡幽灵系统",
       "gameName": "Barony",
@@ -5152,6 +5233,20 @@
       "demo": "",
       "filename": "FPS夺金-萤火突击-俘虏绑架机制.md"
     },
+    "MaoDianJiangLin/game-card.md": {
+      "title": "锚点降临 - 游戏拆解分析",
+      "gameName": "",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "game-card.md"
+    },
     "Marathon/FPS夺金-失落星船-植入物与核心.md": {
       "title": "[FPS夺金]-失落星船：马拉松-植入物与核心",
       "gameName": "Marathon ,  失落星船",
@@ -5752,6 +5847,20 @@
       ],
       "demo": "",
       "filename": "ARPG-仁王-三段架势系统.md"
+    },
+    "NoRestForTheWicked/gamecard.md": {
+      "title": "恶意不息 / No Rest For The Wicked",
+      "gameName": "",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "gamecard.md"
     },
     "Onmyoji/[Qualify]RuneFreeSystem.md": {
       "title": "MOBA-Onmyoji-无符文系统",
@@ -7694,20 +7803,6 @@
       "demo": "暂无, 建议B站搜索\"星露谷物语 体力 管理\"",
       "filename": "[Qualify]TimeManagement.md"
     },
-    "Starfield/game-card.md": {
-      "title": "游戏卡：星空 (Starfield)",
-      "gameName": "",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "game-card.md"
-    },
     "StreetFighter6/[Qualify]Drive系统.md": {
       "title": "格斗-街头霸王6-Drive系统",
       "gameName": "Street Fighter 6",
@@ -8572,6 +8667,64 @@
       "demo": "",
       "filename": "策略-圣兽之王-可定制战术逻辑系统.md"
     },
+    "VAMPIR/AdrenalineBloodSuckSystem.md": {
+      "title": "MMORPG-VAMPIR-肾上腺素吸血联动系统",
+      "gameName": "VAMPIR：血之继承者",
+      "tags": [
+        "吸血机制",
+        "战斗系统",
+        "资源管理"
+      ],
+      "simpleDesc": "吸血鬼通过吸血不仅能恢复生命，还能累积\"肾上腺素\"来提升暴击率和伤害，越嗜血越强大——就像运动员越兴奋表现越好一样。",
+      "mechanismDesc": "1. 所有职业都拥有吸血技能（替代传统MMO的治疗职业）\n2. 使用吸血技能时会累积\"肾上腺素\"计量表\n3. 肾上腺素条充满后激活增益效果：\n   - 暴击率提升\n   - 暴击伤害提升\n   - 攻击速度提升\n4. 增益效果鼓励玩家频繁使用吸血技能，形成\"吸血→更强→更快吸血\"的正向循环",
+      "coreRules": "",
+      "trigger": "- 主动使用吸血技能时触发",
+      "painPoint": "- 传统MMO中治疗职业玩家\"只能加血\"的无聊体验",
+      "experienceGoal": "- 让吸血从\"被动生存\"变为\"主动增强\"",
+      "similarMechanisms": [
+        {
+          "game": "暗黑破坏神系列",
+          "mechanism": "装备词条型吸血（纯数值，无联动）"
+        },
+        {
+          "game": "吸血鬼幸存者",
+          "mechanism": "武器进化获得被动吸血（无资源累积）"
+        },
+        {
+          "game": "取代传统治疗职业设计",
+          "mechanism": "先驱案例"
+        }
+      ],
+      "demo": "待补充游戏内演示视频",
+      "filename": "AdrenalineBloodSuckSystem.md"
+    },
+    "VRising/BloodPoolResourceSystem.md": {
+      "title": "SOC-VRising-血池资源管理系统",
+      "gameName": "V Rising",
+      "tags": [
+        "吸血机制",
+        "资源管理",
+        "风险机制"
+      ],
+      "simpleDesc": "吸血鬼的血池就像人的食物和水，血池空了会饿死；而且吸不同人的血会有不同能力加成，需要根据场景选择合适的血型。",
+      "mechanismDesc": "1.",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "- 传统生存游戏\"吃饱就行\"的单调资源管理",
+      "experienceGoal": "- 创造\"持续补血\"的压力（血池会自然流逝）",
+      "similarMechanisms": [
+        {
+          "game": "VAMPIR",
+          "mechanism": "肾上腺素吸血联动系统（进攻型吸血）"
+        },
+        {
+          "game": "暗黑破坏神",
+          "mechanism": "装备词条型吸血（纯数值）"
+        }
+      ],
+      "demo": "待补充游戏内演示视频",
+      "filename": "BloodPoolResourceSystem.md"
+    },
     "Valorant/[FPS]-无畏契约-经济请求（发枪）系统.md": {
       "title": "[FPS]-无畏契约-经济请求（发枪）系统",
       "gameName": "VALORANT",
@@ -9086,6 +9239,20 @@
       ],
       "demo": "*(待补充GIF, 视频)*",
       "filename": "[Qualify]dual-track-competition.md"
+    },
+    "ark-nova/gamecard.md": {
+      "title": "阿卡姆诺瓦 / Ark Nova",
+      "gameName": "",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "gamecard.md"
     },
     "balatro/[Qualify]exponential-growth-system.md": {
       "title": "[DBG]-Balatro-指数成长系统",
@@ -11345,25 +11512,21 @@
     "AlbionOnline": {
       "title": "Albion Online / 阿尔比恩 Online",
       "gameName": "Albion Online / 阿尔比恩 Online",
-      "developer": "Sandbox Interactive",
+      "developer": "Sandbox Interactive（德国）",
       "publisher": "",
       "platform": "PC / 移动端",
-      "releaseDate": "2017年",
+      "releaseDate": "2017年7月",
       "genre": "MMORPG、沙盒、传奇like",
-      "monetization": "买断制",
+      "monetization": "买断制（一次性付费）",
       "xStatement": "全掉落沙盒MMO\n\n用搜打撤的高风险高刺激替代传统MMO枯燥的发育积累。\n\n---",
-      "tagline": "",
+      "tagline": "EVE Online 风格的的全掉落沙盒MMO",
       "playerStats": "",
-      "coreLoop": "采集/制造 -> 装备基础成型 -> 进入高风险区 -> PVP/PVE战斗 -> 死亡全掉落 -> 重新积累",
-      "difficulty": "中。上手易，生存难",
-      "prototype": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "| 系统 | 玩法原型 | 核心理念 | 独特改进 |\n|------|----------|----------|----------|\n| 战斗系统 | 《EVE Online》 | 高风险高回报的PvP体验 | 装备=职业（穿什么装备用什么技能），死亡全掉落 |\n| 经济系统 | 《EVE Online》 | 玩家驱动的自由市场经济 | 全物品可交易、无绑定，装备全掉落驱动装备流通 |\n| 成长系统 | 《暗黑破坏神》系列 | 刷装驱动 | 装备即角色，无固定职业边界 |\n\n参考借鉴来源：\n- 借鉴了《EVE Online》的全掉落（Full Loot）机制和经济系统设计理念\n- 借鉴了《暗黑破坏神》的装备驱动玩法\n- 融合了传统 MMORPG 的地图分区设计\n\n---",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "MMORPG-阿尔比恩-资源分区设计",
-        "沙盒式自由经济系统",
-        "装备等于职业系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "AlbionOnline.md"
     },
     "AnimalCrossing": {
@@ -11433,24 +11596,42 @@
     "ArcaneOdyssey": {
       "title": "杖剑传说 / Arcane Odyssey",
       "gameName": "杖剑传说 / Arcane Odyssey",
-      "developer": "-",
-      "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "",
+      "developer": "厦门雷霆网络科技股份有限公司",
+      "publisher": "厦门雷霆网络科技股份有限公司",
+      "platform": "移动端（Android）",
+      "releaseDate": "2025年5月29日公测",
       "genre": "放置挂机RPG、奇幻冒险",
       "monetization": "免费内购",
-      "xStatement": "放置冒险\n\n轻度放置的异世界RPG冒险。\n\n---",
+      "xStatement": "轻度放置 + 职业选择 + 自动战斗的异世界冒险RPG\n\n单人以自动战斗方式探索异世界坎斯汀大陆，通过挂机获得资源提升战力，挑战圣兽Boss。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "进入新副本 -> 匹配/组队进行攻略 -> 获得奖励 -> 挑战高难副本",
-      "difficulty": "低。主要玩法为放置",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "一键带副本",
-        "RPG-杖剑传说-一键带副本"
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：放置挂机RPG\n\n- 借鉴来源：传统放置挂机游戏（如《小小炼金术师》、《游戏王》等）的核心放置循环\n- 核心理念：离线也能获得成长收益，让玩家感受到\"睡觉时变强\"的满足感\n- 本游戏独特体验：\n  - 2D横版视角 + 自动回合制战斗的视觉呈现\n  - 战士/法师双初始职业 -> 斗士/骑士/术士/贤者四进阶职业的转职树\n  - 武器+防具两套装备体系的深度养成\n  - 公会讨伐、天赋树等社交与长期目标\n\n战斗系统原型：职业克制 + 自动回合制\n\n- 借鉴传统回合制RPG的职业设计理念\n- 战士→斗士（爆发）/骑士（防御）\n- 法师→术士（群攻）/贤者（召唤治疗）\n- 战斗前可查看敌方类型并调整阵容（战前策略）\n\n---",
+      "pillars": [
+        {
+          "title": "放置收益系统 → 离线资源产出 + 挂机经验/装备",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "职业转职树 → 双初始职业 -> 四进阶职业 -> 技能抽卡",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "装备强化系统 → 武器+防具两套装备 -> 强化/共鸣",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "社交与长期目标 → 公会系统 + 讨伐战 + 天赋树",
+          "experience": "",
+          "design": ""
+        }
       ],
+      "achievements": "",
+      "relatedMechanisms": [],
       "filename": "ArcaneOdyssey.md"
     },
     "ArenaBreakout": {
@@ -11636,7 +11817,7 @@
       "filename": "BaiJingHuiLang.md"
     },
     "BaldursGate3": {
-      "title": "Baldur's Gate 3 / 博德之门3",
+      "title": "博德之门3 / Baldur's Gate 3",
       "gameName": "博德之门3 / Baldur's Gate 3",
       "developer": "拉瑞安工作室",
       "publisher": "",
@@ -11644,15 +11825,19 @@
       "releaseDate": "2023年8月",
       "genre": "CRPG / 战棋 / DND",
       "monetization": "",
-      "xStatement": "拉瑞安CRPG，玩家创建角色在DND世界冒险，体验电影化叙事",
+      "xStatement": "",
       "tagline": "DND规则CRPG",
-      "playerStats": "全球销量破2000万份",
+      "playerStats": "",
       "coreLoop": "玩家创建角色，在DND世界与队友冒险，体验电影化叙事",
       "difficulty": "中高 - 需要理解DND规则",
       "prototype": "",
       "pillars": [],
-      "achievements": "全球销量突破2000万份;  2024年1500万份;  年度游戏大奖",
-      "relatedMechanisms": [],
+      "achievements": "",
+      "relatedMechanisms": [
+        "RPG-博德之门3-角色出身背景系统",
+        "RPG-博德之门3-回合制战棋战斗",
+        "RPG-博德之门3-分支对话树"
+      ],
       "filename": "BaldursGate3.md"
     },
     "Barony": {
@@ -13256,13 +13441,34 @@
       "releaseDate": "",
       "genre": "",
       "monetization": "",
-      "xStatement": "",
+      "xStatement": "16人合作生存建造动作RPG，在瘴气限时探索中体验「刀口舔血」的紧张刺激感，同时通过体素建造打造个性化王国\n\n---",
       "tagline": "",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
-      "pillars": [],
+      "prototype": "- 建造系统：借鉴《塞尔达传说：旷野之息》《Valheim》的自由建造系统，强调玩家创作与个性化\n- 生存系统：借鉴传统生存游戏（饥饿/水分/睡眠三维需求）\n- 战斗系统：受魂系游戏影响，强调闪避、招架、职业技能搭配\n- 瘴气机制：借鉴《死亡空间》资源匮乏+限时区域的紧张感设计\n\n核心差异点：将「限时高风险探索」与「自由建造」两个核心体验融合，瘴气内获取稀有资源用于建造，形成探索→资源→建造→更强探索能力的循环\n\n---",
+      "pillars": [
+        {
+          "title": "瘴气限时探索",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "体素建造系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "职业BD构筑",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "多人合作",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "Enshrouded.md"
@@ -13334,18 +13540,18 @@
     "F1": {
       "title": "F1 Series / F1系列",
       "gameName": "F1 Series / F1系列",
-      "developer": "Codemasters / EA",
+      "developer": "Codemasters（EA）",
       "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "历年",
+      "platform": "PC / PS / Xbox / Switch",
+      "releaseDate": "历年（最新F1 25于2025年5月发布）",
       "genre": "拟真赛车模拟",
-      "monetization": "买断制",
-      "xStatement": "F1官方授权模拟\n\n官方授权的最权威F1世界一级方程式锦标赛模拟游戏。\n\n---",
+      "monetization": "买断制（$69.99起）",
+      "xStatement": "",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "参加练习赛/排位赛/正赛 -> 管理轮胎/燃油 -> 争取积分/胜利 -> 发展车队",
-      "difficulty": "极高。需要精准驾驶技术和比赛策略",
-      "prototype": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型分析：\n\nF1系列的核心玩法原型借鉴了真实赛车运动模拟，但融合了以下游戏的元素：\n\n1. 生涯模式 → 借鉴《FIFA》系列的成功职业模式\n   - 核心理念：让玩家从新秀车手成长为世界冠军\n   - 独特改动：加入车手声望系统（Driver Recognition System），车场行为会影响赞助商和车队评价\n\n2. My Team模式 → 借鉴《足球经理》的车队管理玩法\n   - 核心理念：从零开始创建自己的F1车队\n   - 独特改动：兼顾赛道表现与商业运营，需要平衡研发投入与赞助商需求\n\n3. Braking Point故事模式 → 借鉴《GT赛车》的叙事化尝试\n   - 核心理念：通过剧情展现F1幕后的政治与竞争\n   - 独特改动：2025年加入2024-2025赛季的故事情节\n\n---",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
@@ -13638,8 +13844,8 @@
       "gameName": "Forza Horizon 5 / 地平线5",
       "developer": "Playground Games",
       "publisher": "",
-      "platform": "PC / Xbox",
-      "releaseDate": "2021年",
+      "platform": "PC / Xbox / PS5",
+      "releaseDate": "2021年11月",
       "genre": "开放世界街机赛车",
       "monetization": "买断制",
       "xStatement": "墨西哥开放世界赛车\n\n在风景如画的墨西哥享受顶级的开放世界街机赛车嘉年华。\n\n---",
@@ -13647,8 +13853,29 @@
       "playerStats": "",
       "coreLoop": "探索地图 -> 参加赛事/完成挑战 -> 获得奖励 -> 解锁/购买/改装车辆",
       "difficulty": "较低。辅助功能强大，新手友好",
-      "prototype": "",
-      "pillars": [],
+      "prototype": "| 系统 | 玩法原型 | 核心理念 | 独特改进 |\n|------|----------|----------|----------|\n| 开放世界设计 | 《Forza Horizon》系列 | 自由探索的乐趣 | 墨西哥地图面积历代最大，包含活火山、热带雨林、海滩等多种地形 |\n| 车辆系统 | 《Gran Turismo》 | 车辆收集与拟真 | 超过700辆车，街机手感易上手，辅助驾驶强大 |\n| 社交系统 | 《MMO》开放世界 | 真实玩家共存 | Horizon Life系统，每局都有真实玩家自然相遇 |\n| 赛事设计 | 《极品飞车》 | 街头赛车文化 | 季节赛、嘉年华、表演赛等多样化赛事形式 |\n\n玩法原型分析：\n- 开放世界原型：借鉴了《Forza Horizon》系列的精髓，玩家可以在广袤的地图中自由驰聘，不再受限于赛道\n- 车辆收集原型：借鉴《Gran Turismo》的车辆库理念，但更强调\"街机化\"——让每辆车都能轻松开出赛车感\n- 社交原型：创新性地将单人体验与多人体验融合，玩家在开放世界行驶时自然遇到其他玩家，无需匹配即可发起竞速\n\n---",
+      "pillars": [
+        {
+          "title": "沉浸式开放世界探索",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "车辆收集与改装乐趣",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "Horizon Life 社交融合",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "无门槛的驾驶乐趣",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
         "RAC-极限竞速地平线-时间回溯",
@@ -13910,19 +14137,40 @@
     "GrowAGarden": {
       "title": "Grow a Garden",
       "gameName": "Grow a Garden",
-      "developer": "The Garden Game（16岁少年）",
+      "developer": "BMWLux（16岁少年）/ Splitting Point Studios",
       "publisher": "",
       "platform": "Roblox",
       "releaseDate": "2025年",
       "genre": "农场经营 / 挂机",
       "monetization": "",
-      "xStatement": "Roblox农场经营挂机游戏，种植-收获-升级循环",
-      "tagline": "Roblox极简农场",
+      "xStatement": "Roblox农场经营挂机游戏，玩家通过种植-收获-升级循环，在极简操作下享受离线收益与突变惊喜\n\n---",
+      "tagline": "Roblox极简农场挂机",
       "playerStats": "两月千万玩家",
-      "coreLoop": "种植作物，收获出售，升级花园",
-      "difficulty": "低 - 极简挂机",
-      "prototype": "",
-      "pillars": [],
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "| 系统 | 玩法原型 | 核心理念 | 独特改进 |\n|------|----------|----------|----------|\n| 农场种植 | 《星露谷物语》 | 种植→收获的经营乐趣 | 极简化：播种即生长，无需复杂农务 |\n| 挂机收益 | 《放置江湖》等放置游戏 | 离线也生长 | 十秒一轮收获，极致碎片化 |\n| 突变系统 | 天气影响系统 | 概率惊喜 | 天气+道具组合触发稀有突变 |\n| 社交系统 | 邻居社交 | 花园串门 | 交易机制促进玩家互动 |\n\n---",
+      "pillars": [
+        {
+          "title": "种植系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "挂机收益",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "突变系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "社交系统",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "GrowAGarden.md"
@@ -14021,19 +14269,19 @@
     },
     "HaiDaoWangMengZhen": {
       "title": "航海王：梦想指针",
-      "gameName": "",
+      "gameName": "航海王：梦想指针",
       "developer": "",
       "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "",
-      "monetization": "",
-      "xStatement": "",
-      "tagline": "",
+      "platform": "iOS / Android",
+      "releaseDate": "2024年4月1日",
+      "genre": "3D竖屏卡牌RPG",
+      "monetization": "免费+内购",
+      "xStatement": "航海王IP正版授权的3D竖屏卡牌游戏\n\n用行动点+卡牌技能升级的创新战斗系统，替代传统回合制的速度条，给玩家带来更具策略性的卡牌对战体验。\n\n---",
+      "tagline": "航海王IP正版授权的3D竖屏冒险卡牌游戏",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
+      "prototype": "| 系统 | 玩法原型 | 核心理念 | 独特改进 |\n|------|----------|----------|----------|\n| 战斗系统 | 《阴阳师》/传统回合制卡牌 | 回合制策略对战 | 行动点机制（非速度条）+ 技能卡牌升级（类似自走棋合卡） |\n| 角色系统 | 《原神》/《阴阳师》 | 角色收集与养成 | 航海王IP角色，原作剧情还原 |\n| 社交系统 | 《阴阳师》SSR/公会 | 航海团社交 | 航海团（公会）团队任务玩法 |\n\n参考借鉴来源：\n- 借鉴了《阴阳师》的角色抽卡和养成系统\n- 借鉴了《原神》的3D建模和动作表现\n- 融合了自走棋的卡牌升级机制（两张相同卡合成为高级卡）\n\n---",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [],
@@ -14832,27 +15080,42 @@
     "LegendsOfRuneterra": {
       "title": "游戏名 / Legends of Runeterra",
       "gameName": "符文之地传奇 / Legends of Runeterra",
-      "developer": "",
+      "developer": "拳头游戏（Riot Games）",
       "publisher": "",
       "platform": "",
-      "releaseDate": "",
+      "releaseDate": "2020年4月30日公测",
       "genre": "策略卡牌 / CCG",
       "monetization": "",
-      "xStatement": "",
+      "xStatement": "1人对1人PvP卡牌对战 + 英雄联盟IP + 响应式博弈机制\n\n玩家通过打出手牌、利用法术和单位卡进行博弈，每回合双方交替攻防，可响应对手行动。目标是将对手生命值降至0。\n\n---",
       "tagline": "英雄联盟IP的策略卡牌游戏，响应式博弈为核心",
       "playerStats": "",
-      "coreLoop": "每回合双方交替攻防，可响应对手行动。玩家通过打出手牌、利用法术和单位卡进行博弈，目标是将对手生命值降至0。",
-      "difficulty": "中等偏上。需要理解法术速度系统、响应机制和单位部署规则，但上手后博弈深度极深。",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[策略卡牌]-Legends of Runeterra-攻守响应机制",
-        "[策略卡牌]-[Legends of Runeterra]-[格挡攻防机制]",
-        "[策略卡牌]-Legends of Runeterra-法术速度系统",
-        "[策略卡牌]-Legends of Runeterra-英雄升级系统",
-        "[策略卡牌]-Legends of Runeterra-格挡攻防机制"
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《Legends of Runeterra》是基于《Artifact》《昆特牌》《万智牌》的体验：\n\n- 《Artifact》的交替出牌机制：双方轮流进行多个行动回合，而非传统的一方完整回合\n- 《昆特牌》的出牌方式：支持在对手行动后进行响应\n- 《万智牌》的堆叠机制：响应 spells 可形成复杂的连锁反应\n\n独特卖点：\n- 英雄联盟IP角色深度联动（英雄卡牌还原LOL技能）\n- 英雄局内升级系统（战斗中获得经验值进化）\n- 法术速度系统（快速、中速、慢速，决定响应优先级）\n- 低随机性、高竞技性（减少运气成分，强调策略博弈）\n\n---",
+      "pillars": [
+        {
+          "title": "响应式攻防博弈",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "英雄升级系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "阵营与组合策略",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "非随机付费模式",
+          "experience": "",
+          "design": ""
+        }
       ],
+      "achievements": "",
+      "relatedMechanisms": [],
       "filename": "LegendsOfRuneterra.md"
     },
     "LibraryOfRuina": {
@@ -14903,16 +15166,37 @@
       "developer": "",
       "publisher": "",
       "platform": "",
-      "releaseDate": "",
+      "releaseDate": "2023年11月23日",
       "genre": "SRPG / 策略战棋手游",
       "monetization": "",
       "xStatement": "",
       "tagline": "像素风经典战棋体验",
       "playerStats": "",
-      "coreLoop": "推图战斗 → 角色转职/技能继承 → 竞技场 → 活动 → 循环",
-      "difficulty": "中等。传统战棋玩法，易于理解",
-      "prototype": "",
-      "pillars": [],
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《皇家骑士团》系列 → 基于经典战棋的策略体验\n\n- 被借鉴游戏的核心理念/体验：经典战棋的格子走位、职业克制、地形高低差带来的战术选择，通过多维策略要素（站位朝向、地形影响、行动顺序、移动范围）创造深度思考体验\n- 本游戏在此基础上改出的独特体验：\n  - 像素风视觉风格（差异化于市面3D战棋）\n  - 立体战棋系统：高低错落方格地图、地形差buff/debuff、滚石火药桶等可利用环境要素\n  - 鼓励\"活用职业克制\"的设计，消解数值卡牌的无脑推图体验\n\n---",
+      "pillars": [
+        {
+          "title": "像素风视觉表现 -> 复古美学差异化 -> 像素角色突出易识别，团队定位\"像素赛道第一\"",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "立体战棋系统 -> 地形要素交互 -> 高低差伤害补正、移动限制；可利用环境（滚石、落水、地形杀）",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "职业克制与策略深度 -> 职业设计 + 难度提示 -> 鼓励玩家思考职业克制而非单纯数值碾压",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "单机/联机双模式 -> 体验分层 -> 单机推图体验经典战棋乐趣，联机模式提供社交体验",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "Lilanyuzijian.md"
@@ -15013,8 +15297,29 @@
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
-      "pillars": [],
+      "prototype": "城市建造系统\n玩法原型：《Banished》是基于资源匮乏下的生存经营体验：玩家在严酷环境中管理有限资源，平衡生存与发展，随时可能因规划失误导致全城覆灭。\n\n本游戏独特体验：在《Banished》的生存经营基础上，融入中世纪历史模拟元素，建筑布局不再受网格限制，而是模拟真实中世纪城镇的自然生长方式，结合 snapper 工具提供便利性。\n\n 战斗系统\n玩法原型：《Medieval: Total War》是基于大规模冷兵器战争体验：玩家指挥数千单位进行实时战术作战，战场的地形、阵型、士气等因素直接影响战局走向。\n\n本游戏独特体验：将 Total War 风格的大规模战斗融入城市建造游戏中，战斗胜负会影响你在区域地图上的影响力，进而解锁更多资源产地。\n\n 其他借鉴\n- 《Tropico》 - 经济系统设计思路\n- 《Stronghold》 - 中世纪城堡/城镇建设\n- 《Ostriv》 - 乌克兰团队开发的历史题材城市建造\n\n---",
+      "pillars": [
+        {
+          "title": "无网格有机城市建设",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "季节更迭与经济模拟",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "大规模战术战斗",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "历史艺术风格",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "ManorLords.md"
@@ -15283,14 +15588,14 @@
     "Minecraft": {
       "title": "Minecraft / 我的世界",
       "gameName": "我的世界 / Minecraft",
-      "developer": "Mojang",
+      "developer": "Mojang（后被微软收购）",
       "publisher": "",
-      "platform": "PC / 移动端 / 主机",
-      "releaseDate": "2011年",
-      "genre": "沙盒 / 建造",
+      "platform": "PC / 移动端 / 主机 / Web",
+      "releaseDate": "2009年测试，2011年正式发布",
+      "genre": "沙盒 / 建造 / 生存",
       "monetization": "",
       "xStatement": "",
-      "tagline": "经典沙盒建造",
+      "tagline": "经典沙盒建造游戏",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
@@ -15341,45 +15646,91 @@
       "filename": "MirageDuel.md"
     },
     "MobileLegends": {
-      "title": "Mobile Legends / MLBB",
-      "gameName": "Mobile Legends / MLBB",
-      "developer": "沐瞳科技",
+      "title": "Mobile Legends: Bang Bang (MLBB) / 无尽对决 / 决胜巅峰",
+      "gameName": "Mobile Legends: Bang Bang (MLBB) / 无尽对决 / 决胜巅峰",
+      "developer": "沐瞳科技（字节跳动旗下）",
       "publisher": "",
       "platform": "移动端",
       "releaseDate": "2016年",
       "genre": "MOBA",
       "monetization": "",
-      "xStatement": "沐瞳MOBA手游，5v5对抗，全球热门",
-      "tagline": "海外MOBA手游",
+      "xStatement": "5v5即时对战 + 全球化本地化 + 轻量化移动端适配 = 东南亚第一MOBA手游\n\n 沐瞳科技基于英雄联盟/王者荣耀的MOBA玩法，通过极致的本地化和全球化运营，成为东南亚市场占有率最高的MOBA手游，并在全球移动端MOBA市场占据重要地位。\n\n---",
+      "tagline": "海外MOBA手游（对标王者荣耀/英雄联盟）",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
-      "pillars": [],
+      "prototype": "核心玩法原型：基于《英雄联盟》的5v5 MOBA对战\n\n- 被借鉴游戏的核心理念：《英雄联盟》为代表的经典MOBA体验——三路兵线推塔、团队配合、英雄技能组合\n- 本游戏的独特体验：\n  - 轻量化移动端适配：简化操作，自动锁定目标，补刀集火更便捷\n  - 极致本地化：支持50+种语言，东南亚各地区定制英雄（印尼\"金刚神\"、菲律宾民族英雄\"拉普拉普\"）\n  - 全球化赛事体系：MLBB世界杯，入选东南亚运动会电竞项目\n\n辅助系统借鉴：\n- 英雄系统 → 借鉴英雄联盟的定位体系（坦克/刺客/法师/射手/辅助/战士）\n- 装备系统 → 借鉴王者荣耀的6类装备（物理/魔法/防御/移动/打野/辅助）\n- 野区BOSS → 借鉴传统MOBA的龙/峡谷先锋设定\n\n---",
+      "pillars": [
+        {
+          "title": "5v5对战 → 推塔获胜 → 三路兵线+野区+18防御塔",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "英雄系统 → 角色差异 → 6大定位+技能组合",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "国际版 → 全球化运营 → 50+语言+本地化英雄",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "野区资源 → BOSS争夺 → 河道BUFF+全局增益",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "社交与匹配 → 团队协作 → 组队系统+ELO匹配",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "MobileLegends.md"
     },
     "MoleManor": {
-      "title": "游戏名 / Game Name",
+      "title": "摩尔庄园 / MoleManor",
       "gameName": "摩尔庄园",
-      "developer": "",
-      "publisher": "",
+      "developer": "上海淘米网络科技有限公司",
+      "publisher": "雷霆游戏（吉比特子公司）",
       "platform": "",
-      "releaseDate": "",
+      "releaseDate": "2021年6月1日",
       "genre": "模拟经营 / 社交 / 休闲",
       "monetization": "",
       "xStatement": "",
       "tagline": "儿童版模拟经营+社交手游",
       "playerStats": "",
-      "coreLoop": "种植作物→收获→制作食物→出售→获得摩尔豆→购买家具/服装→装饰庄园/装扮角色",
-      "difficulty": "低门槛，儿童向轻松上手",
-      "prototype": "",
-      "pillars": [],
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "核心玩法原型分析：\n\n1. 模拟经营玩法：借鉴经典页游《摩尔庄园》页游版的农场经营系统\n   - 核心理念：田园牧歌式的慢生活体验\n   - 独特之处：加入季节性作物、农产品加工链（面包房、奶酪厂）\n\n2. 箱庭探索玩法：借鉴任天堂宫本茂提出的\"箱庭探索\"设计理念\n   - 核心理念：微缩世界中探索惊喜\n   - 独特之处：在封闭的庄园场景内嵌套各种交互元素（小游戏、隐藏任务、剧情触发点）\n\n3. 社交小镇系统：借鉴《动物森友会》的岛屿建设+《模拟人生》的社交系统\n   - 核心理念：与朋友共建理想家园\n   - 独特之处：邻居系统（亲密度达标可共享家具、共同经营农田）、小镇共建\n\n4. 职业体验系统：借鉴页游版SMC（超级摩尔俱乐部）职业系统\n   - 核心理念：童年对\"长大后职业\"的向往\n   - 独特之处：可自由切换职业（农夫、厨师、向导等），体验不同工作内容\n\n---",
+      "pillars": [
+        {
+          "title": "摩尔豆经济循环系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "箱庭式场景探索",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "社交情感连接",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "角色装扮与家园DIY",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
-        "[模拟经营]-摩尔庄园-摩尔豆经济系统",
-        "模拟经营-摩尔庄园-摩尔豆经济系统"
+        "[模拟经营]-摩尔庄园-摩尔豆经济系统"
       ],
       "filename": "MoleManor.md"
     },
@@ -15623,6 +15974,47 @@
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "NoRestForTheWicked.md"
+    },
+    "OnePieceTreasureCruise": {
+      "title": "航海王热血航线",
+      "gameName": "",
+      "developer": "",
+      "publisher": "",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "",
+      "monetization": "",
+      "xStatement": "正版航海王IP的3D动作手游，融合开放世界自由探索与角色收集养成，玩家扮演船长招募原著伙伴，在3D海域世界中自由探索、触发随机彩蛋、进行即时战斗对决，挑战海兽采集挖宝，收集伙伴和船只组成最强舰队。\n\n---",
+      "tagline": "",
+      "playerStats": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "核心循环\n```\n角色收集 → 养成升级 → 刷图推关 → 获得资源 → 角色养成\n                ↑                    ↓\n                ←←←←←←←←←←←←←←←←\n```\n\n 玩法组成\n1. 3D即时战斗：ACT动作格斗，普通攻击 + 闪避 + 友情技 + 4个技能\n2. 开放世界探索：3D海域世界自由航行，触发随机彩蛋事件\n3. 角色收集养成：招募原著伙伴，升级/突破/装备/技能\n4. PVP竞技场：1V1、3V3、阵营攻防、多人PK\n5. 日常任务：活跃值系统，体力=经验机制\n\n 借鉴参考\n- 战斗系统：借鉴《火影忍者》手游的连招+奥义系统\n- PVP机制：借鉴《拳皇》车轮战模式（3角色 + 1援护）\n- 开放世界：借鉴《塞尔达传说》的探索+解谜元素\n- 抽卡养成：典型二次元手游的伙伴召唤系统\n\n---",
+      "pillars": [
+        {
+          "title": "正版IP还原",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "3D动作战斗",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "角色收集与养成",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "PVP竞技深度",
+          "experience": "",
+          "design": ""
+        }
+      ],
+      "achievements": "",
+      "relatedMechanisms": [],
+      "filename": "OnePieceTreasureCruise.md"
     },
     "Onmyoji": {
       "title": "游戏名 / Game Name",
@@ -16953,9 +17345,7 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "游戏卡：星空 (Starfield)"
-      ],
+      "relatedMechanisms": [],
       "filename": "Starfield.md"
     },
     "StreetFighter6": {
@@ -17409,21 +17799,42 @@
       "filename": "TwoPointHospital.md"
     },
     "UmaMusume": {
-      "title": "赛马娘 / Uma Musume",
-      "gameName": "赛马娘 / Uma Musume",
-      "developer": "Cygames",
+      "title": "游戏卡 - 赛马娘 / Uma Musume",
+      "gameName": "",
+      "developer": "",
       "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "2021年",
-      "genre": "模拟养成、Roguelite、放置类",
-      "monetization": "免费内购",
-      "xStatement": "跨代养成\n\n将单局肉鸽结果转化为下一代起跑线的养成循环。\n\n---",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "",
+      "monetization": "",
+      "xStatement": "",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "培育一代角色 -> 参加比赛/探索积累属性和因子 -> 角色退役 -> 将其作为父母培育下一代 -> 属性叠加突破上限",
-      "difficulty": "低。选择式培育决策",
-      "prototype": "",
-      "pillars": [],
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "核心玩法借鉴\n- 跨代养成系统：借鉴《喵喵的结合》(Monster Sanctuary)的基因传递机制\n  - 核心体验：将单局养成结果转化为下一代起跑线，每次迭代都变得更强\n  - 每一代马娘退役后可作为\"继承马娘\"，将属性和技能传递给下一代\n\n- 因子继承系统：借鉴现实赛马的\"血统\"概念\n  - 核心体验：优秀的基因可以代际传递，形成家族血脉传承的成就感\n  - 马娘体内可继承\"因子\"，包含属性加成和遗传技能\n\n- 剧本育成系统：借鉴《偶像大师》等养成游戏的剧本模式\n  - 核心体验：不同剧本提供不同的养成路线和事件\n  - 玩家选择剧本、坯子（育成马娘）、继承马娘进行个性化养成\n\n- 赛马竞速原型：借鉴现实赛马文化\n  - 核心体验：真实的赛马比赛模拟，包含场地适应性、距离适应性等\n  - 比赛结果具有随机性，策略与运气并存\n\n 核心差异点\n- Cygames顶级美术：高质量的Live2D动画和角色立绘\n- 日本赛马IP联动：大量真实赛马娘化\n- 成熟的抽卡+体力商业化：Cygames成熟的F2P运营模式\n\n---",
+      "pillars": [
+        {
+          "title": "跨代养成系统 → 长期目标 → 每一代马娘都可传承给下一代",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "因子继承机制 → 策略深度 → 属性和技能的代际传递",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "剧本育成系统 → 多样性 → 多种养成路线选择",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "赛马比赛系统 → 核心验证 → 养成结果的实战检验",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
         "因子继承",
@@ -17453,6 +17864,28 @@
       ],
       "filename": "UnicornOverlord.md"
     },
+    "VAMPIR": {
+      "title": "VAMPIR：血之继承者 / VAMPIR: Blood Heir",
+      "gameName": "VAMPIR：血之继承者",
+      "developer": "",
+      "publisher": "",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "MMORPG（吸血鬼题材）",
+      "monetization": "",
+      "xStatement": "",
+      "tagline": "黑暗奇幻版《天堂2：革命》",
+      "playerStats": "",
+      "coreLoop": "日常刷副本→强化装备→坐骑培养→PVP阵营战/世界BOSS",
+      "difficulty": "中等偏易，支持自动战斗和离线挂机，降低肝度",
+      "prototype": "",
+      "pillars": [],
+      "achievements": "",
+      "relatedMechanisms": [
+        "MMORPG-VAMPIR-肾上腺素吸血联动系统"
+      ],
+      "filename": "VAMPIR.md"
+    },
     "VRising": {
       "title": "V Rising / 吸血鬼崛起",
       "gameName": "吸血鬼崛起 / V Rising",
@@ -17470,7 +17903,9 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "SOC-VRising-血池资源管理系统"
+      ],
       "filename": "VRising.md"
     },
     "Valheim": {
@@ -17530,8 +17965,29 @@
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
-      "pillars": [],
+      "prototype": "核心玩法系统1：格斗对战\n- 玩法原型：《星之破晓》借鉴了传统3D格斗游戏和《永劫无间》的战斗系统\n- 被借鉴体验：传统格斗游戏的硬核对抗体验 + 永劫无间的灵活位移与连招\n- 独特体验：将王者荣耀英雄引入格斗场景，用\"击飞值\"替代血条，将敌人击飞出战场即可获胜\n\n 核心玩法系统2：大逃杀模式\n- 玩法原型：借鉴《和平精英》《永劫无间》等吃鸡游戏\n- 被借鉴体验：大逃杀游戏的\"缩圈-发育-对抗\"核心循环\n- 独特体验：48人星魂战场，三人小队竞技，毒圈机制 + 星魂技系统\n\n 核心玩法系统3：双英雄切换\n- 玩法原型：借鉴《王者荣耀》本身的英雄设计体系\n- 被借鉴体验：多英雄阵容搭配与克制关系\n- 独特体验：局内可自由切换两个英雄，实现远程+近战组合\n\n---",
+      "pillars": [
+        {
+          "title": "击飞值战斗系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "双英雄切换机制",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "星魂战场吃鸡模式",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "王者荣耀IP英雄库",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "WangZheRongYaoPoXiao.md"
@@ -18035,20 +18491,18 @@
       "developer": "完美世界",
       "publisher": "",
       "platform": "PC",
-      "releaseDate": "2023年",
+      "releaseDate": "2024年12月19日",
       "genre": "MMORPG、仙侠、PVP竞技",
       "monetization": "免费内购制",
-      "xStatement": "UE5仙侠MMO\n\nUE5加持美术升级的传统MMO。\n\n---",
-      "tagline": "",
+      "xStatement": "UE5仙侠MMO\n\nUE5加持美术升级的传统MMO，经典仙侠IP改编，端游最后一波红利争夺者。\n\n---",
+      "tagline": "UE5版逆水寒 / 仙侠IP改编端游MMO",
       "playerStats": "",
-      "coreLoop": "日常任务/副本 -> 提升装等 -> 参与PVE/PVP/GVG -> 追求数值毕业",
-      "difficulty": "中等",
-      "prototype": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "| 系统 | 玩法原型 | 核心理念 | 独特改进 |\n|------|----------|----------|----------|\n| 战斗系统 | 《逆水寒》/传统MMO | 战法牧职业配合 + 即时战斗 | 格挡反击机制、职业技能功法分支（如合欢分\"月\"\"影\"两套功法） |\n| 副本系统 | 《魔兽世界》 | 团队协作开荒体验 | 动态困难副本机制，10人/20人团本 |\n| PVP玩法 | 《命运方舟》 | 3V3车轮战模式 | 阵营200V200大地图对抗 |\n| 成长系统 | 传统MMO数值养成 | 装等追求与数值毕业 | 良品至仙品四档装备品质 |\n\n---",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "MMORPG-诛仙世界-车轮战机制"
-      ],
+      "relatedMechanisms": [],
       "filename": "ZhuXian.md"
     },
     "ark-nova": {
@@ -18577,14 +19031,35 @@
       "platform": "Switch / 主机",
       "releaseDate": "1986年（首作）",
       "genre": "动作冒险",
-      "monetization": "",
-      "xStatement": "",
-      "tagline": "经典动作冒险",
+      "monetization": "买断制",
+      "xStatement": "动作冒险救公主\n\n在充满谜题与冒险的奇幻世界中，通过探索、战斗与解谜拯救塞尔达公主。\n\n---",
+      "tagline": "",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
-      "pillars": [],
+      "prototype": "| 系统 | 玩法原型 | 核心理念 | 独特改进 |\n|------|----------|----------|----------|\n| 开放世界 | 《黑暗之魂》系列 | 箱庭式自由探索 | 初始即可访问全地图，鼓励非线性探索 |\n| 迷宫设计 | 《古墓丽影》 | 独立副本挑战 | 神庙/迷宫作为能力获取来源，而非终点 |\n| 道具系统 | 《银河战士》 | 能力驱动进度 | 新道具解锁新区域，回归\"银河城\"设计 |\n| 物理交互 | 沙盒物理引擎 | 多解谜题 | 任何物体可组合使用，创造性解谜 |\n\n玩法原型分析：\n- 开放世界原型：借鉴《黑暗之魂》系列的箱庭设计理念，但采用完全开放的非线性结构，玩家可按任意顺序完成内容\n- 迷宫原型：区别于传统\"迷宫-钥匙-BOSS\"结构，神庙作为能力获取场所，每个神庙教授一种核心能力\n- 道具系统原型：回归经典《银河战士》设计——新道具=新区域可访问，形成强正反馈循环\n\n---",
+      "pillars": [
+        {
+          "title": "迷宫副本 / 神庙挑战",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "道具收集 / 能力解锁",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "开放世界 / 探索冒险",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "战斗解谜 / 两者结合",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
         "[搜打撤]-[逃离塔科夫]-装备带入带出系统"
@@ -18614,28 +19089,54 @@
       "filename": "zenless-zone-zero.md"
     },
     "三国谋定天下": {
-      "title": "三国谋定天下",
+      "title": "三国：谋定天下",
       "gameName": "三国：谋定天下",
-      "developer": "腾讯游戏",
+      "developer": "哔哩哔哩游戏",
       "publisher": "",
       "platform": "移动端",
-      "releaseDate": "2024年",
+      "releaseDate": "2024年6月13日",
       "genre": "SLG",
       "monetization": "",
-      "xStatement": "三国题材SLG，六大职业策略",
+      "xStatement": "三国题材SLG，六大职业策略\n\n公式： 6人合作 + 多职业分工 → 沉浸式三国战争策略\n\n---",
       "tagline": "三国职业SLG",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
-      "pillars": [],
+      "prototype": "玩法原型： 《三国：谋定天下》是基于《三国志·战略版》《率土之滨》传统三国SLG的体验：\n\n- 被借鉴游戏的核心理念/体验： 玩家扮演主公，招募武将、发展城池、与联盟成员协作，通过策略对战争夺三国霸权\n- 本游戏在此基础上改出的独特体验： 引入六大职业系统（镇军/青囊/奇佐/天工/司仓/神行），每个职业有独特的战场定位和技能树，强调团队配合而非单一武将数值碾压\n\n核心差异点： 职业分工协作是本游戏与传统三国SLG的核心区别，实现了\"战场角色化\"\n\n---",
+      "pillars": [
+        {
+          "title": "职业系统",
+          "experience": "",
+          "design": "六大职业定位清晰\n  - 镇军：正面作战主力\n  - 青囊：辅助治疗/减伤\n  - 奇佐：火攻策略/战场控制\n  - 天工：器械建造/攻防设施\n  - 司仓：资源发育/后勤辎重\n  - 神行：侦查/偷取/游击\n-"
+        },
+        {
+          "title": "沙盘地图",
+          "experience": "",
+          "design": "真实地形要素（山川河流险关）\n-"
+        },
+        {
+          "title": "联盟社交",
+          "experience": "",
+          "design": "联盟职位体系、共享视野、协同作战\n-"
+        },
+        {
+          "title": "赛季机制",
+          "experience": "",
+          "design": "赛季制重置，每次赛季职业可能调整\n-"
+        },
+        {
+          "title": "武将系统",
+          "experience": "",
+          "design": "武将卡池抽取、装备强化、技能升级\n-"
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "三国谋定天下.md"
     }
   },
   "stats": {
-    "mechanismCount": 432,
-    "gameCount": 338
+    "mechanismCount": 439,
+    "gameCount": 340
   }
 }
