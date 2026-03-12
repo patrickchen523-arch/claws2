@@ -1,6 +1,6 @@
 # 机制库索引
 
-> 最后更新：2026-03-12
+> 最后更新：2026-03-13
 
 ---
 
@@ -14,16 +14,16 @@
 | AFKJourney | - | 0 |
 | AgeOfEmpires2DE | - | 4 |
 | AgeOfEmpires3 | - | 1 |
-| AgeOfEmpires4 | - | 0 |
+| AgeOfEmpires4 | - | 3 |
 | Aladedu | - | 0 |
 | AlbionOnline | - | 3 |
 | AnimalCrossing | - | 1 |
-| AnotherCrabsTreasure | - | 0 |
+| AnotherCrabsTreasure | - | 2 |
 | ApexLegends | - | 1 |
 | ArcaneOdyssey | - | 1 |
-| ARCRaiders | - | 0 |
-| ArenaBreakoutInfinite | - | 0 |
-| ArenaBreakout | - | 0 |
+| ARCRaiders | - | 3 |
+| ArenaBreakoutInfinite | - | 7 |
+| ArenaBreakout | - | 7 |
 | ARK | - | 0 |
 | Arknights | - | 4 |
 | ark-nova | - | 2 |
@@ -36,7 +36,6 @@
 | BaiJingHuiLang | - | 0 |
 | balatro | - | 2 |
 | BaldursGate3 | - | 3 |
-| barony | - | 1 |
 | Barony | - | 1 |
 | Battlegrounds | - | 1 |
 | BestEleven | - | 1 |
@@ -45,24 +44,23 @@
 | Borderlands3 | - | 0 |
 | BrawlStars | - | 0 |
 | BuriedBornes2 | - | 1 |
-| CadillacsAndDinosaurs | - | 0 |
+| CadillacsAndDinosaurs | - | 2 |
 | Calabiyau | - | 1 |
 | CallOfDutyBlackOps6 | - | 0 |
-| CallOfDuty | - | 2 |
+| CallOfDuty | - | 6 |
 | CallOfDutyMobile | - | 0 |
-| CallOfDutyWarzone | - | 2 |
-| CaptainCommando | - | 0 |
+| CallOfDutyWarzone | - | 6 |
+| CaptainCommando | - | 1 |
 | CardGameDeckBuilding | - | 0 |
 | CarrotFantasy | - | 1 |
 | Celeste | - | 0 |
 | CFLegends | - | 0 |
 | CFMobile | - | 0 |
-| ChanganFantasy | - | 3 |
+| ChanganFantasy | - | 2 |
 | CitiesSkylines | - | 2 |
 | CivilizationVI | - | 2 |
-| ClashofClans | - | 0 |
-| ClashOfClans | - | 0 |
-| ClashRoyale | - | 1 |
+| ClashOfClans | - | 1 |
+| ClashRoyale | - | 4 |
 | CODM | - | 1 |
 | CODModernWarfare3 | - | 0 |
 | CODMW3 | - | 1 |
@@ -85,20 +83,19 @@
 | DeadByDaylight | - | 0 |
 | DeadCells | - | 3 |
 | Deemo | - | 1 |
-| DeltaForce | - | 2 |
+| DeltaForce | - | 8 |
 | Destiny2 | - | 0 |
 | DiabloIIResurrected | - | 0 |
 | DiabloIV | - | 2 |
 | DianFengJiSu | - | 4 |
 | DirtRally | - | 0 |
 | divinity2 | - | 2 |
-| DJMAX | - | 2 |
+| DJMAX | - | 1 |
 | DNF | - | 4 |
 | DNFMobile | - | 4 |
 | dnf-origins | - | 1 |
 | DNFOrigins | - | 4 |
 | DontStarve | - | 2 |
-| Dota2 | - | 0 |
 | DOTA2 | - | 1 |
 | DotaUnderlords | - | 0 |
 | DragonNest2 | - | 0 |
@@ -107,14 +104,14 @@
 | DysonSphereProgram | - | 2 |
 | EASportsFC26 | - | 4 |
 | EggyParty | - | 6 |
-| eldenring | - | 1 |
 | EldenRing | - | 2 |
 | EldenRingShadowOfTheErdtree | - | 2 |
 | Enshrouded | - | 1 |
-| EscapeFromTarkov | - | 1 |
+| EscapeFromTarkov | - | 4 |
 | EVEOnline | - | 4 |
 | Expedition33 | - | 1 |
 | ExtractionShooter | - | 0 |
+| F1Manager | - | 1 |
 | F1 | - | 1 |
 | FallGuys | - | 0 |
 | Fallout76 | - | 0 |
@@ -124,17 +121,17 @@
 | FF14 | - | 1 |
 | FF7Rebirth | - | 0 |
 | FinalFantasy14 | - | 3 |
-| FinalFight | - | 0 |
+| FinalFight | - | 2 |
 | FireEmblemHeroes | - | 0 |
 | FireEmblemThreeHouses | - | 1 |
-| Fortnite | - | 1 |
-| ForzaHorizon5 | - | 2 |
+| Fortnite | - | 3 |
+| ForzaHorizon5 | - | 8 |
 | Frostpunk2 | - | 0 |
 | Frostpunk | - | 0 |
-| GameForPeace | - | 0 |
+| GameForPeace | - | 3 |
 | GangLan | - | 0 |
 | GenshinImpact | - | 8 |
-| genshin | - | 1 |
+| genshin | - | 0 |
 | GhostBlade | - | 0 |
 | GirlsFrontline2 | - | 0 |
 | GoblinSlayer | - | 0 |
@@ -147,38 +144,38 @@
 | GuiltyGearStrive | - | 1 |
 | gunfire-reborn | - | 1 |
 | Gwent | - | 2 |
-| hades | - | 5 |
 | Hades | - | 6 |
 | HaiDaoWangMengZhen | - | 0 |
 | HappyCatCafe | - | 2 |
 | HayDay | - | 0 |
-| Hearthstone | - | 2 |
+| Hearthstone | - | 3 |
 | HeartTown | - | 1 |
 | Hellblade2 | - | 0 |
-| Helldivers2 | - | 1 |
+| Helldivers2 | - | 2 |
 | HeroesOfTheStorm | - | 1 |
 | HogwartsLegacy | - | 0 |
 | HomesAndGardens | - | 1 |
-| Homeworld2 | - | 0 |
+| Homeworld2 | - | 1 |
 | HonkaiImpact3rd | - | 1 |
 | HonkaiStarRail | - | 3 |
-| HonorOfKings | - | 7 |
+| HonorOfKings | - | 12 |
 | HuaTangZhi | - | 7 |
 | IdleHeroes | - | 0 |
 | InazumaEleven | - | 1 |
 | InfiniteNikki | - | 1 |
+| Inkbound | - | 5 |
 | IntoTheBreach | - | 3 |
 | ItTakesTwo | - | 0 |
-| JiaoCuoZhanXian | - | 1 |
+| JiaoCuoZhanXian | - | 0 |
 | JinChanChan | - | 1 |
-| Justice | - | 0 |
-| JusticeMobile | - | 0 |
-| JX3 | - | 2 |
+| Justice | - | 2 |
+| JusticeMobile | - | 2 |
+| JX3 | - | 4 |
 | Kards | - | 1 |
 | KartRider | - | 0 |
 | KingdomRush | - | 2 |
-| KnightmareTower | - | 0 |
-| KnightsOfTheRound | - | 0 |
+| KnightmareTower | - | 1 |
+| KnightsOfTheRound | - | 2 |
 | KnightsOfValour | - | 3 |
 | KnivesOut | - | 0 |
 | KOF98 | - | 0 |
@@ -186,8 +183,10 @@
 | league-of-legends | - | 1 |
 | LeagueOfLegends | - | 2 |
 | LegendsOfRuneterra | - | 4 |
+| LiarsBar | - | 2 |
 | LibraryOfRuina | - | 1 |
 | LiesOfP | - | 0 |
+| LikeADragon8 | - | 1 |
 | Lilanyuzijian | - | 0 |
 | lol | - | 0 |
 | LostArk | - | 0 |
@@ -202,9 +201,8 @@
 | MarvelDuel | - | 0 |
 | MarvelRivals | - | 1 |
 | MarvelSnap | - | 1 |
-| MatchdayChampions | - | 1 |
+| MatchdayChampions | - | 2 |
 | MayBe | - | 1 |
-| MengHuanNewZhuXian | - | 1 |
 | MetalSlug | - | 3 |
 | mewgenics | - | 3 |
 | MiaoMiaoTeaRestaurant | - | 2 |
@@ -219,7 +217,6 @@
 | MyGardenWorld | - | 1 |
 | NarutoMobile | - | 1 |
 | NeedForSpeedHeat | - | 0 |
-| NetEaseRevelation | - | 1 |
 | Nightbound | - | 1 |
 | NightboundMobile | - | 1 |
 | NiNoKuniCrossingWorlds | - | 0 |
@@ -231,12 +228,12 @@
 | Overwatch2 | - | 0 |
 | Overwatch | - | 0 |
 | Paladins | - | 0 |
-| Palworld | - | 0 |
+| Palworld | - | 2 |
 | path-of-exile-2 | - | 2 |
 | PathOfExile2 | - | 1 |
 | PathOfExile | - | 1 |
 | Payday2 | - | 0 |
-| Payday3 | - | 0 |
+| Payday3 | - | 1 |
 | PeaceEliteSubway | - | 1 |
 | PeaceEliteTomb | - | 2 |
 | PEAK | - | 1 |
@@ -248,18 +245,17 @@
 | PlantsVsZombies | - | 1 |
 | pokemon-pokopia | - | 2 |
 | ProjectZomboid | - | 1 |
-| PUBG | - | 1 |
+| PUBG | - | 3 |
 | QQFeiChe | - | 0 |
 | R6Siege | - | 2 |
 | Raft | - | 0 |
 | RainbowSixSiege | - | 0 |
-| RealRacing3 | - | 6 |
+| RealRacing3 | - | 0 |
 | RedAlert2 | - | 0 |
 | RedAlert3 | - | 2 |
 | RedDeadRedemption2 | - | 0 |
 | RefereeSimulator | - | 1 |
 | Remnant2 | - | 0 |
-| RevelationMobile | - | 0 |
 | RidgeRacer | - | 2 |
 | RiseOfTheRonin | - | 0 |
 | ROC | - | 0 |
@@ -269,13 +265,13 @@
 | SamuraiShodown | - | 0 |
 | SanguoBinghe | - | 6 |
 | sanguo-mouding-tianxia | - | 1 |
-| SanguoMoudingTianxia | - | 3 |
+| SanguoMoudingTianxia | - | 2 |
 | SanGuoZhanLue | - | 4 |
 | satisfactory | - | 0 |
 | SausageMan | - | 0 |
 | SeaOfStars | - | 0 |
-| SeaOfThieves | - | 0 |
-| ShadowOfMordor | - | 2 |
+| SeaOfThieves | - | 2 |
+| ShadowOfMordor | - | 1 |
 | Shadowverse | - | 3 |
 | ShaoNianJinYiWei | - | 0 |
 | ShiJieZhiWai | - | 0 |
@@ -289,10 +285,11 @@
 | SpaceMarine2 | - | 0 |
 | Splatoon3 | - | 1 |
 | Squad | - | 0 |
-| StarCraft2 | - | 0 |
+| StarCraft2 | - | 3 |
 | StardewValley | - | 2 |
 | Starfield | - | 0 |
 | StreetFighter6 | - | 2 |
+| SultansGame | - | 1 |
 | Supernatural | - | 4 |
 | SupremeCommander | - | 1 |
 | TacticsOgre | - | 4 |
@@ -315,20 +312,19 @@
 | UmaMusume | - | 1 |
 | UnicornOverlord | - | 1 |
 | Valheim | - | 1 |
-| valorant | - | 2 |
 | Valorant | - | 2 |
 | VAMPIR | - | 1 |
 | VRising | - | 1 |
 | WangzheMoniqi | - | 0 |
 | wangzherongyao | - | 0 |
 | WangZheRongYaoPoXiao | - | 0 |
-| Warcraft3 | - | 0 |
+| Warcraft3 | - | 1 |
 | Warframe | - | 0 |
 | Wargroove | - | 0 |
 | Warhammer40KRogueTrader | - | 0 |
 | WinterFall | - | 2 |
 | WoJiaoMT | - | 2 |
-| WorldOfWarcraft | - | 6 |
+| WorldOfWarcraft | - | 7 |
 | WutheringWaves | - | 1 |
 | xcom2 | - | 2 |
 | XCOM | - | 0 |
@@ -340,7 +336,7 @@
 | YongJieWuJianShouYou | - | 0 |
 | YuGiOhDuelLinks | - | 0 |
 | YuGiOhMasterDuel | - | 1 |
-| zelda | - | 2 |
+| ZeldaBreathoftheWild | - | 1 |
 | Zelda | - | 1 |
 | zenless-zone-zero | - | 1 |
 | ZenlessZoneZero | - | 0 |
@@ -348,6 +344,7 @@
 | ZhanSanguo | - | 0 |
 | ZhuXian | - | 1 |
 | 三国谋定天下 | - | 0 |
+| 中土世界暗影魔多 | - | 0 |
 
 ---
 
@@ -374,6 +371,11 @@
 ### AgeOfEmpires3
 - [Qualify]HomeCityCards
 
+### AgeOfEmpires4
+- [Excellent]RTS-时代升级体系
+- [Excellent]RTS-英雄系统
+- [Excellent]RTS-超级武器系统
+
 ### AlbionOnline
 - [Excellent]沙盒式自由经济系统
 - MMORPG-阿尔比恩-资源分区设计
@@ -382,11 +384,29 @@
 ### AnimalCrossing
 - 模拟经营-动物森友会-大头菜
 
+### AnotherCrabsTreasure
+- 壳系统
+- 无体力闪避
+
 ### ApexLegends
 - [BR]-Apex英雄-进化护盾
 
 ### ArcaneOdyssey
 - RPG-杖剑传说-一键带副本
+
+### ARCRaiders
+- [Excellent]搜打撤-PvPvE撤离机制
+- [Excellent]搜打撤-基地建设升级系统
+- [Excellent]搜打撤-机械敌人AI系统
+
+### ArenaBreakoutInfinite
+- [Excellent]搜打撤-大金收集系统
+- [Excellent]搜打撤-局外养成系统
+- [Excellent]搜打撤-撤离机制
+- [Excellent]搜打撤-枪械改装系统
+- [Excellent]搜打撤-硬核弹道护甲系统
+- [Excellent]搜打撤-装备带入带出系统
+- [Qualify]loadout-system
 
 ### Arknights
 - [Excellent]ProbabilityProgression
@@ -416,9 +436,6 @@
 - RPG-博德之门3-回合制战棋战斗
 - RPG-博德之门3-角色出身背景系统
 
-### barony
-- [Qualify]death-ghost-system
-
 ### Barony
 - [Qualify]死亡幽灵系统
 
@@ -437,24 +454,25 @@
 ### BuriedBornes2
 - 肉鸽-BuriedBornes2-离群亡魂异步PVP系统
 
-### cadillacsanddinosaurs
+### CadillacsAndDinosaurs
 - [not_comfirmed]dinosaur-interaction
 - [Qualify]vehicle-summon
 
 ### Calabiyau
 - [TPS]-卡拉彼丘-弦化机制
 
-### CallOfDuty
+### CallOfDutyBlackOps6
 
 ### CallOfDutyWarzone
 - [BR]-使命召唤战区-古拉格对决
+- [Excellent]大逃杀-古拉格复活系统
+- [Excellent]大逃杀-合约系统
+- [Excellent]大逃杀-装备舱Loadout系统
 - [FPS]-使命召唤-连杀奖励系统
+- [Qualify]gulag-revive
 
-### captaincommando
+### CaptainCommando
 - [Qualify]role-skills
-
-### CardGameGeneral
-- [Qualify]DustSystem
 
 ### CarrotFantasy
 - [Qualify]GoldenCarrotSystem
@@ -462,7 +480,6 @@
 ### ChanganFantasy
 - 回合制MMO-长安幻想-天都争锋
 - 回合制MMO-长安幻想-赛季挑战
-- 游戏卡-长安幻想
 
 ### CitiesSkylines
 - [Qualify]TrafficAI
@@ -472,7 +489,13 @@
 - [not_comfirmed]CivilizationTraits
 - [not_comfirmed]DistrictPlanning
 
+### ClashOfClans
+- [Excellent]RTS-护盾保护机制
+
 ### ClashRoyale
+- [Excellent]RTS-卡牌构筑系统
+- [Excellent]RTS-圣水费用系统
+- [Excellent]RTS-异步PVP系统
 - 即时策略-皇室战争-父子局
 
 ### CODMW3
@@ -506,14 +529,15 @@
 ### Deemo
 - [Excellent]剧情叙事融合系统
 
-### delta-force
-- [not_comfirmed]operator-system
-
 ### DeltaForce
+- [Excellent]FPS-干员技能系统
+- [Excellent]FPS-曼德尔砖机制
+- [Excellent]FPS-载具作战系统
+- [Excellent]operator-skills
 - FPS夺金-三角洲行动-玩家扮演BOSS赤枭巡猎
 - FPS夺金-三角洲行动-神秘脑机Ⅱ型渡鸦寻宝
-
-### Destiny2
+- [not_comfirmed]operator-system
+- [Qualify]mendel-brick
 
 ### DiabloIV
 - [Qualify]巅峰等级系统
@@ -530,7 +554,6 @@
 - [Qualify]free-character-build
 
 ### DJMAX
-- DJMAX-游戏卡
 - [Excellent]BGA视听联动系统
 
 ### DNF
@@ -548,8 +571,6 @@
 
 ### DOTA2
 - [Qualify]LastHitDenial
-
-### DotaUnderlords
 
 ### DragonsDogma2
 - [Qualify]随从系统
@@ -572,9 +593,6 @@
 - UGC-蛋仔派对-剧本扮演
 - UGC-蛋仔派对-默契挑战
 
-### eldenring
-- [Qualify]grace-point
-
 ### EldenRing
 - [Qualify]开放世界探索
 - [Qualify]死亡惩罚与记忆系统
@@ -583,6 +601,9 @@
 - [生存沙盒]-雾锁王国-水方块动态建造体
 
 ### EscapeFromTarkov
+- [Qualify]escape-mechanism
+- [Qualify]gear-BringInTakeOut
+- [Qualify]gold-items-system
 - [撤离类]-逃离塔科夫-安全箱
 
 ### EVEOnline
@@ -594,15 +615,6 @@
 ### Expedition33
 - 回合制-远征33号-即时反应与弹反机制
 
-### extraction-shooter
-- [Excellent]operator-skills
-- [Qualify]escape-mechanism
-- [Qualify]gear-BringInTakeOut
-- [Qualify]gold-items-system
-- [Qualify]gulag-revive
-- [Qualify]loadout-system
-- [Qualify]mendel-brick
-
 ### F1
 - RAC-通用-防御驾驶
 
@@ -611,18 +623,6 @@
 
 ### Fantasian
 - JRPG-Fantasian-Dimengeon存怪系统
-
-### FantasyWestJourney
-- [Excellent]MasterApprenticeSystem
-- [Excellent]藏宝阁交易系统
-- [Qualify]dungeon-tier-system
-- [Qualify]MountControlSystem
-- [Qualify]MountSkillSystem
-- [Qualify]三界功绩系统
-- [Qualify]三货币经济系统
-
-### FantasyWestwardJourney
-- [Qualify]捏脸系统
 
 ### FCMobile
 - 足球-FC足球世界-图鉴系统
@@ -636,7 +636,7 @@
 - [Excellent]RPStoreSystem
 - [not_comfirmed]兵装库特职系统
 
-### finalfight
+### FinalFight
 - [Qualify]role-differentiation
 - [Qualify]weapon-system
 
@@ -644,25 +644,24 @@
 - [Qualify]转职树系统
 
 ### Fortnite
+- [Excellent]ChallengeTaskSystem
 - [Qualify]DualPassSystem
+- [Qualify]PassTierPricing
 
 ### ForzaHorizon5
+- [Excellent]ForzaHorizon5-SkillTree
+- [Excellent]NFSHeat-DayNightHeat
+- [Qualify]Asphalt9-NitroBoost
+- [Qualify]ForzaHorizon5-OpenWorld
+- [Qualify]QQFeiChe-DriftCharge
+- [Qualify]RealRacing3-AuthenticCars
 - RAC-极限竞速地平线-时间回溯
 - RAC-通用-幽灵车陪跑
 
-### FPS
-- [Excellent]FPS-干员技能系统
-- [Excellent]FPS-曼德尔砖机制
-- [Excellent]FPS-载具作战系统
-
-### Frostpunk2
-
-### General
-- [Excellent]ChallengeTaskSystem
-- [Qualify]PassTierPricing
-
-### genshin
-- [Excellent]god-eye-offering
+### GameForPeace
+- [Excellent]大逃杀-100人同场竞技
+- [Excellent]大逃杀-四人组队系统
+- [Excellent]大逃杀-缩圈博弈系统
 
 ### GenshinImpact
 - [Excellent]FateSystem
@@ -674,8 +673,6 @@
 - [Qualify]元素反应系统
 - [Qualify]抽卡与命座系统
 
-### GhostBlade
-
 ### GooseGooseDuck
 - [非对称]-鹅鸭杀-双中立阵营机制
 
@@ -684,13 +681,6 @@
 
 ### GTAV
 - RAC-GTAol-载具切换
-
-### GuildSystem
-- [not_comfirmed]General-GuildWar
-- [Qualify]FantasyWestJourney-GuildFacility
-- [Qualify]General-GuildDonation
-- [Qualify]JX3-TianGongTree
-- [Qualify]WoW-CrossFactionGuild
 
 ### GuiltyGearStrive
 - [Qualify]RC取消
@@ -701,13 +691,6 @@
 ### Gwent
 - [not_comfirmed]三行战场系统
 - [Qualify]DeckRestriction
-
-### hades
-- [Qualify]冲刺无敌帧
-- [Qualify]局外升级系统
-- [Qualify]武器多形态切换
-- [Qualify]死亡循环叙事合理化
-- [Qualify]神明祝福组合
 
 ### Hades
 - [Qualify]叙事驱动机制
@@ -723,15 +706,14 @@
 
 ### Hearthstone
 - [Qualify]ClassRestriction
+- [Qualify]DustSystem
 - [Qualify]法力水晶系统
 
 ### HeartTown
 - 模拟经营-心动小镇-飞地机制
 
-### helldivers-2
-- [Qualify]strategic-command-system
-
 ### Helldivers2
+- [Qualify]strategic-command-system
 - [TPS]-绝地潜兵2-战略配备指令输入
 
 ### HeroesOfTheStorm
@@ -739,6 +721,9 @@
 
 ### HomesAndGardens
 - [Excellent]Match3Decoration
+
+### Homeworld2
+- [Excellent]RTS-3D空间作战系统
 
 ### HonkaiImpact3rd
 - [not_comfirmed]连招与QTE系统
@@ -752,10 +737,15 @@
 - [Excellent]AchievementSystem
 - [Excellent]HonorOfKings-BanPickSystem
 - [Excellent]MasterApprenticeSystem
+- [Excellent]moba-hex-arena-rune
 - [not_comfirmed]SocialMatchmaking
 - [Qualify]dream-map-collapse
 - [Qualify]HonorOfKings-RankingELOSystem
 - [Qualify]HonorPassSystem
+- [Qualify]moba-arena-prebuy-gear
+- [Qualify]moba-arena-random-hero
+- [Qualify]moba-arena-shared-pool
+- [Qualify]moba-dream-arena-single-lane
 
 ### HuaTangZhi
 - 回合制MMO-幻唐志-精力系统
@@ -772,13 +762,17 @@
 ### InfiniteNikki
 - 开放世界-无限暖暖-大世界异步合影
 
+### Inkbound
+- [Excellent]Roguelike-Inkbound-临界充能系统
+- [Excellent]Roguelike-Inkbound-伪回合制战斗系统
+- [Excellent]Roguelike-Inkbound-技能强化系统
+- [Excellent]Roguelike-Inkbound-能量宝珠系统
+- [Excellent]Roguelike-Inkbound-遗物套装系统
+
 ### IntoTheBreach
 - [Qualify]BuildingProtection
 - [Qualify]DisplacementOverKill
 - [Qualify]FullInfoCombat
-
-### JiaoCuoZhanXian
-- 游戏卡
 
 ### JinChanChan
 - [Qualify]ShuangrenHezuoMoshi
@@ -787,9 +781,9 @@
 - [Qualify]功力系统
 - [Qualify]身份系统
 
-### JusticeMobile
-
 ### JX3
+- [Qualify]JX3-TianGongTree
+- [Qualify]WoW-CrossFactionGuild
 - [Qualify]捏脸系统
 - [Qualify]轻功系统
 
@@ -800,10 +794,10 @@
 - [Qualify]ActiveSkillSystem
 - [Qualify]BarracksSystem
 
-### knightmaretower
+### KnightmareTower
 - [Qualify]rpg-levelup
 
-### knightsoftheround
+### KnightsOfTheRound
 - [Qualify]gold-equipment
 - [Qualify]horse-combat
 
@@ -830,8 +824,15 @@
 - [Qualify]HeroUpgrade
 - [Qualify]SpellSpeed
 
+### LiarsBar
+- [Excellent]桌游-LiarsBar-俄罗斯轮盘赌惩罚机制
+- [Excellent]桌游-LiarsBar-谎牌博弈系统
+
 ### LibraryOfRuina
 - 卡牌-废墟图书馆-动态拼点博弈机制
+
+### LikeADragon8
+- [Qualify][RPG]-LikeADragon8-夹击增伤系统
 
 ### LostLight
 - FPS夺金-萤火突击-俘虏绑架机制
@@ -839,8 +840,6 @@
 ### lucky-landlord
 - [Qualify]rent-pressure-system
 - [Qualify]slot-machine-symbol-engine
-
-### MaoDianJiangLin
 
 ### Marathon
 - [Excellent]三层构筑系统
@@ -850,8 +849,6 @@
 - RAC-非拟真赛车-名次道具分配
 - RAC-非拟真赛车-漂移集气资源转化
 
-### MarvelDuel
-
 ### MarvelRivals
 - [TPS]-[漫威争锋]-[天赋强化]
 
@@ -859,13 +856,11 @@
 - [Qualify]位置机制
 
 ### MatchdayChampions
+- 游戏卡-Matchday-Champions
 - 足球-Matchday-Champions-比赛玩法
 
 ### MayBe
 - 放置RPG-出发吧麦芬-双人匹配挂机
-
-### MengHuanNewZhuXian
-- 回合制MMO-梦幻新诛仙-大漠狐冢
 
 ### MetalSlug
 - [Qualify]人质营救系统
@@ -880,21 +875,6 @@
 ### MiaoMiaoTeaRestaurant
 - [Qualify]ForestExploration
 - [Qualify]ModularBuilding
-
-### moba-arena-prebuy-gear
-- [Qualify]moba-arena-prebuy-gear
-
-### moba-arena-random-hero
-- [Qualify]moba-arena-random-hero
-
-### moba-arena-shared-pool
-- [Qualify]moba-arena-shared-pool
-
-### moba-dream-arena-single-lane
-- [Qualify]moba-dream-arena-single-lane
-
-### moba-hex-arena-rune
-- [Excellent]moba-hex-arena-rune
 
 ### MoleManor
 - [Qualify]MoleCurrency
@@ -912,9 +892,6 @@
 ### NarutoMobile
 - [Qualify]奥义系统
 
-### NetEaseRevelation
-- [Qualify]庄园系统
-
 ### Nightbound
 - 夺金-永劫无间无间镖客-局外镖契保险
 - 夺金-永劫无间无间镖客-满江红商友良赌坊玩法
@@ -925,8 +902,6 @@
 ### Nioh
 - ARPG-仁王-三段架势系统
 
-### NoRestForTheWicked
-
 ### Onmyoji
 - [Qualify]RuneFreeSystem
 - [Qualify]式神战斗区系统
@@ -934,7 +909,7 @@
 ### osu
 - [Excellent]社区谱面创作系统
 
-### palworld
+### Palworld
 - [Qualify]pal-gear-system
 - [Qualify]pal-labor-system
 
@@ -945,7 +920,7 @@
 - [Excellent]season-economy-system
 - [Qualify]skill-gem-system
 
-### payday-3
+### Payday3
 - [Qualify]co-op-heist-gameplay
 
 ### PeaceEliteSubway
@@ -978,19 +953,13 @@
 - 生存沙盒-Project-Zomboid-声音视野系统
 
 ### PUBG
+- [Excellent]大逃杀-战术转移与载具系统
+- [Excellent]大逃杀-资源获取与装备系统
 - [Qualify]缩圈博弈系统
 
 ### R6Siege
 - [Qualify]可破坏环境系统
 - [Qualify]干员技能系统
-
-### Racing
-- [Excellent]ForzaHorizon5-SkillTree
-- [Excellent]NFSHeat-DayNightHeat
-- [Qualify]Asphalt9-NitroBoost
-- [Qualify]ForzaHorizon5-OpenWorld
-- [Qualify]QQFeiChe-DriftCharge
-- [Qualify]RealRacing3-AuthenticCars
 
 ### RedAlert3
 - [not_comfirmed]NavalUnits
@@ -999,8 +968,6 @@
 ### RefereeSimulator
 - 足球-裁判模拟器
 
-### RevelationMobile
-
 ### RidgeRacer
 - [not_comfirmed]NitroBoost
 - [Qualify]DriftNitrousSystem
@@ -1008,20 +975,6 @@
 ### RollerCoasterTycoon3
 - [Qualify]FacilityEditor
 - [Qualify]VisitorAI
-
-### RTS
-- [Excellent]RTS-3D空间作战系统
-- [Excellent]RTS-兵种相克系统
-- [Excellent]RTS-卡牌构筑系统
-- [Excellent]RTS-圣水费用系统
-- [Excellent]RTS-地图控制与野怪系统
-- [Excellent]RTS-实时战术微操
-- [Excellent]RTS-异步PVP系统
-- [Excellent]RTS-护盾保护机制
-- [Excellent]RTS-时代升级体系
-- [Excellent]RTS-英雄系统
-- [Excellent]RTS-资源采集体系
-- [Excellent]RTS-超级武器系统
 
 ### Rust
 - [生存沙盒]-RUST-基地建造
@@ -1043,7 +996,6 @@
 ### SanguoMoudingTianxia
 - [SLG]-三谋-六大职业分工PVP
 - [SLG]-三谋-智能铺路与连地机制
-- 游戏卡-三国谋定天下
 
 ### SanGuoZhanLue
 - [SLG]-三国志战略版-动态地图
@@ -1051,9 +1003,12 @@
 - [SLG]-三国志战略版-自由行军与碰撞交战
 - [SLG]-三战-兵种相克机制
 
+### SeaOfThieves
+- [Excellent]开放世界-SeaOfThieves-团队协作驾驶系统
+- [Excellent]开放世界-SeaOfThieves-海战夺金循环
+
 ### ShadowOfMordor
 - RPG-中土世界-宿敌系统
-- 游戏卡-中土世界暗影魔多
 
 ### Shadowverse
 - [Qualify]SameNameCard
@@ -1085,15 +1040,21 @@
 ### Splatoon3
 - [TPS]-Splatoon 3-潜墨游动机制
 
+### StarCraft2
+- [Excellent]RTS-兵种相克系统
+- [Excellent]RTS-实时战术微操
+- [Excellent]RTS-资源采集体系
+
 ### StardewValley
 - [Qualify]SkillSystem
 - [Qualify]TimeManagement
 
-### Starfield
-
 ### StreetFighter6
 - [Qualify]Drive系统
 - [Qualify]现代模式
+
+### SultansGame
+- [Excellent]卡牌-苏丹的游戏-苏丹卡系统
 
 ### Supernatural
 - [非对称]-超自然行动组-双人牵手
@@ -1114,8 +1075,6 @@
 - [not_comfirmed]WT行动顺序系统
 - [Qualify]35种地形系统
 - [Qualify]高低差地形战场
-
-### Tarisland
 
 ### TeamfightTactics
 - [Excellent]羁绊组合系统
@@ -1157,10 +1116,6 @@
 ### Valheim
 - gamecard
 
-### valorant
-- [Qualify]cosmetic-upgrade-system
-- [Qualify]skill-system
-
 ### Valorant
 - [FPS]-无畏契约-经济请求（发枪）系统
 - [Qualify]英雄技能系统
@@ -1170,6 +1125,9 @@
 
 ### VRising
 - BloodPoolResourceSystem
+
+### Warcraft3
+- [Excellent]RTS-地图控制与野怪系统
 
 ### WinterFall
 - [SLG]-无尽冬日-探险副本与放置挂机
@@ -1182,6 +1140,7 @@
 ### WorldOfWarcraft
 - [Excellent]DKP-TeamLootDistribution
 - [Excellent]GoldTeamAuction
+- [not_comfirmed]General-GuildWar
 - [Qualify]GKP-TeamLootDistribution
 - [Qualify]MountCollectionSystem
 - [Qualify]副本机制
@@ -1203,10 +1162,6 @@
 ### YuGiOhMasterDuel
 - [Qualify]连锁系统
 
-### zelda
-- [Excellent]korok-seed-collection
-- [Qualify]gradual-region-unlock
-
 ### Zelda
 - 开放世界-塞尔达传说-究极手UGC创造
 
@@ -1215,27 +1170,5 @@
 
 ### ZhuXian
 - MMORPG-诛仙世界-车轮战机制
-
-### 大逃杀
-- [Excellent]大逃杀-100人同场竞技
-- [Excellent]大逃杀-古拉格复活系统
-- [Excellent]大逃杀-合约系统
-- [Excellent]大逃杀-四人组队系统
-- [Excellent]大逃杀-战术转移与载具系统
-- [Excellent]大逃杀-缩圈博弈系统
-- [Excellent]大逃杀-装备舱Loadout系统
-- [Excellent]大逃杀-资源获取与装备系统
-
-### 搜打撤
-- [Excellent]搜打撤-PvPvE撤离机制
-- [Excellent]搜打撤-基地建设升级系统
-- [Excellent]搜打撤-大金收集系统
-- [Excellent]搜打撤-局外养成系统
-- [Excellent]搜打撤-撤离机制
-- [Excellent]搜打撤-机械敌人AI系统
-- [Excellent]搜打撤-枪械改装系统
-- [Excellent]搜打撤-硬核弹道护甲系统
-- [Excellent]搜打撤-科幻技能系统
-- [Excellent]搜打撤-装备带入带出系统
 
 *本索引每天自动更新*

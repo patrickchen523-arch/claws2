@@ -761,3 +761,28 @@
 - 步骤 2：不存在则创建游戏卡
 - 步骤 3：创建机制后同步更新游戏卡的"收录机制"
 - 步骤 4：运行 `generate-data.js` 重新生成网页数据
+
+---
+
+## 2026-03-12 新增
+
+### Pokotraction 项目 - Bug修复经验
+**最终版本**：v3.9（修复重复函数Bug）
+
+**关键Bug修复**：
+1. 重复的 keydown 事件监听器导致按一次键走两步
+2. 重复的 startBattle 函数导致无法进入战斗
+3. 战斗界面CSS修复：添加 .battle-overlay 的 display: flex 和 flex-direction: column
+4. 布局错乱修复：使用 !important 强制纵向排列
+5. 区域颜色不显示：添加 !important 确保优先级
+6. 顶部高度调整：90px → 120px → 160px → 200px 最终确定
+7. 小地图优化：margin-top: 30px, opacity: 0.8
+
+**养成系统设计（新增）**：
+- 技能资产化 - 仓库/打书/死亡清技能
+- 努力值系统 - 靶向药剂
+- 保险箱 - 50,000金币
+- 特性系统 - 休眠舱
+
+**文件位置**：
+- 最新：/root/.openclaw/agents/coder/workspace/projects/pokemon-extraction/index.html
