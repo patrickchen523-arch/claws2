@@ -92,6 +92,59 @@ description: 将游戏拆解分析结果格式化为 jizhi 机制库可入库的
 
 ---
 
+## 文件名命名规范（非常重要）
+
+**机制卡文件名格式**：
+```
+[品类]-[游戏名英文/拼音]-[具体模块名].md
+```
+
+**命名规则**：
+
+1. **前缀标签**（三选一）：
+   - `[Excellent]` - 优秀机制，推荐入库
+   - `[Qualify]` - 可选机制，需要评估
+   - `[not_comfirmed]` - 未确认，需要进一步验证
+
+2. **品类缩写**（使用标准英文缩写）：
+   | 品类 | 缩写 |
+   | :--- | :--- |
+   | FPS | FPS |
+   | MOBA | MOBA |
+   | RPG | RPG |
+   | Roguelike | Roguelike |
+   | 大逃杀 | BR |
+   | 搜打撤 | 撤离类 |
+   | RTS | RTS |
+   | 策略/战棋 | 策略 |
+   | 模拟经营 | 模拟经营 |
+   | 街机动作 | 街机 |
+   | MMO | MMORPG |
+
+3. **游戏名**：使用英文或拼音（与游戏卡文件名一致）
+   - 例如：`DeltaForce`、`HonorOfKings`、`Palworld`
+
+4. **模块名**：使用中文，简洁概括机制核心
+   - 例如：`干员技能系统`、`缩圈博弈系统`、`武器多形态切换`
+
+**正确示例**：
+```
+[Excellent][FPS]-DeltaForce-干员技能系统.md
+[Qualify][BR]-PUBG-缩圈博弈系统.md
+[Excellent][Roguelike]-Hades-武器多形态切换.md
+[Qualify][策略]-AgeOfEmpires4-时代升级体系.md
+```
+
+**错误示例**：
+```
+❌ 干员技能系统.md          # 缺少前缀和品类
+❌ FPS-干员技能.md          # 缺少游戏名
+❌ 三角洲行动干员技能.md    # 缺少品类前缀
+❌ [FPS]三角洲行动-干员技能.md  # 前缀格式错误
+```
+
+---
+
 ## 游戏库：背景扫盲卡 (Context Card)
 
 *辅助库，重点在于"扫盲"和"对标"，让不了解该游戏的人也能看懂机制的生效环境。*
@@ -158,7 +211,8 @@ description: 将游戏拆解分析结果格式化为 jizhi 机制库可入库的
 
 **情况 A：游戏卡已存在**
 - 读取现有游戏卡内容
-- 在"收录机制"部分添加新机制（格式：`- [品类]-游戏名-机制名`）
+- 在"收录机制"部分添加新机制（格式：`- [前缀][品类]-游戏名-模块名`）
+  - 例如：`- [Excellent]FPS-DeltaForce-干员技能系统`
 
 **情况 B：游戏卡不存在**
 - 使用 game-analyse 工作流拆解该游戏
@@ -169,8 +223,21 @@ description: 将游戏拆解分析结果格式化为 jizhi 机制库可入库的
 
 ### 步骤 5：写入文件
 用户确认后写入 jizhi workspace：
-- 机制：`/root/.openclaw/agents/jizhi/workspace/mechanisms/[游戏英文名]/[机制名].md`
-- 游戏：`/root/.openclaw/agents/jizhi/workspace/games/[游戏英文名].md`
+
+- **机制卡路径**：`/root/.openclaw/agents/jizhi/workspace/mechanisms/[游戏英文名]/[前缀][品类]-[游戏英文名]-[模块名].md`
+  - 例如：`/root/.openclaw/agents/jizhi/workspace/mechanisms/DeltaForce/[Excellent]FPS-DeltaForce-干员技能系统.md`
+
+- **游戏卡路径**：`/root/.openclaw/agents/jizhi/workspace/games/[游戏英文名].md`
+  - 例如：`/root/.openclaw/agents/jizhi/workspace/games/DeltaForce.md`
+
+**文件名生成公式**：
+```
+[前缀][品类]-[游戏英文名]-[模块名].md
+```
+- 前缀：`[Excellent]` / `[Qualify]` / `[not_comfirmed]`
+- 品类：FPS / MOBA / RPG / Roguelike / BR / 撤离类 / RTS / 策略 / 模拟经营 / 街机 / MMORPG
+- 游戏英文名：与游戏卡文件名一致（如 `DeltaForce`、`HonorOfKings`）
+- 模块名：中文描述（如 `干员技能系统`、`缩圈博弈系统`）
 
 ### 步骤 6：重新生成网页数据（增量更新）
 
@@ -217,7 +284,8 @@ node generate-data.js
 - **演示素材**：机制卡必填，提供GIF或视频链接
 - **核心标签**：必填。先查阅标准化标签表，选用已有标签归并，多个标签用空格分隔
 - **来源游戏**：格式为 🔗 *游戏名*，与游戏库关联
-- **收录机制**：格式为 [品类]-游戏名-机制名
+- **收录机制**：格式为 `[前缀][品类]-游戏名-模块名`
+  - 例如：`[Excellent]FPS-DeltaForce-干员技能系统`
 
 ---
 
