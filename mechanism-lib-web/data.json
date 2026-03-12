@@ -9097,6 +9097,34 @@
       "filename": "[Qualify]现代模式.md",
       "source": "AI生成-未甄别"
     },
+    "SultansGame/[Excellent]卡牌-苏丹的游戏-苏丹卡系统.md": {
+      "title": "[Excellent]卡牌-苏丹的游戏-苏丹卡系统",
+      "gameName": "苏丹的游戏",
+      "tags": [
+        "卡牌系统",
+        "生存压力",
+        "苏丹卡"
+      ],
+      "simpleDesc": "每周随机抽一张\"死亡卡\"——纵欲、奢靡、征服、杀戮四种类型，每种有金/银/铜/铁四 grades品级，必须在7天内完成卡上任务，否则被处决。",
+      "mechanismDesc": "1.",
+      "coreRules": "",
+      "trigger": "- 每周开始时自动抽取一张苏丹卡",
+      "painPoint": "- 传统卡牌游戏\"随机抽取\"的无关痛痒",
+      "experienceGoal": "- 生存压力带来的紧张感",
+      "similarMechanisms": [
+        {
+          "game": "杀戮尖塔",
+          "mechanism": "的随机事件卡"
+        },
+        {
+          "game": "运气",
+          "mechanism": "的命运卡系统"
+        }
+      ],
+      "demo": "游戏实机演示视频",
+      "filename": "[Excellent]卡牌-苏丹的游戏-苏丹卡系统.md",
+      "source": "AI生成-已甄别"
+    },
     "Supernatural/[非对称]-超自然行动组-双人牵手.md": {
       "title": "[非对称]-超自然行动组-双人牵手",
       "gameName": "超自然行动组",
@@ -13843,7 +13871,8 @@
         "主城社交",
         "宠物互动",
         "剧情叙事",
-        "外观幻化"
+        "外观幻化",
+        "MMO-FF14-宠物互动彩蛋"
       ],
       "filename": "FF14.md",
       "source": "人工"
@@ -16035,7 +16064,8 @@
       "achievements": "",
       "relatedMechanisms": [
         "（待录入）",
-        "足球-Matchday-Champions-比赛玩法"
+        "足球-Matchday-Champions-比赛玩法",
+        "游戏卡-Matchday-Champions"
       ],
       "filename": "MatchdayChampions.md",
       "source": "人工"
@@ -18091,6 +18121,29 @@
       "filename": "StreetFighter6.md",
       "source": "人工"
     },
+    "SultansGame": {
+      "title": "苏丹的游戏",
+      "gameName": "",
+      "developer": "",
+      "publisher": "",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "",
+      "monetization": "",
+      "xStatement": "一千零一夜风格卡牌叙事游戏，玩家扮演苏丹的臣子，每周抽取\"纵欲/奢靡/征服/杀戮\"四种苏丹卡，在七天内完成极端任务，通过网状叙事做出抉择走向50+种结局。\n\n---",
+      "tagline": "",
+      "playerStats": "",
+      "coreLoop": "- 抽卡→7天倒计时→完成任务→循环多周目",
+      "difficulty": "- 中等门槛",
+      "prototype": "",
+      "pillars": [],
+      "achievements": "",
+      "relatedMechanisms": [
+        "[Excellent]卡牌-苏丹的游戏-苏丹卡系统"
+      ],
+      "filename": "SultansGame.md",
+      "source": "人工"
+    },
     "Supernatural": {
       "title": "超自然行动组 / The Finals",
       "gameName": "超自然行动组 - 摸金撤离 / The Finals",
@@ -19061,25 +19114,51 @@
       "developer": "Blizzard Entertainment",
       "publisher": "",
       "platform": "PC",
-      "releaseDate": "2004年",
+      "releaseDate": "2004年11月23日",
       "genre": "MMORPG",
       "monetization": "",
-      "xStatement": "Blizzard MMORPG，阵营对抗+Raid",
-      "tagline": "Blizzard MMORPG",
+      "xStatement": "公式：多人在线RPG + 阵营对抗 + 团队副本 + 社交驱动\n\n一句话解释：\n 一个让玩家扮演英雄角色，在艾泽拉斯大陆上与朋友一起挑战副本、争夺阵营荣誉的MMORPG世界\n\n---",
+      "tagline": "易上手版 EverQuest，MMORPG品类奠基之作",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
-      "pillars": [],
+      "prototype": "核心玩法借鉴\n\n玩法原型：《World of Warcraft》是基于 EverQuest 的体验：\n\n- EverQuest 核心理念：D&D规则下的沉浸式MMO体验，高自由度探索，慢节奏培养， hardcore式社交\n- WoW 的独特改进：\n  1. 降低上手门槛：任务引导替代自由探索，自动寻路，简化升级曲线\n  2. 区域隔离设计：副本（Instance）机制让组队体验更可控，取代EQ的开放式野外Boss\n  3. 视觉奇观化：更华丽的特效、更宏伟的场景，强调\"史诗感\"\n  4. 阵营叙事强化：联盟vs部落的对立感比EQ阵营更强烈且标签化\n\n 设计传承链\n\n```\nD&D桌游 → Ultima Online(MUD源头) → EverQuest(3D MMO奠基) → WoW(易用性革命)\n```\n\n---",
+      "pillars": [
+        {
+          "title": "阵营对立（Alliance vs Horde）",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "团队副本（Raid）",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "角色成长与天赋树",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "PVP竞技",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "社交与公会",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
-        "[MMO]-WorldOfWarcraft-天赋树系统",
-        "DKP-TeamLootDistribution",
-        "GoldTeamAuction",
-        "GKP-TeamLootDistribution",
-        "MountCollectionSystem",
-        "副本机制",
-        "General-GuildWar"
+        "[Qualify]MMORPG-WorldOfWarcraft-天赋树系统",
+        "[Excellent]MMORPG-WorldOfWarcraft-DKP团队 loot 分配",
+        "[Excellent]MMORPG-WorldOfWarcraft-GKP团队 loot 分配",
+        "[Qualify]MMORPG-WorldOfWarcraft-金币团队拍卖",
+        "[Qualify]MMORPG-WorldOfWarcraft-坐骑收集系统",
+        "[Qualify]MMORPG-WorldOfWarcraft-副本机制",
+        "[not_comfirmed]MMORPG-WorldOfWarcraft-公会战争"
       ],
       "filename": "WorldOfWarcraft.md",
       "source": "人工"
@@ -20047,7 +20126,7 @@
     }
   },
   "stats": {
-    "mechanismCount": 420,
-    "gameCount": 334
+    "mechanismCount": 421,
+    "gameCount": 335
   }
 }
