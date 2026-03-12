@@ -6860,6 +6860,21 @@
       "filename": "[Qualify]位置机制.md",
       "source": "AI生成-未甄别"
     },
+    "MatchdayChampions/游戏卡-Matchday-Champions.md": {
+      "title": "Matchday Champions 游戏拆解报告",
+      "gameName": "",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "游戏卡-Matchday-Champions.md",
+      "source": "人工"
+    },
     "MatchdayChampions/足球-Matchday-Champions-比赛玩法.md": {
       "title": "[足球]-Matchday Champions-比赛玩法",
       "gameName": "Matchday Champions",
@@ -8432,6 +8447,63 @@
       "filename": "[SLG]-三谋-智能铺路与连地机制.md",
       "source": "人工"
     },
+    "SeaOfThieves/[Excellent]开放世界-SeaOfThieves-团队协作驾驶系统.md": {
+      "title": "[Excellent]开放世界-SeaOfThieves-团队协作驾驶系统",
+      "gameName": "Sea of Thieves",
+      "tags": [
+        "分工驾驶",
+        "多人协作",
+        "船只操作"
+      ],
+      "simpleDesc": "一艘船需要多人配合：一人掌舵控制方向，一人收放帆调整速度，一人负责抛锚停船——每个人各司其职才能把船开好。",
+      "mechanismDesc": "1.",
+      "coreRules": "",
+      "trigger": "- 玩家登上船只时自动分配操作权限",
+      "painPoint": "- 传统航海游戏\"一人开全船\"的单调感",
+      "experienceGoal": "- 团队协作带来的配合乐趣",
+      "similarMechanisms": [
+        {
+          "game": "盗贼之海",
+          "mechanism": "的船只系统"
+        },
+        {
+          "game": "Naval Action",
+          "mechanism": "的船只操作"
+        }
+      ],
+      "demo": "游戏实机演示视频",
+      "filename": "[Excellent]开放世界-SeaOfThieves-团队协作驾驶系统.md",
+      "source": "AI生成-已甄别"
+    },
+    "SeaOfThieves/[Excellent]开放世界-SeaOfThieves-海战夺金循环.md": {
+      "title": "[Excellent]开放世界-SeaOfThieves-海战夺金循环",
+      "gameName": "Sea of Thieves",
+      "tags": [
+        "PVP",
+        "夺金",
+        "核心循环",
+        "海战"
+      ],
+      "simpleDesc": "游戏核心是\"抢钱\"——你可以安稳挖宝交货，也可以直接抢劫其他玩家的船抢宝藏，活着把战利品带回去才算真正赢。",
+      "mechanismDesc": "1.",
+      "coreRules": "",
+      "trigger": "- 玩家在海上遭遇其他玩家时触发",
+      "painPoint": "- 传统航海游戏\"只有挖宝\"的单调感",
+      "experienceGoal": "- PVP带来的紧张刺激感",
+      "similarMechanisms": [
+        {
+          "game": "盗贼之海",
+          "mechanism": "的劫掠玩法"
+        },
+        {
+          "game": "江湖儿女",
+          "mechanism": "的海盗战斗"
+        }
+      ],
+      "demo": "游戏实机演示视频",
+      "filename": "[Excellent]开放世界-SeaOfThieves-海战夺金循环.md",
+      "source": "AI生成-已甄别"
+    },
     "ShadowOfMordor/RPG-中土世界-宿敌系统.md": {
       "title": "[RPG]-中土世界-宿敌系统",
       "gameName": "Middle-earth: Shadow of Mordor",
@@ -9931,6 +10003,21 @@
       "demo": "待补充游戏内演示视频",
       "filename": "BloodPoolResourceSystem.md",
       "source": "AI生成-未甄别"
+    },
+    "VRising/game-card.md": {
+      "title": "游戏卡：V Rising / 吸血鬼崛起",
+      "gameName": "",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "game-card.md",
+      "source": "人工"
     },
     "Valheim/gamecard.md": {
       "title": "Valheim / 英灵神殿",
@@ -13741,21 +13828,22 @@
       "developer": "Square Enix",
       "publisher": "",
       "platform": "PC / 主机",
-      "releaseDate": "2010年",
+      "releaseDate": "2010年（1.0版本），2013年重构上线2.0版本",
       "genre": "MMORPG",
       "monetization": "点卡/月卡",
-      "xStatement": "最终幻想\n\n用于整备、社交的多人非战斗场景。\n\n---",
+      "xStatement": "多人在线 + PVE副本 + JRPG级剧情叙事\n\n游戏核心公式：基于JRPG单机大作的叙事手法打造MMO世界，通过\"减负\"设计理念让玩家自由选择肝度，以温暖的社交氛围凝聚玩家社区。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "游玩场景 -> 与他人互动 -> 匹配和离开",
-      "difficulty": "低。仅需移动和交互",
-      "prototype": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：借鉴传统MMO + 单机3A叙事\n\n1. 副本玩法：借鉴传统MMORPG的团队副本设计，8人/24人raid，强调职业配合与机制处理\n2. 叙事设计：借鉴《上古卷轴5》《荒野大镖客2》等3A单机的播片叙事手法，每条主线任务都有匹配的动画播放，沉浸式讲述艾欧泽亚世界的故事\n3. 减负理念：区别于传统MMO的\"每日任务催促\"，玩家可自由选择肝度，装备获取途径多样\n\n---",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
         "主城社交",
         "宠物互动",
-        "MMO-FF14-宠物互动彩蛋"
+        "剧情叙事",
+        "外观幻化"
       ],
       "filename": "FF14.md",
       "source": "人工"
@@ -13897,7 +13985,7 @@
       "developer": "Square Enix",
       "publisher": "",
       "platform": "PC / PS",
-      "releaseDate": "2010年",
+      "releaseDate": "2010年（初版），2013年重新上线（A Realm Reborn）",
       "genre": "MMORPG",
       "monetization": "",
       "xStatement": "",
@@ -14220,25 +14308,23 @@
       "source": "人工"
     },
     "GhostBlade": {
-      "title": "Ghost Blade / 倩女幽魂",
-      "gameName": "倩女幽魂（Ghost Blade）",
+      "title": "Ghost Blade（倩女幽魂）游戏拆解",
+      "gameName": "",
       "developer": "",
       "publisher": "",
       "platform": "",
       "releaseDate": "",
-      "genre": "MMORPG手游",
+      "genre": "",
       "monetization": "",
       "xStatement": "",
-      "tagline": "网易MMO手游经典，电视剧IP联动",
+      "tagline": "",
       "playerStats": "",
-      "coreLoop": "- 升级→副本→剧情/电影式体验→外观消费",
-      "difficulty": "- 较低门槛",
+      "coreLoop": "",
+      "difficulty": "",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "[MMO]-GhostBlade-剧情电影化系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "GhostBlade.md",
       "source": "人工"
     },
@@ -17536,22 +17622,25 @@
     },
     "SeaOfThieves": {
       "title": "Sea of Thieves / 盗贼之海",
-      "gameName": "盗贼之海 / Sea of Thieves",
-      "developer": "Rare",
+      "gameName": "",
+      "developer": "",
       "publisher": "",
-      "platform": "PC / Xbox",
-      "releaseDate": "2018年",
-      "genre": "开放世界 / 航海",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "",
       "monetization": "",
-      "xStatement": "Rare开放世界航海，合作+寻宝",
-      "tagline": "航海探险",
+      "xStatement": "开放世界航海冒险游戏，玩家组队驾船探索海域、寻找宝藏、挑战传奇生物，与其他海盗进行海战，体验真实的航海冒险乐趣。\n\n---",
+      "tagline": "",
       "playerStats": "",
-      "coreLoop": "",
-      "difficulty": "",
+      "coreLoop": "- 驾船出海 → 发现岛屿 → 寻找宝藏 → 海战夺金 → 返回交货",
+      "difficulty": "- 中等门槛（需要团队配合）",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[Excellent]开放世界-SeaOfThieves-团队协作驾驶系统",
+        "[Excellent]开放世界-SeaOfThieves-海战夺金循环"
+      ],
       "filename": "SeaOfThieves.md",
       "source": "人工"
     },
@@ -18489,8 +18578,8 @@
     "TriangleStrategy": {
       "title": "三角战略 / Triangle Strategy",
       "gameName": "三角战略 (Triangle Strategy)",
-      "developer": "",
-      "publisher": "",
+      "developer": "Square Enix, ARTDINK",
+      "publisher": "Square Enix",
       "platform": "",
       "releaseDate": "",
       "genre": "SRPG / 策略战棋",
@@ -18498,15 +18587,33 @@
       "xStatement": "",
       "tagline": "HD-2D画面 + 政策辩论战棋",
       "playerStats": "",
-      "coreLoop": "在战场布局策略单位 → 利用地形和职业差异战斗 → 通过辩论选择国家政策 → 推进多结局剧情",
-      "difficulty": "中偏高。策略深度较高，剧情选择影响大",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[战棋]-TriangleStrategy-政策辩论系统",
-        "[战棋]-TriangleStrategy-信念值系统"
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "战斗系统原型\n- 借鉴来源：Fire Emblem + Tactics Ogre\n- 核心理念：经典战棋玩法的现代演绎，强调地形利用和职业克制\n- 独特创新：\n  - 夹击系统（Pinch/夹击）：单位被包围时触发额外攻击\n  - 地形高低差：不同高度地形影响攻击范围和伤害\n\n 叙事系统原型\n- 借鉴来源：Tactics Ogre（骑空士团作品）\n- 核心理念：基于阵营选择的多结局叙事\n- 独特创新：\n  - 信念值系统（Scales of Conviction）：玩家在剧情中的选择会影响\"信念\"倾向\n  - 三国政治博弈：三个国家之间的权谋斗争\n\n 视觉风格原型\n- 借鉴来源：Octopath Traveler（HD-2D）\n- 核心理念：像素艺术与3D光影的融合\n- 独特创新：复古像素角色 + 精细3D场景的视觉美学\n\n---",
+      "pillars": [
+        {
+          "title": "【史诗级多分支叙事】-> 【三国政治博弈 + 信念值系统】-> 【3个国家、30+章节、多结局】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【策略深度战斗】-> 【夹击系统 + 地形高低差 + 职业协同】-> 【职业系统、夹击机制、地形加成】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【HD-2D视觉美学】-> 【像素角色 + 3D场景 + 精细光影】-> 【复古与现代融合】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【高重玩价值】-> 【多周目继承 + 路线解锁】-> 【多周目继承系统】",
+          "experience": "",
+          "design": ""
+        }
       ],
+      "achievements": "",
+      "relatedMechanisms": [],
       "filename": "TriangleStrategy.md",
       "source": "人工"
     },
@@ -19940,7 +20047,7 @@
     }
   },
   "stats": {
-    "mechanismCount": 416,
+    "mechanismCount": 420,
     "gameCount": 334
   }
 }
