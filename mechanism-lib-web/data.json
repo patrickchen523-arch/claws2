@@ -5679,7 +5679,7 @@
       ],
       "demo": "Steam商店页面或YouTube实机演示视频",
       "filename": "[Excellent]Roguelike-Inkbound-临界充能系统.md",
-      "source": "人工"
+      "source": "AI生成-已甄别"
     },
     "Inkbound/[Excellent]Roguelike-Inkbound-伪回合制战斗系统.md": {
       "title": "[Excellent]Roguelike-Inkbound-伪回合制战斗系统",
@@ -5707,7 +5707,7 @@
       ],
       "demo": "Steam商店页面或YouTube实机演示视频",
       "filename": "[Excellent]Roguelike-Inkbound-伪回合制战斗系统.md",
-      "source": "人工"
+      "source": "AI生成-已甄别"
     },
     "Inkbound/[Excellent]Roguelike-Inkbound-技能强化系统.md": {
       "title": "[Excellent]Roguelike-Inkbound-技能强化系统",
@@ -5736,7 +5736,7 @@
       ],
       "demo": "Steam商店页面或YouTube实机演示视频",
       "filename": "[Excellent]Roguelike-Inkbound-技能强化系统.md",
-      "source": "人工"
+      "source": "AI生成-已甄别"
     },
     "Inkbound/[Excellent]Roguelike-Inkbound-能量宝珠系统.md": {
       "title": "[Excellent]Roguelike-Inkbound-能量宝珠系统",
@@ -5764,7 +5764,7 @@
       ],
       "demo": "Steam商店页面或YouTube实机演示视频",
       "filename": "[Excellent]Roguelike-Inkbound-能量宝珠系统.md",
-      "source": "人工"
+      "source": "AI生成-已甄别"
     },
     "Inkbound/[Excellent]Roguelike-Inkbound-遗物套装系统.md": {
       "title": "[Excellent]Roguelike-Inkbound-遗物套装系统",
@@ -5792,7 +5792,7 @@
       ],
       "demo": "Steam商店页面或YouTube实机演示视频",
       "filename": "[Excellent]Roguelike-Inkbound-遗物套装系统.md",
-      "source": "人工"
+      "source": "AI生成-已甄别"
     },
     "IntoTheBreach/[Qualify]BuildingProtection.md": {
       "title": "[战棋]-[陷阵之志]-[建筑保护目标]",
@@ -6556,6 +6556,58 @@
       "demo": "暂无（需补充GIF或视频链接）",
       "filename": "[not_comfirmed]BlockMechanism.md",
       "source": "AI生成-未甄别"
+    },
+    "LiarsBar/[Excellent]桌游-LiarsBar-俄罗斯轮盘赌惩罚机制.md": {
+      "title": "[Excellent]桌游-LiarsBar-俄罗斯轮盘赌惩罚机制",
+      "gameName": "Liar's Bar",
+      "tags": [
+        "俄罗斯轮盘赌",
+        "心理压力",
+        "高风险惩罚"
+      ],
+      "simpleDesc": "博弈失败者的\"赌命\"环节——6发子弹中只有1发是实弹，扣动扳机决定生死，失败直接退出游戏。",
+      "mechanismDesc": "1.",
+      "coreRules": "",
+      "trigger": "2. **轮盘机制**：左轮手枪6个弹槽，1发实弹",
+      "painPoint": "- 桌游惩罚\"无关痛痒\"的轻快感",
+      "experienceGoal": "- 高风险带来极致紧张感",
+      "similarMechanisms": [
+        {
+          "game": "俄罗斯轮盘",
+          "mechanism": "电影"
+        }
+      ],
+      "demo": "游戏实机演示视频",
+      "filename": "[Excellent]桌游-LiarsBar-俄罗斯轮盘赌惩罚机制.md",
+      "source": "AI生成-已甄别"
+    },
+    "LiarsBar/[Excellent]桌游-LiarsBar-谎牌博弈系统.md": {
+      "title": "[Excellent]桌游-LiarsBar-谎牌博弈系统",
+      "gameName": "Liar's Bar",
+      "tags": [
+        "心理博弈",
+        "谎牌博弈",
+        "质疑机制"
+      ],
+      "simpleDesc": "类似\"吹牛\"的玩法——玩家轮流报出手牌点数，可以故意报错误导对手，当有人质疑时验证真假，撒谎者受惩罚。",
+      "mechanismDesc": "1.",
+      "coreRules": "",
+      "trigger": "- 玩家回合开始时进行叫牌",
+      "painPoint": "- 传统桌游\"纯运气\"的无聊感",
+      "experienceGoal": "- 心理博弈带来的紧张刺激感",
+      "similarMechanisms": [
+        {
+          "game": "作弊派对",
+          "mechanism": "的吹牛机制"
+        },
+        {
+          "game": "三国杀",
+          "mechanism": "的质疑机制"
+        }
+      ],
+      "demo": "游戏实机演示视频",
+      "filename": "[Excellent]桌游-LiarsBar-谎牌博弈系统.md",
+      "source": "AI生成-已甄别"
     },
     "LibraryOfRuina/卡牌-废墟图书馆-动态拼点博弈机制.md": {
       "title": "[卡牌]-Library of Ruina-动态拼点博弈机制",
@@ -11329,7 +11381,11 @@
         }
       ],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "RTS-时代升级体系",
+        "RTS-英雄系统",
+        "RTS-超级武器系统"
+      ],
       "filename": "AgeOfEmpires4.md",
       "source": "人工"
     },
@@ -11533,7 +11589,15 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "搜打撤-大金收集系统",
+        "搜打撤-局外养成系统",
+        "搜打撤-撤离机制",
+        "搜打撤-枪械改装系统",
+        "搜打撤-硬核弹道护甲系统",
+        "搜打撤-装备带入带出系统",
+        "loadout-system"
+      ],
       "filename": "ArenaBreakoutInfinite.md",
       "source": "人工"
     },
@@ -12241,6 +12305,10 @@
       "relatedMechanisms": [
         "[BR]-使命召唤战区-古拉格对决",
         "[FPS]-使命召唤-连杀奖励系统",
+        "大逃杀-古拉格复活系统",
+        "大逃杀-合约系统",
+        "大逃杀-装备舱Loadout系统",
+        "gulag-revive",
         "[BR]-使命召唤战区-古拉格对决>"
       ],
       "filename": "CallOfDutyWarzone.md",
@@ -12451,7 +12519,9 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "RTS-护盾保护机制"
+      ],
       "filename": "ClashOfClans.md",
       "source": "人工"
     },
@@ -12474,7 +12544,10 @@
       "achievements": "",
       "relatedMechanisms": [
         "谁是皇子玩法",
-        "即时策略-皇室战争-父子局"
+        "即时策略-皇室战争-父子局",
+        "RTS-卡牌构筑系统",
+        "RTS-圣水费用系统",
+        "RTS-异步PVP系统"
       ],
       "filename": "ClashRoyale.md",
       "source": "人工"
@@ -12869,7 +12942,8 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "MOBA-DOTA2-反补机制"
+        "MOBA-DOTA2-反补机制",
+        "LastHitDenial"
       ],
       "filename": "DOTA2.md",
       "source": "人工"
@@ -13533,7 +13607,10 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[撤离类]-逃离塔科夫-安全箱"
+        "[撤离类]-逃离塔科夫-安全箱",
+        "escape-mechanism",
+        "gear-BringInTakeOut",
+        "gold-items-system"
       ],
       "filename": "EscapeFromTarkov.md",
       "source": "人工"
@@ -14068,7 +14145,10 @@
       "achievements": "",
       "relatedMechanisms": [
         "[大逃杀]-GameForPeace-缩圈机制",
-        "[大逃杀]-GameForPeace-四人组队系统"
+        "[大逃杀]-GameForPeace-四人组队系统",
+        "大逃杀-100人同场竞技",
+        "大逃杀-四人组队系统",
+        "大逃杀-缩圈博弈系统"
       ],
       "filename": "GameForPeace.md",
       "source": "人工"
@@ -14577,7 +14657,8 @@
       "achievements": "",
       "relatedMechanisms": [
         "策略卡牌-炉石传说-法力水晶系统",
-        "ClassRestriction"
+        "ClassRestriction",
+        "DustSystem"
       ],
       "filename": "Hearthstone.md",
       "source": "人工"
@@ -14739,7 +14820,8 @@
       "achievements": "",
       "relatedMechanisms": [
         "[RTS]-Homeworld2-3D空间作战体系",
-        "[RTS]-Homeworld2-母舰养成系统"
+        "[RTS]-Homeworld2-母舰养成系统",
+        "RTS-3D空间作战系统"
       ],
       "filename": "Homeworld2.md",
       "source": "人工"
@@ -14817,7 +14899,12 @@
         "HonorOfKings-RankingELOSystem",
         "HonorPassSystem",
         "dream-map-collapse",
-        "SocialMatchmaking"
+        "SocialMatchmaking",
+        "moba-hex-arena-rune",
+        "moba-arena-prebuy-gear",
+        "moba-arena-random-hero",
+        "moba-arena-shared-pool",
+        "moba-dream-arena-single-lane"
       ],
       "filename": "HonorOfKings.md",
       "source": "人工"
@@ -15036,7 +15123,9 @@
       "relatedMechanisms": [
         "[MMO]-JX3-轻功系统",
         "[MMO]-JX3-捏脸系统",
-        "[MMO]-JX3-外观皮肤系统"
+        "[MMO]-JX3-外观皮肤系统",
+        "JX3-TianGongTree",
+        "WoW-CrossFactionGuild"
       ],
       "filename": "JX3.md",
       "source": "人工"
@@ -15426,6 +15515,30 @@
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "LegendsOfRuneterra.md",
+      "source": "人工"
+    },
+    "LiarsBar": {
+      "title": "Liar's Bar / 骗子酒吧",
+      "gameName": "",
+      "developer": "",
+      "publisher": "",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "",
+      "monetization": "",
+      "xStatement": "多人在线社交推理游戏，玩家在酒吧中进行扑克牌和骰子博弈，通过欺骗和推理互相试探，失败者面临俄罗斯轮盘赌惩罚。\n\n---",
+      "tagline": "",
+      "playerStats": "",
+      "coreLoop": "- 入座酒吧 → 扑克/骰子博弈 → 质疑揭穿 → 俄罗斯轮盘赌 → 循环",
+      "difficulty": "- 低门槛",
+      "prototype": "",
+      "pillars": [],
+      "achievements": "",
+      "relatedMechanisms": [
+        "[Excellent]桌游-LiarsBar-谎牌博弈系统",
+        "[Excellent]桌游-LiarsBar-俄罗斯轮盘赌惩罚机制"
+      ],
+      "filename": "LiarsBar.md",
       "source": "人工"
     },
     "LibraryOfRuina": {
@@ -17806,7 +17919,10 @@
       "relatedMechanisms": [
         "[RTS]-StarCraft2-资源采集体系",
         "[RTS]-StarCraft2-兵种相克系统",
-        "[RTS]-StarCraft2-实时战术微操"
+        "[RTS]-StarCraft2-实时战术微操",
+        "RTS-兵种相克系统",
+        "RTS-实时战术微操",
+        "RTS-资源采集体系"
       ],
       "filename": "StarCraft2.md",
       "source": "人工"
@@ -18855,7 +18971,8 @@
         "GoldTeamAuction",
         "GKP-TeamLootDistribution",
         "MountCollectionSystem",
-        "副本机制"
+        "副本机制",
+        "General-GuildWar"
       ],
       "filename": "WorldOfWarcraft.md",
       "source": "人工"
@@ -19823,7 +19940,7 @@
     }
   },
   "stats": {
-    "mechanismCount": 414,
-    "gameCount": 333
+    "mechanismCount": 416,
+    "gameCount": 334
   }
 }
