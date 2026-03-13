@@ -1,6 +1,6 @@
 # 机制库索引
 
-> 最后更新：2026-03-13
+> 最后更新：2026-03-14
 
 ---
 
@@ -37,13 +37,13 @@
 | balatro | - | 2 |
 | BaldursGate3 | - | 3 |
 | Barony | - | 1 |
-| Battlegrounds | - | 1 |
+| Battlegrounds | - | 2 |
 | BestEleven | - | 1 |
 | BlackMythWukong | - | 2 |
 | BoomBeach | - | 0 |
 | Borderlands3 | - | 0 |
 | BrawlStars | - | 0 |
-| BuriedBornes2 | - | 1 |
+| BuriedBornes2 | - | 4 |
 | CadillacsAndDinosaurs | - | 2 |
 | Calabiyau | - | 1 |
 | CallOfDutyBlackOps6 | - | 0 |
@@ -83,9 +83,9 @@
 | DeadByDaylight | - | 0 |
 | DeadCells | - | 3 |
 | Deemo | - | 1 |
-| DeltaForce | - | 8 |
+| DeltaForce | - | 6 |
 | Destiny2 | - | 0 |
-| DiabloIIResurrected | - | 0 |
+| DiabloIIResurrected | - | 1 |
 | DiabloIV | - | 2 |
 | DianFengJiSu | - | 4 |
 | DirtRally | - | 0 |
@@ -97,7 +97,7 @@
 | DNFOrigins | - | 4 |
 | DontStarve | - | 2 |
 | DOTA2 | - | 1 |
-| DotaUnderlords | - | 0 |
+| DotaUnderlords | - | 4 |
 | DragonNest2 | - | 0 |
 | DragonsDogma2 | - | 1 |
 | DuoduoAutoChess | - | 4 |
@@ -115,7 +115,7 @@
 | F1 | - | 1 |
 | FallGuys | - | 0 |
 | Fallout76 | - | 0 |
-| Fantasian | - | 1 |
+| Fantasian | - | 2 |
 | Farlight84 | - | 0 |
 | FCMobile | - | 2 |
 | FF14 | - | 1 |
@@ -130,7 +130,7 @@
 | Frostpunk | - | 0 |
 | GameForPeace | - | 3 |
 | GangLan | - | 0 |
-| GenshinImpact | - | 8 |
+| GenshinImpact | - | 7 |
 | genshin | - | 0 |
 | GhostBlade | - | 0 |
 | GirlsFrontline2 | - | 0 |
@@ -222,6 +222,7 @@
 | NiNoKuniCrossingWorlds | - | 0 |
 | Nioh | - | 1 |
 | NoRestForTheWicked | - | 0 |
+| NZ2 | - | 2 |
 | OnePieceTreasureCruise | - | 0 |
 | Onmyoji | - | 2 |
 | osu | - | 1 |
@@ -281,13 +282,14 @@
 | SnowRunner | - | 0 |
 | SonsOfTheForest | - | 1 |
 | SoulcaliburVI | - | 1 |
-| SpaceKillerClown | - | 1 |
+| SpaceKillerClown | - | 2 |
 | SpaceMarine2 | - | 0 |
 | Splatoon3 | - | 1 |
 | Squad | - | 0 |
 | StarCraft2 | - | 3 |
 | StardewValley | - | 2 |
 | Starfield | - | 0 |
+| Stellaris | - | 3 |
 | StreetFighter6 | - | 2 |
 | SultansGame | - | 1 |
 | Supernatural | - | 4 |
@@ -306,7 +308,7 @@
 | TianDiJie | - | 1 |
 | TorchlightInfinite | - | 0 |
 | TowerOfFantasy | - | 1 |
-| TrackMania | - | 3 |
+| TrackMania | - | 4 |
 | TriangleStrategy | - | 0 |
 | TwoPointHospital | - | 1 |
 | UmaMusume | - | 1 |
@@ -336,10 +338,11 @@
 | YongJieWuJianShouYou | - | 0 |
 | YuGiOhDuelLinks | - | 0 |
 | YuGiOhMasterDuel | - | 1 |
-| ZeldaBreathoftheWild | - | 1 |
-| Zelda | - | 1 |
+| ZeldaBreathoftheWild | - | 6 |
+| Zelda | - | 6 |
+| ZeldaTearsoftheKingdom | - | 1 |
 | zenless-zone-zero | - | 1 |
-| ZenlessZoneZero | - | 0 |
+| ZenlessZoneZero | - | 1 |
 | ZhangeArena | - | 0 |
 | ZhanSanguo | - | 0 |
 | ZhuXian | - | 1 |
@@ -441,6 +444,7 @@
 
 ### Battlegrounds
 - [Qualify]YingxiongJinengXitong
+- 游戏卡-Battlegrounds
 
 ### BestEleven
 - 足球-最佳11人-模拟生涯
@@ -452,6 +456,9 @@
 ### Borderlands3
 
 ### BuriedBornes2
+- 肉鸽-BuriedBornes2-勇气值Burst技能系统
+- 肉鸽-BuriedBornes2-因子继承系统
+- 肉鸽-BuriedBornes2-工会战异步竞赛系统
 - 肉鸽-BuriedBornes2-离群亡魂异步PVP系统
 
 ### CadillacsAndDinosaurs
@@ -476,6 +483,8 @@
 
 ### CarrotFantasy
 - [Qualify]GoldenCarrotSystem
+
+### CFLegends
 
 ### ChanganFantasy
 - 回合制MMO-长安幻想-天都争锋
@@ -508,6 +517,8 @@
 - [not_comfirmed]DestructibleEnvironment
 - [Qualify]CoverSuppression
 
+### ConquerorsBlade
+
 ### CS2
 - [FPS]-Counter-Strike 2-体积烟雾互动系统
 - [Qualify]经济博弈系统
@@ -530,14 +541,15 @@
 - [Excellent]剧情叙事融合系统
 
 ### DeltaForce
-- [Excellent]FPS-干员技能系统
+- [Excellent][FPS]-DeltaForce-干员技能系统
 - [Excellent]FPS-曼德尔砖机制
 - [Excellent]FPS-载具作战系统
-- [Excellent]operator-skills
 - FPS夺金-三角洲行动-玩家扮演BOSS赤枭巡猎
 - FPS夺金-三角洲行动-神秘脑机Ⅱ型渡鸦寻宝
-- [not_comfirmed]operator-system
 - [Qualify]mendel-brick
+
+### DiabloIIResurrected
+- 游戏卡-Diablo-II-Resurrected
 
 ### DiabloIV
 - [Qualify]巅峰等级系统
@@ -571,6 +583,12 @@
 
 ### DOTA2
 - [Qualify]LastHitDenial
+
+### DotaUnderlords
+- 01-棋子种族职业系统
+- 02-棋盘站位策略系统
+- 03-团队增益装备系统
+- 04-自走棋经济系统
 
 ### DragonsDogma2
 - [Qualify]随从系统
@@ -622,6 +640,7 @@
 - RAC-F1-manager-赛季制资源管理策略
 
 ### Fantasian
+- Fantasian-游戏卡
 - JRPG-Fantasian-Dimengeon存怪系统
 
 ### FCMobile
@@ -667,9 +686,8 @@
 - [Excellent]FateSystem
 - [Excellent]PitySystem
 - [Excellent]体力系统
+- [Qualify][ARPG]-GenshinImpact-深境螺旋星级系统
 - [Qualify]GenshinImpact-SpiralAbyssDoubleTeamSystem
-- [Qualify]GenshinImpact-SpiralAbyssStarSystem
-- [Qualify]spiral-abyss-star
 - [Qualify]元素反应系统
 - [Qualify]抽卡与命座系统
 
@@ -902,6 +920,10 @@
 ### Nioh
 - ARPG-仁王-三段架势系统
 
+### NZ2
+- [Qualify][FPS]-NZ2-时空追猎系统
+- [Qualify][FPS]-NZ2-猎场竞速系统
+
 ### Onmyoji
 - [Qualify]RuneFreeSystem
 - [Qualify]式神战斗区系统
@@ -1003,6 +1025,8 @@
 - [SLG]-三国志战略版-自由行军与碰撞交战
 - [SLG]-三战-兵种相克机制
 
+### Satisfactory
+
 ### SeaOfThieves
 - [Excellent]开放世界-SeaOfThieves-团队协作驾驶系统
 - [Excellent]开放世界-SeaOfThieves-海战夺金循环
@@ -1035,6 +1059,7 @@
 - [not_comfirmed]武器系统
 
 ### SpaceKillerClown
+- 游戏卡-外太空杀人小丑
 - [非对称]-外太空杀人小丑-死亡小游戏
 
 ### Splatoon3
@@ -1048,6 +1073,11 @@
 ### StardewValley
 - [Qualify]SkillSystem
 - [Qualify]TimeManagement
+
+### Stellaris
+- [Excellent][策略]-Stellaris-天灾飞升系统
+- [Excellent][策略]-Stellaris-科技树系统
+- [Excellent][策略]-Stellaris-终局危机系统
 
 ### StreetFighter6
 - [Qualify]Drive系统
@@ -1103,6 +1133,7 @@
 - [Qualify]PlayerCreatedContent
 - [Qualify]RankingSystem
 - [Qualify]TrackEditor
+- 游戏卡
 
 ### TwoPointHospital
 - [Qualify]DepartmentFlow
@@ -1165,8 +1196,21 @@
 ### Zelda
 - 开放世界-塞尔达传说-究极手UGC创造
 
+### ZeldaBreathoftheWild
+- [Excellent][RPG]-ZeldaBreathoftheWild-120神庙系统
+- [Excellent][RPG]-ZeldaBreathoftheWild-化学引擎
+- [Excellent][RPG]-ZeldaBreathoftheWild-四神兽迷宫
+- [Excellent][RPG]-ZeldaBreathoftheWild-弱引导探索系统
+- [Excellent][RPG]-ZeldaBreathoftheWild-武器耐久系统
+- [Qualify][RPG]-ZeldaBreathoftheWild-呀哈哈收集系统
+
 ### zenless-zone-zero
 - [Qualify]tv-battle-mode-system
+
+### ZenlessZoneZero
+- 游戏卡-绝区零
+
+### ZhangeArena
 
 ### ZhuXian
 - MMORPG-诛仙世界-车轮战机制
