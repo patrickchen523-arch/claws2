@@ -1,6 +1,6 @@
 # 机制库索引
 
-> 最后更新：2026-03-14
+> 最后更新：2026-03-15
 
 ---
 
@@ -15,11 +15,11 @@
 | AgeOfEmpires2DE | - | 4 |
 | AgeOfEmpires3 | - | 1 |
 | AgeOfEmpires4 | - | 3 |
-| Aladedu | - | 0 |
+| Aladedu | - | 4 |
 | AlbionOnline | - | 3 |
 | AnimalCrossing | - | 1 |
 | AnotherCrabsTreasure | - | 2 |
-| ApexLegends | - | 1 |
+| ApexLegends | - | 6 |
 | ArcaneOdyssey | - | 1 |
 | ARCRaiders | - | 3 |
 | ArenaBreakoutInfinite | - | 7 |
@@ -27,10 +27,10 @@
 | ARK | - | 0 |
 | Arknights | - | 4 |
 | ark-nova | - | 2 |
-| ArmoredCore6 | - | 0 |
+| ArmoredCore6 | - | 4 |
 | ARZAnomaly | - | 0 |
 | AshesOfCreation | - | 1 |
-| Asphalt9 | - | 0 |
+| Asphalt9 | - | 5 |
 | AssassinsCreedShadows | - | 0 |
 | AutoChess | - | 4 |
 | BaiJingHuiLang | - | 0 |
@@ -53,7 +53,7 @@
 | CaptainCommando | - | 1 |
 | CardGameDeckBuilding | - | 0 |
 | CarrotFantasy | - | 1 |
-| Celeste | - | 0 |
+| Celeste | - | 5 |
 | CFLegends | - | 0 |
 | CFMobile | - | 0 |
 | ChanganFantasy | - | 2 |
@@ -110,7 +110,7 @@
 | EscapeFromTarkov | - | 4 |
 | EVEOnline | - | 4 |
 | Expedition33 | - | 1 |
-| ExtractionShooter | - | 0 |
+| ExtractionShooter | - | 3 |
 | F1Manager | - | 1 |
 | F1 | - | 1 |
 | FallGuys | - | 0 |
@@ -122,7 +122,7 @@
 | FF7Rebirth | - | 0 |
 | FinalFantasy14 | - | 3 |
 | FinalFight | - | 2 |
-| FireEmblemHeroes | - | 0 |
+| FireEmblemHeroes | - | 2 |
 | FireEmblemThreeHouses | - | 1 |
 | Fortnite | - | 3 |
 | ForzaHorizon5 | - | 8 |
@@ -172,7 +172,7 @@
 | JusticeMobile | - | 2 |
 | JX3 | - | 4 |
 | Kards | - | 1 |
-| KartRider | - | 0 |
+| KartRider | - | 4 |
 | KingdomRush | - | 2 |
 | KnightmareTower | - | 1 |
 | KnightsOfTheRound | - | 2 |
@@ -206,6 +206,7 @@
 | MetalSlug | - | 3 |
 | mewgenics | - | 3 |
 | MiaoMiaoTeaRestaurant | - | 2 |
+| MidnightGhostHunt | - | 0 |
 | Minecraft | - | 0 |
 | MingYunShengQi | - | 0 |
 | MirageDuel | - | 0 |
@@ -280,7 +281,7 @@
 | SkyArena | - | 3 |
 | SkyChildrenOfTheLight | - | 3 |
 | SnowRunner | - | 0 |
-| SonsOfTheForest | - | 1 |
+| SonsOfTheForest | - | 4 |
 | SoulcaliburVI | - | 1 |
 | SpaceKillerClown | - | 2 |
 | SpaceMarine2 | - | 0 |
@@ -303,7 +304,7 @@
 | Tekken8 | - | 0 |
 | Terraria | - | 0 |
 | TexasChainsaw | - | 1 |
-| TheForest | - | 1 |
+| TheForest | - | 4 |
 | TheWitcher3 | - | 0 |
 | TianDiJie | - | 1 |
 | TorchlightInfinite | - | 0 |
@@ -379,6 +380,12 @@
 - [Excellent]RTS-英雄系统
 - [Excellent]RTS-超级武器系统
 
+### Aladedu
+- 横版格斗玩法
+- 深渊副本系统
+- 职业技能连招系统
+- 装备强化系统
+
 ### AlbionOnline
 - [Excellent]沙盒式自由经济系统
 - MMORPG-阿尔比恩-资源分区设计
@@ -393,6 +400,11 @@
 
 ### ApexLegends
 - [BR]-Apex英雄-进化护盾
+- Ping非语言交流系统
+- 战斗通行证系统
+- 英雄技能系统
+- 进化护盾系统
+- 高机动性位移系统
 
 ### ArcaneOdyssey
 - RPG-杖剑传说-一键带副本
@@ -421,8 +433,21 @@
 - [Qualify]card-position-strength
 - [Qualify]dual-track-competition
 
+### ArmoredCore6
+- [Excellent]街机-ArmoredCore6-地形纵深战斗
+- [Excellent]街机-ArmoredCore6-扩充机能系统
+- [Excellent]街机-ArmoredCore6-机甲组装系统
+- [Excellent]街机-ArmoredCore6-锁定机制
+
 ### AshesOfCreation
 - MMORPG-创世灰烬-节点城市系统
+
+### Asphalt9
+- 01-car-license
+- 02-touch-drive
+- 03-open-track
+- 04-nitro-boost
+- 05-carbon-mod
 
 ### AutoChess
 - [Excellent]QizishengxingXitong
@@ -483,6 +508,13 @@
 
 ### CarrotFantasy
 - [Qualify]GoldenCarrotSystem
+
+### Celeste
+- 冲刺Dash机制
+- 帮助模式系统
+- 情感叙事融合机制
+- 攀墙跳系统
+- 草莓收集系统
 
 ### CFLegends
 
@@ -633,6 +665,11 @@
 ### Expedition33
 - 回合制-远征33号-即时反应与弹反机制
 
+### ExtractionShooter
+- 撤离机制
+- 死亡惩罚
+- 装备带入带出
+
 ### F1
 - RAC-通用-防御驾驶
 
@@ -658,6 +695,10 @@
 ### FinalFight
 - [Qualify]role-differentiation
 - [Qualify]weapon-system
+
+### FireEmblemHeroes
+- 轻量化战棋系统
+- 颜色抽卡系统
 
 ### FireEmblemThreeHouses
 - [Qualify]转职树系统
@@ -807,6 +848,12 @@
 
 ### Kards
 - Roguelike-卡厄思梦境-类肉鸽搜打撤的存档带出机制
+
+### KartRider
+- 8人同屏竞技
+- 氮气加速系统
+- 漂移集气系统
+- 通行证系统
 
 ### KingdomRush
 - [Qualify]ActiveSkillSystem
@@ -1122,6 +1169,12 @@
 
 ### TexasChainsaw
 - [非对称]-德州电锯杀人狂-第三方势力爷爷
+
+### TheForest
+- [Excellent]FPS-TheForest-洞穴探索系统
+- [Excellent]FPS-TheForest-野人AI系统
+- [Qualify]FPS-TheForest-建造防御系统
+- [Qualify]FPS-TheForest-生存数值系统
 
 ### TianDiJie
 - [not_comfirmed]属性相克系统
