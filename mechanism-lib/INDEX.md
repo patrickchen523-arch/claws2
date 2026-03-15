@@ -1,6 +1,6 @@
 # 机制库索引
 
-> 最后更新：2026-03-15
+> 最后更新：2026-03-16
 
 ---
 
@@ -60,11 +60,11 @@
 | CitiesSkylines | - | 2 |
 | CivilizationVI | - | 2 |
 | ClashOfClans | - | 1 |
-| ClashRoyale | - | 4 |
+| ClashRoyale | - | 8 |
 | CODM | - | 1 |
 | CODModernWarfare3 | - | 0 |
 | CODMW3 | - | 1 |
-| COK | - | 1 |
+| COK | - | 4 |
 | CompanyOfHeroes | - | 2 |
 | ConquerorsBlade | - | 0 |
 | Control | - | 0 |
@@ -107,7 +107,8 @@
 | EldenRing | - | 2 |
 | EldenRingShadowOfTheErdtree | - | 2 |
 | Enshrouded | - | 1 |
-| EscapeFromTarkov | - | 4 |
+| EscapeFromTarkov | - | 7 |
+| EternalReturn | - | 1 |
 | EVEOnline | - | 4 |
 | Expedition33 | - | 1 |
 | ExtractionShooter | - | 3 |
@@ -167,7 +168,7 @@
 | IntoTheBreach | - | 3 |
 | ItTakesTwo | - | 0 |
 | JiaoCuoZhanXian | - | 0 |
-| JinChanChan | - | 1 |
+| JinChanChan | - | 6 |
 | Justice | - | 2 |
 | JusticeMobile | - | 2 |
 | JX3 | - | 4 |
@@ -175,7 +176,7 @@
 | KartRider | - | 4 |
 | KingdomRush | - | 2 |
 | KnightmareTower | - | 1 |
-| KnightsOfTheRound | - | 2 |
+| KnightsOfTheRound | - | 3 |
 | KnightsOfValour | - | 3 |
 | KnivesOut | - | 0 |
 | KOF98 | - | 0 |
@@ -200,7 +201,7 @@
 | MarioKart | - | 2 |
 | MarvelDuel | - | 0 |
 | MarvelRivals | - | 1 |
-| MarvelSnap | - | 1 |
+| MarvelSnap | - | 3 |
 | MatchdayChampions | - | 2 |
 | MayBe | - | 1 |
 | MetalSlug | - | 3 |
@@ -218,8 +219,8 @@
 | MyGardenWorld | - | 1 |
 | NarutoMobile | - | 1 |
 | NeedForSpeedHeat | - | 0 |
-| Nightbound | - | 1 |
-| NightboundMobile | - | 1 |
+| Nightbound | - | 4 |
+| NightboundMobile | - | 4 |
 | NiNoKuniCrossingWorlds | - | 0 |
 | Nioh | - | 1 |
 | NoRestForTheWicked | - | 0 |
@@ -245,6 +246,7 @@
 | Phigros | - | 1 |
 | PlanetZoo | - | 1 |
 | PlantsVsZombies | - | 1 |
+| PokemonLegendsArceus | - | 2 |
 | pokemon-pokopia | - | 2 |
 | ProjectZomboid | - | 1 |
 | PUBG | - | 3 |
@@ -262,8 +264,8 @@
 | RiseOfTheRonin | - | 0 |
 | ROC | - | 0 |
 | RollerCoasterTycoon3 | - | 2 |
-| RustedWarfare | - | 4 |
-| Rust | - | 4 |
+| RustedWarfare | - | 1 |
+| Rust | - | 1 |
 | SamuraiShodown | - | 0 |
 | SanguoBinghe | - | 6 |
 | sanguo-mouding-tianxia | - | 1 |
@@ -275,7 +277,7 @@
 | SeaOfThieves | - | 2 |
 | ShadowOfMordor | - | 1 |
 | Shadowverse | - | 3 |
-| ShaoNianJinYiWei | - | 0 |
+| ShaoNianJinYiWei | - | 3 |
 | ShiJieZhiWai | - | 0 |
 | Sifu | - | 1 |
 | SkyArena | - | 3 |
@@ -306,7 +308,7 @@
 | TexasChainsaw | - | 1 |
 | TheForest | - | 4 |
 | TheWitcher3 | - | 0 |
-| TianDiJie | - | 1 |
+| TianDiJie | - | 3 |
 | TorchlightInfinite | - | 0 |
 | TowerOfFantasy | - | 1 |
 | TrackMania | - | 4 |
@@ -537,13 +539,20 @@
 - [Excellent]RTS-卡牌构筑系统
 - [Excellent]RTS-圣水费用系统
 - [Excellent]RTS-异步PVP系统
+- 卡牌组合系统
+- 即时微操系统
 - 即时策略-皇室战争-父子局
+- 双路推塔机制
+- 圣水费用系统
 
 ### CODMW3
 - [Qualify]连杀奖励系统
 
 ### COK
+- [SLG]-COK+大地图行军系统
+- [SLG]-COK+武将系统
 - [SLG]-COK+联盟宝箱
+- [SLG]-COK+车头车身机制
 
 ### CompanyOfHeroes
 - [not_comfirmed]DestructibleEnvironment
@@ -610,8 +619,8 @@
 - [Excellent]grinding-system
 
 ### DontStarve
-- 生存沙盒-DontStarve-动态天气系统
-- 生存沙盒-DontStarve-环境压力系统
+- 季节循环系统
+- 环境压力系统
 
 ### DOTA2
 - [Qualify]LastHitDenial
@@ -654,7 +663,13 @@
 - [Qualify]escape-mechanism
 - [Qualify]gear-BringInTakeOut
 - [Qualify]gold-items-system
+- 保险系统
+- 安全箱
+- 搜刮经济系统
 - [撤离类]-逃离塔科夫-安全箱
+
+### EternalReturn
+- 装备合成系统
 
 ### EVEOnline
 - [Excellent]EVE-温和通胀货币系统
@@ -835,6 +850,11 @@
 
 ### JinChanChan
 - [Qualify]ShuangrenHezuoMoshi
+- 双人合作模式
+- 海克斯强化系统
+- 经济系统
+- 羁绊系统
+- 装备系统
 
 ### Justice
 - [Qualify]功力系统
@@ -863,6 +883,7 @@
 - [Qualify]rpg-levelup
 
 ### KnightsOfTheRound
+- [Qualify]beat-em-up
 - [Qualify]gold-equipment
 - [Qualify]horse-combat
 
@@ -919,6 +940,8 @@
 
 ### MarvelSnap
 - [Qualify]位置机制
+- Snap加注机制
+- 区域随机系统
 
 ### MatchdayChampions
 - 游戏卡-Matchday-Champions
@@ -962,6 +985,9 @@
 - 夺金-永劫无间无间镖客-满江红商友良赌坊玩法
 
 ### NightboundMobile
+- 01-combat-rps
+- 02-extraction
+- 03-bd-build
 - 夺金-永劫无间手游-花露机制时间进度升级式物资
 
 ### Nioh
@@ -1014,6 +1040,10 @@
 ### PlantsVsZombies
 - [Excellent]SunlightSystem
 
+### PokemonLegendsArceus
+- 即时动作战斗
+- 坐骑系统
+
 ### pokemon-pokopia
 - [Qualify]ditto-form-exploration
 - [Qualify]move-based-terrain-modification
@@ -1051,6 +1081,9 @@
 - [生存沙盒]-RUST-爆炸物破防
 - [生存沙盒]-RUST-采集小游戏
 
+### RustedWarfare
+- [Core]极简触控操作设计
+
 ### SanguoBinghe
 - [SLG]-COK+车头车身设定
 - [SLG]-三冰-武将等级共享
@@ -1085,6 +1118,11 @@
 - [Qualify]SameNameCard
 - [Qualify]进化系统
 - 卡牌-影之诗2-公园观棋
+
+### ShaoNianJinYiWei
+- anime-ip-characters
+- faction-system
+- qinggong-system
 
 ### Sifu
 - ACT-师父-年龄系统
@@ -1177,7 +1215,9 @@
 - [Qualify]FPS-TheForest-生存数值系统
 
 ### TianDiJie
-- [not_comfirmed]属性相克系统
+- [Excellent][策略]-TianDiJie-多维度养成系统
+- [Excellent][策略]-TianDiJie-属性相克系统
+- [Excellent][策略]-TianDiJie-技能联动系统
 
 ### TowerOfFantasy
 - [Qualify]捏脸系统
