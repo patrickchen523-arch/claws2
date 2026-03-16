@@ -335,14 +335,21 @@ function extractMechanismInfo(parsed, filename) {
     const section = sections['机制拆解'];
     
     // 机制描述 - 修复贪婪匹配
-    let match = section.match(/\*\*机制描述\*\*[：:]?\s*([\s\S]+?)(?=\n\*\*|\n触发|$)/);
+    // 优先匹配"机制详述"后面的内容
+    let match = section.match(/\*\*机制详述\*\*[：:]?\s*([\s\S]+?)(?=\n\*\*|\n触发|$)/);
     if (match) {
       info.mechanismDesc = match[1].trim();
     } else {
-      // Alternative: just text after 机制描述
-      match = section.match(/机制描述[：:][\s\S]+?(?=\n\*\*|\n触发|$)/);
+      // 匹配"机制描述"后面的内容
+      match = section.match(/\*\*机制描述\*\*[：:]?\s*([\s\S]+?)(?=\n\*\*|\n触发|$)/);
       if (match) {
-        info.mechanismDesc = match[0].replace('机制描述', '').replace(/[：:]/g, '').trim();
+        info.mechanismDesc = match[1].trim();
+      } else {
+        // Alternative: just text after 机制描述
+        match = section.match(/机制描述[：:][\s\S]+?(?=\n\*\*|\n触发|$)/);
+        if (match) {
+          info.mechanismDesc = match[0].replace('机制描述', '').replace(/[：:]/g, '').trim();
+        }
       }
     }
     
