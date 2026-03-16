@@ -307,8 +307,8 @@ function extractMechanismInfo(parsed, filename) {
           .split(/[/+\s,，\n]+/)
           .map(t => t.trim().replace(/\*\*/g, ''))
           .filter(t => t && t.length > 0);
-        // 标准化标签
-        info.tags = normalizeTags(rawTags);
+        // 标准化标签 - 已移除旧标签系统，保留新标签系统
+        // info.tags = normalizeTags(rawTags);
       }
       else if (row.key.includes('来源')) {
         // 来源字段：人工 / AI生成-已甄别 / AI生成-未甄别
@@ -567,6 +567,15 @@ function extractMechanismInfo(parsed, filename) {
     const uniqueTags = [...new Set(allTags)];
     if (uniqueTags.length > 0) {
       info.flatTags = uniqueTags;
+      
+      // 分类存储
+      const specialMechanisms = uniqueTags.filter(t => t.startsWith('特色机制-'));
+      const painPoints = uniqueTags.filter(t => t.includes('痛点'));
+      const mechanismDesign = uniqueTags.filter(t => !t.startsWith('特色机制-') && !t.includes('痛点'));
+      
+      if (specialMechanisms.length > 0) info.specialMechanisms = specialMechanisms;
+      if (painPoints.length > 0) info.painPoints = painPoints;
+      if (mechanismDesign.length > 0) info.mechanismDesign = mechanismDesign;
     }
     
     // 单独保存玩法层级标签

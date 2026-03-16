@@ -208,6 +208,29 @@
       margin-top: 0.5rem;
     }
     
+    .tag-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      margin-top: 0.5rem;
+    }
+    
+    .tag-table th,
+    .tag-table td {
+      border: 1px solid #444;
+      padding: 0.5rem;
+      text-align: left;
+    }
+    
+    .tag-table th {
+      background: #333;
+      width: 80px;
+    }
+    
+    .tag-table td:last-child {
+      word-break: break-all;
+    }
+    
     .tag {
       font-size: 0.75rem;
       padding: 0.25rem 0.5rem;
@@ -869,38 +892,41 @@
         }
       }
       
-      // 核心标签
-      if (m.tags && m.tags.length > 0) {
-        html += `
-          <div class="modal-section">
-            <h3>核心标签</h3>
-            <div class="card-tags">
-              ${m.tags.map(t => `<span class="tag" onclick="searchByTag('${t}')">${t}</span>`).join('')}
-            </div>
-          </div>
-        `;
-      }
+      // 新标签系统：按分类表格展示
+      let tagRows = '';
       
-      // 玩法层级标签（单独显示）
+      // 玩法层级
       if (m.playLevelTags && m.playLevelTags.length > 0) {
-        html += `
-          <div class="modal-section">
-            <h3>🎮 玩法层级</h3>
-            <div class="card-tags">
-              ${m.playLevelTags.map(t => `<span class="tag" onclick="searchByTag('${t}')">${t}</span>`).join('')}
-            </div>
-          </div>
-        `;
+        tagRows += `<tr><td>玩法层级</td><td>${m.playLevelTags.length}个</td><td>${m.playLevelTags.join('、')}</td></tr>`;
       }
       
-      // 扁平化标签展示（标准化标签平铺，可点击搜索）
-      if (m.flatTags && m.flatTags.length > 0) {
+      // 机制设计
+      if (m.mechanismDesign && m.mechanismDesign.length > 0) {
+        tagRows += `<tr><td>机制设计</td><td>${m.mechanismDesign.length}个</td><td>${m.mechanismDesign.join('、')}</td></tr>`;
+      }
+      
+      // 特色机制
+      if (m.specialMechanisms && m.specialMechanisms.length > 0) {
+        tagRows += `<tr><td>特色机制</td><td>${m.specialMechanisms.length}个</td><td>${m.specialMechanisms.join('、')}</td></tr>`;
+      }
+      
+      // 玩家痛点
+      if (m.painPoints && m.painPoints.length > 0) {
+        tagRows += `<tr><td>玩家痛点</td><td>${m.painPoints.length}个</td><td>${m.painPoints.join('、')}</td></tr>`;
+      }
+      
+      if (tagRows) {
         html += `
           <div class="modal-section">
-            <h3>🏷️ 标准化标签</h3>
-            <div class="card-tags">
-              ${m.flatTags.map(t => `<span class="tag" onclick="searchByTag('${t}')">${t}</span>`).join('')}
-            </div>
+            <h3>🏷️ 标签信息</h3>
+            <table class="tag-table">
+              <thead>
+                <tr><th>层级</th><th>标签数</th><th>具体内容</th></tr>
+              </thead>
+              <tbody>
+                ${tagRows}
+              </tbody>
+            </table>
           </div>
         `;
       }
