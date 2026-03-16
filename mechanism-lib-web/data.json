@@ -1350,81 +1350,6 @@
       "filename": "MMORPG-创世灰烬-节点城市系统.md",
       "source": "人工"
     },
-    "Asphalt9/01-car-license.md": {
-      "title": "机制卡：名车授权",
-      "gameName": "Asphalt 9",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "01-car-license.md",
-      "source": "人工"
-    },
-    "Asphalt9/02-touch-drive.md": {
-      "title": "机制卡：Touch Drive",
-      "gameName": "Asphalt 9",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "02-touch-drive.md",
-      "source": "人工"
-    },
-    "Asphalt9/03-open-track.md": {
-      "title": "机制卡：大区域赛道",
-      "gameName": "Asphalt 9",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "03-open-track.md",
-      "source": "人工"
-    },
-    "Asphalt9/04-nitro-boost.md": {
-      "title": "机制卡：氮气加速",
-      "gameName": "Asphalt 9",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "04-nitro-boost.md",
-      "source": "人工"
-    },
-    "Asphalt9/05-carbon-mod.md": {
-      "title": "机制卡：碳纤维改装",
-      "gameName": "Asphalt 9",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "05-carbon-mod.md",
-      "source": "人工"
-    },
     "AutoChess/[Excellent]QizishengxingXitong.md": {
       "title": "[自走棋]-刀塔自走棋-棋子升星系统",
       "gameName": "AutoChess",
@@ -1727,40 +1652,6 @@
       ],
       "demo": "（待补充GIF或视频链接）",
       "filename": "[Qualify]死亡幽灵系统.md",
-      "source": "人工"
-    },
-    "Battlegrounds/[Qualify]YingxiongJinengXitong.md": {
-      "title": "[自走棋]-酒馆战棋-英雄技能系统",
-      "gameName": "Battlegrounds",
-      "tags": [
-        "差异体验",
-        "策略",
-        "英雄技能"
-      ],
-      "simpleDesc": "每个玩家选不同的\"英雄\", 英雄自带独特技能, 相当于每个人的起手牌就不一样",
-      "mechanismDesc": "游戏开始时, 玩家从两个随机英雄中选择一个。每个英雄拥有独特的技能, 影响招揽随从, 战斗或制定战术的方式。不同英雄技能差异大, 如\"帕奇维克\"天生血量高, \"刮痧\"可通过卖血流获取优势",
-      "coreRules": "",
-      "trigger": "- 游戏开始时选择英雄",
-      "painPoint": "解决自走棋开局同质化问题, 通过英雄技能增加首回合策略选择",
-      "experienceGoal": "制造\"选对英雄赢一半\"的决策乐趣, 同时让每局体验都有所不同",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[Qualify]YingxiongJinengXitong.md",
-      "source": "AI生成-未甄别"
-    },
-    "Battlegrounds/游戏卡-Battlegrounds.md": {
-      "title": "Battlegrounds (和平精英) 游戏拆解报告",
-      "gameName": "Battlegrounds",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "游戏卡-Battlegrounds.md",
       "source": "人工"
     },
     "BestEleven/足球-最佳11人-模拟生涯.md": {
@@ -3452,21 +3343,6 @@
       "filename": "[Qualify]mendel-brick.md",
       "source": "人工"
     },
-    "DiabloIIResurrected/游戏卡-Diablo-II-Resurrected.md": {
-      "title": "暗黑破坏神2：狱火重生 游戏拆解报告",
-      "gameName": "DiabloIIResurrected",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "游戏卡-Diablo-II-Resurrected.md",
-      "source": "人工"
-    },
     "DiabloIV/[Qualify]巅峰等级系统.md": {
       "title": "[ARPG]-暗黑破坏神4-巅峰等级系统",
       "gameName": "暗黑破坏神4",
@@ -3693,66 +3569,6 @@
       ],
       "demo": "",
       "filename": "环境压力系统.md",
-      "source": "人工"
-    },
-    "DotaUnderlords/01-棋子种族职业系统.md": {
-      "title": "棋子种族职业系统",
-      "gameName": "DotaUnderlords",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "01-棋子种族职业系统.md",
-      "source": "人工"
-    },
-    "DotaUnderlords/02-棋盘站位策略系统.md": {
-      "title": "棋盘站位策略系统",
-      "gameName": "DotaUnderlords",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "02-棋盘站位策略系统.md",
-      "source": "人工"
-    },
-    "DotaUnderlords/03-团队增益装备系统.md": {
-      "title": "团队增益装备系统",
-      "gameName": "DotaUnderlords",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "03-团队增益装备系统.md",
-      "source": "人工"
-    },
-    "DotaUnderlords/04-自走棋经济系统.md": {
-      "title": "自走棋经济系统",
-      "gameName": "DotaUnderlords",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "04-自走棋经济系统.md",
       "source": "人工"
     },
     "DragonsDogma2/[Qualify]随从系统.md": {
@@ -4273,142 +4089,6 @@
       "filename": "[生存沙盒]-雾锁王国-水方块动态建造体.md",
       "source": "人工"
     },
-    "EscapeFromTarkov/[Qualify]escape-mechanism.md": {
-      "title": "[搜打撤]-逃离塔科夫-撤离机制",
-      "gameName": "逃离塔科夫",
-      "tags": [
-        "搜打撤",
-        "核心机制",
-        "风险博弈"
-      ],
-      "simpleDesc": "就像赌场的\"离场兑换\"——你带着赢的筹码走到门口才能真正落袋为安, 在门口被杀则筹码全丢",
-      "mechanismDesc": "- 地图上设置多个撤离点, 分为固定撤离点和条件撤离点\n- 固定撤离点通常有等待时间要求（如5分钟）\n- 条件撤离点需要特殊物品（钥匙, 击杀标记）或满足特定条件\n- 玩家必须在倒计时结束前抵达撤离点并成功",
-      "coreRules": "",
-      "trigger": "- 玩家到达撤离点位置",
-      "painPoint": "- 传统射击游戏\"击杀=胜利\"过于单调, 缺乏风险回报决策",
-      "experienceGoal": "- 制造\"最后一步\"的心跳紧张感",
-      "similarMechanisms": [],
-      "demo": "撤离点相关游戏演示视频, GIF",
-      "filename": "[Qualify]escape-mechanism.md",
-      "source": "人工"
-    },
-    "EscapeFromTarkov/[Qualify]gear-BringInTakeOut.md": {
-      "title": "[搜打撤]-逃离塔科夫-装备带入带出",
-      "gameName": "逃离塔科夫",
-      "tags": [
-        "搜打撤",
-        "经济系统",
-        "风险回报"
-      ],
-      "simpleDesc": "相当于\"带本钱入场\"——你投入的装备决定你能赢多少, 输掉后本金归零",
-      "mechanismDesc": "- 玩家在进入战局前, 可在军械库选择携带的装备（武器, 护甲, 配件, 消耗品）\n- 带入的装备决定本局的生存能力和收益上限\n- 撤离成功：所有物资带出到仓库\n- 被击杀, 撤离失败：除保险箱物品外全部损失\n- 高级装备可购买保险, 被击杀后有一定概率取回",
-      "coreRules": "",
-      "trigger": "- 战备阶段选择装备",
-      "painPoint": "- 传统射击游戏装备只是外观皮肤, 无实际经济意义",
-      "experienceGoal": "- \"高风险高回报\"——好装备提高生存率和收益, 但也承担更大损失风险",
-      "similarMechanisms": [
-        {
-          "game": "[暗区突围",
-          "mechanism": "无限]战备投入"
-        }
-      ],
-      "demo": "装备带入带出相关演示",
-      "filename": "[Qualify]gear-BringInTakeOut.md",
-      "source": "人工"
-    },
-    "EscapeFromTarkov/[Qualify]gold-items-system.md": {
-      "title": "[搜打撤]-暗区突围-大金系统",
-      "gameName": "ArenaBreakout",
-      "tags": [
-        "搜打撤",
-        "收藏品",
-        "激励机制"
-      ],
-      "simpleDesc": "就像赌场的\"大奖\"——找到稀有物品会让玩家极度兴奋, 风险也更高",
-      "mechanismDesc": "- 大金（Gold）是高价值稀有收藏品的统称\n- 分布在地图各处的隐藏位置, 需要探索或完成特定条件获得\n- 典型大金：黄金面具, 胶囊电视, 脑电装置, 稀有钥匙等\n- 携带大金会增加被击杀的风险收益, 但撤离成功后的成就感极强\n- 部分大金可永久展示在仓库收藏柜中",
-      "coreRules": "",
-      "trigger": "- 搜索特定位置, 击败BOSS, 完成任务",
-      "painPoint": "- 搜打撤容易变成\"无脑刷\", 缺乏惊喜感",
-      "experienceGoal": "- \"发现大奖\"的惊喜感——大金位置通常隐藏, 给玩家探索动力",
-      "similarMechanisms": [],
-      "demo": "大金展示相关视频",
-      "filename": "[Qualify]gold-items-system.md",
-      "source": "人工"
-    },
-    "EscapeFromTarkov/[撤离类]-逃离塔科夫-安全箱.md": {
-      "title": "[撤离类]-逃离塔科夫-安全箱",
-      "gameName": "Escape from Tarkov",
-      "tags": [
-        "[体验]：死亡兜底",
-        "[品类]：撤离类射击",
-        "局内保值",
-        "高价值储藏"
-      ],
-      "simpleDesc": "裤裆里的无敌保险箱, 塞进去的宝贝就算你被打死了也能带回仓库",
-      "mechanismDesc": "触发游戏局外装备于角色特定槽位, 局内通过打开背包界面进行交互\n> 交互玩家拖拽体积符合要求（如2x2或3x3格子）的物品进入安全箱区域\n> 生效放入该区域的物品状态变为\"受保护\", 角色死亡, 断线或未能在规定时间撤离, 箱内物品均不会掉落",
-      "coreRules": "",
-      "trigger": "随时可在局内安全环境下打开背包进行拖拽操作",
-      "painPoint": "解决硬核撤离游戏中\"死亡掉落全身上下所有物品\"带来的极度挫败感。防止新手或运气不佳的玩家陷入\"疯狂破产-无法起装\"的死亡螺旋",
-      "experienceGoal": "提供底线安全感。即使这一局开局不顺或最终战死, 只要摸到了高价值的\"小金（如显卡, 比特币）\"塞进裤裆（安全箱）, 这局就\"血赚不亏\", 将负面情绪转化为确定的收益快感",
-      "similarMechanisms": [
-        {
-          "game": "The Cycle: Frontier",
-          "mechanism": "安全口袋"
-        },
-        {
-          "game": "暗区突围",
-          "mechanism": "保险箱"
-        }
-      ],
-      "demo": "",
-      "filename": "[撤离类]-逃离塔科夫-安全箱.md",
-      "source": "人工"
-    },
-    "EscapeFromTarkov/保险系统.md": {
-      "title": "保险系统 (Insurance)",
-      "gameName": "Escape from Tarkov",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "保险系统.md",
-      "source": "人工"
-    },
-    "EscapeFromTarkov/安全箱.md": {
-      "title": "安全箱 (Secure Container)",
-      "gameName": "Escape from Tarkov",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "安全箱.md",
-      "source": "人工"
-    },
-    "EscapeFromTarkov/搜刮经济系统.md": {
-      "title": "搜刮经济系统 (Loot Economy)",
-      "gameName": "Escape from Tarkov",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "搜刮经济系统.md",
-      "source": "人工"
-    },
     "EternalReturn/装备合成系统.md": {
       "title": "机制卡：永恒轮回-装备合成系统",
       "gameName": "永恒轮回：黑色幸存者 (Eternal Return)",
@@ -4453,51 +4133,6 @@
       ],
       "demo": "",
       "filename": "回合制-远征33号-即时反应与弹反机制.md",
-      "source": "人工"
-    },
-    "ExtractionShooter/撤离机制.md": {
-      "title": "机制卡 - 撤离机制 / Extraction Mechanism",
-      "gameName": "ExtractionShooter",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "撤离机制.md",
-      "source": "人工"
-    },
-    "ExtractionShooter/死亡惩罚.md": {
-      "title": "机制卡 - 死亡惩罚 / Death Penalty",
-      "gameName": "ExtractionShooter",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "死亡惩罚.md",
-      "source": "人工"
-    },
-    "ExtractionShooter/装备带入带出.md": {
-      "title": "机制卡 - 装备带入带出 / Gear Extraction",
-      "gameName": "ExtractionShooter",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "装备带入带出.md",
       "source": "人工"
     },
     "F1/RAC-通用-防御驾驶.md": {
@@ -4611,47 +4246,6 @@
       "similarMechanisms": [],
       "demo": "",
       "filename": "MMO-FF14-宠物互动彩蛋.md",
-      "source": "人工"
-    },
-    "Fantasian/Fantasian-游戏卡.md": {
-      "title": "Fantasian / 失落的星尘",
-      "gameName": "Fantasian",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "Fantasian-游戏卡.md",
-      "source": "人工"
-    },
-    "Fantasian/JRPG-Fantasian-Dimengeon存怪系统.md": {
-      "title": "[JRPG]-Fantasian-Dimengeon存怪系统",
-      "gameName": "Fantasian ,  失落的星尘",
-      "tags": [
-        "[交互形式]：延后战斗",
-        "[体验]：清理杂兵的割草感",
-        "[品类]：JRPG",
-        "批量结算",
-        "探索流畅"
-      ],
-      "simpleDesc": "玩家可以将大地图上遭遇的暗雷敌人\"存\"进异次元空间, 等存满后再一次性清剿",
-      "mechanismDesc": "1. 开启装置获得特定装置后, 遭遇暗雷不会立即切入战斗\n> 2. 怪物收容敌人被吸入并存储在计数器中\n> 3. 集中处决存满后进入一次性清场, 获取海量经验",
-      "coreRules": "",
-      "trigger": "开启存怪功能后的地图探索移动中自动触发吸收",
-      "painPoint": "解决传统回合制JRPG中频繁切屏导致\"拖沓感\"严重的问题",
-      "experienceGoal": "将枯燥的\"打杂兵\"转化为\"割草无双\"的爽感体验",
-      "similarMechanisms": [
-        {
-          "game": "黎之轨迹",
-          "mechanism": "原野战斗"
-        }
-      ],
-      "demo": "",
-      "filename": "JRPG-Fantasian-Dimengeon存怪系统.md",
       "source": "人工"
     },
     "FinalFantasy14/[Excellent]MentorNewbieSystem.md": {
@@ -4793,36 +4387,6 @@
       "demo": "武器获取与使用演示：https:, , www.youtube.com, watch?v=XXXXX",
       "filename": "[Qualify]weapon-system.md",
       "source": "AI生成-未甄别"
-    },
-    "FireEmblemHeroes/轻量化战棋系统.md": {
-      "title": "轻量化战棋系统",
-      "gameName": "FireEmblemHeroes",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "轻量化战棋系统.md",
-      "source": "人工"
-    },
-    "FireEmblemHeroes/颜色抽卡系统.md": {
-      "title": "颜色抽卡系统",
-      "gameName": "FireEmblemHeroes",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "颜色抽卡系统.md",
-      "source": "人工"
     },
     "FireEmblemThreeHouses/[Qualify]转职树系统.md": {
       "title": "[战棋]-火焰纹章风花雪月-转职树系统",
@@ -7030,100 +6594,6 @@
       "filename": "[Qualify]轻功系统.md",
       "source": "AI生成-未甄别"
     },
-    "JinChanChan/[Qualify]ShuangrenHezuoMoshi.md": {
-      "title": "[自走棋]-金铲铲之战-双人合作模式",
-      "gameName": "金铲铲之战",
-      "tags": [
-        "协同作战",
-        "双人合作",
-        "资源管理"
-      ],
-      "simpleDesc": "两个人组队打, 配合好了\"1, 1>2\", 还能互相送棋子, 送装备",
-      "mechanismDesc": "两名玩家组成队友, 与其他三支队伍对战。队友间可共享英雄, 装备, 可使用\"妮寇之灵\"帮助队友追梦三星英雄。队友阵亡后另一人继承部分遗产继续战斗",
-      "coreRules": "",
-      "trigger": "- 开启双人模式后自动匹配队友",
-      "painPoint": "解决传统自走棋纯单人对战缺乏社交协作的问题",
-      "experienceGoal": "提供\"和朋友一起下棋\"的社交乐趣, 合作博弈比单人对抗更具变化",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[Qualify]ShuangrenHezuoMoshi.md",
-      "source": "AI生成-未甄别"
-    },
-    "JinChanChan/双人合作模式.md": {
-      "title": "机制卡 - 双人合作模式",
-      "gameName": "金铲铲之战",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "双人合作模式.md",
-      "source": "人工"
-    },
-    "JinChanChan/海克斯强化系统.md": {
-      "title": "机制卡 - 海克斯强化系统",
-      "gameName": "金铲铲之战",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "海克斯强化系统.md",
-      "source": "人工"
-    },
-    "JinChanChan/经济系统.md": {
-      "title": "机制卡 - 经济系统",
-      "gameName": "金铲铲之战",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "经济系统.md",
-      "source": "人工"
-    },
-    "JinChanChan/羁绊系统.md": {
-      "title": "机制卡 - 羁绊系统",
-      "gameName": "金铲铲之战",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "羁绊系统.md",
-      "source": "人工"
-    },
-    "JinChanChan/装备系统.md": {
-      "title": "机制卡 - 装备系统",
-      "gameName": "金铲铲之战",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "装备系统.md",
-      "source": "人工"
-    },
     "Justice/[Qualify]功力系统.md": {
       "title": "[MMO]-Justice-功力系统",
       "gameName": "Justice",
@@ -7209,66 +6679,6 @@
       ],
       "demo": "",
       "filename": "Roguelike-卡厄思梦境-类肉鸽搜打撤的存档带出机制.md",
-      "source": "人工"
-    },
-    "KartRider/8人同屏竞技.md": {
-      "title": "8人同屏竞技",
-      "gameName": "跑跑卡丁车官方竞速版",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "8人同屏竞技.md",
-      "source": "人工"
-    },
-    "KartRider/氮气加速系统.md": {
-      "title": "氮气加速系统",
-      "gameName": "跑跑卡丁车官方竞速版",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "氮气加速系统.md",
-      "source": "人工"
-    },
-    "KartRider/漂移集气系统.md": {
-      "title": "漂移集气系统",
-      "gameName": "跑跑卡丁车官方竞速版",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "漂移集气系统.md",
-      "source": "人工"
-    },
-    "KartRider/通行证系统.md": {
-      "title": "通行证系统",
-      "gameName": "跑跑卡丁车官方竞速版",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "通行证系统.md",
       "source": "人工"
     },
     "KingdomRush/[Qualify]ActiveSkillSystem.md": {
@@ -8139,38 +7549,6 @@
       "filename": "区域随机系统.md",
       "source": "人工"
     },
-    "MatchdayChampions/游戏卡-Matchday-Champions.md": {
-      "title": "Matchday Champions 游戏拆解报告",
-      "gameName": "MatchdayChampions",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "游戏卡-Matchday-Champions.md",
-      "source": "人工"
-    },
-    "MatchdayChampions/足球-Matchday-Champions-比赛玩法.md": {
-      "title": "[足球]-Matchday Champions-比赛玩法",
-      "gameName": "Matchday Champions",
-      "tags": [
-        "快速比赛"
-      ],
-      "simpleDesc": "2分钟体验一赛季10, 场比赛, 并融入简单选择与随机元素强化反馈",
-      "mechanismDesc": "1. 触发凑齐首发11人\n> 2. 交互单手点按, 选择是否强化, 任意球抽奖等\n> 3. 生效8轮战罢, 依据总积分榜排名结算",
-      "coreRules": "",
-      "trigger": "凑齐完整球员阵容",
-      "painPoint": "相比传统足球游戏无需操作, 比赛节奏更快",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "足球-Matchday-Champions-比赛玩法.md",
-      "source": "人工"
-    },
     "MayBe/放置RPG-出发吧麦芬-双人匹配挂机.md": {
       "title": "[放置RPG]-出发吧麦芬-双人匹配, 挂机",
       "gameName": "出发吧麦芬",
@@ -8527,71 +7905,6 @@
       "similarMechanisms": [],
       "demo": "",
       "filename": "夺金-永劫无间无间镖客-满江红商友良赌坊玩法.md",
-      "source": "人工"
-    },
-    "NightboundMobile/01-combat-rps.md": {
-      "title": "格斗猜拳机制",
-      "gameName": "NightboundMobile",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "01-combat-rps.md",
-      "source": "人工"
-    },
-    "NightboundMobile/02-extraction.md": {
-      "title": "搜打撤撤离机制",
-      "gameName": "NightboundMobile",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "02-extraction.md",
-      "source": "人工"
-    },
-    "NightboundMobile/03-bd-build.md": {
-      "title": "战备BD组合系统",
-      "gameName": "NightboundMobile",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "03-bd-build.md",
-      "source": "人工"
-    },
-    "NightboundMobile/夺金-永劫无间手游-花露机制时间进度升级式物资.md": {
-      "title": "[夺金]-永劫无间手游-花露机制&时间进度升级式物资",
-      "gameName": "永劫无间手游 - 侠影夺金玩法",
-      "tags": [
-        "悬赏机制",
-        "撤离限制",
-        "时间成长",
-        "风险标记"
-      ],
-      "simpleDesc": "就像你在沙漠里捡到一颗\"会发芽的种子\", 带着它时间越久越值钱, 但全地图的人都能看到你",
-      "mechanismDesc": "1. 获取阶段战局中期地图随机刷新\"若木桩\", 玩家靠近获得\"若露\"\n> 2. 成长阶段若露随时间自动升级, 品质逐步进化\n> 3. 风险标记携带者成为全图悬赏目标\n> 4. 撤离限制必须前往指定特殊撤离点\n> 5. 收获阶段成功撤离后可开出花露",
-      "coreRules": "",
-      "trigger": "战局中期刷新若木桩, 玩家主动交互获得",
-      "painPoint": "解决夺金模式中后期缺乏动态博弈目标的问题",
-      "experienceGoal": "创造\"养蛊式\"的刺激感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "夺金-永劫无间手游-花露机制时间进度升级式物资.md",
       "source": "人工"
     },
     "Nioh/ARPG-仁王-三段架势系统.md": {
@@ -9100,6 +8413,58 @@
       ],
       "demo": "",
       "filename": "坐骑系统.md",
+      "source": "人工"
+    },
+    "PokemonLegendsZA/即时动作战斗系统.md": {
+      "title": "机制卡：宝可梦传说ZA-即时动作战斗系统",
+      "gameName": "宝可梦传说 Z-A",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [
+        {
+          "game": "阿尔宙斯",
+          "mechanism": "即时投球/战斗"
+        },
+        {
+          "game": "艾尔登法环",
+          "mechanism": "ARPG战斗"
+        },
+        {
+          "game": "原神",
+          "mechanism": "元素反应+即时战斗"
+        }
+      ],
+      "demo": "",
+      "filename": "即时动作战斗系统.md",
+      "source": "人工"
+    },
+    "PokemonLegendsZA/昼夜双循环系统.md": {
+      "title": "机制卡：宝可梦传说ZA-昼夜双循环系统",
+      "gameName": "宝可梦传说 Z-A",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [
+        {
+          "game": "塞尔达传说",
+          "mechanism": "日夜循环"
+        },
+        {
+          "game": "宝可梦传统",
+          "mechanism": "昼夜出现不同宝可梦"
+        }
+      ],
+      "demo": "",
+      "filename": "昼夜双循环系统.md",
       "source": "人工"
     },
     "ProjectZomboid/生存沙盒-Project-Zomboid-声音视野系统.md": {
@@ -10313,47 +9678,6 @@
       "demo": "https:, , www.youtube.com, watch?v=Qqy7X1dXZc4",
       "filename": "[not_comfirmed]武器系统.md",
       "source": "AI生成-未甄别"
-    },
-    "SpaceKillerClown/[非对称]-外太空杀人小丑-死亡小游戏.md": {
-      "title": "[非对称]-外太空杀人小丑-死亡小游戏",
-      "gameName": "外太空杀人小丑",
-      "tags": [
-        "[交互形式]：死亡状态下通过小游戏为存活队友提供道具",
-        "[体验]：死亡后持续参与感",
-        "[品类]：非对称",
-        "团队贡献感",
-        "降低淘汰挫败感"
-      ],
-      "simpleDesc": "玩家被小丑击杀后可进行小游戏, 完成后可随机获得武器, 关键道具或能量饮料, 并将这些物品直接供给给仍在存活的队友",
-      "mechanismDesc": "1. 触发人类玩家被小丑击杀后, 进入死亡状态\n> 2. 交互进行80年代风格街机小游戏, 完成后随机掉落物品\n> 3. 解除复活后解除",
-      "coreRules": "",
-      "trigger": "人类玩家被小丑击杀后自动进入死亡状态",
-      "painPoint": "非对称恐怖游戏中, 被淘汰的玩家通常只能观战, 体验断层明显",
-      "experienceGoal": "将死亡状态转化为支援角色体验, 降低观战无聊时间",
-      "similarMechanisms": [
-        {
-          "game": "Fortnite",
-          "mechanism": "淘汰后以幽灵形态辅助队友"
-        }
-      ],
-      "demo": "",
-      "filename": "[非对称]-外太空杀人小丑-死亡小游戏.md",
-      "source": "人工"
-    },
-    "SpaceKillerClown/游戏卡-外太空杀人小丑.md": {
-      "title": "外太空杀人小丑 / Killer Klowns from Outer Space: The Game",
-      "gameName": "SpaceKillerClown",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "游戏卡-外太空杀人小丑.md",
-      "source": "人工"
     },
     "Splatoon3/[TPS]-Splatoon 3-潜墨游动机制.md": {
       "title": "[TPS]-Splatoon 3-潜墨游动机制",
@@ -11573,92 +10897,6 @@
       "filename": "[Qualify]捏脸系统.md",
       "source": "AI生成-未甄别"
     },
-    "TrackMania/[Qualify]PlayerCreatedContent.md": {
-      "title": "[RAC]-赛道狂飙-玩家自制内容生态",
-      "gameName": "赛道狂飙",
-      "tags": [
-        "UGC生态",
-        "玩家创作",
-        "社区运营"
-      ],
-      "simpleDesc": "一个\"玩家创作-社区分享-官方精选\"的良性循环生态",
-      "mechanismDesc": "玩家创建的赛道可以上传至社区供其他玩家游玩和评价。官方定期举办赛道设计比赛, 优秀的玩家作品会被官方精选并推荐。游戏内设有每日奖杯系统, 由Nadeo官方每日挑选高质量的玩家自制赛道供全服玩家挑战。",
-      "coreRules": "",
-      "trigger": "- 玩家上传自定义赛道",
-      "painPoint": "单一游戏内容难以满足长期运营需求, 需要玩家参与内容生产",
-      "experienceGoal": "建立创作-反馈-激励的正向循环, 让玩家既是消费者也是生产者",
-      "similarMechanisms": [],
-      "demo": "社区赛道展示或官方赛事回顾",
-      "filename": "[Qualify]PlayerCreatedContent.md",
-      "source": "人工"
-    },
-    "TrackMania/[Qualify]RankingSystem.md": {
-      "title": "[RAC]-TrackMania-排位匹配系统",
-      "gameName": "赛道狂飙",
-      "tags": [
-        "PVP",
-        "硬核排名",
-        "精准匹配"
-      ],
-      "simpleDesc": "精确到毫秒的实时排名, 职业选手与新手同场竞技",
-      "mechanismDesc": "严格的排位系统, 按成绩排序显示全球, 地区排名。每圈时间精确到毫秒, 玩家可查看具体排名和与领先者的差距。排位模式提供公平竞争环境。",
-      "coreRules": "",
-      "trigger": "进入排位赛模式后, 系统自动匹配实力相近的玩家",
-      "painPoint": "解决休闲赛车游戏缺乏竞技深度的问题",
-      "experienceGoal": "提供精益求精的竞技追求, 每毫秒的进步都有意义",
-      "similarMechanisms": [
-        {
-          "game": "街霸6",
-          "mechanism": "格斗游戏排位系统"
-        },
-        {
-          "game": "CS2",
-          "mechanism": "竞技匹配系统"
-        }
-      ],
-      "demo": "https:, , example.com, trackmania-ranking.gif",
-      "filename": "[Qualify]RankingSystem.md",
-      "source": "AI生成-未甄别"
-    },
-    "TrackMania/[Qualify]TrackEditor.md": {
-      "title": "[RAC]-赛道狂飙-赛道编辑器系统",
-      "gameName": "赛道狂飙",
-      "tags": [
-        "UGC",
-        "创意工坊",
-        "玩家创作"
-      ],
-      "simpleDesc": "就像乐高积木拼赛道——用模块化的部件自由搭建各种脑洞大开的赛道",
-      "mechanismDesc": "游戏提供强大的赛道编辑器, 玩家可以使用赛道碎片模块（弯道, 直道, 坡道, 隧道等）自由组合设计赛道。编辑器操作简单但功能强大, 支持预览, 测试和分享。玩家可以创建解谜赛道, 竞速赛道, 极限挑战赛道等各种类型。",
-      "coreRules": "",
-      "trigger": "- 玩家进入赛道编辑器模式",
-      "painPoint": "官方赛道数量有限, 玩家容易产生重复感；硬核玩家需要更多挑战内容",
-      "experienceGoal": "释放玩家创意, 建立UGC生态, 延长游戏生命周期",
-      "similarMechanisms": [
-        {
-          "game": "我",
-          "mechanism": "世界方块建造系统"
-        }
-      ],
-      "demo": "赛道编辑器实机演示或玩家作品展示",
-      "filename": "[Qualify]TrackEditor.md",
-      "source": "人工"
-    },
-    "TrackMania/游戏卡.md": {
-      "title": "赛道狂飙 / TrackMania",
-      "gameName": "TrackMania",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "游戏卡.md",
-      "source": "人工"
-    },
     "TwoPointHospital/[Qualify]DepartmentFlow.md": {
       "title": "[模拟经营]-双点医院-科室流程优化系统",
       "gameName": "双点医院",
@@ -11809,21 +11047,6 @@
       "demo": "待补充游戏内演示视频",
       "filename": "BloodPoolResourceSystem.md",
       "source": "AI生成-未甄别"
-    },
-    "Valheim/gamecard.md": {
-      "title": "Valheim / 英灵神殿",
-      "gameName": "Valheim",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "gamecard.md",
-      "source": "人工"
     },
     "Valorant/[FPS]-无畏契约-经济请求（发枪）系统.md": {
       "title": "[FPS]-无畏契约-经济请求（发枪）系统",
@@ -12506,21 +11729,6 @@
       "filename": "[Qualify][RPG]-ZeldaBreathoftheWild-呀哈哈收集系统.md",
       "source": "人工"
     },
-    "ZenlessZoneZero/游戏卡-绝区零.md": {
-      "title": "绝区零 / Zenless Zone Zero 游戏拆解报告",
-      "gameName": "ZenlessZoneZero",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "游戏卡-绝区零.md",
-      "source": "人工"
-    },
     "ZhuXian/MMORPG-诛仙世界-车轮战机制.md": {
       "title": "[MMORPG]-诛仙世界-车轮战机制",
       "gameName": "诛仙世界",
@@ -12814,123 +12022,6 @@
       ],
       "demo": "*(待补充GIF, 视频)*",
       "filename": "[Qualify]slot-machine-symbol-engine.md",
-      "source": "人工"
-    },
-    "mewgenics/[Qualify]breeding-system.md": {
-      "title": "[Roguelite]-Mewgenics-遗传育种系统",
-      "gameName": "Mewgenics",
-      "tags": [
-        "代际传承",
-        "差异化构建",
-        "长线养成"
-      ],
-      "simpleDesc": "突变缺陷100%遗传, 跨代际选育最强猫咪战队",
-      "mechanismDesc": "玩家通过安排家具提升属性, 让猫咪自主交配繁殖。新生小猫可能继承父母的突变和技能。",
-      "coreRules": "只有基础属性会遗传, 临时buff不会 突变和缺陷绝对遗传给后代 近亲繁殖会产生弱化后代 高刺激度（Stimulation）家具可提升遗传优质属性的概率 猫咪有同性恋和双性恋设定, 配对不限性别",
-      "trigger": "玩家在房屋中进行猫咪交配繁殖时",
-      "painPoint": "传统Roguelite每局重开缺乏积累感",
-      "experienceGoal": "让玩家感受到\"代际传承\"的累积优势, 形成\"我要培育更强后代\"的长线动力",
-      "similarMechanisms": [
-        {
-          "game": "宠物游戏多代际养成",
-          "mechanism": ",  传统Roguelite随机增益"
-        }
-      ],
-      "demo": "*(待补充GIF, 视频)*",
-      "filename": "[Qualify]breeding-system.md",
-      "source": "人工"
-    },
-    "mewgenics/[Qualify]elemental-reaction.md": {
-      "title": "[Roguelite]-Mewgenics-涌现式元素反应",
-      "gameName": "Mewgenics",
-      "tags": [
-        "涌现设计",
-        "环境互动",
-        "策略"
-      ],
-      "simpleDesc": "水导电, 火烹饪, 战场元素创造意外惊喜",
-      "mechanismDesc": "10x10战场中存在可交互元素, 玩家可以利用元素组合创造意想不到的效果。",
-      "coreRules": "",
-      "trigger": "战场中存在水, 火, 电等元素, 且玩家使用对应技能, 道具",
-      "painPoint": "传统回合制战斗技能固定组合缺乏探索惊喜",
-      "experienceGoal": "鼓励玩家尝试不同元素组合, 发现\"原来可以这样\"的惊喜感",
-      "similarMechanisms": [
-        {
-          "game": "原神元素反应",
-          "mechanism": ",  萨尔达元素交互"
-        }
-      ],
-      "demo": "*(待补充GIF, 视频)*",
-      "filename": "[Qualify]elemental-reaction.md",
-      "source": "人工"
-    },
-    "mewgenics/[Qualify]skill-build-system.md": {
-      "title": "[Roguelite]-Mewgenics-职业技能双轨BD",
-      "gameName": "Mewgenics",
-      "tags": [
-        "BD构筑",
-        "技能系统",
-        "职业体系"
-      ],
-      "simpleDesc": "12职业×75专属, 172通用技能, 千变Build自由组合",
-      "mechanismDesc": "猫咪可佩戴6种职业项圈：战士, 坦克, 法师, 盗贼, 牧师, 猎人。",
-      "coreRules": "",
-      "trigger": "猫咪参战前选择职业项圈和技能配置",
-      "painPoint": "传统RPG职业绑定技能过于固定, 缺乏自由组合空间",
-      "experienceGoal": "提供极高的策略深度, 让每个玩家都有独特的\"最强猫咪\"",
-      "similarMechanisms": [
-        {
-          "game": "以撒的结合技能组合",
-          "mechanism": ",  原神圣遗物配装"
-        }
-      ],
-      "demo": "*(待补充GIF, 视频)*",
-      "filename": "[Qualify]skill-build-system.md",
-      "source": "人工"
-    },
-    "mewgenics/breeding-system.md": {
-      "title": "机制卡：遗传育种系统",
-      "gameName": "mewgenics",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "breeding-system.md",
-      "source": "人工"
-    },
-    "mewgenics/elemental-reaction.md": {
-      "title": "机制卡：涌现式元素反应",
-      "gameName": "mewgenics",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "elemental-reaction.md",
-      "source": "人工"
-    },
-    "mewgenics/skill-build-system.md": {
-      "title": "机制卡：职业技能双轨BD系统",
-      "gameName": "mewgenics",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "skill-build-system.md",
       "source": "人工"
     },
     "my-garden-world/[Qualify]friend-assist-system.md": {
@@ -19972,6 +19063,48 @@
       "filename": "PokemonLegendsArceus.md",
       "source": "人工"
     },
+    "PokemonLegendsZA": {
+      "title": "游戏卡：宝可梦传说 Z-A / Pokémon Legends: Z-A",
+      "gameName": "",
+      "developer": "",
+      "publisher": "",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "",
+      "monetization": "",
+      "xStatement": "",
+      "tagline": "",
+      "playerStats": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "核心参考：\n- 即时动作战斗：借鉴阿尔宙斯的开放世界 + 革新为即时动作战斗\n- 白天/夜晚双重玩法：白天探索做任务，夜晚对战打排位\n- Mega进化：系列经典的超级进化回归\n\n独特创新：\n- 训练家与宝可梦共同移动的即时战斗系统\n- 招式范围、释放速度、冷却时间等新要素\n- 宝可梦替换时机成为策略核心\n\n---",
+      "pillars": [
+        {
+          "title": "即时动作战斗系统 → 策略深度提升",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "昼夜双循环系统 → 节奏变化",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "Mega超级进化 → 战力峰值",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "城市探索与跟随系统 → 沉浸感",
+          "experience": "",
+          "design": ""
+        }
+      ],
+      "achievements": "",
+      "relatedMechanisms": [],
+      "filename": "PokemonLegendsZA.md",
+      "source": "人工"
+    },
     "ProjectZomboid": {
       "title": "Project Zomboid / 僵尸毁灭工程",
       "gameName": "Project Zomboid / 僵尸毁灭工程",
@@ -23128,6 +22261,43 @@
       "filename": "mewgenics.md",
       "source": "人工"
     },
+    "moonsigil-atlas": {
+      "title": "Moonsigil Atlas",
+      "gameName": "",
+      "developer": "",
+      "publisher": "",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "",
+      "monetization": "",
+      "xStatement": "几何魔法策略卡牌构筑游戏，融合 Slay the Spire 风格的卡牌构筑与 Carcassonne 的 tile 放置机制，玩家不再受限于能量系统，而是利用物理空间放置卡牌，通过卡牌的相邻、重叠、拼接构建强力组合技，击败星灵泰坦（Astral Titans）拯救宇宙。",
+      "tagline": "",
+      "playerStats": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "核心机制原型：\n- 卡牌构筑系统 → 借鉴《Slay the Spire》的 Roguelike 卡牌构筑：随机事件、路线选择、牌组构建\n- 空间放置机制 → 借鉴《Carcassonne》（卡卡颂）的 tile 放置：卡牌形状、拼接、区域控制\n\n独特创新点：\n- 用\"物理空间\"替代传统\"能量\"作为资源\n- 卡牌形状系统 + 相邻/重叠奖励 = 几何策略深度",
+      "pillars": [
+        {
+          "title": "几何魔法系统（Geometric Magic）",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "卡牌重塑与符文系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "3角色差异化体验",
+          "experience": "",
+          "design": ""
+        }
+      ],
+      "achievements": "",
+      "relatedMechanisms": [],
+      "filename": "moonsigil-atlas.md",
+      "source": "人工"
+    },
     "my-garden-world": {
       "title": "我的花园世界 / My Garden World",
       "gameName": "我的花园世界 / My Garden World",
@@ -23445,7 +22615,7 @@
     }
   },
   "stats": {
-    "mechanismCount": 519,
-    "gameCount": 342
+    "mechanismCount": 465,
+    "gameCount": 344
   }
 }
