@@ -247,7 +247,7 @@
     },
     "AgeOfEmpires2DE/[Excellent]孙子兵法教学系统.md": {
       "title": "[RTS]-帝国时代2-孙子兵法教学系统",
-      "gameName": "AgeOfEmpires2DE",
+      "gameName": "帝国时代2决定版",
       "tags": [
         "RTS",
         "新手教程",
@@ -279,7 +279,7 @@
     },
     "AgeOfEmpires2DE/[Excellent]文明差异化系统.md": {
       "title": "[RTS]-帝国时代2-文明差异化系统",
-      "gameName": "AgeOfEmpires2DE",
+      "gameName": "帝国时代2决定版",
       "tags": [
         "RTS",
         "文明选择",
@@ -311,7 +311,7 @@
     },
     "AgeOfEmpires2DE/[Excellent]时代演进系统.md": {
       "title": "[RTS]-帝国时代2-时代演进系统",
-      "gameName": "AgeOfEmpires2DE",
+      "gameName": "帝国时代2决定版",
       "tags": [
         "RTS",
         "升级",
@@ -343,7 +343,7 @@
     },
     "AgeOfEmpires2DE/[Excellent]资源采集系统.md": {
       "title": "[RTS]-帝国时代2-资源采集系统",
-      "gameName": "AgeOfEmpires2DE",
+      "gameName": "帝国时代2决定版",
       "tags": [
         "RTS",
         "经济运营",
@@ -839,7 +839,7 @@
     },
     "ArenaBreakoutInfinite/[Qualify]loadout-system.md": {
       "title": "[搜打撤]-使命召唤战区-装备舱系统",
-      "gameName": "CallOfDutyWarzone",
+      "gameName": "使命召唤战区",
       "tags": [
         "FPS",
         "大逃杀",
@@ -1104,7 +1104,7 @@
     },
     "AutoChess/[Excellent]QizishengxingXitong.md": {
       "title": "[自走棋]-刀塔自走棋-棋子升星系统",
-      "gameName": "AutoChess",
+      "gameName": "刀塔自走棋",
       "tags": [
         "三合一",
         "升级",
@@ -1123,7 +1123,7 @@
     },
     "AutoChess/[Qualify]GongyongKapchi.md": {
       "title": "[自走棋]-刀塔自走棋-共用卡池机制",
-      "gameName": "AutoChess",
+      "gameName": "刀塔自走棋",
       "tags": [
         "卡池",
         "策略",
@@ -1142,7 +1142,7 @@
     },
     "AutoChess/[Qualify]JibadianXitong.md": {
       "title": "[自走棋]-刀塔自走棋-羁绊系统",
-      "gameName": "AutoChess",
+      "gameName": "刀塔自走棋",
       "tags": [
         "策略",
         "羁绊组合",
@@ -1161,7 +1161,7 @@
     },
     "AutoChess/[Qualify]JinbilixiXitong.md": {
       "title": "[自走棋]-刀塔自走棋-金币利息系统",
-      "gameName": "AutoChess",
+      "gameName": "刀塔自走棋",
       "tags": [
         "经济运营",
         "资源管理",
@@ -1939,7 +1939,7 @@
     },
     "CallOfDutyWarzone/[Excellent]大逃杀-古拉格复活系统.md": {
       "title": "[大逃杀]-[使命召唤战区]-古拉格复活系统",
-      "gameName": "CallOfDutyWarzone",
+      "gameName": "使命召唤战区",
       "tags": [
         "1v1",
         "博弈",
@@ -1963,7 +1963,7 @@
     },
     "CallOfDutyWarzone/[Excellent]大逃杀-合约系统.md": {
       "title": "[大逃杀]-[使命召唤战区]-合约系统",
-      "gameName": "CallOfDutyWarzone",
+      "gameName": "使命召唤战区",
       "tags": [
         "大逃杀",
         "奖励",
@@ -1982,7 +1982,7 @@
     },
     "CallOfDutyWarzone/[Excellent]大逃杀-装备舱Loadout系统.md": {
       "title": "[大逃杀]-[使命召唤战区]-装备舱Loadout系统",
-      "gameName": "CallOfDutyWarzone",
+      "gameName": "使命召唤战区",
       "tags": [
         "FPS",
         "大逃杀",
@@ -2026,7 +2026,7 @@
     },
     "CallOfDutyWarzone/[Qualify]gulag-revive.md": {
       "title": "[搜打撤]-使命召唤战区-古拉格复活",
-      "gameName": "CallOfDutyWarzone",
+      "gameName": "使命召唤战区",
       "tags": [
         "PVP",
         "复活机制",
@@ -2596,7 +2596,7 @@
     },
     "DNF/[Qualify]装备交易时间锁.md": {
       "title": "[ARPG]-DNF-装备交易时间锁",
-      "gameName": "DNF",
+      "gameName": "地下城与勇士",
       "tags": [
         "交易限制",
         "时间系统",
@@ -4117,7 +4117,7 @@
     },
     "ForzaHorizon5/[Excellent]ForzaHorizon5-SkillTree.md": {
       "title": "[RAC]-地平线5-技术进阶系统",
-      "gameName": "ForzaHorizon5",
+      "gameName": "极限竞速：地平线5",
       "tags": [
         "技术",
         "激励机制",
@@ -4193,7 +4193,7 @@
     },
     "ForzaHorizon5/[Qualify]ForzaHorizon5-OpenWorld.md": {
       "title": "[RAC]-地平线5-开放世界探索",
-      "gameName": "ForzaHorizon5",
+      "gameName": "极限竞速：地平线5",
       "tags": [
         "开放世界",
         "探索",
@@ -4277,7 +4277,7 @@
     },
     "GTAV/RAC-GTAol-载具切换.md": {
       "title": "[RAC]-[GTAol]-[载具切换]",
-      "gameName": "GTAOnline",
+      "gameName": "GTA Online",
       "tags": [
         "即时变形",
         "海切换",
@@ -4339,7 +4339,7 @@
     },
     "GameForPeace/[Excellent]大逃杀-四人组队系统.md": {
       "title": "[大逃杀]-[和平精英]-四人组队系统",
-      "gameName": "PeacekeeperElite",
+      "gameName": "和平精英",
       "tags": [
         "多人协作",
         "大逃杀",
@@ -6078,7 +6078,7 @@
     },
     "JX3/[Qualify]WoW-CrossFactionGuild.md": {
       "title": "[MMORPG]-魔兽世界-跨阵营公会系统",
-      "gameName": "WorldOfWarcraft",
+      "gameName": "魔兽世界",
       "tags": [
         "社交",
         "阵营融合"
@@ -7404,7 +7404,7 @@
     },
     "Onmyoji/[Qualify]RuneFreeSystem.md": {
       "title": "[MOBA]-Onmyoji-无符文系统",
-      "gameName": "Onmyoji",
+      "gameName": "决战平安京",
       "tags": [
         "MOBA",
         "PVP",
@@ -8307,7 +8307,7 @@
     },
     "SanGuoZhanLue/[SLG]-三国志战略版-动态地图.md": {
       "title": "[SLG]-三国志战略版-动态地图",
-      "gameName": "RomanceOfTheThreeKingdoms",
+      "gameName": "三国志战略版",
       "tags": [
         "[交互形式]：周期性强制改变地图",
         "[体验]：天时地利",
@@ -8338,7 +8338,7 @@
     },
     "SanGuoZhanLue/[SLG]-三国志战略版-季节主题玩法.md": {
       "title": "[SLG]-三国志战略版-季节主题玩法",
-      "gameName": "RomanceOfTheThreeKingdoms",
+      "gameName": "三国志战略版",
       "tags": [
         "[交互形式]：季节主题玩法切换",
         "[体验]：节奏调控",
@@ -8371,7 +8371,7 @@
     },
     "SanGuoZhanLue/[SLG]-三国志战略版-自由行军与碰撞交战.md": {
       "title": "[SLG]-三国志战略版-自由行军与碰撞交战",
-      "gameName": "RomanceOfTheThreeKingdoms",
+      "gameName": "三国志战略版",
       "tags": [
         "[交互形式]：即时战术指令",
         "[体验]：微操感",
@@ -8400,7 +8400,7 @@
     },
     "SanGuoZhanLue/[SLG]-三战-兵种相克机制.md": {
       "title": "[SLG]-三战-兵种相克机制",
-      "gameName": "RomanceOfTheThreeKingdoms",
+      "gameName": "三国志战略版",
       "tags": [
         "[交互形式]：战前策略",
         "[体验]：以弱胜强",
@@ -8738,7 +8738,7 @@
     },
     "Shadowverse/[Qualify]SameNameCard.md": {
       "title": "[策略卡牌]-影之诗-同名卡机制",
-      "gameName": "Shadowverse",
+      "gameName": "影之诗",
       "tags": [
         "卡组深度",
         "同名卡",
@@ -9984,6 +9984,65 @@
       "filename": "[Qualify]Rage系统.md",
       "source": "AI生成-未甄别"
     },
+    "TestGame/TestCard.md": {
+      "title": "[街机]-ZenlessZoneZero-失衡系统",
+      "gameName": "绝区零",
+      "tags": [
+        "失衡系统",
+        "战斗系统",
+        "挑战",
+        "操作",
+        "策略",
+        "街机动作"
+      ],
+      "simpleDesc": "敌人有一个\"失衡槽\"，通过攻击填满后敌人会进入瘫痪状态，此时对其造成的伤害大幅提升，让战斗从\"磨血\"变成\"找机会打爆发\"的策略循环。",
+      "mechanismDesc": "> 敌人拥有失衡值（Break值）属性，默认为0，最大值为100。每次攻击命中敌人会累积失衡值，不同攻击方式累积效率不同。当失衡值满时，敌人进入失衡状态（Break），此时：\n> 1. 敌人无法行动（瘫痪）\n> 2. 受到的所有伤害提升100%（暴击伤害额外加成）\n> 3. 失衡状态持续约3-5秒\n> 4. 失衡状态结束后，敌人失衡值重置为0，可再次累积",
+      "coreRules": "",
+      "trigger": "- 任何攻击命中敌人时触发失衡值累积",
+      "painPoint": "- **挫败感-高难度**：纯数值对抗容易让玩家因数值差距产生挫败感，失衡系统提供\"以小博大\"的策略空间，即使数值不够也能通过击破失衡创造输出窗口",
+      "experienceGoal": "- **爽快感**：打满失衡进入break状态时的爆发伤害反馈",
+      "similarMechanisms": [
+        {
+          "game": "原神",
+          "mechanism": "元素反应系统（类似的状态积累+爆发机制）"
+        },
+        {
+          "game": "崩坏",
+          "mechanism": "星穹铁道-弱点击破（敌人韧性条机制）"
+        },
+        {
+          "game": "艾尔登法环",
+          "mechanism": "处决机制（类似的可乘之机设计）"
+        }
+      ],
+      "demo": "https://example.com/zzz-break-demo.gif",
+      "filename": "TestCard.md",
+      "source": "人工",
+      "flatTags": [
+        "街机动作",
+        "策略",
+        "操作",
+        "挑战",
+        "成长变强",
+        "爽快感",
+        "成就感",
+        "紧张感",
+        "对抗",
+        "特色机制-失衡系统",
+        "挫败感痛点",
+        "内容枯竭痛点"
+      ],
+      "playLevelTags": [
+        "PVE",
+        "单局1人/单队1人",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "中规中矩（10-60分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
+    },
     "TestGame/[Excellent]射击-TestGame-撤离机制.md": {
       "title": "[射击]-TestGame-撤离机制",
       "gameName": "TestGame",
@@ -10010,7 +10069,32 @@
       ],
       "demo": "",
       "filename": "[Excellent]射击-TestGame-撤离机制.md",
-      "source": "人工"
+      "source": "人工",
+      "flatTags": [
+        "射击-搜打撤",
+        "策略",
+        "随机",
+        "挑战",
+        "竞技",
+        "紧张感",
+        "成就感",
+        "对抗",
+        "合作",
+        "撤离机制",
+        "装备带入带出",
+        "挫败感痛点",
+        "经济成本-付费差距"
+      ],
+      "playLevelTags": [
+        "PvPvE",
+        "单局3-5人",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "碎片化（15-30分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
     },
     "TexasChainsaw/[非对称]-德州电锯杀人狂-第三方势力爷爷.md": {
       "title": "[非对称]-德州电锯杀人狂-第三方势力\"爷爷\"",
@@ -10789,7 +10873,7 @@
     },
     "WorldOfWarcraft/[not_comfirmed]General-GuildWar.md": {
       "title": "[MMORPG]-通用-公会战竞技系统",
-      "gameName": "WorldOfWarcraft",
+      "gameName": "魔兽世界",
       "tags": [
         "PVP",
         "奖励",
@@ -22014,7 +22098,7 @@
     }
   },
   "stats": {
-    "mechanismCount": 429,
+    "mechanismCount": 430,
     "gameCount": 344
   }
 }

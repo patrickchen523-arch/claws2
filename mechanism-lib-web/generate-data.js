@@ -511,9 +511,69 @@ function extractMechanismInfo(parsed, filename) {
     if (filenameMatch) info.gameName = filenameMatch[2].trim();
   }
   
-  // 映射游戏名到标准key
-  if (info.gameName && GAME_NAME_MAP[info.gameName]) {
-    info.gameName = GAME_NAME_MAP[info.gameName];
+  // === 6. 标签信息（扁平化解析）===
+  // 只解析"标签信息"章节内的内容
+  if (sections['标签信息']) {
+    const section = sections['标签信息'];
+    const allTags = [];
+    const playLevelTags = []; // 玩法层级标签单独存储
+    
+    // 1. 匹配 "- 标签名：标签内容" 格式（有冒号）
+    const dashMatches = section.match(/- [^：\n]+：[^\n]+/g);
+    if (dashMatches) {
+      dashMatches.forEach(m => {
+        const colonIdx = m.indexOf('：');
+        if (colonIdx > 0) {
+          const label = m.slice(1, colonIdx).trim(); // 标签名
+          const content = m.slice(colonIdx + 1).trim(); // 标签内容
+          const tags = content.split(/[、，,]/).map(t => t.trim()).filter(t => t);
+          
+          // 判断是否是玩法层级的标签
+          const playLevelLabels = ['对抗类型', '玩法人数规模', '内容消耗模式', '生命周期阶段', '操作属性', '时间属性', '玩法重度', '玩法独立性'];
+          if (playLevelLabels.includes(label)) {
+            playLevelTags.push(...tags);
+          } else {
+            allTags.push(...tags);
+          }
+        }
+      });
+    }
+    
+    // 2. 匹配 "- 特色机制-具体机制名" 格式
+    const specialMatches = section.match(/- 特色机制-[^\n]+/g);
+    if (specialMatches) {
+      specialMatches.forEach(m => {
+        const tag = m.replace(/^-\s*/, '').trim();
+        if (tag) allTags.push(tag);
+      });
+    }
+    
+    // 3. 玩家痛点章节：匹配 "- 标签名" 格式（无冒号）
+    const painStart = section.indexOf('### 玩家痛点');
+    if (painStart >= 0) {
+      const nextSection = section.indexOf('###', painStart + 5);
+      const painSection = nextSection > 0 ? section.slice(painStart, nextSection) : section.slice(painStart);
+      
+      const painMatches = painSection.match(/- [^：\n]+/g);
+      if (painMatches) {
+        painMatches.forEach(m => {
+          const tag = m.replace(/^-\s*/, '').trim();
+          if (tag) allTags.push(tag);
+        });
+      }
+    }
+    
+    // 去重并保存
+    const uniqueTags = [...new Set(allTags)];
+    if (uniqueTags.length > 0) {
+      info.flatTags = uniqueTags;
+    }
+    
+    // 单独保存玩法层级标签
+    const uniquePlayTags = [...new Set(playLevelTags)];
+    if (uniquePlayTags.length > 0) {
+      info.playLevelTags = uniquePlayTags;
+    }
   }
   
   return info;
