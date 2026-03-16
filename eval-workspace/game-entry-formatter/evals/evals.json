@@ -1,0 +1,17 @@
+{
+  "skill_name": "game-entry-formatter",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "将《黑神话：悟空》的'棍法系统'整理成机制库可入库的格式",
+      "expected_output": "符合标准格式的机制卡，包含案例名称、核心标签、一句话解释等字段",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "创建《绝区零》的游戏卡",
+      "expected_output": "符合标准格式的游戏卡，包含X-Statement、核心支柱等",
+      "files": []
+    }
+  ]
+}

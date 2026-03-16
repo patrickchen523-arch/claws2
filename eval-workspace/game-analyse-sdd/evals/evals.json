@@ -1,0 +1,17 @@
+{
+  "skill_name": "game-analyse-sdd",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "拆解《黑神话：悟空》这款游戏，帮我分析它的核心机制和玩法特色",
+      "expected_output": "包含X-Statement、核心支柱、玩法原型等标准化拆解内容",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "分析《绝区零》的战斗系统设计",
+      "expected_output": "聚焦战斗系统的深度拆解，包含核心机制、策略维度等",
+      "files": []
+    }
+  ]
+}

@@ -334,13 +334,13 @@ function extractMechanismInfo(parsed, filename) {
   if (sections['机制拆解']) {
     const section = sections['机制拆解'];
     
-    // 机制描述 - try multiple patterns
-    let match = section.match(/\*\*机制描述\*\*[：:]?\s*\n?(.+?)(?=\*\*|触发|$)/s);
+    // 机制描述 - 修复贪婪匹配
+    let match = section.match(/\*\*机制描述\*\*[：:]?\s*([\s\S]+?)(?=\n\*\*|\n触发|$)/);
     if (match) {
       info.mechanismDesc = match[1].trim();
     } else {
       // Alternative: just text after 机制描述
-      match = section.match(/机制描述[：:][\s\S]+?(?=\n\*\*|触发|$)/);
+      match = section.match(/机制描述[：:][\s\S]+?(?=\n\*\*|\n触发|$)/);
       if (match) {
         info.mechanismDesc = match[0].replace('机制描述', '').replace(/[：:]/g, '').trim();
       }

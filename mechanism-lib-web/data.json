@@ -28,34 +28,6 @@
       "filename": "[Qualify]7v7团战模式.md",
       "source": "AI生成-未甄别"
     },
-    "300Heroes/[Qualify]动漫角色技能还原.md": {
-      "title": "[MOBA]-300英雄-动漫角色技能还原",
-      "gameName": "300英雄",
-      "tags": [
-        "IP联动",
-        "MOBA",
-        "角色还原"
-      ],
-      "simpleDesc": "把热门动漫角色的经典技能直接搬进MOBA游戏, 让粉丝用自己喜欢的角色战斗",
-      "mechanismDesc": "将热门动漫作品中的角色技能进行游戏化改编, 转化为MOBA游戏中的英雄技能。玩家可以使用各种动漫IP中的角色进行对战, 每个角色的技能都尽量还原原作中的经典招数。",
-      "coreRules": "",
-      "trigger": "玩家选择该动漫角色进入游戏对战后",
-      "painPoint": "传统MOBA角色同质化严重, 缺乏IP情怀共鸣",
-      "experienceGoal": "让动漫粉丝能够\"用自己喜欢的角色打MOBA\", 提供角色情怀满足感",
-      "similarMechanisms": [
-        {
-          "game": "决战平安京",
-          "mechanism": "式神技能设计"
-        },
-        {
-          "game": "英雄联盟",
-          "mechanism": "K, DA皮肤系列"
-        }
-      ],
-      "demo": "GIF或视频链接（待补充）",
-      "filename": "[Qualify]动漫角色技能还原.md",
-      "source": "AI生成-未甄别"
-    },
     "300Heroes/[Qualify]多模式并存设计.md": {
       "title": "[MOBA]-300英雄-多模式并存设计",
       "gameName": "300英雄",
@@ -128,7 +100,7 @@
         "第三人称"
       ],
       "simpleDesc": "\"不仅要防人, 还要防机器\"：在时间耗尽前撤离, 同时面临ARC机械和玩家的双重威胁",
-      "mechanismDesc": "PvPvE撤离是ARC的核心设计：\n1.",
+      "mechanismDesc": "PvPvE撤离是ARC的核心设计：\n1. **时间限制**：倒计时内必须撤离\n2. **双重威胁**：ARC机械敌人, 其他玩家掠夺者\n3. **撤离点**：elevator, raider hatch等撤离点\n4. **战利品**：成功撤离带走收集的物资",
       "coreRules": "",
       "trigger": "- 收集战利品后前往撤离点",
       "painPoint": "- 解决\"只打人\"的单调PVP",
@@ -156,7 +128,7 @@
         "装备系统"
       ],
       "simpleDesc": "\"回家造东西\"：返回基地可制作, 贩卖, 升级装备, augments自定义角色build",
-      "mechanismDesc": "基地系统是ARC的局外养成设计：\n1.",
+      "mechanismDesc": "基地系统是ARC的局外养成设计：\n1. **制作系统**：收集材料制作装备道具\n2. **贩卖系统**：出售战利品换取资源\n3. **装备升级**：强化武器和防具\n4. **augments系统**：角色天赋, 技能自定义",
       "coreRules": "",
       "trigger": "- 撤离成功后返回基地",
       "painPoint": "- 解决\"局外无目标\"的空洞",
@@ -184,7 +156,7 @@
         "PVE威胁"
       ],
       "simpleDesc": "\"不只是防人, 还要防机器\"：ARC机械敌人作为主要PVE威胁, 提供可预测但持续的压力",
-      "mechanismDesc": "ARC机械敌人是游戏的核心特色：\n1.",
+      "mechanismDesc": "ARC机械敌人是游戏的核心特色：\n1. **多形态机械**：如Tick八足小型潜伏者等\n2. **行为AI**：巡猎, 伏击等智能行为\n3. **战斗价值**：击败ARC可获取战利品\n4. **战术用途**：可引诱至其他玩家位置借刀杀人",
       "coreRules": "",
       "trigger": "- 进入战场后遭遇ARC",
       "painPoint": "- 解决\"搜打撤无PVE内容\"的单调",
@@ -203,66 +175,6 @@
       "filename": "[Excellent]搜打撤-机械敌人AI系统.md",
       "source": "人工"
     },
-    "ARK/击晕式驯服机制.md": {
-      "title": "击晕式驯服机制",
-      "gameName": "ARK",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "击晕式驯服机制.md",
-      "source": "人工"
-    },
-    "ARK/变异基因系统.md": {
-      "title": "变异/基因系统",
-      "gameName": "ARK",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "变异基因系统.md",
-      "source": "人工"
-    },
-    "ARK/恐龙驯养系统.md": {
-      "title": "恐龙驯养系统",
-      "gameName": "ARK",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "恐龙驯养系统.md",
-      "source": "人工"
-    },
-    "ARK/部落领地系统.md": {
-      "title": "部落领地系统",
-      "gameName": "ARK",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "部落领地系统.md",
-      "source": "人工"
-    },
     "AdvanceWars/[Excellent]兵种相克系统.md": {
       "title": "[战棋]-[高级战争]-兵种相克系统",
       "gameName": "高级战争",
@@ -272,7 +184,7 @@
         "策略"
       ],
       "simpleDesc": "就像\"石头剪刀布\"——坦克克摩托, 摩托克步兵, 步兵克坦克, 选对兵种克制可以以小博大",
-      "mechanismDesc": "游戏包含18种海陆空兵种, 形成完整的相克链：\n-",
+      "mechanismDesc": "游戏包含18种海陆空兵种, 形成完整的相克链：\n- **陆战兵种**：步兵, 摩托, 机械化, 坦克, 重坦克, 火箭炮, 导弹\n- **空中兵种**：战斗机, 轰炸机, 直升机, 侦察机\n- **海上兵种**：巡洋舰, 潜艇, 运输舰, 登陆舰\n\n相克关系示例：\n- 步兵 > 摩托（步兵克轻装单位）\n- 坦克 > 步兵（重装克步兵）\n- 战斗机 > 轰炸机（制空权争夺）\n- 潜艇 > 运输舰（海战克制）\n- 直升机 > 坦克（空对地优势）\n\n攻击被克制的单位时伤害提升50%-100%, 被克制时伤害减少50%。",
       "coreRules": "",
       "trigger": "- 攻击时自动判定相克关系",
       "painPoint": "传统战棋兵种只是\"功能不同\", 没有明显的强弱关系, 导致玩家可以无脑堆最强兵种",
@@ -306,7 +218,7 @@
         "指挥官"
       ],
       "simpleDesc": "每个指挥官就是一张\"技能牌\"——选对指挥官比选对兵种更重要。指挥官有两套技能：普通技能每回合可用，大招（COP）攒能量后释放能瞬间逆转战局——像格斗游戏的\"必杀技\"",
-      "mechanismDesc": "游戏中共有11名可选指挥官，按阵营分为5个势力（橙星、蓝月、黄慧星、绿地球、黑洞），每个指挥官都有独特的作战风格和技能组。指挥官不是普通单位，而是全局增益提供者。\n\n### 指挥官阵营特性\n- 橙星阵营（美国原型）：擅长空降和特种作战\n- 蓝月阵营（日本原型）：擅长防御和反击\n- 黄慧星阵营（英国原型）：擅长游击战\n- 绿地球阵营（德国原型）：擅长装甲突击\n- 黑洞阵营（苏联原型）：擅长数量优势\n\n### 三层技能系统\n1.",
+      "mechanismDesc": "游戏中共有11名可选指挥官，按阵营分为5个势力（橙星、蓝月、黄慧星、绿地球、黑洞），每个指挥官都有独特的作战风格和技能组。指挥官不是普通单位，而是全局增益提供者。\n\n### 指挥官阵营特性\n- 橙星阵营（美国原型）：擅长空降和特种作战\n- 蓝月阵营（日本原型）：擅长防御和反击\n- 黄慧星阵营（英国原型）：擅长游击战\n- 绿地球阵营（德国原型）：擅长装甲突击\n- 黑洞阵营（苏联原型）：擅长数量优势\n\n### 三层技能系统\n1. **被动技能**：指挥官自带的常驻增益\n   - 如：某兵种攻击+10%、某兵种防御+20%等\n   - 全程生效，无需触发\n\n2. **普通技能（SC）**：每回合可使用1次\n   - 效果相对温和，如：全单位攻击力+10%、回复部分生命值等\n\n3. **指挥官必杀技（COP - Commander's Power）**：需要积累能量条\n   - 能量满时可释放强力主动技能\n   - 如：全单位攻击力翻倍并回复50%生命、对指定区域造成巨额伤害等\n\n4. **超必杀技（Super COP）**：能量条攒满后的强化版本\n   - 比普通COP更强力，是终极翻盘手段\n\n### 能量积累机制\n能量条通过以下方式积累：\n- 攻击敌人\n- 占领建筑\n- 每回合开始时自动充能",
       "coreRules": "",
       "trigger": "- 被动技能：选择指挥官后全程生效",
       "painPoint": "- 传统战棋兵种搭配是核心，但玩家容易陷入\"兵种对了就能赢\"的套路",
@@ -342,7 +254,7 @@
         "渐进式学习"
       ],
       "simpleDesc": "就像游戏内置了一套\"竞技对战速成班\", 用实战关卡教玩家高级操作技巧",
-      "mechanismDesc": "\"孙子兵法\"是决定版新增的独立战役教学模块, 包含循序渐进的教学关卡：\n1.",
+      "mechanismDesc": "\"孙子兵法\"是决定版新增的独立战役教学模块, 包含循序渐进的教学关卡：\n1. **基础运营** - 教村民采集, 资源分配, 基地建设\n2. **时代timing** - 教玩家何时升级时代最优\n3. **军事入门** - 教兵种生产, 阵型控制\n4. **快攻与反快攻** - 教前期rush战术和防御应对\n5. **围杀与微操** - 教高级单位控制和围杀技巧\n\n每个关卡有明确目标（如\"在8分钟内升级到封建时代\"）, 通关后解锁下一关。",
       "coreRules": "",
       "trigger": "玩家主动选择进入孙子兵法战役, 系统逐步引导",
       "painPoint": "解决经典老游戏新手上手难的问题——20年积累的高阶技巧没有系统性教学",
@@ -374,7 +286,7 @@
         "策略"
       ],
       "simpleDesc": "就像不同国家有不同特产, 每个文明有独特的\"国策\"——特殊单位, 科技加成, 玩法风格",
-      "mechanismDesc": "游戏包含40, 个文明, 每个文明拥有：\n1.",
+      "mechanismDesc": "游戏包含40, 个文明, 每个文明拥有：\n1. **独特科技树**：部分科技仅该文明可研发\n2. **特殊单位**：每个文明1-2个 exclusive 兵种（如哥特的近卫军, 蒙古的蒙古突骑）\n3. **文明加成**：资源生产速度, 单位成本, 建筑效率等方面的被动buff\n4. **特色建筑**：部分文明有独特建筑（如日本的神社, 波的贸易市场）",
       "coreRules": "",
       "trigger": "玩家在游戏开始时选择文明, 文明特性贯穿整局",
       "painPoint": "解决RTS游戏重复可玩性低的问题——相同地图, 相同资源, 但不同文明带来完全不同的战术体验",
@@ -406,7 +318,7 @@
         "科技树"
       ],
       "simpleDesc": "就像国家发展要经历\"原始社会→奴隶社会→封建社会\", 游戏内通过积累资源逐步解锁更高级的兵种和科技",
-      "mechanismDesc": "游戏分为4个时代：\n1.",
+      "mechanismDesc": "游戏分为4个时代：\n1. **黑暗时代** → 只能建基础建筑, 产出低级单位\n2. **封建时代** → 可升级城堡, 解锁更多兵种和防御建筑\n3. **城堡时代** → 可建城堡（奇观建筑）, 解锁特殊单位\n4. **帝王时代** → 解锁所有单位和终极科技\n\n每个时代升级需要：\n- 特定资源（食物, 黄金）\n- 建造指定建筑（如封建需要磨坊, 兵营, 住房）\n- 时代升级后科技树展开, 新单位解锁",
       "coreRules": "",
       "trigger": "玩家积累足够资源并满足建筑条件后, 可主动升级时代",
       "painPoint": "避免玩家开局直接暴兵导致的同质化体验, 通过时代演进制造明确的\"timing节点\"和战略节奏",
@@ -438,7 +350,7 @@
         "资源管理"
       ],
       "simpleDesc": "就像国家经济需要\"农林牧渔\"全面发展, 游戏内四种资源（食物, 木材, 黄金, 石材）缺一不可",
-      "mechanismDesc": "四种基础资源：\n1.",
+      "mechanismDesc": "四种基础资源：\n1. **食物** - 来源：采集浆果, 狩猎动物, 种田, 捕鱼\n   - 用途：生产单位, 升级时代, 研发科技\n2. **木材** - 来源：伐木\n   - 用途：建造建筑, 造船\n3. **黄金** - 来源：开采金矿, 贸易\n   - 用途：升级高级单位, 研发高级科技\n4. **石材** - 来源：采石\n   - 用途：建造城堡, 城镇中心",
       "coreRules": "",
       "trigger": "游戏开始时默认分配村民采集食物, 后续由玩家动态调整",
       "painPoint": "解决RTS游戏后期资源溢出问题——通过动态调整村民分配和贸易系统保持资源紧张感",
@@ -498,7 +410,7 @@
         "阶段递进"
       ],
       "simpleDesc": "\"升级时代解锁核弹\"：每个时代有独特的单位和科技, 升级是质变节点",
-      "mechanismDesc": "帝国时代的时代升级体系：\n1.",
+      "mechanismDesc": "帝国时代的时代升级体系：\n1. **时代划分**：黑暗→封建→城堡→帝王（4个时代）\n2. **升级条件**：满足特定资源, 建筑要求\n3. **质变内容**：新单位类型, 更强攻防, 特殊科技\n4. **时代道具**：时代升级送的时代证书是战略资源",
       "coreRules": "",
       "trigger": "- 积累足够资源后升级",
       "painPoint": "- 解决\"开局定型\"的线性发展",
@@ -526,7 +438,7 @@
         "单位核心"
       ],
       "simpleDesc": "\"英雄是队伍的灵魂\"：英雄带经验装, 装备, 死了队伍就垮了——这是RTS, RPG的经典融合",
-      "mechanismDesc": "英雄系统是Warcraft3的核心创新：\n1.",
+      "mechanismDesc": "英雄系统是Warcraft3的核心创新：\n1. **英雄单位**：每个阵营3个可选英雄, 英雄不死就能复活\n2. **经验升级**：杀怪, 助攻获得经验, 升级学技能点\n3. **物品栏**：6格背包, 掉落, 购买装备\n4. **召唤物**：部分英雄能召唤单位协助作战",
       "coreRules": "",
       "trigger": "- 地图上有野怪, 敌方单位可击杀获取经验",
       "painPoint": "- 解决\"纯RTS无养成\"的单调感",
@@ -554,7 +466,7 @@
         "翻盘设计"
       ],
       "simpleDesc": "\"造出核弹就赢了一半\"：超级武器造价昂贵但一旦造出可终结比赛, 是后期博弈的核心",
-      "mechanismDesc": "超级武器是RTS的终结设计：\n1.",
+      "mechanismDesc": "超级武器是RTS的终结设计：\n1. **昂贵造价**：需要大量资源建造\n2. **充能时间**：建造后需要时间准备\n3. **决定性效果**：核弹, 闪电风暴可瞬间改变战局\n4. **博弈焦点**：对手是否会防守, 反制",
       "coreRules": "",
       "trigger": "- 科技树达到特定等级",
       "painPoint": "- 解决\"后期无聊\"的拖沓感",
@@ -572,66 +484,6 @@
       "demo": "红警2核弹发射演示",
       "filename": "[Excellent]RTS-超级武器系统.md",
       "source": "AI生成-未甄别"
-    },
-    "Aladedu/横版格斗玩法.md": {
-      "title": "机制卡：横版格斗玩法",
-      "gameName": "Aladedu",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "横版格斗玩法.md",
-      "source": "人工"
-    },
-    "Aladedu/深渊副本系统.md": {
-      "title": "机制卡：深渊副本系统",
-      "gameName": "Aladedu",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "深渊副本系统.md",
-      "source": "人工"
-    },
-    "Aladedu/职业技能连招系统.md": {
-      "title": "机制卡：职业技能连招系统",
-      "gameName": "Aladedu",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "职业技能连招系统.md",
-      "source": "人工"
-    },
-    "Aladedu/装备强化系统.md": {
-      "title": "机制卡：装备强化系统",
-      "gameName": "Aladedu",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "装备强化系统.md",
-      "source": "人工"
     },
     "AlbionOnline/MMORPG-阿尔比恩-资源分区设计.md": {
       "title": "[MMORPG]-阿尔比恩-资源分区设计",
@@ -674,7 +526,7 @@
         "经济系统"
       ],
       "simpleDesc": "就像一个真实的中世纪王国——所有东西都是玩家种的, 造的, 交易的, 没有NPC商人垄断物价",
-      "mechanismDesc": "Albion Online 的经济系统完全由玩家驱动, 核心特征包括：\n\n1.",
+      "mechanismDesc": "Albion Online 的经济系统完全由玩家驱动, 核心特征包括：\n\n1. **全物品玩家制造**：所有装备, 道具, 材料都由玩家采集和制造, 不存在 NPC 商人出售的成品\n2. **自由交易**：所有物品零绑定, 可在玩家市场自由交易\n3. **差异化资源分布**：不同区域产出不同资源, 迫使玩家跨区域贸易\n4. **运输成本**：远距离运输有风险（被劫掠）, 影响定价策略\n5. **制造加成**：不同城市, 区域对不同制造工艺有加成, 鼓励专业化分工\n\n市场完全由供需关系驱动, 物价随玩家行为波动。高级装备因制作难度高, 需求大而昂贵。",
       "coreRules": "",
       "trigger": "- 玩家在市场中挂售物品",
       "painPoint": "- 传统 MMORPG 的经济由 NPC 商人控制, 玩家只是\"消费终端\"",
@@ -775,7 +627,7 @@
         "战斗系统"
       ],
       "simpleDesc": "类魂游戏里玩家可以无限闪避，不用担心体力条见底，比传统黑魂更灵活",
-      "mechanismDesc": "相较于传统类魂游戏（如《黑暗之魂》系列）的体力限制系统，本游戏移除了闪避的体力消耗限制。玩家可以无限次使用闪避动作，但通过其他方式进行平衡：\n\n1.",
+      "mechanismDesc": "相较于传统类魂游戏（如《黑暗之魂》系列）的体力限制系统，本游戏移除了闪避的体力消耗限制。玩家可以无限次使用闪避动作，但通过其他方式进行平衡：\n\n1. **闪避有iFrames（无敌帧）**：但窗口期较短，需要精确时机\n2. **无体力限制但有冷却**：每次闪避后有短暂硬直\n3. **壳的限制**：没有壳时闪避不会获得iFrames保护\n4. **敌人AI压迫**：敌人攻击频率和连招设计迫使玩家不能依赖无限闪避",
       "coreRules": "",
       "trigger": "- 按下闪避键即触发",
       "painPoint": "- 传统类魂的体力限制对新手不友好，容易劝退",
@@ -792,106 +644,6 @@
       ],
       "demo": "https://www.youtube.com/watch?v=dQw4w9WgXcQ （待替换为实际演示视频）",
       "filename": "无体力闪避.md",
-      "source": "人工"
-    },
-    "ApexLegends/Ping非语言交流系统.md": {
-      "title": "Ping非语言交流系统",
-      "gameName": "ApexLegends",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "Ping非语言交流系统.md",
-      "source": "人工"
-    },
-    "ApexLegends/[BR]-Apex英雄-进化护盾.md": {
-      "title": "[BR]-Apex英雄-进化护盾",
-      "gameName": "Apex Legends",
-      "tags": [
-        "[体验]：局内成长",
-        "[品类]：大逃杀",
-        "以战养战",
-        "打破常规"
-      ],
-      "simpleDesc": "像RPG打怪升级一样, 造成伤害越多, 穿的防弹衣就越厚",
-      "mechanismDesc": "触发玩家造成任何有效伤害时\n> 交互UI界面显示进化所需的伤害（倒计数）, 达到阈值时伴随音效瞬间升级护甲颜色（如白变蓝, 蓝变紫）\n> 生效立即增加一格护甲容量上限, 本局永久生效",
-      "coreRules": "",
-      "trigger": "对敌方玩家造成伤害（打倒地护盾或非本体造物不计入）",
-      "painPoint": "解决早期大逃杀游戏\"避战苟活收益远高于刚枪\"的痛点, 避免辛辛苦苦搜刮一身神装被\"老六\"偷袭的极强挫败感",
-      "experienceGoal": "提供\"以战养战\"的正反馈爽感, 鼓励玩家主动寻找交战, 创造\"越打越强\"的滚雪球体验",
-      "similarMechanisms": [
-        {
-          "game": "远光84",
-          "mechanism": "进化护甲"
-        }
-      ],
-      "demo": "",
-      "filename": "[BR]-Apex英雄-进化护盾.md",
-      "source": "人工"
-    },
-    "ApexLegends/战斗通行证系统.md": {
-      "title": "战斗通行证系统",
-      "gameName": "ApexLegends",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "战斗通行证系统.md",
-      "source": "人工"
-    },
-    "ApexLegends/英雄技能系统.md": {
-      "title": "英雄技能系统",
-      "gameName": "ApexLegends",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "英雄技能系统.md",
-      "source": "人工"
-    },
-    "ApexLegends/进化护盾系统.md": {
-      "title": "进化护盾系统",
-      "gameName": "ApexLegends",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "进化护盾系统.md",
-      "source": "人工"
-    },
-    "ApexLegends/高机动性位移系统.md": {
-      "title": "高机动性位移系统",
-      "gameName": "ApexLegends",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "高机动性位移系统.md",
       "source": "人工"
     },
     "ArcaneOdyssey/RPG-杖剑传说-一键带副本.md": {
@@ -923,7 +675,7 @@
         "稀有物资"
       ],
       "simpleDesc": "\"背包越重越值钱\"：高价值稀有物资（大金）大幅提升单局收益, 是玩家的核心追求",
-      "mechanismDesc": "大金系统是暗区突围的激励设计：\n1.",
+      "mechanismDesc": "大金系统是暗区突围的激励设计：\n1. **稀有物资**：黄金面具, 胶囊电视, 脑电装置等\n2. **价值累积**：带出后永久保留, 可交易\n3. **收藏成就**：S4赛季超10款大金更新\n4. **风险匹配**：大金吸引更多敌人争夺",
       "coreRules": "",
       "trigger": "- 局内搜刮到稀有物资",
       "painPoint": "- 解决\"搜无可搜\"的无聊",
@@ -951,7 +703,7 @@
         "技能系统"
       ],
       "simpleDesc": "\"死了再练\"：局内行为积累技能等级, 商人声望解锁高级物品, 仓库积累是长期目标",
-      "mechanismDesc": "局外养成是塔科夫的长线设计：\n1.",
+      "mechanismDesc": "局外养成是塔科夫的长线设计：\n1. **技能系统**：射击, 潜行, 体力等技能通过行为积累升级\n2. **商人声望**：完成任务提升声望, 解锁高级物品购买权\n3. **仓库积累**：撤离成功的装备永久保留\n4. **健康状态**：最大生命值, 能量等全局属性",
       "coreRules": "",
       "trigger": "- 局内行为积累经验",
       "painPoint": "- 解决\"死亡=白玩\"的挫败感",
@@ -978,7 +730,7 @@
         "风险博弈"
       ],
       "simpleDesc": "\"活着出来才算赢\"：局内找到撤离点并成功撤离, 才能把搜到的物资带出去, 否则一切归零",
-      "mechanismDesc": "撤离机制是搜打撤的核心设计：\n1.",
+      "mechanismDesc": "撤离机制是搜打撤的核心设计：\n1. **固定撤离点**：每张地图有多个撤离点\n2. **撤离条件**：部分撤离点需要钥匙, 击杀, 治疗等条件\n3. **窗口期**：撤离点有开放时间限制\n4. **撤离失败**：超时, 被击杀则撤离失败, 装备全丢",
       "coreRules": "",
       "trigger": "- 玩家到达撤离点",
       "painPoint": "- 解决\"打完就结束\"的单调",
@@ -1010,7 +762,7 @@
         "配件改装"
       ],
       "simpleDesc": "\"配装决定生死\"：6大类武器可自由改装, 配件搭配直接影响战斗力",
-      "mechanismDesc": "枪械改装是暗区突围的深度设计：\n1.",
+      "mechanismDesc": "枪械改装是暗区突围的深度设计：\n1. **武器类型**：手枪, 冲锋枪, 步枪, 轻机枪, 霰弹枪, 卡宾枪\n2. **配件改装**：瞄具, 握把, 枪管, 弹匣等部位\n3. **属性影响**：后座力, 射速, 精准度, 威力\n4. **改装方案**：可保存多套配装方案",
       "coreRules": "",
       "trigger": "- 局外改装武器",
       "painPoint": "- 解决\"武器无差异\"的单调",
@@ -1038,7 +790,7 @@
         "部位伤害"
       ],
       "simpleDesc": "\"子弹有穿透, 护甲会磨损\"：不同子弹穿透率不同, 护甲有耐久, 打头一枪毙命, 打脚会影响移动",
-      "mechanismDesc": "硬核弹道护甲是塔科夫的特色设计：\n1.",
+      "mechanismDesc": "硬核弹道护甲是塔科夫的特色设计：\n1. **子弹穿透**：不同子弹有不同穿透值\n2. **护甲耐久**：护甲承受伤害会减少耐久\n3. **部位伤害**：头, 胸, 四肢伤害计算不同\n4. **后坐力**：武器有真实后座力模拟",
       "coreRules": "",
       "trigger": "- 射击时计算穿透vs护甲",
       "painPoint": "- 解决\"枪械无差异\"的单调",
@@ -1066,7 +818,7 @@
         "高风险高回报"
       ],
       "simpleDesc": "\"装备全带走, 死了全丢\"：带入的装备决定生存能力, 搜到的物资只有活着撤离才能带走",
-      "mechanismDesc": "装备带入带出是搜打撤的核心设计：\n1.",
+      "mechanismDesc": "装备带入带出是搜打撤的核心设计：\n1. **自由带入**：可携带任意装备进入战场\n2. **全掉落**：死亡后装备被击杀者掠夺\n3. **保险箱**：部分装备可放入保险, 被杀后可取回\n4. **战利品**：高价值物资（显卡, 金条, 钥匙）大幅提升收益",
       "coreRules": "",
       "trigger": "- 局外仓库选择装备带入",
       "painPoint": "- 解决\"装备无意义\"的无聊",
@@ -1113,7 +865,7 @@
         "概率机制"
       ],
       "simpleDesc": "每次没抽到6星角色, 下次抽中的概率就会提升2%。就像抽奖箱里的\"再来一次\"球越积越多, 到第50次时你甚至能看到它发光。",
-      "mechanismDesc": "1.",
+      "mechanismDesc": "1. **基础概率**：6星角色基础出货率为2%\n2. **概率递进规则**：\n   - 第1-50抽：每次未出6星, 概率提升2%\n   - 第51抽开始：每次未出6星, 概率继续提升（无明确上限说明）\n3. **保底叠加**：\n   - 基础保底：每10抽必定获得一个5星角色\n   - 大保底：每50次寻访后, 下一个6星概率大幅提升\n   - 综合保底：综合考虑保底, 6星综合期望约为50-60抽",
       "coreRules": "",
       "trigger": "- 连续未获得6星角色时触发概率递进",
       "painPoint": "- 解决\"纯随机\"带来的极端情况——有人可能100抽不出6星",
@@ -1140,7 +892,7 @@
         "最低保障"
       ],
       "simpleDesc": "就像买10张刮刮乐, 必有一张是\"谢谢参与\"里的安慰奖——十连抽必定获得一个5星或以上角色。",
-      "mechanismDesc": "1.",
+      "mechanismDesc": "1. **十连规则**：单次抽取10张卡牌（标准寻访）\n2. **保底内容**：每10连必定获得至少一个5星或6星角色\n3. **保底概率**：\n   - 5星角色基础概率：约8%\n   - 6星角色基础概率：2%\n   - 十连内至少1个5星：100%\n4. **保底不重复**：不会在同一个十连内触发两次保底",
       "coreRules": "",
       "trigger": "- 玩家进行一次十连抽卡时自动触发",
       "painPoint": "- 解决\"纯随机\"可能带来的\"蓝天白云\"（全是低星）",
@@ -1519,7 +1271,7 @@
         "社交"
       ],
       "simpleDesc": "玩家在Roguelike游戏中死亡后不会消失，而是变成幽灵继续帮助队友，类似\"观战+辅助\"模式，降低硬核游戏的挫败感。",
-      "mechanismDesc": "玩家在游戏中死亡后，会自动转变为幽灵形态。幽灵形态下：\n- 玩家可以自由移动但无法攻击敌人\n- 幽灵可以拾取物品、治疗队友、",
+      "mechanismDesc": "玩家在游戏中死亡后，会自动转变为幽灵形态。幽灵形态下：\n- 玩家可以自由移动但无法攻击敌人\n- 幽灵可以拾取物品、治疗队友、触发机关\n- 队友可以使用特殊道具复活死亡玩家\n- 如果队伍全灭，则本局结束",
       "coreRules": "",
       "trigger": "- 玩家生命值降至0时自动触发",
       "painPoint": "- 传统Roguelike的永久死亡机制导致的高挫败感",
@@ -1568,6 +1320,35 @@
       ],
       "demo": "待补充",
       "filename": "[Excellent][Roguelike]-Barony-随机地牢生成.md",
+      "source": "人工"
+    },
+    "Barony/[Excellent]死亡幽灵系统.md": {
+      "title": "[Roguelike]-Barony-死亡幽灵系统",
+      "gameName": "Barony",
+      "tags": [
+        "多人协作",
+        "幽灵形态",
+        "战术辅助",
+        "死亡转化"
+      ],
+      "simpleDesc": "多人模式中玩家死亡后可化为幽灵，继续帮助队友战斗、开门、探路，解决\"一人死亡全队等待\"的无聊感",
+      "mechanismDesc": "在多人模式中，当玩家死亡后点击墓碑上的\"Dismiss\"即可化为幽灵。幽灵拥有以下能力：\n\n1. **全向位移（Noclip）**：幽灵可以穿过墙壁、岩浆和陷阱，是完美的侦察兵\n2. **推动（Push）**：可以物理推动地上的掉落物，将补给品推向队友，或将危险爆炸桶推向敌人（频繁推动有冷却时间）\n3. **开关交互**：可以操作大门、拉杆和开关，解谜或帮助队友逃离封闭房间\n4. **潜行（Sneak）**：可以关闭自身光亮，避免暴露队友位置\n5. **寒意打击（Chill）**：短程魔法弹，伤害极低但有减速效果，可用于风筝敌人或打断施法\n6. **闹鬼传送（Haunt/Teleport）**：可在其他玩家、幽灵、死亡地点、地图起始点间快速传送",
+      "coreRules": "",
+      "trigger": "多人模式中任一玩家死亡后，弹出墓碑界面，点击\"Dismiss\"化为幽灵",
+      "painPoint": "多人游戏中，队友死亡后只能观战，非常无聊。Roguelike高难度游戏死亡率较高，死后长时间等待影响游戏体验。",
+      "experienceGoal": "让死亡玩家继续参与游戏，贡献团队价值，同时保留\"死亡\"的严肃性（无法直接攻击），实现\"死了但没完全死\"的体验。",
+      "similarMechanisms": [
+        {
+          "game": "类似机制",
+          "mechanism": "无（独特设计）"
+        },
+        {
+          "game": "演化参考",
+          "mechanism": "后续多游戏借鉴此设计"
+        }
+      ],
+      "demo": "",
+      "filename": "[Excellent]死亡幽灵系统.md",
       "source": "人工"
     },
     "Barony/[Qualify][RPG]-Barony-职业系统.md": {
@@ -1624,34 +1405,6 @@
       ],
       "demo": "待补充",
       "filename": "[Qualify][Roguelike]-Barony-多人合作模式.md",
-      "source": "人工"
-    },
-    "Barony/[Qualify]死亡幽灵系统.md": {
-      "title": "[RPG]-Barony-死亡幽灵系统",
-      "gameName": "Barony",
-      "tags": [
-        "RPG",
-        "多人协作",
-        "死亡转化"
-      ],
-      "simpleDesc": "\"队友挂了也能继续帮忙——死了但没完全死\"",
-      "mechanismDesc": "> 多人模式下, 当玩家死亡后, 可以选择化作幽灵继续存在。幽灵形态下可以开门, 激活开关, 推动物品, 但无法直接攻击敌人。到达下一层地牢后自动复活为正常形态。",
-      "coreRules": "",
-      "trigger": "多人合作模式中, 任一玩家死亡后弹出提示, 可选择\"化作幽灵\"或\"直接观战\"",
-      "painPoint": "多人游戏中, 队友死亡后只能观战, 非常无聊。尤其是Roguelike高难度游戏, 死亡率较高, 死后长时间等待影响游戏体验。",
-      "experienceGoal": "让死亡的玩家继续参与游戏, 贡献团队价值, 同时保留\"死亡\"的严肃性（无法直接攻击）, 实现\"死了但没完全死\"的体验。",
-      "similarMechanisms": [
-        {
-          "game": "以撒的结合",
-          "mechanism": "队友死亡后可拾取道具"
-        },
-        {
-          "game": "V Rising",
-          "mechanism": "吸血鬼死亡后快速复活机制"
-        }
-      ],
-      "demo": "（待补充GIF或视频链接）",
-      "filename": "[Qualify]死亡幽灵系统.md",
       "source": "人工"
     },
     "BestEleven/足球-最佳11人-模拟生涯.md": {
@@ -2111,7 +1864,7 @@
         "题材特色"
       ],
       "simpleDesc": "恐龙也能当队友——骑上恐龙大打出手",
-      "mechanismDesc": "游戏中存在多种可交互的恐龙：\n-",
+      "mechanismDesc": "游戏中存在多种可交互的恐龙：\n- **可骑乘恐龙**：特定恐龙可以骑乘作战, 类似骑马战斗\n- **可击杀恐龙**：敌人召唤的恐龙可以击杀获得道具\n- **场景恐龙**：背景中的恐龙不主动攻击但可击杀加分\n\n恐龙元素是该游戏区别于其他清关游戏的核心题材特色。",
       "coreRules": "",
       "trigger": "- 骑乘恐龙：在恐龙附近按骑乘键",
       "painPoint": "- 纯人类敌人单调→恐龙元素增加题材新鲜感",
@@ -2193,7 +1946,7 @@
         "大逃杀"
       ],
       "simpleDesc": "\"死了还能再打\"：首次死亡后进入1v1古拉格枪战, 赢了就能满血复活重返战场",
-      "mechanismDesc": "古拉格是战区的核心特色：\n1.",
+      "mechanismDesc": "古拉格是战区的核心特色：\n1. **触发条件**：玩家首次死亡后自动进入\n2. **对战形式**：随机武器的1v1限时对决\n3. **复活条件**：击杀对手或存活至时间结束\n4. **复活状态**：满血重返战场, 每人仅1次机会",
       "coreRules": "",
       "trigger": "2. **对战形式**：随机武器的1v1限时对决",
       "painPoint": "- 解决\"死亡=看戏\"的无聊等待",
@@ -2217,7 +1970,7 @@
         "目标驱动"
       ],
       "simpleDesc": "\"做任务拿钱\"：地图上随机刷新的任务目标, 完成后获得现金, 空投, 敌人位置",
-      "mechanismDesc": "合约系统是战区的目标设计：\n1.",
+      "mechanismDesc": "合约系统是战区的目标设计：\n1. **任务类型**：侦察合约, 击杀合约, 搜刮合约\n2. **奖励**：现金, 空投, 暴露敌人位置\n3. **动态刷新**：地图上随机刷新\n4. **风险回报**：完成任务需要深入危险区域",
       "coreRules": "",
       "trigger": "- 地图上显示合约图标",
       "painPoint": "- 解决\"无处可去\"的迷茫",
@@ -2236,7 +1989,7 @@
         "购物站"
       ],
       "simpleDesc": "\"买枪\"：在购物站用现金购买空投, 获得与COD多人模式同等的深度自定义枪械",
-      "mechanismDesc": "装备舱是战区的核心设计：\n1.",
+      "mechanismDesc": "装备舱是战区的核心设计：\n1. **购物站购买**：地图上购物站用现金购买\n2. **空投获取**：或等待空投在附近降落\n3. **完整配置**：获得预设的完整枪械, 技能, 特战配置\n4. **COD深度**：与COD多人模式枪械定制完全一致",
       "coreRules": "",
       "trigger": "- 积累现金后前往购物站",
       "painPoint": "- 解决\"捡垃圾\"的无聊感",
@@ -2299,7 +2052,7 @@
         "角色技能"
       ],
       "simpleDesc": "四大职业各显神通——队长冲锋, 忍者潜行, 摔跤手摔投, 机甲宝宝火力全开",
-      "mechanismDesc": "游戏提供4个差异化极大的角色, 每个角色有独特的战斗风格：\n-",
+      "mechanismDesc": "游戏提供4个差异化极大的角色, 每个角色有独特的战斗风格：\n- **Captain（队长）**：综合型, 擅长拳击和手枪\n- **Ninja（忍者）**：速度型, 可进行影分身, 手里剑等忍术\n- **Wrestler（摔跤手）**：力量型, 擅长抓取投摔技\n- **Baby（婴儿机甲）**：射击型, 驾驶小型机甲进行远程火力支援\n\n每个角色都有独特的必杀技和连招系统。",
       "coreRules": "",
       "trigger": "- 角色选择时确定职业类型",
       "painPoint": "- 角色同质化→4个角色玩法完全不同",
@@ -2344,81 +2097,6 @@
       ],
       "demo": "GIF动图或视频链接",
       "filename": "[Qualify]GoldenCarrotSystem.md",
-      "source": "人工"
-    },
-    "Celeste/冲刺Dash机制.md": {
-      "title": "机制卡 - 冲刺Dash机制",
-      "gameName": "Celeste (蔚蓝)",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "冲刺Dash机制.md",
-      "source": "人工"
-    },
-    "Celeste/帮助模式系统.md": {
-      "title": "机制卡 - 帮助模式系统",
-      "gameName": "Celeste (蔚蓝)",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "帮助模式系统.md",
-      "source": "人工"
-    },
-    "Celeste/情感叙事融合机制.md": {
-      "title": "机制卡 - 情感叙事融合机制",
-      "gameName": "Celeste (蔚蓝)",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "情感叙事融合机制.md",
-      "source": "人工"
-    },
-    "Celeste/攀墙跳系统.md": {
-      "title": "机制卡 - 攀墙跳系统",
-      "gameName": "Celeste (蔚蓝)",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "- **持续时间**：可一直攀爬，直到体力耗尽",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "攀墙跳系统.md",
-      "source": "人工"
-    },
-    "Celeste/草莓收集系统.md": {
-      "title": "机制卡 - 草莓收集系统",
-      "gameName": "Celeste (蔚蓝)",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "草莓收集系统.md",
       "source": "人工"
     },
     "ChanganFantasy/回合制MMO-长安幻想-天都争锋.md": {
@@ -2596,7 +2274,7 @@
         "离线保护"
       ],
       "simpleDesc": "\"被打要休息\"：被进攻后获得护盾, 护盾期间别人不能打你, 给你时间发育",
-      "mechanismDesc": "部落冲突的护盾系统：\n1.",
+      "mechanismDesc": "部落冲突的护盾系统：\n1. **护盾获得**：被成功进攻后获得16小时护盾\n2. **护盾消耗**：每次被进攻减少1小时\n3. **主动购买**：可用宝石购买护盾\n4. **复仇机制**：有护盾也能复仇打回去",
       "coreRules": "",
       "trigger": "- 防守失败后自动获得",
       "painPoint": "- 解决\"被一直打\"的负面体验",
@@ -2615,171 +2293,116 @@
       "filename": "[Excellent]RTS-护盾保护机制.md",
       "source": "人工"
     },
-    "ClashRoyale/[Excellent]RTS-卡牌构筑系统.md": {
-      "title": "[RTS]-[皇室战争]-卡牌构筑系统",
-      "gameName": "皇室战争",
+    "ClashRoyale/[Excellent]卡牌组合系统.md": {
+      "title": "[策略卡牌]-ClashRoyale-卡牌组合系统",
+      "gameName": "ClashRoyale",
       "tags": [
         "BD构筑",
-        "PVP",
-        "策略"
+        "策略",
+        "费用曲线"
       ],
-      "simpleDesc": "\"组一套卡组打天下\"：从几十张卡中选8张组成卡组, 卡组构筑是核心策略",
-      "mechanismDesc": "皇室战争的卡牌构筑：\n1.",
+      "simpleDesc": "玩家从100+张卡牌中选择8张组成卡组，不同组合产生不同战术效果",
+      "mechanismDesc": "玩家从125张卡牌中选择8张组成卡组。卡牌分3种类型：军队、建筑、法术。稀有度分5种：普通、稀有、史诗、传奇、英雄。费用曲线决定节奏。",
       "coreRules": "",
-      "trigger": "- 玩家自由组合卡组",
-      "painPoint": "- 解决\"无牌组选择\"的单调",
-      "experienceGoal": "- 提供\"构筑\"的智力满足感",
+      "trigger": "玩家组卡组时生效",
+      "painPoint": "解决单卡无策略深度的问题",
+      "experienceGoal": "创造策略深度，不同卡组有不同打法",
       "similarMechanisms": [
         {
           "game": "炉石传说",
           "mechanism": "卡组构筑"
         },
         {
-          "game": "皇室战争",
-          "mechanism": "简化版卡组"
+          "game": "游戏王",
+          "mechanism": "卡组系统"
         }
       ],
-      "demo": "皇室战争卡组演示",
-      "filename": "[Excellent]RTS-卡牌构筑系统.md",
+      "demo": "待补充",
+      "filename": "[Excellent]卡牌组合系统.md",
       "source": "人工"
     },
-    "ClashRoyale/[Excellent]RTS-圣水费用系统.md": {
-      "title": "[RTS]-[皇室战争]-圣水费用系统",
-      "gameName": "皇室战争",
+    "ClashRoyale/[Excellent]双路推塔机制.md": {
+      "title": "[策略卡牌]-ClashRoyale-双路推塔机制",
+      "gameName": "ClashRoyale",
       "tags": [
-        "RTS",
-        "费用管理"
+        "塔防",
+        "目标明确",
+        "获胜条件"
       ],
-      "simpleDesc": "\"圣水是时间\"：10费上限, 不能一口气放下所有兵, 需要规划费用使用节奏",
-      "mechanismDesc": "皇室战争的圣水系统：\n1.",
+      "simpleDesc": "地图分为左右两路，玩家需要在两条路线上部署单位，目标是摧毁对方3座防御塔",
+      "mechanismDesc": "地图分为左右两路，玩家需要在两条路线上部署单位，目标是摧毁对方3座防御塔（2副塔+1国王塔）。国王塔血量约2500，副塔约1500。比赛时长3分钟。",
       "coreRules": "",
-      "trigger": "- 积累足够圣水后放置卡牌",
-      "painPoint": "- 解决\"卡牌无脑全开\"的无聊",
-      "experienceGoal": "- 提供\"费用管理\"的策略满足感",
+      "trigger": "对战开始时",
+      "painPoint": "解决目标不明确的问题",
+      "experienceGoal": "明确对战目标，制造防守/进攻的选择困境",
       "similarMechanisms": [
         {
-          "game": "战旗游戏",
-          "mechanism": "行动点数"
+          "game": "部落冲突",
+          "mechanism": "推塔机制"
         },
         {
           "game": "皇室战争",
-          "mechanism": "圣水=炉石法力水晶"
+          "mechanism": "塔防元素"
         }
       ],
-      "demo": "皇室战争对战演示",
-      "filename": "[Excellent]RTS-圣水费用系统.md",
+      "demo": "待补充",
+      "filename": "[Excellent]双路推塔机制.md",
       "source": "人工"
     },
-    "ClashRoyale/[Excellent]RTS-异步PVP系统.md": {
-      "title": "[RTS]-[部落冲突, 海岛奇兵]-异步PVP系统",
-      "gameName": "部落冲突",
+    "ClashRoyale/[Excellent]圣水费用系统.md": {
+      "title": "[策略卡牌]-ClashRoyale-圣水费用系统",
+      "gameName": "ClashRoyale",
       "tags": [
-        "对抗",
-        "社交",
-        "离线交互"
+        "即时策略",
+        "费用上限",
+        "资源管理"
       ],
-      "simpleDesc": "\"打别人的基地, 别人不在也能打\"：玩家不需要同时在线, 进攻方打防守方的离线基地",
-      "mechanismDesc": "异步PVP是手游RTS的核心设计：\n1.",
+      "simpleDesc": "玩家通过随时间积累的\"圣水\"来使用卡牌，圣水上限10点，费用管理是核心策略",
+      "mechanismDesc": "玩家通过随时间积累的\"圣水\"来使用卡牌，圣水上限10点，费用管理是核心策略。圣水恢复速度：1点/2.8秒（常规），1点/1.4秒（加时）。卡牌费用1-9费，共125张卡牌。",
       "coreRules": "",
-      "trigger": "- 玩家主动搜索对手",
-      "painPoint": "- 解决\"需要同时在线\"的时间限制",
-      "experienceGoal": "- 提供\"随时可玩\"的便利性",
+      "trigger": "每回合开始时圣水自动恢复",
+      "painPoint": "解决资源无限导致玩家无限制出牌的无聊感",
+      "experienceGoal": "创造资源管理策略深度，同时保持快节奏",
       "similarMechanisms": [
         {
-          "game": "皇室战争",
-          "mechanism": "实时PVP"
+          "game": "炉石传说",
+          "mechanism": "水晶系统"
         },
         {
-          "game": "COC",
-          "mechanism": "like游戏：普遍采用"
+          "game": "游戏王",
+          "mechanism": "资源管理"
         }
       ],
-      "demo": "部落冲突匹配演示",
-      "filename": "[Excellent]RTS-异步PVP系统.md",
+      "demo": "待补充",
+      "filename": "[Excellent]圣水费用系统.md",
       "source": "人工"
     },
-    "ClashRoyale/卡牌组合系统.md": {
-      "title": "机制卡：皇室战争-卡牌组合系统",
-      "gameName": "皇室战争 (Clash Royale)",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
+    "ClashRoyale/[Qualify]即时微操系统.md": {
+      "title": "[策略卡牌]-ClashRoyale-即时微操系统",
+      "gameName": "ClashRoyale",
+      "tags": [
+        "手动操作",
+        "技术深度",
+        "技能触发"
+      ],
+      "simpleDesc": "皇室战争早期所有卡牌放下后自动战斗，直到后来推出英雄卡和精英卡才有手动操作元素",
+      "mechanismDesc": "皇室战争早期（2016-2022）所有卡牌放下后自动战斗。2022年推出英雄卡，部署后可点击触发主动技能。2024年推出精英卡，部署后可手动指定攻击目标。",
       "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "卡牌组合系统.md",
-      "source": "人工"
-    },
-    "ClashRoyale/即时微操系统.md": {
-      "title": "机制卡：皇室战争-即时微操系统",
-      "gameName": "皇室战争 (Clash Royale)",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
+      "trigger": "使用英雄卡或精英卡时",
+      "painPoint": "解决纯自动战斗缺乏操作深度的问题",
+      "experienceGoal": "增加操作深度，让玩家有更多技术发挥空间",
       "similarMechanisms": [
+        {
+          "game": "MOBA",
+          "mechanism": "技能释放"
+        },
         {
           "game": "皇室战争原有机制",
           "mechanism": "放下即自动战斗"
         }
       ],
-      "demo": "",
-      "filename": "即时微操系统.md",
-      "source": "人工"
-    },
-    "ClashRoyale/即时策略-皇室战争-父子局.md": {
-      "title": "[即时策略]-皇室战争-父子局",
-      "gameName": "皇室战争",
-      "tags": [
-        "实时对抗",
-        "社交博弈",
-        "身份符号"
-      ],
-      "simpleDesc": "就像朋友之间打赌, 输了的叫赢了的\"爸爸\", 谁也不想在朋友圈丢脸",
-      "mechanismDesc": "1. 约定对战好友之间约定进行荣誉决斗\n> 2. 胜负标记获胜方获得\"父皇\"勋章\n> 3. 社交展示战报可分享, 失败方被\"公开处刑\"",
-      "coreRules": "",
-      "trigger": "好友之间约定进行该模式战斗",
-      "painPoint": "解决好友之间约战奖励较低, 缺乏社交动力的问题",
-      "experienceGoal": "通过身份符号激发玩家再战欲望",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "即时策略-皇室战争-父子局.md",
-      "source": "人工"
-    },
-    "ClashRoyale/双路推塔机制.md": {
-      "title": "机制卡：皇室战争-双路推塔机制",
-      "gameName": "皇室战争 (Clash Royale)",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "双路推塔机制.md",
-      "source": "人工"
-    },
-    "ClashRoyale/圣水费用系统.md": {
-      "title": "机制卡：皇室战争-圣水费用系统",
-      "gameName": "皇室战争 (Clash Royale)",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "圣水费用系统.md",
+      "demo": "待补充",
+      "filename": "[Qualify]即时微操系统.md",
       "source": "人工"
     },
     "CompanyOfHeroes/[Qualify]CoverSuppression.md": {
@@ -2875,7 +2498,7 @@
         "音游"
       ],
       "simpleDesc": "就像\"音乐播放器升级成MTV\"——BGA（Background Animation）是随音乐定制的动态背景, 音符打击与画面变化精准同步, 达到视听双重享受",
-      "mechanismDesc": "DJMAX的BGA系统是其核心视觉特色：\n1.",
+      "mechanismDesc": "DJMAX的BGA系统是其核心视觉特色：\n1. **定制动画**：每个曲目配有专属的动态背景视频\n2. **节奏同步**：BGA动画与音乐节拍精确对应\n3. **音符交互**：击打音符时触发画面特效变化\n4. **多轨道BGA**：6键模式下的多层次视觉体验",
       "coreRules": "",
       "trigger": "- 开始播放曲目",
       "painPoint": "- 传统音游视觉单调, 只有抽象的音符",
@@ -3069,7 +2692,7 @@
         "资源管理"
       ],
       "simpleDesc": "玩家白天在海里打鱼获取食材, 晚上在寿司店做菜售卖, 形成\"打鱼→做菜→赚钱→升级装备→打更多鱼\"的资源转换闭环",
-      "mechanismDesc": "游戏将一天分为两个阶段：\n-",
+      "mechanismDesc": "游戏将一天分为两个阶段：\n- **白天阶段**：玩家潜入蓝洞探索, 捕获各种海鲜食材, 同时探索水下遗迹和秘密\n- **晚上阶段**：寿司店营业, 玩家用白天捕获的食材制作料理, 出售给顾客获得金币\n\n两个阶段资源互通：白天获取的食材→晚上变成菜品→赚取金币→购买更好的潜水装备→探索更深的海域",
       "coreRules": "",
       "trigger": "- 白天：进入蓝洞区域开始潜水",
       "painPoint": "- 单一玩法容易腻味, 双循环提供新鲜感",
@@ -3097,7 +2720,7 @@
         "突变系统"
       ],
       "simpleDesc": "200, 武器和技能的自由组合, 让每次死亡后的新开局都有完全不同的战斗体验",
-      "mechanismDesc": "三层Build构筑系统：\n1.",
+      "mechanismDesc": "三层Build构筑系统：\n1. **武器层**：主武器（剑, 刀, 斧, 弓等约80种）\n2. **技能层**：主动技能（魔法, 陷阱, 投射物约50种）\n3. **突变层**：被动Buff（3个槽位, 影响战斗风格）\n\n每把武器有独特的攻击模组和动画, 玩家需要根据武器特性选择配合的技能和突变。",
       "coreRules": "",
       "trigger": "- 在关卡中击败敌人, 精英获取武器和技能",
       "painPoint": "- 纯随机导致Build不可控",
@@ -3181,7 +2804,7 @@
         "音游"
       ],
       "simpleDesc": "> 就像\"在弹钢琴中解锁故事\"——玩家每弹完一首曲子, 古树就长高一点, 剧情就推进一点, 从\"单纯打歌\"变成\"用音乐拯救小女孩\"",
-      "mechanismDesc": "Deemo首创\"音游, 剧情\"的融合模式：\n1.",
+      "mechanismDesc": "Deemo首创\"音游, 剧情\"的融合模式：\n1. **古树生长系统**：演奏歌曲获得\"雨滴\"（音符能量）, 用来浇水让古树生长\n2. **章节解锁**：古树长到一定高度解锁新剧情章节\n3. **多结局**：根据玩家收集和演奏情况解锁不同结局\n4. **隐藏曲目**：完成特定剧情任务解锁隐藏歌曲\n5. **钢琴主题**：所有曲目以钢琴为主, 呼应剧情",
       "coreRules": "",
       "trigger": "- 成功完成曲目演奏",
       "painPoint": "- 传统音游\"打歌-结束-打歌\"循环, 缺乏情感连接",
@@ -3275,7 +2898,7 @@
         "高风险高回报"
       ],
       "simpleDesc": "\"拿了就暴露位置\"：拾取曼德尔砖后全图可见位置, 但可破译获珍稀外观或交易",
-      "mechanismDesc": "曼德尔砖是三角洲的特色设计：\n1.",
+      "mechanismDesc": "曼德尔砖是三角洲的特色设计：\n1. **位置暴露**：拾取后全图可见\n2. **破译收益**：可获得珍稀外观或交易\n3. **特殊撤离**：携带需特定撤离点\n4. **信息博弈**：成为众矢之的还是快速撤离",
       "coreRules": "",
       "trigger": "- 地图拾取曼德尔砖",
       "painPoint": "- 解决\"无悬念\"的平淡",
@@ -3294,7 +2917,7 @@
         "战斗系统"
       ],
       "simpleDesc": "\"开坦克打飞机\"：近10款真实载具, 海陆空立体作战",
-      "mechanismDesc": "载具系统是全面战场的核心：\n1.",
+      "mechanismDesc": "载具系统是全面战场的核心：\n1. **载具体系**：攻击艇, 主战坦克, 黑鹰直升机, 装甲车\n2. **战斗维度**：地面载具对轰, 空中火力支援\n3. **场景破坏**：载具可被击毁\n4. **视角切换**：驾驶舱, 第三人称",
       "coreRules": "",
       "trigger": "- 战场中寻找载具",
       "painPoint": "- 解决\"纯步兵\"的单调",
@@ -3380,7 +3003,7 @@
         "随机性"
       ],
       "simpleDesc": "装备属性全部随机——每件都是「盲盒」, 出货时的多词缀组合能让玩家兴奋到跳起来。",
-      "mechanismDesc": "- 暗金装备有固定特效（暗金效果）,  随机词缀\n- 传奇装备有随机词缀 ,  1-3个随机传奇特效\n- 套装装备提供套装效果（2件, 4件",
+      "mechanismDesc": "- 暗金装备有固定特效（暗金效果）,  随机词缀\n- 传奇装备有随机词缀 ,  1-3个随机传奇特效\n- 套装装备提供套装效果（2件, 4件触发）\n- 词缀包括：主属性, 暴击率, 爆伤, 攻速, 特定技能加成等\n- 稀有度：普通→魔法→稀有→传奇→暗金→神话",
       "coreRules": "",
       "trigger": "- 击杀怪物, 开宝箱, 完成事件时随机掉落",
       "painPoint": "- 传统MMO的「副本毕业装」——装备获取路径单一",
@@ -3517,58 +3140,6 @@
       ],
       "demo": "雨天, 雪天赛道实机演示",
       "filename": "[not_comfirmed]DynamicWeather.md",
-      "source": "人工"
-    },
-    "DontStarve/季节循环系统.md": {
-      "title": "机制卡：饥荒-季节循环系统",
-      "gameName": "饥荒 (Don't Starve)",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [
-        {
-          "game": "星露谷物语",
-          "mechanism": "四季天气系统"
-        },
-        {
-          "game": "绿色地狱",
-          "mechanism": "雨林天气变化"
-        },
-        {
-          "game": "Valheim",
-          "mechanism": "天气系统"
-        }
-      ],
-      "demo": "",
-      "filename": "季节循环系统.md",
-      "source": "人工"
-    },
-    "DontStarve/环境压力系统.md": {
-      "title": "机制卡：饥荒-环境压力系统",
-      "gameName": "饥荒 (Don't Starve)",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [
-        {
-          "game": "森林",
-          "mechanism": "理智系统"
-        },
-        {
-          "game": "僵毁",
-          "mechanism": "情绪系统"
-        }
-      ],
-      "demo": "",
-      "filename": "环境压力系统.md",
       "source": "人工"
     },
     "DragonsDogma2/[Qualify]随从系统.md": {
@@ -3785,7 +3356,7 @@
         "物流"
       ],
       "simpleDesc": "游戏中每个星系都有自己的市场, 价格各不相同。买卖物品必须亲自前往该星系或雇佣快递, 创造了类似现实中的物流产业。",
-      "mechanismDesc": "EVE的市场以\"星域\"为单位划分, 玩家无法直接看到其他星域的价格：\n\n-",
+      "mechanismDesc": "EVE的市场以\"星域\"为单位划分, 玩家无法直接看到其他星域的价格：\n\n- **市场隔离**：每个星域有独立的市场订单簿\n- **价格差异**：不同区域因供需差异产生价格差\n- **物流必要**：购买物品后需要运输到指定空间站\n- **物流玩法**：玩家可雇佣快递服务或自行运输\n- **交易中心**：吉他星系类似\"上海\", 是宇宙物流中心",
       "coreRules": "",
       "trigger": "- 玩家在非物品所在星系下单购买",
       "painPoint": "传统游戏的拍卖行全服统一价, 缺乏经济地理学意义。",
@@ -3823,7 +3394,7 @@
         "生产系统"
       ],
       "simpleDesc": "游戏中几乎所有物品都需要玩家从零开始生产, 玩家可以选择专注于产业链的某一环节, 形成类似现实工业的专业化分工。",
-      "mechanismDesc": "EVE拥有游戏中最为复杂的生产制造系统：\n\n-",
+      "mechanismDesc": "EVE拥有游戏中最为复杂的生产制造系统：\n\n- **原材料层**：玩家通过采矿获得矿石（主要矿物包括三钛合金, 类星体等）\n- **中间产物层**：矿石精炼成金属条, 再加工成各种材料\n- **最终产品层**：使用蓝图（Blueprint）将材料制造成舰船, 装备, 弹药等\n- **专业化分工**：玩家可选择只做某一类产品（如只做T2舰船）, 而非全产业链覆盖\n- **生产设施**：需要工业空间站, 研究设施, 复制工厂等",
       "coreRules": "",
       "trigger": "- 玩家在工业界面选择蓝图进行生产",
       "painPoint": "传统游戏多为系统产出或简单制造, 缺乏经济深度。",
@@ -4089,21 +3660,6 @@
       "filename": "[生存沙盒]-雾锁王国-水方块动态建造体.md",
       "source": "人工"
     },
-    "EternalReturn/装备合成系统.md": {
-      "title": "机制卡：永恒轮回-装备合成系统",
-      "gameName": "永恒轮回：黑色幸存者 (Eternal Return)",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "装备合成系统.md",
-      "source": "人工"
-    },
     "Expedition33/回合制-远征33号-即时反应与弹反机制.md": {
       "title": "[回合制]-远征33号-即时反应与弹反机制",
       "gameName": "Clair Obscur: Expedition 33",
@@ -4257,7 +3813,7 @@
         "社交"
       ],
       "simpleDesc": "新人头上顶个\"豆芽\"标识, 导师可以主动帮助新人解决困难, 像「导游带游客」一样引导新人融入游戏",
-      "mechanismDesc": "FF14的导师系统是游戏社交生态的核心组成部分：\n\n1.",
+      "mechanismDesc": "FF14的导师系统是游戏社交生态的核心组成部分：\n\n1. **身份标识**：\n   - 新人头顶\"豆芽\"标识, 所有玩家可见\n   - 导师名字前有特殊标志\n   - 双方身份在游戏中清晰可见\n\n2. **导师资格获取**：\n   - 需要满足一定游戏时长\n   - 通过\"年检\"（年度审查）\n   - 获得导师身份需要花费时间精力\n\n3. **新人频道**：\n   - 只有新人和导师可以加入\n   - 任何问题都可以提问\n   - 导师负责维护频道秩序\n   - 可以呼叫\"救护车\"请求帮助\n\n4. **指导内容**：\n   - 副本机制指导\n   - 任务流程帮助\n   - 跑图开图\n   - 提供资源支持\n\n5. **副本匹配**：\n   - 系统会为新人副本匹配导师\n   - 导师可以指导新人通关",
       "coreRules": "",
       "trigger": "- 新人玩家自动获得\"豆芽\"标识",
       "painPoint": "- 解决「新人融入困难」问题——有人主动帮助",
@@ -4285,7 +3841,7 @@
         "角色扮演"
       ],
       "simpleDesc": "玩家买了房子装修成咖啡店, 女仆店, 自己或雇人扮演NPC招待顾客, 是游戏内「玩家自发形成」的社交商业模式",
-      "mechanismDesc": "RP店是FF14特有的玩家自发社交商业模式：\n\n1.",
+      "mechanismDesc": "RP店是FF14特有的玩家自发社交商业模式：\n\n1. **店铺形态**：\n   - 玩家购买游戏内房屋\n   - 装修成各种主题店铺\n   - 常见类型：咖啡店, 女仆店, 酒吧, 诊所等\n\n2. **角色扮演**：\n   - 店主, 店员扮演游戏内NPC\n   - 顾客扮演顾客角色\n   - 进行沉浸式互动体验\n\n3. **运营模式**：\n   - 营业时间：玩家自愿设定\n   - 接待顾客：扮演角色进行互动\n   - 收费方式：自愿打赏, 免费体验\n\n4. **衍生生态**：\n   - 装修需求 → 家具市场\n   - 服装需求 → 时装交易\n   - COSPLAY文化 → 深度角色扮演\n   - 牛郎店, 夜店等特殊形态\n\n5. **游戏支持**：\n   - 房屋系统支持装修\n   - 动作系统支持互动\n   - 好友, 参观系统支持社交",
       "coreRules": "",
       "trigger": "- 玩家拥有私人住宅",
       "painPoint": "- 解决「游戏内容消耗完毕」问题——提供持续玩法",
@@ -4341,7 +3897,7 @@
         "角色选择"
       ],
       "simpleDesc": "就像选择不同的英雄打副本——有的适合单挑, 有的适合群攻, 有的能抗伤害",
-      "mechanismDesc": "玩家在游戏开始时从3个角色中选择一个进行游戏：\n-",
+      "mechanismDesc": "玩家在游戏开始时从3个角色中选择一个进行游戏：\n- **Haggar（市长）**：力量型, 攻击伤害高但速度慢, 擅长抓取投掷\n- **Cody（科迪）**：平衡型, 可持小刀进行连刺, 能力平均\n- **Guy（盖伊）**：速度型, 攻击速度最快但力量最弱, 擅长腿法\n\n每个角色的攻击动作模组完全不同, 包括普通攻击, 跳跃攻击, 特殊技都有差异。",
       "coreRules": "",
       "trigger": "- 游戏开始选择角色时触发",
       "painPoint": "- 单调的角色体验→通过3个差异化角色提供重复可玩性",
@@ -4369,7 +3925,7 @@
         "道具系统"
       ],
       "simpleDesc": "路上捡到趁手的家伙——从木棍到武士刀, 临时武器大幅提升战斗力",
-      "mechanismDesc": "游戏中敌人会掉落多种临时武器, 拾取后替换默认攻击：\n-",
+      "mechanismDesc": "游戏中敌人会掉落多种临时武器, 拾取后替换默认攻击：\n- **小刀**：快速连刺, 攻击频率高\n- **武士刀**：挥砍范围大, 伤害高\n- **铁管**：平衡型武器\n- **火焰瓶**：投掷型武器\n\n武器有耐久度, 使用一定次数后损坏, 恢复徒手攻击。",
       "coreRules": "",
       "trigger": "- 击倒敌人后随机掉落",
       "painPoint": "- 徒手攻击单调→临时武器提供变化",
@@ -4568,7 +4124,7 @@
         "进阶"
       ],
       "simpleDesc": "驾驶技术分等级, 从\"基本\"到\"终极\", 越高级越难但奖励越丰厚——像游戏技能树一样",
-      "mechanismDesc": "游戏中有一个独立的技术系统, 评估玩家在不同驾驶行为中的表现：\n- 漂移技术：漂移距离, 角度, 速度\n- 跳跃技术：飞跃距离, 高度\n- 高速行驶技术：持续高速行驶的距离\n- 精准刹车技术：刹车点位的准确性\n\n每个技术类别都有4个等级：\n1.",
+      "mechanismDesc": "游戏中有一个独立的技术系统, 评估玩家在不同驾驶行为中的表现：\n- 漂移技术：漂移距离, 角度, 速度\n- 跳跃技术：飞跃距离, 高度\n- 高速行驶技术：持续高速行驶的距离\n- 精准刹车技术：刹车点位的准确性\n\n每个技术类别都有4个等级：\n1. **基本**（绿色）：入门级别\n2. **杰出**（蓝色）：中级水平\n3. **惊人**（紫色）：高级水平\n4. **终极**（金色）：大师级水平\n\n玩家需要完成特定技术挑战来提升技术等级, 每个等级都有对应的奖励（车辆, 装饰物品, 经验值）。",
       "coreRules": "",
       "trigger": "- 在自由驾驶或赛事中展现特定技术行为",
       "painPoint": "- 为休闲玩家提供不追求排名也有事可做的方式",
@@ -4592,7 +4148,7 @@
         "风险回报"
       ],
       "simpleDesc": "白天安全但赚钱慢, 晚上赚钱快但警察追得凶——用风险换收益的经典设计",
-      "mechanismDesc": "游戏分为日夜两个时段：\n-",
+      "mechanismDesc": "游戏分为日夜两个时段：\n- **白天**：城市街道相对平静, 警察不会主动追捕, 玩家参加合法赛事赚取资金购买车辆和改装零件\n- **夜晚**：街头赛车活动开启, 热度值系统激活。热度越高, 警察追捕越凶猛, 但完成赛事获得的金钱和经验奖励也越丰厚\n\n热度等级分为1-5级：\n- 1级：少量警车, 简单追逐\n- 3级：警察设卡拦截\n- 5级：联邦调查局介入, 直升机追踪\n\n玩家需要在\"高风险高回报\"和\"稳定发育\"之间做出选择。",
       "coreRules": "",
       "trigger": "- 日夜交替自动切换",
       "painPoint": "- 打破赛车游戏单一的资金获取循环",
@@ -4762,7 +4318,7 @@
         "对抗"
       ],
       "simpleDesc": "\"100人一起打\"：100名玩家同场竞技, 高密度对抗带来紧张感",
-      "mechanismDesc": "100人同场是PUBG的规模设计：\n1.",
+      "mechanismDesc": "100人同场是PUBG的规模设计：\n1. **单局人数**：100人\n2. **队伍模式**：单人, 双人, 四人\n3. **跳伞散落**：飞机上跳伞分散各地\n4. **生存稀缺**：最后1人或1队获胜",
       "coreRules": "",
       "trigger": "- 匹配成功后开始游戏",
       "painPoint": "- 解决\"人数太少不过瘾\"",
@@ -4790,7 +4346,7 @@
         "社交"
       ],
       "simpleDesc": "\"四排\"：四人小队分工配合, 战术分工, 语音交流",
-      "mechanismDesc": "四人组队是和平精英的核心：\n1.",
+      "mechanismDesc": "四人组队是和平精英的核心：\n1. **队伍编制**：4人小队\n2. **职业分工**：指挥, 突击, 狙击, 支援\n3. **社交功能**：语音, 标记, 复活\n4. **社交生态**：师徒, 战队系统",
       "coreRules": "",
       "trigger": "- 选择组队模式",
       "painPoint": "- 解决\"独自一人\"的孤独感",
@@ -4809,7 +4365,7 @@
         "缩圈"
       ],
       "simpleDesc": "\"毒圈来了, 快跑\"：蓝圈不断缩小, 圈外持续掉血, 迫使玩家主动移动与对抗",
-      "mechanismDesc": "缩圈是PUBG的核心设计：\n1.",
+      "mechanismDesc": "缩圈是PUBG的核心设计：\n1. **蓝圈机制**：安全区持续缩小, 圈外掉血\n2. **缩圈阶段**：7个阶段, 间隔约60秒\n3. **伤害递增**：圈外伤害随阶段递增（1%-9%）\n4. **博弈决策**：跑毒vs卡人, 占点",
       "coreRules": "",
       "trigger": "- 信号圈刷新后开始倒计时",
       "painPoint": "- 解决\"无处可去\"的无聊",
@@ -4837,7 +4393,7 @@
         "精准获取"
       ],
       "simpleDesc": "就像在娃娃机里先选定一个目标爪子, 每次没抓到指定娃娃就会累积\"命定值\", 满2次下次必抓中。武器池定轨让玩家可以锁定UP武器。",
-      "mechanismDesc": "1.",
+      "mechanismDesc": "1. **定轨机制**：玩家可对期望获得的5星UP武器进行\"定轨\"（最多选择1把）\n2. **命定值累积**：当通过祈愿获取非定轨的5星武器时, 获得1点命定值\n3. **命定值上限**：命定值最高为2点\n4. **保底触发**：当命定值满2点时, 下一次获得5星武器必为定轨武器\n5. **定轨继承**：定轨状态在不同卡池期间不继承",
       "coreRules": "",
       "trigger": "- 命定值达到2点时, 下一个五星武器必为定轨武器",
       "painPoint": "- 解决武器池\"陪跑\"问题——防止玩家抽到不想要的UP武器",
@@ -4861,7 +4417,7 @@
         "角色选择"
       ],
       "simpleDesc": "就像商场抽奖90次必中一次大奖, 但如果你想抽到特定的\"限定款\", 最多需要180次。这就是原神的双轨保底机制。",
-      "mechanismDesc": "1.",
+      "mechanismDesc": "1. **基础概率**：五星角色基础出货率为0.6%（含常驻, UP角色）\n2. **小保底（90抽）**：每90抽必定获得一个五星角色, 武器, 此时可能是UP角色也可能是常驻角色\n3. **大保底（180抽）**：如果小保底歪了（非UP角色）, 则下一次五星必定是UP角色\n4. **概率递进**：从第1抽到第73抽, 五星概率从0.6%逐渐递增；74-80抽每次增加7%；81-90抽每次增加14%",
       "coreRules": "",
       "trigger": "- 小保底触发：累计抽取90次未获得五星",
       "painPoint": "- 解决纯随机抽卡带来的\"沉没成本\"焦虑——玩家知道最多90抽必出金",
@@ -4889,7 +4445,7 @@
         "经济系统"
       ],
       "simpleDesc": "用\"树脂\"体力限制玩家每日刷副本次数, 控制角色升级材料, 圣遗物产出, 防止后期内容枯竭。",
-      "mechanismDesc": "-",
+      "mechanismDesc": "- **树脂**：用于挑战副本的体力货币\n- 上限160点, 每8分钟恢复1点\n- 每次深渊螺旋消耗60原石可获得360体力等价\n- 角色升级需要摩拉（金币）,  材料\n- 圣遗物强化需要摩拉, 其他圣遗物",
       "coreRules": "",
       "trigger": "- 玩家进入副本, 挑战深渊",
       "painPoint": "- 防止玩家一次性毕业失去目标",
@@ -5153,7 +4709,7 @@
         "叙事"
       ],
       "simpleDesc": "把\"死亡\"变成故事推进的契机, 而不是惩罚。每次倒下都是和父亲, 朋友聊聊天, 刷刷好感度的机会",
-      "mechanismDesc": "创新的叙事驱动Roguelike设计：\n-",
+      "mechanismDesc": "创新的叙事驱动Roguelike设计：\n- **死亡=对话**：每次死亡回到冥界, 可以与NPC对话推进剧情\n- **碎片化叙事**：每次死亡解锁新的对话, 事件, 逐步揭示世界观\n- **关系系统**：送礼, 对话提升与NPC的好感度, 解锁专属剧情\n- **3个可攻略角色**：Meg（复仇女神）, Thanatos（死神）, Eurydice（歌者）",
       "coreRules": "",
       "trigger": "- 玩家死亡后自动触发",
       "painPoint": "- 传统Roguelike：死亡只有负面反馈（挫折感）",
@@ -5181,7 +4737,7 @@
         "武器定制"
       ],
       "simpleDesc": "每种武器都有4种升级形态, 每种形态玩起来像\"完全不同的武器\", 大大丰富了游戏重玩价值",
-      "mechanismDesc": "多武器形态系统设计：\n-",
+      "mechanismDesc": "多武器形态系统设计：\n- **6种基础武器**：冥刃, 索心弓, 混沌之盾, 永恒之矛, 狮鹫坚炮, 巨拳\n- **每种4种形态**：通过\"冥府之矛\"升级, 每次升级改变攻击方式\n- **差异化体验**：设计师目标是\"让每个形态都像全新的武器\"\n- 例如盾牌：\n  - 形态1：盾牌击打, 投射\n  - 形态2：增加投射数量\n  - 形态3：投射带特殊效果\n  - 形态4：强化冲撞",
       "coreRules": "",
       "trigger": "- 通关后解锁新武器",
       "painPoint": "- 传统ARPG：武器只是数值差异",
@@ -5209,7 +4765,7 @@
         "高风险高回报"
       ],
       "simpleDesc": "就像给自己加\"debuff\"换奖励——签订契约给自己增加各种惩罚（敌人变强, 祝福变少）, 难度越高给的稀有资源越多",
-      "mechanismDesc": "惩罚契约（Pact of Punishment）是 Hades 通关后解锁的\"热度\"系统：\n\n-",
+      "mechanismDesc": "惩罚契约（Pact of Punishment）是 Hades 通关后解锁的\"热度\"系统：\n\n- **签订契约**：玩家在开始 RUN 前可以选择增加各种惩罚修改器\n- **热度等级**：0-64, 可叠加多个修改器, 数值越高难度越大\n- **修改器类型**：\n  - 敌人血量增加\n  - 敌人伤害增加\n  - 祝福获取减少\n  - 房间敌人数量增加\n  - Boss 强化等\n- **奖励机制**：难度越高, 通关后获得的\"黑暗\"\"泰坦之血\"等稀有资源越多",
       "coreRules": "",
       "trigger": "- 首次通关后解锁",
       "painPoint": "- 通关后\"没事干\"——高难度提供持续挑战目标",
@@ -5237,7 +4793,7 @@
         "死亡惩罚转化"
       ],
       "simpleDesc": "就像死了还能听故事——每次\"死掉\"不是结束, 而是回到老家和NPC聊聊天, 推进剧情还能变强",
-      "mechanismDesc": "Hades 创新性地将死亡从\"惩罚\"转化为\"叙事驱动\"：\n\n-",
+      "mechanismDesc": "Hades 创新性地将死亡从\"惩罚\"转化为\"叙事驱动\"：\n\n- **死亡 = 回家**：玩家被击败后回到\"冥王圣殿\"（老家）, 这里是安全区\n- **叙事推进**：在圣殿中与 NPCs（父亲哈迪斯, 母亲珀耳塞福涅, 诸神等）对话, 推进剧情\n- **关系解锁**：通过送礼, 对话解锁新角色, 新的支线剧情\n- **死亡积累**：每次死亡保留在本次RUN中获得的\"黑暗\"\"钥匙\"等货币\n- **多线叙事**：亲情线, 友情线, 爱情线并行推进\n\n死亡成为玩家最期待的时刻——不是\"又死了\", 而是\"又可以听新故事了\"。",
       "coreRules": "",
       "trigger": "- 玩家血量归零时触发死亡",
       "painPoint": "- 传统 Roguelike 死亡带来挫败感, \"重来\"缺乏动力",
@@ -5265,7 +4821,7 @@
         "神明祝福"
       ],
       "simpleDesc": "收集各路神仙的祝福进行组合, 同一神明祝福凑齐还能触发\"合体\"效果, 让Build构筑充满策略深度",
-      "mechanismDesc": "Build构筑系统设计：\n-",
+      "mechanismDesc": "Build构筑系统设计：\n- **6位神明**：宙斯（雷）, 波塞冬（水）, 雅典娜（盾）, 阿波罗（太阳）, 阿尔忒弥斯（弓）, 赫菲斯托斯（锻造）\n- **每神5-8种祝福**：分为攻击, 特殊, 投射物类型\n- **Duo祝福**：同神祝福凑齐2个触发额外效果\n- **夜镜系统**：局外永久属性提升（攻击力, 10%, 生命上限, 20等）",
       "coreRules": "",
       "trigger": "- 在关卡房间中遇到祝福祭坛",
       "painPoint": "- 传统Roguelike：Build随机性导致不可控",
@@ -5294,7 +4850,7 @@
         "随机性"
       ],
       "simpleDesc": "就像抽卡组卡组——每打完一轮怪从3张\"神卡\"里选一张, 10个神仙各有绝活, 组合起来能玩出上百种套路；而且解锁是树状的, 必须先点出前置技能才能解锁更强的",
-      "mechanismDesc": "Hades 的核心构筑系统, 包含两个核心维度：\n\n### 维度1：随机祝福选择\n-",
+      "mechanismDesc": "Hades 的核心构筑系统, 包含两个核心维度：\n\n### 维度1：随机祝福选择\n- **10位希腊神明**：波塞冬, 雅典娜, 阿波罗等, 每位神明有多张不同祝福\n- **祝福类型**：攻击强化, 防御反击, 元素特效, 特殊能力等\n- **传奇祝福**：高级祝福, 需要特定条件解锁\n- **双重祝福**：部分祝福可叠加, 效果更强\n- **祝福升级**：重复获得同一祝福可升级效果\n\n### 维度2：树状技能解锁\n- **基础操作构建 BD**：玩家的 Build 基于基础操作（普攻, 蓄力, 特殊攻击, 冲刺, 投弹等）\n- **树状解锁**：技能解锁是树状结构, 需要先解锁 A, B 才能解锁 C\n- **探索驱动**：玩家为了\"看看后面能解锁什么\"而不断玩, 形成明确成长目标\n\n玩家可以构建\"火焰流\"\"雷电流\"\"反射流\"等各种套路, 同时通过树状解锁获得\"凑齐一套强力组合\"的满足感。",
       "coreRules": "",
       "trigger": "- 击败房间内所有敌人后出现祝福选择界面",
       "painPoint": "- 传统 Roguelike 随机增益过于简单, 缺乏深度组合",
@@ -5326,7 +4882,7 @@
         "萌宠收集"
       ],
       "simpleDesc": "近200种风格各异的猫咪服装, 给猫穿上好看的衣服能卖更多小鱼干",
-      "mechanismDesc": "- 服装分为不同风格：可爱, 酷帅, 古典, 节日主题等\n- 服装稀有度影响售价加成\n- 某些服装有特殊属性或",
+      "mechanismDesc": "- 服装分为不同风格：可爱, 酷帅, 古典, 节日主题等\n- 服装稀有度影响售价加成\n- 某些服装有特殊属性或触发特殊事件\n- 可以给猫拍照分享",
       "coreRules": "",
       "trigger": "- 获得新服装后, 选择给猫咪装备",
       "painPoint": "- 传统宠物游戏只关注数值养成, 缺乏\"打扮\"的乐趣",
@@ -5382,7 +4938,7 @@
         "社交"
       ],
       "simpleDesc": "从自己家走到小镇中心不需要任何加载，让玩家随时随地都能看到其他人在做什么",
-      "mechanismDesc": "1.",
+      "mechanismDesc": "1. **空间统一**：玩家家园（飞地）与小镇公共区域处于同一张大地图，无Loading切换\n2. **视觉可见**：无论身处家园还是公共区域，都能看见其他玩家在附近的活动\n3. **交互自由**：从自己家中走到屋外，从家园区域走到小镇中心，都无需等待Loading\n4. **社交机会**：打破\"独立空间\"隔阂，玩家身处何地都能看到身边发生的一切",
       "coreRules": "",
       "trigger": "- 玩家在地图上移动时自动触发",
       "painPoint": "- 解决传统游戏中\"进入自己房间就与世隔绝\"的孤独感",
@@ -5410,7 +4966,7 @@
         "随机匹配"
       ],
       "simpleDesc": "每天登录都像开盲盒，不知道今天会遇到什么样的邻居，给社交创造惊喜和契机",
-      "mechanismDesc": "1.",
+      "mechanismDesc": "1. **随机匹配**：每次登录游戏，系统随机将玩家分配到某个小镇（频道），邻居是随机匹配的12名玩家\n2. **每日刷新**：每天首次登录重新匹配小镇和邻居，保持新鲜感\n3. **惊喜触发**：回家时发现邻居家变成豪华别墅，产生\"去聊聊\"的社交冲动\n4. **好友绑定**：可通过加好友的方式，指定与特定玩家成为邻居（搬入好友所在小镇）",
       "coreRules": "",
       "trigger": "- 玩家每日首次登录游戏时触发",
       "painPoint": "- 解决社交游戏中\"没有理由主动搭话\"的尴尬",
@@ -5438,7 +4994,7 @@
         "飞地机制"
       ],
       "simpleDesc": "就像住进一个只有12户的小区，出门就能碰到邻居，还能互相串门参观装修",
-      "mechanismDesc": "1.",
+      "mechanismDesc": "1. **空间隔离**：每个玩家拥有独立的\"飞地\"（家园地块），其他玩家无法直接进入\n2. **准入机制**：通过\"串门\"功能，经邻居同意后方可进入他人飞地参观\n3. **容量限制**：每个小镇容纳12名玩家，形成小规模社区\n4. **随机匹配**：每次登录随机分配到不同的小镇，邻居是随机的",
       "coreRules": "",
       "trigger": "- 玩家上线时自动触发小镇匹配",
       "painPoint": "- 解决传统MMO大地图中难以遇到其他玩家的冷启动问题",
@@ -5638,7 +5194,7 @@
         "资源管理"
       ],
       "simpleDesc": "通过三消闯关获得\"星星\"资源, 用星星来解锁和装修房间, 形成\"玩三消→获资源→装房间\"的无缝衔接",
-      "mechanismDesc": "-",
+      "mechanismDesc": "- **三消关卡**：传统三消玩法, 通过消除获得分数和星星\n- **装修系统**：消耗星星解锁房间, 选择家具进行装修\n- **剧情驱动**：每装修完一个区域, 会解锁新的剧情对话\n\n核心流程：\n1. 玩家通过三消关卡 → 获得星星\n2. 消耗星星 → 解锁新房间, 购买家具\n3. 装修完成后 → 触发剧情\n4. 新剧情 → 开启下一章节的三消关卡",
       "coreRules": "",
       "trigger": "- 通关三消关卡后获得星星",
       "painPoint": "- 传统三消缺乏长线目标, 玩家容易流失",
@@ -5666,7 +5222,7 @@
         "立体战术"
       ],
       "simpleDesc": "\"太空不是平的\"：单位可以在XYZ三轴移动, 战术层面从2D扩展到3D",
-      "mechanismDesc": "家园2的3D空间设计：\n1.",
+      "mechanismDesc": "家园2的3D空间设计：\n1. **三轴移动**：单位可在上下, 前后, 左右移动\n2. **舰队编队**：多单位编队保持3D队形\n3. **空间包围**：从侧翼, 上方进攻有战术优势\n4. **高度差**：高空单位对低空单位有优势",
       "coreRules": "",
       "trigger": "- 玩家控制舰队移动",
       "painPoint": "- 解决\"平面战斗\"的单调",
@@ -5693,7 +5249,7 @@
         "动作游戏"
       ],
       "simpleDesc": "普攻攒能量→释放技能→触发QTE——像「音乐节奏游戏」一样卡点输出, 打出华丽连招。",
-      "mechanismDesc": "- 普通攻击（普攻）回复「动能」\n- 动能满时释放分支攻击（不同角色有不同分支）\n- 角色有「普通攻击」「特殊攻击」「必杀技」三个技能槽\n- QTE：特定条件下切换其他角色登场, 可",
+      "mechanismDesc": "- 普通攻击（普攻）回复「动能」\n- 动能满时释放分支攻击（不同角色有不同分支）\n- 角色有「普通攻击」「特殊攻击」「必杀技」三个技能槽\n- QTE：特定条件下切换其他角色登场, 可触发额外伤害, 控制效果\n- 闪避：完美闪避触发「极限闪避」, 可触发时空断裂",
       "coreRules": "",
       "trigger": "- 普攻, 技能, 闪避的特定条件下触发",
       "painPoint": "- 传统手游的「无脑自动」——不需要操作, 站着就能打过",
@@ -5786,7 +5342,7 @@
         "进度追踪"
       ],
       "simpleDesc": "记录玩家各种\"里程碑\"成就的系统, 完成成就能获得积分, 钻石, 金币, 头像框等奖励, 类似\"游戏版成就奖章\"。",
-      "mechanismDesc": "1.",
+      "mechanismDesc": "1. **成就分类**：分为玩法成就, 成长成就, 对局成就, 社交成就, 组队成就5个大类, 共71个成就\n2. **成就积分**：每个成就提供不同的成就积分, 累计成就积分可提升成就等级\n3. **等级奖励**：每次成就等级提升时获得100钻石奖励, 完成对应成就可获得金币, 铭文, 头像框等额外奖励\n4. **成就展示**：以奖杯形式显示成就, 对局结算界面以勋章样式展示\n5. **难度梯度**：每个成就分为1-3星难度, 大部分1星成就在正常游戏体验中可轻松达成",
       "coreRules": "",
       "trigger": "- 玩家在游戏过程中满足成就解锁条件时自动触发",
       "painPoint": "- 玩家缺乏长期目标, 容易流失",
@@ -5824,7 +5380,7 @@
         "社交"
       ],
       "simpleDesc": "MOBA类游戏中的老玩家带新人机制, 师傅通过指导徒弟获得名师积分, 徒弟获得出师奖励, 类似\"游戏版导师制度\"。",
-      "mechanismDesc": "1.",
+      "mechanismDesc": "1. **拜师条件**：低段位玩家可拜高段位玩家为师, 需达到一定条件才能收徒\n2. **名师积分**：师傅通过带徒弟完成对局, 徒弟成长等行为获得名师积分\n3. **徒弟奖励**：徒弟完成出师任务后获得英雄碎片, 皮肤等奖励\n4. **师傅奖励**：师傅获得名师积分可兑换头像框, 荣耀播报等专属奖励\n5. **关系解除**：师傅主动解除关系后一段时间内不能再次收徒",
       "coreRules": "",
       "trigger": "- 徒弟完成指定数量的师徒任务后触发出师",
       "painPoint": "- MOBA游戏新手上手难度高, 匹配到新手影响老玩家体验",
@@ -5914,7 +5470,7 @@
         "空间压缩"
       ],
       "simpleDesc": "就像密室逃脱游戏——随着时间推移, 可活动的空间越来越小, 迫使玩家从绕路策略转为正面冲突",
-      "mechanismDesc": "梦境大乱斗模式的核心特色在于动态变化的战场地图：\n-",
+      "mechanismDesc": "梦境大乱斗模式的核心特色在于动态变化的战场地图：\n- **初始阶段**：地图中央两侧有迂回空间, 为刺客, 战士提供绕后埋伏机会\n- **进程推进**：地图地形随梦境进程逐渐崩塌\n- **后期阶段**：战场空间压缩, 玩家需要在越来越窄的区域进行战斗\n- **效果**：鼓励正面交锋, 加快后期节奏\n\n地图两侧扩展的区域到后期会消失, 战场缩小直接导致：\n1. 战术迂回空间减少\n2. 强制团战频率增加\n3. 游戏总时长缩短",
       "coreRules": "",
       "trigger": "- 随游戏时间推进自动触发",
       "painPoint": "- 解决大乱斗模式后期节奏拖沓问题",
@@ -6285,7 +5841,7 @@
         "概率机制"
       ],
       "simpleDesc": "技能图标周围冒火就是\"临界充能\"状态——此时使用该技能必定暴击，用完火就消失。暴击率决定多久\"充能\"一次，用好这个节奏是打出高伤害的关键。",
-      "mechanismDesc": "1.",
+      "mechanismDesc": "1. **临界充能触发**：当技能冷却完毕时，有暴击率(Crit Chance)概率触发临界充能\n2. **充能效果**：临界充能状态下，使用该技能100%触发暴击(Crit)，并附加暴击伤害加成\n3. **充能消耗**：使用临界充能的技能后，充能状态消失\n4. **视觉提示**：临界充能时技能图标周围会有火焰特效",
       "coreRules": "",
       "trigger": "- 技能冷却完毕时自动判定",
       "painPoint": "- 传统暴击\"脸黑不打\"的随机性挫败",
@@ -6313,7 +5869,7 @@
         "走位系统"
       ],
       "simpleDesc": "像动作游戏一样自由走位，但用回合制的策略深度——意志力同时管技能和移动，每回合都要在\"多打几下\"还是\"换个位置\"之间做取舍。",
-      "mechanismDesc": "1.",
+      "mechanismDesc": "1. **意志力(Will)系统**：每回合开始时获得固定意志力，仅用于释放技能\n2. **独立移动资源**：移动不消耗意志力，有独立的移动范围限制\n3. **自由移动**：玩家可以在回合内像动作游戏一样在战场上自由走动\n4. **节奏掌控**：优势时快速点击技能打输出，劣势时慢下来规划位置",
       "coreRules": "",
       "trigger": "- 玩家回合开始时获得意志力",
       "painPoint": "- 传统回合制\"站桩输出\"的无聊感",
@@ -6342,7 +5898,7 @@
         "技能强化"
       ],
       "simpleDesc": "每个技能可以打上2种\"强化\"：Augment(赋能)改变技能基础效果，Ascensions(晋升)强化数值或附加特殊效果——同一个技能可以变成完全不同的形态。",
-      "mechanismDesc": "1.",
+      "mechanismDesc": "1. **技能结构**：每个职业有3个专属技能 + 2个通用技能槽\n2. **Augment(赋能)**：为技能附加额外效果\n   - 示例：Blink(闪现)的基础效果是位移\n   - Augment强化后：闪现落地时生成一个宝珠\n3. **Ascensions(晋升)**：强化技能数值或附加特殊效果\n   - 示例：Flurry(连打)基础是多次攻击\n   - Ascensions晋升后：每次攻击附带中毒效果\n4. **Build流派**：\n   - 以Blink为例：强化后每回合可以\"闪现+捡珠+再闪现\"，形成高频位移+无限技能的流派\n   - 以Flurry为例：叠加中毒+暴击率，成为DOT+爆发混合流",
       "coreRules": "",
       "trigger": "- 在技能界面选择Augment或Ascensions进行强化",
       "painPoint": "- 传统Roguelike\"技能固定不变\"的build单调",
@@ -6370,7 +5926,7 @@
         "资源管理"
       ],
       "simpleDesc": "每回合战场上会刷新一个宝珠，捡到后立刻获得1点意志力+所有技能冷却-1，但宝珠2回合后消失——要不要专门绕路去捡，成为走位决策的关键变量。",
-      "mechanismDesc": "1.",
+      "mechanismDesc": "1. **宝珠生成**：每回合开始时，每个玩家对应位置生成1个能量宝珠\n2. **宝珠效果**：拾取宝珠后立即获得\n   - +1 意志力\n   - 所有技能冷却时间-1\n3. **宝珠消失**：宝珠存在2回合后自动消失\n4. **多人博弈**：4人模式下每回合最多4个宝珠，\"抢宝珠\"成为团队策略的一部分",
       "coreRules": "",
       "trigger": "- 每回合开始时在战场上生成",
       "painPoint": "- 传统回合制\"资源固定\"的单调感",
@@ -6398,7 +5954,7 @@
         "遗物套装"
       ],
       "simpleDesc": "装备遗物凑成2/4/6件套获得强力效果，还可以把不需要的遗物\"粉碎\"换取套装点数，强行凑出套装——风险与收益并存的BD构建。",
-      "mechanismDesc": "1.",
+      "mechanismDesc": "1. **遗物(Vestige)系统**：遗物提供属性和套装效果，品质越高效果越强\n2. **套装效果**：遗物按套装分类，凑齐2件/4件/6件获得不同加成\n   - 2件：基础效果（如+20%某属性）\n   - 4件：中级效果（如对异常状态敌人+额外伤害）\n   - 6件：终极效果（如造成伤害时回血）\n3. **遗物粉碎**：在遗物祭坛(Vestigial Shrine)可以摧毁遗物，获得该遗物所属套装的点数\n4. **套装点继承**：粉碎获得的套装点可以用于激活其他套装的加成",
       "coreRules": "",
       "trigger": "- 持有遗物达到对应数量时触发套装效果",
       "painPoint": "- Roguelike游戏\"凑套装看脸\"的无奈感",
@@ -6761,77 +6317,6 @@
       "filename": "[Qualify]rpg-levelup.md",
       "source": "AI生成-未甄别"
     },
-    "KnightsOfTheRound/[Qualify]beat-em-up.md": {
-      "title": "Beat 'Em Up / 清版动作",
-      "gameName": "beat",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[Qualify]beat-em-up.md",
-      "source": "人工"
-    },
-    "KnightsOfTheRound/[Qualify]gold-equipment.md": {
-      "title": "[街机]-圆桌骑士-金币装备系统",
-      "gameName": "圆桌骑士",
-      "tags": [
-        "局内成长",
-        "经济系统",
-        "装备系统"
-      ],
-      "simpleDesc": "打完怪赚钱买装备——用金币强化武器和防具",
-      "mechanismDesc": "击倒敌人后掉落金币, 玩家可在关卡中的商店区域购买装备：\n-",
-      "coreRules": "",
-      "trigger": "- 击倒敌人掉落金币",
-      "painPoint": "- 纯数值成长单调→装备提供可见的数值提升",
-      "experienceGoal": "- \"赚钱买装备\"的满足感",
-      "similarMechanisms": [
-        {
-          "game": "龙王战士",
-          "mechanism": "的RPG升级系统"
-        },
-        {
-          "game": "暗黑破坏神",
-          "mechanism": "的装备系统"
-        }
-      ],
-      "demo": "商店购买演示：https:, , www.youtube.com, watch?v=XXXXX",
-      "filename": "[Qualify]gold-equipment.md",
-      "source": "AI生成-未甄别"
-    },
-    "KnightsOfTheRound/[Qualify]horse-combat.md": {
-      "title": "[街机]-圆桌骑士-骑马战斗系统",
-      "gameName": "圆桌骑士",
-      "tags": [
-        "特殊攻击",
-        "移动机制",
-        "骑乘战斗"
-      ],
-      "simpleDesc": "骑上战马冲锋陷阵——马力全开时的无敌冲刺攻击",
-      "mechanismDesc": "游戏中玩家可以召唤战马并骑乘作战：\n- 骑乘时移动速度大幅提升\n- 获得专属的\"冲锋攻击\"：按住攻击键冲向敌人\n- 冲锋攻击伤害极高, 可秒杀普通敌人\n- 骑乘状态下受到攻击会掉落马匹\n\n战马可通过特定动作下马, 步战与骑战切换。",
-      "coreRules": "",
-      "trigger": "- 场景中出现马匹时按下对应按键骑乘",
-      "painPoint": "- 单一步战模式单调→引入骑乘提供战斗节奏变化",
-      "experienceGoal": "- \"骑砍\"体验的下放——街机玩家也能感受冲锋快感",
-      "similarMechanisms": [
-        {
-          "game": "真三国无双",
-          "mechanism": "系列的骑乘战斗"
-        },
-        {
-          "game": "战意",
-          "mechanism": "的骑砍战斗系统"
-        }
-      ],
-      "demo": "骑马冲锋实战视频：https:, , www.youtube.com, watch?v=XXXXX",
-      "filename": "[Qualify]horse-combat.md",
-      "source": "AI生成-未甄别"
-    },
     "KnightsOfValour/[Qualify]技能连招系统.md": {
       "title": "[街机]-KnightsOfValour-技能连招系统",
       "gameName": "Knights of Valour",
@@ -6841,7 +6326,7 @@
         "搓招系统"
       ],
       "simpleDesc": "通过方向键, 攻击键的组合输入释放不同技能, 形成连击Combo, 深度玩家可打出华丽连招",
-      "mechanismDesc": "- 每个武将拥有独特的技能树\n- 通过\"→, A\", \"↓→, A\"等组合键输入",
+      "mechanismDesc": "- 每个武将拥有独特的技能树\n- 通过\"→, A\", \"↓→, A\"等组合键输入触发不同技能\n- 基础攻击后可衔接技能形成连招\n- 连招段数越高, 伤害和分数加成越高\n- 不同武将的技能组合格斗不同, 提供差异化体验",
       "coreRules": "",
       "trigger": "- 玩家输入特定组合键",
       "painPoint": "- 纯按键点击容易单调",
@@ -6897,7 +6382,7 @@
         "道具系统"
       ],
       "simpleDesc": "击败特定敌人或探索地图获得\"天书\", 使用后可召唤雷电, 火焰等魔法攻击大范围敌人",
-      "mechanismDesc": "- 地图上分布着可拾取的天书道具\n- 拾取后天书自动装备\n- 使用天书可释放魔法技能：\n  - 雷电：多段落雷攻击\n  - 火焰：持续火焰伤害\n  - 冰霜：冰冻敌人\n  - 风暴：范围风刃\n- 天书有使用次数限制\n- 部分天书需要特定条件",
+      "mechanismDesc": "- 地图上分布着可拾取的天书道具\n- 拾取后天书自动装备\n- 使用天书可释放魔法技能：\n  - 雷电：多段落雷攻击\n  - 火焰：持续火焰伤害\n  - 冰霜：冰冻敌人\n  - 风暴：范围风刃\n- 天书有使用次数限制\n- 部分天书需要特定条件触发",
       "coreRules": "",
       "trigger": "- 拾取天书道具",
       "painPoint": "- 普通攻击只能逐个消灭敌人",
@@ -7185,7 +6670,7 @@
         "高风险惩罚"
       ],
       "simpleDesc": "博弈失败者的\"赌命\"环节——6发子弹中只有1发是实弹，扣动扳机决定生死，失败直接退出游戏。",
-      "mechanismDesc": "1.",
+      "mechanismDesc": "1. **触发条件**：谎牌/骰子被揭穿后触发\n2. **轮盘机制**：左轮手枪6个弹槽，1发实弹\n3. **判定结果**：\n   - 存活：继续游戏\n   - 死亡：游戏结束/淘汰\n4. **高压心理**：每一枪都是生与死的抉择",
       "coreRules": "",
       "trigger": "2. **轮盘机制**：左轮手枪6个弹槽，1发实弹",
       "painPoint": "- 桌游惩罚\"无关痛痒\"的轻快感",
@@ -7209,7 +6694,7 @@
         "质疑机制"
       ],
       "simpleDesc": "类似\"吹牛\"的玩法——玩家轮流报出手牌点数，可以故意报错误导对手，当有人质疑时验证真假，撒谎者受惩罚。",
-      "mechanismDesc": "1.",
+      "mechanismDesc": "1. **叫牌机制**：玩家依次报出自己手牌的点数，可以故意报错\n2. **质疑机制**：其他玩家可以选择\"质疑\"\n3. **揭穿判定**：验证实际点数，撒谎者失败\n4. **惩罚关联**：失败者进入俄罗斯轮盘赌",
       "coreRules": "",
       "trigger": "- 玩家回合开始时进行叫牌",
       "painPoint": "- 传统桌游\"纯运气\"的无聊感",
@@ -7268,7 +6753,7 @@
         "策略"
       ],
       "simpleDesc": "回合制战斗中，通过站位形成前后夹击，让敌人腹背受敌，队友会自动追加攻击造成额外伤害。",
-      "mechanismDesc": "如龙8的回合制战斗引入了站位系统，玩家可以在战斗区域内自由移动角色。主要包含以下增伤机制：\n\n1.",
+      "mechanismDesc": "如龙8的回合制战斗引入了站位系统，玩家可以在战斗区域内自由移动角色。主要包含以下增伤机制：\n\n1. **夹击增伤**：当敌人被己方两位队友形成前后夹击时，将敌人打至其中一位队友眼前另一位队友会自动给出额外一击（类似夹击补刀）\n\n2. **背刺加成**：如果敌人背对玩家角色攻击，玩家攻击获得额外伤害加成\n\n3. **墙壁碰撞**：敌人被击飞后撞到墙面、或撞到其他敌人时，会受到额外伤害\n\n4. **合作攻击**：与有友情羁绊（通过友情剧场提升等级）的伙伴靠近时，可以发动强化的合作攻击",
       "coreRules": "",
       "trigger": "- 夹击：敌方目标相邻区域均有我方角色",
       "painPoint": "- 传统回合制战斗站位无意义，仅有属性数值对抗",
@@ -7379,7 +6864,7 @@
         "角色定制"
       ],
       "simpleDesc": "就像同时调教\"职业, 天赋, 装备\"——Cores决定你会什么技能, Implants强化身体素质, 武器Mod改装枪械, 三者叠加产生丰富BD",
-      "mechanismDesc": "Marathon 的角色构筑分为三层, 彼此独立又相互影响：\n1.",
+      "mechanismDesc": "Marathon 的角色构筑分为三层, 彼此独立又相互影响：\n1. **Cores（核心）**：每个 Runner Shell 特有的强化模块, 强化角色固有技能, 每个 Shell 2个槽位\n2. **Implants（植入物）**：全通用属性加成, 任何 Shell 都能装备, 提供属性, 能力提升\n3. **武器Mod（武器改装）**：枪械配件改装, 影响武器性能",
       "coreRules": "",
       "trigger": "- 战备阶段可以自由搭配三层构筑",
       "painPoint": "- 传统撤离射击只有装备驱动, 缺乏角色成长深度",
@@ -7491,62 +6976,42 @@
       "filename": "[TPS]-[漫威争锋]-[天赋强化].md",
       "source": "人工"
     },
-    "MarvelSnap/Snap加注机制.md": {
-      "title": "机制卡：Snap加注机制",
-      "gameName": "Marvel Snap（漫威终极逆转）",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
+    "MarvelSnap/[Excellent]Snap加注机制.md": {
+      "title": "[策略卡牌]-MarvelSnap-Snap加注机制",
+      "gameName": "MarvelSnap",
+      "tags": [
+        "心理博弈",
+        "翻倍机制",
+        "风险博弈"
+      ],
+      "simpleDesc": "玩家在认为必赢时可点击SNAP加倍赌注，获胜后获得翻倍积分；如果中途认为必输可提前撤退止损",
+      "mechanismDesc": "玩家在认为必赢时可点击SNAP加倍赌注。基础输赢1cube，每位玩家可加倍1次。倍率递增1→2→4→8。撤退按当前倍率结算。",
       "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
+      "trigger": "玩家点击SNAP按钮时",
+      "painPoint": "解决传统卡牌游戏缺乏风险决策的问题",
+      "experienceGoal": "创造\"高风险高回报\"的心理博弈体验",
       "similarMechanisms": [],
-      "demo": "",
-      "filename": "Snap加注机制.md",
+      "demo": "待补充",
+      "filename": "[Excellent]Snap加注机制.md",
       "source": "人工"
     },
-    "MarvelSnap/[Qualify]位置机制.md": {
-      "title": "[策略卡牌]-漫威终极逆转-位置机制",
-      "gameName": "Marvel Snap",
+    "MarvelSnap/[Excellent]区域随机系统.md": {
+      "title": "[策略卡牌]-MarvelSnap-区域随机系统",
+      "gameName": "MarvelSnap",
       "tags": [
-        "位置博弈",
-        "创新机制",
-        "随机性"
+        "Roguelike元素",
+        "策略变化",
+        "随机区域"
       ],
-      "simpleDesc": "就像打牌时不知道对手把ace藏在哪张桌子底下——每个位置代表不同的博弈结果",
-      "mechanismDesc": "每个回合战场有3个位置可供打牌, 某些卡牌效果与位置相关（必须打在该位置才能",
+      "simpleDesc": "每局游戏随机生成3个区域，每个区域有独特词条效果，玩家需要根据区域特性调整出牌策略",
+      "mechanismDesc": "每局游戏随机生成3个区域，每个区域有独特词条效果。超过50个独特区域，每月更新。区域效果分类型：增益型、减益型、限制型、特殊规则型。",
       "coreRules": "",
-      "trigger": "打出手牌时选择位置, 位置效果在结算时生效",
-      "painPoint": "解决传统卡牌游戏过于理性的问题, 通过位置不确定性增加博弈变数",
-      "experienceGoal": "创造\"虚虚实实\"的博弈乐趣, 每回合选择都是惊喜或惊吓",
-      "similarMechanisms": [
-        {
-          "game": "炉石传说",
-          "mechanism": "暗影视阱"
-        },
-        {
-          "game": "游戏王",
-          "mechanism": "连锁机制"
-        }
-      ],
-      "demo": "GIF：漫威终极逆转位置机制演示",
-      "filename": "[Qualify]位置机制.md",
-      "source": "AI生成-未甄别"
-    },
-    "MarvelSnap/区域随机系统.md": {
-      "title": "机制卡：区域随机系统",
-      "gameName": "Marvel Snap（漫威终极逆转）",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
+      "trigger": "每局游戏开始时",
+      "painPoint": "解决每局单调重复的问题",
+      "experienceGoal": "每局都有新变化，增加策略多样性",
       "similarMechanisms": [],
-      "demo": "",
-      "filename": "区域随机系统.md",
+      "demo": "待补充",
+      "filename": "[Excellent]区域随机系统.md",
       "source": "人工"
     },
     "MayBe/放置RPG-出发吧麦芬-双人匹配挂机.md": {
@@ -8021,7 +7486,7 @@
         "载具"
       ],
       "simpleDesc": "\"开车跑毒\"：载具提供高速转移但暴露位置, 是空间博弈的核心工具",
-      "mechanismDesc": "载具系统是PUBG的战术设计：\n1.",
+      "mechanismDesc": "载具系统是PUBG的战术设计：\n1. **载具类型**：吉普车, 轿车, 摩托, 三轮车\n2. **速度差异**：60-150km, h\n3. **暴露风险**：引擎声远距离可被听见\n4. **血量**：1000-2500, 可被击毁",
       "coreRules": "",
       "trigger": "- 找到载具后驾驶",
       "painPoint": "- 解决\"跑毒太慢\"",
@@ -8049,7 +7514,7 @@
         "随机性"
       ],
       "simpleDesc": "\"落地捡垃圾\"：随机刷新枪械, 配件, 护甲, 搜索装备的不确定性是核心乐趣",
-      "mechanismDesc": "资源系统是PUBG的基础设计：\n1.",
+      "mechanismDesc": "资源系统是PUBG的基础设计：\n1. **随机刷新**：房屋内随机刷新物资\n2. **武器类型**：步枪, 冲锋枪, 狙击枪等20, 种\n3. **护甲等级**：1-3级护甲\n4. **背包容量**：150-550容量决定携带量",
       "coreRules": "",
       "trigger": "- 进入房屋搜索物资",
       "painPoint": "- 解决\"开局一样\"的单调",
@@ -8105,7 +7570,7 @@
         "骑乘战斗"
       ],
       "simpleDesc": "给宠物配上武器和骑具——在专门的工作台制作\"帕鲁装备\", 让帕鲁既能当坐骑也能持枪战斗",
-      "mechanismDesc": "玩家可以在 Pal Gear Workbench（帕鲁装备工作台）制作各类帕鲁专属装备, 包括：\n-",
+      "mechanismDesc": "玩家可以在 Pal Gear Workbench（帕鲁装备工作台）制作各类帕鲁专属装备, 包括：\n- **Saddle（骑乘装备）**：让特定帕鲁变为可骑乘\n- **Weapon（武器）**：让帕鲁持有弓箭, 枪械等武器进行战斗\n- **Accessories（配饰）**：提供额外属性加成\n\n每个帕鲁都有独特的\"伙伴技能（Partner Skill）\", 可转变为武器形态或坐骑形态。玩家可以一边骑乘帕鲁飞行, 一边指挥帕鲁发起攻击。",
       "coreRules": "",
       "trigger": "- 科技树解锁 Pal Gear Workbench",
       "painPoint": "- 传统宝可梦类游戏玩法单一（只能指挥宠物用技能打怪）",
@@ -8380,91 +7845,57 @@
       "filename": "[Excellent]SunlightSystem.md",
       "source": "AI生成-未甄别"
     },
-    "PokemonLegendsArceus/即时动作战斗.md": {
-      "title": "机制卡：阿尔宙斯-即时动作战斗",
-      "gameName": "宝可梦传说：阿尔宙斯",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
+    "PokemonLegendsArceus/[Excellent]即时动作战斗.md": {
+      "title": "[ARPG]-PokemonLegendsArceus-即时动作战斗",
+      "gameName": "PokemonLegendsArceus",
+      "tags": [
+        "QTE",
+        "动作化",
+        "即时战斗",
+        "回合制改革"
+      ],
+      "simpleDesc": "宝可梦系列首次引入即时动作战斗元素，玩家可以在野外即时投掷精灵球、翻滚躲避攻击，BOSS战加入QTE机制",
+      "mechanismDesc": "宝可梦系列首次引入即时动作战斗元素。野外遇到宝可梦可直接投球，无需切换回合。玩家可控制角色翻滚躲避野生宝可梦攻击。BOSS战触发QTE机制。",
       "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "即时动作战斗.md",
+      "trigger": "遇到野生宝可梦或BOSS时",
+      "painPoint": "解决传统回合制战斗节奏慢的问题",
+      "experienceGoal": "打破传统宝可梦纯回合制战斗，为系列注入动作游戏紧张感",
+      "similarMechanisms": [
+        {
+          "game": "怪物猎人",
+          "mechanism": "即时战斗"
+        },
+        {
+          "game": "艾尔登法环",
+          "mechanism": "BOSS QTE"
+        }
+      ],
+      "demo": "待补充",
+      "filename": "[Excellent]即时动作战斗.md",
       "source": "人工"
     },
-    "PokemonLegendsArceus/坐骑系统.md": {
-      "title": "机制卡：阿尔宙斯-坐骑系统",
-      "gameName": "宝可梦传说：阿尔宙斯",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
+    "PokemonLegendsArceus/[Qualify]坐骑系统.md": {
+      "title": "[ARPG]-PokemonLegendsArceus-坐骑系统",
+      "gameName": "PokemonLegendsArceus",
+      "tags": [
+        "区域限制",
+        "开放世界",
+        "探索解锁"
+      ],
+      "simpleDesc": "玩家可以骑乘特定宝可梦作为交通工具，不同坐骑有不同的移动能力（飞行、游泳、攀岩），帮助玩家到达原本无法进入的区域",
+      "mechanismDesc": "玩家可以骑乘特定宝可梦作为交通工具。坐骑类型：飞行系、水系、陆系、攀岩系。通过剧情推进解锁新的坐骑。部分坐骑可在战斗中使用。",
       "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
+      "trigger": "获得坐骑后",
+      "painPoint": "替代传统宝可梦的\"秘传技\"",
+      "experienceGoal": "提供探索自由度，同时通过坐骑解锁增加探索动力",
       "similarMechanisms": [
         {
           "game": "塞尔达传说",
           "mechanism": "旷野之息 坐骑系统"
         }
       ],
-      "demo": "",
-      "filename": "坐骑系统.md",
-      "source": "人工"
-    },
-    "PokemonLegendsZA/即时动作战斗系统.md": {
-      "title": "机制卡：宝可梦传说ZA-即时动作战斗系统",
-      "gameName": "宝可梦传说 Z-A",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [
-        {
-          "game": "阿尔宙斯",
-          "mechanism": "即时投球/战斗"
-        },
-        {
-          "game": "艾尔登法环",
-          "mechanism": "ARPG战斗"
-        },
-        {
-          "game": "原神",
-          "mechanism": "元素反应+即时战斗"
-        }
-      ],
-      "demo": "",
-      "filename": "即时动作战斗系统.md",
-      "source": "人工"
-    },
-    "PokemonLegendsZA/昼夜双循环系统.md": {
-      "title": "机制卡：宝可梦传说ZA-昼夜双循环系统",
-      "gameName": "宝可梦传说 Z-A",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [
-        {
-          "game": "塞尔达传说",
-          "mechanism": "日夜循环"
-        },
-        {
-          "game": "宝可梦传统",
-          "mechanism": "昼夜出现不同宝可梦"
-        }
-      ],
-      "demo": "",
-      "filename": "昼夜双循环系统.md",
+      "demo": "待补充",
+      "filename": "[Qualify]坐骑系统.md",
       "source": "人工"
     },
     "ProjectZomboid/生存沙盒-Project-Zomboid-声音视野系统.md": {
@@ -8874,21 +8305,6 @@
       "filename": "[生存沙盒]-RUST-采集小游戏.md",
       "source": "人工"
     },
-    "RustedWarfare/[Core]极简触控操作设计.md": {
-      "title": "极简触控操作设计",
-      "gameName": "RustedWarfare",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[Core]极简触控操作设计.md",
-      "source": "人工"
-    },
     "SanGuoZhanLue/[SLG]-三国志战略版-动态地图.md": {
       "title": "[SLG]-三国志战略版-动态地图",
       "gameName": "RomanceOfTheThreeKingdoms",
@@ -9242,7 +8658,7 @@
         "船只操作"
       ],
       "simpleDesc": "一艘船需要多人配合：一人掌舵控制方向，一人收放帆调整速度，一人负责抛锚停船——每个人各司其职才能把船开好。",
-      "mechanismDesc": "1.",
+      "mechanismDesc": "1. **掌舵（Wheel）**：控制船只航行方向\n2. **船帆（Sail）**：调整帆的面积控制航速\n3. **船锚（Anchor）**：抛锚停船或起锚启航\n4. **分工协作**：不同玩家负责不同操作，配合才能顺畅航行",
       "coreRules": "",
       "trigger": "- 玩家登上船只时自动分配操作权限",
       "painPoint": "- 传统航海游戏\"一人开全船\"的单调感",
@@ -9271,7 +8687,7 @@
         "海战"
       ],
       "simpleDesc": "游戏核心是\"抢钱\"——你可以安稳挖宝交货，也可以直接抢劫其他玩家的船抢宝藏，活着把战利品带回去才算真正赢。",
-      "mechanismDesc": "1.",
+      "mechanismDesc": "1. **寻宝**：根据藏宝图或线索寻找宝藏\n2. **海战**：用大炮攻击其他船只，或进行接舷战\n3. **夺金**：击败对手后抢夺其身上的宝藏\n4. **交货**：将宝藏安全带回港口换取金币",
       "coreRules": "",
       "trigger": "- 玩家在海上遭遇其他玩家时触发",
       "painPoint": "- 传统航海游戏\"只有挖宝\"的单调感",
@@ -9393,51 +8809,6 @@
       "similarMechanisms": [],
       "demo": "",
       "filename": "卡牌-影之诗2-公园观棋.md",
-      "source": "人工"
-    },
-    "ShaoNianJinYiWei/anime-ip-characters.md": {
-      "title": "动漫IP角色扮演",
-      "gameName": "ShaoNianJinYiWei",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "anime-ip-characters.md",
-      "source": "人工"
-    },
-    "ShaoNianJinYiWei/faction-system.md": {
-      "title": "锦衣卫阵营系统",
-      "gameName": "ShaoNianJinYiWei",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "faction-system.md",
-      "source": "人工"
-    },
-    "ShaoNianJinYiWei/qinggong-system.md": {
-      "title": "多段轻功系统",
-      "gameName": "ShaoNianJinYiWei",
-      "tags": [],
-      "simpleDesc": "",
-      "mechanismDesc": "",
-      "coreRules": "",
-      "trigger": "",
-      "painPoint": "",
-      "experienceGoal": "",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "qinggong-system.md",
       "source": "人工"
     },
     "Sifu/ACT-师父-年龄系统.md": {
@@ -9722,7 +9093,7 @@
         "策略"
       ],
       "simpleDesc": "石头剪刀布的深度版本：用克制兵种以小博大, 创造\"操作博弈\"的空间",
-      "mechanismDesc": "RTS兵种相克是游戏深度的主要来源：\n1.",
+      "mechanismDesc": "RTS兵种相克是游戏深度的主要来源：\n1. **基础克制**：枪兵克散户, 坦克克建筑, 飞机克防空\n2. **组合克制**：混合兵种配合产生协同效果\n3. **地形克制**：高地对低地有攻击加成\n4. **数量克制**：规模化后质变（如100个枪兵>10个枪兵）",
       "coreRules": "",
       "trigger": "- 战斗单位相遇时自动触发克制关系",
       "painPoint": "- 解决\"无脑堆数值\"的单调玩法",
@@ -9751,7 +9122,7 @@
         "操作深度"
       ],
       "simpleDesc": "\"APM200菜如狗\"：在电光火石间完成编队, 散开, 集火, 撤退, 是RTS竞技的核心门槛",
-      "mechanismDesc": "实时战术微操是RTS操作层面的深度设计：\n1.",
+      "mechanismDesc": "实时战术微操是RTS操作层面的深度设计：\n1. **编队系统**：将单位分组, 用快捷键快速指挥\n2. **集火, 散开**：集中攻击目标或分散躲避AOE\n3. **技能释放**： heals, 闪电, 溅射的时机把控\n4. **拉扯战术**：打一下就跑, 减少伤亡",
       "coreRules": "",
       "trigger": "- 实时战斗进行中",
       "painPoint": "- 解决\"站桩对砍\"的无聊战斗",
@@ -9779,7 +9150,7 @@
         "资源管理"
       ],
       "simpleDesc": "种田流vs暴兵流的博弈：资源是有限的, 什么时候该采集, 什么时候该进攻, 这是RTS最核心的决策点",
-      "mechanismDesc": "RTS资源采集体系通常包含以下要素：\n1.",
+      "mechanismDesc": "RTS资源采集体系通常包含以下要素：\n1. **资源类型**：黄金, 矿石, 木材, 圣水等\n2. **采集方式**：农民, 单位自动采集 vs 主动收集\n3. **储存上限**：资源仓有容量限制\n4. **消耗去向**：建造建筑, 生产单位, 升级科技",
       "coreRules": "",
       "trigger": "- 资源达到一定数量后触发建筑, 生产",
       "painPoint": "- 解决\"无仗可打\"的空闲时间, 让玩家始终有事可做",
@@ -9995,7 +9366,7 @@
         "苏丹卡"
       ],
       "simpleDesc": "每周随机抽一张\"死亡卡\"——纵欲、奢靡、征服、杀戮四种类型，每种有金/银/铜/铁四 grades品级，必须在7天内完成卡上任务，否则被处决。",
-      "mechanismDesc": "1.",
+      "mechanismDesc": "1. **四种类型**：\n   - **纵欲卡**：需要在特定场所与特定角色发生关系，如\"与歌姬共度良宵\"、\"与贵族夫人幽会\"\n   - **奢靡卡**：需要挥霍金钱购买奢侈品，如\"购买价值1000金的珠宝\"、\"举办盛大宴会\"\n   - **征服卡**：需要击败特定敌人或挑战Boss，如\"击败沙漠盗贼首领\"、\"征服古老遗迹的守护者\"\n   - **杀戮卡**：需要杀死特定角色，如\"处决叛国者\"、\"献祭罪人\"\n2. **四 grades品级**：岩石、青铜、白银、黄金\n3. **使用限制**：卡牌品级只能对相同或更高品级的目标使用\n   - 黄金卡：只能用于黄金角色\n   - 白银卡：可用于黄金或白银角色\n   - 青铜卡：可用于黄金、白银、青铜角色\n   - 岩石卡：可用于全部角色\n4. **时间压力**：7天内必须完成任务",
       "coreRules": "",
       "trigger": "- 每周开始时自动抽取一张苏丹卡",
       "painPoint": "- 传统卡牌游戏\"随机抽取\"的无关痛痒",
@@ -10598,7 +9969,7 @@
         "翻盘机制"
       ],
       "simpleDesc": "残血时进入\"爆气\"状态, 攻击力和技能发生质变, 给落后玩家翻盘希望",
-      "mechanismDesc": "> Rage系统是铁拳系列的标志性机制：\n> - 当角色血量低于一定比例（约30%）时自动",
+      "mechanismDesc": "> Rage系统是铁拳系列的标志性机制：\n> - 当角色血量低于一定比例（约30%）时自动触发\n> - 攻击力提升（约为1.3倍）\n> - 获得Rage Art（爆气必杀技）：可反弹取消的强力技能\n> - 获得Rage Drive：强化版特殊技",
       "coreRules": "",
       "trigger": "血量低于30%时自动激活, 血量归零或对手胜利时结束",
       "painPoint": "大比分落后时玩家容易放弃比赛；格斗游戏观赏性下降",
@@ -10649,7 +10020,7 @@
         "资源分布"
       ],
       "simpleDesc": "地面只是生存的起点，真正的秘密和危机藏在复杂的地下洞穴网络中",
-      "mechanismDesc": "The Forest的洞穴系统是游戏的核心探索内容，与地面世界形成垂直体验：\n\n1.",
+      "mechanismDesc": "The Forest的洞穴系统是游戏的核心探索内容，与地面世界形成垂直体验：\n\n1. **多层结构**：洞穴分为浅层、中层、深层，越深越危险\n2. **垂直探索**：需要攀爬、绳索下降、游泳等多种移动方式\n3. **敌人分布**：浅层少量蝙蝠，中层蜘蛛群，深层Mutant巢穴\n4. **资源分布**：洞穴内有独特资源（羽毛、特殊药材），地面无法获取\n5. **剧情触发**：关键剧情道具和结局相关物品都在洞穴深处\n6. **氧气机制**：潜水洞穴有氧气限制，增加探索压力",
       "coreRules": "",
       "trigger": "- 玩家主动进入洞穴入口",
       "painPoint": "开放世界容易\"一眼看穿\"，缺乏深度和神秘感",
@@ -10682,7 +10053,7 @@
         "敌人智能"
       ],
       "simpleDesc": "野人像真实猎人一样会侦察、包围、援救，让玩家感觉被一群有智慧的敌人时刻盯上",
-      "mechanismDesc": "The Forest中的野人/Mutant敌人AI系统是该游戏的核心差异化机制。敌人不是简单的游荡攻击，而是具有高度智能的行为模式：\n\n1.",
+      "mechanismDesc": "The Forest中的野人/Mutant敌人AI系统是该游戏的核心差异化机制。敌人不是简单的游荡攻击，而是具有高度智能的行为模式：\n\n1. **侦察行为**：野人会单独或成群在玩家基地附近侦察，观察玩家的防御和活动规律\n2. **战术撤退**：当单挑处于下风时，野人会选择撤退并求援\n3. **包围攻击**：多个野人会尝试从不同方向包围玩家基地\n4. **心理威慑**：部分野人会在远处观察玩家而不攻击，制造持续的心理压力\n5. **难度递进**：随着游戏时间推移，敌人会变得更激进，攻击频率和策略都会升级",
       "coreRules": "",
       "trigger": "- 玩家进入野人领地范围",
       "painPoint": "传统生存游戏的敌人多为\"无脑冲锋\"型，容易应对且缺乏紧张感",
@@ -10714,7 +10085,7 @@
         "防御工事"
       ],
       "simpleDesc": "收集木材石头搭建基地，但建得越好敌人越聪明，建造变成了一种战略博弈",
-      "mechanismDesc": "The Forest的建造系统是游戏的核心生存手段，侧重于防御功能：\n\n1.",
+      "mechanismDesc": "The Forest的建造系统是游戏的核心生存手段，侧重于防御功能：\n\n1. **资源收集**：木材（最易获取）、石头、藤蔓、羽毛\n2. **建筑类型**：\n   - 结构类：墙壁、地板、屋顶、门\n   - 防御类：尖刺陷阱、围栏\n   - 功能类：火堆（保暖/烹饪）、武器台、储藏箱\n3. **科技树**：分初级→中级→高级，解锁更强力的建筑和陷阱\n4. **防御博弈**：基地越大/越明亮→吸引更多敌人→需要更强防御\n5. **多人分工**：多人合作时，可分工收集资源、建造、防御",
       "coreRules": "",
       "trigger": "- 玩家拥有建造工具（斧头、锤子）",
       "painPoint": "单纯生存容易无聊，需要有\"建设家园\"的归属感和成就感",
@@ -10746,7 +10117,7 @@
         "资源管理"
       ],
       "simpleDesc": "不仅是打怪，饥饿、寒冷、生病都会威胁玩家生命，需要随时注意状态",
-      "mechanismDesc": "The Forest的生存系统提供真实的生存压力：\n\n1.",
+      "mechanismDesc": "The Forest的生存系统提供真实的生存压力：\n\n1. **饥饿值**：随时间下降，不同食物恢复不同饱食度\n2. **寒冷值**：夜间和雨天温度下降，靠近火堆可取暖\n3. **健康值**：受伤、生病、中毒都会下降，需要药品治疗\n4. **水分**：需要收集雨水或引用河水\n5. **疾病系统**：吃到生肉/变质食物会生病，需吃药\n6. **伤口系统**：战斗受伤会流血，需及时包扎",
       "coreRules": "",
       "trigger": "- 随游戏时间自然触发",
       "painPoint": "无压力的生存游戏缺乏紧张感",
@@ -10778,7 +10149,7 @@
         "角色培养"
       ],
       "simpleDesc": "一个角色多套养成线路——从等级到天赋再到装备，全面深度的角色培养体系",
-      "mechanismDesc": "多维度养成系统为角色提供丰富的养成线路，创造长线成长目标和数值积累乐趣。\n\n主要养成维度：\n1.",
+      "mechanismDesc": "多维度养成系统为角色提供丰富的养成线路，创造长线成长目标和数值积累乐趣。\n\n主要养成维度：\n1. **等级与境界**：基础数值成长\n   - 角色等级提升\n   - 境界突破（境界系统）\n2. **五内系统**：天赋树系统\n   - 每个角色拥有独立的天赋树\n   - 消耗资源解锁被动技能和属性加成\n3. **列星系统**：额外被动加成\n   - 类似星盘的额外属性加成\n   - 消耗特定材料解锁\n4. **功法系统**：特殊技能/属性\n   - 额外技能或属性加成\n   - 消耗功法道具\n5. **魂石系统**：装备系统\n   - 类似于圣遗物/装备\n   - 提供额外属性和特效\n6. **战阵系统**：阵容养成\n   - 特定角色组合触发阵眼效果\n   - 队伍全员属性加成",
       "coreRules": "",
       "trigger": "- 消耗对应养成材料",
       "painPoint": "- 解决战棋游戏后期内容消耗过快的问题",
@@ -10810,7 +10181,7 @@
         "策略"
       ],
       "simpleDesc": "东方玄幻版的石头剪刀布——冰、火、雷三系相互克制，加上光暗的单向克制关系",
-      "mechanismDesc": "属性相克系统是游戏战斗策略的核心，玩家通过理解并运用属性克制关系，以弱胜强，获得策略博弈的乐趣。\n\n具体规则：\n-",
+      "mechanismDesc": "属性相克系统是游戏战斗策略的核心，玩家通过理解并运用属性克制关系，以弱胜强，获得策略博弈的乐趣。\n\n具体规则：\n- **三系循环相克**：冰 → 火 → 雷 → 冰（循环）\n  - 冰克火：被克方受到30%伤害减免\n  - 火克雷：被克方受到30%伤害减免\n  - 雷克冰：被克方受到30%伤害减免\n- **光暗单向相克**：光 → 暗\n  - 光克暗：被克方受到20%伤害减免\n  - 暗不克光\n- **角色属性绑定**：每个角色拥有固定单一属性\n- **技能属性区分**：技能分为冰/火/雷/光/暗/无属性",
       "coreRules": "",
       "trigger": "- 攻击方使用属性技能命中目标时",
       "painPoint": "- 解决战棋游戏\"无脑堆伤害\"问题",
@@ -10846,7 +10217,7 @@
         "策略"
       ],
       "simpleDesc": "角色之间的技能配合产生的1+1>2效果——特定角色组合触发额外增益或追加效果",
-      "mechanismDesc": "技能联动系统通过特定角色之间的技能配合，创造额外的战斗效果，增加阵容搭配的策略深度和趣味性。\n\n主要形式：\n-",
+      "mechanismDesc": "技能联动系统通过特定角色之间的技能配合，创造额外的战斗效果，增加阵容搭配的策略深度和趣味性。\n\n主要形式：\n- **属性联动**：特定属性技能组合触发额外效果\n  - 冰+雷：冰雷交加，额外减速效果\n  - 雷+火：引雷纵火，额外灼烧效果\n  - 火+冰：烈火融冰，额外蒸发效果\n- **角色联动**：特定角色同时上场触发协同效果\n  - 战阵系统：特定3-5名角色同时上场触发阵眼效果\n  - 组合技能：部分角色拥有组合技能\n- **追加效果**：多段技能可触发多次联动",
       "coreRules": "",
       "trigger": "- 特定属性技能命中时",
       "painPoint": "- 解决单角色无脑刷关的枯燥感",
@@ -11029,7 +10400,7 @@
         "风险机制"
       ],
       "simpleDesc": "吸血鬼的血池就像人的食物和水，血池空了会饿死；而且吸不同人的血会有不同能力加成，需要根据场景选择合适的血型。",
-      "mechanismDesc": "1.",
+      "mechanismDesc": "1. **双资源系统**：\n   - 血质（血池）：吸血鬼的能量来源，最多携带10升\n   - 血量（HP）：传统生命值\n\n2. **血池耗尽后果**：\n   - 血质降至0%时，触发负面状态\n   - 血量开始持续下降，直到只剩1点HP\n\n3. **血型系统**：\n   - 6种基础血型：战士、学者、猛兽、生物、工人、无赖\n   - 不同血型提供不同能力加成\n   - 血型品质越高，能力加成越强\n\n4. **血型限制**：\n   - 血池血液会随时间自然流逝\n   - 技能消耗血池\n   - 吸取新血型会覆盖旧血型（无法叠加）\n   - 不同血型互相排斥\n\n5. **社交机制**：\n   - 队友可分一半血池给死亡复活的玩家\n\n---",
       "coreRules": "",
       "trigger": "",
       "painPoint": "- 传统生存游戏\"吃饱就行\"的单调资源管理",
@@ -11115,7 +10486,7 @@
         "资源管理"
       ],
       "simpleDesc": "\"抢野区资源\"：地图上有野怪可击杀获得经验, 掉落装备和金钱, 是前期发展的重要资源",
-      "mechanismDesc": "地图控制是WC3的核心设计：\n1.",
+      "mechanismDesc": "地图控制是WC3的核心设计：\n1. **野怪分布**：地图各点位有不同等级野怪\n2. **击杀收益**：经验值, 掉落物品, 金钱\n3. **雇佣兵**：部分野怪可招募为雇佣兵\n4. **中立建筑**：商店可购买道具, 药水",
       "coreRules": "",
       "trigger": "- 玩家主动进攻野怪",
       "painPoint": "- 解决\"开局只能造兵\"的无聊",
@@ -11247,7 +10618,7 @@
         "贡献积分"
       ],
       "simpleDesc": "公会成员通过参加副本活动获得\"DKP积分\", 用积分\"拍卖\"装备, 相当于「工分制」, 「竞拍」的混合分配方式",
-      "mechanismDesc": "DKP (Dragon Kill Points) 是魔兽世界公会团队中用于分配副本装备的积分制度：\n\n1.",
+      "mechanismDesc": "DKP (Dragon Kill Points) 是魔兽世界公会团队中用于分配副本装备的积分制度：\n\n1. **积分获取方式**：\n   - BOSS击杀分：每击杀一个BOSS获得固定DKP\n   - 集合分, 解散分：参加活动获得\n   - 按活动时间记分：每小时获得一定积分\n   - 首杀分：首次击杀额外奖励\n   - 特殊贡献分：MT, RL, 管理人员获得额外积分\n   - 扣分：犯错导致灭团扣分\n\n2. **装备定价方式**：\n   - 固定价格：RL事先定好每件装备的价格\n   - 拍卖制：\n     - 明拍：玩家公开竞价, 价高者得\n     - 暗拍：玩家私下报价, 团长公布结果\n\n3. **分配流程**：\n   - 击杀BOSS后掉落装备\n   - 有需求的玩家提出购买申请\n   - 根据定价方式决定归属\n   - 获得者扣除相应DKP积分",
       "coreRules": "",
       "trigger": "- 玩家必须是公会成员",
       "painPoint": "- 解决「副本装备分配不公平」问题——避免会长老婆优先, 亲友优先等争议",
@@ -11279,7 +10650,7 @@
         "野团组织"
       ],
       "simpleDesc": "野团组织打副本, 掉落的装备当场拍卖分钱, 玩家用游戏金币购买装备, 是「玩家自发」的交易市场",
-      "mechanismDesc": "G团（金团）是魔兽世界中最常见的野团装备分配方式：\n\n1.",
+      "mechanismDesc": "G团（金团）是魔兽世界中最常见的野团装备分配方式：\n\n1. **组织形式**：\n   - 团长（RL）组织野队或半固定团队\n   - 设定集合时间, CD清理计划\n   - 团长负责开怪, 分配装备\n\n2. **拍卖机制**：\n   - BOSS掉落装备后, 团长拍卖\n   - 玩家出价, 价高者得\n   - 通常50G起拍, 10G一抬\n   - 无人需求则直接分配或烂尸\n\n3. **分金规则**：\n   - 拍卖所得金币全团平分\n   - 补贴MT, 治疗DPS第一等特殊贡献\n   - 扣除药水, 开门费等团队开销\n\n4. **衍生形式**：\n   - 打工团：老板付金币雇人打工\n   - 分红团：按照输出, 治疗贡献比例分红",
       "coreRules": "",
       "trigger": "- 野团组织或半固定团队",
       "painPoint": "- 解决「野团装备分配混乱」问题——价高者得",
@@ -11303,7 +10674,7 @@
         "金币分配"
       ],
       "simpleDesc": "用游戏金币代替DKP积分来\"购买\"装备, 全员分金币, 相当于「按劳分配」, 「现金结算」",
-      "mechanismDesc": "GKP (Gold Kill Points) 是DKP的变种, 用金币代替积分：\n\n1.",
+      "mechanismDesc": "GKP (Gold Kill Points) 是DKP的变种, 用金币代替积分：\n\n1. **核心机制**：\n   - 装备通过明拍方式分配\n   - 玩家用金币竞拍装备, 价高者得\n   - 拍卖所得金币由全团成员平分\n   - 可设置出勤率, 犯错率等限制条件\n\n2. **与G团的区别**：\n   - GKP更偏向\"内销团\"\n   - 拍卖金用于团队物资（药水, 合剂等）或平分\n   - 不完全以盈利为目的\n\n3. **分配流程**：\n   - BOSS掉落装备\n   - 玩家自由竞价\n   - 价高者获得装备, 扣除金币\n   - 活动结束后金币平分给所有参与者",
       "coreRules": "",
       "trigger": "- 团队采用GKP制度",
       "painPoint": "- 解决「DKP计算复杂」问题——金币更直观",
@@ -11593,7 +10964,7 @@
         "环境互动"
       ],
       "simpleDesc": "把现实世界的物理/化学规则（燃烧、导电、冰冻、漂浮）变成游戏交互规则，让任何物体之间都能产生连锁反应。",
-      "mechanismDesc": "《塞尔达传说：旷野之息》的\"化学引擎\"是任天堂自研的交互系统，将现实世界的物理规则数字化。该系统将游戏中的物体分为两大类：\n\n1.",
+      "mechanismDesc": "《塞尔达传说：旷野之息》的\"化学引擎\"是任天堂自研的交互系统，将现实世界的物理规则数字化。该系统将游戏中的物体分为两大类：\n\n1. **元素（Elements）**：处于持续变化状态的物质\n   - 火（Fire）、水（Water）、冰（Ice）、雷/电（Lightning/Electricity）、风（Wind）\n\n2. **材质（Materials）**：相对稳定的固体物质\n   - 木材（Wood）、金属（Metal）、石头（Stone）",
       "coreRules": "",
       "trigger": "",
       "painPoint": "- 传统开放世界游戏物体之间缺乏真实交互",
@@ -11892,7 +11263,7 @@
         "角色还原"
       ],
       "simpleDesc": "就像《龙与地下城》创建角色：你可以选择一个\"会魔法的刺客\"或者\"能抗能打的诗人\", 每个职业有独特的技能树, 但你可以跨职业学习技能, 创造真正独一无二的角色",
-      "mechanismDesc": "**种族选择（14种）",
+      "mechanismDesc": "**种族选择（14种）**\n- 人类, 精灵, 矮人, 蜥蜴人, 亡灵, 元素裔等\n- 每个种族有独特的种族特性：如精灵可偷取敌人增益",
       "coreRules": "",
       "trigger": "- 创角时选择种族和初始职业",
       "painPoint": "传统RPG职业固定, 玩到后期变成\"无脑堆数值\"。自由构建让每个玩家都有\"自己的角色\"。",
@@ -12009,7 +11380,7 @@
         "随机性"
       ],
       "simpleDesc": "用老虎机3卷轴结构代替传统卡牌, 符号位置决定触发顺序和协同效果",
-      "mechanismDesc": "老虎机有3个卷轴（列）, 每列独立。符号效果按\"从上到下, 从左到右\"顺序",
+      "mechanismDesc": "老虎机有3个卷轴（列）, 每列独立。符号效果按\"从上到下, 从左到右\"顺序触发。位置决定符号之间的因果关系：Dwarves喝相邻Beer, Bees与相邻Flowers互动。玩家需要规划符号在卷轴上的位置排布, 而不仅仅是收集强力符号。",
       "coreRules": "",
       "trigger": "每次spin老虎机时, 符号按顺序触发效果",
       "painPoint": "传统Deck-builder是\"抽到就能用\", 这里增加位置规划维度",
@@ -12081,7 +11452,7 @@
         "音游"
       ],
       "simpleDesc": "就像\"音乐版的创意工坊\"——玩家不仅可以玩游戏, 还可以自己当\"谱面设计师\"制作关卡, 经社区审核后让大家玩, 形成良性循环",
-      "mechanismDesc": "osu!的核心特色是社区驱动的谱面创作系统：\n1.",
+      "mechanismDesc": "osu!的核心特色是社区驱动的谱面创作系统：\n1. **谱面制作**：玩家使用内置编辑器为任意音乐制作谱面\n2. **社区审核**：BAT（Beatmap Appreciation Team）审核谱面质量\n3. ** Ranking系统**：通过审核的谱面获得Ranked状态\n4. **评分反馈**：玩家通关后对谱面进行打分评价\n5. **Love, Likov**：社区推荐优秀谱面",
       "coreRules": "",
       "trigger": "- 玩家下载osu!编辑器",
       "painPoint": "- 传统音游依赖官方制作曲库, 产量有限",
@@ -12209,7 +11580,7 @@
         "职责体系"
       ],
       "simpleDesc": "传统SLG是科技树加点, 这个游戏用\"职业\"替代——选不同职业=选不同玩法路线, 不再是全都要",
-      "mechanismDesc": "玩家从六大职业中选择一个角色创建, 每个职业有独立的技能树和玩法定位：\n\n-",
+      "mechanismDesc": "玩家从六大职业中选择一个角色创建, 每个职业有独立的技能树和玩法定位：\n\n- **镇军**：战斗专精, 战场先锋, 所有技能为战斗服务\n- **神行**：高机动性, 侦查, 游击\n- **奇佐**：策略型, 可选政策（税收, 经商, 练兵）, 运筹帷幄\n- **青囊**：治疗, 辅助, 战场支援\n- **司仓**：屯田发育, 资源管理产出\n- **天工**：防守反击, 机关陷阱\n\n职业之间合理配合是制胜关键, 不再是传统的\"战力数字\"比拼。",
       "coreRules": "",
       "trigger": "- 创建角色时选择职业",
       "painPoint": "- 传统SLG科技树\"杂而不精\", 玩家发展路线趋同",
@@ -12233,7 +11604,7 @@
         "策略"
       ],
       "simpleDesc": "就像玩捉迷藏, 找不到掩体就会被\"定点清除\"。掩体是保命符, 但站在掩体后面≠绝对安全, 敌人可以从侧面绕过来\"偷屁股\"",
-      "mechanismDesc": "掩体系统是XCOM战斗的核心博弈点：\n-",
+      "mechanismDesc": "掩体系统是XCOM战斗的核心博弈点：\n- **全掩体**（完整掩体）：-40%被命中率, -40%受伤率\n- **半掩体**（不完整掩体）：-20%被命中率, -20%受伤率\n- **侧翼攻击**：绕到敌人侧面或背面, 取消掩体收益, 额外, 50%暴击率\n- **蹲伏**：消耗1行动点, 提升, 40闪避",
       "coreRules": "",
       "trigger": "- 进入战斗时自动判定掩体状态",
       "painPoint": "早期战棋游戏位置选择相对简单, 优势方容易保持优势。掩体系统创造了\"位置即命运\"的博弈。",
@@ -22615,7 +21986,7 @@
     }
   },
   "stats": {
-    "mechanismCount": 465,
+    "mechanismCount": 428,
     "gameCount": 344
   }
 }

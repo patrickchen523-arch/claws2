@@ -780,10 +780,11 @@
       
       // 机制描述
       if (m.mechanismDesc) {
+        const mechDescHtml = m.mechanismDesc.replace(/\n/g, '<br>');
         html += `
           <div class="modal-section">
             <h3>机制描述</h3>
-            <p>${m.mechanismDesc}</p>
+            <p>${mechDescHtml}</p>
           </div>
         `;
       }
