@@ -1,6 +1,6 @@
 # 机制库索引
 
-> 最后更新：2026-03-16
+> 最后更新：2026-03-17
 
 ---
 
@@ -8,18 +8,18 @@
 
 | 游戏 | 类型 | 机制数 |
 |------|------|--------|
-| 300Heroes | - | 3 |
+| 300Heroes | - | 2 |
 | 7DaysToDie | - | 1 |
 | AdvanceWars | - | 2 |
 | AFKJourney | - | 0 |
 | AgeOfEmpires2DE | - | 4 |
 | AgeOfEmpires3 | - | 1 |
 | AgeOfEmpires4 | - | 3 |
-| Aladedu | - | 4 |
+| Aladedu | - | 0 |
 | AlbionOnline | - | 3 |
 | AnimalCrossing | - | 1 |
 | AnotherCrabsTreasure | - | 2 |
-| ApexLegends | - | 6 |
+| ApexLegends | - | 0 |
 | ArcaneOdyssey | - | 1 |
 | ARCRaiders | - | 3 |
 | ArenaBreakoutInfinite | - | 7 |
@@ -30,14 +30,14 @@
 | ArmoredCore6 | - | 4 |
 | ARZAnomaly | - | 0 |
 | AshesOfCreation | - | 1 |
-| Asphalt9 | - | 5 |
+| Asphalt9 | - | 0 |
 | AssassinsCreedShadows | - | 0 |
 | AutoChess | - | 4 |
 | BaiJingHuiLang | - | 0 |
 | balatro | - | 2 |
 | BaldursGate3 | - | 3 |
-| Barony | - | 1 |
-| Battlegrounds | - | 2 |
+| Barony | - | 5 |
+| Battlegrounds | - | 0 |
 | BestEleven | - | 1 |
 | BlackMythWukong | - | 2 |
 | BoomBeach | - | 0 |
@@ -53,14 +53,14 @@
 | CaptainCommando | - | 1 |
 | CardGameDeckBuilding | - | 0 |
 | CarrotFantasy | - | 1 |
-| Celeste | - | 5 |
+| Celeste | - | 0 |
 | CFLegends | - | 0 |
 | CFMobile | - | 0 |
 | ChanganFantasy | - | 2 |
 | CitiesSkylines | - | 2 |
 | CivilizationVI | - | 2 |
 | ClashOfClans | - | 1 |
-| ClashRoyale | - | 8 |
+| ClashRoyale | - | 4 |
 | CODM | - | 1 |
 | CODModernWarfare3 | - | 0 |
 | CODMW3 | - | 1 |
@@ -85,7 +85,7 @@
 | Deemo | - | 1 |
 | DeltaForce | - | 6 |
 | Destiny2 | - | 0 |
-| DiabloIIResurrected | - | 1 |
+| DiabloIIResurrected | - | 0 |
 | DiabloIV | - | 2 |
 | DianFengJiSu | - | 4 |
 | DirtRally | - | 0 |
@@ -95,35 +95,34 @@
 | DNFMobile | - | 4 |
 | dnf-origins | - | 1 |
 | DNFOrigins | - | 4 |
-| DontStarve | - | 2 |
+| DontStarve | - | 0 |
 | DOTA2 | - | 1 |
-| DotaUnderlords | - | 4 |
+| DotaUnderlords | - | 0 |
 | DragonNest2 | - | 0 |
 | DragonsDogma2 | - | 1 |
 | DuoduoAutoChess | - | 4 |
 | DysonSphereProgram | - | 2 |
 | EASportsFC26 | - | 4 |
-| EggyParty | - | 6 |
 | EldenRing | - | 2 |
 | EldenRingShadowOfTheErdtree | - | 2 |
 | Enshrouded | - | 1 |
-| EscapeFromTarkov | - | 7 |
-| EternalReturn | - | 1 |
+| EscapeFromTarkov | - | 0 |
+| EternalReturn | - | 0 |
 | EVEOnline | - | 4 |
 | Expedition33 | - | 1 |
-| ExtractionShooter | - | 3 |
+| ExtractionShooter | - | 0 |
 | F1Manager | - | 1 |
 | F1 | - | 1 |
 | FallGuys | - | 0 |
 | Fallout76 | - | 0 |
-| Fantasian | - | 2 |
+| Fantasian | - | 0 |
 | Farlight84 | - | 0 |
 | FCMobile | - | 2 |
 | FF14 | - | 1 |
 | FF7Rebirth | - | 0 |
 | FinalFantasy14 | - | 3 |
 | FinalFight | - | 2 |
-| FireEmblemHeroes | - | 2 |
+| FireEmblemHeroes | - | 0 |
 | FireEmblemThreeHouses | - | 1 |
 | Fortnite | - | 3 |
 | ForzaHorizon5 | - | 8 |
@@ -132,7 +131,6 @@
 | GameForPeace | - | 3 |
 | GangLan | - | 0 |
 | GenshinImpact | - | 7 |
-| genshin | - | 0 |
 | GhostBlade | - | 0 |
 | GirlsFrontline2 | - | 0 |
 | GoblinSlayer | - | 0 |
@@ -150,7 +148,7 @@
 | HappyCatCafe | - | 2 |
 | HayDay | - | 0 |
 | Hearthstone | - | 3 |
-| HeartTown | - | 1 |
+| HeartTown | - | 3 |
 | Hellblade2 | - | 0 |
 | Helldivers2 | - | 2 |
 | HeroesOfTheStorm | - | 1 |
@@ -168,15 +166,15 @@
 | IntoTheBreach | - | 3 |
 | ItTakesTwo | - | 0 |
 | JiaoCuoZhanXian | - | 0 |
-| JinChanChan | - | 6 |
+| JinChanChan | - | 0 |
 | Justice | - | 2 |
 | JusticeMobile | - | 2 |
 | JX3 | - | 4 |
 | Kards | - | 1 |
-| KartRider | - | 4 |
+| KartRider | - | 0 |
 | KingdomRush | - | 2 |
 | KnightmareTower | - | 1 |
-| KnightsOfTheRound | - | 3 |
+| KnightsOfTheRound | - | 0 |
 | KnightsOfValour | - | 3 |
 | KnivesOut | - | 0 |
 | KOF98 | - | 0 |
@@ -201,11 +199,11 @@
 | MarioKart | - | 2 |
 | MarvelDuel | - | 0 |
 | MarvelRivals | - | 1 |
-| MarvelSnap | - | 3 |
-| MatchdayChampions | - | 2 |
+| MarvelSnap | - | 2 |
+| MatchdayChampions | - | 0 |
 | MayBe | - | 1 |
 | MetalSlug | - | 3 |
-| mewgenics | - | 3 |
+| mewgenics | - | 0 |
 | MiaoMiaoTeaRestaurant | - | 2 |
 | MidnightGhostHunt | - | 0 |
 | Minecraft | - | 0 |
@@ -214,13 +212,14 @@
 | MobileLegends | - | 0 |
 | MoleManor | - | 1 |
 | MonsterHunter | - | 0 |
+| moonsigil-atlas | - | 0 |
 | MortalKombat11 | - | 1 |
 | my-garden-world | - | 2 |
 | MyGardenWorld | - | 1 |
 | NarutoMobile | - | 1 |
 | NeedForSpeedHeat | - | 0 |
-| Nightbound | - | 4 |
-| NightboundMobile | - | 4 |
+| Nightbound | - | 2 |
+| NightboundMobile | - | 2 |
 | NiNoKuniCrossingWorlds | - | 0 |
 | Nioh | - | 1 |
 | NoRestForTheWicked | - | 0 |
@@ -247,6 +246,7 @@
 | PlanetZoo | - | 1 |
 | PlantsVsZombies | - | 1 |
 | PokemonLegendsArceus | - | 2 |
+| PokemonLegendsZA | - | 0 |
 | pokemon-pokopia | - | 2 |
 | ProjectZomboid | - | 1 |
 | PUBG | - | 3 |
@@ -264,8 +264,8 @@
 | RiseOfTheRonin | - | 0 |
 | ROC | - | 0 |
 | RollerCoasterTycoon3 | - | 2 |
-| RustedWarfare | - | 1 |
-| Rust | - | 1 |
+| RustedWarfare | - | 4 |
+| Rust | - | 4 |
 | SamuraiShodown | - | 0 |
 | SanguoBinghe | - | 6 |
 | sanguo-mouding-tianxia | - | 1 |
@@ -277,7 +277,7 @@
 | SeaOfThieves | - | 2 |
 | ShadowOfMordor | - | 1 |
 | Shadowverse | - | 3 |
-| ShaoNianJinYiWei | - | 3 |
+| ShaoNianJinYiWei | - | 0 |
 | ShiJieZhiWai | - | 0 |
 | Sifu | - | 1 |
 | SkyArena | - | 3 |
@@ -285,7 +285,7 @@
 | SnowRunner | - | 0 |
 | SonsOfTheForest | - | 4 |
 | SoulcaliburVI | - | 1 |
-| SpaceKillerClown | - | 2 |
+| SpaceKillerClown | - | 0 |
 | SpaceMarine2 | - | 0 |
 | Splatoon3 | - | 1 |
 | Squad | - | 0 |
@@ -311,12 +311,12 @@
 | TianDiJie | - | 3 |
 | TorchlightInfinite | - | 0 |
 | TowerOfFantasy | - | 1 |
-| TrackMania | - | 4 |
+| TrackMania | - | 0 |
 | TriangleStrategy | - | 0 |
 | TwoPointHospital | - | 1 |
 | UmaMusume | - | 1 |
 | UnicornOverlord | - | 1 |
-| Valheim | - | 1 |
+| Valheim | - | 0 |
 | Valorant | - | 2 |
 | VAMPIR | - | 1 |
 | VRising | - | 1 |
@@ -345,7 +345,7 @@
 | Zelda | - | 6 |
 | ZeldaTearsoftheKingdom | - | 1 |
 | zenless-zone-zero | - | 1 |
-| ZenlessZoneZero | - | 1 |
+| ZenlessZoneZero | - | 0 |
 | ZhangeArena | - | 0 |
 | ZhanSanguo | - | 0 |
 | ZhuXian | - | 1 |
@@ -358,7 +358,6 @@
 
 ### 300Heroes
 - [Qualify]7v7团战模式
-- [Qualify]动漫角色技能还原
 - [Qualify]多模式并存设计
 
 ### 7DaysToDie
@@ -382,12 +381,6 @@
 - [Excellent]RTS-英雄系统
 - [Excellent]RTS-超级武器系统
 
-### Aladedu
-- 横版格斗玩法
-- 深渊副本系统
-- 职业技能连招系统
-- 装备强化系统
-
 ### AlbionOnline
 - [Excellent]沙盒式自由经济系统
 - MMORPG-阿尔比恩-资源分区设计
@@ -399,14 +392,6 @@
 ### AnotherCrabsTreasure
 - 壳系统
 - 无体力闪避
-
-### ApexLegends
-- [BR]-Apex英雄-进化护盾
-- Ping非语言交流系统
-- 战斗通行证系统
-- 英雄技能系统
-- 进化护盾系统
-- 高机动性位移系统
 
 ### ArcaneOdyssey
 - RPG-杖剑传说-一键带副本
@@ -444,13 +429,6 @@
 ### AshesOfCreation
 - MMORPG-创世灰烬-节点城市系统
 
-### Asphalt9
-- 01-car-license
-- 02-touch-drive
-- 03-open-track
-- 04-nitro-boost
-- 05-carbon-mod
-
 ### AutoChess
 - [Excellent]QizishengxingXitong
 - [Qualify]GongyongKapchi
@@ -467,11 +445,11 @@
 - RPG-博德之门3-角色出身背景系统
 
 ### Barony
-- [Qualify]死亡幽灵系统
-
-### Battlegrounds
-- [Qualify]YingxiongJinengXitong
-- 游戏卡-Battlegrounds
+- [Excellent][Roguelike]-Barony-死亡幽灵系统
+- [Excellent][Roguelike]-Barony-随机地牢生成
+- [Excellent]死亡幽灵系统
+- [Qualify][Roguelike]-Barony-多人合作模式
+- [Qualify][RPG]-Barony-职业系统
 
 ### BestEleven
 - 足球-最佳11人-模拟生涯
@@ -511,13 +489,6 @@
 ### CarrotFantasy
 - [Qualify]GoldenCarrotSystem
 
-### Celeste
-- 冲刺Dash机制
-- 帮助模式系统
-- 情感叙事融合机制
-- 攀墙跳系统
-- 草莓收集系统
-
 ### CFLegends
 
 ### ChanganFantasy
@@ -536,14 +507,10 @@
 - [Excellent]RTS-护盾保护机制
 
 ### ClashRoyale
-- [Excellent]RTS-卡牌构筑系统
-- [Excellent]RTS-圣水费用系统
-- [Excellent]RTS-异步PVP系统
-- 卡牌组合系统
-- 即时微操系统
-- 即时策略-皇室战争-父子局
-- 双路推塔机制
-- 圣水费用系统
+- [Excellent]卡牌组合系统
+- [Excellent]双路推塔机制
+- [Excellent]圣水费用系统
+- [Qualify]即时微操系统
 
 ### CODMW3
 - [Qualify]连杀奖励系统
@@ -589,9 +556,6 @@
 - FPS夺金-三角洲行动-神秘脑机Ⅱ型渡鸦寻宝
 - [Qualify]mendel-brick
 
-### DiabloIIResurrected
-- 游戏卡-Diablo-II-Resurrected
-
 ### DiabloIV
 - [Qualify]巅峰等级系统
 - [Qualify]暗金装备与词缀系统
@@ -618,18 +582,8 @@
 ### dnf-origins
 - [Excellent]grinding-system
 
-### DontStarve
-- 季节循环系统
-- 环境压力系统
-
 ### DOTA2
 - [Qualify]LastHitDenial
-
-### DotaUnderlords
-- 01-棋子种族职业系统
-- 02-棋盘站位策略系统
-- 03-团队增益装备系统
-- 04-自走棋经济系统
 
 ### DragonsDogma2
 - [Qualify]随从系统
@@ -644,32 +598,12 @@
 - 足球-FC26-UT模式-进化系统
 - 足球-FC26-联赛模式欧冠赛制
 
-### EggyParty
-- [Qualify]UGC地图工坊
-- [Qualify]变异蛋狂潮
-- [Qualify]道具对抗系统
-- [Qualify]魂蛋观战模式
-- UGC-蛋仔派对-剧本扮演
-- UGC-蛋仔派对-默契挑战
-
 ### EldenRing
 - [Qualify]开放世界探索
 - [Qualify]死亡惩罚与记忆系统
 
 ### Enshrouded
 - [生存沙盒]-雾锁王国-水方块动态建造体
-
-### EscapeFromTarkov
-- [Qualify]escape-mechanism
-- [Qualify]gear-BringInTakeOut
-- [Qualify]gold-items-system
-- 保险系统
-- 安全箱
-- 搜刮经济系统
-- [撤离类]-逃离塔科夫-安全箱
-
-### EternalReturn
-- 装备合成系统
 
 ### EVEOnline
 - [Excellent]EVE-温和通胀货币系统
@@ -680,20 +614,11 @@
 ### Expedition33
 - 回合制-远征33号-即时反应与弹反机制
 
-### ExtractionShooter
-- 撤离机制
-- 死亡惩罚
-- 装备带入带出
-
 ### F1
 - RAC-通用-防御驾驶
 
 ### F1Manager
 - RAC-F1-manager-赛季制资源管理策略
-
-### Fantasian
-- Fantasian-游戏卡
-- JRPG-Fantasian-Dimengeon存怪系统
 
 ### FCMobile
 - 足球-FC足球世界-图鉴系统
@@ -710,10 +635,6 @@
 ### FinalFight
 - [Qualify]role-differentiation
 - [Qualify]weapon-system
-
-### FireEmblemHeroes
-- 轻量化战棋系统
-- 颜色抽卡系统
 
 ### FireEmblemThreeHouses
 - [Qualify]转职树系统
@@ -784,7 +705,9 @@
 - [Qualify]法力水晶系统
 
 ### HeartTown
-- 模拟经营-心动小镇-飞地机制
+- [Excellent]模拟经营-HeartTown-无缝大世界
+- [Excellent]模拟经营-HeartTown-盲盒社交
+- [Excellent]模拟经营-HeartTown-飞地机制
 
 ### Helldivers2
 - [Qualify]strategic-command-system
@@ -848,14 +771,6 @@
 - [Qualify]DisplacementOverKill
 - [Qualify]FullInfoCombat
 
-### JinChanChan
-- [Qualify]ShuangrenHezuoMoshi
-- 双人合作模式
-- 海克斯强化系统
-- 经济系统
-- 羁绊系统
-- 装备系统
-
 ### Justice
 - [Qualify]功力系统
 - [Qualify]身份系统
@@ -869,23 +784,12 @@
 ### Kards
 - Roguelike-卡厄思梦境-类肉鸽搜打撤的存档带出机制
 
-### KartRider
-- 8人同屏竞技
-- 氮气加速系统
-- 漂移集气系统
-- 通行证系统
-
 ### KingdomRush
 - [Qualify]ActiveSkillSystem
 - [Qualify]BarracksSystem
 
 ### KnightmareTower
 - [Qualify]rpg-levelup
-
-### KnightsOfTheRound
-- [Qualify]beat-em-up
-- [Qualify]gold-equipment
-- [Qualify]horse-combat
 
 ### KnightsOfValour
 - [not_comfirmed]天书魔法系统
@@ -939,13 +843,8 @@
 - [TPS]-[漫威争锋]-[天赋强化]
 
 ### MarvelSnap
-- [Qualify]位置机制
-- Snap加注机制
-- 区域随机系统
-
-### MatchdayChampions
-- 游戏卡-Matchday-Champions
-- 足球-Matchday-Champions-比赛玩法
+- [Excellent]Snap加注机制
+- [Excellent]区域随机系统
 
 ### MayBe
 - 放置RPG-出发吧麦芬-双人匹配挂机
@@ -954,11 +853,6 @@
 - [Qualify]人质营救系统
 - [Qualify]武器升级系统
 - [Qualify]载具系统
-
-### mewgenics
-- [Qualify]breeding-system
-- [Qualify]elemental-reaction
-- [Qualify]skill-build-system
 
 ### MiaoMiaoTeaRestaurant
 - [Qualify]ForestExploration
@@ -983,12 +877,6 @@
 ### Nightbound
 - 夺金-永劫无间无间镖客-局外镖契保险
 - 夺金-永劫无间无间镖客-满江红商友良赌坊玩法
-
-### NightboundMobile
-- 01-combat-rps
-- 02-extraction
-- 03-bd-build
-- 夺金-永劫无间手游-花露机制时间进度升级式物资
 
 ### Nioh
 - ARPG-仁王-三段架势系统
@@ -1041,8 +929,8 @@
 - [Excellent]SunlightSystem
 
 ### PokemonLegendsArceus
-- 即时动作战斗
-- 坐骑系统
+- [Excellent]即时动作战斗
+- [Qualify]坐骑系统
 
 ### pokemon-pokopia
 - [Qualify]ditto-form-exploration
@@ -1081,9 +969,6 @@
 - [生存沙盒]-RUST-爆炸物破防
 - [生存沙盒]-RUST-采集小游戏
 
-### RustedWarfare
-- [Core]极简触控操作设计
-
 ### SanguoBinghe
 - [SLG]-COK+车头车身设定
 - [SLG]-三冰-武将等级共享
@@ -1119,11 +1004,6 @@
 - [Qualify]进化系统
 - 卡牌-影之诗2-公园观棋
 
-### ShaoNianJinYiWei
-- anime-ip-characters
-- faction-system
-- qinggong-system
-
 ### Sifu
 - ACT-师父-年龄系统
 
@@ -1133,19 +1013,15 @@
 - [Qualify]无锁定操作机制
 
 ### SkyChildrenOfTheLight
-- MMO-光遇-MBTI玩法
-- MMO-光遇-小黑机制
-- MMO-光遇-留言板机制
+- [Excellent]冒险社交-SkyChildrenOfTheLight-地图探索系统
+- [Excellent]冒险社交-SkyChildrenOfTheLight-自由飞行系统
+- [Excellent]冒险社交-SkyChildrenOfTheLight-陌生人社交系统
 
 ### SonsOfTheForest
 - [生存恐怖沙盒]-森林之子-自由模块化建筑与防御工事
 
 ### SoulcaliburVI
 - [not_comfirmed]武器系统
-
-### SpaceKillerClown
-- 游戏卡-外太空杀人小丑
-- [非对称]-外太空杀人小丑-死亡小游戏
 
 ### Splatoon3
 - [TPS]-Splatoon 3-潜墨游动机制
@@ -1205,6 +1081,10 @@
 ### Tekken7
 - [Qualify]Rage系统
 
+### TestGame
+- [Excellent]射击-TestGame-撤离机制
+- TestCard
+
 ### TexasChainsaw
 - [非对称]-德州电锯杀人狂-第三方势力爷爷
 
@@ -1222,12 +1102,6 @@
 ### TowerOfFantasy
 - [Qualify]捏脸系统
 
-### TrackMania
-- [Qualify]PlayerCreatedContent
-- [Qualify]RankingSystem
-- [Qualify]TrackEditor
-- 游戏卡
-
 ### TwoPointHospital
 - [Qualify]DepartmentFlow
 
@@ -1236,9 +1110,6 @@
 
 ### UnicornOverlord
 - 策略-圣兽之王-可定制战术逻辑系统
-
-### Valheim
-- gamecard
 
 ### Valorant
 - [FPS]-无畏契约-经济请求（发枪）系统
@@ -1299,9 +1170,6 @@
 
 ### zenless-zone-zero
 - [Qualify]tv-battle-mode-system
-
-### ZenlessZoneZero
-- 游戏卡-绝区零
 
 ### ZhangeArena
 
