@@ -203,6 +203,66 @@
       "filename": "[Excellent]搜打撤-机械敌人AI系统.md",
       "source": "人工"
     },
+    "ARK/击晕式驯服机制.md": {
+      "title": "击晕式驯服机制",
+      "gameName": "ARK",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "击晕式驯服机制.md",
+      "source": "人工"
+    },
+    "ARK/变异基因系统.md": {
+      "title": "变异/基因系统",
+      "gameName": "ARK",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "变异基因系统.md",
+      "source": "人工"
+    },
+    "ARK/恐龙驯养系统.md": {
+      "title": "恐龙驯养系统",
+      "gameName": "ARK",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "恐龙驯养系统.md",
+      "source": "人工"
+    },
+    "ARK/部落领地系统.md": {
+      "title": "部落领地系统",
+      "gameName": "ARK",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "部落领地系统.md",
+      "source": "人工"
+    },
     "AdvanceWars/[Excellent]兵种相克系统.md": {
       "title": "[战棋]-[高级战争]-兵种相克系统",
       "gameName": "高级战争",
@@ -513,6 +573,66 @@
       "filename": "[Excellent]RTS-超级武器系统.md",
       "source": "AI生成-未甄别"
     },
+    "Aladedu/横版格斗玩法.md": {
+      "title": "机制卡：横版格斗玩法",
+      "gameName": "Aladedu",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "横版格斗玩法.md",
+      "source": "人工"
+    },
+    "Aladedu/深渊副本系统.md": {
+      "title": "机制卡：深渊副本系统",
+      "gameName": "Aladedu",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "深渊副本系统.md",
+      "source": "人工"
+    },
+    "Aladedu/职业技能连招系统.md": {
+      "title": "机制卡：职业技能连招系统",
+      "gameName": "Aladedu",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "职业技能连招系统.md",
+      "source": "人工"
+    },
+    "Aladedu/装备强化系统.md": {
+      "title": "机制卡：装备强化系统",
+      "gameName": "Aladedu",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "装备强化系统.md",
+      "source": "人工"
+    },
     "AlbionOnline/MMORPG-阿尔比恩-资源分区设计.md": {
       "title": "[MMORPG]-阿尔比恩-资源分区设计",
       "gameName": "Albion Online ,  阿尔比恩",
@@ -674,6 +794,21 @@
       "filename": "无体力闪避.md",
       "source": "人工"
     },
+    "ApexLegends/Ping非语言交流系统.md": {
+      "title": "Ping非语言交流系统",
+      "gameName": "ApexLegends",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "Ping非语言交流系统.md",
+      "source": "人工"
+    },
     "ApexLegends/[BR]-Apex英雄-进化护盾.md": {
       "title": "[BR]-Apex英雄-进化护盾",
       "gameName": "Apex Legends",
@@ -697,6 +832,66 @@
       ],
       "demo": "",
       "filename": "[BR]-Apex英雄-进化护盾.md",
+      "source": "人工"
+    },
+    "ApexLegends/战斗通行证系统.md": {
+      "title": "战斗通行证系统",
+      "gameName": "ApexLegends",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "战斗通行证系统.md",
+      "source": "人工"
+    },
+    "ApexLegends/英雄技能系统.md": {
+      "title": "英雄技能系统",
+      "gameName": "ApexLegends",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "英雄技能系统.md",
+      "source": "人工"
+    },
+    "ApexLegends/进化护盾系统.md": {
+      "title": "进化护盾系统",
+      "gameName": "ApexLegends",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "进化护盾系统.md",
+      "source": "人工"
+    },
+    "ApexLegends/高机动性位移系统.md": {
+      "title": "高机动性位移系统",
+      "gameName": "ApexLegends",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "高机动性位移系统.md",
       "source": "人工"
     },
     "ArcaneOdyssey/RPG-杖剑传说-一键带副本.md": {
@@ -1016,6 +1211,118 @@
       "filename": "[Qualify]OperatorSkillSystem.md",
       "source": "AI生成-未甄别"
     },
+    "ArmoredCore6/[Excellent]街机-ArmoredCore6-地形纵深战斗.md": {
+      "title": "[Excellent]街机-ArmoredCore6-地形纵深战斗.md",
+      "gameName": "Armored Core 6",
+      "tags": [
+        "战斗系统",
+        "策略",
+        "街机"
+      ],
+      "simpleDesc": "战场不是平面，而是有高低差的三维空间，玩家可以利用建筑、悬崖、管道进行立体战斗，比如躲进建筑内部利用地形优势伏击敌人",
+      "mechanismDesc": "- 战斗场景涵盖多种地形：\n  - 室内狭窄管道（近距离遭遇战）\n  - 建筑丛林（垂直战斗）\n  - 开阔平原（远程对轰）\n  - 地下设施（探索+战斗）\n- 地形影响战术选择：\n  - 高处优势：视野好、远程武器优势\n  - 狭窄地形：适合近战武器、容易被围\n  - 可破坏环境：摧毁掩体创造优势\n- 机甲类型与地形适配：\n  - 二足：通用，适合跳跃\n  - 四足：稳定，适合复杂地形\n  - 反重力：无视地形，自由飞行",
+      "coreRules": "",
+      "trigger": "- 进入不同类型战场时自动适配",
+      "painPoint": "机甲战斗容易变成\"面对面硬刚\"的单调战斗",
+      "experienceGoal": "通过多样化的地形设计，让每场战斗都有不同的体验，鼓励玩家利用地形而非单纯拼数值",
+      "similarMechanisms": [
+        {
+          "game": "命运2",
+          "mechanism": "动态战场"
+        },
+        {
+          "game": "塞尔达传说旷野之息",
+          "mechanism": "环境交互"
+        }
+      ],
+      "demo": "https://www.bilibili.com/video/BV1Xh411s7o7 （地形战斗演示）",
+      "filename": "[Excellent]街机-ArmoredCore6-地形纵深战斗.md",
+      "source": "人工"
+    },
+    "ArmoredCore6/[Excellent]街机-ArmoredCore6-扩充机能系统.md": {
+      "title": "[Excellent]街机-ArmoredCore6-扩充机能系统.md",
+      "gameName": "Armored Core 6",
+      "tags": [
+        "战斗系统",
+        "技能系统",
+        "街机"
+      ],
+      "simpleDesc": "类似于战技系统，每个机甲可装备2个主动技能（攻击型如脉冲炮/防御型如护盾/增益型如加速），冷却时间较长，需要在关键时刻释放",
+      "mechanismDesc": "- 每个机甲可装备2个扩充机能（主动技能）\n- 技能分四类：\n  - 攻击型：脉冲炮、导弹齐射、电击线圈\n  - 防御型：护盾、诱饵弹、烟雾\n  - 增益型：加速、全频干扰、垂直推进\n  - 特殊型：对策子弹、修复\n- 技能有EN消耗和冷却时间\n- 释放时机影响战斗效果（如在敌人攻击前开护盾）",
+      "coreRules": "",
+      "trigger": "- 按下对应按键（R1+方向键/RB+方向键）释放",
+      "painPoint": "机甲战斗容易陷入\"射击-躲避\"的单调循环",
+      "experienceGoal": "增加战术维度，让玩家在\"什么时候放技能\"上做决策，同时通过EN消耗约束与机甲组装系统联动",
+      "similarMechanisms": [
+        {
+          "game": "鬼泣",
+          "mechanism": "恶魔/天使武器技能"
+        },
+        {
+          "game": "战意",
+          "mechanism": "战法技能"
+        }
+      ],
+      "demo": "https://www.bilibili.com/video/BV1Xh411s7o7 （扩充机能演示）",
+      "filename": "[Excellent]街机-ArmoredCore6-扩充机能系统.md",
+      "source": "人工"
+    },
+    "ArmoredCore6/[Excellent]街机-ArmoredCore6-机甲组装系统.md": {
+      "title": "[Excellent]街机-ArmoredCore6-机甲组装系统.md",
+      "gameName": "Armored Core 6",
+      "tags": [
+        "街机",
+        "装备系统",
+        "角色定制"
+      ],
+      "simpleDesc": "像乐高积木拼装机器人，每个零件（武器/腿部/推进器）都影响机体的速度、载重、输出三维数值，玩家需要在\"高速度但火力弱\"和\"慢速但重装甲\"之间做权衡",
+      "mechanismDesc": "玩家通过组装不同类型的零件来定制机甲，零件分为五大类：\n- 头部（影响雷达、锁定）\n- 躯干（影响防御、EN容量）\n- 腿部（影响移动方式：二足/四足/坦克/反重力）\n- 武器（左右肩/右手武器）\n- 推进器（影响跳跃和飞行）\n\n每类零件有速度/载重/输出(EN)三维参数，玩家需要平衡这三者来设计自己的战斗风格",
+      "coreRules": "",
+      "trigger": "- 战斗前在机库界面组装",
+      "painPoint": "传统机甲游戏要么只能选预设机型，要么组装过于复杂导致选择困难",
+      "experienceGoal": "让玩家感受到\"我的机甲我做主\"的个性化乐趣，同时通过三维数值约束避免无脑堆砌最强零件",
+      "similarMechanisms": [
+        {
+          "game": "自由搭配系统 → 逃离塔科夫",
+          "mechanism": "武器改装系统（深度定制但有约束）"
+        },
+        {
+          "game": "数值平衡 → 暗黑破坏神",
+          "mechanism": "装备词缀系统"
+        }
+      ],
+      "demo": "https://www.bilibili.com/video/BV1Xh411s7o7 （机甲组装系统演示）",
+      "filename": "[Excellent]街机-ArmoredCore6-机甲组装系统.md",
+      "source": "人工"
+    },
+    "ArmoredCore6/[Excellent]街机-ArmoredCore6-锁定机制.md": {
+      "title": "[Excellent]街机-ArmoredCore6-锁定机制.md",
+      "gameName": "Armored Core 6",
+      "tags": [
+        "战斗系统",
+        "街机",
+        "锁定系统"
+      ],
+      "simpleDesc": "战斗时按住锁定键会自动瞄准敌人，但锁定有距离和角度限制，玩家需要在\"锁定瞄准\"和\"自由射击\"之间切换，就像在手机上同时使用瞄准镜和手枪",
+      "mechanismDesc": "- 锁定系统是装甲核心系列的核心机制\n- 玩家锁定敌人后，机甲会自动调整朝向面对目标\n- 锁定状态下：移动会保持朝向、射击更精准、可使用肩部武器\n- 锁定范围有限：过远或角度过大都会解除锁定\n- 引入\"闪避锁定\"玩法：敌人可以通过快速移动脱离锁定区域",
+      "coreRules": "",
+      "trigger": "- 按住锁定键（L1/LB）锁定视野内最近的敌人",
+      "painPoint": "3D空间机甲战斗中，玩家难以同时兼顾移动和瞄准",
+      "experienceGoal": "简化操作门槛，让玩家专注于战术选择（何时锁定、何时取消），同时通过锁定限制保留操作深度",
+      "similarMechanisms": [
+        {
+          "game": "战争机器",
+          "mechanism": "锁定射击（简化版）"
+        },
+        {
+          "game": "恶魔城系列",
+          "mechanism": "全向锁定"
+        }
+      ],
+      "demo": "https://www.bilibili.com/video/BV1Xh411s7o7 （锁定战斗演示）",
+      "filename": "[Excellent]街机-ArmoredCore6-锁定机制.md",
+      "source": "人工"
+    },
     "AshesOfCreation/MMORPG-创世灰烬-节点城市系统.md": {
       "title": "[MMORPG]-创世灰烬-节点城市系统",
       "gameName": "Ashes of Creation ,  创世灰烬",
@@ -1041,6 +1348,81 @@
       ],
       "demo": "",
       "filename": "MMORPG-创世灰烬-节点城市系统.md",
+      "source": "人工"
+    },
+    "Asphalt9/01-car-license.md": {
+      "title": "机制卡：名车授权",
+      "gameName": "Asphalt 9",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "01-car-license.md",
+      "source": "人工"
+    },
+    "Asphalt9/02-touch-drive.md": {
+      "title": "机制卡：Touch Drive",
+      "gameName": "Asphalt 9",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "02-touch-drive.md",
+      "source": "人工"
+    },
+    "Asphalt9/03-open-track.md": {
+      "title": "机制卡：大区域赛道",
+      "gameName": "Asphalt 9",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "03-open-track.md",
+      "source": "人工"
+    },
+    "Asphalt9/04-nitro-boost.md": {
+      "title": "机制卡：氮气加速",
+      "gameName": "Asphalt 9",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "04-nitro-boost.md",
+      "source": "人工"
+    },
+    "Asphalt9/05-carbon-mod.md": {
+      "title": "机制卡：碳纤维改装",
+      "gameName": "Asphalt 9",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "05-carbon-mod.md",
       "source": "人工"
     },
     "AutoChess/[Excellent]QizishengxingXitong.md": {
@@ -1203,6 +1585,122 @@
       "filename": "RPG-博德之门3-角色出身背景系统.md",
       "source": "AI生成-未甄别"
     },
+    "Barony/[Excellent][Roguelike]-Barony-死亡幽灵系统.md": {
+      "title": "[Excellent][Roguelike]-Barony-死亡幽灵系统",
+      "gameName": "Barony",
+      "tags": [
+        "Roguelike",
+        "死亡成长",
+        "社交"
+      ],
+      "simpleDesc": "玩家在Roguelike游戏中死亡后不会消失，而是变成幽灵继续帮助队友，类似\"观战+辅助\"模式，降低硬核游戏的挫败感。",
+      "mechanismDesc": "玩家在游戏中死亡后，会自动转变为幽灵形态。幽灵形态下：\n- 玩家可以自由移动但无法攻击敌人\n- 幽灵可以拾取物品、治疗队友、",
+      "coreRules": "",
+      "trigger": "- 玩家生命值降至0时自动触发",
+      "painPoint": "- 传统Roguelike的永久死亡机制导致的高挫败感",
+      "experienceGoal": "- 降低硬核Roguelike的心理门槛",
+      "similarMechanisms": [
+        {
+          "game": "Hades",
+          "mechanism": "死亡后可与NPC对话推进叙事"
+        },
+        {
+          "game": "GTFO",
+          "mechanism": "队友死亡后可被复活"
+        }
+      ],
+      "demo": "待补充",
+      "filename": "[Excellent][Roguelike]-Barony-死亡幽灵系统.md",
+      "source": "人工"
+    },
+    "Barony/[Excellent][Roguelike]-Barony-随机地牢生成.md": {
+      "title": "[Excellent][Roguelike]-Barony-随机地牢生成",
+      "gameName": "Barony",
+      "tags": [
+        "Roguelike",
+        "探索",
+        "随机性"
+      ],
+      "simpleDesc": "每次进入游戏都生成全新的地牢地图，怪物、道具、陷阱随机分布，保证每次游玩体验都不同。",
+      "mechanismDesc": "- 程序化算法生成地牢地图，包含不同类型的房间\n- 每层地牢有不同主题（哥特、地下墓穴、实验室等）\n- 怪物、AI敌人、道具、陷阱、商店随机分布\n- 玩家需要探索未知的房间布局，规划路线\n- 每局的地牢结构和难度曲线都可能不同",
+      "coreRules": "",
+      "trigger": "- 玩家创建新游戏或进入新地牢层时触发",
+      "painPoint": "- 传统地牢探索游戏地图固定，重复可玩性低",
+      "experienceGoal": "- 保证每局游戏的新鲜感",
+      "similarMechanisms": [
+        {
+          "game": "Enter the Gungeon",
+          "mechanism": "随机房间生成"
+        },
+        {
+          "game": "Darkest Dungeon",
+          "mechanism": "随机地牢事件"
+        },
+        {
+          "game": "Hades",
+          "mechanism": "每次通关后的房间随机"
+        }
+      ],
+      "demo": "待补充",
+      "filename": "[Excellent][Roguelike]-Barony-随机地牢生成.md",
+      "source": "人工"
+    },
+    "Barony/[Qualify][RPG]-Barony-职业系统.md": {
+      "title": "[Qualify][RPG]-Barony-职业系统",
+      "gameName": "Barony",
+      "tags": [
+        "RPG",
+        "技能系统",
+        "角色差异"
+      ],
+      "simpleDesc": "玩家选择不同职业（战士、法师、盗贼、牧师等），每个职业有独特的技能树、属性成长方向和玩法风格。",
+      "mechanismDesc": "- 多种可选职业：战士（近战坦克）、法师（魔法输出）、盗贼（潜行暗杀）、牧师（治疗辅助）\n- 每种职业有独立的技能树分支\n- 职业影响属性成长（力量、敏捷、智力等）\n- 初始装备和可装备武器类型不同\n- 战斗中职业定位明确（坦克、输出、辅助）",
+      "coreRules": "",
+      "trigger": "- 玩家创建新角色时选择职业",
+      "painPoint": "- 单一职业导致重复可玩性低",
+      "experienceGoal": "- 通过职业选择提供差异化体验",
+      "similarMechanisms": [
+        {
+          "game": "Diablo",
+          "mechanism": "系列 - 经典RPG职业系统"
+        },
+        {
+          "game": "Darkest Dungeon",
+          "mechanism": "职业分工与配合"
+        }
+      ],
+      "demo": "待补充",
+      "filename": "[Qualify][RPG]-Barony-职业系统.md",
+      "source": "人工"
+    },
+    "Barony/[Qualify][Roguelike]-Barony-多人合作模式.md": {
+      "title": "[Qualify][Roguelike]-Barony-多人合作模式",
+      "gameName": "Barony",
+      "tags": [
+        "Roguelike",
+        "多人协作",
+        "社交"
+      ],
+      "simpleDesc": "最多4名玩家可以同时联机合作挑战地牢，各职业互补配合，队友可以复活死亡的玩家。",
+      "mechanismDesc": "- 支持1-4人在线合作模式\n- 玩家可以组队创建游戏或加入他人的游戏\n- 不同职业之间形成配合（坦克拉怪、输出打怪、治疗回复）\n- 队友死亡后可以变成幽灵继续辅助\n- 队友可以使用复活道具或到达祭坛复活死亡玩家\n- 战利品可以共享或自由拾取",
+      "coreRules": "",
+      "trigger": "- 玩家选择\"多人游戏\"模式时触发",
+      "painPoint": "- 单人Roguelike孤独感强，挫败感累积",
+      "experienceGoal": "- 通过合作降低游戏难度曲线",
+      "similarMechanisms": [
+        {
+          "game": "Deep Rock Galactic",
+          "mechanism": "4人合作采矿射击"
+        },
+        {
+          "game": "GTFO",
+          "mechanism": "4人合作撤离射击"
+        }
+      ],
+      "demo": "待补充",
+      "filename": "[Qualify][Roguelike]-Barony-多人合作模式.md",
+      "source": "人工"
+    },
     "Barony/[Qualify]死亡幽灵系统.md": {
       "title": "[RPG]-Barony-死亡幽灵系统",
       "gameName": "Barony",
@@ -1252,7 +1750,7 @@
     },
     "Battlegrounds/游戏卡-Battlegrounds.md": {
       "title": "Battlegrounds (和平精英) 游戏拆解报告",
-      "gameName": "",
+      "gameName": "Battlegrounds",
       "tags": [],
       "simpleDesc": "",
       "mechanismDesc": "",
@@ -1338,6 +1836,111 @@
       "filename": "[Qualify]法术系统.md",
       "source": "AI生成-未甄别"
     },
+    "BuriedBornes2/肉鸽-BuriedBornes2-勇气值Burst技能系统.md": {
+      "title": "[肉鸽]-BuriedBornes2-勇气值Burst技能系统",
+      "gameName": "BuriedBornes2",
+      "tags": [
+        "RPG",
+        "[交互形式]：技能模式切换",
+        "[体验]：Build构筑",
+        "[品类]：回合制",
+        "卡牌构筑",
+        "策略"
+      ],
+      "simpleDesc": "积累勇气值触发Burst模式改变技能效果，技能熟练度达到100%进入精通状态额外加成",
+      "mechanismDesc": "1. 勇气值（Brave）角色最多3点勇气值\n> 2. Burst模式勇气值满时，所有技能进入Burst模式，效果改变\n>    - 例如\"护盾\"技能持续时间延长\n>    - 例如\"旋风\"技能命中率和伤害提升\n> 3. 技能符文最多5个插槽，自定义技能效果\n> 4. 技能模式部分稀有技能有双形态，可切换\n> 5. 技能精通使用技能获得熟练度，100%进入\"精通\"状态\n>    - 例如\"护盾\"普通效果50%减伤 → 精通80%减伤",
+      "coreRules": "",
+      "trigger": "勇气值累积满3点自动触发Burst；技能使用次数足够触发精通",
+      "painPoint": "传统技能系统固定效果导致Build单一，此机制提供多维度构筑空间",
+      "experienceGoal": "玩家需权衡勇气值积累、技能模式切换、精通顺序，形成深度Build策略",
+      "similarMechanisms": [
+        {
+          "game": "杀戮尖塔",
+          "mechanism": "充能球+模式切换"
+        },
+        {
+          "game": "游戏王",
+          "mechanism": "卡片组合连锁"
+        },
+        {
+          "game": "暗黑破坏神",
+          "mechanism": "技能树+巅峰加点"
+        }
+      ],
+      "demo": "",
+      "filename": "肉鸽-BuriedBornes2-勇气值Burst技能系统.md",
+      "source": "人工"
+    },
+    "BuriedBornes2/肉鸽-BuriedBornes2-因子继承系统.md": {
+      "title": "[肉鸽]-BuriedBornes2-因子继承系统",
+      "gameName": "BuriedBornes2",
+      "tags": [
+        "RPG",
+        "[交互形式]：死亡传承",
+        "[体验]：长线养成动力",
+        "[品类]：回合制",
+        "世代积累",
+        "肉鸽"
+      ],
+      "simpleDesc": "玩家死亡后，因子（Mods）可保留给下一个角色使用，形成代际积累",
+      "mechanismDesc": "1. 因子获取冒险过程中击败敌人/开启宝箱获得因子\n> 2. 因子装备每个装备槽位可镶嵌1个因子\n> 3. 代际传承角色死亡后，装备的因子可继承给下一个角色\n> 4. 训练系统每种族x职业组合可保存5套实验室配置",
+      "coreRules": "",
+      "trigger": "每次冒险结束时自动传承",
+      "painPoint": "传统肉鸽每局重置导致挫败感过强，此机制提供长线积累动力",
+      "experienceGoal": "让玩家感受到\"每一局死亡都是有意义的\"，形成世代积累的成就感",
+      "similarMechanisms": [
+        {
+          "game": "喵喵的结合",
+          "mechanism": "基因突变遗传"
+        },
+        {
+          "game": "Hades",
+          "mechanism": "冥府之魂传承"
+        },
+        {
+          "game": "Vampire Survivors",
+          "mechanism": "进化武器继承"
+        }
+      ],
+      "demo": "",
+      "filename": "肉鸽-BuriedBornes2-因子继承系统.md",
+      "source": "人工"
+    },
+    "BuriedBornes2/肉鸽-BuriedBornes2-工会战异步竞赛系统.md": {
+      "title": "[肉鸽]-BuriedBornes2-工会战异步竞赛系统",
+      "gameName": "BuriedBornes2",
+      "tags": [
+        "RPG",
+        "[交互形式]：公会对抗",
+        "[体验]：异步竞技",
+        "[品类]：回合制",
+        "团队荣誉",
+        "社交"
+      ],
+      "simpleDesc": "玩家加入工会完成任务获取奖励，工会间进行周期性异步对抗竞赛",
+      "mechanismDesc": "1. 工会系统玩家必须加入一个工会\n> 2. 工会任务完成工会任务获得奖励（新种族、职业、契约等）\n> 3. 工会战（Union War）两个工会间的异步对抗竞赛\n> 4. 周期性更新每周重置竞赛内容\n> 5. 季度大型更新添加新功能和大型玩法",
+      "coreRules": "",
+      "trigger": "玩家加入工会后自动参与工会任务和竞赛",
+      "painPoint": "单人肉鸽缺乏社交粘性，此机制提供公会层面的社交动力",
+      "experienceGoal": "玩家为公会荣誉而战，通过异步对抗降低时间绑定压力",
+      "similarMechanisms": [
+        {
+          "game": "明日方舟",
+          "mechanism": "基建生产+宿舍互动"
+        },
+        {
+          "game": "FGO",
+          "mechanism": "迦里底亚斯卡牌收集"
+        },
+        {
+          "game": "公主连结",
+          "mechanism": "公会战+jjc"
+        }
+      ],
+      "demo": "",
+      "filename": "肉鸽-BuriedBornes2-工会战异步竞赛系统.md",
+      "source": "人工"
+    },
     "BuriedBornes2/肉鸽-BuriedBornes2-离群亡魂异步PVP系统.md": {
       "title": "[肉鸽]-BuriedBornes2-离群亡魂异步PVP系统",
       "gameName": "BuriedBornes2",
@@ -1397,6 +2000,78 @@
       "filename": "[Qualify]连杀奖励系统.md",
       "source": "人工"
     },
+    "COK/[SLG]-COK+大地图行军系统.md": {
+      "title": "[SLG]-COK, 大地图行军系统",
+      "gameName": "COK",
+      "tags": [
+        "[交互形式]：实时行军",
+        "[体验]：战略博弈",
+        "[品类]：SLG-COK",
+        "以少胜多",
+        "围点打援",
+        "情报战",
+        "沙盘策略"
+      ],
+      "simpleDesc": "玩家在沙盘大地图中实时调动部队，通过侦查、设伏、围点打援等战术策略进行联盟战争",
+      "mechanismDesc": "1. 实时行军部队在地图上移动耗时与距离成正比，玩家可随时召回\n> 2. 侦查机制进攻前可侦查敌方城防配置、驻军数量、科技等级\n> 3. 集结系统多玩家可集结部队同时进攻同一目标，形成合力\n> 4. 陷阱系统可预设陷阱伏击敌军，包括伪装术、陷阱等\n> 5. 援军系统联盟成员可派遣援军驻守盟友城市",
+      "coreRules": "",
+      "trigger": "玩家调动部队离开城市 / 发起侦查 / 参与集结 / 设置陷阱",
+      "painPoint": "将SLG从\"数值对轰\"提升为\"战术博弈\"，增加策略深度和操作空间",
+      "experienceGoal": "玩家体验运筹帷幄的策略快感，通过情报战、心理战实现以弱胜强",
+      "similarMechanisms": [
+        {
+          "game": "部落冲突",
+          "mechanism": "大地图行军"
+        },
+        {
+          "game": "全面战争",
+          "mechanism": "战略地图"
+        },
+        {
+          "game": "红色警戒",
+          "mechanism": "基地车移动"
+        }
+      ],
+      "demo": "",
+      "filename": "[SLG]-COK+大地图行军系统.md",
+      "source": "人工"
+    },
+    "COK/[SLG]-COK+武将系统.md": {
+      "title": "[SLG]-COK, 武将系统",
+      "gameName": "COK",
+      "tags": [
+        "[交互形式]：抽卡获取",
+        "[体验]：收集养成",
+        "[品类]：SLG-COK",
+        "养成进阶",
+        "技能系统",
+        "数值碾压",
+        "组合策略"
+      ],
+      "simpleDesc": "通过抽卡获取武将，消耗资源升级进阶，搭配技能组合形成不同战斗流派",
+      "mechanismDesc": "1. 武将获取通过抽卡、活动任务获取不同品质的武将\n> 2. 武将升级消耗金币/经验道具提升等级，增加基础属性\n> 3. 武将进阶突破解锁更强属性，开启新技能\n> 4. 技能系统不同武将拥有不同技能，可升级强化\n> 5. 装备系统武将可穿戴装备，进一步提升属性\n> 6. 羁绊效果特定武将组合激活额外属性加成",
+      "coreRules": "",
+      "trigger": "抽卡 / 升级 / 进阶 / 穿戴装备 / 激活羁绊",
+      "painPoint": "为SLG增加RPG养成深度，提升长线付费坑位，满足中国玩家对\"武将\"题材的偏好",
+      "experienceGoal": "玩家体验收集养成的乐趣，通过不同武将组合研究最优配置",
+      "similarMechanisms": [
+        {
+          "game": "三国志战略版",
+          "mechanism": "武将系统"
+        },
+        {
+          "game": "率土之滨",
+          "mechanism": "武将战法"
+        },
+        {
+          "game": "原神",
+          "mechanism": "角色养成"
+        }
+      ],
+      "demo": "",
+      "filename": "[SLG]-COK+武将系统.md",
+      "source": "人工"
+    },
     "COK/[SLG]-COK+联盟宝箱.md": {
       "title": "[SLG]-COK, 联盟宝箱",
       "gameName": "COK",
@@ -1422,6 +2097,37 @@
       ],
       "demo": "",
       "filename": "[SLG]-COK+联盟宝箱.md",
+      "source": "人工"
+    },
+    "COK/[SLG]-COK+车头车身机制.md": {
+      "title": "[SLG]-COK, 车头车身机制",
+      "gameName": "COK",
+      "tags": [
+        "[交互形式]：高战带低战参战",
+        "[体验]：抱大腿",
+        "[品类]：SLG-COK",
+        "协防援助",
+        "社交绑定",
+        "躺赢参与感"
+      ],
+      "simpleDesc": "大R玩家（车头）带领中小R玩家（车身）参与战斗，通过协防、集结进攻等方式让低付费玩家也能体验战斗乐趣，形成\"抱大腿\"生态",
+      "mechanismDesc": "1. 协防请求低战玩家遭受攻击时可请求高战盟友协防，高战玩家派遣部队驻守\n> 2. 集结进攻联盟成员可发起集结，多人部队合并进攻同一目标\n> 3. 资源援助高战玩家可援助低战玩家资源，加速其发育\n> 4. 战斗结算协防/集结参与玩家均可获得战斗奖励",
+      "coreRules": "",
+      "trigger": "联盟成员发起协防请求 / 发起集结 / 申请资源援助",
+      "painPoint": "解决中低付费玩家在SLG中缺乏参与感的问题，通过\"车头带车身\"让小R也能参与战斗，不再是只能看大佬打架",
+      "experienceGoal": "大R体验\"带头大哥\"的掌控感，小R获得\"跟对大哥\"的归属感，联盟形成紧密的利益共同体",
+      "similarMechanisms": [
+        {
+          "game": "MMORPG",
+          "mechanism": "公会带新人"
+        },
+        {
+          "game": "直播",
+          "mechanism": "大哥罩主播"
+        }
+      ],
+      "demo": "",
+      "filename": "[SLG]-COK+车头车身机制.md",
       "source": "人工"
     },
     "CS2/[FPS]-Counter-Strike 2-体积烟雾互动系统.md": {
@@ -1749,6 +2455,81 @@
       "filename": "[Qualify]GoldenCarrotSystem.md",
       "source": "人工"
     },
+    "Celeste/冲刺Dash机制.md": {
+      "title": "机制卡 - 冲刺Dash机制",
+      "gameName": "Celeste (蔚蓝)",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "冲刺Dash机制.md",
+      "source": "人工"
+    },
+    "Celeste/帮助模式系统.md": {
+      "title": "机制卡 - 帮助模式系统",
+      "gameName": "Celeste (蔚蓝)",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "帮助模式系统.md",
+      "source": "人工"
+    },
+    "Celeste/情感叙事融合机制.md": {
+      "title": "机制卡 - 情感叙事融合机制",
+      "gameName": "Celeste (蔚蓝)",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "情感叙事融合机制.md",
+      "source": "人工"
+    },
+    "Celeste/攀墙跳系统.md": {
+      "title": "机制卡 - 攀墙跳系统",
+      "gameName": "Celeste (蔚蓝)",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "- **持续时间**：可一直攀爬，直到体力耗尽",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "攀墙跳系统.md",
+      "source": "人工"
+    },
+    "Celeste/草莓收集系统.md": {
+      "title": "机制卡 - 草莓收集系统",
+      "gameName": "Celeste (蔚蓝)",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "草莓收集系统.md",
+      "source": "人工"
+    },
     "ChanganFantasy/回合制MMO-长安幻想-天都争锋.md": {
       "title": "[回合制MMO]-[长安幻想]-[天都争锋]",
       "gameName": "长安幻想",
@@ -2026,6 +2807,41 @@
       "filename": "[Excellent]RTS-异步PVP系统.md",
       "source": "人工"
     },
+    "ClashRoyale/卡牌组合系统.md": {
+      "title": "机制卡：皇室战争-卡牌组合系统",
+      "gameName": "皇室战争 (Clash Royale)",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "卡牌组合系统.md",
+      "source": "人工"
+    },
+    "ClashRoyale/即时微操系统.md": {
+      "title": "机制卡：皇室战争-即时微操系统",
+      "gameName": "皇室战争 (Clash Royale)",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [
+        {
+          "game": "皇室战争原有机制",
+          "mechanism": "放下即自动战斗"
+        }
+      ],
+      "demo": "",
+      "filename": "即时微操系统.md",
+      "source": "人工"
+    },
     "ClashRoyale/即时策略-皇室战争-父子局.md": {
       "title": "[即时策略]-皇室战争-父子局",
       "gameName": "皇室战争",
@@ -2043,6 +2859,36 @@
       "similarMechanisms": [],
       "demo": "",
       "filename": "即时策略-皇室战争-父子局.md",
+      "source": "人工"
+    },
+    "ClashRoyale/双路推塔机制.md": {
+      "title": "机制卡：皇室战争-双路推塔机制",
+      "gameName": "皇室战争 (Clash Royale)",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "双路推塔机制.md",
+      "source": "人工"
+    },
+    "ClashRoyale/圣水费用系统.md": {
+      "title": "机制卡：皇室战争-圣水费用系统",
+      "gameName": "皇室战争 (Clash Royale)",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "圣水费用系统.md",
       "source": "人工"
     },
     "CompanyOfHeroes/[Qualify]CoverSuppression.md": {
@@ -2608,7 +3454,7 @@
     },
     "DiabloIIResurrected/游戏卡-Diablo-II-Resurrected.md": {
       "title": "暗黑破坏神2：狱火重生 游戏拆解报告",
-      "gameName": "",
+      "gameName": "DiabloIIResurrected",
       "tags": [],
       "simpleDesc": "",
       "mechanismDesc": "",
@@ -2797,30 +3643,24 @@
       "filename": "[not_comfirmed]DynamicWeather.md",
       "source": "人工"
     },
-    "DontStarve/生存沙盒-DontStarve-动态天气系统.md": {
-      "title": "[生存沙盒]-Don't Starve-动态天气系统",
-      "gameName": "Don't Starve ,  饥荒",
-      "tags": [
-        "动态环境",
-        "时间循环",
-        "沙盒",
-        "生存惩罚",
-        "资源约束"
-      ],
-      "simpleDesc": "游戏按周期切换晴, 雨, 冬, 夏天气, 每种天气带来专属挑战与资源变化, 倒逼玩家提前规划",
-      "mechanismDesc": "游戏以20天为一个季节周期, 循环经历秋季, 冬季, 春季, 夏季\n> - 秋季温和过渡季\n> - 冬季持续低温, 降雪, 作物停止生长\n> - 春季连绵降雨, 闪电雷击\n> - 夏季极端高温, 自燃",
+    "DontStarve/季节循环系统.md": {
+      "title": "机制卡：饥荒-季节循环系统",
+      "gameName": "饥荒 (Don't Starve)",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
       "coreRules": "",
-      "trigger": "1. 游戏时间推进至季节节点",
-      "painPoint": "解决沙盒生存\"资源无限囤积后躺平\"的无聊感",
-      "experienceGoal": "营造真实生存的紧迫感与挑战感",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
       "similarMechanisms": [
         {
           "game": "星露谷物语",
-          "mechanism": "四季天气"
+          "mechanism": "四季天气系统"
         },
         {
           "game": "绿色地狱",
-          "mechanism": "雨林天气"
+          "mechanism": "雨林天气变化"
         },
         {
           "game": "Valheim",
@@ -2828,25 +3668,19 @@
         }
       ],
       "demo": "",
-      "filename": "生存沙盒-DontStarve-动态天气系统.md",
+      "filename": "季节循环系统.md",
       "source": "人工"
     },
-    "DontStarve/生存沙盒-DontStarve-环境压力系统.md": {
-      "title": "[生存沙盒]-Don't Starve-环境压力系统",
-      "gameName": "Don't Starve ,  饥荒",
-      "tags": [
-        "动态平衡",
-        "心理压力",
-        "沙盒",
-        "环境惩罚",
-        "生存"
-      ],
-      "simpleDesc": "长期待在黑暗, 潮湿或怪物密集区会让角色\"心态崩了\", 触发负面debuff甚至疯狂",
-      "mechanismDesc": "玩家角色在黑暗, 潮湿, 靠近怪物等场景下累积理智值；理智过低时视野扭曲, 出现幻视怪物, 降至0后持续掉血直至死亡",
+    "DontStarve/环境压力系统.md": {
+      "title": "机制卡：饥荒-环境压力系统",
+      "gameName": "饥荒 (Don't Starve)",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
       "coreRules": "",
-      "trigger": "1. 处于完全黑暗环境",
-      "painPoint": "解决沙盒生存游戏\"无限苟活\"的无聊感",
-      "experienceGoal": "营造真实生存的压迫感",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
       "similarMechanisms": [
         {
           "game": "森林",
@@ -2858,7 +3692,67 @@
         }
       ],
       "demo": "",
-      "filename": "生存沙盒-DontStarve-环境压力系统.md",
+      "filename": "环境压力系统.md",
+      "source": "人工"
+    },
+    "DotaUnderlords/01-棋子种族职业系统.md": {
+      "title": "棋子种族职业系统",
+      "gameName": "DotaUnderlords",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "01-棋子种族职业系统.md",
+      "source": "人工"
+    },
+    "DotaUnderlords/02-棋盘站位策略系统.md": {
+      "title": "棋盘站位策略系统",
+      "gameName": "DotaUnderlords",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "02-棋盘站位策略系统.md",
+      "source": "人工"
+    },
+    "DotaUnderlords/03-团队增益装备系统.md": {
+      "title": "团队增益装备系统",
+      "gameName": "DotaUnderlords",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "03-团队增益装备系统.md",
+      "source": "人工"
+    },
+    "DotaUnderlords/04-自走棋经济系统.md": {
+      "title": "自走棋经济系统",
+      "gameName": "DotaUnderlords",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "04-自走棋经济系统.md",
       "source": "人工"
     },
     "DragonsDogma2/[Qualify]随从系统.md": {
@@ -3470,6 +4364,66 @@
       "filename": "[撤离类]-逃离塔科夫-安全箱.md",
       "source": "人工"
     },
+    "EscapeFromTarkov/保险系统.md": {
+      "title": "保险系统 (Insurance)",
+      "gameName": "Escape from Tarkov",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "保险系统.md",
+      "source": "人工"
+    },
+    "EscapeFromTarkov/安全箱.md": {
+      "title": "安全箱 (Secure Container)",
+      "gameName": "Escape from Tarkov",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "安全箱.md",
+      "source": "人工"
+    },
+    "EscapeFromTarkov/搜刮经济系统.md": {
+      "title": "搜刮经济系统 (Loot Economy)",
+      "gameName": "Escape from Tarkov",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "搜刮经济系统.md",
+      "source": "人工"
+    },
+    "EternalReturn/装备合成系统.md": {
+      "title": "机制卡：永恒轮回-装备合成系统",
+      "gameName": "永恒轮回：黑色幸存者 (Eternal Return)",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "装备合成系统.md",
+      "source": "人工"
+    },
     "Expedition33/回合制-远征33号-即时反应与弹反机制.md": {
       "title": "[回合制]-远征33号-即时反应与弹反机制",
       "gameName": "Clair Obscur: Expedition 33",
@@ -3499,6 +4453,51 @@
       ],
       "demo": "",
       "filename": "回合制-远征33号-即时反应与弹反机制.md",
+      "source": "人工"
+    },
+    "ExtractionShooter/撤离机制.md": {
+      "title": "机制卡 - 撤离机制 / Extraction Mechanism",
+      "gameName": "ExtractionShooter",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "撤离机制.md",
+      "source": "人工"
+    },
+    "ExtractionShooter/死亡惩罚.md": {
+      "title": "机制卡 - 死亡惩罚 / Death Penalty",
+      "gameName": "ExtractionShooter",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "死亡惩罚.md",
+      "source": "人工"
+    },
+    "ExtractionShooter/装备带入带出.md": {
+      "title": "机制卡 - 装备带入带出 / Gear Extraction",
+      "gameName": "ExtractionShooter",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "装备带入带出.md",
       "source": "人工"
     },
     "F1/RAC-通用-防御驾驶.md": {
@@ -3616,7 +4615,7 @@
     },
     "Fantasian/Fantasian-游戏卡.md": {
       "title": "Fantasian / 失落的星尘",
-      "gameName": "",
+      "gameName": "Fantasian",
       "tags": [],
       "simpleDesc": "",
       "mechanismDesc": "",
@@ -3794,6 +4793,36 @@
       "demo": "武器获取与使用演示：https:, , www.youtube.com, watch?v=XXXXX",
       "filename": "[Qualify]weapon-system.md",
       "source": "AI生成-未甄别"
+    },
+    "FireEmblemHeroes/轻量化战棋系统.md": {
+      "title": "轻量化战棋系统",
+      "gameName": "FireEmblemHeroes",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "轻量化战棋系统.md",
+      "source": "人工"
+    },
+    "FireEmblemHeroes/颜色抽卡系统.md": {
+      "title": "颜色抽卡系统",
+      "gameName": "FireEmblemHeroes",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "颜色抽卡系统.md",
+      "source": "人工"
     },
     "FireEmblemThreeHouses/[Qualify]转职树系统.md": {
       "title": "[战棋]-火焰纹章风花雪月-转职树系统",
@@ -4780,24 +5809,89 @@
       "filename": "[not_comfirmed]CatBreeding.md",
       "source": "人工"
     },
-    "HeartTown/模拟经营-心动小镇-飞地机制.md": {
+    "HeartTown/[Excellent]模拟经营-HeartTown-无缝大世界.md": {
+      "title": "[模拟经营]-心动小镇-无缝大世界",
+      "gameName": "心动小镇",
+      "tags": [
+        "场景互动",
+        "无缝地图",
+        "社交"
+      ],
+      "simpleDesc": "从自己家走到小镇中心不需要任何加载，让玩家随时随地都能看到其他人在做什么",
+      "mechanismDesc": "1.",
+      "coreRules": "",
+      "trigger": "- 玩家在地图上移动时自动触发",
+      "painPoint": "- 解决传统游戏中\"进入自己房间就与世隔绝\"的孤独感",
+      "experienceGoal": "- 提升世界\"人气感\"",
+      "similarMechanisms": [
+        {
+          "game": "动物森友会",
+          "mechanism": "的无缝岛屿设计"
+        },
+        {
+          "game": "星露谷物语",
+          "mechanism": "的单地图设计"
+        }
+      ],
+      "demo": "GIF或视频链接（待补充）",
+      "filename": "[Excellent]模拟经营-HeartTown-无缝大世界.md",
+      "source": "人工 / AI生成-已甄别"
+    },
+    "HeartTown/[Excellent]模拟经营-HeartTown-盲盒社交.md": {
+      "title": "[模拟经营]-心动小镇-盲盒社交",
+      "gameName": "心动小镇",
+      "tags": [
+        "社交",
+        "算法匹配",
+        "随机匹配"
+      ],
+      "simpleDesc": "每天登录都像开盲盒，不知道今天会遇到什么样的邻居，给社交创造惊喜和契机",
+      "mechanismDesc": "1.",
+      "coreRules": "",
+      "trigger": "- 玩家每日首次登录游戏时触发",
+      "painPoint": "- 解决社交游戏中\"没有理由主动搭话\"的尴尬",
+      "experienceGoal": "- 通过随机匹配创造\"偶遇\"惊喜",
+      "similarMechanisms": [
+        {
+          "game": "蛋仔派对",
+          "mechanism": "的随机匹配社交"
+        },
+        {
+          "game": "附近的人",
+          "mechanism": "算法推荐"
+        }
+      ],
+      "demo": "GIF或视频链接（待补充）",
+      "filename": "[Excellent]模拟经营-HeartTown-盲盒社交.md",
+      "source": "人工 / AI生成-已甄别"
+    },
+    "HeartTown/[Excellent]模拟经营-HeartTown-飞地机制.md": {
       "title": "[模拟经营]-心动小镇-飞地机制",
       "gameName": "心动小镇",
       "tags": [
-        "动态场景",
+        "社交",
         "轻社交",
-        "随机偶遇"
+        "飞地机制"
       ],
-      "simpleDesc": "就像住进一个只有12户的小区, 出门就能碰到邻居, 还能互相串门参观装修",
-      "mechanismDesc": "1. 随机匹配系统将玩家分配至有限容量的小镇\n> 2. 邻里互动可以互相偶遇, 串门, 分享建造心得\n> 3. 精准社交通过小镇编号可与好友成为邻居",
+      "simpleDesc": "就像住进一个只有12户的小区，出门就能碰到邻居，还能互相串门参观装修",
+      "mechanismDesc": "1.",
       "coreRules": "",
-      "trigger": "上线进入小镇时随机匹配触发",
-      "painPoint": "解决大世界难以遇到其他玩家, 屋子不方便展示的问题",
-      "experienceGoal": "形成温馨的邻里社区氛围",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "模拟经营-心动小镇-飞地机制.md",
-      "source": "人工"
+      "trigger": "- 玩家上线时自动触发小镇匹配",
+      "painPoint": "- 解决传统MMO大地图中难以遇到其他玩家的冷启动问题",
+      "experienceGoal": "- 形成温馨的邻里社区氛围",
+      "similarMechanisms": [
+        {
+          "game": "动物森友会",
+          "mechanism": "的岛屿访问机制"
+        },
+        {
+          "game": "星露谷物语",
+          "mechanism": "的社区访客系统"
+        }
+      ],
+      "demo": "GIF或视频链接（待补充）",
+      "filename": "[Excellent]模拟经营-HeartTown-飞地机制.md",
+      "source": "人工 / AI生成-已甄别"
     },
     "Hearthstone/[Qualify]ClassRestriction.md": {
       "title": "[策略卡牌]-炉石传说-职业限制机制",
@@ -5955,6 +7049,81 @@
       "filename": "[Qualify]ShuangrenHezuoMoshi.md",
       "source": "AI生成-未甄别"
     },
+    "JinChanChan/双人合作模式.md": {
+      "title": "机制卡 - 双人合作模式",
+      "gameName": "金铲铲之战",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "双人合作模式.md",
+      "source": "人工"
+    },
+    "JinChanChan/海克斯强化系统.md": {
+      "title": "机制卡 - 海克斯强化系统",
+      "gameName": "金铲铲之战",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "海克斯强化系统.md",
+      "source": "人工"
+    },
+    "JinChanChan/经济系统.md": {
+      "title": "机制卡 - 经济系统",
+      "gameName": "金铲铲之战",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "经济系统.md",
+      "source": "人工"
+    },
+    "JinChanChan/羁绊系统.md": {
+      "title": "机制卡 - 羁绊系统",
+      "gameName": "金铲铲之战",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "羁绊系统.md",
+      "source": "人工"
+    },
+    "JinChanChan/装备系统.md": {
+      "title": "机制卡 - 装备系统",
+      "gameName": "金铲铲之战",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "装备系统.md",
+      "source": "人工"
+    },
     "Justice/[Qualify]功力系统.md": {
       "title": "[MMO]-Justice-功力系统",
       "gameName": "Justice",
@@ -6042,6 +7211,66 @@
       "filename": "Roguelike-卡厄思梦境-类肉鸽搜打撤的存档带出机制.md",
       "source": "人工"
     },
+    "KartRider/8人同屏竞技.md": {
+      "title": "8人同屏竞技",
+      "gameName": "跑跑卡丁车官方竞速版",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "8人同屏竞技.md",
+      "source": "人工"
+    },
+    "KartRider/氮气加速系统.md": {
+      "title": "氮气加速系统",
+      "gameName": "跑跑卡丁车官方竞速版",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "氮气加速系统.md",
+      "source": "人工"
+    },
+    "KartRider/漂移集气系统.md": {
+      "title": "漂移集气系统",
+      "gameName": "跑跑卡丁车官方竞速版",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "漂移集气系统.md",
+      "source": "人工"
+    },
+    "KartRider/通行证系统.md": {
+      "title": "通行证系统",
+      "gameName": "跑跑卡丁车官方竞速版",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "通行证系统.md",
+      "source": "人工"
+    },
     "KingdomRush/[Qualify]ActiveSkillSystem.md": {
       "title": "[塔防]-王国保卫战 - 主动技能系统",
       "gameName": "王国保卫战",
@@ -6121,6 +7350,21 @@
       "demo": "升级效果演示：https:, , www.youtube.com, watch?v=XXXXX",
       "filename": "[Qualify]rpg-levelup.md",
       "source": "AI生成-未甄别"
+    },
+    "KnightsOfTheRound/[Qualify]beat-em-up.md": {
+      "title": "Beat 'Em Up / 清版动作",
+      "gameName": "beat",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "[Qualify]beat-em-up.md",
+      "source": "人工"
     },
     "KnightsOfTheRound/[Qualify]gold-equipment.md": {
       "title": "[街机]-圆桌骑士-金币装备系统",
@@ -6837,6 +8081,21 @@
       "filename": "[TPS]-[漫威争锋]-[天赋强化].md",
       "source": "人工"
     },
+    "MarvelSnap/Snap加注机制.md": {
+      "title": "机制卡：Snap加注机制",
+      "gameName": "Marvel Snap（漫威终极逆转）",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "Snap加注机制.md",
+      "source": "人工"
+    },
     "MarvelSnap/[Qualify]位置机制.md": {
       "title": "[策略卡牌]-漫威终极逆转-位置机制",
       "gameName": "Marvel Snap",
@@ -6865,9 +8124,24 @@
       "filename": "[Qualify]位置机制.md",
       "source": "AI生成-未甄别"
     },
+    "MarvelSnap/区域随机系统.md": {
+      "title": "机制卡：区域随机系统",
+      "gameName": "Marvel Snap（漫威终极逆转）",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "区域随机系统.md",
+      "source": "人工"
+    },
     "MatchdayChampions/游戏卡-Matchday-Champions.md": {
       "title": "Matchday Champions 游戏拆解报告",
-      "gameName": "",
+      "gameName": "MatchdayChampions",
       "tags": [],
       "simpleDesc": "",
       "mechanismDesc": "",
@@ -7136,6 +8410,53 @@
       "filename": "模拟经营-我的花园世界-交换花.md",
       "source": "人工"
     },
+    "NZ2/[Qualify][FPS]-NZ2-时空追猎系统.md": {
+      "title": "[Qualify][FPS]-NZ2-时空追猎系统",
+      "gameName": "NZ2",
+      "tags": [
+        "任务驱动",
+        "大地图",
+        "战术支援"
+      ],
+      "simpleDesc": "类似地狱潜兵2的大地图任务驱动玩法——在开放地图中做任务赚星星，用星星解锁战术支援，最后打BOSS",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "- 传统猎场流程固定",
+      "experienceGoal": "- 创造\"探索-任务-支援-BOSS\"的完整循环",
+      "similarMechanisms": [],
+      "demo": "建议搜索\"逆战未来 时空追猎\"实机演示",
+      "filename": "[Qualify][FPS]-NZ2-时空追猎系统.md",
+      "source": "人工"
+    },
+    "NZ2/[Qualify][FPS]-NZ2-猎场竞速系统.md": {
+      "title": "[Qualify][FPS]-NZ2-猎场竞速系统",
+      "gameName": "NZ2",
+      "tags": [
+        "PVEVP",
+        "竞速",
+        "道具干扰"
+      ],
+      "simpleDesc": "两支队伍在同一个猎场地图中竞速通关，不仅要比拼击杀效率，还可以使用卡牌道具互相干扰",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "- 传统猎场单人对战太枯燥",
+      "experienceGoal": "- 创造\"竞速+对抗\"双重乐趣",
+      "similarMechanisms": [
+        {
+          "game": "跑跑卡丁车",
+          "mechanism": "道具对战"
+        },
+        {
+          "game": "地狱潜兵2",
+          "mechanism": "团队合作"
+        }
+      ],
+      "demo": "建议搜索\"逆战未来 猎场竞速\"实机演示",
+      "filename": "[Qualify][FPS]-NZ2-猎场竞速系统.md",
+      "source": "人工"
+    },
     "NarutoMobile/[Qualify]奥义系统.md": {
       "title": "[格斗]-火影忍者-奥义系统",
       "gameName": "Naruto Mobile",
@@ -7206,6 +8527,51 @@
       "similarMechanisms": [],
       "demo": "",
       "filename": "夺金-永劫无间无间镖客-满江红商友良赌坊玩法.md",
+      "source": "人工"
+    },
+    "NightboundMobile/01-combat-rps.md": {
+      "title": "格斗猜拳机制",
+      "gameName": "NightboundMobile",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "01-combat-rps.md",
+      "source": "人工"
+    },
+    "NightboundMobile/02-extraction.md": {
+      "title": "搜打撤撤离机制",
+      "gameName": "NightboundMobile",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "02-extraction.md",
+      "source": "人工"
+    },
+    "NightboundMobile/03-bd-build.md": {
+      "title": "战备BD组合系统",
+      "gameName": "NightboundMobile",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "03-bd-build.md",
       "source": "人工"
     },
     "NightboundMobile/夺金-永劫无间手游-花露机制时间进度升级式物资.md": {
@@ -7701,6 +9067,41 @@
       "filename": "[Excellent]SunlightSystem.md",
       "source": "AI生成-未甄别"
     },
+    "PokemonLegendsArceus/即时动作战斗.md": {
+      "title": "机制卡：阿尔宙斯-即时动作战斗",
+      "gameName": "宝可梦传说：阿尔宙斯",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "即时动作战斗.md",
+      "source": "人工"
+    },
+    "PokemonLegendsArceus/坐骑系统.md": {
+      "title": "机制卡：阿尔宙斯-坐骑系统",
+      "gameName": "宝可梦传说：阿尔宙斯",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [
+        {
+          "game": "塞尔达传说",
+          "mechanism": "旷野之息 坐骑系统"
+        }
+      ],
+      "demo": "",
+      "filename": "坐骑系统.md",
+      "source": "人工"
+    },
     "ProjectZomboid/生存沙盒-Project-Zomboid-声音视野系统.md": {
       "title": "[生存沙盒]-Project Zomboid - 声音, 视野（丧尸感知与潜行）系统",
       "gameName": "Project Zomboid ,  僵尸毁灭工程",
@@ -8106,6 +9507,21 @@
       ],
       "demo": "",
       "filename": "[生存沙盒]-RUST-采集小游戏.md",
+      "source": "人工"
+    },
+    "RustedWarfare/[Core]极简触控操作设计.md": {
+      "title": "极简触控操作设计",
+      "gameName": "RustedWarfare",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "[Core]极简触控操作设计.md",
       "source": "人工"
     },
     "SanGuoZhanLue/[SLG]-三国志战略版-动态地图.md": {
@@ -8614,6 +10030,51 @@
       "filename": "卡牌-影之诗2-公园观棋.md",
       "source": "人工"
     },
+    "ShaoNianJinYiWei/anime-ip-characters.md": {
+      "title": "动漫IP角色扮演",
+      "gameName": "ShaoNianJinYiWei",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "anime-ip-characters.md",
+      "source": "人工"
+    },
+    "ShaoNianJinYiWei/faction-system.md": {
+      "title": "锦衣卫阵营系统",
+      "gameName": "ShaoNianJinYiWei",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "faction-system.md",
+      "source": "人工"
+    },
+    "ShaoNianJinYiWei/qinggong-system.md": {
+      "title": "多段轻功系统",
+      "gameName": "ShaoNianJinYiWei",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "qinggong-system.md",
+      "source": "人工"
+    },
     "Sifu/ACT-师父-年龄系统.md": {
       "title": "[ACT]-师父-年龄系统",
       "gameName": "Sifu ,  师父",
@@ -8881,7 +10342,7 @@
     },
     "SpaceKillerClown/游戏卡-外太空杀人小丑.md": {
       "title": "外太空杀人小丑 / Killer Klowns from Outer Space: The Game",
-      "gameName": "",
+      "gameName": "SpaceKillerClown",
       "tags": [],
       "simpleDesc": "",
       "mechanismDesc": "",
@@ -9067,6 +10528,90 @@
       ],
       "demo": "暂无, 建议B站搜索\"星露谷物语 体力 管理\"",
       "filename": "[Qualify]TimeManagement.md",
+      "source": "人工"
+    },
+    "Stellaris/[Excellent][策略]-Stellaris-天灾飞升系统.md": {
+      "title": "[Excellent][策略]-Stellaris-天灾飞升系统",
+      "gameName": "Stellaris",
+      "tags": [
+        "天灾飞升",
+        "玩家扮演反派",
+        "第四天灾"
+      ],
+      "simpleDesc": "玩家可以选择成为\"全宇宙公敌\"——通过天灾飞升路线，变成比AI危机更可怕的存在，清洗整个银河系",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "- 传统4X游戏后期无敌寂寞",
+      "experienceGoal": "- 提供\"毁灭者\"的终极满足感",
+      "similarMechanisms": [
+        {
+          "game": "文明",
+          "mechanism": "游戏胜利条件（统治/科技/文化）"
+        },
+        {
+          "game": "全面战争",
+          "mechanism": "factions选择"
+        }
+      ],
+      "demo": "建议搜索\"Stellaris become the crisis\"实机演示",
+      "filename": "[Excellent][策略]-Stellaris-天灾飞升系统.md",
+      "source": "人工"
+    },
+    "Stellaris/[Excellent][策略]-Stellaris-科技树系统.md": {
+      "title": "[Excellent][策略]-Stellaris-科技树系统",
+      "gameName": "Stellaris",
+      "tags": [
+        "科技系统",
+        "策略规划",
+        "随机抽取"
+      ],
+      "simpleDesc": "不是传统线性科技树，而是\"抽卡式\"科技系统——从满足条件的随机科技池中3选1研发",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "- 传统线性科技树\"点完就忘\"，缺乏策略选择",
+      "experienceGoal": "- 每一次科技选择都有意义",
+      "similarMechanisms": [
+        {
+          "game": "文明系列",
+          "mechanism": "科技树+尤里卡加速"
+        },
+        {
+          "game": "银河文明",
+          "mechanism": "传统线性科技树"
+        }
+      ],
+      "demo": "建议搜索\"Stellaris Tech Tree\"游戏演示",
+      "filename": "[Excellent][策略]-Stellaris-科技树系统.md",
+      "source": "人工"
+    },
+    "Stellaris/[Excellent][策略]-Stellaris-终局危机系统.md": {
+      "title": "[Excellent][策略]-Stellaris-终局危机系统",
+      "gameName": "Stellaris",
+      "tags": [
+        "后期挑战",
+        "终局危机",
+        "难度递进"
+      ],
+      "simpleDesc": "游戏后期（默认2400年+50年）随机触发一场席卷全银河的灾难，迫使所有文明联合应对或各自为战",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "- 4X策略游戏后期内容枯竭，玩家失去目标",
+      "experienceGoal": "- 创造\"全银河命运共同体\"的紧迫感",
+      "similarMechanisms": [
+        {
+          "game": "文明系列",
+          "mechanism": "后期随机事件"
+        },
+        {
+          "game": "全面战争",
+          "mechanism": "终极战役"
+        }
+      ],
+      "demo": "建议搜索\"Stellaris Crisis\"实机演示",
+      "filename": "[Excellent][策略]-Stellaris-终局危机系统.md",
       "source": "人工"
     },
     "StreetFighter6/[Qualify]Drive系统.md": {
@@ -9770,37 +11315,235 @@
       "filename": "[非对称]-德州电锯杀人狂-第三方势力爷爷.md",
       "source": "人工"
     },
-    "TianDiJie/[not_comfirmed]属性相克系统.md": {
-      "title": "[战棋]-天地劫-属性相克系统",
+    "TheForest/[Excellent]FPS-TheForest-洞穴探索系统.md": {
+      "title": "[Excellent][FPS]-TheForest-洞穴探索系统",
+      "gameName": "The Forest",
+      "tags": [
+        "PVE",
+        "垂直地图",
+        "探索",
+        "资源分布"
+      ],
+      "simpleDesc": "地面只是生存的起点，真正的秘密和危机藏在复杂的地下洞穴网络中",
+      "mechanismDesc": "The Forest的洞穴系统是游戏的核心探索内容，与地面世界形成垂直体验：\n\n1.",
+      "coreRules": "",
+      "trigger": "- 玩家主动进入洞穴入口",
+      "painPoint": "开放世界容易\"一眼看穿\"，缺乏深度和神秘感",
+      "experienceGoal": "通过垂直维度扩展探索深度，洞穴的危险性制造紧张感，深处奖励鼓励玩家深入",
+      "similarMechanisms": [
+        {
+          "game": "Subnautica",
+          "mechanism": "水下探索 - 垂直维度+资源分布"
+        },
+        {
+          "game": "Minecraft",
+          "mechanism": "洞穴更新 - 多层结构"
+        },
+        {
+          "game": "Green Hell",
+          "mechanism": "丛林洞穴"
+        }
+      ],
+      "demo": "The Forest 洞穴探索演示视频 (待补充)",
+      "filename": "[Excellent]FPS-TheForest-洞穴探索系统.md",
+      "source": "AI生成-已甄别"
+    },
+    "TheForest/[Excellent]FPS-TheForest-野人AI系统.md": {
+      "title": "[Excellent][FPS]-TheForest-野人AI系统",
+      "gameName": "The Forest",
+      "tags": [
+        "AI行为树",
+        "PVE",
+        "心理压力",
+        "敌人智能"
+      ],
+      "simpleDesc": "野人像真实猎人一样会侦察、包围、援救，让玩家感觉被一群有智慧的敌人时刻盯上",
+      "mechanismDesc": "The Forest中的野人/Mutant敌人AI系统是该游戏的核心差异化机制。敌人不是简单的游荡攻击，而是具有高度智能的行为模式：\n\n1.",
+      "coreRules": "",
+      "trigger": "- 玩家进入野人领地范围",
+      "painPoint": "传统生存游戏的敌人多为\"无脑冲锋\"型，容易应对且缺乏紧张感",
+      "experienceGoal": "通过智能敌人AI制造持续的心理压力和生存紧张感，让玩家时刻保持警惕",
+      "similarMechanisms": [
+        {
+          "game": "Left 4 Dead",
+          "mechanism": "Director系统 - 动态生成敌人"
+        },
+        {
+          "game": "Dead by Daylight",
+          "mechanism": "屠夫AI - 追逐与心理压力"
+        },
+        {
+          "game": "Sons of The Forest",
+          "mechanism": "续作继承"
+        }
+      ],
+      "demo": "YouTube/The Forest 野人AI演示：https://www.youtube.com/watch?v=xxx (待补充)",
+      "filename": "[Excellent]FPS-TheForest-野人AI系统.md",
+      "source": "AI生成-已甄别"
+    },
+    "TheForest/[Qualify]FPS-TheForest-建造防御系统.md": {
+      "title": "[Qualify][FPS]-TheForest-建造防御系统",
+      "gameName": "The Forest",
+      "tags": [
+        "建造",
+        "资源管理",
+        "防御工事"
+      ],
+      "simpleDesc": "收集木材石头搭建基地，但建得越好敌人越聪明，建造变成了一种战略博弈",
+      "mechanismDesc": "The Forest的建造系统是游戏的核心生存手段，侧重于防御功能：\n\n1.",
+      "coreRules": "",
+      "trigger": "- 玩家拥有建造工具（斧头、锤子）",
+      "painPoint": "单纯生存容易无聊，需要有\"建设家园\"的归属感和成就感",
+      "experienceGoal": "通过建造系统提供长期目标，多人合作时产生分工乐趣，同时防御压力形成建造动力",
+      "similarMechanisms": [
+        {
+          "game": "Minecraft",
+          "mechanism": "建造系统 - 自由建造"
+        },
+        {
+          "game": "Rust",
+          "mechanism": "基地建造 - 防御与被攻击"
+        },
+        {
+          "game": "Don't Starve",
+          "mechanism": "建筑系统"
+        }
+      ],
+      "demo": "The Forest 建造系统演示 (待补充)",
+      "filename": "[Qualify]FPS-TheForest-建造防御系统.md",
+      "source": "AI生成-已甄别"
+    },
+    "TheForest/[Qualify]FPS-TheForest-生存数值系统.md": {
+      "title": "[Qualify][FPS]-TheForest-生存数值系统",
+      "gameName": "The Forest",
+      "tags": [
+        "数值压力",
+        "生存",
+        "资源管理"
+      ],
+      "simpleDesc": "不仅是打怪，饥饿、寒冷、生病都会威胁玩家生命，需要随时注意状态",
+      "mechanismDesc": "The Forest的生存系统提供真实的生存压力：\n\n1.",
+      "coreRules": "",
+      "trigger": "- 随游戏时间自然触发",
+      "painPoint": "无压力的生存游戏缺乏紧张感",
+      "experienceGoal": "通过多维度生存数值让玩家\"手忙脚乱\"，感受真实的生存压力，同时增加游戏节奏感",
+      "similarMechanisms": [
+        {
+          "game": "Don't Starve",
+          "mechanism": "生存系统 - 多维度数值"
+        },
+        {
+          "game": "Green Hell",
+          "mechanism": "真实生存"
+        },
+        {
+          "game": "Subnautica",
+          "mechanism": "氧气+饥饿"
+        }
+      ],
+      "demo": "The Forest 生存机制演示 (待补充)",
+      "filename": "[Qualify]FPS-TheForest-生存数值系统.md",
+      "source": "AI生成-已甄别"
+    },
+    "TianDiJie/[Excellent][策略]-TianDiJie-多维度养成系统.md": {
+      "title": "[策略]-TianDiJie-多维度养成系统",
+      "gameName": "TianDiJie",
+      "tags": [
+        "养成",
+        "战棋",
+        "角色培养"
+      ],
+      "simpleDesc": "一个角色多套养成线路——从等级到天赋再到装备，全面深度的角色培养体系",
+      "mechanismDesc": "多维度养成系统为角色提供丰富的养成线路，创造长线成长目标和数值积累乐趣。\n\n主要养成维度：\n1.",
+      "coreRules": "",
+      "trigger": "- 消耗对应养成材料",
+      "painPoint": "- 解决战棋游戏后期内容消耗过快的问题",
+      "experienceGoal": "- 数值成长的满足感",
+      "similarMechanisms": [
+        {
+          "game": "梦幻模拟战",
+          "mechanism": "职业/技能/装备养成"
+        },
+        {
+          "game": "阴阳师",
+          "mechanism": "御魂/觉醒/等级养成"
+        },
+        {
+          "game": "原神",
+          "mechanism": "等级/天赋/圣遗物/命座"
+        }
+      ],
+      "demo": "（待补充游戏卡演示）",
+      "filename": "[Excellent][策略]-TianDiJie-多维度养成系统.md",
+      "source": "人工"
+    },
+    "TianDiJie/[Excellent][策略]-TianDiJie-属性相克系统.md": {
+      "title": "[策略]-TianDiJie-属性相克系统",
       "gameName": "TianDiJie",
       "tags": [
         "博弈",
         "战棋",
         "策略"
       ],
-      "simpleDesc": "东方玄幻版的元素魔法战斗——冰雷火三系相互克制",
-      "mechanismDesc": "以中国传统文化中的五行, 三魂为基础设计的属性克制系统。\n\n设计规则（天地劫）：\n- 冰 → 雷（冰冻敌人）\n- 雷 → 火（雷击点燃）\n- 火 → 冰（融化坚冰）\n- 每个角色有固定属性\n- 技能有属性之分\n- 特定组合",
+      "simpleDesc": "东方玄幻版的石头剪刀布——冰、火、雷三系相互克制，加上光暗的单向克制关系",
+      "mechanismDesc": "属性相克系统是游戏战斗策略的核心，玩家通过理解并运用属性克制关系，以弱胜强，获得策略博弈的乐趣。\n\n具体规则：\n-",
       "coreRules": "",
-      "trigger": "- 属性技能命中时判定",
-      "painPoint": "- 解决战棋\"无脑堆伤害\"问题",
+      "trigger": "- 攻击方使用属性技能命中目标时",
+      "painPoint": "- 解决战棋游戏\"无脑堆伤害\"问题",
       "experienceGoal": "- 属性组合的策略满足感",
       "similarMechanisms": [
         {
           "game": "梦幻模拟战",
-          "mechanism": "武器, 职业属性"
+          "mechanism": "武器/职业属性相克"
         },
         {
-          "game": "火焰纹章",
-          "mechanism": "魔法属性"
+          "game": "火焰纹章系列",
+          "mechanism": "魔法属性相克"
         },
         {
           "game": "宝可梦",
-          "mechanism": "属性相克"
+          "mechanism": "18属性循环相克"
+        },
+        {
+          "game": "阴阳师",
+          "mechanism": "五行属性相克"
         }
       ],
       "demo": "（待补充游戏内演示）",
-      "filename": "[not_comfirmed]属性相克系统.md",
-      "source": "AI生成-未甄别"
+      "filename": "[Excellent][策略]-TianDiJie-属性相克系统.md",
+      "source": "人工"
+    },
+    "TianDiJie/[Excellent][策略]-TianDiJie-技能联动系统.md": {
+      "title": "[策略]-TianDiJie-技能联动系统",
+      "gameName": "TianDiJie",
+      "tags": [
+        "战棋",
+        "技能系统",
+        "策略"
+      ],
+      "simpleDesc": "角色之间的技能配合产生的1+1>2效果——特定角色组合触发额外增益或追加效果",
+      "mechanismDesc": "技能联动系统通过特定角色之间的技能配合，创造额外的战斗效果，增加阵容搭配的策略深度和趣味性。\n\n主要形式：\n-",
+      "coreRules": "",
+      "trigger": "- 特定属性技能命中时",
+      "painPoint": "- 解决单角色无脑刷关的枯燥感",
+      "experienceGoal": "- 技能组合的策略满足感",
+      "similarMechanisms": [
+        {
+          "game": "原神",
+          "mechanism": "元素反应系统"
+        },
+        {
+          "game": "崩坏3",
+          "mechanism": "属性联动技能"
+        },
+        {
+          "game": "阴阳师",
+          "mechanism": "式神组合技能"
+        }
+      ],
+      "demo": "（待补充游戏内演示）",
+      "filename": "[Excellent][策略]-TianDiJie-技能联动系统.md",
+      "source": "人工"
     },
     "TowerOfFantasy/[Qualify]捏脸系统.md": {
       "title": "[RPG]-TowerOfFantasy-捏脸系统",
@@ -9903,7 +11646,7 @@
     },
     "TrackMania/游戏卡.md": {
       "title": "赛道狂飙 / TrackMania",
-      "gameName": "",
+      "gameName": "TrackMania",
       "tags": [],
       "simpleDesc": "",
       "mechanismDesc": "",
@@ -10069,7 +11812,7 @@
     },
     "Valheim/gamecard.md": {
       "title": "Valheim / 英灵神殿",
-      "gameName": "",
+      "gameName": "Valheim",
       "tags": [],
       "simpleDesc": "",
       "mechanismDesc": "",
@@ -10765,7 +12508,7 @@
     },
     "ZenlessZoneZero/游戏卡-绝区零.md": {
       "title": "绝区零 / Zenless Zone Zero 游戏拆解报告",
-      "gameName": "",
+      "gameName": "ZenlessZoneZero",
       "tags": [],
       "simpleDesc": "",
       "mechanismDesc": "",
@@ -11143,6 +12886,51 @@
       ],
       "demo": "*(待补充GIF, 视频)*",
       "filename": "[Qualify]skill-build-system.md",
+      "source": "人工"
+    },
+    "mewgenics/breeding-system.md": {
+      "title": "机制卡：遗传育种系统",
+      "gameName": "mewgenics",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "breeding-system.md",
+      "source": "人工"
+    },
+    "mewgenics/elemental-reaction.md": {
+      "title": "机制卡：涌现式元素反应",
+      "gameName": "mewgenics",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "elemental-reaction.md",
+      "source": "人工"
+    },
+    "mewgenics/skill-build-system.md": {
+      "title": "机制卡：职业技能双轨BD系统",
+      "gameName": "mewgenics",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "skill-build-system.md",
       "source": "人工"
     },
     "my-garden-world/[Qualify]friend-assist-system.md": {
@@ -11526,21 +13314,40 @@
       "gameName": "ARK: Survival Evolved / 方舟：生存进化",
       "developer": "Studio Wildcard",
       "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "2017年",
+      "platform": "PC / 主机 / 移动端",
+      "releaseDate": "2017年6月14日（正式版）",
       "genre": "开放世界生存、驯服养成、建造、多人联机",
       "monetization": "买断制",
-      "xStatement": "恐龙版硬核生存\n\n恐龙版的硬核生存+驯服养成+部落对抗的开放世界沙盒。\n\n---",
+      "xStatement": "",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "收集基础资源 -> 制作工具/武器 -> 搭建营地 -> 驯服恐龙 -> 培育强化 -> 建造大型部落基地 -> 挑战BOSS",
-      "difficulty": "中等偏高。基础生存逻辑清晰，但驯服机制、部落管理复杂",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "（待录入）"
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《ARK》是基于《Rust》+《Minecraft》的硬核生存体验，并引入恐龙题材：\n\n- 《Rust》的核心理念：硬核生存+建造+多人PVP对抗，玩家在残酷环境中收集资源、建造基地、抵御其他玩家\n- 《Minecraft》的核心理念：开放式建造+自由创造，玩家可以自由建造任何结构\n- 本游戏在此基础上改出的独特体验：\n  - 恐龙坐骑系统：恐龙不仅是宠物，更是玩家的坐骑、战斗伙伴、劳动力（耕田、采矿、运输）\n  - 驯服机制深度： knockdown式驯服、喂养偏好、食量计算、驯服速度加成，多层次机制\n  - 骑乘战斗：玩家骑乘恐龙进行战斗，创作者视角的\"恐龙骑战\"体验\n\n---",
+      "pillars": [
+        {
+          "title": "【硬核生存系统】->【真实生存要素+高死亡惩罚】->【饥饿、口渴、氧气、温度、负重五维生存；死亡掉装备/经验，恐龙需重生】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【恐龙驯养系统】->【多样化驯服方式+功能性恐龙分化】->【100+物种，每种有独特功能（战斗/运输/生产/骑乘），驯服后忠诚度机制】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【部落PVP系统】->【多人组织+基地攻防+资源争夺】->【最多50人部落，基地建造防御工事，争夺BOSS/龙蛋】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【开放世界探索】->【随机生成地图+多生态区】->【6张地图，不同生态环境（雪山、沙漠、沼泽、火山），各具独特生物群落】",
+          "experience": "",
+          "design": ""
+        }
       ],
+      "achievements": "",
+      "relatedMechanisms": [],
       "filename": "ARK.md",
       "source": "人工"
     },
@@ -11598,24 +13405,40 @@
       "gameName": "帝国时代2：决定版 / Age of Empires II: DE",
       "developer": "Forgotten Empires, Tantalus, Wicked Witch",
       "publisher": "",
-      "platform": "PC",
+      "platform": "PC (Steam, Microsoft Store)",
       "releaseDate": "2019年11月15日",
       "genre": "即时战略 / RTS / 文明型",
       "monetization": "",
-      "xStatement": "中世纪背景RTS游戏，玩家收集资源、升级时代、训练军队，在即时战场上指挥多兵种对抗",
+      "xStatement": "中世纪背景RTS游戏，玩家收集资源、升级时代、训练军队，在即时战场上指挥多兵种对抗\n\n公式拆解：\n- 基础信息：单人/多人 PvP/PvE，即时战略\n- 品类：文明型RTS\n- 核心差异点：经典重制版，平衡性经过20余年验证，竞技性强\n\n---",
       "tagline": "中世纪背景文明RTS / 经典RTS重制",
-      "playerStats": "Steam同时在线峰值超6万（2024年）",
-      "coreLoop": "玩家收集资源、建造城镇、训练军队，升级时代，从黑暗时代发展到帝王时代，最终消灭对手",
-      "difficulty": "中等 - 需要学习资源管理和兵种配合",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "孙子兵法教学系统",
-        "文明差异化系统",
-        "时代演进系统",
-        "资源采集系统"
+      "playerStats": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "| 系统 | 玩法原型 | 核心理念 | 独特改进 |\n|------|----------|----------|----------|\n| 资源 | 《帝国时代》系列 | 资源采集管理 | 4种资源类型（食物、木材、金币、石材） |\n| 时代 | 《帝国时代》系列 | 时代演进 | 黑暗→封建→城堡→帝王四级进化 |\n| 战斗 | 《RTS》 | 实时战术指挥 | 兵种相克（步兵克弓，弓克骑，骑克步） |\n| 文明 | 《文明》系列 | 文明独特性 | 42个文明（含DLC），各有特色兵种和科技 |\n\n玩法原型深度分析：\n- 借鉴来源：《帝国时代》系列奠基了\"文明型RTS\"品类\n- 核心理念：基于\"文明建设与扩张\"的心理体验——从微小部落发展到庞大帝国\n- 独特改进：决定版在原版基础上重制画质、新增战役、平衡性优化\n\n---",
+      "pillars": [
+        {
+          "title": "文明差异化系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "资源采集与经济运营",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "时代升级系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "兵种相克与战术系统",
+          "experience": "",
+          "design": ""
+        }
       ],
+      "achievements": "",
+      "relatedMechanisms": [],
       "filename": "AgeOfEmpires2DE.md",
       "source": "人工"
     },
@@ -11691,24 +13514,42 @@
     "Aladedu": {
       "title": "阿拉德之怒",
       "gameName": "阿拉德之怒",
-      "developer": "上饶市橙橙网络科技有限公司",
+      "developer": "上饶市橙橙网络科技有限公司（曾用名\"地下城盟约\"）",
       "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "约2020年",
+      "platform": "Android/iOS",
+      "releaseDate": "2020年10月",
       "genre": "横版格斗 / 动作RPG / 手游",
-      "monetization": "",
-      "xStatement": "横版格斗动作手游，类似DNF，玩家刷副本、升级、PK",
-      "tagline": "DNF-like横版格斗 / 地下城玩法手游",
+      "monetization": "免费+内购",
+      "xStatement": "",
+      "tagline": "",
       "playerStats": "",
-      "coreLoop": "玩家选择职业刷副本升级，掉落史诗装备，进行PVP对战",
-      "difficulty": "中等 - 需要熟悉连招和职业技能",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[格斗]-Aladedu-横版格斗玩法",
-        "[格斗]-Aladedu-MMO社交系统"
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型1：横版格斗战斗系统 → 借鉴《DNF》端游\n- 被借鉴游戏的核心理念：《DNF》（地下城与勇士）自2005年上线以来，核心理念是\"街机风格的硬核连招+副本刷图获取装备\"——玩家通过虚拟按键组合释放技能连招，在副本中击败怪物获取史诗装备，持续养成角色\n- 本游戏在此基础上改出的独特体验：\n  1. 移动端虚拟按键布局：还原端游技能键位（波动/血气/天击等），适配触摸屏操作\n  2. 职业技能体系完整移植：鬼剑士、魔法师、枪手、神枪手等职业分支，转职系统保留\n  3. 连招手感优化：针对移动端简化部分复杂操作，保留核心打击感\n\n玩法原型2：深渊副本系统 → 借鉴《DNF》端游\n- 核心理念：DNF的深渊系统是核心驱动力，稀有史诗装备随机掉落带来\"出货\"快感\n- 本游戏的独特体验：\n  1. 深渊副本难度分层：普通深渊→远古镇魂→超时空等渐进难度\n  2. 史诗装备掉落：保留DNF经典掉落机制，刺激玩家重复刷图\n  3. 装备升级体系：史诗套装可升级（80级→85级→90级）\n\n玩法原型3：PVP竞技场 → 借鉴《DNF》PK场\n- 核心理念：DNF的PK场是玩家技术较量的核心场景，讲究连招克制与职业克制\n- 本游戏的独特体验：\n  1. 1v1对战：技术PK段位系统（青铜→白银→黄金→钻石→王者）\n  2. 3v3团队战：组队配合竞技\n  3. 公平属性：部分模式采用公平属性，纯粹比拼技术\n\n---",
+      "pillars": [
+        {
+          "title": "【职业技能连招系统】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【深渊副本刷图】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【装备养成系统】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【PVP竞技场】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        }
       ],
+      "achievements": "",
+      "relatedMechanisms": [],
       "filename": "Aladedu.md",
       "source": "人工"
     },
@@ -11788,23 +13629,42 @@
     "ApexLegends": {
       "title": "Apex Legends / APEX英雄",
       "gameName": "Apex Legends (Apex英雄)",
-      "developer": "",
-      "publisher": "",
-      "platform": "",
-      "releaseDate": "",
+      "developer": "Respawn Entertainment",
+      "publisher": "Electronic Arts (EA)",
+      "platform": "PC/PS4/Xbox One/Switch/iOS/Android",
+      "releaseDate": "2019年2月4日",
       "genre": "大逃杀 (BR)、英雄射击、第一人称射击",
-      "monetization": "",
+      "monetization": "免费+内购",
       "xStatement": "",
-      "tagline": "加入了守望先锋英雄技能体系的快节奏高机动性大逃杀",
+      "tagline": "",
       "playerStats": "",
-      "coreLoop": "跳伞落地搜刮 -> 寻找并交战升级护甲 -> 利用技能转点跑毒 -> 决战圈吃鸡",
-      "difficulty": "偏高。需要极强的跟枪定位能力（TTK较长）以及对身法（滑铲跳、蹬墙跳）的熟练掌握",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[BR]-Apex英雄-进化护盾"
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型1：英雄技能体系 → 借鉴《守望先锋》\n- 被借鉴游戏的核心理念：守望先锋的核心是\"英雄多样性+技能配合\"，每个英雄有独特定位（输出/坦克/辅助）和技能组合\n- 本游戏在此基础上改出的独特体验：\n  1. 技能分为战术技能、被动技能、终极技能三层设计\n  2. 每个英雄有明确定位：突击/侦察/控制/支撑/游击\n  3. 技能与枪械分离，玩家需同时掌握英雄能力和武器操作\n  4. 英雄之间形成技能配合链（如Bangalore烟雾+Bloodhound扫描）\n\n 玩法原型2：Ping非语言交流系统 → 原创核心创新\n- 核心理念：解决大逃杀游戏陌生人语音沟通困难的问题\n- 本游戏的独特体验：\n  1. 标记系统：标记敌人、物资、目的地\n  2. 战术标记：标记\"进攻\"\"防守\"\"前进\"等战术意图\n  3. 物资共享：标记装备并提示队友需求\n  4. 被誉为\"改变大逃杀游戏交流方式\"的创新\n\n 玩法原型3：高机动性位移系统 → 借鉴《Titanfall》系列\n- 核心理念：继承Respawn前作Titanfall的高速移动风格\n- 本游戏的独特体验：\n  1. 滑铲加速：奔跑中滑铲保持速度\n  2. 蹬墙跳：二段跳+墙面反弹\n  3. 滑索：快速垂直/水平移动\n  4. 传送门（部分英雄）：Wraith传送门、Pathfinder滑索\n  5. 这些位移手段使Apex成为最灵活的大逃杀\n\n 玩法原型4：进化护盾系统 → 借鉴并改进自《Apex Legends Mobile》\n- 核心理念：替代传统护盾装备，随战斗伤害提升而升级\n- 本游戏的独特体验：\n  1. 护盾分为白色/紫色/金色/红色等级\n  2. 对敌人造成伤害可累积进化值\n  3. 进化满后可获得额外护盾容量\n  4. 鼓励积极作战而非单纯躲避\n\n---",
+      "pillars": [
+        {
+          "title": "【英雄技能系统】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【Ping交流系统】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【高机动性战斗】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【团队竞技体验】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        }
       ],
+      "achievements": "",
+      "relatedMechanisms": [],
       "filename": "ApexLegends.md",
       "source": "人工"
     },
@@ -11903,26 +13763,47 @@
     "Arknights": {
       "title": "Arknights / 明日方舟",
       "gameName": "明日方舟 / Arknights",
-      "developer": "鹰角网络",
+      "developer": "鹰角网络 (Hypergryph)",
       "publisher": "",
-      "platform": "移动端 / PC",
-      "releaseDate": "2019年5月",
-      "genre": "策略塔防 / 卡牌RPG",
-      "monetization": "",
-      "xStatement": "策略塔防卡牌手游，玩家部署干员阻挡敌人，结合RTS+塔防+卡牌养成",
-      "tagline": "二次元塔防",
-      "playerStats": "国内iOS约20亿流水，海外超50亿",
-      "coreLoop": "玩家部署干员阻挡敌人，通过合理布阵击杀敌人获取三星评价",
-      "difficulty": "中等 - 需要策略思考和养成积累",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "ProbabilityProgression",
-        "TenPullGuarantee",
-        "BlockAndRangeSystem",
-        "OperatorSkillSystem"
+      "platform": "Android / iOS / PC",
+      "releaseDate": "2019年5月1日",
+      "genre": "策略塔防 / 卡牌RPG / 二次元手游",
+      "monetization": "免费+内购",
+      "xStatement": "",
+      "tagline": "",
+      "playerStats": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型1：塔防战斗系统 → 借鉴《植物大战僵尸》\n- 被借鉴游戏的核心理念：《植物大战僵尸》的核心理念是\"在有限资源下部署单位阻挡敌人\"——玩家需要规划位置和时机，用不同植物应对不同敌人\n- 本游戏在此基础上改出的独特体验：\n  1. 部署数限制机制：限制最大部署数量而非格子位置，给予玩家更大策略自由度\n  2. 阻挡机制：只有近战职业能阻挡敌人，需要配合输出职业\n  3. 费用机制：部署干员需要消耗费用，通过先锋职业回复\n\n玩法原型2：职业分工系统 → 借鉴RTS游戏\n- 核心理念：RTS游戏强调不同单位各司其职，分工合作\n- 本游戏的独特体验：\n  1. 8种职业体系：先锋/狙击/近卫/术士/重装/医疗/特种/辅助\n  2. 每种职业有独特功能：阻挡、群攻、单体输出、治疗、减速、控制等\n  3. 职业间存在配合关系，形成战术组合\n\n玩法原型3：攻击范围系统 → 借鉴传统塔防\n- 核心理念：塔防游戏中防御塔的攻击范围直接影响战术选择\n- 本游戏的独特体验：\n  1. 二维形状范围：攻击范围可以是任意形状（菱形、十字形等），非传统圆形\n  2. 大幅增加干员和关卡设计维度\n  3. 形成\"绞肉机\"等独特打法\n\n玩法原型4：抽卡养成系统 → 借鉴二次元卡牌\n- 核心理念：角色收集+随机抽取是二次元手游核心商业模式\n- 本游戏的独特体验：\n  1. 干员精二突破解锁额外技能和属性\n  2. 模组系统提供额外养成深度\n  3. 基建系统作为资源产出辅助\n\n---",
+      "pillars": [
+        {
+          "title": "【部署数限制】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【职业分工系统】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【二维攻击范围】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【技能系统】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【基建系统】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        }
       ],
+      "achievements": "",
+      "relatedMechanisms": [],
       "filename": "Arknights.md",
       "source": "人工"
     },
@@ -11943,7 +13824,12 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[Excellent]街机-ArmoredCore6-机甲组装系统",
+        "[Excellent]街机-ArmoredCore6-锁定机制",
+        "[Excellent]街机-ArmoredCore6-扩充机能系统",
+        "[Excellent]街机-ArmoredCore6-地形纵深战斗"
+      ],
       "filename": "ArmoredCore6.md",
       "source": "人工"
     },
@@ -11990,7 +13876,13 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "01-car-license",
+        "02-touch-drive",
+        "03-open-track",
+        "04-nitro-boost",
+        "05-carbon-mod"
+      ],
       "filename": "Asphalt9.md",
       "source": "人工"
     },
@@ -12088,50 +13980,84 @@
       "source": "人工"
     },
     "Barony": {
-      "title": "Barony",
-      "gameName": "Barony / 巴罗尼",
-      "developer": "",
+      "title": "Barony（巴罗尼）",
+      "gameName": "Barony（巴罗尼）",
+      "developer": "Turning Wheel LLC（美国独立工作室）",
       "publisher": "",
       "platform": "",
-      "releaseDate": "",
-      "genre": "第一人称 Roguelike",
+      "releaseDate": "2015年6月23日（Steam）",
+      "genre": "第一人称 Roguelike / 地牢探索",
       "monetization": "",
-      "xStatement": "3D第一人称Roguelike，支持多人合作，玩家挑战地牢寻找解除诅咒的方法",
-      "tagline": "\"Minecraft体素+Roguelike+死亡变幽灵\"",
+      "xStatement": "",
+      "tagline": "第一人称合作Roguelike地牢探索",
       "playerStats": "",
-      "coreLoop": "探索随机地牢→战斗升级→获取装备→死亡/通关→重开",
-      "difficulty": "高，经典Roguelike难度",
-      "prototype": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "核心玩法原型\n\n玩法原型：《Barony》基于《Ultima Underworld》《System Shock》《Daggerfall》等经典第一人称地牢探索游戏的体验：\n\n- 《Ultima Underworld》核心理念：沉浸式第一人称地牢探索 + RPG角色成长\n- 《Rogue》核心理念：永久死亡 + 随机生成地牢 + 不可预测性\n\n本游戏的独特体验：\n1. 死亡变幽灵机制：玩家死亡后不会彻底消失，而是变成幽灵形态继续辅助队友\n2. 合作Roguelike：支持最多4人联机合作，职业互补配合\n3. 现代操作适配：在经典Rogueluelike基础上加入了现代第一人称操作（类似《半条命》的控制方式）\n\n 设计灵感来源\n\n| 借鉴游戏 | 借鉴内容 | 本游戏独特演绎 |\n| :--- | :--- | :--- |\n| Ultima Underworld | 第一人称沉浸式地牢探索 | 保留核心体验，简化操作 |\n| System Shock | 复杂RPG系统与叙事 | 保留角色养成深度 |\n| Daggerfall | 随机生成地图 | 每局不同的地牢体验 |\n| 传统Roguelike | 永久死亡 | 死亡变幽灵，降低挫败感 |\n\n---",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
         "[Roguelike]-Barony-死亡幽灵系统",
-        "RPG-Barony-死亡幽灵系统",
-        "death-ghost-system"
+        "[Roguelike]-Barony-随机地牢生成",
+        "[RPG]-Barony-职业系统",
+        "[Coop]-Barony-多人合作模式",
+        "[Roguelike]-Barony-多人合作模式",
+        "[Coop]-Barony-多人合作模式**关联标签**：第一人称 Roguelike、地牢探索、合作模式、职业系统、永久死亡"
       ],
       "filename": "Barony.md",
       "source": "人工"
     },
     "Battlegrounds": {
-      "title": "Battlegrounds / 绝地求生",
-      "gameName": "绝地求生 / Battlegrounds / 和平精英",
-      "developer": "腾讯光子工作室",
+      "title": "Battlegrounds / 和平精英",
+      "gameName": "和平精英 / Battlegrounds / 绝地求生手游",
+      "developer": "腾讯光子工作室群",
       "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "2018年",
-      "genre": "大逃杀 / 射击",
+      "platform": "iOS/Android",
+      "releaseDate": "2018年5月",
+      "genre": "大逃杀 / 战术竞技射击",
       "monetization": "",
-      "xStatement": "战术竞技射击手游，100人同屏对抗，信号区机制",
+      "xStatement": "100人同屏对抗的战术竞技射击手游，信号区机制替代毒圈，核心差异点在于针对中国市场的本地化适配（信号区、击中反馈）和腾讯社交生态的深度整合。\n\n---",
       "tagline": "手游大逃杀",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
-      "pillars": [],
+      "prototype": "玩法原型：《和平精英》是基于《绝地求生（PUBG）》PC版的体验：\n\n- 被借鉴游戏的核心理念/体验：《PUBG》核心体验是\"大逃杀\"——100人vs1人的生存竞技，灵感来源于日本电影《大逃杀》，满足玩家\"弱肉强食的生存竞争\"心理\n\n- 本游戏的独特体验：\n  1. 移动端适配：针对触屏操作重新设计射击手感，邀请前FPS世界冠军孟阳（RocketBoy）担任策划调优\n  2. 信号区机制：将毒圈改为信号值系统，信号值越低受击伤害越高，增加策略深度\n  3. 社交便捷化：深度整合微信/QQ好友关系链，一键组队开黑\n  4. 击中反馈优化：淘汰敌人后不会直接\"成盒\"，而是发送\"淘汰预警\"减少负罪感\n\n---",
+      "pillars": [
+        {
+          "title": "大逃杀 → 100人同屏对抗 → 单局唯一生存者",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "信号区 → 替代传统毒圈 → 信号值受击机制",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "枪械配件系统 → 丰富武器深度 → 个性化配装",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "多地图 → 不同战术环境 → 战术多样性",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "赛季通行证 → 皮肤奖励驱动 → 长线留存",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
-        "自走棋-酒馆战棋-英雄技能系统",
-        "YingxiongJinengXitong"
+        "大逃杀缩圈机制",
+        "信号区信号值系统",
+        "枪械配件组合系统",
+        "赛季通行证系统",
+        "淘汰预警/击败反馈系统",
+        "YingxiongJinengXitong",
+        "游戏卡-Battlegrounds"
       ],
       "filename": "Battlegrounds.md",
       "source": "人工"
@@ -12256,25 +14182,21 @@
     "BuriedBornes2": {
       "title": "BuriedBornes2 / 埋骨之地2",
       "gameName": "BuriedBornes2 / 埋骨之地2",
-      "developer": "-",
+      "developer": "NussyGame (yujiro komine)",
       "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "",
-      "genre": "Roguelike、回合制、卡牌RPG",
+      "platform": "Steam / Google Play / iOS",
+      "releaseDate": "2024年1月10日",
+      "genre": "Roguelike、回合制、卡牌RPG、地牢探索",
       "monetization": "免费内购",
-      "xStatement": "亡魂肉鸽\n\n将玩家死亡化作他人挑战的硬核地牢肉鸽。\n\n---",
+      "xStatement": "亡魂肉鸽\n\n单人或异步多人 + 文字点击回合制地牢探索 + 亡魂世代传承系统\n\n将玩家死亡化作他人挑战的硬核地牢肉鸽，通过亡魂系统实现异步社交。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "创建角色下本 -> 打怪获取装备技能 -> 死亡留下亡魂数据 -> 他人遭遇亡魂 -> 击败获取极品装备",
-      "difficulty": "低。文字点击操作",
-      "prototype": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "核心玩法原型： 借鉴经典Roguelike地牢游戏（如 Shiren the Wanderer、Etrian Odyssey系列）的分支房间选择 + 回合制战斗框架\n\n独特差异化： 在经典Roguelike基础上叠加「亡魂世代传承系统」，玩家死亡后留下的亡魂数据可被其他玩家遭遇，击败后可获取极品装备，形成独特的异步PVP社交体验。\n\n系统设计借鉴：\n- 技能系统 → 借鉴《游戏王》/《杀戮尖塔》的卡牌构筑思路（技能符文、模式切换）\n- 召唤系统 → 从一代的\"伪概念\"（追击伤害/护盾）进化为真正的召唤物战斗\n- 工会社交 → 借鉴MMO的公会系统，完成公会任务获取奖励\n\n---",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "世代继承",
-        "因子继承",
-        "肉鸽-BuriedBornes2-离群亡魂异步PVP系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "BuriedBornes2.md",
       "source": "人工"
     },
@@ -12419,47 +14341,88 @@
       "title": "使命召唤：现代战争3 / Call of Duty: Modern Warfare III",
       "gameName": "使命召唤：现代战争3 (COD MW3)",
       "developer": "",
-      "publisher": "",
+      "publisher": "Activision",
       "platform": "",
-      "releaseDate": "",
-      "genre": "FPS / 3A射击",
+      "releaseDate": "2023年11月10日",
+      "genre": "FPS / 3A年货射击",
       "monetization": "",
       "xStatement": "",
-      "tagline": "3A年货FPS，COD年货新作",
+      "tagline": "",
       "playerStats": "",
-      "coreLoop": "剧情/多人→刷级→解锁武器→排位",
-      "difficulty": "中低 - 3A大作门槛",
-      "prototype": "",
-      "pillars": [],
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "多人模式 → 基于COD传统框架的快节奏竞技\n\n- 玩法原型：《COD》系列历代作品的成熟多人框架\n- 核心理念/体验：快节奏、易上手的竞技射击，提供爽快的击杀反馈和明确的成长目标\n- 本游戏改出的独特体验：\n  - 引入大规模开放战场模式（Ground War/Invasion），最多支持64人同屏战斗\n  - 地图设计打破传统三lane结构，每个房间至少3个入口，增加战术深度\n  - 引入\"部署\"机制减少开局被杀体验\n\n 僵尸模式 → 基于Black Ops系列的合作PVE\n\n- 玩法原型：《COD: Black Ops》系列僵尸模式的演进\n- 核心理念/体验：四人合作抵御成群僵尸，通过武器升级和被动技能增强生存能力\n- 本游戏改出的独特体验：\n  - 转变为开放世界设计，玩家有更大自主权探索地图、选择防御位置\n  - 保留经典元素：武器墙购买、Perk-a-Cola饮料、神秘箱\n  - 加入\"Aether Storm\"机制，45分钟后收缩区域强制撤离\n\n 剧情战役 → 基于现代战争系列的线性叙事\n\n- 玩法原型：《COD: Modern Warfare》系列剧情\n- 核心理念/体验：电影级叙事与动作射击结合\n- 本游戏改出的独特体验：首次引入可选择路线和任务方式的非线性设计\n\n---",
+      "pillars": [
+        {
+          "title": "枪械定制系统 → 深度改装 + 视觉收集 → 武器 blueprints + 30+配件槽位",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "赛季通行证运营 → 持续内容更新 → 100+层级奖励",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "僵尸模式PVE体验 → 合作生存 + 资源管理 → 4人组队 + 45分钟撤离",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "多人竞技排位系统 → 天梯匹配 + 公平竞争 → 18个段位",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
         "[FPS]-CODMW3-剧情战役",
-        "[FPS]-CODMW3-多人模式"
+        "[FPS]-CODMW3-多人模式",
+        "[FPS]-CODMW3-僵尸模式",
+        "[FPS]-CODMW3-开放战场"
       ],
       "filename": "CODModernWarfare3.md",
       "source": "人工"
     },
     "COK": {
-      "title": "COK / 乱世王者",
-      "gameName": "COK (Clash of Kings) / 乱世王者",
-      "developer": "智明星空 / 腾讯",
+      "title": "游戏卡 - COK / 列王的纷争 / 乱世王者",
+      "gameName": "COK (Clash of Kings) / 列王的纷争 / 乱世王者",
+      "developer": "智明星通（Elex） / 腾讯（乱世王者授权改编）",
       "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "2016年",
-      "genre": "SLG、联盟",
-      "monetization": "内购制",
-      "xStatement": "COK-like 联盟策略SLG\n\n经典 COK-like 联盟策略游戏，融合资源发育、行军战斗与联盟社交，玩家在沙盘地图中发育成长，通过联盟协作争夺资源与领土。\n\n---",
-      "tagline": "",
+      "platform": "移动端（iOS/Android）",
+      "releaseDate": "2015年（COK全球版）/ 2016年（乱世王者中国版）",
+      "genre": "SLG、联盟策略、即时战略",
+      "monetization": "",
+      "xStatement": "",
+      "tagline": "COK-like 联盟策略SLG",
       "playerStats": "",
-      "coreLoop": "采集资源 -> 升级建筑/科技 -> 训练部队 -> 联盟协作 -> 战斗争夺 -> 获得资源",
-      "difficulty": "中等。需要理解资源循环、建筑升级顺序、联盟配合",
-      "prototype": "核心玩法：《COK》基于 COC 战斗系统的体验创新\n\n- 被借鉴游戏的核心理念：COC 的即时战斗玩法和资源循环\n- 本游戏在此基础上改出的独特体验：\n  1. 引入大地图沙盘，行军有了空间策略\n  2. 联盟系统强化，PVP 变成联盟战\n  3. 武将系统，增加 RPG 养成深度\n\n---",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[SLG]-COK+联盟宝箱",
-        "like"
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型1：大地图即时战略 → 借鉴《部落冲突》(Clash of Clans)\n\n- 被借鉴游戏的核心理念：《部落冲突》的核心理念是\"异步PVP+资源循环\"——玩家离线发育、实时进攻，资源产出与消耗形成闭环\n- 本游戏在此基础上改出的独特体验：\n  1. 引入大地图沙盘行军：行军有了空间策略，可侦查、设伏、围点打援\n  2. 联盟系统强化：PVP从个人对抗升级为联盟战争\n  3. 引入中国玩家熟悉的武将系统，增加RPG养成深度\n  4. 联盟宝箱创新：一人付费全盟受益\n\n 玩法原型2：联盟社交变现 → 借鉴MMORPG公会体系\n\n- 核心理念：MMORPG中公会承担资源分发、社群凝聚功能\n- 本游戏的独特体验：\n  1. 联盟成为\"发酵器\"：福利诱导→情感培育→付费变现三步走\n  2. 联盟科技、联盟建筑提供共同目标\n  3. 王战、领土战等联盟级PVP玩法\n\n 玩法原型3：车头车身机制 → COK-like 独有创新\n\n- 核心理念：大R玩家（车头）带领中小R玩家（车身）参与战斗\n- 本游戏的独特体验：\n  1. 高战玩家援助低战玩家城市防守\n  2. 联盟集结战中小R跟随大R进攻\n  3. 形成\"抱大腿\"生态，降低中低付费玩家参与门槛\n\n---",
+      "pillars": [
+        {
+          "title": "【大地图行军系统】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【联盟系统】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【武将系统】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【车头车身机制】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        }
       ],
+      "achievements": "",
+      "relatedMechanisms": [],
       "filename": "COK.md",
       "source": "人工"
     },
@@ -12623,27 +14586,54 @@
       "title": "Call of Duty: Warzone / 使命召唤：战区",
       "gameName": "Call of Duty: Warzone (使命召唤：战区)",
       "developer": "",
-      "publisher": "",
+      "publisher": "Activision",
       "platform": "",
-      "releaseDate": "",
+      "releaseDate": "2020年3月10日",
       "genre": "大逃杀 (BR)、第一人称射击",
       "monetization": "",
       "xStatement": "",
       "tagline": "能买枪、能复活的街机风爽快版PUBG",
       "playerStats": "",
-      "coreLoop": "跳伞落地 -> 做合约赚钱/搜刮 -> 购买定制武器箱 -> 死亡进古拉格/花钱复活队友 -> 决战",
-      "difficulty": "中等。枪械后坐力小（极易控枪），但对索敌反应速度和\"先开枪\"的要求极高（TTK短）",
-      "prototype": "",
-      "pillars": [],
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "借鉴来源：\n- 玩法原型：《PUBG》的大逃杀框架\n  - 《PUBG》的核心理念：生存竞技，落地赤手空拳，通过搜刮变强，最后生存\n  - Warzone的独特改进：\n    1. 古拉格1v1/2v2复活 - 死亡不是终点，有再次机会（借鉴COD的传统1v1对决）\n    2. 合约系统 - 引导玩家主动对抗，而非单纯逃避\n    3. 购买武器箱 - 绕过搜刮直接获得定制武器（降低运气成分）\n    4. 连杀奖励 - COD系列的经典系统带入大逃杀\n\n- 枪械手感：《使命召唤》系列\n  - 后坐力小、TTK短\n  - 丰富的武器配件定制系统\n\n- 经济系统：原创\n  - 现金购买武器箱、装备、复活队友\n\n---",
+      "pillars": [
+        {
+          "title": "古拉格复活系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "合约系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "装备舱Loadout系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "连杀奖励系统",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
+        "[BR]-CallOfDutyWarzone-古拉格复活系统",
+        "[BR]-CallOfDutyWarzone-合约系统",
+        "[BR]-CallOfDutyWarzone-装备舱Loadout系统",
+        "[FPS]-CallOfDutyWarzone-连杀奖励系统",
         "[BR]-使命召唤战区-古拉格对决",
-        "[FPS]-使命召唤-连杀奖励系统",
         "大逃杀-古拉格复活系统",
         "大逃杀-合约系统",
         "大逃杀-装备舱Loadout系统",
+        "[FPS]-使命召唤-连杀奖励系统",
         "gulag-revive",
-        "[BR]-使命召唤战区-古拉格对决>"
+        "[BR]-CallOfDutyWarzone-古拉格复活系统>",
+        "[BR]-CallOfDutyWarzone-合约系统>",
+        "[BR]-CallOfDutyWarzone-装备舱Loadout系统>"
       ],
       "filename": "CallOfDutyWarzone.md",
       "source": "人工"
@@ -12722,21 +14712,42 @@
       "source": "人工"
     },
     "Celeste": {
-      "title": "蔚蓝 (Celeste)",
-      "gameName": "",
-      "developer": "",
+      "title": "游戏卡 - Celeste (蔚蓝)",
+      "gameName": "蔚蓝 / Celeste",
+      "developer": "Extremely OK Games (原 Maddy Makes Games)",
       "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "",
+      "platform": "PC / Nintendo Switch / PS4 / Xbox / iOS",
+      "releaseDate": "2018年1月",
+      "genre": "平台跳跃 / 独立游戏",
       "monetization": "",
       "xStatement": "",
-      "tagline": "",
+      "tagline": "叙事驱动平台跳跃",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
-      "pillars": [],
+      "prototype": "玩法原型1：精确平台跳跃系统 → 借鉴《超级食肉男孩》(Super Meat Boy)\n\n- 被借鉴游戏的核心理念：《超级食肉男孩》的核心理念是\"死亡即学习\"——玩家通过无数次死亡积累对关卡的肌肉记忆，在精确的时间窗口完成操作，享受\"差一点就成功\"的快感\n- 本游戏在此基础上改出的独特体验：\n  1. 引入冲刺(Dash)机制：空中可进行一次冲刺，扩展了操作维度和关卡设计深度\n  2. 攀墙跳机制：墙面可攀爬并再次跳跃，增加垂直维度探索\n  3. 情感叙事融入：每一次死亡不是惩罚，而是与Madeline自我对话的一部分\n\n 玩法原型2：叙事驱动重复挑战 → 借鉴独立游戏情感表达传统\n\n- 核心理念：独立游戏常通过游戏机制表达情感，如《Journey》的沙子叙事\n- 本游戏的独特体验：\n  1. 攀登Celeste山象征征现实中的自我克服\n  2. 主角Madeline的焦虑与抑郁通过游戏机制具象化（红脸代表焦虑冲刺）\n  3. 收集草莓成为情感锚点——不是强制的收集要素，而是\"我在这里\"的证明\n\n 玩法原型3：帮助模式系统 → 行业创新\n\n- 核心理念：传统硬核游戏将难度视为壁垒，本游戏将难度选择权交给玩家\n- 本游戏的独特体验：\n  1. 多种辅助选项：无限冲刺、减慢速度、隐形平台、无敌等\n  2. 辅助不影响成就：使用帮助仍然可以获得所有收集品和成就\n  3. 体现\"游戏可及性\"理念，降低门槛扩大受众\n\n---",
+      "pillars": [
+        {
+          "title": "【冲刺(Dash)机制】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【攀墙跳+墙面动作系统】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【情感叙事系统】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【帮助模式系统】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "Celeste.md",
@@ -12787,26 +14798,42 @@
     "CitiesSkylines": {
       "title": "Cities: Skylines / 都市天际线",
       "gameName": "都市天际线 (Cities: Skylines)",
-      "developer": "",
-      "publisher": "",
-      "platform": "",
-      "releaseDate": "",
+      "developer": "Colossal Order（芬兰）",
+      "publisher": "Paradox Interactive",
+      "platform": "PC（Steam/Epic）/主机（PS4/Xbox/Switch）/移动端",
+      "releaseDate": "2015年3月10日",
       "genre": "城市建造模拟",
-      "monetization": "",
-      "xStatement": "",
-      "tagline": "现代版《模拟城市》，更自由的建筑规划",
+      "monetization": "买断制+DLC",
+      "xStatement": "自由规划的无限制城市建造体验\n\n通过高度自由的区域划分+精细化交通系统，让玩家在没有任何压力的情况下实现自己的\"理想城市\"愿景。\n\n---",
+      "tagline": "",
       "playerStats": "",
-      "coreLoop": "规划道路→划分区域→建造建筑→满足居民需求→收取税费→升级设施→扩张城市",
-      "difficulty": "中等偏上，需要理解城市功能分区和交通规划基础概念",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "模拟经营-都市天际线-交通AI路径系统",
-        "模拟经营-都市天际线-城市分区系统",
-        "TrafficAI",
-        "ZoningSystem"
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《都市天际线》是基于《模拟城市》的城市建造体验：\n\n- 《模拟城市》的核心理念：在一个固定区域内规划城市布局，平衡住宅、商业、工业需求，通过税收维持城市运转\n- 本游戏在此基础上改出的独特体验：\n  - 无限制的地图规模：相比《模拟城市2013》的小地图，采用超大地图设计，满足\"宏大叙事\"需求\n  - 精细化交通系统：内置真实的AI交通路径规划，玩家需要解决真实的交通拥堵问题，被誉为\"交通模拟器\"\n  - 强大的Mod支持：Steam创意工坊支持海量玩家自制内容，官方明确将\"创建活跃的内容生成社区\"作为设计目标\n  - 无压力体验：没有失败条件，玩家可以随意实验，不会有\"城市破产\"强制结束\n\n---",
+      "pillars": [
+        {
+          "title": "【自由建造】->【无限资金模式+超大地图】->【玩家可以不受限制地建造理想中的城市；地图可容纳数十万人口】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【交通模拟】->【AI路径规划系统】->【真实的车辆行为和交通拥堵问题；玩家需要通过道路设计、立交桥、公共交通来解决】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【区域规划】->【RCI分区系统】->【住宅(Residential)、商业(Commercial)、工业(Industrial)三种区域按需求自动吸引相应建筑】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【Mod生态】->【Steam创意工坊】->【海量玩家自制建筑、资产、Mod；官方鼓励社区创作】",
+          "experience": "",
+          "design": ""
+        }
       ],
+      "achievements": "",
+      "relatedMechanisms": [],
       "filename": "CitiesSkylines.md",
       "source": "人工"
     },
@@ -12860,29 +14887,44 @@
       "source": "人工"
     },
     "ClashRoyale": {
-      "title": "Clash Royale / 皇室战争",
-      "gameName": "Clash Royale / 皇室战争",
-      "developer": "Supercell",
+      "title": "游戏卡：皇室战争 / Clash Royale",
+      "gameName": "",
+      "developer": "",
       "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "2016年",
-      "genre": "即时策略、卡牌对战",
-      "monetization": "免费内购",
-      "xStatement": "赌上社交名誉的即时策略对抗\n\n---",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "",
+      "monetization": "",
+      "xStatement": "",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "消耗圣水部署单位/法术 -> 攻防博弈 -> 摧毁对方基地获胜",
-      "difficulty": "中。基础操作简单，但高操作频率和策略要求",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "谁是皇子玩法",
-        "即时策略-皇室战争-父子局",
-        "RTS-卡牌构筑系统",
-        "RTS-圣水费用系统",
-        "RTS-异步PVP系统"
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "核心参考：\n- 卡牌对战：借鉴《炉石传说》的卡牌组合策略\n- 即时部署：借鉴《部落冲突》的单位投放\n- 塔防元素：借鉴塔防游戏的防守机制\n\n独特创新：\n- 圣水费用系统（10圣水上限）\n- 双路推塔机制\n- 3分钟快节奏对战\n\n---",
+      "pillars": [
+        {
+          "title": "圣水费用系统 → 资源管理",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "卡牌组合系统 → 策略深度",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "双路推塔机制 → 目标明确",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "即时微操 → 操作深度",
+          "experience": "",
+          "design": ""
+        }
       ],
+      "achievements": "",
+      "relatedMechanisms": [],
       "filename": "ClashRoyale.md",
       "source": "人工"
     },
@@ -12921,7 +14963,9 @@
       "achievements": "",
       "relatedMechanisms": [
         "[Qualify]RTS-CompanyOfHeroes-可破坏物理环境",
-        "[Qualify]RTS-CompanyOfHeroes-掩体压制系统"
+        "[Qualify]RTS-CompanyOfHeroes-掩体压制系统",
+        "CoverSuppression",
+        "DestructibleEnvironment"
       ],
       "filename": "CompanyOfHeroes.md",
       "source": "人工"
@@ -13296,23 +15340,50 @@
       "source": "人工"
     },
     "DanZaiPaiDui": {
-      "title": "蛋仔派对",
-      "gameName": "",
-      "developer": "",
+      "title": "蛋仔派对 / Eggy Party",
+      "gameName": "蛋仔派对 / Eggy Party",
+      "developer": "网易游戏（雷火事业部和wings）",
       "publisher": "",
-      "platform": "",
+      "platform": "iOS、Android、PC",
       "releaseDate": "",
-      "genre": "",
+      "genre": "派对游戏 / 闯关综艺 / UGC创作",
       "monetization": "",
       "xStatement": "",
-      "tagline": "",
+      "tagline": "借鉴糖豆人+UGC编辑器创新的潮玩盲盒主题派对游戏",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
-      "pillars": [],
+      "prototype": "玩法原型：《蛋仔派对》借鉴了《Fall Guys》糖豆人的多人闯关派对体验\n\n- 被借鉴体验：综艺式闯关派对的纯粹快乐——简单直觉的操作、 unpredictably 的物理碰撞、观众投票淘汰的紧张感\n- 本游戏独特体验：潮玩盲盒主题 + UGC编辑器生态——蛋仔形象借鉴盲盒公仔，乐园模式提供完整地图编辑器，玩家可自创玩法\n\n多系统借鉴说明：\n- 闯关系统：借鉴《Fall Guys》糖豆人的多人闯关综艺玩法（障碍竞速、淘汰生存）\n- 社交系统：借鉴类MC庄园的蛋仔岛多人互动\n- UGC系统：借鉴《马里奥制造》的地图编辑器的核心思路，2023年初每周上传百万级地图\n\n---",
+      "pillars": [
+        {
+          "title": "闯关派对核心循环",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "UGC地图编辑器生态",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "潮玩盲盒美术风格",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "社交系统与公会",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[派对游戏]-蛋仔派对-UGC编辑器",
+        "[派对游戏]-蛋仔派对-蛋圈社交",
+        "[派对游戏]-蛋仔派对-盲盒皮肤",
+        "[派对游戏]-蛋仔派对-UGC编辑器>",
+        "[派对游戏]-蛋仔派对-蛋圈社交>"
+      ],
       "filename": "DanZaiPaiDui.md",
       "source": "人工"
     },
@@ -13340,26 +15411,42 @@
     "DarkestDungeon": {
       "title": "Darkest Dungeon / 暗黑地牢",
       "gameName": "Darkest Dungeon / 暗黑地牢",
-      "developer": "Red Hook Studios",
+      "developer": "Red Hook Studios（加拿大独立工作室）",
       "publisher": "",
-      "platform": "PC / 主机 / 移动端",
-      "releaseDate": "2016年",
+      "platform": "PC / PS4 / Xbox One / Nintendo Switch / iOS / Android",
+      "releaseDate": "2016年1月",
       "genre": "Roguelike、回合约策略、恐惧管理",
       "monetization": "买断制",
-      "xStatement": "恐惧管理RPG\n\n结合了塔科夫掉落恐惧的单机/异步Roguelike。\n\n---",
+      "xStatement": "恐惧管理Roguelike\n\n单人或异步多人游玩，基于 Lovecraftian 心理恐怖体验的压力管理Roguelike。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "局外招募/购买补给 -> 深入地牢探索 -> 团灭前抉择是否撤退 -> 成功撤退带出资源/死亡角色全损",
-      "difficulty": "中。决策门槛极高",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "角色永久死亡",
-        "尸体搜刮",
-        "城镇建设",
-        "RPG-暗黑地牢-理智值压力系统"
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《Darkest Dungeon》是基于经典 Roguelike + Lovecraftian 心理恐怖的压力管理体验：\n\n- 被借鉴游戏的核心理念：\n  - 经典 Roguelike（如《Rogue》《NetHack》《Dungeon Crawl Stone Soup》）：随机生成地牢、角色永久死亡、单局流程\n  - Lovecraftian 恐怖文学：不可名状的恐惧、心理崩溃、理性边缘的挣扎\n  \n- 本游戏在此基础上改出的独特体验：\n  - 压力/恐惧系统：角色不仅会死亡，还会因压力累积出现心理问题（恐慌、崩溃、自杀倾向），这是当时市面上罕见的创新\n  - 视觉化恐怖表现：通过手绘炭笔画风格呈现怪诞意象，强化心理不适感\n  - 城镇建设与角色恢复：地牢之外存在安全区（酒馆、教堂），为角色恢复心理状态提供反馈循环\n\n---",
+      "pillars": [
+        {
+          "title": "压力/恐惧系统 → 心理崩溃机制 → 压力值0-100，100时角色可能自杀或叛逃",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "角色永久死亡 → 不可逆损失 → 角色死后无法复活，装备和经验全失",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "尸体搜刮 → 风险收益博弈 → 战利品需手动拾取，死亡后掉落",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "城镇建设 → 资源分配策略 → 升级建筑需要大量资源，决定角色恢复效率",
+          "experience": "",
+          "design": ""
+        }
       ],
+      "achievements": "",
+      "relatedMechanisms": [],
       "filename": "DarkestDungeon.md",
       "source": "人工"
     },
@@ -13542,7 +15629,9 @@
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "游戏卡-Diablo-II-Resurrected"
+      ],
       "filename": "DiabloIIResurrected.md",
       "source": "人工"
     },
@@ -13625,38 +15714,61 @@
     "DontStarve": {
       "title": "Don't Starve / 饥荒",
       "gameName": "Don't Starve / 饥荒",
-      "developer": "Klei Entertainment",
+      "developer": "Klei Entertainment（加拿大温哥华）",
       "publisher": "",
-      "platform": "PC / 移动端",
-      "releaseDate": "2013年",
+      "platform": "PC / 移动端 / PS4 / PSVita",
+      "releaseDate": "2013年4月",
       "genre": "生存冒险、2D沙盒、生存管理、开放世界、多人联机",
       "monetization": "买断制",
-      "xStatement": "暗黑童话硬核生存\n\n暗黑童话风的硬核生存+探索+管理类游戏，更残酷的MC生存模式。\n\n---",
+      "xStatement": "暗黑童话硬核生存\n\n暗黑童话风的硬核生存+探索+管理类游戏，更残酷的MC生存模式。\n\n 2-4人合作在随机生成的暗黑童话世界中，通过资源收集、三维状态管理（饥饿/理智/生命）、季节循环应对挑战，目标是尽可能延长生存天数。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "收集基础资源（草/树枝/矿石）-> 制作工具/食物/建筑 -> 维持三维状态（饥饿/理智/生命）-> 探索地图/洞穴 -> 应对季节变化与怪物袭击 -> 挑战特殊BOSS/解锁科技",
-      "difficulty": "中等偏上。基础生存逻辑易理解，但资源管理、季节应对复杂",
-      "prototype": "玩法原型：生存管理 + 季节循环 + 探索\n\n- 被借鉴游戏的核心理念：生存挑战 + 资源管理\n- 本游戏在此基础上改出的独特体验：\n  1. 三维状态管理\n  2. 季节循环\n  3. 科技树解锁\n  4. 怪物仇恨机制\n\n---",
-      "pillars": [],
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：生存管理 + 季节循环 + 探索\n\n- 被借鉴游戏：《Minecraft》、《Lost in Blue》\n- 被借鉴游戏的核心理念/体验：\n  - 《Minecraft》：沙盒建造 + 随机生成世界 + 生存挑战\n  - 《Lost in Blue》：野外生存 + 资源管理 + 探索未知\n- 本游戏在此基础上改出的独特体验：\n  1. 三维状态管理：饥饿/理智/生命，理智系统是独特创新\n  2. 季节循环：春夏秋冬温度/资源/事件变化\n  3. 科技树解锁：科学/魔法双线发展\n  4. 怪物仇恨与战斗判定：独特的怪物行为AI\n  5. 暗黑童话美术风格：Tim Burton风格的独特视觉语言\n  6. 随机生成世界：每次开局都是全新体验\n\n---",
+      "pillars": [
+        {
+          "title": "【生存压力驱动】-> 【三维状态系统】-> 【饥饿/理智/生命实时衰减】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【季节循环系统】-> 【环境压力变化】-> 【春夏秋冬16天/季节】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【自由建造系统】-> 【科技树解锁】-> 【科学/魔法两条路线】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【随机生成世界】-> 【地图探索动力】-> 【生物群落/洞穴/异世界】",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
         "生存沙盒-DontStarve-环境压力系统",
-        "生存沙盒-DontStarve-动态天气系统"
+        "生存沙盒-DontStarve-动态天气系统",
+        "生存沙盒-DontStarve-三维状态管理",
+        "生存沙盒-DontStarve-科技树系统"
       ],
       "filename": "DontStarve.md",
       "source": "人工"
     },
     "DotaUnderlords": {
       "title": "Dota Underlords / 云顶之弈",
-      "gameName": "云顶之弈 / Dota Underlords",
+      "gameName": "云顶之弈 / Dota Underlords / 刀塔霸业",
       "developer": "Valve",
       "publisher": "",
-      "platform": "PC / 移动端",
-      "releaseDate": "2019年",
+      "platform": "PC / iOS / Android",
+      "releaseDate": "2019年6月（beta），2020年正式发布",
       "genre": "自走棋",
       "monetization": "",
       "xStatement": "",
-      "tagline": "Dota自走棋",
+      "tagline": "基于Dota2 IP的官方自走棋",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
@@ -13821,29 +15933,32 @@
     "EggyParty": {
       "title": "蛋仔派对 / Eggy Party",
       "gameName": "蛋仔派对 / Eggy Party",
-      "developer": "网易",
+      "developer": "网易游戏",
       "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "2022年",
+      "platform": "移动端（iOS/Android）、Switch",
+      "releaseDate": "2022年5月27日",
       "genre": "休闲竞技、派对游戏",
-      "monetization": "免费内购",
-      "xStatement": "派对闯关\n\n带皮肤展示的多人派对PVP。\n\n---",
+      "monetization": "免费内购+F2P",
+      "xStatement": "派对闯关+社交乐园\n\n32人实时匹配的多人派对闯关PVP，带外观展示与社交大厅的休闲竞技游戏。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "抽选目标颜色 -> 换上对应颜色皮肤 -> 展示皮肤 -> 决定出局玩家",
-      "difficulty": "低。仅需更换皮肤并站在对应位置",
-      "prototype": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "核心玩法借鉴\n\n玩法原型：《蛋仔派对》基于《Fall Guys》（糖豆人）的多人闯关派对体验：\n\n- 糖豆人核心体验：基于\"综艺闯关\"的欢乐竞技体验——32名玩家在各种搞笑障碍赛道中竞争，最后一轮决出冠军，强调轻松欢乐、运气与技巧并存的下饭操作\n- 蛋仔派对独特体验：强化社交破冰+UGC内容生态——将单一闯关扩展为\"蛋仔岛\"社交乐园+工坊编辑器，让玩家不仅是闯关者，更是内容创造者\n\n 衍生玩法借鉴\n\n| 玩法模式 | 借鉴来源/灵感 | 蛋仔派对的独特变体 |\n| :--- | :--- | :--- |\n| 多人对抗（爪爪大作战） | 阵营对抗类游戏 | Q版物理碰撞+技能道具 |\n| 特种蛋突击 | 射击/潜入游戏 | 简化操作+阵营博弈 |\n| 蛋仔庄园 | 模拟经营 | 社交驱动的装饰分享 |\n\n---",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
         "默契挑战玩法",
         "蛋仔岛",
-        "UGC-蛋仔派对-默契挑战",
-        "UGC-蛋仔派对-剧本扮演",
         "UGC地图工坊",
+        "蛋仔庄园",
         "变异蛋狂潮",
         "道具对抗系统",
-        "魂蛋观战模式"
+        "魂蛋观战模式",
+        "巅峰赛",
+        "2025-Q1*",
+        "UGC-蛋仔派对-剧本扮演",
+        "UGC-蛋仔派对-默契挑战"
       ],
       "filename": "EggyParty.md",
       "source": "人工"
@@ -13939,70 +16054,180 @@
     "EscapeFromTarkov": {
       "title": "Escape from Tarkov / 逃离塔科夫",
       "gameName": "Escape from Tarkov (逃离塔科夫)",
-      "developer": "",
+      "developer": "Battlestate Games (俄罗斯圣彼得堡)",
       "publisher": "",
       "platform": "",
-      "releaseDate": "",
-      "genre": "搜刮射击 (Looter Shooter) / 撤离类 (Extraction) / 硬核FPS",
+      "releaseDate": "2017年正式发布 (Alpha 2016, Beta 2017)",
+      "genre": "搜刮射击 (Looter Shooter) / 撤离类 (Extraction Shooter) / 硬核FPS",
       "monetization": "",
       "xStatement": "",
       "tagline": "极致硬核、主打\"搜刮-战斗-撤离\"的拟真军事射击游戏",
       "playerStats": "",
-      "coreLoop": "选配装备入局 -> 搜集物资/与其他玩家或AI交火 -> 规划路线前往撤离点 -> 成功带出局外建立长期经济",
-      "difficulty": "极高。需要背板复杂地图与撤离点、掌握拟真的枪械弹道、理解复杂的独立肢体医疗与护甲穿透系统",
-      "prototype": "",
-      "pillars": [],
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《Escape from Tarkov》是基于\"赌场一夜暴富\"的心理体验设计的：\n\n- 核心体验：玩家携带装备进入赌场（战备），在赌桌间搜索物资（地图探索），可能满载而归、小赚一笔，也可能输光一切（被击杀损失所有物品）\n- 独特体验：硬核拟真军事题材 + 复杂枪械改装系统 + 拟真肢体伤害与医疗系统\n\n设计参考来源：\n- Contract Wars：Battlestate Games 前作，提供撤离类玩法雏形\n- S.T.A.L.K.E.R. 系列：废土氛围、开放世界探索\n- Arma 系列：军事模拟、复杂武器系统\n\n---",
+      "pillars": [
+        {
+          "title": "搜刮-撤离经济循环 → 装备全损机制 → 带入装备+搜刮物资在死亡后全部掉落",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "硬核拟真战斗系统 → 复杂枪械改装 + 弹道/护甲穿透 → 枪械有数十个可改装部位，子弹与护甲存在复杂穿透计算",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "拟真医疗与物资管理 → 生命值分多部位 + 复杂医疗道具 → 出血/骨折/脱水/体力等状态需对应处理",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "地图探索与信息博弈 → 复杂地图结构 + 撤离点机制 → 每张地图有多个撤离点，部分需特定条件（如钥匙卡、击杀数）",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
         "[撤离类]-逃离塔科夫-安全箱",
+        "[撤离类]-逃离塔科夫-保险系统",
+        "[撤离类]-逃离塔科夫-搜刮经济",
         "escape-mechanism",
         "gear-BringInTakeOut",
-        "gold-items-system"
+        "gold-items-system",
+        "搜刮经济系统",
+        "[撤离类]-逃离塔科夫-安全箱>",
+        "[撤离类]-逃离塔科夫-保险系统>",
+        "[撤离类]-逃离塔科夫-搜刮经济**关联标签**：FPS、刷宝、RPG、硬核军事、撤离类、搜刮射击"
       ],
       "filename": "EscapeFromTarkov.md",
+      "source": "人工"
+    },
+    "EternalReturn": {
+      "title": "游戏卡：永恒轮回：黑色幸存者 / Eternal Return / Black Survival",
+      "gameName": "",
+      "developer": "",
+      "publisher": "",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "",
+      "monetization": "",
+      "xStatement": "",
+      "tagline": "",
+      "playerStats": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "核心玩法原型：\n- MOBA+吃鸡混合：借鉴《英雄联盟》的角色技能 + 吃鸡的生存淘汰机制\n- 装备合成系统：借鉴ARPG的装备打造，需要在地图上搜集材料\n- 俯视角竞技：2.5D俯视视角，类似DOTA的操作风格\n\n独特体验/创新点：\n- 角色技能驱动：每个角色有独特技能，类似MOBA\n- 装备DIY：需要自己搜集材料合成装备，而非直接购买\n- 跑图打怪：在地图上打怪获取材料和经验\n\n---",
+      "pillars": [
+        {
+          "title": "角色技能系统 → 角色深度",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "装备合成系统 → 策略深度",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "生存竞技 → 吃鸡体验",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "探索与战斗 → 资源争夺",
+          "experience": "",
+          "design": ""
+        }
+      ],
+      "achievements": "Steam销量  ：500万 1000万;    Steam峰值在线  ：17,932人;    发行平台  ：Steam（免费）;    开发  ：NimbleBit（韩国）; ### 开发信息;    开发商  ：NimbleBit;    发行商  ：NimbleBit;    正式发布时间  ：2020年10月; ### 系列地位;  MOBA+吃鸡混合品类的先驱之一;  融合了英雄联盟的技能设计和吃鸡的生存机制; ### 信息来源;  Steam商店页面;  SteamCharts：玩家数据;  游民星空：攻略介绍;  百度百科：游戏背景",
+      "relatedMechanisms": [],
+      "filename": "EternalReturn.md",
       "source": "人工"
     },
     "Expedition33": {
       "title": "Clair Obscur: Expedition 33 / 远征33号",
       "gameName": "Clair Obscur: Expedition 33 / 远征33号",
-      "developer": "Moonage Games",
+      "developer": "Moonage Games (法国)",
       "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "2025年",
-      "genre": "RPG、回合制策略、动作元素",
+      "platform": "PC / PlayStation 5 / Xbox Series X\\",
+      "releaseDate": "2025年4月",
+      "genre": "RPG / 回合制策略 / 动作元素",
       "monetization": "买断制",
-      "xStatement": "融入弹反的回合制RPG\n\n融入了《只狼》弹反快感的回合制RPG。\n\n---",
+      "xStatement": "融入《只狼》弹反快感的回合制RPG\n\n将动作游戏的核心体验——见招拆招的弹反快感——融入传统回合制RPG的战斗框架，让玩家在策略思考的同时享受即时反应的成就感。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "探索地图 -> 遭遇战进入回合制面板 -> 在敌我回合中穿插QTE攻防 -> 结算成长",
-      "difficulty": "中高。需要回合制思考+动态视力反应",
-      "prototype": "",
-      "pillars": [],
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "战斗系统\n\n借鉴来源：\n- 《只狼：影逝二度》：弹反机制（Parry）的核心体验——精准弹反带来的时间停顿与反击快感\n- 《最终幻想VIII/IX/X》：回合制框架与召唤兽系统\n- 《莎木》/《Lost Odyssey》：QTE（快速反应事件）战斗演出\n\n独特体验：\n- 在敌方回合插入QTE攻防，弹反成功可翻转回合\n- 每个角色拥有独特的技能机制（如Gustave的Lumina转换臂）\n\n 叙事设计\n\n借鉴来源：\n- 《journey》：艺术化的情感表达\n- 吉卜力工作室：美术风格与世界观构建\n\n---",
+      "pillars": [
+        {
+          "title": "反应式防御系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "角色差异化机制",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "光影艺术美术",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "零挫败设计",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
-        "反应式防御",
-        "自由瞄准",
-        "回合制-远征33号-即时反应与弹反机制"
+        "回合制-远征33号-即时反应与弹反机制",
+        "回合制-远征33号-角色独特技能系统"
       ],
       "filename": "Expedition33.md",
       "source": "人工"
     },
     "ExtractionShooter": {
-      "title": "搜打撤 / Extraction Shooter",
-      "gameName": "搜打撤 / Extraction Shooter",
+      "title": "游戏卡 - 搜打撤 / Extraction Shooter",
+      "gameName": "",
       "developer": "",
       "publisher": "",
       "platform": "",
       "releaseDate": "",
-      "genre": "FPS、搜打撤、撤离",
+      "genre": "",
       "monetization": "",
-      "xStatement": "带装备进入、带物资撤出的射击游戏\n\n玩家携带装备进入对局，搜刮物资、击败敌人，完成任务后从撤离点撤出，带出物资。\n\n---",
+      "xStatement": "",
       "tagline": "",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "代表游戏：逃离塔科夫、撤离zone、Hunt: Showdown\n\n核心特征：\n1. 高风险高回报：进入对局有死亡惩罚\n2. 装备带入带出：装备可带入局内，死亡掉落\n3. 撤离机制：达到撤离条件才能带出物资\n\n---",
-      "pillars": [],
+      "prototype": "核心玩法借鉴\n- 搜打撤玩法：起源于《逃离塔科夫》(Escape from Tarkov)\n  - 核心体验：基于\"赌场一夜暴富\"的体验——带入筹码（战备），选择牌桌（地图），可能暴富也可能血本无归\n  - 只有成功撤离才能带走战利品，失败则失去一切\n  - PvPvE模式：玩家 vs 玩家 vs 环境\n\n- 细分流派：\n  - \"背包射击\"流派：Arc Raiders、Escape from Tarkov、Marathon —— 主要动机是填满背包格子\n  - Boss狩猎流派：Hunt: Showdown —— 以击败Boss并带着赏金撤离为核心\n\n 核心差异点\n- 高风险高回报：死亡惩罚严重，装备可能全部掉落\n- 装备经济系统：局外养成 + 局内交易\n- 撤离机制：固定/动态撤离点，需要满足条件才能撤离\n\n---",
+      "pillars": [
+        {
+          "title": "装备带入带出系统 → 高风险高回报 → 死亡掉落",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "撤离机制 → 目标驱动 → 达到条件才能带出物资",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "局外养成系统 → 长线留存 → 装备/武器/配件强化",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "PvPvE战斗 → 资源争夺 → AI敌人 + 其他玩家",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
         "（待入库）"
@@ -14193,7 +16418,8 @@
       "achievements": "",
       "relatedMechanisms": [
         "Dimengeon",
-        "JRPG-Fantasian-Dimengeon存怪系统"
+        "JRPG-Fantasian-Dimengeon存怪系统",
+        "Fantasian-游戏卡"
       ],
       "filename": "Fantasian.md",
       "source": "人工"
@@ -14292,24 +16518,42 @@
     "FireEmblemHeroes": {
       "title": "火焰纹章：英雄 / Fire Emblem Heroes",
       "gameName": "火焰纹章：英雄 (Fire Emblem Heroes)",
-      "developer": "",
+      "developer": "Nintendo + DeNA",
       "publisher": "",
       "platform": "",
-      "releaseDate": "",
+      "releaseDate": "2017年2月2日",
       "genre": "策略战棋手游",
       "monetization": "",
       "xStatement": "",
-      "tagline": "经典战棋IP简化版 + 抽卡收集",
+      "tagline": "",
       "playerStats": "",
-      "coreLoop": "抽卡获取英雄 → 养成突破 → 竞技场对战 → 活动 → 循环",
-      "difficulty": "低。单局2v2，简化策略，适合轻度玩家",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[战棋]-FireEmblemHeroes-轻量化战棋系统",
-        "[战棋]-FireEmblemHeroes-颜色抽卡系统"
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《Fire Emblem Heroes》是基于经典战棋游戏Fire Emblem系列的简化移植的体验：\n\n- 被借鉴游戏的核心理念：1990年诞生的Fire Emblem系列核心理念是\"策略深度+角色情感连接\"——玩家需要深思熟虑地指挥小队在网格地图上战斗，每个角色都有独特背景故事，死亡不可逆转（经典模式）\n  \n- 本游戏在此基础上改出的独特体验：\n  1. 轻量化战棋系统：竖屏操作，简化至4v4对战，单局40秒-3分钟，通过拖拽移动单位\n  2. 颜色抽卡系统：抽卡时显示5个颜色选项（红/蓝/绿/无色），玩家可选择性抽取，降低抽卡决策门槛\n  3. Casual Mode：移除角色永久死亡，降低挫败感，更适合手游轻度玩家\n  4. 武器三角克制：红>绿>蓝>红，20%伤害加成/减免，易于理解的策略深度\n\n---",
+      "pillars": [
+        {
+          "title": "【竖屏轻量化战棋】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【颜色引导抽卡】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【角色收集与养成】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【异步PVP竞技场】-> 【设计手段】-> 【具体参数】",
+          "experience": "",
+          "design": ""
+        }
       ],
+      "achievements": "",
+      "relatedMechanisms": [],
       "filename": "FireEmblemHeroes.md",
       "source": "人工"
     },
@@ -14478,27 +16722,42 @@
     "GameForPeace": {
       "title": "和平精英 / Game For Peace",
       "gameName": "和平精英 (Game For Peace)",
-      "developer": "",
+      "developer": "腾讯光子工作室群",
       "publisher": "",
       "platform": "",
-      "releaseDate": "",
+      "releaseDate": "2019年5月8日",
       "genre": "FPS / 大逃杀 / 手游",
       "monetization": "",
       "xStatement": "",
       "tagline": "手游吃鸡代表作，战术竞技+社交",
       "playerStats": "",
-      "coreLoop": "跳伞→搜集物资→缩圈战斗→淘汰对手→吃鸡",
-      "difficulty": "低 - 触屏操作+辅助瞄准，面向大众市场",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[大逃杀]-GameForPeace-缩圈机制",
-        "[大逃杀]-GameForPeace-四人组队系统",
-        "大逃杀-100人同场竞技",
-        "大逃杀-四人组队系统",
-        "大逃杀-缩圈博弈系统"
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《和平精英》借鉴《绝地求生》(PUBG)的战术竞技玩法\n\n- 被借鉴游戏的核心理念/体验：基于\"大逃杀\"文学/电影的生存博弈体验——100人空降荒岛，搜集物资、缩圈战斗，最后一人/一队存活获胜。\"刺激但不过于高强度，单局真正的战斗时长不超过3分钟\"\n\n- 本游戏在此基础上改出的独特体验：\n  1. 触屏操作适配：针对手机端简化操作，加入辅助瞄准，降低上手门槛\n  2. 社交生态整合：深度绑定微信/QQ好友关系链，4人组队更便捷\n  3. 本土化内容：中国风地图、皮肤、节日活动\n  4. 单局紧凑性：解决\"搜索2小时，战斗5分钟\"痛点，节奏更紧凑\n\n---",
+      "pillars": [
+        {
+          "title": "【缩圈博弈】->【毒圈机制+信号值系统】->【每90秒缩圈一次，信号值随掉血衰减】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【四人组队社交】->【语音麦+队友伤害+召回系统】->【队伍死亡可被队友召回】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【枪械改装系统】->【配件槽位+枪械等级】->【5.56mm/7.62mm/霰弹/冲锋/手枪五大类，每把枪3-5个配件槽】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【大地图探索】->【2000x2000面积+海陆空载具】->【海岛/沙漠/雨林/雪地四张地图】",
+          "experience": "",
+          "design": ""
+        }
       ],
+      "achievements": "",
+      "relatedMechanisms": [],
       "filename": "GameForPeace.md",
       "source": "人工"
     },
@@ -14527,42 +16786,21 @@
       "source": "人工"
     },
     "GenshinImpact": {
-      "title": "原神 - 游戏卡",
+      "title": "Genshin Impact / 原神",
       "gameName": "原神 / Genshin Impact",
-      "developer": "米哈游",
+      "developer": "上海米哈游科技股份有限公司",
       "publisher": "",
-      "platform": "PC / 移动端(iOS/Android) / 主机(PS4/PS5/Switch)",
-      "releaseDate": "2020年9月28日",
-      "genre": "开放世界RPG / 抽卡",
-      "monetization": "免费内购",
-      "xStatement": "开放世界 + 元素交互 + 抽卡养成\n\n一款融合了日式二次元美术风格与开放世界探索的免费内购游戏，通过七元素交互系统创造策略深度，结合角色抽卡和命座养成构建商业化模型。让玩家在探索提瓦特大陆的过程中体验元素组合的探索乐趣和角色养成的成就感。\n\n---",
-      "tagline": "",
+      "platform": "PC / iOS / Android / PS4 / PS5 / Switch",
+      "releaseDate": "2020.9",
+      "genre": "开放世界RPG / 抽卡养成",
+      "monetization": "",
+      "xStatement": "",
+      "tagline": "国产开放世界二次元手游",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "1. 开放世界探索 → 借鉴《塞尔达传说：旷野之息》\n- 核心理念：无缝开放世界探索、解谜、收集神瞳\n- 独特体验：七国不同元素风格（蒙德风、璃月国风、稻妻日式、须弥中东、枫丹欧洲、纳塔非洲风格、至冬俄式），本土化文化融合\n\n2. 元素反应系统 → 借鉴《塞尔达传说：旷野之息》的元素交互\n- 核心理念：火、水、雷、冰、草、风、岩元素之间的连锁反应\n- 独特体验：元素反应造成额外伤害/控制效果（蒸发、融化、超载、超导、感电、绽放、冻结等），策略组合深度\n\n3. 角色抽卡与命座 → 借鉴手游主流抽卡商业化\n- 核心理念：限定角色池、概率保底（90抽小保底、180抽大保底）\n- 独特体验：命座系统（重复抽取同名角色解锁额外效果）+ 武器池\n\n4. 深渊螺旋 → 借鉴《崩坏3》深渊玩法\n- 核心理念：高难周期性挑战副本，检验角色养成度\n- 独特体验：间/间之分层设计、限时竞速排名\n\n---",
-      "pillars": [
-        {
-          "title": "开放世界探索",
-          "experience": "",
-          "design": ""
-        },
-        {
-          "title": "元素反应系统",
-          "experience": "",
-          "design": ""
-        },
-        {
-          "title": "角色养成与抽卡",
-          "experience": "",
-          "design": ""
-        },
-        {
-          "title": "深渊螺旋挑战",
-          "experience": "",
-          "design": ""
-        }
-      ],
+      "prototype": "",
+      "pillars": [],
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "GenshinImpact.md",
@@ -14787,24 +17025,45 @@
     "GuiltyGearStrive": {
       "title": "罪恶装备：激斗 / Guilty Gear Strive",
       "gameName": "罪恶装备：激斗 (Guilty Gear Strive)",
-      "developer": "",
+      "developer": "Arc System Works",
       "publisher": "",
       "platform": "",
-      "releaseDate": "",
-      "genre": "格斗游戏 / 2D格斗",
+      "releaseDate": "2021年6月11日",
+      "genre": "2D格斗游戏 / 2.5D动作格斗",
       "monetization": "",
       "xStatement": "",
-      "tagline": "2D动画风视觉，RC取消系统",
+      "tagline": "",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
-      "pillars": [],
+      "prototype": "玩法原型：经典2D格斗游戏的现代化演绎\n\n《罪恶装备：激斗》的玩法原型基于传统2D格斗游戏（如《街霸》《拳皇》），核心体验是\"精准输入与资源管理的博弈\"——玩家通过复杂的指令输入打出连击，同时管理Tension（ Tension 槽）资源进行RC取消来创造进攻机会或防守脱离。\n\n本游戏在此基础上的独特改进：\n1. RC取消系统的深度策略化：引入红/黄/蓝/紫/绿5种RC变体，每种消耗不同资源量并产生不同效果（时间减速、伤害增加、对手硬直等），将资源管理策略提升到新维度\n2. Wall Break墙壁破坏机制：将传统格斗游戏\"墙角压制\"改为可主动破坏墙壁获得奖励+重置态势，打破僵局同时增加观赏性\n3. 极致2.5D美术表现：采用3D建模+2D动画渲染管线，达到业界最高的视觉表现力，降低格斗游戏的入门门槛\n\n---",
+      "pillars": [
+        {
+          "title": "极致2.5D视觉表现 -> 3D建模+2D渲染管线 -> 每帧独立手绘动画/动态模糊/ Bold Camera Effects",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "Roman Cancel资源博弈系统 -> 5种RC变体 -> 消耗25%-50% Tension槽产生不同效果",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "Wall Break墙壁破坏系统 -> 角落后可主动触发 -> 获得大量Tension+伤害+重置态势",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "易于上手难于精通的角色设计 -> 简化输入指令 + 深度角色特性 -> 新手可出招+高手玩上限",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
         "[格斗]-GuiltyGearStrive-RomanCancel系统",
         "格斗-罪恶装备-RC取消",
-        "[格斗]-GuiltyGearStrive-Break系统"
+        "[格斗]-GuiltyGearStrive-WallBreak系统"
       ],
       "filename": "GuiltyGearStrive.md",
       "source": "人工"
@@ -14962,50 +17221,94 @@
       "source": "人工"
     },
     "HeartTown": {
-      "title": "心动小镇 / Lethal Company",
+      "title": "心动小镇 / Heart Town",
       "gameName": "心动小镇",
-      "developer": "-",
+      "developer": "心动网络",
       "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "",
+      "platform": "移动端（iOS/Android）",
+      "releaseDate": "2024年",
       "genre": "开放世界社交经营",
       "monetization": "免费内购",
-      "xStatement": "算法匹配邻居\n\n算法匹配邻居的小镇模拟生活。\n\n---",
+      "xStatement": "算法匹配邻居的开放世界小镇生活模拟\n\n通过盲盒式社交+飞地机制，让玩家在低压力环境中建立情感连接。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "随机和邻居的小屋位置 -> 建设个性化小屋 -> 邻里串门互动 -> 产生情感链接",
-      "difficulty": "低。一键串门、点赞留言",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "飞地机制",
-        "模拟经营-心动小镇-飞地机制"
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《心动小镇》是基于《动物森友会》+《星露谷物语》的生活模拟体验：\n\n- 《动物森友会》的核心理念：在一个没有压力的小岛上与动物居民互动，收集素材建造自己的房子，享受慢节奏的社交生活\n- 《星露谷物语》的核心理念：种植、养殖、采矿、钓鱼、社交的农场生活模拟，强调自由度和沉浸感\n- 本游戏在此基础上改出的独特体验：\n  - 飞地机制：每个玩家的家园是独立的\"飞地\"，通过串门进入他人领地，打破传统MMO的大地图概念\n  - 盲盒式社交：每天登录随机匹配邻居，制造\"开盲盒\"般的惊喜感，刺激主动社交欲望\n  - 无缝大世界：从自己家到小镇中心无需Loading，打破\"独立空间\"隔阂\n\n---",
+      "pillars": [
+        {
+          "title": "【飞地家园】->【独立空间+串门机制】->【每个玩家拥有独立地块，邻居需通过\"串门\"进入；地块内高度自由建造】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【盲盒社交】->【每日随机邻居匹配】->【每天进入不同小镇，遇见不同邻居；邻居家变化可触发主动社交】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【低门槛交互】->【一键串门+点赞留言】->【操作门槛极低，点赞/留言无需等待响应】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【生活模拟】->【多维度爱好系统】->【钓鱼、园艺、观鸟、养猫、捕虫等多种生活玩法】",
+          "experience": "",
+          "design": ""
+        }
       ],
+      "achievements": "",
+      "relatedMechanisms": [],
       "filename": "HeartTown.md",
       "source": "人工"
     },
     "Hearthstone": {
       "title": "Hearthstone / 炉石传说",
       "gameName": "炉石传说 / Hearthstone",
-      "developer": "暴雪娱乐",
+      "developer": "暴雪娱乐（Blizzard Entertainment）",
       "publisher": "",
       "platform": "PC / 移动端",
-      "releaseDate": "2014年3月",
-      "genre": "策略卡牌",
+      "releaseDate": "2014年3月11日",
+      "genre": "策略卡牌对战",
       "monetization": "",
-      "xStatement": "暴雪策略卡牌游戏魔兽背景，回合制对战",
-      "tagline": "暴雪卡牌游戏",
+      "xStatement": "单人/双人 / 回合制 PvP / 法力水晶资源管理 / 魔兽 IP 加持的策略卡牌对战\n\n 暴雪基于魔兽 IP 打造的策略卡牌游戏，借鉴万智牌核心机制但大幅简化规则，使其适合电子化快速对战，通过法力水晶系统控制游戏节奏，确保每局在 10 回合内分出胜负。\n\n---",
+      "tagline": "暴雪版策略卡牌游戏",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
-      "pillars": [],
+      "prototype": "玩法原型：《炉石传说》是基于万智牌（Magic: The Gathering）的体验：\n\n- 万智牌核心体验：实体集换式卡牌游戏，通过卡牌对战削减对手生命值至0，强调策略深度、颜色轮系统、复杂规则框架\n- 炉石传说的独特体验：电子化轻量化改造，加入大量随机性事件和额外资源获取手段，线上对战便捷性，大幅简化规则使入门门槛降低\n\n核心差异点：\n- 简化规则：将复杂的触发时机、堆叠结算简化为自动处理\n- 法力水晶系统替代万智牌的费用机制，确保游戏节奏可控\n- 大量随机性设计（随机召唤、随机转化等）增加娱乐性\n- 职业系统替代万智牌的颜色系统，每个职业有独特机制\n\n---",
+      "pillars": [
+        {
+          "title": "法力水晶系统 → 资源-效果转化 → 每回合自动增长，上限10点",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "套牌构筑与卡牌联动 → 30张卡组构建 → 最多2张同名卡，传说卡1张",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "随从交互机制 → 可视化实体博弈 → 召唤后需等1回合才能攻击",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "扩展包内容更新 → 每年3个拓展包 → 持续内容更新维持商业化",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "酒馆战棋模式 → 自走棋衍生玩法 → 8人自动战斗模式",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
         "策略卡牌-炉石传说-法力水晶系统",
-        "ClassRestriction",
-        "DustSystem"
+        "ClassRestriction（职业限制机制）",
+        "DustSystem（粉尘分解/合成系统）"
       ],
       "filename": "Hearthstone.md",
       "source": "人工"
@@ -15257,32 +17560,44 @@
       "source": "人工"
     },
     "HuaTangZhi": {
-      "title": "幻唐志：逍遥外传",
-      "gameName": "幻唐志：逍遥外传",
-      "developer": "网易",
+      "title": "幻唐志：逍遥外传 - 游戏卡",
+      "gameName": "幻唐志：逍遥外传 / 神武4",
+      "developer": "多益网络",
       "publisher": "",
-      "platform": "移动端",
-      "releaseDate": "",
+      "platform": "移动端(iOS/Android)",
+      "releaseDate": "2020年",
       "genre": "回合制MMO",
       "monetization": "免费内购",
       "xStatement": "社交回合手游\n\n让玩家在深度回合策略与轻松社交氛围中，体验成长成就的快乐社交回合手游。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "资源积累 -> 角色等级养成 -> 策略战斗(PVP/PVE) -> 社交关系",
-      "difficulty": "门槛较低，但策略体验深度高，存在难度分级",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "（待录入）",
-        "回合制MMO-幻唐志逍遥外传-竖屏适配体验设计",
-        "回合制MMO-幻唐志逍遥外传-灵兽对战",
-        "回合制MMO-幻唐志逍遥外传-玲珑遗迹",
-        "回合制MMO-幻唐志逍遥外传-成就月",
-        "回合制MMO-幻唐志逍遥外传-启明之战",
-        "回合制MMO-幻唐志逍遥外传-专属宠物天赋",
-        "回合制MMO-幻唐志-精力系统"
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "1. 回合制战斗系统 → 借鉴《梦幻西游》《大话西游》系列\n- 核心理念：经典回合制战斗，门派技能差异化\n- 独特体验：13大门派（封印、辅助、物理、法术四大体系），百种宠物助战，阵型搭配策略深度\n\n2. 社交MMO玩法 → 借鉴经典回合制端游的社交体系\n- 核心理念：帮派、师徒、结拜、结婚多元社交\n- 独特体验：AI助力社交、\"人脸识别\"头像秀、结婚系统\n\n3. 宠物养成系统 → 借鉴《梦幻西游》宠物系统\n- 核心理念：宠物捕捉、培养、变异\n- 独特体验：百种激萌宠物、宠物天赋、灵兽对战\n\n4. 多人副本 → 借鉴端游MMO的团队副本\n- 核心理念：10人团队副本、Boss挑战\n- 独特体验：九州谱玩法、突破传统限制的副本设计\n\n---",
+      "pillars": [
+        {
+          "title": "回合策略战斗",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "社交生态体系",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "宠物养成与收集",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "日常与活动循环",
+          "experience": "",
+          "design": ""
+        }
       ],
+      "achievements": "",
+      "relatedMechanisms": [],
       "filename": "HuaTangZhi.md",
       "source": "人工"
     },
@@ -15334,19 +17649,40 @@
     "InfiniteNikki": {
       "title": "无限暖暖 / Infinity Nikki",
       "gameName": "无限暖暖 / Infinity Nikki",
-      "developer": "叠纸游戏",
+      "developer": "叠纸游戏（Infold Games）",
       "publisher": "",
-      "platform": "PC / 移动端",
-      "releaseDate": "2024年",
+      "platform": "PC / iOS / Android",
+      "releaseDate": "2024年12月5日",
       "genre": "开放世界冒险、换装养成",
       "monetization": "免费内购",
-      "xStatement": "换装大世界\n\n换装版开放大世界探索解谜。\n\n---",
+      "xStatement": "换装大世界\n\n利用换装能力进行开放世界探索解谜的冒险游戏。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "探索开放世界 -> 利用套装能力解谜/通关 -> 获取新设计图/外观材料",
-      "difficulty": "中。含跑跳、滑翔等操作校验",
-      "prototype": "",
-      "pillars": [],
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《无限暖暖》→ 借鉴《塞尔达传说：旷野之息》的开放世界设计\n\n- 《塞尔达传说：旷野之息》的核心理念/体验：基于\"探索与发现的乐趣\"的物理交互开放世界，玩家利用不同道具/能力解决谜题、探索世界，强调自由度和非线性体验\n- 《无限暖暖》的独特体验：将\"换装\"作为核心解题能力，不同套装提供不同能力（滑翔、净化、钓鱼等），用审美驱动替代传统的武器驱动\n\n核心差异点：\n- 换装能力系统：套装=技能组，每套衣服有独特能力\n- 审美驱动探索：收集外观材料制作新套装，而非刷装备升级\n- 异步社交：大世界合影系统，类\"Arcade\"式分享体验\n\n---",
+      "pillars": [
+        {
+          "title": "套装能力解谜系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "开放世界探索",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "大世界异步社交",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "高规格画面表现",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
         "大世界异步合影",
@@ -15367,13 +17703,12 @@
       "xStatement": "文墨世界回合制Roguelike，玩家在雅典娜神庙组建队伍，通过程序生成的书页世界冒险，结合独特的伪回合制战斗与卡牌技能BD构筑，挑战BOSS拯救故事。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "- 雅典娜神庙准备 → 选择书籍进入关卡 → 探索+战斗 → BOSS战 → 循环",
-      "difficulty": "- 中等门槛",
-      "prototype": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《Inkbound》是基于《Monster Train》的回合制Roguelike体验，结合了卡牌构筑与伪回合制战斗，融入了多人合作元素。\n\n核心差异点/独特卖点：\n1. 伪回合制战斗系统 - 玩家通过意志力控制技能释放顺序，而非传统卡牌游戏的能量限制\n2. 书籍世界探索 - 程序生成的书籍世界，每个关卡是独立的一本\"书\"\n3. 多人协作模式 - 雅典娜神庙作为社交中心，支持4人同步联机冒险\n4. BD构筑深度 - 技能Binding+遗物Vestige的套装组合提供丰富的Build深度\n\n---",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[Excellent]Roguelike-Inkbound-伪回合制战斗系统",
         "[Excellent]Roguelike-Inkbound-遗物套装系统",
         "[Excellent]Roguelike-Inkbound-能量宝珠系统",
         "[Excellent]Roguelike-Inkbound-临界充能系统",
@@ -15499,29 +17834,49 @@
       "source": "人工"
     },
     "JinChanChan": {
-      "title": "金铲铲之战",
+      "title": "游戏卡 - 金铲铲之战",
       "gameName": "金铲铲之战",
-      "developer": "",
+      "developer": "腾讯游戏",
       "publisher": "",
-      "platform": "",
-      "releaseDate": "",
+      "platform": "iOS / Android",
+      "releaseDate": "2021年8月26日",
       "genre": "策略自走棋",
       "monetization": "",
       "xStatement": "",
       "tagline": "云顶之弈正版授权手游",
       "playerStats": "",
-      "coreLoop": "八名玩家各自为战，通过招兵买马、融合英雄、提升战力进行博弈对抗。游戏延续经典玩法，并加入快速模式、双人模式及阵容挑战赛等创新内容。双人模式可与好友组队，共同对抗其他队伍",
-      "difficulty": "较低，移动端便捷上手",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[自走棋]-金铲铲之战-双人合作模式",
-        "自走棋-金铲铲之战-双人合作模式",
-        "[自走棋]-金铲铲之战-羁绊系统",
-        "[自走棋]-金铲铲之战-海克斯强化系统",
-        "ShuangrenHezuoMoshi"
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型1：经典自走棋框架 → 借鉴《云顶之弈》\n\n- 被借鉴游戏的核心理念：基于\"赌场抽卡+组合构筑+自动对战\"的核心体验——玩家通过概率获取棋子，组合同职业/阵营羁绊形成强力阵容，与其他7人对战直到最后一人\n- 本游戏在此基础上改出的独特体验：\n  1. 移动端适配：针对手机操作优化，拖拽棋子更便捷\n  2. 英雄联盟IP：使用英雄联盟英雄，降低MOBA玩家学习门槛\n  3. 海克斯强化系统：每局随机获得增益效果，增加策略变数\n\n 玩法原型2：海克斯强化系统 → 借鉴《云顶之弈》S6\n\n- 核心理念：通过随机事件系统增加每局游戏的不可预测性和策略深度\n- 本游戏的独特体验：\n  1. 三种类型海克斯：羁绊类（+1人口/纹章）、属性加成类、特殊道具类\n  2. 三次选择机会：开局、中期、后期各可选择一次\n  3. 直接影响战局：部分强力海克斯可瞬间改变局势\n\n 玩法原型3：双人合作模式 → 行业创新\n\n- 核心理念：传统自走棋是单人博弈，本游戏创新引入双人合作\n- 本游戏的独特体验：\n  1. 双人组队：与好友组队，共同对抗其他队伍\n  2. 资源共享：可相互赠送棋子，协同构筑阵容\n  3. 联合淘汰：任意一方被淘汰时另一方也会结束（需要互救）\n\n---",
+      "pillars": [
+        {
+          "title": "【棋子获取与合成】-> 【随机抽取+三合一批量合成】-> 每回合自动获得金币抽取棋子，3个相同棋子自动合成高星棋子",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【羁绊组合系统】-> 【职业+阵营双羁绊】-> 通过收集特定数量同职业/阵营英雄激活",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【海克斯强化系统】-> 【随机三选一增益】-> 每局可选择3次海克斯强化，每次从3个选项中选择1个",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【经济运营系统】-> 【连胜连败利息机制】-> 每回合固定收益+连胜/连败额外金币+利息",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【自动战斗系统】-> 【AI自动对战】-> 回合开始后棋子自动释放技能和攻击",
+          "experience": "",
+          "design": ""
+        }
       ],
+      "achievements": "",
+      "relatedMechanisms": [],
       "filename": "JinChanChan.md",
       "source": "人工"
     },
@@ -15624,22 +17979,47 @@
     "KartRider": {
       "title": "跑跑卡丁车官方竞速版",
       "gameName": "跑跑卡丁车官方竞速版 (KartRider: Drift)",
-      "developer": "",
+      "developer": "世纪天成与腾讯游戏合作联运（NEXON旗下）",
       "publisher": "",
       "platform": "",
-      "releaseDate": "",
+      "releaseDate": "2019年7月2日",
       "genre": "街机竞速 / Racing",
       "monetization": "",
       "xStatement": "",
       "tagline": "经典漂移竞技手游，集气与控车的艺术",
       "playerStats": "",
-      "coreLoop": "玩家通过漂移和高速行驶收集氮气，使用氮气加速和喷射，在赛道中追求最快圈速",
-      "difficulty": "中等难度，需要掌握漂移集气的节奏和时机",
-      "prototype": "",
-      "pillars": [],
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《跑跑卡丁车》源于街机竞速的漂移体验\n\n- 被借鉴游戏的核心理念：韩国NEXON经典端游《跑跑卡丁车》，其核心体验来自街机赛车游戏的漂移集气玩法——通过在弯道漂移收集加速能量，积累完成后释放获得极速冲刺\n- 本游戏在此基础上改出的独特体验：\n  1. 移动端操作适配：虚拟按键 + 陀螺仪操作，还原端游漂移手感\n  2. 社交生态整合：微信/QQ好友排名、车队系统、师徒系统\n  3. IP情怀延续：经典角色（皮蛋、黑酱）、经典赛道、经典车辆（SR、Z7等）\n\n延伸系统借鉴：\n- 赛车改装系统：借鉴端游的车辆升级与部件改装\n- 宝宝农场系统：休闲养成，增加长线留存\n\n---",
+      "pillars": [
+        {
+          "title": "【漂移集气】-> 【弯道操作】-> 【集气条蓄满=1个氮气】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【8人同屏竞技】-> 【实时匹配】-> 【圈速排名定胜负】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【经典IP情怀】-> 【角色+赛道+车辆】-> 【3亿注册用户】",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "【通行证+抽卡商业化】-> 【赛季制】-> 【120级通行证+宝箱抽取】",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
-        "赛车-跑跑卡丁车-漂移集气系统"
+        "赛车-跑跑卡丁车-漂移集气系统",
+        "赛车-跑跑卡丁车-氮气加速系统",
+        "赛道-跑跑卡丁车-经典赛道",
+        "IP-跑跑卡丁车-角色皮蛋黑酱",
+        "通行证系统"
       ],
       "filename": "KartRider.md",
       "source": "人工"
@@ -15701,17 +18081,34 @@
       "releaseDate": "",
       "genre": "",
       "monetization": "",
-      "xStatement": "CAPCOM经典横版动作游戏，以亚瑟王传说为背景，玩家选择圆桌骑士闯关，通过战斗获得金币升级装备。\n\n---",
+      "xStatement": "CAPCOM经典横版动作游戏，以亚瑟王传说为背景，玩家选择圆桌骑士闯关，通过战斗获得金币升级装备，骑马与敌人作战，体验中世纪骑士的荣耀与征战。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "- 选择角色 → 闯关战斗 → 升级装备 → 击败BOSS",
-      "difficulty": "- 低门槛",
-      "prototype": "",
-      "pillars": [],
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《圆桌骑士》是基于 CAPCOM 清版动作游戏（如《Final Fight》《King of Dragons》）的体验：玩家在横版场景中清理敌人推进关卡，融入RPG成长元素。\n\n核心差异点/独特卖点：\n1. 亚瑟王传说题材 - 以中世纪欧洲骑士传说为背景\n2. 马战系统 - 可骑马战斗，借鉴《Golden Axe》\n3. RPG式升级外观变化 - 角色升级后武器和盔甲外观会改变，高等级会获得金色盔甲\n\n---",
+      "pillars": [
+        {
+          "title": "金币装备系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "马战系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "RPG式角色成长",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
         "[Qualify]gold-equipment.md",
-        "[Qualify]horse-combat.md"
+        "[Qualify]horse-combat.md",
+        "[Qualify]beat-em-up.md"
       ],
       "filename": "KnightsOfTheRound.md",
       "source": "人工"
@@ -15912,46 +18309,71 @@
     "LibraryOfRuina": {
       "title": "Library of Ruina / 废墟图书馆",
       "gameName": "Library of Ruina / 废墟图书馆",
-      "developer": "Project Moon",
+      "developer": "Project Moon（韩国独立工作室）",
       "publisher": "",
-      "platform": "PC",
-      "releaseDate": "2021年",
+      "platform": "PC（Steam）/ Switch",
+      "releaseDate": "2021年8月",
       "genre": "卡牌策略、回合制RPG、剧情向",
       "monetization": "买断制",
       "xStatement": "掷骰卡牌对战\n\n将掷骰子与卡牌碰撞结合的硬核对波模拟器。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "接待宾客 -> 配置书页卡组 -> 战斗内掷骰子拼点 -> 获取书籍用于强化和推进主线",
-      "difficulty": "极高。包含拼点、混乱值等多重复杂计算",
-      "prototype": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《Library of Ruina》基于《杀戮尖塔》(Slay the Spire)的DBG框架，但做出独特体验：\n- 核心理念：传统DBG的Roguelite构筑乐趣 + 叙事驱动的角色扮演\n- 独特体验：融合《博德之门3》式的分支剧情叙事 + 复杂骰子拼点战斗系统\n\n核心差异点：\n- 骰子拼点机制：卡牌伤害由骰子点数决定，引入不确定性\n- 书籍收集系统：击败宾客获取\"书籍\"用于强化\n- 情感等级系统：角色有情感状态影响战斗能力\n- 混乱值机制：战斗中的风险/收益抉择点\n\n---",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
         "混乱抗性",
         "情感等级",
-        "卡牌-废墟图书馆-动态拼点博弈机制"
+        "掷骰拼点"
       ],
       "filename": "LibraryOfRuina.md",
       "source": "人工"
     },
     "LiesOfP": {
       "title": "匹诺曹的谎言 (Lies of P)",
-      "gameName": "",
-      "developer": "",
-      "publisher": "",
+      "gameName": "匹诺曹的谎言 (Lies of P)",
+      "developer": "Round8 Studio (Neowiz)",
+      "publisher": "Neowiz",
       "platform": "",
-      "releaseDate": "",
-      "genre": "",
+      "releaseDate": "2023年9月18日",
+      "genre": "魂like ARPG / 动作冒险",
       "monetization": "",
-      "xStatement": "",
-      "tagline": "",
+      "xStatement": "公式：[魂like动作游戏] + [暗黑童话叙事 + 军团义手武器组合] + [招架-处决战斗系统]\n\n一句话描述：一款黑暗童话风格的魂like动作游戏，玩家扮演匹诺曹在暗黑城市中对抗机械敌人，通过军团义手武器组合系统和招架-处决战斗机制体验独特的战斗深度。\n\n---",
+      "tagline": "暗黑童话风格魂like动作游戏",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
-      "pillars": [],
+      "prototype": "核心玩法借鉴1：招架系统\n- 被借鉴游戏核心理念：源自《只狼》的招架系统，强调精准时机判断带来的战斗快感\n- 本游戏独特体验：在只狼基础上增加复杂度，引入\"完美招架\"机制，搭配弱点系统和复杂处决机制，形成更立体的战斗层次\n\n 核心玩法借鉴2：武器组合系统\n- 被借鉴游戏核心理念：借鉴《黑暗之魂》《血源诅咒》的武器系统\n- 本游戏独特体验：创新性地将武器分为剑柄和剑身两部分，玩家可自由组合不同部件，创造出独特的武器和技能组合\n\n 核心玩法借鉴3：暗黑童话叙事\n- 被借鉴作品核心理念：源自《木偶奇遇记》童话故事\n- 本游戏独特体验：将经典童话完全暗黑化，匹诺曹不再是一个诚实的孩子，而是需要面对人性的复杂考验\n\n---",
+      "pillars": [
+        {
+          "title": "招架-处决战斗系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "军团义手武器组合",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "哥特暗黑童话叙事",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "高质量画面表现",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "军团义手武器组合系统（动态武器组合）",
+        "招架-处决战斗系统",
+        "暗黑童话叙事框架"
+      ],
       "filename": "LiesOfP.md",
       "source": "人工"
     },
@@ -16326,19 +18748,49 @@
       "developer": "Second Dinner",
       "publisher": "",
       "platform": "移动端 / PC",
-      "releaseDate": "2022年",
-      "genre": "卡牌对战",
+      "releaseDate": "2022年10月",
+      "genre": "数字集换式卡牌对战",
       "monetization": "",
-      "xStatement": "炉石之父制作，漫威IP卡牌对战，SNAP加注机制",
+      "xStatement": "炉石之父Ben Brode制作，漫威IP卡牌对战，SNAP加注机制创造高风险高回报的心理博弈体验\n\n---",
       "tagline": "漫威IP卡牌",
-      "playerStats": "2022年TGA最佳移动游戏",
+      "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
-      "pillars": [],
+      "prototype": "核心参考：混合设计，借鉴多款游戏\n\n借鉴来源与创新：\n- 昆特牌 → 积分制、多战场、区域控制（2/3区域获胜）\n- 德州扑克 → SNAP加注机制（梭哈翻倍），关键共享信息逐步揭示\n- Marvel Smash Up → 漫威角色单位设计\n- 炉石传说 → 仅数字机制（能量系统、出牌逻辑、卡牌交换）\n- 极短对局 → 每局3-6分钟，远短于传统卡牌游戏\n\n玩法原型总结：Marvel Snap 是多游戏融合设计，借鉴昆特牌的区域控制、德州扑克的加注博弈、炉石的数字机制，创造出\"短平快+高风险博弈\"的独特体验。\n\n---",
+      "pillars": [
+        {
+          "title": "SNAP加注机制 → 赌场梭哈心理体验",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "快速对战 → 碎片化爽感",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "漫威IP → 角色情感连接",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "区域机制 → 策略多样性",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "卡牌变体收藏 → 视觉收集动力",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
-        "策略卡牌-漫威终极逆转-位置机制"
+        "策略卡牌-漫威终极逆转-位置机制",
+        "策略卡牌-快速对局-短平快体验",
+        "策略卡牌-加注机制-风险博弈",
+        "Snap加注机制",
+        "区域随机系统"
       ],
       "filename": "MarvelSnap.md",
       "source": "人工"
@@ -16456,6 +18908,48 @@
       "filename": "MiaoMiaoTeaRestaurant.md",
       "source": "人工"
     },
+    "MidnightGhostHunt": {
+      "title": "游戏卡：午夜猎魂 / Midnight Ghost Hunt",
+      "gameName": "",
+      "developer": "",
+      "publisher": "",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "",
+      "monetization": "",
+      "xStatement": "",
+      "tagline": "",
+      "playerStats": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "核心玩法原型：\n- 非对称对抗框架：借鉴黎明杀机/第五人格的1v4框架，但创新性地做成双阶段4v4互换\n- 躲猫猫机制：鬼魂附身家具隐藏，猎人用探测仪寻找\n- 身份互换：午夜12点鬼魂和猎人身份互换，体验双方乐趣\n\n独特体验/创新点：\n- 双阶段对抗：每局游戏分为\"猎人主导\"和\"鬼魂主导\"两阶段\n- 附身伪装：鬼魂可以附身到家具物品中隐藏\n- 探测机制：猎人用光谱测声器、雷达等高科技装备探测鬼魂\n\n---",
+      "pillars": [
+        {
+          "title": "鬼魂伪装系统 → 核心玩法",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "猎人探测系统 → 猎杀体验",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "午夜身份互换 → 独特体验",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "4v4团队对抗 → 社交体验",
+          "experience": "",
+          "design": ""
+        }
+      ],
+      "achievements": "Steam历史峰值  ：4,872人同时在线;    售价  ：19.99美元;    发行平台  ：Steam / Epic Games Store;    正式版发布时间  ：2024年3月21日（脱离EA）; ### 开发信息;    开发商  ：Vaulted Sky Games;    发行商  ：Coffee Stain Publishing;    EA发布时间  ：2022年3月31日; ### 系列地位;  非对称竞技游戏细分品类;  双阶段对抗的创新设计;  小团队作品，2024年正式上线; ### 信息来源;  Steam商店页面;  知乎：游戏评价讨论;  indienova：游戏库介绍;  游民星空：游戏下载页",
+      "relatedMechanisms": [],
+      "filename": "MidnightGhostHunt.md",
+      "source": "人工"
+    },
     "Minecraft": {
       "title": "Minecraft / 我的世界",
       "gameName": "我的世界 / Minecraft",
@@ -16478,7 +18972,7 @@
       "source": "人工"
     },
     "MingYunShengQi": {
-      "title": "命运圣契",
+      "title": "命运圣契 MingYunShengQi",
       "gameName": "",
       "developer": "",
       "publisher": "",
@@ -16491,8 +18985,29 @@
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
-      "pillars": [],
+      "prototype": "玩法原型：《命运圣契》基于传统二次元卡牌手游的体验：\n\n1. 卡牌收集养成 → 借鉴《阴阳师》《原神》等成熟的二次元卡牌框架\n   - 核心理念：收集精美角色，通过养成提升战力\n   - 本游戏特色：强调\"百媚少女\"概念，角色风格多样化\n\n2. 回合制战斗 → 经典的战前布阵 + 战中释放技能模式\n   - 核心理念：策略性回合博弈，集满能量释放大招\n   - 本游戏特色：血条下设能量条机制\n\n3. 阵容体系 → 借鉴成熟的职业/元素克制体系\n   - 本游戏特色：极夜队、古域队、元素队、圣堂女武神四大阵容流派相互克制\n\n4. 魔灵养成 → 2024年10月新增的宠物/伙伴养成系统\n   - 核心理念：提供属性加成和新能力效果\n\n---",
+      "pillars": [
+        {
+          "title": "百媚角色收集 → 角色立绘/建模 → 上百位风格迥异角色",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "回合制战斗系统 → 能量条机制 → 集满释放大招",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "阵容搭配与克制 → 四系阵容平衡 → 极夜/古域/元素/圣堂",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "剧情世界观 → 多元宇宙+混沌入侵 → 女神贝莉拉牺牲",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "MingYunShengQi.md",
@@ -16628,12 +19143,12 @@
       "monetization": "",
       "xStatement": "Capcom动作狩猎游戏，武器系统+怪物挑战",
       "tagline": "Capcom狩猎动作",
-      "playerStats": "全球超5000万套",
+      "playerStats": "全球超1.25亿套",
       "coreLoop": "",
       "difficulty": "",
       "prototype": "",
       "pillars": [],
-      "achievements": "",
+      "achievements": "全系列销量  ：截至2025年超1.25亿套（来源：vgsales.fandom.com）;    Monster Hunter: World  ：2881万套（截至2025年5月）;    Monster Hunter Rise  ：1718万套（截至2025年5月）;  Capcom连续8年创纪录盈利，怪物猎人为核心驱动力",
       "relatedMechanisms": [],
       "filename": "MonsterHunter.md",
       "source": "人工"
@@ -16685,6 +19200,62 @@
         "模拟经营-我的花园世界-交换花"
       ],
       "filename": "MyGardenWorld.md",
+      "source": "人工"
+    },
+    "NZ2": {
+      "title": "游戏卡：逆战：未来 / NZ2 / Crossfire: Future",
+      "gameName": "",
+      "developer": "",
+      "publisher": "",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "",
+      "monetization": "",
+      "xStatement": "",
+      "tagline": "",
+      "playerStats": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "核心玩法原型：\n- PVE射击框架：借鉴《逆战》经典猎场玩法，打僵尸闯关\n- 机甲战斗：借鉴《光环》/《泰坦天降》的机甲战斗\n- 塔防玩法：借鉴传统塔防策略元素\n- 赛季制运营：借鉴主流服务型游戏赛季模式\n\n独特体验/创新点：\n- 多模式融合：猎场+塔防+机甲战+PVEVP竞速\n- 时空追猎：大地图自由探索+任务驱动\n- 赛季主题：每赛季不同主题玩法\n- 跨端互通：PC+移动端同步\n\n---",
+      "pillars": [
+        {
+          "title": "僵尸猎场 → PVE核心体验",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "机甲战 → PVP竞技",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "时空追猎 → 大地图探索",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "赛季制 → 长线运营",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "猎场竞速 → PVEVP创新",
+          "experience": "",
+          "design": ""
+        }
+      ],
+      "achievements": "上线时间  ：2026年1月13日;    发行平台  ：PC（腾讯START）+ 移动端;    开发商  ：腾讯天美J3工作室; ### 开发信息;    开发商  ：腾讯天美J3工作室;    发行商  ：腾讯游戏;    前作  ：逆战（CF单机版）;    代号  ：曾用名\"逆战手游\"; ### 系列地位;  逆战IP精神续作;  腾讯天美2026年重点产品;  跨端PVE射击细分赛道;",
+      "relatedMechanisms": [
+        "[Qualify][FPS]-NZ2-猎场竞速系统",
+        "[Qualify][FPS]-NZ2-时空追猎系统",
+        "腾讯新闻：测评报道",
+        "游民星空：基础机制说明",
+        "百度百科：游戏介绍",
+        "TapTap：产品页面",
+        "[FPS]-NZ2-猎场竞速系统",
+        "[FPS]-NZ2-时空追猎系统### 信息来源"
+      ],
+      "filename": "NZ2.md",
       "source": "人工"
     },
     "NarutoMobile": {
@@ -16787,22 +19358,26 @@
     "NightboundMobile": {
       "title": "永劫无间手游-侠影夺金模式",
       "gameName": "永劫无间手游-侠影夺金模式",
-      "developer": "网易",
+      "developer": "网易 24 Entertainment",
       "publisher": "",
       "platform": "移动端",
-      "releaseDate": "",
+      "releaseDate": "2024年7月",
       "genre": "FPS / 搜打撤 / 武侠格斗",
       "monetization": "",
-      "xStatement": "武侠吃鸡搜打撤\n\n带武侠吃鸡玩法的搜打撤游戏。\n\n---",
+      "xStatement": "武侠吃鸡搜打撤\n\n带武侠吃鸡玩法的搜打撤游戏，将\"普攻-振刀-蓄力\"猜拳克制体系融入撤离搜金玩法。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "局前BD战备 -> 局内搜刮/战斗 -> 撤离收获物资",
-      "difficulty": "中等。无需高熟练度连招，但对阵容搭配和战备BD组合要求较高",
-      "prototype": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《永劫无间手游》侠影夺金模式是基于《逃离塔科夫》的搜打撤体验：\n\n- 被借鉴游戏：《逃离塔科夫》(Escape from Tarkov)\n- 核心理念/体验：基于\"赌场一夜暴富\"的体验 —— 玩家携带装备进入战场（战备），在地图中搜索资源（赌桌），可能满载而归、可能血本无归，撤离成功将物资永久带出\n- 本游戏独特体验：融合武侠题材的\"振刀-普攻-蓄力\"猜拳克制战斗系统，将传统武学博弈融入搜打撤玩法，降低上手门槛同时保持战斗深度\n\n核心差异点/独特卖点：\n1. 武侠题材 + 搜打撤玩法融合\n2. \"普攻-振刀-蓄力\"三角博弈战斗系统\n3. 简化操作适配移动端（自动巡航、自动拾取）\n4. 战备BD组合与职业/法宝系统\n\n---",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
         "侠影夺金模式",
+        "漠海夺金模式",
+        "01-combat-rps",
+        "02-extraction",
+        "03-bd-build",
         "夺金-永劫无间手游-花露机制时间进度升级式物资"
       ],
       "filename": "NightboundMobile.md",
@@ -16811,25 +19386,25 @@
     "Nioh": {
       "title": "仁王系列 / Nioh",
       "gameName": "仁王系列 / Nioh",
-      "developer": "Team Ninja",
+      "developer": "Team Ninja（光荣特库摩旗下）",
       "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "2017年",
+      "platform": "PC / PS4 / PS5 / Xbox",
+      "releaseDate": "2017年2月（Nioh1）/ 2020年3月（Nioh2）",
       "genre": "ARPG、动作、类魂",
       "monetization": "买断制",
       "xStatement": "动作设计资源资产化\n\n让动作设计资源成为公司核心资产的ARPG。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "探索关卡 -> 遭遇强敌 -> 选择姿势切换 -> 残心回复战斗资源 -> 击败敌人获取装备/技能 -> 深化Build",
-      "difficulty": "极高",
-      "prototype": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：\n《仁王》是基于《黑暗之魂》的魂like体验：受苦高难度关卡设计、死亡惩罚、关卡探索为核心，结合《忍者龙剑传》的硬核ACT传统（极致操作要求、连招系统），并加入独特的残心系统来调和体力与连招矛盾的ARPG。\n\n核心差异点/独特卖点：\n- 三段架势系统（上段/中段/下段）提供差异化战斗体验\n- 残心系统：战斗中通过精准时机按键回收精力，形成独特的\"资源管理+操作技巧\"双重挑战\n- 车轮战设计：BOSS战常伴随小怪支援，提升战斗策略性\n- 深度的装备与BD构建系统：武器武技、阴阳术、忍术等多维度养成\n\n---",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
         "状态切换",
         "资源管理",
         "车轮战",
-        "ARPG-仁王-三段架势系统"
+        "仁王-三段架势系统"
       ],
       "filename": "Nioh.md",
       "source": "人工"
@@ -17355,6 +19930,48 @@
       "filename": "PlantsVsZombies.md",
       "source": "人工"
     },
+    "PokemonLegendsArceus": {
+      "title": "游戏卡：宝可梦传说：阿尔宙斯 / Pokémon Legends: Arceus",
+      "gameName": "",
+      "developer": "",
+      "publisher": "",
+      "platform": "",
+      "releaseDate": "",
+      "genre": "",
+      "monetization": "",
+      "xStatement": "",
+      "tagline": "",
+      "playerStats": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "核心参考：\n- 开放世界设计：借鉴《塞尔达传说：荒野之息》的大世界探索\n- 战斗系统：借鉴《怪物猎人》的即时动作元素 + 传统宝可梦回合制\n- 秘传技替代：借鉴《旷野之息》的坐骑系统\n\n独特创新：\n- 首次将宝可梦系列带入开放世界\n- 战斗系统从纯回合制转为即时动作+回合制混合\n- \"狂暴宝可梦\"机制增加战斗紧张感\n\n---",
+      "pillars": [
+        {
+          "title": "开放世界探索 → 自由探索体验",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "即时动作战斗 → 战斗紧张感",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "宝可梦图鉴调查 → 收集动力",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "坐骑系统 → 区域解锁",
+          "experience": "",
+          "design": ""
+        }
+      ],
+      "achievements": "",
+      "relatedMechanisms": [],
+      "filename": "PokemonLegendsArceus.md",
+      "source": "人工"
+    },
     "ProjectZomboid": {
       "title": "Project Zomboid / 僵尸毁灭工程",
       "gameName": "Project Zomboid / 僵尸毁灭工程",
@@ -17545,24 +20162,25 @@
     "RedAlert3": {
       "title": "Command & Conquer: Red Alert 3 / 红色警戒3",
       "gameName": "Command & Conquer: Red Alert 3（红色警戒3）",
-      "developer": "",
+      "developer": "EA Los Angeles（继承Westwood Studios血统）",
       "publisher": "",
       "platform": "",
-      "releaseDate": "",
+      "releaseDate": "2008年",
       "genre": "RTS即时战略",
       "monetization": "",
-      "xStatement": "",
+      "xStatement": "1-4人即时战略游戏，基于Command & Conquer系列传统玩法，核心差异点：三阵营差异化设计 + 喜剧化冷战叙事 + 指挥官技能系统\n\n---",
       "tagline": "冷战题材的三阵营RTS",
       "playerStats": "",
-      "coreLoop": "采集资源→建造基地→生产单位→消灭敌军",
-      "difficulty": "中等偏易，适合RTS入门玩家",
-      "prototype": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《Red Alert 3》继承Westwood Studios《Command & Conquer》系列的核心理念\n\n- 被借鉴游戏的核心理念：冷战架空历史的喜剧化RTS，资源采集→基地建设→军队生产→正面决战\n- 本游戏独特体验：\n  - 首次引入第三阵营\"旭日帝国\"（日本高新技术军队）\n  - 三阵营各自拥有完全不同的单位、科技树和玩法机制\n  - 电影化的喜剧风格过场动画\n  - 指挥官技能系统（超武）为战场带来战略变量\n\n---",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
         "[RTS]-RedAlert3-三阵营差异化设计",
         "[RTS]-RedAlert3-海军单位系统",
         "[RTS]-RedAlert3-超武指挥官技能系统",
+        "[RTS]-RedAlert3-喜剧化叙事风格",
         "FactionDifference",
         "NavalUnits"
       ],
@@ -17592,25 +20210,43 @@
     },
     "RefereeSimulator": {
       "title": "裁判模拟器",
-      "gameName": "裁判模拟器",
-      "developer": "-",
+      "gameName": "Referee Simulator / Football Referee Simulator",
+      "developer": "（公开信息有限，待确认）",
       "publisher": "",
-      "platform": "PC / 主机",
-      "releaseDate": "",
+      "platform": "PC / 主机 / 移动端",
+      "releaseDate": "约2021年起",
       "genre": "模拟类",
-      "monetization": "买断制",
-      "xStatement": "裁判视角\n\n扮演足球裁判的游戏。\n\n---",
+      "monetization": "买断制（PC/主机） / 免费+内购（移动端）",
+      "xStatement": "裁判视角 + 执法压力模拟\n\n扮演足球裁判，在第一人称视角下执法比赛，通过管理疲劳、魅力值和压力值来维持赛场秩序，从低级别联赛逐步晋升至世界杯决赛。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "阅读比赛画面 -> 突发事件判罚 -> 决定出牌力度 -> 控制比赛压力值 -> 赛后评分",
-      "difficulty": "低。核心是做选择题",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "（待录入）",
-        "足球-裁判模拟器"
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《Referee Simulator》是基于「权力行使与后果承担」体验的裁判模拟：\n\n- 核心体验来源于真实足球裁判的工作困境：判罚尺度过松导致球员得寸进尺，判罚过严导致比赛支离破碎\n- 独特卖点：将\"执法者\"视角包装为资源管理游戏，玩家需要权衡个人状态（疲劳、魅力、压力）与判罚决策\n\n核心系统设计参考：\n- 裁判属性系统借鉴《足球经理》系列的角色数值管理\n- VAR系统还原现代足球裁判的真实工作流程\n- 观众行为AI模拟体育赛事现场氛围\n\n---",
+      "pillars": [
+        {
+          "title": "判罚决策压力链",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "体能分配机制",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "VAR决策悖论",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "赛后评估体系",
+          "experience": "",
+          "design": ""
+        }
       ],
+      "achievements": "",
+      "relatedMechanisms": [],
       "filename": "RefereeSimulator.md",
       "source": "人工"
     },
@@ -17773,26 +20409,23 @@
       "source": "人工"
     },
     "RustedWarfare": {
-      "title": "铁锈战争",
-      "gameName": "铁锈战争 (Rusted Warfare)",
+      "title": "铁锈战争 (Rusted Warfare) 游戏拆解文档",
+      "gameName": "",
       "developer": "",
       "publisher": "",
       "platform": "",
       "releaseDate": "",
-      "genre": "RTS即时战略手游",
+      "genre": "",
       "monetization": "",
       "xStatement": "",
-      "tagline": "简约科幻RTS手游",
+      "tagline": "",
       "playerStats": "",
-      "coreLoop": "快速暴兵→资源采集→单位对战",
-      "difficulty": "低，极简触控设计",
+      "coreLoop": "",
+      "difficulty": "",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "[RTS]-RustedWarfare-极简UI触控设计",
-        "[RTS]-RustedWarfare-触屏操作优化"
-      ],
+      "relatedMechanisms": [],
       "filename": "RustedWarfare.md",
       "source": "人工"
     },
@@ -17826,29 +20459,49 @@
       "developer": "",
       "publisher": "",
       "platform": "",
-      "releaseDate": "",
+      "releaseDate": "2019年",
       "genre": "硬核沙盘策略、SLG",
       "monetization": "",
       "xStatement": "",
       "tagline": "\"主打真实地形碰撞和兵种微操博弈的硬核拟真三国SLG\"",
       "playerStats": "",
-      "coreLoop": "抽卡配将 -> 手动铺路打地积攒资源 -> 大地图自由行军/拦截博弈 -> 攻城拔寨/千人同屏同盟国战（注：强调地缘政治和真实行军时间成本，策略深度极高）",
-      "difficulty": "较高。需要深度理解武将池的战法联动、兵种克制循环关系，且需要实时关注战报进行\"藏兵\"、\"斯巴达探路\"、\"中途拦截吃克制\"等大地图微操",
-      "prototype": "",
-      "pillars": [],
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "核心玩法原型\n\n玩法原型：《三国志·战略版》是基于《率土之滨》的体验\n\n- 《率土之滨》的核心理念：赛季制地缘SLG，以地格推进的沙盘大地图为核心设定，以武将卡牌养成作为商业化和成长路径，开创\"率土like\"玩法品类\n- 《率土之滨》的设计渊源：继承SEGA 2012年推出的《三国志conquest》等战略游戏的设计思路\n\n 次要玩法借鉴\n\n- 三国杀：武将战法设计借鉴了三国杀的思路，每个武将拥有独一无二的战法技能\n- 三国志系列：整体美术风格和世界观继承自光荣特库摩《三国志》系列\n\n 本游戏的独特体验\n\n- 真实地形碰撞：引入山川河流等真实地形，行军需要考虑地形因素\n- 兵种相克系统：强调枪/骑/弓/盾四大兵种之间的相克关系\n- 千人同屏战斗：支持大规模联盟战场，同盟成员协同作战\n- 动态天气系统：引入天气变化影响地形和战斗\n\n---",
+      "pillars": [
+        {
+          "title": "赛季制地缘战略",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "武将卡牌养成与战法联动",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "大地图自由行军与实时碰撞",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "联盟社交与GVG对抗",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
         "[SLG]-三战-兵种相克机制",
+        "[SLG]-三战-赛季制地缘战略",
+        "[SLG]-三战-自由行军与碰撞交战",
+        "[SLG]-三战-动态地图与天气系统",
+        "[SLG]-三战-联盟GVG对抗",
+        "[SLG]-三战-武将战法联动",
         "[SLG]-三国志战略版-动态地图",
         "[SLG]-三国志战略版-季节主题玩法",
-        "[SLG]-三国志战略版-天气改变地形机制",
-        "[SLG]-三国志战略版-兵种相克机制",
         "[SLG]-三国志战略版-自由行军与碰撞交战",
-        "[SLG]-三战-兵种相克机制>",
-        "[SLG]-三国志战略版-动态地图>",
-        "[SLG]-三国志战略版-季节主题玩法>",
-        "[SLG]-三国志战略版-天气改变地形机制>",
-        "[SLG]-三国志战略版-兵种相克机制>"
+        "[SLG]-三战-武将战法联动**关联标签**：SLG、硬核策略、自由行军、真实地形、兵种克制、赛季制、联盟国战"
       ],
       "filename": "SanGuoZhanLue.md",
       "source": "人工"
@@ -18035,7 +20688,7 @@
       "source": "人工"
     },
     "ShaoNianJinYiWei": {
-      "title": "少年锦衣卫",
+      "title": "少年锦衣卫 (ShaoNianJinYiWei)",
       "gameName": "",
       "developer": "",
       "publisher": "",
@@ -18048,8 +20701,29 @@
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
-      "pillars": [],
+      "prototype": "战斗系统借鉴\n- 原型: 《一梦江湖》(原《楚留香手游》)\n- 核心理念: 高自由度武侠MMO的纵深感战斗 + 轻功系统\n- 本游戏独特体验: 锦衣卫题材的官方身份代入感 + 明代锦衣卫机构的阵营系统\n\n 轻功系统借鉴\n- 原型: 《一梦江湖》《天涯明月刀》的多段轻功\n- 核心理念: 武侠世界中\"飞檐走壁\"的沉浸式移动体验\n- 本游戏独特体验: 摘星踏月、登萍渡水等武侠轻功招式\n\n 阵营系统借鉴\n- 原型: 传统MMO的阵营对抗(PvP)\n- 核心理念: 锦衣卫内部的南北镇抚司对立 + 朝廷与江湖的对抗\n- 本游戏独特体验: 锦衣卫vs三盗(江湖势力)的猫鼠游戏\n\n---",
+      "pillars": [
+        {
+          "title": "多段轻功系统 → 武侠沉浸感 → 3-5段轻功可切换",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "锦衣卫身份体系 → 官vs民的阵营体验 → 南北镇抚司对立",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "武侠战斗系统 → 拆招与技能搭配 → 武器+武学派生",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "剧情叙事 → 动漫IP还原 → 动画剧情植入",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "ShaoNianJinYiWei.md",
@@ -18258,6 +20932,7 @@
       "relatedMechanisms": [
         "[非对称]-外太空杀人小丑-死亡小游戏",
         "（待入库）",
+        "游戏卡-外太空杀人小丑",
         "[非对称]-外太空杀人小丑-死亡小游戏> （待入库）"
       ],
       "filename": "SpaceKillerClown.md",
@@ -18287,19 +20962,40 @@
     "Splatoon3": {
       "title": "Splatoon 3 / 喷射战士 3",
       "gameName": "Splatoon 3 / 喷射战士 3",
-      "developer": "",
+      "developer": "任天堂情报开发部",
       "publisher": "",
-      "platform": "",
+      "platform": "Nintendo Switch",
       "releaseDate": "",
-      "genre": "第三人称射击 (TPS) / 涂地",
+      "genre": "第三人称射击 (TPS) / 涂地对抗",
       "monetization": "",
       "xStatement": "",
       "tagline": "把\"换弹\"变成了\"潜行冲浪\"",
       "playerStats": "",
-      "coreLoop": "涂抹地面 -> 潜墨移动/回墨 -> 寻找角度/接敌 -> 占领要地 (控制中心)",
-      "difficulty": "中等至极高。基础射击门槛低（涂地即贡献），但进阶身法（体感瞄准、鱿鱼滚行）有极高的操作天花板",
-      "prototype": "",
-      "pillars": [],
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《Splatoon》借鉴了儿童水枪玩具的体验\n\n- 被借鉴体验：儿童拿着水枪互相喷水玩耍的纯粹快乐——简单直觉的射击、覆盖面子的满足感、快速循环的对抗\n- 本游戏独特体验：鱿鱼形态的潜墨移动——墨水不仅是武器，更是快速机动的手段，玩家可在人形（射击）与鱿鱼（游泳）间自由切换，创造了\"把换弹变成了潜行冲浪\"的独特体验\n\n多系统借鉴说明：\n- 武器系统：借鉴水枪玩具的多元形态（画笔、滚筒、伞状枪），而非传统枪械\n- 移动系统：借鉴鱿鱼潜泳的隐蔽快速移动，不同于传统射击的跑酷\n- 对局节奏：借鉴卡带式快餐体验，3分钟一局，无需长时间投入\n\n---",
+      "pillars": [
+        {
+          "title": "墨水三位一体机制",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "3分钟快节奏对战",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "非对称武器生态",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "任天堂式新手友好",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
         "[TPS]-Splatoon 3-潜墨游动机制"
@@ -18312,17 +21008,38 @@
       "gameName": "战术小队 / Squad",
       "developer": "Offworld Industries",
       "publisher": "",
-      "platform": "PC",
-      "releaseDate": "2020年",
+      "platform": "PC (Steam)",
+      "releaseDate": "2020年9月23日（正式版）",
       "genre": "战术射击",
       "monetization": "",
-      "xStatement": "Offworld硬核战术射击，50v50大战场",
-      "tagline": "50v50大战场",
-      "playerStats": "销量超300万",
+      "xStatement": "",
+      "tagline": "50v50大战场硬核战术射击",
+      "playerStats": "销量超300万，收入约3.85亿美元",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
-      "pillars": [],
+      "prototype": "玩法原型：《Squad》是基于《Project Reality》（战地2 mod）的体验：\n\n《Project Reality》的核心理念是真实军事模拟与班组战术协作：玩家不再是孤胆英雄，而是班组作战中的一个齿轮，需要依靠指挥官的战术部署、队友的密切配合来完成作战目标。\n\n本游戏的独特体验：\n- 完整商业化独立作品：从mod进化为完整游戏，提供更完善的游戏体验\n- 现代化图形表现：使用虚幻4引擎，提供更真实的战场画面\n- 深度VoIP系统：集成式语音通讯，模拟真实军事通讯体系\n- 多国阵营设定：包含美军、俄军、英军、法军等多个阵营\n\n---",
+      "pillars": [
+        {
+          "title": "50v50大规模战场",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "载具战斗系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "指挥与通讯系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "前线基地建造（FOB）",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "Squad.md",
@@ -18442,8 +21159,20 @@
           "design": ""
         }
       ],
-      "achievements": "Steam收入  ：超过1.58亿美元;    首日销量  ：20万（打破P社记录）;    发行平台  ：PC（Steam/Paradox Store）;    评分  ：Metacritic 78分; ### 开发信息;    开发商  ：Paradox Interactive;    发行商  ：Paradox Interactive;    发售日期  ：2016年5月9日;    引擎  ：Clauses; ### 系列地位;  Paradox 4X策略代表作;  持续运营8年，DLC丰富; ### 信息来源;  Wikipedia：游戏基础信息;  Metacritic：评分数据;  LEVVVEL：Steam收入统计;  GameRes：游戏分析报告;  机核：开发周记翻译",
-      "relatedMechanisms": [],
+      "achievements": "Steam收入  ：超过1.58亿美元;    首日销量  ：20万（打破P社记录）;    发行平台  ：PC（Steam/Paradox Store）;    评分  ：Metacritic 78分; ### 开发信息;    开发商  ：Paradox Interactive;    发行商  ：Paradox Interactive;    发售日期  ：2016年5月9日;    引擎  ：Clauses; ### 系列地位;  Paradox 4X策略代表作;  持续运营8年，DLC丰富;",
+      "relatedMechanisms": [
+        "[Excellent][策略]-Stellaris-终局危机系统",
+        "[Excellent][策略]-Stellaris-科技树系统",
+        "[Excellent][策略]-Stellaris-天灾飞升系统",
+        "Wikipedia：游戏基础信息",
+        "Metacritic：评分数据",
+        "LEVVVEL：Steam收入统计",
+        "GameRes：游戏分析报告",
+        "机核：开发周记翻译",
+        "[策略]-Stellaris-终局危机系统",
+        "[策略]-Stellaris-科技树系统",
+        "[策略]-Stellaris-天灾飞升系统### 信息来源"
+      ],
       "filename": "Stellaris.md",
       "source": "人工"
     },
@@ -18485,9 +21214,9 @@
       "xStatement": "一千零一夜风格卡牌叙事游戏，玩家扮演苏丹的臣子，每周抽取\"纵欲/奢靡/征服/杀戮\"四种苏丹卡，在七天内完成极端任务，通过网状叙事做出抉择走向50+种结局。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "- 抽卡→7天倒计时→完成任务→循环多周目",
-      "difficulty": "- 中等门槛",
-      "prototype": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "核心循环：抽卡→7天倒计时→完成任务→循环多周目\n\n原型分类：卡牌构筑 + 叙事驱动 + 资源管理\n\n操作门槛：中等门槛\n\n 核心玩法\n\n1. 苏丹卡系统：每周从\"纵欲/奢靡/征服/杀戮\"四种类型卡牌中抽取，每种类型有普通/稀有/史诗/传说四种品级，共16种组合限制\n2. 骰子判定机制：基于DND跑团风格的数值判定系统，玩家和NPC都有能力数值影响事件结果\n3. 网状叙事：50+种结局，决策影响命运走向\n4. 资源管理：财富/情报/装备，招募NPC盟友，发展自身势力\n5. 多周目重复可玩性：解锁隐藏内容\n\n---",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
@@ -18557,16 +21286,37 @@
       "developer": "",
       "publisher": "",
       "platform": "",
-      "releaseDate": "",
+      "releaseDate": "1995年(SFC) / 2022年(Reborn重制版)",
       "genre": "SRPG / 策略战棋",
       "monetization": "",
       "xStatement": "",
       "tagline": "硬核军事战棋 + 政治叙事巅峰之作",
       "playerStats": "",
-      "coreLoop": "在复杂战场布局策略单位 → 利用高低差和WT行动顺序击败敌人 → 推进政治剧情 → 多结局选择",
-      "difficulty": "高。硬核战旗玩法，需要深入理解职业系统和战场机制",
-      "prototype": "",
-      "pillars": [],
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "玩法原型：《皇家骑士团2》是基于经典战棋体验的延伸：\n\n1. WT行动顺序系统 ← 借鉴《火焰纹章》等传统战棋但做了颠覆性创新\n   - 核心理念：\"速度与重量的博弈\" —— 轻装单位高频行动，重装单位低频但高伤害\n   - 独特体验：引入Recovery Time(RT)机制，行动后需要等待RT时间才能再次行动，形成动态博弈\n\n2. 三维战场高低差系统 ← 借鉴早期战棋但做到极致\n   - 核心理念：\"地形决定战术\" —— 高打低有攻击加成，低打高受惩罚\n   - 独特体验：高低差不仅是数值修正，还影响技能范围和命中率\n\n3. 职业系统理论craft ← 深度角色养成\n   - 核心理念：\"无限组合可能\" —— 职业、技能、装备的排列组合\n   - 独特体验：单位独立升级+多职业转职路径\n\n---",
+      "pillars": [
+        {
+          "title": "WT行动顺序系统 → 动态博弈节奏 → 重量影响RT(100-300范围)",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "三维高低差战场 → 空间博弈 → 高度差=±30%命中/伤害修正",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "政治多结局叙事 → 选择与后果 → 3条主线×多结局",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "深度职业系统 → 理论craft深度 → 10+基础职业×转职树",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
         "[战棋]-TacticsOgre-WT行动顺序系统",
@@ -18654,27 +21404,27 @@
     "TeamfightTactics": {
       "title": "Teamfight Tactics / 云顶之弈",
       "gameName": "云顶之弈 / Teamfight Tactics",
-      "developer": "Riot Games",
+      "developer": "Riot Games（拳头游戏）",
       "publisher": "",
-      "platform": "PC / 移动端",
-      "releaseDate": "2019年",
+      "platform": "PC / 移动端（iOS/Android）",
+      "releaseDate": "2019年6月27日",
       "genre": "自走棋",
       "monetization": "",
-      "xStatement": "Riot自走棋，英雄联盟IP，8人对战",
+      "xStatement": "8人实时对战的自走棋游戏，玩家通过构建英雄联盟角色阵容、合成装备、搭配羁绊来击败对手，基于“牌组构筑+资源管理”的心理体验设计",
       "tagline": "英雄联盟IP自走棋",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
       "prototype": "",
       "pillars": [],
-      "achievements": "",
+      "achievements": "移动端累计收入  ：约2.99亿美元（截至2022年7月）;    国服《金铲铲之战》2024年流水  ：约79.06亿人民币;    市场地位  ：自走棋品类头部产品，腾讯游戏收入的重要组成部分;    长线表现  ：运营超6年，持续保持高热度;",
       "relatedMechanisms": [
-        "[自走棋]-[云顶之弈]-装备合成系统",
-        "羁绊组合系统",
-        "HaikesiQianghuaXitong",
-        "公共牌池抓取",
-        "共享选秀轮盘",
-        "利息经济系统"
+        "自走棋-云顶之弈-装备合成系统",
+        "自走棋-云顶之弈-羁绊组合系统",
+        "自走棋-云顶之弈-利息经济系统",
+        "自走棋-云顶之弈-公共牌池抓取",
+        "自走棋-云顶之弈-共享选秀轮盘",
+        "HaikesiQianghuaXitong"
       ],
       "filename": "TeamfightTactics.md",
       "source": "人工"
@@ -18800,17 +21550,38 @@
       "gameName": "森林 / The Forest",
       "developer": "Endnight Games",
       "publisher": "",
-      "platform": "PC",
-      "releaseDate": "2018年",
-      "genre": "生存恐怖",
+      "platform": "PC (Steam)",
+      "releaseDate": "2018年4月",
+      "genre": "开放世界生存恐怖",
       "monetization": "",
-      "xStatement": "Endnight生存恐怖，野人对抗",
+      "xStatement": "",
       "tagline": "野人生存",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
-      "pillars": [],
+      "prototype": "玩法原型：《The Forest》是基于《Minecraft》+《Don't Starve》的体验：\n\n1. 建造系统 ← 借鉴《Minecraft》\n   - 核心理念：自由建造、生存制造\n   - 独特体验：侧重防御工事建造，抵御敌人入侵\n\n2. 生存机制 ← 借鉴《Don't Starve》\n   - 核心理念：资源管理、季节/环境威胁\n   - 独特体验：恐怖氛围下的生存压力（饥饿、寒冷、健康）\n\n3. 敌人AI ← 原创差异化\n   - 独特体验：野人/Mutant具有高度智能——侦察基地、佯退求援、围魏救赵，甚至远程观察玩家制造心理压力\n\n---",
+      "pillars": [
+        {
+          "title": "生存系统 → 数值管理 + 规则触发",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "建造系统 → 资源收集 + 建造清单",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "敌人AI系统 → 行为树 + 状态机",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "探索系统 → 地图区域 + 触发事件",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [],
       "filename": "TheForest.md",
@@ -18862,25 +21633,20 @@
       "title": "天地劫：幽城再临 / TianDiJie",
       "gameName": "天地劫：幽城再临",
       "developer": "",
-      "publisher": "",
+      "publisher": "紫龙游戏",
       "platform": "",
-      "releaseDate": "",
+      "releaseDate": "2021年3月11日",
       "genre": "SRPG / 策略战棋手游",
       "monetization": "",
-      "xStatement": "",
+      "xStatement": "公式：\n 单人玩家在手游平台通过战棋策略战斗+角色多维度养成，追求数值成长与阵容搭配的乐趣，核心差异点是主机级国风武侠画面 + 属性相克与技能联动策略系统。\n\n拆解：\n- 基础信息：单人玩家、手游平台\n- 品类：战棋RPG + 角色养成\n- 核心体验：策略战斗的组合搭配乐趣 + 角色数值成长乐趣\n- 独特卖点：主机级国风武侠画面 + 细腻的属性相克与技能联动系统\n\n---",
       "tagline": "国风武侠战棋 + 主机级画面",
       "playerStats": "",
-      "coreLoop": "推图战斗 → 角色养成（境界/功法/魂石）→ 蚀之隙挑战 → 活动 → 循环",
-      "difficulty": "中等偏高。系统较多，需要较深理解",
-      "prototype": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "1. 战斗系统原型\n\n借鉴来源：《梦幻模拟战》手游\n\n- 被借鉴游戏的核心理念： 经典战棋玩法基础上融入角色养成，通过丰富的职业系统、技能树和兵种相克创造深度策略体验\n- 本游戏的独特体验： \n  - 移除兵种携带系统，简化上手门槛\n  - 强化属性相克系统（冰火雷三系循环相克 + 光暗单向克制）\n  - 增加场景机关与环境互动要素（地形影响、元素传导）\n\n 2. 养成系统原型\n\n借鉴来源：《梦幻模拟战》手游 + 传统二次元抽卡手游\n\n- 被借鉴游戏的核心理念： 通过多维度角色养成（等级、技能、天赋、装备）创造长线数值成长乐趣\n- 本游戏的独特体验：\n  - 五内系统（类似天赋树）+ 列星系统（额外被动加成）\n  - 战阵系统（队伍属性加成）\n  - 境界/功法/魂石等多层次养成线\n\n 3. 美术风格原型\n\n借鉴来源： 主机级ARPG武侠游戏\n\n- 被借鉴游戏的核心理念： 精细的3D建模与场景渲染，营造沉浸式武侠世界\n- 本游戏的独特体验： 在手游端实现主机级国风武侠画面，配合水墨风格的UI设计\n\n---",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "[战棋]-TianDiJie-属性相克系统",
-        "战棋-天地劫-属性相克系统",
-        "[战棋]-TianDiJie-技能联动系统",
-        "[战棋]-TianDiJie-多维度养成系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "TianDiJie.md",
       "source": "人工"
     },
@@ -18975,7 +21741,8 @@
         "赛车-赛道狂飙-玩家自制内容生态",
         "PlayerCreatedContent",
         "RankingSystem",
-        "TrackEditor"
+        "TrackEditor",
+        "游戏卡"
       ],
       "filename": "TrackMania.md",
       "source": "人工"
@@ -19593,22 +22360,24 @@
       "gameName": "Xenoblade Chronicles 3 / 异度神剑3",
       "developer": "Monolith Soft / Nintendo",
       "publisher": "",
-      "platform": "主机 / PC",
-      "releaseDate": "2022年",
-      "genre": "JRPG、即时战斗带指令、开放世界",
+      "platform": "Nintendo Switch / PC",
+      "releaseDate": "2022年7月29日",
+      "genre": "JRPG、即时战斗、开放世界",
       "monetization": "买断制",
       "xStatement": "职业缝合大师\n\n将职业缝合玩到极致的全员兼职导师。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "解锁新英雄 -> 角色转职该职业 -> 战斗获取CP升级职业 -> 达到满级精通 -> 将精通技能跨职业装备 -> 构筑终极缝合怪",
-      "difficulty": "中高。战前职业搭配、融合战技设定",
-      "prototype": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "核心玩法原型：《最终幻想5》职业系统 × 《异度之刃》系列即时战斗\n\n1. 职业系统借鉴：\n   - 《最终幻想5》的核心理念是\"职业精通+技能传承\"——玩家通过转职获得新职业体验，达到满级后可以将该职业的核心技能传承给其他职业，形成自由构筑\n   - 异度之刃3在此基础上改出了独特的体验：6位主角均可自由转职，每个职业有独立的天赋技能树，职业间通过\"职业等级\"和\"精通点\"实现技能跨职业装备\n\n2. 战斗系统传承：\n   - 延续《异度之刃》系列\"自动攻击+战技释放\"的即时战斗模式\n   - 创新融合战技系统：将两个角色的战技组合成更强力的融合攻击\n\n3. 独特卖点：\n   - 全员皆可转职 + 职业间无限制技能传承 = 真正的\"缝合怪\"构建体验\n   - 6位主角 × N个英雄职业 = 无限组合可能性\n   -  Ouroboros（衔尾蛇）系统：双人融合成更强力的作战单位\n\n---",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
         "英雄系统",
         "融合战技",
-        "JRPG-异度之刃3-职业精通与融合系统"
+        "职业精通与技能传承",
+        "Ouroboros融合系统",
+        "异度之刃3-职业精通与融合系统"
       ],
       "filename": "Xenoblade3.md",
       "source": "人工"
@@ -19673,7 +22442,7 @@
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
+      "prototype": "战斗系统原型\n- 借鉴《艾尔登法环》/《黑暗之魂》的硬核动作战斗\n- 强调Boss战设计、武器武学搭配的深度\n- 死亡惩罚与探索驱动\n\n 开放世界设计原型\n- 借鉴《塞尔达传说：旷野之息》的涌现式解谜设计\n  - 环境中元素（水、火、风）可产生连锁反应\n  - 武器/奇术可组合解谜（点穴定身、太极借力、神龙吐火）\n  - 无固定解题流程，鼓励玩家利用所学能力自由探索\n- 借鉴《艾尔登法环》的箱庭串联结构\n  - 用开放世界串联不同体量的箱庭关卡\n  - 给玩家\"休息\"节奏，合理安排探索进度\n\n 核心差异点\n- \"武侠\"题材为核心，将中式武侠文化与开放世界公式自然融合\n- 武学+内功+心法+奇术四维构筑系统，提供Build深度\n- 单人/多人模式分离，兼顾沉浸式体验与社交需求\n\n---",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [],
@@ -19981,7 +22750,9 @@
         }
       ],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "游戏卡-绝区零"
+      ],
       "filename": "ZenlessZoneZero.md",
       "source": "人工"
     },
@@ -20009,24 +22780,26 @@
       "source": "人工"
     },
     "ZhangeArena": {
-      "title": "战歌竞技场",
-      "gameName": "战歌竞技场",
+      "title": "战歌竞技场（ZhangeArena / Chess Rush）",
+      "gameName": "战歌竞技场（Chess Rush）",
       "developer": "",
       "publisher": "",
       "platform": "",
-      "releaseDate": "",
-      "genre": "策略自走棋",
+      "releaseDate": "2019年5月13日",
+      "genre": "策略自走棋手游",
       "monetization": "",
       "xStatement": "",
-      "tagline": "腾讯自研自走棋手游",
+      "tagline": "腾讯首款自走棋手游，15分钟极速对决",
       "playerStats": "",
-      "coreLoop": "腾讯自研自走棋手游，支持4v4团队对战模式。玩家通过棋子组合和羁绊搭配进行战斗",
-      "difficulty": "中等，需要理解基础自走棋规则",
-      "prototype": "",
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "核心借鉴：\n\n- 《刀塔自走棋》：羁绊系统设计思路，种族+职业的双重羁绊框架\n- CCG卡牌游戏：自定义英雄/棋子解锁系统，玩家可用碎片兑换棋子，形成类似卡组构建的策略深度\n- MOBA游戏：4v4团队对战模式，棋子可援助队友，共享血量\n\n玩法原型总结：\n\n> 战歌竞技场是基于《刀塔自走棋》体验：玩家通过棋子组合和羁绊搭配进行策略对战\n> \n> 独特卖点：\n> - 4v4团队合作：4人组队共享血量，获胜棋子可援助队友，类似MOBA的团队博弈\n> - 自定义英雄系统：棋子需解锁才能使用，类似CCG卡牌，降低入门门槛的同时增加策略深度\n> - 15分钟极速对决：降低血量、增加金币产出、快节奏对局\n\n---",
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[自走棋]-战歌竞技场-羁绊系统"
+        "[自走棋]-战歌竞技场-羁绊系统",
+        "[自走棋]-战歌竞技场-4v4团队模式",
+        "[自走棋]-战歌竞技场-自定义英雄系统"
       ],
       "filename": "ZhangeArena.md",
       "source": "人工"
@@ -20179,30 +22952,6 @@
       "filename": "dnf-origins.md",
       "source": "人工"
     },
-    "genshin": {
-      "title": "Genshin Impact / 原神 (更新版)",
-      "gameName": "原神 / Genshin Impact",
-      "developer": "米哈游",
-      "publisher": "",
-      "platform": "PC / 移动端 / 主机",
-      "releaseDate": "2020年9月",
-      "genre": "开放世界RPG / 抽卡",
-      "monetization": "",
-      "xStatement": "",
-      "tagline": "国产开放世界",
-      "playerStats": "",
-      "coreLoop": "",
-      "difficulty": "",
-      "prototype": "",
-      "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [
-        "[开放世界探索]-[原神]-神瞳供奉系统",
-        "god-eye-offering"
-      ],
-      "filename": "genshin.md",
-      "source": "人工"
-    },
     "gunfire-reborn": {
       "title": "枪火重生 / Gunfire Reborn",
       "gameName": "枪火重生 / Gunfire Reborn",
@@ -20281,24 +23030,48 @@
       "gameName": "幸运房东 / Luck Be a Landlord",
       "developer": "",
       "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "Roguelike",
+      "platform": "Steam / iOS / Android / PlayStation",
+      "releaseDate": "2023年1月6日（正式版），2021年1月8日（EA）",
+      "genre": "Roguelike Deckbuilder",
       "monetization": "",
       "xStatement": "",
       "tagline": "\"老虎机Deck-builder+租金压力循环\"",
       "playerStats": "",
-      "coreLoop": "spin老虎机→赚租金→支付房租→升级符号→下一轮",
-      "difficulty": "中等，需要理解符号协同",
-      "prototype": "",
-      "pillars": [],
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "核心机制借鉴：\n\n1. Deck-builder系统 → 借鉴自《Slay the Spire》等传统卡牌构建游戏\n   - 玩家可以构建自己的\"符号池\"\n   - 每次旋转从池中随机抽取符号\n\n2. 老虎机运气引擎 → 核心创新点\n   - 用老虎机旋转代替传统抽卡\n   - 引入概率运气元素，打破传统Deck-builder的确定性\n\n3. 租金压力循环 → 借鉴自经济模拟游戏的资源压力机制\n   - 每轮需要支付租金，压力驱动决策\n   - 租金递增，难度曲线自然上升\n\n独特卖点：\n- 老虎机外包装下的深度策略游戏\n- \"反资本主义\"的黑色幽默叙事\n- 符号之间的交互效果产生涌现式策略\n\n---",
+      "pillars": [
+        {
+          "title": "老虎机符号引擎",
+          "experience": "每次旋转都是关于概率的赌博决策",
+          "design": "- 3轴老虎机，每次旋转产出3个符号\n- 符号池由玩家构建，池子深度决定运气上限\n- 符号分为普通/稀有/传奇稀有度"
+        },
+        {
+          "title": "租金压力系统",
+          "experience": "持续的经济压力迫使玩家在风险与收益之间做决策",
+          "design": "- 每轮开始房东上门收租\n- 租金=基础租金×当前轮数（递增曲线）\n- 支付不起租金=游戏结束"
+        },
+        {
+          "title": "道具物品系统",
+          "experience": "随机道具创造不同的build策略组合",
+          "design": "- 每轮随机出现3个道具供选择\n- 道具分为消耗品/永久增强/一次性\n- 道具与符号的交互产生化学效应"
+        },
+        {
+          "title": "房东BOSS战",
+          "experience": "最终对抗资本主义的具象化敌人",
+          "design": "- 击败房东进入下一关\n- 房东有独特的攻击模式（涨租金、驱逐令、催租）\n- 多阶段BOSS战设计\n\n---"
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
         "[Roguelike]-LuckyLandlord-老虎机符号引擎",
         "[Roguelike]-幸运房东-老虎机符号引擎",
         "[Roguelike]-LuckyLandlord-租金压力系统",
         "rent-pressure-system",
-        "slot-machine-symbol-engine"
+        "slot-machine-symbol-engine",
+        "deckbuilder-variation",
+        "economic-pressure-loop",
+        "[Roguelike]-LuckyLandlord-租金压力系统**机制标签：**"
       ],
       "filename": "lucky-landlord.md",
       "source": "人工"
@@ -20306,19 +23079,40 @@
     "mewgenics": {
       "title": "喵喵的结合 / Mewgenics",
       "gameName": "喵喵的结合 / Mewgenics",
-      "developer": "",
+      "developer": "Edmund McMillen, Tyler Glaiel (Team Meat)",
       "publisher": "",
       "platform": "",
       "releaseDate": "",
       "genre": "Roguelite + 回合制战术RPG",
       "monetization": "",
-      "xStatement": "",
-      "tagline": "\"《以撒的结合》+ 遗传育种模拟器\"",
+      "xStatement": "1人/多人回合制战术 Roguelite，通过遗传育种系统培育最强猫战士，在10x10网格战场上运用元素反应和职业技能进行策略战斗，存活猫携带突变基因返回家园进行下一轮繁殖，形成\"培育→战斗→传承\"的无限循环。\n\n---",
+      "tagline": "\"《以撒的结合》+《Into the Breach》+ 遗传育种模拟器\"",
       "playerStats": "",
-      "coreLoop": "房屋培育（交配繁殖）→ 战斗准备（选猫+配职业）→ 回合制战斗（10x10战场）→ 基因传递（存活猫带突变回家）→ 循环往复",
-      "difficulty": "策略深度高，上手门槛中等",
-      "prototype": "",
-      "pillars": [],
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "战斗系统借鉴\n- 《以撒的结合》(The Binding of Isaac)：Roguelite随机地牢体验，每次战斗结果影响后续资源\n- 《Into the Breach》：回合制战术RPG，10x10网格战场，策略深度高\n\n核心差异点：相比《以撒的结合》的弹幕躲避快感，Mewgenics强调代际传承的数值累积；相比《Into the Breach》的固定角色，游戏强调每代猫的基因变异与BD构建\n\n 育种系统借鉴\n- 宠物养成游戏：多代际遗传系统，突变可传递给后代\n- 宝可梦：基因组合产生独特后代\n\n独特卖点：将Roguelite的\"单次探索\"转化为\"世代累积\"，形成长线养成动力\n\n---",
+      "pillars": [
+        {
+          "title": "遗传育种与突变系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "元素反应系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "职业技能双轨BD系统",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "Roguelite循环机制",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
         "[Roguelite]-Mewgenics-遗传育种系统",
@@ -20326,7 +23120,10 @@
         "[Roguelite]-Mewgenics-职业技能双轨BD",
         "breeding-system",
         "elemental-reaction",
-        "skill-build-system"
+        "skill-build-system",
+        "generational-inheritance",
+        "turn-based-tactical",
+        "[Roguelite]-Mewgenics-职业技能双轨BD**机制标签**："
       ],
       "filename": "mewgenics.md",
       "source": "人工"
@@ -20528,16 +23325,37 @@
       "developer": "",
       "publisher": "",
       "platform": "",
-      "releaseDate": "",
+      "releaseDate": "2024年7月4日",
       "genre": "动作手游",
       "monetization": "",
       "xStatement": "",
       "tagline": "\"米哈游动作+电视探索双模式\"",
       "playerStats": "",
-      "coreLoop": "电视模式探索→踩怪进入战斗→击败敌人→继续探索",
-      "difficulty": "中等",
-      "prototype": "",
-      "pillars": [],
+      "coreLoop": "",
+      "difficulty": "",
+      "prototype": "战斗系统\n\n- 借鉴来源：《崩坏3》的即时动作战斗\n- 核心理念：高速连招 + 极限闪避 + 破盾输出\n- 独特改动：\n  - 引入「失衡值」系统：积累敌人失衡条后进入「失衡期」，可触发爆发伤害\n  - 引入「紊乱状态」：通过不同属性异常积累触发更强输出\n  - 简化为单角色操控（对比崩坏3多角色切换），降低操作门槛\n\n 探索系统\n\n- 借鉴来源：复古游戏（如《女神异闻录》等地牢探索玩法）的电视/屏幕界面探索\n- 核心理念：在「空洞」中通过类TV屏幕的网格界面进行探索，触发随机事件\n- 独特改动：\n  - 2024年1.1版本后：主线剧情可完全不接触TV模式，降低早期负担\n  - TV模式在部分活动/支线中仍是核心体验\n\n---",
+      "pillars": [
+        {
+          "title": "高速流畅的动作战斗体验",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "角色人格化与情感连接",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "电视探索的roguelike体验",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "都市幻想的视觉风格",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
       "relatedMechanisms": [
         "[动作]-ZenlessZoneZero-电视战斗双模式系统",
@@ -20627,7 +23445,7 @@
     }
   },
   "stats": {
-    "mechanismCount": 428,
-    "gameCount": 339
+    "mechanismCount": 519,
+    "gameCount": 342
   }
 }

@@ -216,17 +216,14 @@ function parseTable(tableText) {
   const rows = [];
   const lines = tableText.split('\n');
   for (const line of lines) {
-    const match = line.match(/\|([^|]+)\|([^|]+)\|/g);
-    if (match) {
-      for (const row of match) {
-        const cells = row.split('|').filter(c => c.trim());
-        if (cells.length >= 2) {
-          rows.push({ 
-            key: cells[0].trim().replace(/\*\*/g, ''), 
-            value: cells[1].trim() 
-          });
-        }
-      }
+    // Skip header lines like | 字段 | 内容 | or | --- | --- |
+    if (line.includes(':---') || line.includes('字段') || line.trim() === '|' || line.includes('---')) continue;
+    const cells = line.split('|').filter(c => c.trim());
+    if (cells.length >= 2) {
+      rows.push({ 
+        key: cells[0].trim().replace(/\*\*/g, ''), 
+        value: cells[1].trim() 
+      });
     }
   }
   return rows;
@@ -290,7 +287,7 @@ function extractMechanismInfo(parsed, filename) {
         const gameMatch = row.value.match(/\[([^\]]+)\]-([^-]+)-/);
         if (gameMatch) info.gameName = gameMatch[2].trim();
       }
-      else if (row.key.includes('来源游戏')) {
+      else if (row.key.includes('来源游戏') || row.key.includes('所属游戏')) {
         // Extract from 🔗 *Game* or just text
         const gameMatch = row.value.match(/\*([^*]+)\*/);
         if (gameMatch) info.gameName = gameMatch[1].trim();
@@ -298,6 +295,10 @@ function extractMechanismInfo(parsed, filename) {
           // Format: 🔗 GameName
           const simpleMatch = row.value.replace('🔗', '').trim();
           if (simpleMatch) info.gameName = simpleMatch;
+        } else {
+          // 纯文本游戏名
+          const plainText = row.value.replace(/\*/g, '').trim();
+          if (plainText && plainText.length > 0) info.gameName = plainText;
         }
       }
       else if (row.key.includes('核心标签')) {

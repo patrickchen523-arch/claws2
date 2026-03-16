@@ -552,7 +552,7 @@
     
     // Load data
     async function loadData() {
-      const response = await fetch('data.json');
+      const response = await fetch('data.json?v=1773634700');
       data = await response.json();
       renderStats();
       renderGrid();
