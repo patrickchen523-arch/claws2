@@ -542,6 +542,7 @@
 
 ### DeadCells
 - [Excellent]武器构建系统
+- [Excellent]1血保护与血瓶系统
 - [Qualify]RogueVania融合机制
 - [Qualify]蓝图解锁系统
 

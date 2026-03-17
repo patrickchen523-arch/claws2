@@ -347,6 +347,7 @@
       "demo": "",
       "filename": "[Qualify][策略]-AdvanceWars-指挥官技能系统.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1904490/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "策略-战棋"
@@ -1549,6 +1550,52 @@
         "高耦合"
       ]
     },
+    "ArenaBreakoutInfinite/[Excellent][撤离类]-ArenaBreakoutInfinite-枪械改装系统.md": {
+      "title": "[撤离类]-ArenaBreakoutInfinite-枪械改装系统",
+      "gameName": "暗区突围：无限",
+      "tags": [],
+      "simpleDesc": "\"配装决定生死\"：6大类武器可自由改装，配件搭配直接影响战斗力",
+      "mechanismDesc": "枪械改装是暗区突围的深度设计：\n1. **武器类型**：手枪、冲锋枪、步枪、轻机枪、霰弹枪、卡宾枪\n2. **配件改装**：瞄具、握把、枪管、弹匣等部位\n3. **属性影响**：后座力、射速、精准度、威力\n4. **改装方案**：可保存多套配装方案",
+      "coreRules": "",
+      "trigger": "- 局外改装武器",
+      "painPoint": "- 解决\"武器无差异\"的单调",
+      "experienceGoal": "- 提供\"定制武器\"的成就感",
+      "similarMechanisms": [
+        {
+          "game": "逃离塔科夫",
+          "mechanism": "枪械改装系统"
+        }
+      ],
+      "demo": "",
+      "filename": "[Excellent][撤离类]-ArenaBreakoutInfinite-枪械改装系统.md",
+      "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/piD6IY4M3hSceGg1CUY7vjRN0NcA1QsCEAD2-ryrxF8qh7FzqXMMw936p4A_j9bWP1RqZiO46sVV8PWT5MCT"
+    },
+    "ArenaBreakoutInfinite/[Excellent][撤离类]-ArenaBreakoutInfinite-装备带入带出系统.md": {
+      "title": "[撤离类]-[暗区突围：无限]-装备带入带出系统",
+      "gameName": "暗区突围：无限",
+      "tags": [],
+      "simpleDesc": "\"装备全带走，死了全丢\"：带入的装备决定生存能力，搜到的物资只有活着撤离才能带走",
+      "mechanismDesc": "装备带入带出是搜打撤的核心设计：\n\n1. **自由带入**：可携带任意装备进入战场\n2. **全掉落**：死亡后装备被击杀者掠夺\n3. **保险箱**：部分装备可放入保险，被杀后可取回\n4. **战利品**：高价值物资（显卡、金条、钥匙）大幅提升收益",
+      "coreRules": "",
+      "trigger": "- 局外仓库选择装备带入",
+      "painPoint": "- 解决\"装备无意义\"的无聊",
+      "experienceGoal": "- 提供\"积累财富\"的成就感",
+      "similarMechanisms": [
+        {
+          "game": "逃离塔科夫",
+          "mechanism": "装备带入带出系统"
+        },
+        {
+          "game": "三角洲行动",
+          "mechanism": "装备携带机制"
+        }
+      ],
+      "demo": "",
+      "filename": "[Excellent][撤离类]-ArenaBreakoutInfinite-装备带入带出系统.md",
+      "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/piD6IY4M3hSceGg1CUY7vjRN0NcA1QsCEAD2-ryrxF8qh7FzqXMMw936p4A_j9bWP1RqZiO46sVV8PWT5MCT"
+    },
     "ArenaBreakoutInfinite/[Excellent]搜打撤-撤离机制.md": {
       "title": "[搜打撤]-[逃离塔科夫]-撤离机制",
       "gameName": "逃离塔科夫",
@@ -1563,6 +1610,7 @@
       "demo": "",
       "filename": "[Excellent]搜打撤-撤离机制.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/2073620/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "射击-搜打撤"
@@ -1600,81 +1648,6 @@
       ],
       "mechanismDesignCategory": [
         "射击-搜打撤"
-      ],
-      "mechanismDesignFun": [
-        "策略",
-        "竞技"
-      ],
-      "mechanismDesignEmotion": [
-        "紧张感"
-      ],
-      "mechanismDesignInteraction": [
-        "对抗"
-      ],
-      "playLevelTags": [
-        "单局1-6人（3人组队）",
-        "单人玩法",
-        "双人玩法",
-        "PvPvE",
-        "可重复",
-        "Endgame",
-        "即时操作",
-        "中规中矩（10-60分钟）",
-        "核心玩法",
-        "高耦合"
-      ]
-    },
-    "ArenaBreakoutInfinite/[Excellent]搜打撤-枪械改装系统.md": {
-      "title": "[搜打撤]-[暗区突围：无限]-枪械改装系统",
-      "gameName": "暗区突围：无限",
-      "tags": [],
-      "simpleDesc": "\"配装决定生死\"：6大类武器可自由改装, 配件搭配直接影响战斗力",
-      "mechanismDesc": "枪械改装是暗区突围的深度设计：\n1. **武器类型**：手枪, 冲锋枪, 步枪, 轻机枪, 霰弹枪, 卡宾枪\n2. **配件改装**：瞄具, 握把, 枪管, 弹匣等部位\n3. **属性影响**：后座力, 射速, 精准度, 威力\n4. **改装方案**：可保存多套配装方案",
-      "coreRules": "",
-      "trigger": "- 局外改装武器",
-      "painPoint": "- 解决\"武器无差异\"的单调",
-      "experienceGoal": "- 提供\"定制武器\"的成就感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[Excellent]搜打撤-枪械改装系统.md",
-      "source": "人工",
-      "mechanismDesignByCategory": {
-        "category": [
-          "策略-SLG"
-        ],
-        "fun": [
-          "策略",
-          "竞技"
-        ],
-        "emotion": [
-          "紧张感"
-        ],
-        "interaction": [
-          "对抗"
-        ]
-      },
-      "flatTags": [
-        "策略-SLG",
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗",
-        "内容枯竭痛点",
-        "节奏单一痛点"
-      ],
-      "painPoints": [
-        "内容枯竭痛点",
-        "节奏单一痛点"
-      ],
-      "mechanismDesign": [
-        "策略-SLG",
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗"
-      ],
-      "mechanismDesignCategory": [
-        "策略-SLG"
       ],
       "mechanismDesignFun": [
         "策略",
@@ -1700,94 +1673,25 @@
       ]
     },
     "ArenaBreakoutInfinite/[Excellent]搜打撤-硬核弹道护甲系统.md": {
-      "title": "[搜打撤]-[逃离塔科夫]-硬核弹道护甲系统",
+      "title": "[撤离类]-[EscapeFromTarkov]-硬核弹道护甲系统",
       "gameName": "逃离塔科夫",
       "tags": [],
-      "simpleDesc": "\"子弹有穿透, 护甲会磨损\"：不同子弹穿透率不同, 护甲有耐久, 打头一枪毙命, 打脚会影响移动",
-      "mechanismDesc": "硬核弹道护甲是塔科夫的特色设计：\n1. **子弹穿透**：不同子弹有不同穿透值\n2. **护甲耐久**：护甲承受伤害会减少耐久\n3. **部位伤害**：头, 胸, 四肢伤害计算不同\n4. **后坐力**：武器有真实后座力模拟",
+      "simpleDesc": "\"子弹有穿透，护甲会磨损\"：不同子弹穿透率不同，护甲有耐久，打头一枪毙命，打脚会影响移动",
+      "mechanismDesc": "硬核弹道护甲是塔科夫的特色设计：\n1. **子弹穿透**：不同子弹有不同穿透值\n2. **护甲耐久**：护甲承受伤害会减少耐久\n3. **部位伤害**：头、胸、四肢伤害计算不同\n4. **后坐力**：武器有真实后座力模拟",
       "coreRules": "",
       "trigger": "- 射击时计算穿透vs护甲",
       "painPoint": "- 解决\"枪械无差异\"的单调",
       "experienceGoal": "- 提供\"拟真射击\"的沉浸感",
-      "similarMechanisms": [],
-      "demo": "",
+      "similarMechanisms": [
+        {
+          "game": "Arena Breakout Infinite",
+          "mechanism": "硬核弹道护甲系统"
+        }
+      ],
+      "demo": "（待补充）",
       "filename": "[Excellent]搜打撤-硬核弹道护甲系统.md",
       "source": "人工",
-      "mechanismDesignByCategory": {
-        "category": [
-          "策略-SLG"
-        ],
-        "fun": [
-          "策略",
-          "竞技"
-        ],
-        "emotion": [
-          "紧张感"
-        ],
-        "interaction": [
-          "对抗"
-        ]
-      },
-      "flatTags": [
-        "策略-SLG",
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗",
-        "内容枯竭痛点",
-        "节奏单一痛点"
-      ],
-      "painPoints": [
-        "内容枯竭痛点",
-        "节奏单一痛点"
-      ],
-      "mechanismDesign": [
-        "策略-SLG",
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗"
-      ],
-      "mechanismDesignCategory": [
-        "策略-SLG"
-      ],
-      "mechanismDesignFun": [
-        "策略",
-        "竞技"
-      ],
-      "mechanismDesignEmotion": [
-        "紧张感"
-      ],
-      "mechanismDesignInteraction": [
-        "对抗"
-      ],
-      "playLevelTags": [
-        "单局1-6人（3人组队）",
-        "单人玩法",
-        "双人玩法",
-        "PvPvE",
-        "可重复",
-        "Endgame",
-        "即时操作",
-        "中规中矩（10-60分钟）",
-        "核心玩法",
-        "高耦合"
-      ]
-    },
-    "ArenaBreakoutInfinite/[Excellent]搜打撤-装备带入带出系统.md": {
-      "title": "[搜打撤]-[逃离塔科夫]-装备带入带出系统",
-      "gameName": "逃离塔科夫",
-      "tags": [],
-      "simpleDesc": "\"装备全带走, 死了全丢\"：带入的装备决定生存能力, 搜到的物资只有活着撤离才能带走",
-      "mechanismDesc": "装备带入带出是搜打撤的核心设计：\n1. **自由带入**：可携带任意装备进入战场\n2. **全掉落**：死亡后装备被击杀者掠夺\n3. **保险箱**：部分装备可放入保险, 被杀后可取回\n4. **战利品**：高价值物资（显卡, 金条, 钥匙）大幅提升收益",
-      "coreRules": "",
-      "trigger": "- 局外仓库选择装备带入",
-      "painPoint": "- 解决\"装备无意义\"的无聊",
-      "experienceGoal": "- 提供\"积累财富\"的成就感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[Excellent]搜打撤-装备带入带出系统.md",
-      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/2073620/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "射击-搜打撤"
@@ -1809,17 +1713,25 @@
         "竞技",
         "紧张感",
         "对抗",
-        "内容枯竭痛点"
+        "子弹穿透计算",
+        "护甲耐久系统",
+        "部位伤害",
+        "内容枯竭痛点",
+        "节奏单一痛点"
       ],
       "painPoints": [
-        "内容枯竭痛点"
+        "内容枯竭痛点",
+        "节奏单一痛点"
       ],
       "mechanismDesign": [
         "射击-搜打撤",
         "策略",
         "竞技",
         "紧张感",
-        "对抗"
+        "对抗",
+        "子弹穿透计算",
+        "护甲耐久系统",
+        "部位伤害"
       ],
       "mechanismDesignCategory": [
         "射击-搜打撤"
@@ -1835,14 +1747,15 @@
         "对抗"
       ],
       "playLevelTags": [
-        "单局1-6人（3人组队）",
+        "PvPvE",
+        "单局1-6人/单队3人",
         "单人玩法",
         "双人玩法",
-        "PvPvE",
+        "小队玩法",
         "可重复",
         "Endgame",
         "即时操作",
-        "中规中矩（10-60分钟）",
+        "中规中矩",
         "核心玩法",
         "高耦合"
       ]
@@ -1913,6 +1826,95 @@
         "高耦合"
       ]
     },
+    "Arknights/[Excellent]策略-Arknights-概率递进保底机制.md": {
+      "title": "[策略]-Arknights-概率递进保底机制",
+      "gameName": "Arknights",
+      "tags": [],
+      "simpleDesc": "每次没抽到6星角色，下一次抽中的概率就提升2%，50次没抽到后概率翻倍，让\"非酋\"也能看到希望。",
+      "mechanismDesc": "1. **基础概率**：6星角色基础出货率为2%\n2. **概率递进规则**：\n   - 连续50次\"标准寻访\"未抽到6星后，每次抽卡6星概率提升2%\n   - 概率可无限累积，直至100%必出\n3. **保底叠加**：\n   - 十连保底：前10连必出5星以上角色（限一次）\n   - 概率重置：任何时候抽出6星，概率恢复为2%",
+      "coreRules": "",
+      "trigger": "- 连续50次标准寻访未获得6星角色时触发概率递进",
+      "painPoint": "- 解决\"纯随机\"带来的极端情况——防止玩家\"100抽不出6星\"的挫败感",
+      "experienceGoal": "- 给予玩家\"希望感\"——每次抽卡都在积累概率",
+      "similarMechanisms": [
+        {
+          "game": "FGO",
+          "mechanism": "概率递进机制（类似设计）"
+        },
+        {
+          "game": "原神",
+          "mechanism": "硬保底机制（90抽必出5星，180抽必出UP角色）"
+        }
+      ],
+      "demo": "",
+      "filename": "[Excellent]策略-Arknights-概率递进保底机制.md",
+      "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/4AtjgwNMjcVRBx_e1rjm5kTbRo_bjEQcMXYZ3C_9NUwCsBFhnUps_qYU7KL2MxfSlIUwqF9WqEOYZe-3ZpURE2Q",
+      "mechanismDesignByCategory": {
+        "category": [
+          "卡牌-抽卡系统"
+        ],
+        "fun": [
+          "随机",
+          "收集"
+        ],
+        "emotion": [
+          "惊喜随机"
+        ],
+        "interaction": [
+          "无交互"
+        ]
+      },
+      "flatTags": [
+        "卡牌-抽卡系统",
+        "随机",
+        "收集",
+        "惊喜随机",
+        "无交互",
+        "概率递进保底",
+        "解决\"非酋\"长期不出金的挫败感",
+        "降低抽卡资源浪费感",
+        "挫败感痛点",
+        "经济成本-课金压力"
+      ],
+      "painPoints": [
+        "挫败感痛点"
+      ],
+      "mechanismDesign": [
+        "卡牌-抽卡系统",
+        "随机",
+        "收集",
+        "惊喜随机",
+        "无交互",
+        "概率递进保底",
+        "解决\"非酋\"长期不出金的挫败感",
+        "降低抽卡资源浪费感",
+        "经济成本-课金压力"
+      ],
+      "mechanismDesignCategory": [
+        "卡牌-抽卡系统"
+      ],
+      "mechanismDesignFun": [
+        "随机",
+        "收集"
+      ],
+      "mechanismDesignEmotion": [
+        "惊喜随机"
+      ],
+      "mechanismDesignInteraction": [
+        "无交互"
+      ],
+      "playLevelTags": [
+        "PVE",
+        "单人",
+        "周期性",
+        "Endgame",
+        "放置操作",
+        "极度碎片化",
+        "副玩法",
+        "低耦合"
+      ]
+    },
     "Arknights/[Qualify][RPG]-Arknights-十连保底机制.md": {
       "title": "[RPG]-Arknights-十连保底机制",
       "gameName": "Arknights",
@@ -1937,30 +1939,6 @@
       "filename": "[Qualify][RPG]-Arknights-十连保底机制.md",
       "source": "AI生成-已甄别"
     },
-    "Arknights/[Qualify]抽卡-Arknights-概率递进机制.md": {
-      "title": "[抽卡]-Arknights-概率递进机制",
-      "gameName": "Arknights",
-      "tags": [],
-      "simpleDesc": "每次没抽到6星角色，下一次抽中的概率就提升2%，50次没抽到后概率翻倍，让\"非酋\"也能看到希望。",
-      "mechanismDesc": "1. **基础概率**：6星角色基础出货率为2%\n2. **概率递进规则**：\n   - 连续50次\"标准寻访\"未抽到6星后，每次抽卡6星概率提升2%\n   - 概率可无限累积，直至100%必出\n3. **保底叠加**：\n   - 十连保底：前10连必出5星以上角色（限一次）\n   - 概率重置：任何时候抽出6星，概率恢复为2%",
-      "coreRules": "",
-      "trigger": "- 连续50次标准寻访未获得6星角色时触发概率递进",
-      "painPoint": "- 解决\"纯随机\"带来的极端情况——防止玩家\"100抽不出6星\"的挫败感",
-      "experienceGoal": "- 给予玩家\"希望感\"——每次抽卡都在积累概率",
-      "similarMechanisms": [
-        {
-          "game": "原神",
-          "mechanism": "硬保底机制（90抽必出5星，180抽必出UP角色）"
-        },
-        {
-          "game": "FGO",
-          "mechanism": "概率递进机制（类似设计）"
-        }
-      ],
-      "demo": "",
-      "filename": "[Qualify]抽卡-Arknights-概率递进机制.md",
-      "source": "人工"
-    },
     "Arknights/[Qualify]策略-Arknights-干员技能系统.md": {
       "title": "[策略]-Arknights-干员技能系统",
       "gameName": "明日方舟",
@@ -1983,7 +1961,8 @@
       ],
       "demo": "",
       "filename": "[Qualify]策略-Arknights-干员技能系统.md",
-      "source": "人工"
+      "source": "人工",
+      "coverImage": "![Arknights](https://raw.githubusercontent.com/Yue-plus/arknights_icons/main/site-icons/title_arknights.svg)"
     },
     "Arknights/[Qualify]策略-Arknights-阻挡范围系统.md": {
       "title": "[策略]-Arknights-阻挡范围系统",
@@ -2072,8 +2051,23 @@
         "高耦合"
       ]
     },
-    "ArmoredCore6/[Excellent]街机-ArmoredCore6-地形纵深战斗.md": {
-      "title": "[Excellent]街机-ArmoredCore6-地形纵深战斗.md",
+    "Arknights/游戏拆解-明日方舟.md": {
+      "title": "明日方舟 - 游戏标准化拆解分析",
+      "gameName": "",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "游戏拆解-明日方舟.md",
+      "source": "人工"
+    },
+    "ArmoredCore6/[Excellent][街机]-ArmoredCore6-地形纵深战斗.md": {
+      "title": "[街机]-ArmoredCore6-地形纵深战斗",
       "gameName": "Armored Core 6",
       "tags": [],
       "simpleDesc": "战场不是平面，而是有高低差的三维空间，玩家可以利用建筑、悬崖、管道进行立体战斗，比如躲进建筑内部利用地形优势伏击敌人",
@@ -2082,13 +2076,19 @@
       "trigger": "- 进入不同类型战场时自动适配",
       "painPoint": "机甲战斗容易变成\"面对面硬刚\"的单调战斗",
       "experienceGoal": "通过多样化的地形设计，让每场战斗都有不同的体验，鼓励玩家利用地形而非单纯拼数值",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[Excellent]街机-ArmoredCore6-地形纵深战斗.md",
+      "similarMechanisms": [
+        {
+          "game": "Daemon X Machina",
+          "mechanism": "地形战斗系统"
+        }
+      ],
+      "demo": "（待补充）",
+      "filename": "[Excellent][街机]-ArmoredCore6-地形纵深战斗.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1888930/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
-          "策略-SLG"
+          "街机动作"
         ],
         "fun": [
           "策略",
@@ -2102,11 +2102,13 @@
         ]
       },
       "flatTags": [
-        "策略-SLG",
+        "街机动作",
         "策略",
         "竞技",
         "紧张感",
         "对抗",
+        "地形策略",
+        "机甲类型适配",
         "内容枯竭痛点",
         "节奏单一痛点"
       ],
@@ -2115,14 +2117,16 @@
         "节奏单一痛点"
       ],
       "mechanismDesign": [
-        "策略-SLG",
+        "街机动作",
         "策略",
         "竞技",
         "紧张感",
-        "对抗"
+        "对抗",
+        "地形策略",
+        "机甲类型适配"
       ],
       "mechanismDesignCategory": [
-        "策略-SLG"
+        "街机动作"
       ],
       "mechanismDesignFun": [
         "策略",
@@ -2135,9 +2139,9 @@
         "对抗"
       ],
       "playLevelTags": [
+        "PVP",
         "单局1人",
         "单人玩法",
-        "PVP",
         "可重复",
         "Endgame",
         "即时操作",
@@ -2227,55 +2231,61 @@
       "demo": "",
       "filename": "[Excellent]街机-ArmoredCore6-机甲组装系统.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1888930/header.jpg",
       "mechanismDesignByCategory": {
+        "category": [
+          "动作-机甲动作"
+        ],
         "fun": [
-          "策略",
-          "竞技"
+          "创造",
+          "成长变强"
         ],
         "emotion": [
-          "紧张感"
+          "成就感"
         ],
         "interaction": [
-          "对抗"
+          "无交互"
         ]
       },
       "flatTags": [
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗",
-        "玩法重度痛点",
-        "策略深度痛点",
-        "自由度痛点",
-        "认知负担痛点"
+        "动作-机甲动作",
+        "创造",
+        "成长变强",
+        "成就感",
+        "无交互",
+        "零件组装系统",
+        "认知负担痛点",
+        "自由度痛点"
       ],
       "painPoints": [
-        "玩法重度痛点",
-        "策略深度痛点",
-        "自由度痛点",
-        "认知负担痛点"
+        "认知负担痛点",
+        "自由度痛点"
       ],
       "mechanismDesign": [
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗"
+        "动作-机甲动作",
+        "创造",
+        "成长变强",
+        "成就感",
+        "无交互",
+        "零件组装系统"
       ],
-      "mechanismDesignCategory": [],
+      "mechanismDesignCategory": [
+        "动作-机甲动作"
+      ],
       "mechanismDesignFun": [
-        "策略",
-        "竞技"
+        "创造",
+        "成长变强"
       ],
       "mechanismDesignEmotion": [
-        "紧张感"
+        "成就感"
       ],
       "mechanismDesignInteraction": [
-        "对抗"
+        "无交互"
       ],
       "playLevelTags": [
+        "PVE",
         "单局1人",
         "单人玩法",
-        "PVP",
         "可重复",
         "Endgame",
         "即时操作",
@@ -2436,6 +2446,131 @@
       "demo": "",
       "filename": "[Qualify][街机]-Asphalt9-氮气加速系统.md",
       "source": "AI生成-已甄别"
+    },
+    "AssassinsCreedShadows/[Excellent][动作冒险]-AssassinsCreedShadows-双重暗杀系统.md": {
+      "title": "[动作冒险]-AssassinsCreedShadows-双重暗杀系统",
+      "gameName": "Assassin's Creed Shadows",
+      "tags": [],
+      "simpleDesc": "解锁特定技能后，袖剑可以一次刺杀两个靠在一起的敌人（地面或空中皆可）",
+      "mechanismDesc": "- 装备太刀（Tanto）并解锁专属技能后获得\n- 暗杀时如果附近有另一个敌人处于可暗杀范围，可以一次击杀两个\n- **空中暗杀**：从高处下落时也可触发双重暗杀\n- 地面暗杀：敌人站位靠近时自动触发",
+      "coreRules": "",
+      "trigger": "- 已解锁双重暗杀技能",
+      "painPoint": "- 前作刺客信条暗杀效率较低，一群敌人需要逐个处理",
+      "experienceGoal": "- 提供爽快的暗杀体验",
+      "similarMechanisms": [
+        {
+          "game": "刺客信条前作",
+          "mechanism": "连锁暗杀（需要特定条件触发）"
+        },
+        {
+          "game": "刺客信条",
+          "mechanism": "英灵殿：双重暗杀（回归）"
+        }
+      ],
+      "demo": "官方实机演示展示",
+      "filename": "[Excellent][动作冒险]-AssassinsCreedShadows-双重暗杀系统.md",
+      "source": "人工"
+    },
+    "AssassinsCreedShadows/[Excellent][动作冒险]-AssassinsCreedShadows-暗杀拒绝系统.md": {
+      "title": "[动作冒险]-AssassinsCreedShadows-暗杀拒绝系统",
+      "gameName": "Assassin's Creed Shadows",
+      "tags": [],
+      "simpleDesc": "高等级敌人有血量保护，暗杀可能不会秒杀（通过颜色提示：白=秒杀、黄=部分伤害、红=完全抵抗）",
+      "mechanismDesc": "- 敌人有\"血量段数\"（Health Segments）概念\n- 暗杀伤害与敌人血量相关：\n  - **白色提示**：秒杀（敌人血量≤玩家暗杀伤害）\n  - **黄色提示**：部分伤害（敌人血量略高于玩家伤害）\n  - **红色提示**：完全抵抗（敌人血量过高，暗杀无效）\n- 敌人会随游戏进程升级变强\n- 玩家需要升级袖剑和暗杀相关技能来提高伤害",
+      "coreRules": "",
+      "trigger": "- 对敌人使用暗杀攻击时",
+      "painPoint": "- 传统刺客信条暗杀成功率与敌人类型有关但不直观",
+      "experienceGoal": "- 鼓励玩家观察敌人、制定策略",
+      "similarMechanisms": [
+        {
+          "game": "刺客信条前作",
+          "mechanism": "敌人类型区分（士兵vs军官）"
+        },
+        {
+          "game": "艾尔登法环",
+          "mechanism": "敌人血量影响战技伤害"
+        }
+      ],
+      "demo": "Reddit玩家讨论和实机演示",
+      "filename": "[Excellent][动作冒险]-AssassinsCreedShadows-暗杀拒绝系统.md",
+      "source": "人工"
+    },
+    "AssassinsCreedShadows/[Excellent][动作冒险]-AssassinsCreedShadows-观察标记系统.md": {
+      "title": "[动作冒险]-AssassinsCreedShadows-观察标记系统",
+      "gameName": "Assassin's Creed Shadows",
+      "tags": [],
+      "simpleDesc": "玩家通过\"观察\"键可以即时标记敌人、显示敌人血量段数、发现可拾取物品，让潜行计划更清晰",
+      "mechanismDesc": "按下观察键后，屏幕会显示：\n1. **敌人标记** - 标记敌人位置，无需像前作那样用鹰标记\n2. **血量显示** - 显示敌人有多少格血量段（health segments），决定暗杀是否秒杀\n3. **物品高亮** - 显示可拾取的战利品、收藏品、任务目标\n4. **同步点详情** - 靠近同步点时可以更仔细地侦察附近地点",
+      "coreRules": "",
+      "trigger": "- 按下LB/L1键激活Observe（观察）",
+      "painPoint": "- 传统潜行游戏需要反复确认敌人位置和信息",
+      "experienceGoal": "- 让玩家在潜行前能制定清晰计划",
+      "similarMechanisms": [
+        {
+          "game": "刺客信条前作",
+          "mechanism": "鹰标记系统（被动标记）"
+        },
+        {
+          "game": "合金装备5",
+          "mechanism": "敌人标记系统"
+        }
+      ],
+      "demo": "官方预告片和实机演示中展示",
+      "filename": "[Excellent][动作冒险]-AssassinsCreedShadows-观察标记系统.md",
+      "source": "人工"
+    },
+    "AssassinsCreedShadows/[Excellent][动作冒险]-AssassinsCreedShadows-阴影隐藏系统.md": {
+      "title": "[动作冒险]-AssassinsCreedShadows-阴影隐藏系统",
+      "gameName": "Assassin's Creed Shadows",
+      "tags": [],
+      "simpleDesc": "夜晚时躲进阴影可以获得真正的隐身效果，玩家甚至可以主动熄灭灯笼创造更多阴影区域",
+      "mechanismDesc": "- 首次在刺客信条系列中，阴影提供真正的隐身效果\n- **夜间机制**：夜晚时，任何阴影区域都是动态隐藏点\n- **环境互动**：玩家可以用手里剑射灭灯笼，创造更多阴影区域\n- **难度关联**：在高难度下，阴影隐身效果更显著\n- 白天时奈绪江也能有效潜行，但阴影提供更大优势",
+      "coreRules": "",
+      "trigger": "- 处于夜间（游戏内时间）",
+      "painPoint": "- 传统潜行游戏只有\"在障碍物后\"的二元化隐藏",
+      "experienceGoal": "- 增加环境利用的战略深度",
+      "similarMechanisms": [
+        {
+          "game": "刺客信条系列",
+          "mechanism": "草丛隐藏（被动）"
+        },
+        {
+          "game": "合金装备5",
+          "mechanism": "纸箱隐藏"
+        }
+      ],
+      "demo": "官方实机演示展示夜间阴影潜行",
+      "filename": "[Excellent][动作冒险]-AssassinsCreedShadows-阴影隐藏系统.md",
+      "source": "人工"
+    },
+    "AssassinsCreedShadows/[Qualify][动作冒险]-AssassinsCreedShadows-攀爬系统.md": {
+      "title": "[Qualify][动作冒险]-AssassinsCreedShadows-攀爬系统",
+      "gameName": "刺客信条：影",
+      "tags": [],
+      "simpleDesc": "玩家扮演忍者奈绪江或武士弥助，在战国日本进行跑酷攀爬、屋顶跳跃、钩爪摆荡，利用垂直移动躲避敌人或到达制高点，与环境产生丰富的物理交互",
+      "mechanismDesc": "刺客信条：影的攀爬系统是系列经典跑酷的进化版，结合日本忍者元素进行了创新：\n\n### 1. 基础跑酷动作\n- **Parkour Up**：经典攀爬动作，按住跑酷键向上/向前移动，可攀墙跳跃、跨越屋顶、跃入虚空\n- **Recovery Roll**：从高处落地时按闪避键，可缓冲冲击力并减少噪音\n- **Parkour Down**：按住跑酷下降键，可安全、低姿态地从高处降落，保持潜行\n\n### 2. 疾跑机制\n- **Naoe（忍者）**：系列最快跑者，跳跃距离最远，可进行冲刺闪避（sprint dodge）越过低障碍物\n- **Yasuke（武士）**：速度较慢但更沉重，可自动肩撞碎障碍物，需要更多准备距离达到最高速度\n\n### 3. 钩爪系统（创新）\n- **物理钩爪**：Naoe专属，可嵌入屋顶或悬崖进行攀爬或摆荡\n- **垂直上升**：抓住水平边缘后向上攀爬\n- **钩爪摆荡**：连续摆荡跨越大型缺口，精确控制跳跃速度和轨迹\n- **墙面跑酷钩爪**：在不可攀爬的墙壁顶端跑酷时，使用钩爪到达更高点\n\n### 4. 姿态切换\n- **站立/蹲下/卧倒**：可在疾跑中切换姿态，蹲下滑行、卧倒隐蔽\n- **自动越过**：Naoe可自动越过低障碍物，Yasuke可自动肩撞碎障碍物\n\n### 5. 双角色差异设计\n- **Naoe**：更灵活、更快速、跳跃更远、专属钩爪、专属冲刺闪避\n- **Yasuke**：更缓慢、更沉重、专属肩撞、不能使用钩爪",
+      "coreRules": "",
+      "trigger": "- 玩家主动使用跑酷键进行移动",
+      "painPoint": "- 传统跑酷只是快速移动手段，缺乏与环境的深度交互",
+      "experienceGoal": "- 通过钩爪系统增加垂直维度的探索深度",
+      "similarMechanisms": [
+        {
+          "game": "刺客信条（系列）",
+          "mechanism": "经典跑酷系统"
+        },
+        {
+          "game": "塞尔达传说",
+          "mechanism": "旷野之息：物理引擎驱动的攀爬与滑翔"
+        },
+        {
+          "game": "波斯王子（系列）",
+          "mechanism": "跑酷与墙壁跑酷"
+        }
+      ],
+      "demo": "",
+      "filename": "[Qualify][动作冒险]-AssassinsCreedShadows-攀爬系统.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/3159330/header.jpg"
     },
     "AutoChess/[Excellent]自走棋-刀塔自走棋-金币利息系统.md": {
       "title": "[自走棋]-刀塔自走棋-金币利息系统",
@@ -2743,7 +2878,7 @@
       ],
       "playLevelTags": [
         "PVE",
-        "单局1-4人",
+        "单局1-4人/单队1-4人",
         "单人玩法",
         "双人玩法",
         "一次性",
@@ -2871,6 +3006,101 @@
         "低耦合"
       ]
     },
+    "BaldursGate3/[Qualify][RPG]-BaldursGate3-DND法术系统.md": {
+      "title": "[Qualify][RPG]-BaldursGate3-DND法术系统",
+      "gameName": "博德之门3",
+      "tags": [],
+      "simpleDesc": "玩家通过法术位释放法术，不同职业有各自的法术学习/准备机制，法术分为9个等级和8个学派，法师可通过卷轴和法术书扩展法术池",
+      "mechanismDesc": "博德之门3的法术系统基于DND 5e规则，是游戏核心战斗体验的重要组成部分：\n\n1. **法术等级体系 (0-9级)**\n   - 0环戏法：无限制使用，有每日次数限制\n   - 1-9环法术：使用法术位释放，法术位等级越高威力越强\n   - 高环法术可降级释放低环法术（浪费资源）\n\n2. **八大学派**\n   - 防护系(Abjuration)、召唤系(Conjuration)、预言系(Divination)\n   - 附魔系(Enchantment)、塑能系(Evocation)、幻象系(Illusion)\n   - 死灵系(Necromancy)、变化系(Transmutation)\n   - 不同学派法术有独特效果，策略性组合是关键\n\n3. **职业差异**\n   - 法师：可学习所有法术，需要抄写法术书，准备数量=智力调整值+法师等级\n   - 术士：有限法术Known，依赖sorcery points和Metamagic\n   - 牧师/德鲁伊：可准备所有已知法术，依赖职业等级\n   - 邪术士：契约法术池，节省准备位\n   - 诗人：兼职获取丰富法术\n\n4. **资源管理**\n   - 长休：恢复所有法术位\n   - 短休：恢复部分职业能力（如邪术士职业表）\n   - 法术位有限，需要规划使用时机\n\n5. **特殊机制**\n   - 仪式法术：无需法术位但需要额外时间\n   - 专注(Concentration)：部分法术需要专注，同一时刻只能维持一个\n   - 法术反制：利用反应动作打断敌方法术",
+      "coreRules": "",
+      "trigger": "- 角色升级时获得新的法术位",
+      "painPoint": "- 传统RPG魔法系统过于简单，缺乏策略深度",
+      "experienceGoal": "- 增加战斗策略深度，法术选择影响战局",
+      "similarMechanisms": [
+        {
+          "game": "神界",
+          "mechanism": "原罪2：简化版法术系统"
+        },
+        {
+          "game": "开拓者",
+          "mechanism": "正义之怒：Pathfinder规则法术系统"
+        },
+        {
+          "game": "永恒之柱2",
+          "mechanism": "传统CRPG法术系统"
+        }
+      ],
+      "demo": "",
+      "filename": "[Qualify][RPG]-BaldursGate3-DND法术系统.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1086940/header.jpg",
+      "mechanismDesignByCategory": {
+        "category": [
+          "RPG"
+        ],
+        "fun": [
+          "策略",
+          "资源管理",
+          "成长变强"
+        ],
+        "emotion": [
+          "成就感",
+          "掌控感"
+        ],
+        "interaction": [
+          "无交互"
+        ]
+      },
+      "flatTags": [
+        "RPG",
+        "策略",
+        "资源管理",
+        "成长变强",
+        "成就感",
+        "掌控感",
+        "无交互",
+        "DND法术系统",
+        "策略性-资源规划",
+        "沉浸感-代入感差"
+      ],
+      "mechanismDesign": [
+        "RPG",
+        "策略",
+        "资源管理",
+        "成长变强",
+        "成就感",
+        "掌控感",
+        "无交互",
+        "DND法术系统",
+        "策略性-资源规划",
+        "沉浸感-代入感差"
+      ],
+      "mechanismDesignCategory": [
+        "RPG"
+      ],
+      "mechanismDesignFun": [
+        "策略",
+        "资源管理",
+        "成长变强"
+      ],
+      "mechanismDesignEmotion": [
+        "成就感",
+        "掌控感"
+      ],
+      "mechanismDesignInteraction": [
+        "无交互"
+      ],
+      "playLevelTags": [
+        "PVE",
+        "小组多人（3-4人）",
+        "可重复",
+        "Endgame",
+        "回合操作",
+        "中规中矩（10-60分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
+    },
     "BaldursGate3/[Qualify][RPG]-BaldursGate3-DND职业系统.md": {
       "title": "[Qualify][RPG]-BaldursGate3-DND职业系统",
       "gameName": "博德之门3",
@@ -2947,15 +3177,13 @@
       ],
       "playLevelTags": [
         "PVE",
-        "单局1-4人",
-        "单人玩法",
-        "双人玩法",
-        "一次性",
-        "新手引导期",
+        "小组多人（3-4人）",
+        "可重复",
+        "Endgame",
         "回合操作",
-        "碎片化（3-10分钟）",
+        "中规中矩（10-60分钟）",
         "核心玩法",
-        "低耦合"
+        "高耦合"
       ]
     },
     "BaldursGate3/[Qualify][RPG]-BaldursGate3-角色出身背景系统.md": {
@@ -3514,67 +3742,70 @@
       "demo": "Battlefield小队协同作战演示",
       "filename": "[Excellent][FPS]-Battlefield-小队协同系统.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/268890/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
-          "FPS-大战场"
+          "射击-大战场"
         ],
         "fun": [
-          "策略",
-          "竞技",
-          "合作"
+          "合作",
+          "社交"
         ],
         "emotion": [
-          "紧张感",
-          "成就感"
+          "成就感",
+          "紧张感"
         ],
         "interaction": [
           "合作"
         ]
       },
       "flatTags": [
-        "FPS-大战场",
-        "策略",
-        "竞技",
+        "射击-大战场",
         "合作",
-        "紧张感",
+        "社交",
         "成就感",
+        "紧张感",
+        "小队职业分工",
+        "指挥系统",
+        "团队Buff",
         "大战场中个人力量渺小",
         "新手难以获得成就感"
       ],
       "mechanismDesign": [
-        "FPS-大战场",
-        "策略",
-        "竞技",
+        "射击-大战场",
         "合作",
-        "紧张感",
+        "社交",
         "成就感",
+        "紧张感",
+        "小队职业分工",
+        "指挥系统",
+        "团队Buff",
         "大战场中个人力量渺小",
         "新手难以获得成就感"
       ],
       "mechanismDesignCategory": [
-        "FPS-大战场"
+        "射击-大战场"
       ],
       "mechanismDesignFun": [
-        "策略",
-        "竞技",
-        "合作"
+        "合作",
+        "社交"
       ],
       "mechanismDesignEmotion": [
-        "紧张感",
-        "成就感"
+        "成就感",
+        "紧张感"
       ],
       "mechanismDesignInteraction": [
         "合作"
       ],
       "playLevelTags": [
-        "单局64人（单队4人）",
+        "PVP",
+        "单局64人/单队4人",
         "小队玩法",
         "多人玩法",
-        "PvP",
         "可重复",
         "Endgame",
         "即时操作",
-        "长（20-60分钟）",
+        "中规中矩（10-60分钟）",
         "核心玩法",
         "高耦合"
       ]
@@ -3756,6 +3987,8 @@
       ],
       "playLevelTags": [
         "PVE",
+        "单局1人",
+        "单人玩法",
         "可重复",
         "Endgame",
         "即时操作",
@@ -3800,7 +4033,7 @@
           "成就感"
         ],
         "interaction": [
-          "单人"
+          "无交互"
         ]
       },
       "flatTags": [
@@ -3808,7 +4041,7 @@
         "策略",
         "探索",
         "成就感",
-        "单人",
+        "无交互",
         "道具合成",
         "涌现式Build",
         "内容枯竭痛点（通过合成配方发现增加单局多样性）"
@@ -3821,7 +4054,7 @@
         "策略",
         "探索",
         "成就感",
-        "单人",
+        "无交互",
         "道具合成",
         "涌现式Build"
       ],
@@ -3836,7 +4069,7 @@
         "成就感"
       ],
       "mechanismDesignInteraction": [
-        "单人"
+        "无交互"
       ],
       "playLevelTags": [
         "PVE",
@@ -3937,6 +4170,182 @@
         "Endgame",
         "即时操作",
         "中规中矩（10-60分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
+    },
+    "BrawlStars/[Qualify]MOBA-BrawlStars-星徽之力系统.md": {
+      "title": "[MOBA]-BrawlStars-星徽之力系统",
+      "gameName": "荒野乱斗",
+      "tags": [],
+      "simpleDesc": "\"英雄的第二个技能槽\"：每个英雄有两个星徽之力（被动技能），达到9级后解锁，让同一英雄有不同玩法风格",
+      "mechanismDesc": "荒野乱斗的星徽之力系统是英雄养成的延伸：\n1. **双被动设计**：每个英雄拥有2个星徽之力选项，玩家只能同时装备1个\n2. **解锁条件**：英雄达到9级后开放购买/解锁\n3. **获取方式**：2000金币购买 或 从传奇奖池中随机获得\n4. **技能类型**：\n   - 属性增益型（如提升移动速度、射程、伤害）\n   - 触发效果型（如命中目标后加速、受击反伤等）\n5. **战略价值**：同一英雄装备不同星徽可以改变玩法定位",
+      "coreRules": "",
+      "trigger": "- 英雄等级达到9级",
+      "painPoint": "- 解决\"英雄玩法单一\"的问题——同一英雄可以有不同build",
+      "experienceGoal": "- 提供\"英雄个性化定制\"——让玩家根据喜好选择玩法风格",
+      "similarMechanisms": [
+        {
+          "game": "王者荣耀",
+          "mechanism": "铭文系统"
+        },
+        {
+          "game": "英雄联盟",
+          "mechanism": "基石符文系统"
+        }
+      ],
+      "demo": "",
+      "filename": "[Qualify]MOBA-BrawlStars-星徽之力系统.md",
+      "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/7oc_JyKwUZ56fvWt_frWzt5jjgeRNwBnkvecffZvMeNxlnJIub20oOdP9boZ3-qvlk5S3A4K04-Js2iWDGQzvQ",
+      "mechanismDesignByCategory": {
+        "category": [
+          "MOBA"
+        ],
+        "fun": [
+          "成长",
+          "策略"
+        ],
+        "emotion": [
+          "成就感"
+        ],
+        "interaction": [
+          "对抗"
+        ]
+      },
+      "flatTags": [
+        "MOBA",
+        "成长",
+        "策略",
+        "成就感",
+        "对抗",
+        "被动技能系统",
+        "英勇升级",
+        "内容枯竭痛点",
+        "成长目标缺失"
+      ],
+      "painPoints": [
+        "内容枯竭痛点"
+      ],
+      "mechanismDesign": [
+        "MOBA",
+        "成长",
+        "策略",
+        "成就感",
+        "对抗",
+        "被动技能系统",
+        "英勇升级",
+        "成长目标缺失"
+      ],
+      "mechanismDesignCategory": [
+        "MOBA"
+      ],
+      "mechanismDesignFun": [
+        "成长",
+        "策略"
+      ],
+      "mechanismDesignEmotion": [
+        "成就感"
+      ],
+      "mechanismDesignInteraction": [
+        "对抗"
+      ],
+      "playLevelTags": [
+        "PVP",
+        "单局6人/单队3人",
+        "小队玩法",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "碎片化（3分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
+    },
+    "BrawlStars/[Qualify]MOBA-BrawlStars-英雄系统.md": {
+      "title": "[MOBA]-[BrawlStars]-英雄系统",
+      "gameName": "荒野乱斗",
+      "tags": [],
+      "simpleDesc": "\"3分钟一局的休闲MOBA\"：玩家从几十个英雄中选择一个，每个英雄有独特技能和定位（坦克/战士/辅助/射手），适合快速对战",
+      "mechanismDesc": "荒野乱斗的英雄系统是整个游戏的核心：\n1. **英雄选择**：玩家可以从几十个英雄中选择，每个英雄都有独特的攻击方式和技能\n2. **英雄定位**：分为坦克、战士、辅助、射手四大定位，不同定位有不同的玩法风格\n3. **技能设计**：每个英雄有普通攻击和一个大招技能，部分英雄还有二技能\n4. **局内成长**：对局中通过收集能量球可以升级，提升英雄属性和技能效果\n5. **快速切换**：3分钟一局，适合碎片化时间游玩",
+      "coreRules": "",
+      "trigger": "- 玩家进入游戏后选择英雄",
+      "painPoint": "- 解决\"传统MOBA耗时太长\"的问题——3分钟一局，随时开一把",
+      "experienceGoal": "- 提供\"轻量化MOBA体验\"——简化操作，降低门槛",
+      "similarMechanisms": [
+        {
+          "game": "王者荣耀",
+          "mechanism": "英雄系统"
+        },
+        {
+          "game": "英雄联盟",
+          "mechanism": "英雄技能系统"
+        }
+      ],
+      "demo": "",
+      "filename": "[Qualify]MOBA-BrawlStars-英雄系统.md",
+      "source": "AI生成-已甄别",
+      "coverImage": "https://play-lh.googleusercontent.com/7oc_JyKwUZ56fvWt_frWzt5jjgeRNwBnkvecffZvMeNxlnJIub20oOdP9boZ3-qvlk5S3A4K04-Js2iWDGQzvQ",
+      "mechanismDesignByCategory": {
+        "category": [
+          "MOBA"
+        ],
+        "fun": [
+          "竞技",
+          "成长"
+        ],
+        "emotion": [
+          "爽快感"
+        ],
+        "interaction": [
+          "对抗"
+        ]
+      },
+      "flatTags": [
+        "MOBA",
+        "竞技",
+        "成长",
+        "爽快感",
+        "对抗",
+        "英雄系统",
+        "快速对战",
+        "时间成本痛点",
+        "内容枯竭痛点"
+      ],
+      "painPoints": [
+        "时间成本痛点",
+        "内容枯竭痛点"
+      ],
+      "mechanismDesign": [
+        "MOBA",
+        "竞技",
+        "成长",
+        "爽快感",
+        "对抗",
+        "英雄系统",
+        "快速对战"
+      ],
+      "mechanismDesignCategory": [
+        "MOBA"
+      ],
+      "mechanismDesignFun": [
+        "竞技",
+        "成长"
+      ],
+      "mechanismDesignEmotion": [
+        "爽快感"
+      ],
+      "mechanismDesignInteraction": [
+        "对抗"
+      ],
+      "playLevelTags": [
+        "PVP",
+        "单局3v3（6人）",
+        "小队玩法",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "碎片化（3分钟）",
         "核心玩法",
         "高耦合"
       ]
@@ -4608,20 +5017,34 @@
         "高耦合"
       ]
     },
-    "CS2/[FPS]-Counter-Strike 2-体积烟雾互动系统.md": {
-      "title": "[FPS]-Counter-Strike 2-体积烟雾互动系统",
+    "CS2/[Qualify][FPS]-CS2-体积烟雾互动系统.md": {
+      "title": "[Qualify][FPS]-CS2-体积烟雾互动系统",
       "gameName": "Counter-Strike 2",
       "tags": [],
-      "simpleDesc": "\"会被子弹和手雷打散的烟\"：烟雾不再是固定的, 而是会流动的\"云朵\", 玩家能用子弹打出孔洞看对面",
-      "mechanismDesc": "> 体积化填充：烟雾是基于 3D 体积的物体, 能自然填充走廊, 渗出门口并适应灯光\n> 子弹穿透交互：子弹穿过烟雾时会留下临时视线孔洞（Peek holes）, 允许短暂观察对向信息\n> 爆炸排斥交互：高爆手雷在烟雾内爆炸时, 会瞬间排开（消散）大范围烟雾并维持约 2 秒的清晰视野\n> 视角一致性：所有玩家看到的烟雾几何形态完全同步, 彻底移除 CS:GO 时代的\"单向烟\"",
+      "simpleDesc": "\"会被子弹和手雷打散的烟\"：烟雾不再是固定的，而是会流动的\"云朵\"，玩家能用子弹打出孔洞看对面",
+      "mechanismDesc": "体积化填充：烟雾是基于 3D 体积的物体，能自然填充走廊，渗出门口并适应灯光\n\n- 子弹穿透交互：子弹穿过烟雾时会留下临时视线孔洞（Peek holes），允许短暂观察对向信息\n- 爆炸排斥交互：高爆手雷在烟雾内爆炸时，会瞬间排开（消散）大范围烟雾并维持约 2 秒的清晰视野\n- 视角一致性：所有玩家看到的烟雾几何形态完全同步，彻底移除 CS:GO 时代的\"单向烟\"",
       "coreRules": "",
-      "trigger": "玩家在烟雾覆盖区域内射击, 或向烟雾投掷高爆手雷引发爆炸",
-      "painPoint": "消除 CS:GO 时代\"单向烟\"与\"静态灰块\"的不公平体验。过去玩家利用贴图差异制造只有自己能看穿的\"单向烟\", 且烟雾一旦形成即为不可互动的\"视觉禁区\"",
-      "experienceGoal": "强化动态战术决策。让烟雾从\"静态掩体\"变为\"动态资源\"。通过允许玩家消耗资源, 暴露信息去换取短暂的清晰视野, 创造了全新的\"风险-回报\"博弈点",
-      "similarMechanisms": [],
+      "trigger": "玩家在烟雾覆盖区域内射击，或向烟雾投掷高爆手雷引发爆炸",
+      "painPoint": "消除 CS:GO 时代\"单向烟\"与\"静态灰块\"的不公平体验。过去玩家利用贴图差异制造只有自己能看穿的\"单向烟\"，且烟雾一旦形成即为不可互动的\"视觉禁区\"",
+      "experienceGoal": "强化动态战术决策。让烟雾从\"静态掩体\"变为\"动态资源\"。通过允许玩家消耗资源，暴露信息去换取短暂的清晰视野，创造了全新的\"风险-回报\"博弈点",
+      "similarMechanisms": [
+        {
+          "game": "CS:GO",
+          "mechanism": "静态烟雾系统（CS2前身）"
+        },
+        {
+          "game": "Valorant",
+          "mechanism": "技能烟幕系统（可被类似机制参考）"
+        },
+        {
+          "game": "Rainbow Six Siege",
+          "mechanism": "可破坏环境遮蔽"
+        }
+      ],
       "demo": "",
-      "filename": "[FPS]-Counter-Strike 2-体积烟雾互动系统.md",
+      "filename": "[Qualify][FPS]-CS2-体积烟雾互动系统.md",
       "source": "人工",
+      "coverImage": "[Steam](https://steamcdn-a.akamaihd.net/steam/apps/730/header.jpg)",
       "mechanismDesignByCategory": {
         "category": [
           "射击-战术竞技"
@@ -4706,7 +5129,8 @@
       ],
       "demo": "",
       "filename": "[Qualify][FPS]-CS2-经济博弈系统.md",
-      "source": "AI生成-已甄别"
+      "source": "AI生成-已甄别",
+      "coverImage": "[Steam](https://steamcdn-a.akamaihd.net/steam/apps/730/header.jpg)"
     },
     "CadillacsAndDinosaurs/[Qualify][街机]-恐龙快打-载具召唤系统.md": {
       "title": "[街机]-恐龙快打-载具召唤系统",
@@ -4892,20 +5316,26 @@
         "高耦合"
       ]
     },
-    "CallOfDutyWarzone/[Excellent]大逃杀-古拉格复活系统.md": {
+    "CallOfDutyWarzone/[Excellent][BR]-CallOfDutyWarzone-古拉格复活系统.md": {
       "title": "[大逃杀]-[使命召唤战区]-古拉格复活系统",
       "gameName": "使命召唤战区",
       "tags": [],
-      "simpleDesc": "\"死了还能再打\"：首次死亡后进入1v1古拉格枪战, 赢了就能满血复活重返战场",
-      "mechanismDesc": "古拉格是战区的核心特色：\n1. **触发条件**：玩家首次死亡后自动进入\n2. **对战形式**：随机武器的1v1限时对决\n3. **复活条件**：击杀对手或存活至时间结束\n4. **复活状态**：满血重返战场, 每人仅1次机会",
+      "simpleDesc": "\"死了还能再打\"：首次死亡后进入1v1古拉格枪战，赢了就能满血复活重返战场",
+      "mechanismDesc": "古拉格是战区的核心特色：\n1. **触发条件**：玩家首次死亡后自动进入\n2. **对战形式**：随机武器的1v1限时对决\n3. **复活条件**：击杀对手或存活至时间结束\n4. **复活状态**：满血重返战场，每人仅1次机会",
       "coreRules": "",
       "trigger": "2. **对战形式**：随机武器的1v1限时对决",
       "painPoint": "- 解决\"死亡=看戏\"的无聊等待",
       "experienceGoal": "- 提供\"复活\"的希望感",
-      "similarMechanisms": [],
+      "similarMechanisms": [
+        {
+          "game": "PUBG",
+          "mechanism": "复活系统"
+        }
+      ],
       "demo": "",
-      "filename": "[Excellent]大逃杀-古拉格复活系统.md",
+      "filename": "[Excellent][BR]-CallOfDutyWarzone-古拉格复活系统.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1962663/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "射击-大逃杀"
@@ -4927,6 +5357,7 @@
         "竞技",
         "紧张感",
         "对抗",
+        "古拉格复活系统",
         "内容枯竭痛点"
       ],
       "painPoints": [
@@ -4937,7 +5368,8 @@
         "策略",
         "竞技",
         "紧张感",
-        "对抗"
+        "对抗",
+        "古拉格复活系统"
       ],
       "mechanismDesignCategory": [
         "射击-大逃杀"
@@ -4953,10 +5385,9 @@
         "对抗"
       ],
       "playLevelTags": [
-        "单局150人（单队3人）",
-        "小队玩法",
-        "多人玩法",
         "PvPvE",
+        "Total:150",
+        "Team:3",
         "可重复",
         "Endgame",
         "即时操作",
@@ -4965,20 +5396,30 @@
         "高耦合"
       ]
     },
-    "CallOfDutyWarzone/[Excellent]大逃杀-合约系统.md": {
+    "CallOfDutyWarzone/[Excellent][BR]-CallOfDutyWarzone-合约系统.md": {
       "title": "[大逃杀]-[使命召唤战区]-合约系统",
       "gameName": "使命召唤战区",
       "tags": [],
-      "simpleDesc": "\"做任务拿钱\"：地图上随机刷新的任务目标, 完成后获得现金, 空投, 敌人位置",
-      "mechanismDesc": "合约系统是战区的目标设计：\n1. **任务类型**：侦察合约, 击杀合约, 搜刮合约\n2. **奖励**：现金, 空投, 暴露敌人位置\n3. **动态刷新**：地图上随机刷新\n4. **风险回报**：完成任务需要深入危险区域",
+      "simpleDesc": "\"做任务拿钱\"：地图上随机刷新的任务目标，完成后获得现金、空投、敌人位置",
+      "mechanismDesc": "合约系统是战区的目标设计：\n1. **任务类型**：侦察合约、击杀合约、搜刮合约\n2. **奖励**：现金、空投、暴露敌人位置\n3. **动态刷新**：地图上随机刷新\n4. **风险回报**：完成任务需要深入危险区域",
       "coreRules": "",
       "trigger": "- 地图上显示合约图标",
       "painPoint": "- 解决\"无处可去\"的迷茫",
       "experienceGoal": "- 提供明确目标",
-      "similarMechanisms": [],
-      "demo": "战区合约演示",
-      "filename": "[Excellent]大逃杀-合约系统.md",
+      "similarMechanisms": [
+        {
+          "game": "PUBG",
+          "mechanism": "信号枪系统"
+        },
+        {
+          "game": "Apex Legends",
+          "mechanism": "热点系统"
+        }
+      ],
+      "demo": "",
+      "filename": "[Excellent][BR]-CallOfDutyWarzone-合约系统.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1962663/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "射击-大逃杀"
@@ -4999,14 +5440,20 @@
         "策略",
         "竞技",
         "紧张感",
-        "对抗"
+        "对抗",
+        "合约系统",
+        "目标缺失痛点"
+      ],
+      "painPoints": [
+        "目标缺失痛点"
       ],
       "mechanismDesign": [
         "射击-大逃杀",
         "策略",
         "竞技",
         "紧张感",
-        "对抗"
+        "对抗",
+        "合约系统"
       ],
       "mechanismDesignCategory": [
         "射击-大逃杀"
@@ -5022,10 +5469,9 @@
         "对抗"
       ],
       "playLevelTags": [
-        "单局150人（单队3人）",
-        "小队玩法",
-        "多人玩法",
         "PvPvE",
+        "Total:150",
+        "Team:3",
         "可重复",
         "Endgame",
         "即时操作",
@@ -5034,20 +5480,30 @@
         "高耦合"
       ]
     },
-    "CallOfDutyWarzone/[Excellent]大逃杀-装备舱Loadout系统.md": {
+    "CallOfDutyWarzone/[Excellent][BR]-CallOfDutyWarzone-装备舱Loadout系统.md": {
       "title": "[大逃杀]-[使命召唤战区]-装备舱Loadout系统",
       "gameName": "使命召唤战区",
       "tags": [],
-      "simpleDesc": "\"买枪\"：在购物站用现金购买空投, 获得与COD多人模式同等的深度自定义枪械",
-      "mechanismDesc": "装备舱是战区的核心设计：\n1. **购物站购买**：地图上购物站用现金购买\n2. **空投获取**：或等待空投在附近降落\n3. **完整配置**：获得预设的完整枪械, 技能, 特战配置\n4. **COD深度**：与COD多人模式枪械定制完全一致",
+      "simpleDesc": "\"买枪\"：在购物站用现金购买空投，获得与COD多人模式同等的深度自定义枪械",
+      "mechanismDesc": "装备舱是战区的核心设计：\n1. **购物站购买**：地图上购物站用现金购买\n2. **空投获取**：或等待空投在附近降落\n3. **完整配置**：获得预设的完整枪械、技能、特战配置\n4. **COD深度**：与COD多人模式枪械定制完全一致",
       "coreRules": "",
       "trigger": "- 积累现金后前往购物站",
       "painPoint": "- 解决\"捡垃圾\"的无聊感",
       "experienceGoal": "- 提供\"神装\"带来的战斗力满足感",
-      "similarMechanisms": [],
+      "similarMechanisms": [
+        {
+          "game": "PUBG",
+          "mechanism": "空投系统"
+        },
+        {
+          "game": "Apex Legends",
+          "mechanism": "武器轮盘系统"
+        }
+      ],
       "demo": "",
-      "filename": "[Excellent]大逃杀-装备舱Loadout系统.md",
+      "filename": "[Excellent][BR]-CallOfDutyWarzone-装备舱Loadout系统.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1962663/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "射击-大逃杀"
@@ -5097,10 +5553,9 @@
         "合作"
       ],
       "playLevelTags": [
-        "单局150人（单队3人）",
-        "小队玩法",
-        "多人玩法",
         "PvPvE",
+        "Total:150",
+        "Team:3",
         "可重复",
         "Endgame",
         "即时操作",
@@ -5173,72 +5628,6 @@
       ],
       "playLevelTags": [
         "单局6-12人",
-        "多人玩法",
-        "PVP",
-        "可重复",
-        "Endgame",
-        "即时操作",
-        "中规中矩（10-60分钟）",
-        "核心玩法",
-        "高耦合"
-      ]
-    },
-    "CallOfDutyWarzone/[Qualify]gulag-revive.md": {
-      "title": "[搜打撤]-使命召唤战区-古拉格复活",
-      "gameName": "使命召唤战区",
-      "tags": [],
-      "simpleDesc": "像\"拳击台\"——死后不是直接淘汰, 而是获得一次复活机会",
-      "mechanismDesc": "- 玩家首次被击杀后不会直接淘汰, 而是进入\"古拉格\"(Gulag)\n- 古拉格是随机武器的1v1对战地图\n- 玩家需要在限定时间内击败对手\n- 获胜者可以满血复活, 回到战场继续游戏\n- 古拉格每局仅限1次机会（后续死亡直接淘汰）\n- 20分钟后古拉格关闭, 之后死亡无法复活",
-      "coreRules": "",
-      "trigger": "- 玩家首次被击杀",
-      "painPoint": "- 传统大逃杀死亡=举报, 惩罚过重, 玩家体验碎片化",
-      "experienceGoal": "- 降低死亡惩罚——给玩家\"再来一次\"的机会",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[Qualify]gulag-revive.md",
-      "source": "人工",
-      "mechanismDesignByCategory": {
-        "fun": [
-          "策略",
-          "竞技"
-        ],
-        "emotion": [
-          "紧张感"
-        ],
-        "interaction": [
-          "对抗"
-        ]
-      },
-      "flatTags": [
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗",
-        "内容枯竭痛点"
-      ],
-      "painPoints": [
-        "内容枯竭痛点"
-      ],
-      "mechanismDesign": [
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗"
-      ],
-      "mechanismDesignCategory": [],
-      "mechanismDesignFun": [
-        "策略",
-        "竞技"
-      ],
-      "mechanismDesignEmotion": [
-        "紧张感"
-      ],
-      "mechanismDesignInteraction": [
-        "对抗"
-      ],
-      "playLevelTags": [
-        "单局150人（单队3人）",
-        "小队玩法",
         "多人玩法",
         "PVP",
         "可重复",
@@ -5593,6 +5982,81 @@
         "高耦合"
       ]
     },
+    "CivilizationVI/[Excellent][策略]-CivilizationVI-城区规划系统.md": {
+      "title": "[策略]-CivilizationVI-城区规划系统",
+      "gameName": "文明6",
+      "tags": [],
+      "simpleDesc": "城市从单点展开为多个城区区块，通过人口约束强制专业化分工，结合地形+相邻加成形成\"布局策略\"——你的城市怎么规划，决定了产出效率",
+      "mechanismDesc": "- 城市周边划分为多个可用区块（区域），每个区块占据一个六角格地块\n- 每个区块可建设一种城区：商业区、学院区、军事区、工业区、娱乐区、港口区等\n- 区块建设受地形影响：山地利于学院（科研+3），河流利于商业（金币+2），海岸利于港口\n- 城区之间有相邻加成：工业区与发电厂提供科技加成、剧院广场与商业中心相邻获得文化加成\n- 区域面积有限，每个城市可建区域数量=人口/3，强制玩家做专业化决策\n- 城区可被敌人掠夺：掠夺学院获得科技，掠夺工业区获得产能",
+      "coreRules": "",
+      "trigger": "- 城市人口达到2以上，解锁区域建造",
+      "painPoint": "- 前作文明5城市是单点建设，所有建筑堆在城市中心，缺乏空间规划深度",
+      "experienceGoal": "- 增加策略深度，\"我的城市怎么布局\"成为重要决策",
+      "similarMechanisms": [
+        {
+          "game": "模拟城市",
+          "mechanism": "城市规划系统"
+        },
+        {
+          "game": "Cities: Skylines",
+          "mechanism": "区域划分系统"
+        }
+      ],
+      "demo": "",
+      "filename": "[Excellent][策略]-CivilizationVI-城区规划系统.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/289070/header.jpg"
+    },
+    "CivilizationVI/[Qualify][策略]-CivilizationVI-总督系统.md": {
+      "title": "[策略]-CivilizationVI-总督系统",
+      "gameName": "文明6",
+      "tags": [],
+      "simpleDesc": "玩家通过市政和建筑获得总督点数，任命7种总督到城市提供专项加成，每个总督可升级解锁额外能力，实现城市的专业化运营",
+      "mechanismDesc": "- 总督点数来源：人文树市政（国家劳动力、帝国初期、防御战术等）、行政广场建筑、伟人、奇观\n- 7名总督类型：蕾娜(财政官)、梁(检测员)、阿玛尼(外交官)、马格纳斯(内政官)、平贾拉(教育者)、摩珂唦(大主教)、维克多(镇守官)\n- 每位总督有基础能力+5个晋升能力，消耗总督点数升级\n- 总督可派遣至任意城市，为该城市提供独特加成\n- 所有总督共同效果：为派遣城市+4忠诚度\n- 典型加成示例：\n  - 平贾拉：科研/文化产出+20%\n  - 马格纳斯：建造工业建筑+20%产能\n  - 维克多：城市防御力+5",
+      "coreRules": "",
+      "trigger": "- 玩家解锁行政广场区域后可用",
+      "painPoint": "- 城市运营缺乏个性化，每个城市只能堆叠建筑",
+      "experienceGoal": "- 让城市可以\"专业化\"——不同城市侧重不同发展方向",
+      "similarMechanisms": [
+        {
+          "game": "文明5",
+          "mechanism": "顾问系统（但功能较单一）"
+        },
+        {
+          "game": "全面战争",
+          "mechanism": "将领/省长系统"
+        }
+      ],
+      "demo": "",
+      "filename": "[Qualify][策略]-CivilizationVI-总督系统.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/289070/header.jpg"
+    },
+    "CivilizationVI/[Qualify][策略]-CivilizationVI-政体系统.md": {
+      "title": "[策略]-CivilizationVI-政体系统",
+      "gameName": "文明6",
+      "tags": [],
+      "simpleDesc": "选择不同政体获得不同类型的政策槽位，搭配特色政策卡形成个性化发展策略——你的国家采用什么制度，决定了你能发挥哪些优势",
+      "mechanismDesc": "- 政体分为5个等级（古典/中古/文艺复兴/现代/原子），每级有3种政体类型\n- 政体提供固有加成（如君主制+50%首都产能，共产主义+每个农场1科技）\n- 政体提供遗留加成：切换政体时保留部分原有加成\n- 政策槽位分4类：军事槽位、经济槽位、外交槽位、万能槽位\n- 政策卡通过市政树解锁，可在政体改革时免费更换\n- 政体改革需要花费一次性金币/产能成本",
+      "coreRules": "",
+      "trigger": "- 玩家进入古典时代后解锁政体建造",
+      "painPoint": "- 前作《文明5》文化胜利依赖被动积累，缺乏主动策略选择",
+      "experienceGoal": "- 将文化系统从被动积累转化为主动的策略选择",
+      "similarMechanisms": [
+        {
+          "game": "文明5",
+          "mechanism": "政体/政策系统（雏形）"
+        },
+        {
+          "game": "文明6",
+          "mechanism": "城区规划系统"
+        }
+      ],
+      "demo": "",
+      "filename": "[Qualify][策略]-CivilizationVI-政体系统.md",
+      "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/289070/header.jpg"
+    },
     "CivilizationVI/[Qualify][策略]-CivilizationVI-文明特质系统.md": {
       "title": "[策略经营]-文明6-文明特质系统",
       "gameName": "文明6",
@@ -5611,30 +6075,6 @@
       ],
       "demo": "",
       "filename": "[Qualify][策略]-CivilizationVI-文明特质系统.md",
-      "source": "AI生成-已甄别"
-    },
-    "CivilizationVI/[Qualify]策略-文明6-城区规划系统.md": {
-      "title": "[策略]-文明6-城区规划系统",
-      "gameName": "文明6",
-      "tags": [],
-      "simpleDesc": "城市可以建在不同地形上，不同区块提供不同加成——山地适合科研，森林适合文化产出，通过区块相邻布局最大化城市产出",
-      "mechanismDesc": "- 城市周边划分为多个可用区块（区域），每个区块占据一个地块\n- 每个区块可建设一种城区：商业区、学院区、军事区、工业区、娱乐区等\n- 区块建设受地形影响：山地利于学院（科研加成）、河流利于商业（商业加成）、海岸利于港口\n- 城区之间有相邻加成：工业区与发电厂提供科技加成、剧院广场与商业中心相邻获得文化加成\n- 区域面积有限，每个城市可建区域数量=人口/3，强制玩家做 specialization 决策\n- 城区可被敌人掠夺：掠夺学院获得科技，掠夺工业区获得产能",
-      "coreRules": "",
-      "trigger": "- 城市人口达到2以上，解锁区域建造",
-      "painPoint": "- 前作文明5城市是单点建设，所有建筑堆在城市中心，缺乏空间规划深度",
-      "experienceGoal": "- 增加策略深度，\"我的城市怎么布局\"成为重要决策",
-      "similarMechanisms": [
-        {
-          "game": "模拟城市",
-          "mechanism": "城市规划系统"
-        },
-        {
-          "game": "Cities: Skylines",
-          "mechanism": "区域划分系统"
-        }
-      ],
-      "demo": "",
-      "filename": "[Qualify]策略-文明6-城区规划系统.md",
       "source": "AI生成-已甄别"
     },
     "ClashOfClans/[Excellent]RTS-护盾保护机制.md": {
@@ -5719,10 +6159,20 @@
       "trigger": "玩家组卡组时生效",
       "painPoint": "解决单卡无策略深度的问题",
       "experienceGoal": "创造策略深度，不同卡组有不同打法",
-      "similarMechanisms": [],
+      "similarMechanisms": [
+        {
+          "game": "炉石传说",
+          "mechanism": "卡组构筑系统"
+        },
+        {
+          "game": "游戏王",
+          "mechanism": "卡片组合系统"
+        }
+      ],
       "demo": "",
       "filename": "[Excellent]卡牌组合系统.md",
       "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/s9qs3woasHqqz_FbBoHmsrdHyxIiO5wtuurXR9wqJII_5DSOxFyhzcjgdKVVgjXtuiw",
       "mechanismDesignByCategory": {
         "category": [
           "卡牌-策略卡牌"
@@ -5744,6 +6194,8 @@
         "竞技",
         "紧张感",
         "对抗",
+        "卡牌组合",
+        "费用曲线",
         "策略深度痛点"
       ],
       "painPoints": [
@@ -5754,7 +6206,9 @@
         "策略",
         "竞技",
         "紧张感",
-        "对抗"
+        "对抗",
+        "卡牌组合",
+        "费用曲线"
       ],
       "mechanismDesignCategory": [
         "卡牌-策略卡牌"
@@ -5770,13 +6224,13 @@
         "对抗"
       ],
       "playLevelTags": [
-        "单局2人",
-        "双人玩法",
         "PVP",
+        "单局2人/单队1人",
+        "双人玩法",
         "可重复",
         "Endgame",
-        "即时操作",
-        "中规中矩（10-60分钟）",
+        "半即时操作",
+        "碎片化（3分钟）",
         "核心玩法",
         "高耦合"
       ]
@@ -5863,13 +6317,19 @@
       "trigger": "每回合开始时圣水自动恢复",
       "painPoint": "解决资源无限导致玩家无限制出牌的无聊感",
       "experienceGoal": "创造资源管理策略深度，同时保持快节奏",
-      "similarMechanisms": [],
-      "demo": "",
+      "similarMechanisms": [
+        {
+          "game": "炉石传说",
+          "mechanism": "费用机制"
+        }
+      ],
+      "demo": "https://example.com/clashroyale-elixir-demo.gif",
       "filename": "[Excellent]圣水费用系统.md",
       "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/s9qs3woasHqqz_FbBoHmsrdHyxIiO5wtuurXR9wqJII_5DSOxFyhzcjgdKVVgjXtuiw",
       "mechanismDesignByCategory": {
         "category": [
-          "策略-SLG"
+          "卡牌-策略卡牌"
         ],
         "fun": [
           "策略",
@@ -5883,7 +6343,7 @@
         ]
       },
       "flatTags": [
-        "策略-SLG",
+        "卡牌-策略卡牌",
         "策略",
         "竞技",
         "紧张感",
@@ -5896,14 +6356,14 @@
         "自由度痛点"
       ],
       "mechanismDesign": [
-        "策略-SLG",
+        "卡牌-策略卡牌",
         "策略",
         "竞技",
         "紧张感",
         "对抗"
       ],
       "mechanismDesignCategory": [
-        "策略-SLG"
+        "卡牌-策略卡牌"
       ],
       "mechanismDesignFun": [
         "策略",
@@ -5916,22 +6376,22 @@
         "对抗"
       ],
       "playLevelTags": [
-        "单局2人",
-        "双人玩法",
         "PVP",
+        "单局2人/单队1人",
+        "双人玩法",
         "可重复",
         "Endgame",
         "即时操作",
-        "中规中矩（10-60分钟）",
+        "碎片化（3-5分钟）",
         "核心玩法",
         "高耦合"
       ]
     },
     "ClashRoyale/[Qualify]即时微操系统.md": {
-      "title": "[策略卡牌]-ClashRoyale-即时微操系统",
+      "title": "[策略]-ClashRoyale-即时微操系统",
       "gameName": "ClashRoyale",
       "tags": [],
-      "simpleDesc": "皇室战争早期所有卡牌放下后自动战斗，直到后来推出英雄卡和精英卡才有手动操作元素",
+      "simpleDesc": "皇室战争中英雄卡部署后可点击触发主动技能，精英卡可手动指定攻击目标，打破了纯自动战斗的玩法",
       "mechanismDesc": "皇室战争早期（2016-2022）所有卡牌放下后自动战斗。2022年推出英雄卡，部署后可点击触发主动技能。2024年推出精英卡，部署后可手动指定攻击目标。",
       "coreRules": "",
       "trigger": "使用英雄卡或精英卡时",
@@ -5941,65 +6401,7 @@
       "demo": "",
       "filename": "[Qualify]即时微操系统.md",
       "source": "人工",
-      "mechanismDesignByCategory": {
-        "category": [
-          "策略-SLG"
-        ],
-        "fun": [
-          "策略",
-          "竞技"
-        ],
-        "emotion": [
-          "紧张感"
-        ],
-        "interaction": [
-          "对抗"
-        ]
-      },
-      "flatTags": [
-        "策略-SLG",
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗",
-        "操控体验痛点",
-        "策略深度痛点"
-      ],
-      "painPoints": [
-        "操控体验痛点",
-        "策略深度痛点"
-      ],
-      "mechanismDesign": [
-        "策略-SLG",
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗"
-      ],
-      "mechanismDesignCategory": [
-        "策略-SLG"
-      ],
-      "mechanismDesignFun": [
-        "策略",
-        "竞技"
-      ],
-      "mechanismDesignEmotion": [
-        "紧张感"
-      ],
-      "mechanismDesignInteraction": [
-        "对抗"
-      ],
-      "playLevelTags": [
-        "单局2人",
-        "双人玩法",
-        "PVP",
-        "可重复",
-        "Endgame",
-        "即时操作",
-        "中规中矩（10-60分钟）",
-        "核心玩法",
-        "高耦合"
-      ]
+      "coverImage": "https://play-lh.googleusercontent.com/s9qs3woasHqqz_FbBoHmsrdHyxIiO5wtuurXR9wqJII_5DSOxFyhzcjgdKVVgjXtuiw"
     },
     "CompanyOfHeroes/[Qualify]CoverSuppression.md": {
       "title": "[RTS]-CompanyOfHeroes-掩体压制系统",
@@ -6663,6 +7065,201 @@
         "高耦合"
       ]
     },
+    "DeadCells/[Excellent]Roguelike-DeadCells-1血保护与血瓶系统.md": {
+      "title": "[Roguelike]-[DeadCells]-1血保护与血瓶系统",
+      "gameName": "Dead Cells",
+      "tags": [],
+      "simpleDesc": "当玩家被致命攻击击中时，如果血量高于25%则只会降至1血并眩晕周围敌人，配合可升级使用次数的血瓶形成\"容错-恢复\"循环，有效降低高难度Roguelike的挫败感",
+      "mechanismDesc": "1. **1血保护（One-Hit Protection）**\n   - 当玩家受到超过当前生命值的伤害时：\n     - 如果当前血量 > 25%最大生命值 → 只会降至1血，不死亡\n     - 周围敌人被眩晕1秒\n   - 冷却时间：45秒\n   - 可被恢复血量效果刷新冷却\n\n2. **血瓶系统（Health Flask）**\n   - 初始解锁：需要投资5个细胞解锁\n   - 基础功能：恢复约60%最大生命值\n   - 附加效果：移除3层疫病感染\n   - 使用限制：饮用时无法移动\n   - 使用次数：可通过细胞投资升级，最多4次\n   - 充能方式：关卡Boss战后自动补充",
+      "coreRules": "",
+      "trigger": "- 1血保护：玩家受到致命伤害时自动触发",
+      "painPoint": "- 传统Roguelike游戏一旦失误就死亡重开，体验碎片化",
+      "experienceGoal": "- 通过\"1血保护\"提供\"最后一道防线\"，降低挫败感",
+      "similarMechanisms": [
+        {
+          "game": "刺客信条影",
+          "mechanism": "暗杀拒绝系统（敌人视角的保护机制）"
+        },
+        {
+          "game": "喵喵",
+          "mechanism": "结合：死亡幽灵形态（死亡后的补救机制）"
+        }
+      ],
+      "demo": "待补充",
+      "filename": "[Excellent]Roguelike-DeadCells-1血保护与血瓶系统.md",
+      "source": "人工",
+      "coverImage": "https://cdn.steamstatic.com/steam/apps/588650/header.jpg"
+    },
+    "DeadCells/[Excellent]Roguelike-DeadCells-武器构建系统.md": {
+      "title": "[Roguelike]-DeadCells-武器构建系统",
+      "gameName": "Dead Cells",
+      "tags": [],
+      "simpleDesc": "200+武器技能的自由组合，让每次死亡后的新开局都有完全不同的战斗体验",
+      "mechanismDesc": "三层Build构筑系统：\n1. **武器层**：主武器（剑、刀、斧、弓等约80种），每把武器有独特的攻击模组和动画\n2. **技能层**：主动技能（魔法、陷阱、投射物约50种），提供额外战斗手段\n3. **突变层**：被动Buff（3个槽位），影响战斗风格并强化特定Build\n\n玩家需要根据武器特性选择配合的技能和突变，创造独特的战斗风格。",
+      "coreRules": "",
+      "trigger": "- 在关卡中击败敌人、精英获取武器和技能（随机掉落）",
+      "painPoint": "- 纯随机导致Build不可控：三层构筑提供策略深度，让玩家能主动规划Build方向",
+      "experienceGoal": "- 每次开局都有不同的Build组合，保持新鲜感",
+      "similarMechanisms": [
+        {
+          "game": "Hades",
+          "mechanism": "武器形态切换+次要武器组合"
+        },
+        {
+          "game": "Into The Breach",
+          "mechanism": "装备+机组组合"
+        }
+      ],
+      "demo": "https://www.bilibili.com/video/BV1xx411c7XD/",
+      "filename": "[Excellent]Roguelike-DeadCells-武器构建系统.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/588650/header.jpg",
+      "mechanismDesignByCategory": {
+        "category": [
+          "RPG-ARPG"
+        ],
+        "fun": [
+          "策略",
+          "成长变强"
+        ],
+        "emotion": [
+          "成就感"
+        ],
+        "interaction": [
+          "无交互"
+        ]
+      },
+      "flatTags": [
+        "RPG-ARPG",
+        "策略",
+        "成长变强",
+        "成就感",
+        "无交互",
+        "武器构建系统",
+        "BD构筑",
+        "内容枯竭痛点"
+      ],
+      "painPoints": [
+        "内容枯竭痛点"
+      ],
+      "mechanismDesign": [
+        "RPG-ARPG",
+        "策略",
+        "成长变强",
+        "成就感",
+        "无交互",
+        "武器构建系统",
+        "BD构筑"
+      ],
+      "mechanismDesignCategory": [
+        "RPG-ARPG"
+      ],
+      "mechanismDesignFun": [
+        "策略",
+        "成长变强"
+      ],
+      "mechanismDesignEmotion": [
+        "成就感"
+      ],
+      "mechanismDesignInteraction": [
+        "无交互"
+      ],
+      "playLevelTags": [
+        "PVE",
+        "单人",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "中规中矩（10-60分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
+    },
+    "DeadCells/[Excellent]Roguelike-DeadCells-突变技能系统.md": {
+      "title": "[Roguelike]-DeadCells-突变技能系统",
+      "gameName": "Dead Cells",
+      "tags": [],
+      "simpleDesc": "3个突变槽位提供永久被动Buff，让玩家可以根据武器Build自由选择强化方向，实现个性化战斗风格",
+      "mechanismDesc": "- **突变槽位**：3个固定槽位，可在战斗中获得或升级突变技能\n- **突变类型**：分为进攻型（如攻击力+15%、暴击率+10%）、防御型（如受击回血、护盾）、功能型（如掉落率提升、经验加成）\n- **Build导向**：不同突变组合对应不同Build方向（如暴击流、防御流、刷钱流）\n- **永久加成**：突变一旦解锁即为永久加成，死亡不重置",
+      "coreRules": "",
+      "trigger": "- 玩家通过关卡后从Guillain处选择突变",
+      "painPoint": "- 纯随机Build缺乏策略深度：突变提供明确的Build导向，让玩家能主动规划",
+      "experienceGoal": "- 鼓励玩家尝试不同突变组合",
+      "similarMechanisms": [
+        {
+          "game": "Hades",
+          "mechanism": "冥府之刃系统（被动加成）"
+        },
+        {
+          "game": "Path of Exile",
+          "mechanism": "天赋树系统"
+        }
+      ],
+      "demo": "https://www.bilibili.com/video/BV1xx411c7XD/",
+      "filename": "[Excellent]Roguelike-DeadCells-突变技能系统.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/588650/header.jpg",
+      "mechanismDesignByCategory": {
+        "category": [
+          "RPG-ARPG"
+        ],
+        "fun": [
+          "策略",
+          "成长变强"
+        ],
+        "emotion": [
+          "成就感"
+        ],
+        "interaction": [
+          "无交互"
+        ]
+      },
+      "flatTags": [
+        "RPG-ARPG",
+        "策略",
+        "成长变强",
+        "成就感",
+        "无交互",
+        "突变技能系统",
+        "BD构筑",
+        "内容枯竭痛点"
+      ],
+      "painPoints": [
+        "内容枯竭痛点"
+      ],
+      "mechanismDesign": [
+        "RPG-ARPG",
+        "策略",
+        "成长变强",
+        "成就感",
+        "无交互",
+        "突变技能系统",
+        "BD构筑"
+      ],
+      "mechanismDesignCategory": [
+        "RPG-ARPG"
+      ],
+      "mechanismDesignFun": [
+        "策略",
+        "成长变强"
+      ],
+      "mechanismDesignEmotion": [
+        "成就感"
+      ],
+      "mechanismDesignInteraction": [
+        "无交互"
+      ],
+      "playLevelTags": [
+        "PVE",
+        "单人",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "中规中矩（10-60分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
+    },
     "DeadCells/[Qualify]RogueVania融合机制.md": {
       "title": "[Roguelite]-DeadCells-RogueVania融合机制",
       "gameName": "Dead Cells",
@@ -6820,89 +7417,6 @@
         "高耦合"
       ]
     },
-    "DeadCells/[Qualify]Roguelike-DeadCells-武器构建系统.md": {
-      "title": "[Roguelike]-DeadCells-武器构建系统",
-      "gameName": "Dead Cells",
-      "tags": [],
-      "simpleDesc": "200+武器技能的自由组合，让每次死亡后的新开局都有完全不同的战斗体验",
-      "mechanismDesc": "三层Build构筑系统：\n1. **武器层**：主武器（剑、刀、斧、弓等约80种）\n2. **技能层**：主动技能（魔法、陷阱、投射物约50种）\n3. **突变层**：被动Buff（3个槽位，影响战斗风格）\n\n每把武器有独特的攻击模组和动画，玩家需要根据武器特性选择配合的技能和突变。",
-      "coreRules": "",
-      "trigger": "- 在关卡中击败敌人、精英获取武器和技能",
-      "painPoint": "- 纯随机导致Build不可控",
-      "experienceGoal": "- 每次开局都有不同的Build组合",
-      "similarMechanisms": [
-        {
-          "game": "Hades",
-          "mechanism": "武器形态切换+次要武器组合"
-        },
-        {
-          "game": "Into The Breach",
-          "mechanism": "装备+机组组合"
-        }
-      ],
-      "demo": "https://www.bilibili.com/video/BV1xx411c7XD/",
-      "filename": "[Qualify]Roguelike-DeadCells-武器构建系统.md",
-      "source": "AI生成-已甄别",
-      "mechanismDesignByCategory": {
-        "category": [
-          "RPG-ARPG"
-        ],
-        "fun": [
-          "策略",
-          "成长变强"
-        ],
-        "emotion": [
-          "成就感"
-        ],
-        "interaction": [
-          "无交互"
-        ]
-      },
-      "flatTags": [
-        "RPG-ARPG",
-        "策略",
-        "成长变强",
-        "成就感",
-        "无交互",
-        "武器构建系统",
-        "BD构筑",
-        "内容枯竭痛点"
-      ],
-      "painPoints": [
-        "内容枯竭痛点"
-      ],
-      "mechanismDesign": [
-        "RPG-ARPG",
-        "策略",
-        "成长变强",
-        "成就感",
-        "无交互",
-        "武器构建系统",
-        "BD构筑"
-      ],
-      "mechanismDesignCategory": [
-        "RPG-ARPG"
-      ],
-      "mechanismDesignFun": [
-        "策略",
-        "成长变强"
-      ],
-      "mechanismDesignEmotion": [
-        "成就感"
-      ],
-      "mechanismDesignInteraction": [
-        "无交互"
-      ],
-      "playLevelTags": [
-        "PVE",
-        "可重复",
-        "Endgame",
-        "即时操作",
-        "中规中矩（10-60分钟）",
-        "核心玩法",
-        "高耦合"
-      ]
-    },
     "DeadCells/[Qualify]Roguelike-DeadCells-蓝图解锁系统.md": {
       "title": "[Roguelike]-DeadCells-蓝图解锁系统",
       "gameName": "Dead Cells",
@@ -6930,6 +7444,7 @@
       "demo": "",
       "filename": "[Qualify]Roguelike-DeadCells-蓝图解锁系统.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/588650/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "RPG-ARPG"
@@ -26587,8 +27102,32 @@
         "高耦合"
       ]
     },
-    "balatro/[Excellent][DBG]-Balatro-扑克牌型BD系统.md": {
-      "title": "[DBG]-Balatro-扑克牌型BD系统",
+    "balatro/[Excellent][DBG]-Balatro-指数成长系统.md": {
+      "title": "[DBG]-Balatro-指数成长系统",
+      "gameName": "Balatro",
+      "tags": [],
+      "simpleDesc": "小丑牌多重倍率叠加产生爆炸式成长, 正反馈极强",
+      "mechanismDesc": "游戏采用乘法叠加的计分方式：最终分数 = 基础分 × 牌型倍率 × 小丑牌倍率1 × 小丑牌倍率2 × ... × 星球加成。\n\n每张提供倍率的小丑牌效果都可以叠加, 越往后期, 每加一张关键卡的放大效果越强。例如：基础分100 × 牌型倍率2 × 小丑A倍率4 × 小丑B倍率3 = 2400分, 再加一张倍率2.5的卡牌就变成6000分。",
+      "coreRules": "小丑牌提供倍率加成, 可以叠加 星球牌提供持续性加成 多重乘法产生指数效果",
+      "trigger": "打出卡牌时, 满足小丑牌条件时",
+      "painPoint": "传统游戏的线性成长（每级, 10%）正反馈不够强",
+      "experienceGoal": "创造\"爆炸式\"正反馈, 看着分数从100变成10000, 爽感极强",
+      "similarMechanisms": [
+        {
+          "game": "杀戮尖塔",
+          "mechanism": "的卡牌叠加"
+        },
+        {
+          "game": "以撒的结合",
+          "mechanism": "的道具乘法"
+        }
+      ],
+      "demo": "*(待补充GIF, 视频)*",
+      "filename": "[Excellent][DBG]-Balatro-指数成长系统.md",
+      "source": "人工"
+    },
+    "balatro/[Excellent][Roguelike]-Balatro-扑克牌型BD系统.md": {
+      "title": "[Roguelike]-Balatro-扑克牌型BD系统",
       "gameName": "Balatro",
       "tags": [],
       "simpleDesc": "用德州扑克牌型代替传统卡牌费用-效果模式，实现\"牌型=得分\"的独特构筑体验",
@@ -26608,12 +27147,12 @@
         }
       ],
       "demo": "*(待补充GIF)*",
-      "filename": "[Excellent][DBG]-Balatro-扑克牌型BD系统.md",
+      "filename": "[Excellent][Roguelike]-Balatro-扑克牌型BD系统.md",
       "source": "人工",
       "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/2379780/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
-          "卡牌-DBG / Roguelike"
+          "Roguelike"
         ],
         "fun": [
           "策略",
@@ -26628,29 +27167,29 @@
         ]
       },
       "flatTags": [
-        "卡牌-DBG / Roguelike",
+        "Roguelike",
         "策略",
         "成长变强",
         "成就感",
         "惊喜随机",
         "无交互",
-        "牌型得分系统",
         "BD构筑",
-        "认知负担-学习曲线（传统DBG上手难）"
+        "牌型得分",
+        "认知负担-学习曲线"
       ],
       "mechanismDesign": [
-        "卡牌-DBG / Roguelike",
+        "Roguelike",
         "策略",
         "成长变强",
         "成就感",
         "惊喜随机",
         "无交互",
-        "牌型得分系统",
         "BD构筑",
-        "认知负担-学习曲线（传统DBG上手难）"
+        "牌型得分",
+        "认知负担-学习曲线"
       ],
       "mechanismDesignCategory": [
-        "卡牌-DBG / Roguelike"
+        "Roguelike"
       ],
       "mechanismDesignFun": [
         "策略",
@@ -26669,72 +27208,6 @@
         "可重复",
         "Endgame",
         "回合操作",
-        "中规中矩（10-60分钟）",
-        "核心玩法",
-        "高耦合"
-      ]
-    },
-    "balatro/[Qualify]exponential-growth-system.md": {
-      "title": "[DBG]-Balatro-指数成长系统",
-      "gameName": "Balatro",
-      "tags": [],
-      "simpleDesc": "小丑牌多重倍率叠加产生爆炸式成长, 正反馈极强",
-      "mechanismDesc": "游戏采用乘法叠加的计分方式：最终分数 = 基础分 × 牌型倍率 × 小丑牌倍率1 × 小丑牌倍率2 × ... × 星球加成。\n\n每张提供倍率的小丑牌效果都可以叠加, 越往后期, 每加一张关键卡的放大效果越强。例如：基础分100 × 牌型倍率2 × 小丑A倍率4 × 小丑B倍率3 = 2400分, 再加一张倍率2.5的卡牌就变成6000分。",
-      "coreRules": "小丑牌提供倍率加成, 可以叠加 星球牌提供持续性加成 多重乘法产生指数效果",
-      "trigger": "打出卡牌时, 满足小丑牌条件时",
-      "painPoint": "传统游戏的线性成长（每级, 10%）正反馈不够强",
-      "experienceGoal": "创造\"爆炸式\"正反馈, 看着分数从100变成10000, 爽感极强",
-      "similarMechanisms": [
-        {
-          "game": "杀戮尖塔",
-          "mechanism": "的卡牌叠加 ,  《以撒的结合》的道具乘法"
-        }
-      ],
-      "demo": "*(待补充GIF, 视频)*",
-      "filename": "[Qualify]exponential-growth-system.md",
-      "source": "人工",
-      "mechanismDesignByCategory": {
-        "fun": [
-          "策略",
-          "竞技"
-        ],
-        "emotion": [
-          "紧张感"
-        ],
-        "interaction": [
-          "对抗"
-        ]
-      },
-      "flatTags": [
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗"
-      ],
-      "mechanismDesign": [
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗"
-      ],
-      "mechanismDesignCategory": [],
-      "mechanismDesignFun": [
-        "策略",
-        "竞技"
-      ],
-      "mechanismDesignEmotion": [
-        "紧张感"
-      ],
-      "mechanismDesignInteraction": [
-        "对抗"
-      ],
-      "playLevelTags": [
-        "单局1人",
-        "单人玩法",
-        "PVP",
-        "可重复",
-        "Endgame",
-        "即时操作",
         "中规中矩（10-60分钟）",
         "核心玩法",
         "高耦合"
@@ -28398,7 +28871,7 @@
       "source": "人工"
     },
     "Arknights": {
-      "title": "Arknights / 明日方舟## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | 明日方舟 / Arknights || 开发者 | 鹰角网络 (Hypergryph) || 发行平台 | Android / iOS / PC || 上线时间 | 2019年5月1日 || 游戏类型 | 策略塔防 / 卡牌RPG / 二次元手游 || 收费模式 | 免费+内购 || 封面图 | https://play-lh.googleusercontent.com/4AtjgwNMjcVRBx_e1rjm5kTbRo_bjEQcMXYZ3C_9NUwCsBFhnUps_qYU7KL2MxfSlIUwqF9WqEOYZe-3ZpURE2Q |---## X-Statement公式**【基础信息】+【品类】+【核心差异点/独特卖点】**策略塔防卡牌手游 → 玩家部署干员阻挡敌人 + RTS职业分工 + 卡牌养成 → 结合酸性科幻美术风格+硬核塔防策略深度**一句话总结**：俯视角塔防手游，通过限制部署数的创新机制+8职业分工+二维形状攻击范围，创造比传统塔防更自由的策略深度，结合二次元抽卡养成---## 玩法原型**玩法原型1：塔防战斗系统 → 借鉴《植物大战僵尸》**- **被借鉴游戏的核心理念**：《植物大战僵尸》的核心理念是**\"在有限资源下部署单位阻挡敌人\"**——玩家需要规划位置和时机，用不同植物应对不同敌人- **本游戏在此基础上改出的独特体验**：  1. 部署数限制机制：限制最大部署数量而非格子位置，给予玩家更大策略自由度  2. 阻挡机制：只有近战职业能阻挡敌人，需要配合输出职业  3. 费用机制：部署干员需要消耗费用，通过先锋职业回复**玩法原型2：职业分工系统 → 借鉴RTS游戏**- **核心理念**：RTS游戏强调不同单位各司其职，分工合作- **本游戏的独特体验**：  1. 8种职业体系：先锋/狙击/近卫/术士/重装/医疗/特种/辅助  2. 每种职业有独特功能：阻挡、群攻、单体输出、治疗、减速、控制等  3. 职业间存在配合关系，形成战术组合**玩法原型3：攻击范围系统 → 借鉴传统塔防**- **核心理念**：塔防游戏中防御塔的攻击范围直接影响战术选择- **本游戏的独特体验**：  1. 二维形状范围：攻击范围可以是任意形状（菱形、十字形等），非传统圆形  2. 大幅增加干员和关卡设计维度  3. 形成\"绞肉机\"等独特打法**玩法原型4：抽卡养成系统 → 借鉴二次元卡牌**- **核心理念**：角色收集+随机抽取是二次元手游核心商业模式- **本游戏的独特体验**：  1. 干员精二突破解锁额外技能和属性  2. 模组系统提供额外养成深度  3. 基建系统作为资源产出辅助---## 核心支柱### 支柱1：【部署数限制】-> 【设计手段】-> 【具体参数】- **体验**：限制最大部署数量而非位置，给予玩家策略自由度- **手段**：  - 部署数计算：每个干员占用1-2个部署数  - 再部署机制：干员撤离后可重复部署（有冷却时间）  - 费用回复：先锋干员击杀敌人回复费用- **参数**：常规图部署数约8-12，高难图约6-8### 支柱2：【职业分工系统】-> 【设计手段】-> 【具体参数】- **体验**：8种职业各司其职，通过配合形成战术组合- **手段**：  - 职业类型：先锋/狙击/近卫/术士/重装/医疗/特种/辅助  - 功能分工：阻挡/输出/治疗/控制/减速/爆发  - 职业克制：不同职业对不同敌人有优势- **参数**：每职业3-5个星级干员，共200+干员### 支柱3：【二维攻击范围】-> 【设计手段】-> 【具体参数】- **体验**：非圆形攻击范围，大幅增加策略维度- **手段**：  - 范围形状：菱形、十字、T型、L型、环形等  - 范围大小：1x1到3x5等多种尺寸  - 溅射机制：部分技能可造成范围伤害- **参数**：每干员有独特攻击范围设计### 支柱4：【技能系统】-> 【设计手段】-> 【具体参数】- **体验**：干员主动技能决定战斗胜负- **手段**：  - 技能类型：攻击强化/防御强化/治疗/控制/爆发  - 技能等级：1-7级，需要材料升级  - 天赋系统：精二解锁额外被动效果- **参数**：每干员2-3个技能+1-2个天赋### 支柱5：【基建系统】-> 【设计手段】-> 【具体参数】- **体验**：经营设施产出资源，支撑抽卡养成- **手段**：  - 设施类型：贸易站/制造站/发电站/宿舍/加工站  - 资源循环：消耗材料产出原石/龙门币/作战记录  - 干员入驻：特定干员提升设施效率- **参数**：基建满级约12-15分钟/轮产出---## 核心体验### 以秒为单位的体验**【俯视角2.5D】+【玩家部署干员在地图上阻挡敌人】+【策略布局+以少胜多的成就感】**### 以分钟/小时为单位的节奏- **单关流程**：部署先锋回费(0-30s) → 部署输出/重装(30s-2min) → 技能开启决战(2-5min) → 结算评价- **日常循环**：每日任务(刷材料) → 活动副本 → 基建收菜 → 抽卡/养干员- **长线目标**：全图鉴收集 → 精英二满级 → 专精技能 → 危机合约冲层---## 竞品对比| 维度 | 明日方舟 (Arknights) | 无期迷途 (Path to Nowhere) | 少女前线 (Girls' Frontline) | 阴阳师 || :--- | :--- | :--- | :--- | :--- || 上线时间 | 2019年5月 | 2022年10月 | 2016年5月 | 2016年9月 || 品类 | 塔防+策略RPG | 塔防+策略RPG | 策略RPG | 卡牌RPG+回合制 || 核心差异 | 8职业分工+二维范围 | 自由移动部署+暗黑风 | 枪械娘化+剧情深度 | 和风+式神收集 || 战斗体验 | 静态部署+阻挡 | 部署后可移动+高难 | 手动释放技能 | 自动战斗 || 美术风格 | 酸性科幻+二次元 | 暗黑都市+写实 | 军武拟人+写实 | 和风唯美 || 商业化 | 抽卡+皮肤 | 抽卡+皮肤 | 抽卡+皮肤 | 抽卡+皮肤 || 2024年营收 | ~26亿RMB | ~7亿RMB | ~10亿RMB | ~15亿RMB |**差异化定位**：明日方舟以\"策略深度+酸性美术+硬核塔防\"形成独特品类认知，与传统二次元卡牌形成差异化竞争，开创\"塔防+抽卡\"细分赛道---## 商业成就| 指标 | 数据 | 来源 || :--- | :--- | :--- || 全球累计收入 | 超10亿美元 | Superpixel报道 || 2024年收入 | 约26亿人民币 (355M USD) | SensorTower || 2025年预计 | 约27.9亿人民币 (398M USD) | SensorTower || 国内iOS流水 | 约20亿人民币 | 历史数据 || 海外收入 | 超50亿人民币 | 历史数据 || 运营状态 | 持续运营，6年稳定 | - |**成功要点**：- 开创\"塔防+二次元抽卡\"新品类- 独特酸性科幻美术风格形成高辨识度- 硬核策略深度吸引核心玩家- 鹰角网络代表作，后续持续推出新产品---## 关联机制卡- [Qualify]策略-Arknights-干员技能系统- [Qualify]策略-Arknights-阻挡范围系统- [Qualify][RPG]-Arknights-十连保底机制.md- [Qualify]抽卡-Arknights-概率递进机制.md---*拆解日期：2026-03-14**数据来源：SensorTower、Reddit、Wikipedia、Superpixel*",
+      "title": "Arknights / 明日方舟## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | 明日方舟 / Arknights || 开发者 | 鹰角网络 (Hypergryph) || 发行平台 | Android / iOS / PC || 上线时间 | 2019年5月1日 || 游戏类型 | 策略塔防 / 卡牌RPG / 二次元手游 || 收费模式 | 免费+内购 || 封面图 | https://play-lh.googleusercontent.com/4AtjgwNMjcVRBx_e1rjm5kTbRo_bjEQcMXYZ3C_9NUwCsBFhnUps_qYU7KL2MxfSlIUwqF9WqEOYZe-3ZpURE2Q |---## X-Statement公式**【基础信息】+【品类】+【核心差异点/独特卖点】**策略塔防卡牌手游 → 玩家部署干员阻挡敌人 + RTS职业分工 + 卡牌养成 → 结合酸性科幻美术风格+硬核塔防策略深度**一句话总结**：俯视角塔防手游，通过限制部署数的创新机制+8职业分工+二维形状攻击范围，创造比传统塔防更自由的策略深度，结合二次元抽卡养成---## 玩法原型**玩法原型1：塔防战斗系统 → 借鉴《植物大战僵尸》**- **被借鉴游戏的核心理念**：《植物大战僵尸》的核心理念是**\"在有限资源下部署单位阻挡敌人\"**——玩家需要规划位置和时机，用不同植物应对不同敌人- **本游戏在此基础上改出的独特体验**：  1. 部署数限制机制：限制最大部署数量而非格子位置，给予玩家更大策略自由度  2. 阻挡机制：只有近战职业能阻挡敌人，需要配合输出职业  3. 费用机制：部署干员需要消耗费用，通过先锋职业回复**玩法原型2：职业分工系统 → 借鉴RTS游戏**- **核心理念**：RTS游戏强调不同单位各司其职，分工合作- **本游戏的独特体验**：  1. 8种职业体系：先锋/狙击/近卫/术士/重装/医疗/特种/辅助  2. 每种职业有独特功能：阻挡、群攻、单体输出、治疗、减速、控制等  3. 职业间存在配合关系，形成战术组合**玩法原型3：攻击范围系统 → 借鉴传统塔防**- **核心理念**：塔防游戏中防御塔的攻击范围直接影响战术选择- **本游戏的独特体验**：  1. 二维形状范围：攻击范围可以是任意形状（菱形、十字形等），非传统圆形  2. 大幅增加干员和关卡设计维度  3. 形成\"绞肉机\"等独特打法**玩法原型4：抽卡养成系统 → 借鉴二次元卡牌**- **核心理念**：角色收集+随机抽取是二次元手游核心商业模式- **本游戏的独特体验**：  1. 干员精二突破解锁额外技能和属性  2. 模组系统提供额外养成深度  3. 基建系统作为资源产出辅助---## 核心支柱### 支柱1：【部署数限制】-> 【设计手段】-> 【具体参数】- **体验**：限制最大部署数量而非位置，给予玩家策略自由度- **手段**：  - 部署数计算：每个干员占用1-2个部署数  - 再部署机制：干员撤离后可重复部署（有冷却时间）  - 费用回复：先锋干员击杀敌人回复费用- **参数**：常规图部署数约8-12，高难图约6-8### 支柱2：【职业分工系统】-> 【设计手段】-> 【具体参数】- **体验**：8种职业各司其职，通过配合形成战术组合- **手段**：  - 职业类型：先锋/狙击/近卫/术士/重装/医疗/特种/辅助  - 功能分工：阻挡/输出/治疗/控制/减速/爆发  - 职业克制：不同职业对不同敌人有优势- **参数**：每职业3-5个星级干员，共200+干员### 支柱3：【二维攻击范围】-> 【设计手段】-> 【具体参数】- **体验**：非圆形攻击范围，大幅增加策略维度- **手段**：  - 范围形状：菱形、十字、T型、L型、环形等  - 范围大小：1x1到3x5等多种尺寸  - 溅射机制：部分技能可造成范围伤害- **参数**：每干员有独特攻击范围设计### 支柱4：【技能系统】-> 【设计手段】-> 【具体参数】- **体验**：干员主动技能决定战斗胜负- **手段**：  - 技能类型：攻击强化/防御强化/治疗/控制/爆发  - 技能等级：1-7级，需要材料升级  - 天赋系统：精二解锁额外被动效果- **参数**：每干员2-3个技能+1-2个天赋### 支柱5：【基建系统】-> 【设计手段】-> 【具体参数】- **体验**：经营设施产出资源，支撑抽卡养成- **手段**：  - 设施类型：贸易站/制造站/发电站/宿舍/加工站  - 资源循环：消耗材料产出原石/龙门币/作战记录  - 干员入驻：特定干员提升设施效率- **参数**：基建满级约12-15分钟/轮产出---## 核心体验### 以秒为单位的体验**【俯视角2.5D】+【玩家部署干员在地图上阻挡敌人】+【策略布局+以少胜多的成就感】**### 以分钟/小时为单位的节奏- **单关流程**：部署先锋回费(0-30s) → 部署输出/重装(30s-2min) → 技能开启决战(2-5min) → 结算评价- **日常循环**：每日任务(刷材料) → 活动副本 → 基建收菜 → 抽卡/养干员- **长线目标**：全图鉴收集 → 精英二满级 → 专精技能 → 危机合约冲层---## 竞品对比| 维度 | 明日方舟 (Arknights) | 无期迷途 (Path to Nowhere) | 少女前线 (Girls' Frontline) | 阴阳师 || :--- | :--- | :--- | :--- | :--- || 上线时间 | 2019年5月 | 2022年10月 | 2016年5月 | 2016年9月 || 品类 | 塔防+策略RPG | 塔防+策略RPG | 策略RPG | 卡牌RPG+回合制 || 核心差异 | 8职业分工+二维范围 | 自由移动部署+暗黑风 | 枪械娘化+剧情深度 | 和风+式神收集 || 战斗体验 | 静态部署+阻挡 | 部署后可移动+高难 | 手动释放技能 | 自动战斗 || 美术风格 | 酸性科幻+二次元 | 暗黑都市+写实 | 军武拟人+写实 | 和风唯美 || 商业化 | 抽卡+皮肤 | 抽卡+皮肤 | 抽卡+皮肤 | 抽卡+皮肤 || 2024年营收 | ~26亿RMB | ~7亿RMB | ~10亿RMB | ~15亿RMB |**差异化定位**：明日方舟以\"策略深度+酸性美术+硬核塔防\"形成独特品类认知，与传统二次元卡牌形成差异化竞争，开创\"塔防+抽卡\"细分赛道---## 商业成就| 指标 | 数据 | 来源 || :--- | :--- | :--- || 全球累计收入 | 超10亿美元 | Superpixel报道 || 2024年收入 | 约26亿人民币 (355M USD) | SensorTower || 2025年预计 | 约27.9亿人民币 (398M USD) | SensorTower || 国内iOS流水 | 约20亿人民币 | 历史数据 || 海外收入 | 超50亿人民币 | 历史数据 || 运营状态 | 持续运营，6年稳定 | - |**成功要点**：- 开创\"塔防+二次元抽卡\"新品类- 独特酸性科幻美术风格形成高辨识度- 硬核策略深度吸引核心玩家- 鹰角网络代表作，后续持续推出新产品---## 关联机制卡- [Qualify]策略-Arknights-干员技能系统- [Qualify]策略-Arknights-阻挡范围系统- [Qualify][RPG]-Arknights-十连保底机制.md- [Excellent]策略-Arknights-概率递进保底机制---*拆解日期：2026-03-14**数据来源：SensorTower、Reddit、Wikipedia、Superpixel*",
       "gameName": "",
       "developer": "",
       "publisher": "",
@@ -28419,7 +28892,7 @@
       "source": "人工"
     },
     "ArmoredCore6": {
-      "title": "Armored Core 6 / 装甲核心6：境界天火## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | 装甲核心6：境界天火 / ARMORED CORE VI FIRES OF RUBICON || 封面图 | https://steamcdn-a.akamaihd.net/steam/apps/1888930/header.jpg || 开发者 | FromSoftware || 发行平台 | PC / PS / Xbox || 上线时间 | 2023年8月 || 游戏类型 | 动作 / 机甲 / 魂like || 一句话对标 | FromSoftware机甲动作游戏 || 玩家数据 | 首月销量破300万，超出预期 |---## 玩法环境**核心循环**：> 玩家组装定制机甲，在不同地形与敌人战斗，击败BOSS推进剧情**操作门槛**：> 中高 - 需要理解机甲组装和战斗机制---## 关联资产**收录机制**：> - [Excellent]街机-ArmoredCore6-机甲组装系统> - [Excellent]街机-ArmoredCore6-锁定机制> - [Excellent]街机-ArmoredCore6-扩充机能系统> - [Excellent]街机-ArmoredCore6-地形纵深战斗---## 补充信息（来自 game-analyse-sdd）### X-Statement> FromSoftware机甲动作游戏，玩家组装定制机甲进行3D战斗，结合魂系难度与机战浪漫### 玩法原型| 系统 | 玩法原型 | 核心理念 | 独特改进 ||------|----------|----------|----------|| 战斗 | 《装甲核心》系列 | 机甲动作 | FromSoftware魂系团队打造 || 组装 | 《机甲DIY》 | 零件定制 | 速度/载重/输出平衡 || BOSS | 《黑暗之魂》 | 挑战BOSS | 引入BOSS战 |### 核心支柱1. **机甲组装系统** - 体验：零件DIY定制 / 设计：武器/腿部/发动机/推进器 / 参数：速度/载重/输出(EN)三维平衡2. **锁定机制** - 体验：系列根本 / 设计：围绕锁定设计机体组装与战斗 / 参数：\"只狼式简洁\"战斗3. **扩充机能** - 体验：主动技能 / 设计：4类（攻击/防御/生存增益） / 参数：类似战技系统4. **地形纵深战斗** - 体验：不同战场体验 / 设计：狭窄管道/建筑丛林/开阔平原 / 参数：多样战斗节奏5. **关卡类型** - 体验：多样化任务 / 设计：歼灭/潜入/守卫/追逐 / 参数：每场战斗充满变数### 核心体验**以秒为单位的体验**：> 第三人称视角，玩家驾驶机甲在不同地形与敌人战斗，享受机战浪漫与魂系挑战**以分钟/小时为单位的节奏**：- 组装期：配置机甲零件- 战斗期：与敌人/首脑战斗- 推进期：击败首脑推进剧情### 商业成就- 首月销量破300万- 超出预期，帮助FS在艾尔登法环后继续盈利- 300人团队开发---## 竞品对比| 竞品 | 相同点 | 差异点 | 竞争优势 ||------|--------|--------|----------|| MechWarrior 5 | 驾驶机甲战斗 | 自定义程度较低，更偏向模拟 | AC6深度组装系统 || Front Mission 系列 | 机甲战斗题材 | 策略战棋玩法 | AC6即时动作战斗 || Daemon X Machina | 机甲动作 | Switch平台，规模较小 | AC6 AAA品质 + 魂系难度 || 装甲核心3-4 | 同系列 | 较老，机制简化 | AC6现代化改进 + 优化 |**核心竞争优势**：FromSoftware将魂系成功经验（高难度BOSS战、探索激励）注入机甲动作品类，填补了「硬核机甲动作游戏」的市場空缺",
+      "title": "Armored Core 6 / 装甲核心6：境界天火## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | 装甲核心6：境界天火 / ARMORED CORE VI FIRES OF RUBICON || 封面图 | https://steamcdn-a.akamaihd.net/steam/apps/1888930/header.jpg || 开发者 | FromSoftware || 发行平台 | PC / PS / Xbox || 上线时间 | 2023年8月 || 游戏类型 | 动作 / 机甲 / 魂like || 一句话对标 | FromSoftware机甲动作游戏 || 玩家数据 | 首月销量破300万，超出预期 |---## 玩法环境**核心循环**：> 玩家组装定制机甲，在不同地形与敌人战斗，击败BOSS推进剧情**操作门槛**：> 中高 - 需要理解机甲组装和战斗机制---## 关联资产**收录机制**：> - [Excellent]街机-ArmoredCore6-机甲组装系统> - [Excellent]街机-ArmoredCore6-锁定机制> - [Excellent]街机-ArmoredCore6-扩充机能系统> - [Excellent][街机]-ArmoredCore6-地形纵深战斗---## 补充信息（来自 game-analyse-sdd）### X-Statement> FromSoftware机甲动作游戏，玩家组装定制机甲进行3D战斗，结合魂系难度与机战浪漫### 玩法原型| 系统 | 玩法原型 | 核心理念 | 独特改进 ||------|----------|----------|----------|| 战斗 | 《装甲核心》系列 | 机甲动作 | FromSoftware魂系团队打造 || 组装 | 《机甲DIY》 | 零件定制 | 速度/载重/输出平衡 || BOSS | 《黑暗之魂》 | 挑战BOSS | 引入BOSS战 |### 核心支柱1. **机甲组装系统** - 体验：零件DIY定制 / 设计：武器/腿部/发动机/推进器 / 参数：速度/载重/输出(EN)三维平衡2. **锁定机制** - 体验：系列根本 / 设计：围绕锁定设计机体组装与战斗 / 参数：\"只狼式简洁\"战斗3. **扩充机能** - 体验：主动技能 / 设计：4类（攻击/防御/生存增益） / 参数：类似战技系统4. **地形纵深战斗** - 体验：不同战场体验 / 设计：狭窄管道/建筑丛林/开阔平原 / 参数：多样战斗节奏5. **关卡类型** - 体验：多样化任务 / 设计：歼灭/潜入/守卫/追逐 / 参数：每场战斗充满变数### 核心体验**以秒为单位的体验**：> 第三人称视角，玩家驾驶机甲在不同地形与敌人战斗，享受机战浪漫与魂系挑战**以分钟/小时为单位的节奏**：- 组装期：配置机甲零件- 战斗期：与敌人/首脑战斗- 推进期：击败首脑推进剧情### 商业成就- 首月销量破300万- 超出预期，帮助FS在艾尔登法环后继续盈利- 300人团队开发---## 竞品对比| 竞品 | 相同点 | 差异点 | 竞争优势 ||------|--------|--------|----------|| MechWarrior 5 | 驾驶机甲战斗 | 自定义程度较低，更偏向模拟 | AC6深度组装系统 || Front Mission 系列 | 机甲战斗题材 | 策略战棋玩法 | AC6即时动作战斗 || Daemon X Machina | 机甲动作 | Switch平台，规模较小 | AC6 AAA品质 + 魂系难度 || 装甲核心3-4 | 同系列 | 较老，机制简化 | AC6现代化改进 + 优化 |**核心竞争优势**：FromSoftware将魂系成功经验（高难度BOSS战、探索激励）注入机甲动作品类，填补了「硬核机甲动作游戏」的市場空缺",
       "gameName": "",
       "developer": "",
       "publisher": "",
@@ -28482,7 +28955,7 @@
       "source": "人工"
     },
     "AssassinsCreedShadows": {
-      "title": "Assassin's Creed Shadows / 刺客信条：影## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | 刺客信条：影 / Assassin's Creed Shadows || 开发者 | 育碧魁北克工作室 || 发行平台 | PC / PS5 / Xbox || 上线时间 | 2025年3月 || 游戏类型 | 动作冒险 / 潜行 || 一句话对标 | 战国日本双主角刺客信条 || 玩家数据 | 首日100万玩家，Steam峰值6.4万 |---## 玩法环境**核心循环**：> 玩家扮演忍者奈绪江和武士弥助，在战国日本进行潜行暗杀或正面战斗，完成任务推进剧情**操作门槛**：> 中等 - 需要熟悉潜行和战斗机制---## 关联资产**收录机制**：> （待关联该游戏下的机制卡）---## 补充信息（来自 game-analyse-sdd）### X-Statement> 育碧刺客信条系列最新作，玩家扮演日本忍者奈绪江和黑人武士弥助，在战国日本进行潜行与战斗### 玩法原型| 系统 | 玩法原型 | 核心理念 | 独特改进 ||------|----------|----------|----------|| 潜行 | 《刺客信条》 | 暗杀机制 | 忍者专属 || 战斗 | 《武士》 | 正面对战 | 弥助专属 || 主角 | 《双主角》 | 切换玩法 | 忍者+武士 |### 核心支柱1. **双主角系统** - 体验：奈绪江潜行/弥助战斗 / 设计：各自专属成长路线 / 参数：技能/武器/属性独立2. **战国日本** - 体验：历史背景 / 设计：16世纪战国末期 / 参数：织田信长时期3. **潜行机制** - 体验：利用光声影 / 设计：躲避敌人 / 参数：忍者专属机制4. **战斗系统** - 体验：正面战斗 / 设计：武士风格 / 参数：弥助专属5. **开放世界** - 体验：日本本州探索 / 设计：开放地图 / 参数：多处可探索区域### 核心体验**以秒为单位的体验**：> 第三人称视角，玩家在日本战国进行潜行暗杀或正面战斗**以小时为单位的节奏**：- 推进剧情- 探索世界- 完成支线### 商业成就- 首日100万玩家，次日200万- Steam峰值6.4万- 好评率81%- 系列历史第二高首日收入（仅次于英灵殿）",
+      "title": "Assassin's Creed Shadows / 刺客信条：影## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | 刺客信条：影 / Assassin's Creed Shadows || 开发者 | 育碧魁北克工作室 || 发行平台 | PC / PS5 / Xbox || 上线时间 | 2025年3月 || 游戏类型 | 动作冒险 / 潜行 || 一句话对标 | 战国日本双主角刺客信条 || 玩家数据 | 首日100万玩家，Steam峰值6.4万 |---## 玩法环境**核心循环**：> 玩家扮演忍者奈绪江和武士弥助，在战国日本进行潜行暗杀或正面战斗，完成任务推进剧情**操作门槛**：> 中等 - 需要熟悉潜行和战斗机制---## 关联资产**收录机制**：> - [Qualify][动作冒险]-AssassinsCreedShadows-攀爬系统",
       "gameName": "",
       "developer": "",
       "publisher": "",
@@ -28545,7 +29018,7 @@
       "source": "人工"
     },
     "BaldursGate3": {
-      "title": "博德之门3 / Baldur's Gate 3## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | 博德之门3 / Baldur's Gate 3 || 封面图 | https://steamcdn-a.akamaihd.net/steam/apps/1086940/header.jpg || 一句话对标 | DND规则CRPG || 游戏类型 | CRPG / 战棋 / DND || 开发者 | 拉瑞安工作室 || 发行平台 | PC / PS5 / Xbox || 上线时间 | 2023年8月 || 全球销量 | 2000万份（截至2025年底） |---## 玩法环境**核心循环**：> 玩家创建角色，在DND世界与队友冒险，体验电影化叙事**操作门槛**：> 中高 - 需要理解DND规则---## X-Statement公式【拉瑞安CRPG】+【DND5e规则】+【电影化叙事】玩家在DND（龙与地下城）规则世界创建角色，与队友组队冒险，通过回合制战棋战斗推进剧情，体验分支对话和多结局的RPG体验。---## 核心支柱1. **DND5e规则** - 1d20骰子系统，还原桌游核心体验2. **战棋战斗** - 回合制战斗，强调位置/环境/高度策略3. **队友系统** - 4人队伍，深度社交互动4. **电影化叙事** - 大量对话分支，全程配音5. **多结局** - 玩家长线体验，重复可玩性高---## 竞品对比| 游戏 | 开发商 | 差异化 || :--- | :--- | :--- || 神界：原罪2 | 拉瑞安 | 前作，更轻量化的DND-like规则 || 永恒之柱2 | 黑曜石 | 传统CRPG，线性叙事 || 开拓者：正义之怒 | Owlcat | 还原Pathfinder规则，上手门槛极高 |---## 商业成就- **全球销量**：2000万份（截至2025年底）- **Steam收入估算**：约15.6亿美元- **市场地位**：CRPG品类天花板- **奖项成就**：TGA 2023年度最佳游戏提名，Metacritic 96分---## 收录机制> - [RPG]-BaldursGate3-队友系统",
+      "title": "博德之门3 / Baldur's Gate 3## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | 博德之门3 / Baldur's Gate 3 || 封面图 | https://steamcdn-a.akamaihd.net/steam/apps/1086940/header.jpg || 一句话对标 | DND规则CRPG || 游戏类型 | CRPG / 战棋 / DND || 开发者 | 拉瑞安工作室 || 发行平台 | PC / PS5 / Xbox || 上线时间 | 2023年8月 || 全球销量 | 2000万份（截至2025年底） |---## 玩法环境**核心循环**：> 玩家创建角色，在DND世界与队友冒险，体验电影化叙事**操作门槛**：> 中高 - 需要理解DND规则---## X-Statement公式【拉瑞安CRPG】+【DND5e规则】+【电影化叙事】玩家在DND（龙与地下城）规则世界创建角色，与队友组队冒险，通过回合制战棋战斗推进剧情，体验分支对话和多结局的RPG体验。---## 核心支柱1. **DND5e规则** - 1d20骰子系统，还原桌游核心体验2. **战棋战斗** - 回合制战斗，强调位置/环境/高度策略3. **队友系统** - 4人队伍，深度社交互动4. **电影化叙事** - 大量对话分支，全程配音5. **多结局** - 玩家长线体验，重复可玩性高---## 竞品对比| 游戏 | 开发商 | 差异化 || :--- | :--- | :--- || 神界：原罪2 | 拉瑞安 | 前作，更轻量化的DND-like规则 || 永恒之柱2 | 黑曜石 | 传统CRPG，线性叙事 || 开拓者：正义之怒 | Owlcat | 还原Pathfinder规则，上手门槛极高 |---## 商业成就- **全球销量**：2000万份（截至2025年底）- **Steam收入估算**：约15.6亿美元- **市场地位**：CRPG品类天花板- **奖项成就**：TGA 2023年度最佳游戏提名，Metacritic 96分---## 收录机制",
       "gameName": "",
       "developer": "",
       "publisher": "",
@@ -28694,7 +29167,7 @@
       "difficulty": "- 上手简单：方向键+射击",
       "prototype": "",
       "pillars": [],
-      "achievements": "Steam收入估算：约2.25亿美元;  持续运营超过10年;  多次获得年度最佳独立游戏提名; ### 游戏特色;    随机地牢  ：每次开局地图完全随机;    道具Synergy  ：道具之间可产生协同或冲突效果;    多角色系统  ：可选角色超过30个，各有独特初始道具;    多结局  ：多条解锁路线和结局;    持续更新  ：DLC不断添加新内容",
+      "achievements": "Steam收入估算：约2.25亿美元;  持续运营超过10年;  多次获得年度最佳独立游戏提名; ### 游戏特色;    随机地牢  ：每次开局地图完全随机;    道具Synergy  ：道具之间可产生协同或冲突效果;    多角色系统  ：可选角色超过30个，各有独特初始道具;    多结局  ：多条解锁路线和结局;    持续更新  ：DLC不断添加新内容;  Roguelike BindingOfIsaac 道具合成系统",
       "relatedMechanisms": [
         "[Excellent][Roguelike]-BindingOfIsaac-道具效果叠加系统",
         "[Qualify][Roguelike]-BindingOfIsaac-道具合成系统",
@@ -28776,25 +29249,29 @@
       "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/397540/header.jpg"
     },
     "BrawlStars": {
-      "title": "Brawl Stars / 荒野乱斗## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | 荒野乱斗 / Brawl Stars || 开发者 | Supercell || 发行平台 | 移动端 || 上线时间 | 2018年 || 游戏类型 | 休闲MOBA || 一句话对标 | Supercell快速对战MOBA || 玩家数据 | 全球总收入超10亿美元，2024年月收入超3亿人民币 || 封面图 | https://play-lh.googleusercontent.com/7oc_JyKwUZ56fvWt_frWzt5jjgeRNwBnkvecffZvMeNxlnJIub20oOdP9boZ3-qvlk5S3A4K04-Js2iWDGQzvQ |---## 玩法环境**核心循环**：> 玩家选择英雄，在各种模式中与队友配合击败对手，获得奖杯和奖励**操作门槛**：> 低 - 简单易上手，3分钟一局---## 关联资产**收录机制**：> （待关联该游戏下的机制卡）---## 补充信息（来自 game-analyse-sdd）### X-Statement> Supercell休闲MOBA，3v3快速对战，多种模式可选### 玩法原型| 系统 | 玩法原型 | 核心理念 | 独特改进 ||------|----------|----------|----------|| 模式 | 《MOBA》 | 简化 | 多种模式 || 对战 | 《快速对战》 | 3分钟 | 随时开一把 || 英雄 | 《英雄》 | 定位 | 坦克/战士/辅助/射手 |### 核心支柱1. **多种模式** - 体验：丰富选择 / 设计：宝石/足球/吃鸡/金库/赏金 / 参数：6+常驻模式2. **英雄系统** - 体验：角色分工 / 设计：坦克/战士/辅助/射手 / 参数：每个英雄有定位3. **快速对战** - 体验：休闲 / 设计：3分钟一局 / 参数：随时开一把4. **局内成长** - 体验：变强 / 设计：能量收集，局内等级提升 / 参数：等级影响属性5. **奖杯系统** - 体验：成就 / 设计：每个英雄独立奖杯 / 参数：总奖杯数决定段位### 核心体验**以分钟为单位的体验**：> 3分钟一局，玩家操控英雄与队友配合，享受快节奏竞技### 与竞品对比- vs 《王者荣耀》：荒野乱斗更休闲，节奏更快- 都是MOBA，但定位不同### 商业成就- 全球总收入超10亿美元- 2024年收入增长5倍，月收入超3亿人民币- 90天内吸金1.5亿美元- Supercell四驾马车之一",
-      "gameName": "",
-      "developer": "",
+      "title": "Brawl Stars / 荒野乱斗",
+      "gameName": "荒野乱斗 / Brawl Stars",
+      "developer": "Supercell",
       "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "",
+      "platform": "移动端",
+      "releaseDate": "2018年",
+      "genre": "休闲MOBA",
       "monetization": "",
-      "xStatement": "",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "",
-      "difficulty": "",
+      "xStatement": "Supercell休闲MOBA，3v3快速对战，多种模式可选",
+      "tagline": "Supercell快速对战MOBA",
+      "playerStats": "全球总收入超10亿美元，2024年月收入超3亿人民币",
+      "coreLoop": "玩家选择英雄，在各种模式中与队友配合击败对手，获得奖杯和奖励",
+      "difficulty": "低 - 简单易上手，3分钟一局",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[Qualify]MOBA-BrawlStars-英雄系统",
+        "[Qualify]MOBA-BrawlStars-星徽之力系统"
+      ],
       "filename": "BrawlStars.md",
-      "source": "人工"
+      "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/7oc_JyKwUZ56fvWt_frWzt5jjgeRNwBnkvecffZvMeNxlnJIub20oOdP9boZ3-qvlk5S3A4K04-Js2iWDGQzvQ"
     },
     "BuriedBornes2": {
       "title": "BuriedBornes2 / 埋骨之地2## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | BuriedBornes2 / 埋骨之地2 || 开发者 | NussyGame (yujiro komine) || 发行平台 | Steam / Google Play / iOS || 游戏类型 | Roguelike、回合制、卡牌RPG、地牢探索 || 收费模式 | 免费内购 || 上线时间 | 2024年1月10日 || 前作累计用户 | 超过250万 |---## X-Statement**亡魂肉鸽**单人或异步多人 + 文字点击回合制地牢探索 + 亡魂世代传承系统将玩家死亡化作他人挑战的硬核地牢肉鸽，通过亡魂系统实现异步社交。---## 玩法原型**核心玩法原型：** 借鉴经典Roguelike地牢游戏（如 Shiren the Wanderer、Etrian Odyssey系列）的分支房间选择 + 回合制战斗框架**独特差异化：** 在经典Roguelike基础上叠加「亡魂世代传承系统」，玩家死亡后留下的亡魂数据可被其他玩家遭遇，击败后可获取极品装备，形成独特的异步PVP社交体验。**系统设计借鉴：**- 技能系统 → 借鉴《游戏王》/《杀戮尖塔》的卡牌构筑思路（技能符文、模式切换）- 召唤系统 → 从一代的\"伪概念\"（追击伤害/护盾）进化为真正的召唤物战斗- 工会社交 → 借鉴MMO的公会系统，完成公会任务获取奖励---## 核心支柱**支柱1：亡魂世代继承系统**- 玩家死亡后留下亡魂数据（装备、技能、状态）- 其他玩家可遭遇亡魂并击败获取极品装备- 亡魂可被\"召唤\"代替玩家战斗- 设计参数：每场冒险可携带最多3个召唤物**支柱2：因子/装备继承系统**- 因子（Mods）可跨世代继承- 训练系统允许保留5个实验室部件- 每次冒险结束时可替换1个部件- 设计参数：每种族x职业组合可保存5套实验室配置**支柱3：异步PVP社交系统**- 不采用同步多人对战，坚持\"松散异步多人\"- 亡魂系统实现玩家间的间接互动- 工会战（Union War）实现公会间的异步对抗- 设计参数：每周重置的公会竞赛内容**支柱4：技能BD构筑系统**- 勇气值（Brave）机制：3点上限，满值触发 Burst 模式- 技能符文：最多5个插槽，自定义技能效果- 技能模式切换：部分稀有技能有双形态- 技能熟练度：使用获得熟练度，100%进入\"精通\"状态- 设计参数：Burst模式改变技能效果，精通状态额外加成---## 核心体验**以秒为单位的体验：**2D俯视角 + 玩家选择两个房间分支之一前进 + 遭遇敌人触发回合制战斗/选择获取装备或技能 + 享受死亡与传承的循环乐趣**以分钟/小时为单位的节奏：**创建角色选择种族和职业 → 配置初始实验室部件和技能 → 进入分支地牢探索 → 击败敌人获取装备和技能 → 积累勇气值触发Burst模式 → 死亡留下亡魂和继承因子 → 他人遭遇你的亡魂获取极品装备 → 循环往复---## 竞品对比| 维度 | BuriedBornes2 | 杀戮尖塔 |  Shiren the Wanderer | 地下城堡2 || :--- | :--- | :--- | :--- | :--- || 核心差异 | 亡魂异步PVP + 世代继承 | 卡牌构筑 | 经典Roguelike | 放置地牢 || 社交形式 | 亡魂遭遇 + 工会战 | 无 | 无 | 无 || 继承深度 | 因子+亡魂数据 | 无 | 无 | 少量资源继承 || 操作门槛 | 文字点击 | 卡牌拖拽 | 方向键移动 | 自动战斗 || 平台 | 全平台 | PC/主机 | 主机/掌机 | 移动端 |---## 商业成就- **前作BuriedBornes累计用户：** 超过250万- **Steam评价：** 83%好评率（782条评价，Very Positive）- **运营模式：** 月度更新（新增工会/地牢）+ 季度大型更新- **跨平台：** PC/移动端全覆盖- **商业特色：** 免费内购但不强制付费，\"不逼氪\"获得玩家好评---**关联标签**：异步PVP、亡魂系统、装备抢夺、因子继承、工会系统、BD构筑**创建时间**：2026-03-13",
@@ -28964,7 +29441,8 @@
         "[FPS]-Counter-Strike 2-体积烟雾互动系统",
         "经济博弈系统",
         "[FPS]-CS2-经济博弈系统",
-        "[FPS]-Counter-Strike 2"
+        "[FPS]-Counter-Strike 2",
+        "[FPS]-CS2-体积烟雾互动系统"
       ],
       "filename": "CS2.md",
       "source": "人工",
@@ -29093,19 +29571,15 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[BR]-CallOfDutyWarzone-古拉格复活系统",
-        "[BR]-CallOfDutyWarzone-合约系统",
-        "[BR]-CallOfDutyWarzone-装备舱Loadout系统",
+        "[Excellent][BR]-CallOfDutyWarzone-古拉格复活系统",
+        "[Excellent][BR]-CallOfDutyWarzone-合约系统",
+        "[Excellent][BR]-CallOfDutyWarzone-装备舱Loadout系统",
         "[FPS]-CallOfDutyWarzone-连杀奖励系统",
         "[BR]-使命召唤战区-古拉格对决",
-        "大逃杀-古拉格复活系统",
-        "大逃杀-合约系统",
-        "大逃杀-装备舱Loadout系统",
         "[FPS]-使命召唤-连杀奖励系统",
-        "gulag-revive",
-        "[BR]-CallOfDutyWarzone-古拉格复活系统>",
-        "[BR]-CallOfDutyWarzone-合约系统>",
-        "[BR]-CallOfDutyWarzone-装备舱Loadout系统>"
+        "[BR]-CallOfDutyWarzone-古拉格复活系统",
+        "[BR]-CallOfDutyWarzone-合约系统",
+        "[BR]-CallOfDutyWarzone-装备舱Loadout系统"
       ],
       "filename": "CallOfDutyWarzone.md",
       "source": "人工",
@@ -29255,12 +29729,17 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
+        "[Qualify][策略]-文明6-总督系统",
         "[Qualify][策略]-文明6-文明特质系统",
         "[Qualify][策略]-文明6-城区规划系统",
         "[策略]-CivilizationVI-文明特质系统",
         "策略-文明6-城区规划系统",
         "[策略]-文明6-文明特质系统",
-        "[策略]-文明6-城区规划系统"
+        "[策略]-文明6-城区规划系统",
+        "[策略]-CivilizationVI-城区规划系统",
+        "[策略]-CivilizationVI-总督系统",
+        "[策略]-CivilizationVI-政体系统",
+        "[策略]-文明6-总督系统"
       ],
       "filename": "CivilizationVI.md",
       "source": "人工",
@@ -29736,25 +30215,32 @@
       "source": "人工"
     },
     "DeadCells": {
-      "title": "Dead Cells / 死亡细胞## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | 死亡细胞 / Dead Cells || 开发者 | Motion Twin || 发行平台 | PC / 主机 / 移动端 || 上线时间 | 2017年 || 游戏类型 | Roguelike / 动作 || 一句话对标 | 像素Roguelike银河恶魔城 |---### X-Statement> Roguelike动作，玩家探索随机地图挑战Boss### 核心支柱1. 随机地图 / 每次不同2. 武器技能 / 组合搭配3. 细胞升级 / 永久成长4. 难度递进 / 越多越难## 关联资产**收录机制**：- [Qualify]Roguelike-DeadCells-武器构建系统- [Qualify]Roguelike-DeadCells-蓝图解锁系统- [Qualify]Roguelike-DeadCells-RogueVania融合机制- game-card",
-      "gameName": "",
-      "developer": "",
+      "title": "Dead Cells / 死亡细胞",
+      "gameName": "死亡细胞 / Dead Cells",
+      "developer": "Motion Twin",
       "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "",
+      "platform": "PC / 主机 / 移动端",
+      "releaseDate": "2017年",
+      "genre": "Roguelike / 动作",
       "monetization": "",
       "xStatement": "",
-      "tagline": "",
+      "tagline": "像素Roguelike银河恶魔城",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[Excellent]Roguelike-DeadCells-武器构建系统",
+        "[Excellent]Roguelike-DeadCells-1血保护与血瓶系统",
+        "[Qualify]Roguelike-DeadCells-蓝图解锁系统",
+        "[Qualify]Roguelike-DeadCells-RogueVania融合机制",
+        "Roguelike-DeadCells-突变技能系统"
+      ],
       "filename": "DeadCells.md",
-      "source": "人工"
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/588650/header.jpg"
     },
     "Deemo": {
       "title": "Deemo / 古树旋律## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | Deemo / 古树旋律 || 开发者 | Rayark || 发行平台 | 移动端 || 上线时间 | 2013年 || 游戏类型 | 音乐游戏 || 一句话对标 | 剧情音游 |---### X-Statement> 音乐节奏游戏，结合剧情叙事### 核心支柱1. 钢琴曲 / 动听音乐2. 剧情推进 / 故事解谜3. 收集要素 / 插画解锁4. 多种难度 / 挑战模式## 关联资产**收录机制**：- 音游-Deemo-剧情叙事融合系统",
@@ -35483,7 +35969,7 @@
     }
   },
   "stats": {
-    "mechanismCount": 435,
+    "mechanismCount": 447,
     "gameCount": 347
   }
 }
