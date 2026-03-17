@@ -353,6 +353,9 @@ function extractMechanismInfo(parsed, filename) {
           if (plainText && plainText.length > 0) info.gameName = plainText;
         }
       }
+      else if (row.key.includes('封面图') && row.value && row.value.includes('http')) {
+        info.coverImage = row.value;
+      }
       else if (row.key.includes('核心标签')) {
         // Split by / or space or , or + or newline
         const rawTags = row.value
@@ -695,9 +698,10 @@ function extractGameInfo(parsed, filename) {
     source: '人工' // 默认人工
   };
   
-  // === 基本信息 ===
-  if (sections['基本信息']) {
-    const rows = parseTable(sections['基本信息']);
+  // === 基本信息 / 基础信息 ===
+  const basicSection = sections['基本信息'] || sections['基础信息'];
+  if (basicSection) {
+    const rows = parseTable(basicSection);
     for (const row of rows) {
       const key = row.key;
       const value = row.value;
@@ -705,8 +709,9 @@ function extractGameInfo(parsed, filename) {
       if (key.includes('游戏名称')) info.gameName = value;
       else if (key.includes('开发者')) info.developer = value;
       else if (key.includes('发行商')) info.publisher = value;
-      else if (key.includes('发行平台')) info.platform = value;
-      else if (key.includes('上线时间') || key.includes('发行时间')) info.releaseDate = value;
+      else if (key.includes('平台')) info.platform = value;
+      else if (key.includes('封面图') && value && value.includes('http')) info.coverImage = value;
+      else if (key.includes('上线时间') || key.includes('发行时间') || key.includes('发售时间')) info.releaseDate = value;
       else if (key.includes('游戏类型')) info.genre = value;
       else if (key.includes('收费模式')) info.monetization = value;
       else if (key.includes('一句话对标')) info.tagline = value;
