@@ -208,27 +208,19 @@
       margin-top: 0.5rem;
     }
     
-    .tag-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.9rem;
-      margin-top: 0.5rem;
+    .modal-tags-group {
+      margin-bottom: 1rem;
     }
     
-    .tag-table th,
-    .tag-table td {
-      border: 1px solid #444;
-      padding: 0.5rem;
-      text-align: left;
+    .modal-tags-label {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 0.5rem;
     }
     
-    .tag-table th {
-      background: #333;
-      width: 80px;
-    }
-    
-    .tag-table td:last-child {
-      word-break: break-all;
+    .modal-tags-group .card-tags {
+      margin-top: 0;
     }
     
     .tag {
@@ -575,7 +567,7 @@
     
     // Load data
     async function loadData() {
-      const response = await fetch('data.json?v=1773634700');
+      const response = await fetch('data.json?v=1773715964');
       data = await response.json();
       renderStats();
       renderGrid();
@@ -600,6 +592,35 @@
     // Search
     document.getElementById('searchInput').addEventListener('input', renderGrid);
     
+    // 渲染卡片标签 - 支持新标签系统，显示所有标签
+    function renderCardTags(m) {
+      const tags = [];
+      
+      // 玩法层级 - 全部显示
+      if (m.playLevelTags && m.playLevelTags.length > 0) {
+        tags.push(...m.playLevelTags);
+      }
+      // 机制设计 - 全部显示
+      if (m.mechanismDesign && m.mechanismDesign.length > 0) {
+        tags.push(...m.mechanismDesign);
+      }
+      // 特色机制 - 全部显示
+      if (m.specialMechanisms && m.specialMechanisms.length > 0) {
+        tags.push(...m.specialMechanisms);
+      }
+      // 玩家痛点 - 全部显示
+      if (m.painPoints && m.painPoints.length > 0) {
+        tags.push(...m.painPoints);
+      }
+      
+      // 如果没有新标签，回退到旧 tags
+      if (tags.length === 0 && m.tags && m.tags.length > 0) {
+        tags.push(...m.tags);
+      }
+      
+      return tags.map(t => `<span class="tag" onclick="event.stopPropagation(); searchByTag('${t}')">${t}</span>`).join('');
+    }
+    
     function getFilteredData() {
       const query = document.getElementById('searchInput').value.toLowerCase();
       
@@ -607,12 +628,22 @@
         return Object.entries(data.mechanisms).filter(([key, m]) => {
           // 多个关键词用空格分隔，支持交集搜索
           const keywords = query.trim().split(/\s+/).filter(k => k);
+          
+          // 收集所有可能的标签字段
+          const allTags = [
+            ...(m.tags || []),
+            ...(m.flatTags || []),
+            ...(m.playLevelTags || []),
+            ...(m.mechanismDesign || []),
+            ...(m.specialMechanisms || []),
+            ...(m.painPoints || [])
+          ];
+          
           const matchQuery = keywords.length === 0 || keywords.every(kw => 
             m.title.toLowerCase().includes(kw) ||
             m.gameName?.toLowerCase().includes(kw) ||
             m.simpleDesc?.toLowerCase().includes(kw) ||
-            (m.tags && m.tags.some(t => t.toLowerCase().includes(kw))) ||
-            (m.flatTags && m.flatTags.some(t => t.toLowerCase().includes(kw)))
+            allTags.some(t => t.toLowerCase().includes(kw))
           );
           return matchQuery;
         });
@@ -715,7 +746,7 @@
             </div>
             <div class="card-desc">${m.simpleDesc || '暂无描述'}</div>
             <div class="card-tags">
-              ${m.tags.map(t => `<span class="tag" onclick="event.stopPropagation(); searchByTag('${t}')">${t}</span>`).join('')}
+              ${renderCardTags(m)}
             </div>
           </div>
         `).join('');
@@ -892,41 +923,62 @@
         }
       }
       
-      // 新标签系统：按分类表格展示
-      let tagRows = '';
+      // 新标签系统：每个标签单独展示
+      let tagHtml = '';
       
       // 玩法层级
       if (m.playLevelTags && m.playLevelTags.length > 0) {
-        tagRows += `<tr><td>玩法层级</td><td>${m.playLevelTags.length}个</td><td>${m.playLevelTags.join('、')}</td></tr>`;
+        tagHtml += `
+          <div class="modal-tags-group">
+            <div class="modal-tags-label">🎮 玩法层级</div>
+            <div class="card-tags">
+              ${m.playLevelTags.map(t => `<span class="tag" onclick="event.stopPropagation(); searchByTag('${t}')">${t}</span>`).join('')}
+            </div>
+          </div>
+        `;
       }
       
       // 机制设计
       if (m.mechanismDesign && m.mechanismDesign.length > 0) {
-        tagRows += `<tr><td>机制设计</td><td>${m.mechanismDesign.length}个</td><td>${m.mechanismDesign.join('、')}</td></tr>`;
+        tagHtml += `
+          <div class="modal-tags-group">
+            <div class="modal-tags-label">⚙️ 机制设计</div>
+            <div class="card-tags">
+              ${m.mechanismDesign.map(t => `<span class="tag" onclick="event.stopPropagation(); searchByTag('${t}')">${t}</span>`).join('')}
+            </div>
+          </div>
+        `;
       }
       
       // 特色机制
       if (m.specialMechanisms && m.specialMechanisms.length > 0) {
-        tagRows += `<tr><td>特色机制</td><td>${m.specialMechanisms.length}个</td><td>${m.specialMechanisms.join('、')}</td></tr>`;
+        tagHtml += `
+          <div class="modal-tags-group">
+            <div class="modal-tags-label">✨ 特色机制</div>
+            <div class="card-tags">
+              ${m.specialMechanisms.map(t => `<span class="tag" onclick="event.stopPropagation(); searchByTag('${t}')">${t}</span>`).join('')}
+            </div>
+          </div>
+        `;
       }
       
       // 玩家痛点
       if (m.painPoints && m.painPoints.length > 0) {
-        tagRows += `<tr><td>玩家痛点</td><td>${m.painPoints.length}个</td><td>${m.painPoints.join('、')}</td></tr>`;
+        tagHtml += `
+          <div class="modal-tags-group">
+            <div class="modal-tags-label">🎯 玩家痛点</div>
+            <div class="card-tags">
+              ${m.painPoints.map(t => `<span class="tag" onclick="event.stopPropagation(); searchByTag('${t}')">${t}</span>`).join('')}
+            </div>
+          </div>
+        `;
       }
       
-      if (tagRows) {
+      if (tagHtml) {
         html += `
           <div class="modal-section">
             <h3>🏷️ 标签信息</h3>
-            <table class="tag-table">
-              <thead>
-                <tr><th>层级</th><th>标签数</th><th>具体内容</th></tr>
-              </thead>
-              <tbody>
-                ${tagRows}
-              </tbody>
-            </table>
+            ${tagHtml}
           </div>
         `;
       }
