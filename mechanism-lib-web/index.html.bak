@@ -105,8 +105,7 @@
     .search-bar {
       display: flex;
       gap: 1rem;
-      margin-bottom: 1rem;
-      align-items: center;
+      margin-bottom: 1.5rem;
     }
     
     .search-input {
@@ -121,103 +120,6 @@
     
     .search-input:focus {
       border-color: var(--primary);
-    }
-    
-    .filter-btn {
-      padding: 0.75rem 1rem;
-      border: 1px solid var(--border);
-      background: var(--card-bg);
-      border-radius: 8px;
-      cursor: pointer;
-      font-size: 0.9rem;
-      white-space: nowrap;
-    }
-    
-    .filter-btn:hover {
-      background: var(--bg);
-    }
-    
-    .filter-btn.active {
-      background: var(--primary);
-      color: white;
-      border-color: var(--primary);
-    }
-    
-    /* 筛选面板 */
-    .filter-panel {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1rem;
-      margin-bottom: 1rem;
-      max-height: 400px;
-      overflow-y: auto;
-    }
-    
-    .filter-panel.hidden {
-      display: none;
-    }
-    
-    .filter-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 1rem;
-      padding-bottom: 0.5rem;
-      border-bottom: 1px solid var(--border);
-    }
-    
-    .filter-header span:first-child {
-      font-weight: 600;
-    }
-    
-    .filter-clear {
-      color: var(--primary);
-      cursor: pointer;
-      font-size: 0.85rem;
-    }
-    
-    .filter-category {
-      margin-bottom: 1rem;
-    }
-    
-    .filter-category-title {
-      font-size: 0.8rem;
-      color: var(--text-secondary);
-      margin-bottom: 0.5rem;
-      font-weight: 600;
-    }
-    
-    .filter-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-    }
-    
-    .filter-tag {
-      font-size: 0.75rem;
-      padding: 0.25rem 0.5rem;
-      background: var(--bg);
-      border: 1px solid var(--border);
-      border-radius: 4px;
-      cursor: pointer;
-      transition: all 0.2s;
-    }
-    
-    .filter-tag:hover {
-      border-color: var(--primary);
-    }
-    
-    .filter-tag.selected {
-      background: var(--primary);
-      color: white;
-      border-color: var(--primary);
-    }
-    
-    .filter-tag-count {
-      color: var(--text-secondary);
-      font-size: 0.7rem;
-      margin-left: 0.25rem;
     }
     
     /* Stats */
@@ -613,16 +515,6 @@
   <main>
     <div class="search-bar">
       <input type="text" class="search-input" id="searchInput" placeholder="搜索... (多个关键词用空格分隔，支持交集搜索)">
-      <button class="filter-btn" id="filterBtn" onclick="toggleFilter()">🔍 筛选</button>
-    </div>
-    
-    <!-- 筛选面板 -->
-    <div class="filter-panel hidden" id="filterPanel">
-      <div class="filter-header">
-        <span>标签筛选</span>
-        <span class="filter-clear" onclick="clearFilter()">清除</span>
-      </div>
-      <div class="filter-body" id="filterBody"></div>
     </div>
     
     <div class="stats">

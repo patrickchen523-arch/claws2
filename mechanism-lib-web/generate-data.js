@@ -5,6 +5,58 @@ const MECHANISMS_DIR = '/root/.openclaw/agents/jizhi/workspace/mechanisms';
 const GAMES_DIR = '/root/.openclaw/agents/jizhi/workspace/games';
 
 /**
+ * 人数规模 → 玩法类型 映射函数
+ * 
+ * 规则：
+ * - 单人玩法：单局下限=1（如"单局1人"）
+ * - 双人玩法：单局下限<=2，上限>=2（如"单局2人"、"单局1-4人"）
+ * - 小队玩法：单队3-7人（如"3人组队"、"单队4人"、"5v5"）
+ * - 多人玩法：单局上限>6（如"单局8人"、"单局100人"、"单局1-8人"）
+ * 
+ * 注意：单人/双人/多人可以同时存在（如"单局1-8人"→单人+双人+多人）
+ */
+function mapPopulationToPlayType(populationTags) {
+  const mapped = new Set();
+  
+  for (const tag of populationTags) {
+    // 提取范围
+    const rangeMatch = tag.match(/单局(\d+)-(\d+)/);
+    const singleMatch = tag.match(/单局(\d+)人/);
+    const teamMatch = tag.match(/单队(\d+)/);
+    
+    const minTotal = rangeMatch ? parseInt(rangeMatch[1]) : (singleMatch ? parseInt(singleMatch[1]) : 0);
+    const maxTotal = rangeMatch ? parseInt(rangeMatch[2]) : (singleMatch ? parseInt(singleMatch[1]) : 0);
+    const team = teamMatch ? parseInt(teamMatch[1]) : 0;
+    
+    // 单人玩法：下限=1
+    if (minTotal === 1) {
+      mapped.add('单人玩法');
+    }
+    
+    // 双人玩法：下限<=2，上限>=2
+    if (minTotal <= 2 && maxTotal >= 2) {
+      mapped.add('双人玩法');
+    }
+    
+    // 小队玩法：单队3-7人
+    if (team >= 3 && team <= 7) {
+      mapped.add('小队玩法');
+    }
+    // 3v3格式
+    if (tag.match(/\d+v\d+/) && tag.includes('v3')) {
+      mapped.add('小队玩法');
+    }
+    
+    // 多人玩法：上限>6
+    if (maxTotal > 6 || tag.includes('GVG') || tag.includes('联盟')) {
+      mapped.add('多人玩法');
+    }
+  }
+  
+  return [...mapped];
+}
+
+/**
  * 标签标准化映射表
  */
 const TAG_MAPPING = {
@@ -532,6 +584,12 @@ function extractMechanismInfo(parsed, filename) {
           const playLevelLabels = ['对抗类型', '玩法人数规模', '内容消耗模式', '生命周期阶段', '操作属性', '时间属性', '玩法重度', '玩法独立性'];
           if (playLevelLabels.includes(label)) {
             playLevelTags.push(...tags);
+            
+            // 如果是人数规模标签，额外生成映射标签
+            if (label === '玩法人数规模') {
+              const mappedTags = mapPopulationToPlayType(tags);
+              playLevelTags.push(...mappedTags);
+            }
           } else {
             allTags.push(...tags);
           }
