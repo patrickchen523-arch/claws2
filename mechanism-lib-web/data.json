@@ -1596,82 +1596,6 @@
       "source": "人工",
       "coverImage": "https://play-lh.googleusercontent.com/piD6IY4M3hSceGg1CUY7vjRN0NcA1QsCEAD2-ryrxF8qh7FzqXMMw936p4A_j9bWP1RqZiO46sVV8PWT5MCT"
     },
-    "ArenaBreakoutInfinite/[Excellent]搜打撤-撤离机制.md": {
-      "title": "[搜打撤]-[逃离塔科夫]-撤离机制",
-      "gameName": "逃离塔科夫",
-      "tags": [],
-      "simpleDesc": "\"活着出来才算赢\"：局内找到撤离点并成功撤离, 才能把搜到的物资带出去, 否则一切归零",
-      "mechanismDesc": "撤离机制是搜打撤的核心设计：\n1. **固定撤离点**：每张地图有多个撤离点\n2. **撤离条件**：部分撤离点需要钥匙, 击杀, 治疗等条件\n3. **窗口期**：撤离点有开放时间限制\n4. **撤离失败**：超时, 被击杀则撤离失败, 装备全丢",
-      "coreRules": "",
-      "trigger": "- 玩家到达撤离点",
-      "painPoint": "- 解决\"打完就结束\"的单调",
-      "experienceGoal": "- 提供\"活着回来\"的成就感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[Excellent]搜打撤-撤离机制.md",
-      "source": "人工",
-      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/2073620/header.jpg",
-      "mechanismDesignByCategory": {
-        "category": [
-          "射击-搜打撤"
-        ],
-        "fun": [
-          "策略",
-          "竞技"
-        ],
-        "emotion": [
-          "紧张感"
-        ],
-        "interaction": [
-          "对抗"
-        ]
-      },
-      "flatTags": [
-        "射击-搜打撤",
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗",
-        "内容枯竭痛点",
-        "节奏单一痛点"
-      ],
-      "painPoints": [
-        "内容枯竭痛点",
-        "节奏单一痛点"
-      ],
-      "mechanismDesign": [
-        "射击-搜打撤",
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗"
-      ],
-      "mechanismDesignCategory": [
-        "射击-搜打撤"
-      ],
-      "mechanismDesignFun": [
-        "策略",
-        "竞技"
-      ],
-      "mechanismDesignEmotion": [
-        "紧张感"
-      ],
-      "mechanismDesignInteraction": [
-        "对抗"
-      ],
-      "playLevelTags": [
-        "单局1-6人（3人组队）",
-        "单人玩法",
-        "双人玩法",
-        "PvPvE",
-        "可重复",
-        "Endgame",
-        "即时操作",
-        "中规中矩（10-60分钟）",
-        "核心玩法",
-        "高耦合"
-      ]
-    },
     "ArenaBreakoutInfinite/[Excellent]搜打撤-硬核弹道护甲系统.md": {
       "title": "[撤离类]-[EscapeFromTarkov]-硬核弹道护甲系统",
       "gameName": "逃离塔科夫",
@@ -2469,7 +2393,8 @@
       ],
       "demo": "官方实机演示展示",
       "filename": "[Excellent][动作冒险]-AssassinsCreedShadows-双重暗杀系统.md",
-      "source": "人工"
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/3159330/header.jpg"
     },
     "AssassinsCreedShadows/[Excellent][动作冒险]-AssassinsCreedShadows-暗杀拒绝系统.md": {
       "title": "[动作冒险]-AssassinsCreedShadows-暗杀拒绝系统",
@@ -2493,7 +2418,8 @@
       ],
       "demo": "Reddit玩家讨论和实机演示",
       "filename": "[Excellent][动作冒险]-AssassinsCreedShadows-暗杀拒绝系统.md",
-      "source": "人工"
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/3159330/header.jpg"
     },
     "AssassinsCreedShadows/[Excellent][动作冒险]-AssassinsCreedShadows-观察标记系统.md": {
       "title": "[动作冒险]-AssassinsCreedShadows-观察标记系统",
@@ -2517,7 +2443,8 @@
       ],
       "demo": "官方预告片和实机演示中展示",
       "filename": "[Excellent][动作冒险]-AssassinsCreedShadows-观察标记系统.md",
-      "source": "人工"
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/3159330/header.jpg"
     },
     "AssassinsCreedShadows/[Excellent][动作冒险]-AssassinsCreedShadows-阴影隐藏系统.md": {
       "title": "[动作冒险]-AssassinsCreedShadows-阴影隐藏系统",
@@ -2541,7 +2468,8 @@
       ],
       "demo": "官方实机演示展示夜间阴影潜行",
       "filename": "[Excellent][动作冒险]-AssassinsCreedShadows-阴影隐藏系统.md",
-      "source": "人工"
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/3159330/header.jpg"
     },
     "AssassinsCreedShadows/[Qualify][动作冒险]-AssassinsCreedShadows-攀爬系统.md": {
       "title": "[Qualify][动作冒险]-AssassinsCreedShadows-攀爬系统",
@@ -4705,8 +4633,32 @@
         "高耦合"
       ]
     },
-    "COK/[SLG]-COK+大地图行军系统.md": {
-      "title": "[SLG]-COK, 大地图行军系统",
+    "COK/[Excellent][SLG]-COK-车头车身机制.md": {
+      "title": "[SLG]-COK-车头车身机制",
+      "gameName": "COK",
+      "tags": [],
+      "simpleDesc": "大R玩家（车头）带领中小R玩家（车身）参与战斗，通过协防、集结进攻等方式让低付费玩家也能体验战斗乐趣，形成\"抱大腿\"生态",
+      "mechanismDesc": "> 1. 协防请求：低战玩家遭受攻击时可请求高战盟友协防，高战玩家派遣部队驻守\n> 2. 集结进攻：联盟成员可发起集结，多人部队合并进攻同一目标\n> 3. 资源援助：高战玩家可援助低战玩家资源，加速其发育\n> 4. 战斗结算：协防/集结参与玩家均可获得战斗奖励",
+      "coreRules": "",
+      "trigger": "联盟成员发起协防请求 / 发起集结 / 申请资源援助",
+      "painPoint": "解决中低付费玩家在SLG中缺乏参与感的问题，通过\"车头带车身\"让小R也能参与战斗，不再是只能看大佬打架",
+      "experienceGoal": "大R体验\"带头大哥\"的掌控感，小R获得\"跟对大哥\"的归属感，联盟形成紧密的利益共同体",
+      "similarMechanisms": [
+        {
+          "game": "COK",
+          "mechanism": "联盟宝箱机制（一人付费全盟受益）"
+        },
+        {
+          "game": "乱世王者",
+          "mechanism": "车头车身机制（三国题材定制版）"
+        }
+      ],
+      "demo": "（待补充）",
+      "filename": "[Excellent][SLG]-COK-车头车身机制.md",
+      "source": "人工"
+    },
+    "COK/[Qualify][SLG]-COK-大地图行军系统.md": {
+      "title": "[SLG]-COK-大地图行军系统",
       "gameName": "COK",
       "tags": [],
       "simpleDesc": "玩家在沙盘大地图中实时调动部队，通过侦查、设伏、围点打援等战术策略进行联盟战争",
@@ -4715,17 +4667,23 @@
       "trigger": "玩家调动部队离开城市 / 发起侦查 / 参与集结 / 设置陷阱",
       "painPoint": "将SLG从\"数值对轰\"提升为\"战术博弈\"，增加策略深度和操作空间",
       "experienceGoal": "玩家体验运筹帷幄的策略快感，通过情报战、心理战实现以弱胜强",
-      "similarMechanisms": [],
+      "similarMechanisms": [
+        {
+          "game": "万国觉醒",
+          "mechanism": "文明探索- RTS即时战略-行军系统"
+        }
+      ],
       "demo": "",
-      "filename": "[SLG]-COK+大地图行军系统.md",
+      "filename": "[Qualify][SLG]-COK-大地图行军系统.md",
       "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/T69-KGPuZwX6XnCDMWzupbK6FBERSqfhcDY-hFwluEl9gKYtmXb7A9pZw-63scz8pUk",
       "mechanismDesignByCategory": {
         "category": [
-          "SLG"
+          "策略-SLG"
         ],
         "fun": [
           "策略",
-          "竞技"
+          "社交"
         ],
         "emotion": [
           "紧张感"
@@ -4735,37 +4693,33 @@
         ]
       },
       "flatTags": [
-        "SLG",
+        "策略-SLG",
         "策略",
-        "竞技",
+        "社交",
         "紧张感",
         "对抗",
-        "特色机制-大地图行军系统",
-        "成长痛点",
-        "操控体验痛点",
+        "大地图行军系统",
+        "时间成本痛点",
         "策略深度痛点"
       ],
-      "specialMechanisms": [
-        "特色机制-大地图行军系统"
-      ],
       "painPoints": [
-        "成长痛点",
-        "操控体验痛点",
+        "时间成本痛点",
         "策略深度痛点"
       ],
       "mechanismDesign": [
-        "SLG",
+        "策略-SLG",
         "策略",
-        "竞技",
+        "社交",
         "紧张感",
-        "对抗"
+        "对抗",
+        "大地图行军系统"
       ],
       "mechanismDesignCategory": [
-        "SLG"
+        "策略-SLG"
       ],
       "mechanismDesignFun": [
         "策略",
-        "竞技"
+        "社交"
       ],
       "mechanismDesignEmotion": [
         "紧张感"
@@ -4774,34 +4728,47 @@
         "对抗"
       ],
       "playLevelTags": [
-        "单局联盟GVG",
+        "PVP GVG",
+        "大型多人（联盟战场）",
         "多人玩法",
-        "PVP",
         "可重复",
         "Endgame",
-        "即时操作",
+        "半即时操作",
         "中规中矩（10-60分钟）",
         "核心玩法",
         "高耦合"
       ]
     },
-    "COK/[SLG]-COK+武将系统.md": {
-      "title": "[SLG]-COK, 武将系统",
+    "COK/[Qualify][策略]-COK-武将系统.md": {
+      "title": "[Qualify][策略]-COK-武将系统",
       "gameName": "COK",
       "tags": [],
-      "simpleDesc": "通过抽卡获取武将，消耗资源升级进阶，搭配技能组合形成不同战斗流派",
+      "simpleDesc": "SLG游戏中通过抽卡获取武将，消耗资源升级进阶，搭配技能组合形成不同战斗流派的角色养成系统",
       "mechanismDesc": "> 1. 武将获取：通过抽卡、活动任务获取不同品质的武将\n> 2. 武将升级：消耗金币/经验道具提升等级，增加基础属性\n> 3. 武将进阶：突破解锁更强属性，开启新技能\n> 4. 技能系统：不同武将拥有不同技能，可升级强化\n> 5. 装备系统：武将可穿戴装备，进一步提升属性\n> 6. 羁绊效果：特定武将组合激活额外属性加成",
       "coreRules": "",
       "trigger": "抽卡 / 升级 / 进阶 / 穿戴装备 / 激活羁绊",
       "painPoint": "为SLG增加RPG养成深度，提升长线付费坑位，满足中国玩家对\"武将\"题材的偏好",
       "experienceGoal": "玩家体验收集养成的乐趣，通过不同武将组合研究最优配置",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[SLG]-COK+武将系统.md",
+      "similarMechanisms": [
+        {
+          "game": "万国觉醒",
+          "mechanism": "武将系统"
+        },
+        {
+          "game": "乱世王者",
+          "mechanism": "武将系统"
+        },
+        {
+          "game": "皇室战争",
+          "mechanism": "卡牌升级系统"
+        }
+      ],
+      "demo": "https://play-lh.googleusercontent.com/T69-KGPuZwX6XnCDMWzupbK6FBERSqfhcDY-hFwluEl9gKYtmXb7A9pZw-63scz8pUk",
+      "filename": "[Qualify][策略]-COK-武将系统.md",
       "source": "人工",
       "mechanismDesignByCategory": {
         "category": [
-          "SLG"
+          "策略-SLG"
         ],
         "fun": [
           "成长变强",
@@ -4815,33 +4782,33 @@
         ]
       },
       "flatTags": [
-        "SLG",
+        "策略-SLG",
         "成长变强",
         "收集",
         "成就感",
         "对抗",
-        "特色机制-武将系统",
+        "武将系统",
+        "抽卡驱动",
+        "羁绊组合",
         "成长痛点",
-        "策略深度痛点",
-        "经济成本痛点"
-      ],
-      "specialMechanisms": [
-        "特色机制-武将系统"
+        "经济成本痛点-课金压力"
       ],
       "painPoints": [
         "成长痛点",
-        "策略深度痛点",
-        "经济成本痛点"
+        "经济成本痛点-课金压力"
       ],
       "mechanismDesign": [
-        "SLG",
+        "策略-SLG",
         "成长变强",
         "收集",
         "成就感",
-        "对抗"
+        "对抗",
+        "武将系统",
+        "抽卡驱动",
+        "羁绊组合"
       ],
       "mechanismDesignCategory": [
-        "SLG"
+        "策略-SLG"
       ],
       "mechanismDesignFun": [
         "成长变强",
@@ -4854,13 +4821,13 @@
         "对抗"
       ],
       "playLevelTags": [
+        "PVP / GVG",
         "单局联盟GVG",
         "多人玩法",
-        "PVP",
         "可重复",
         "Endgame",
-        "即时操作",
-        "中规中矩（10-60分钟）",
+        "放置操作",
+        "碎片化",
         "核心玩法",
         "高耦合"
       ]
@@ -4933,82 +4900,6 @@
         "单局联盟GVG",
         "多人玩法",
         "PVE",
-        "可重复",
-        "Endgame",
-        "即时操作",
-        "中规中矩（10-60分钟）",
-        "核心玩法",
-        "高耦合"
-      ]
-    },
-    "COK/[SLG]-COK+车头车身机制.md": {
-      "title": "[SLG]-COK, 车头车身机制",
-      "gameName": "COK",
-      "tags": [],
-      "simpleDesc": "大R玩家（车头）带领中小R玩家（车身）参与战斗，通过协防、集结进攻等方式让低付费玩家也能体验战斗乐趣，形成\"抱大腿\"生态",
-      "mechanismDesc": "> 1. 协防请求：低战玩家遭受攻击时可请求高战盟友协防，高战玩家派遣部队驻守\n> 2. 集结进攻：联盟成员可发起集结，多人部队合并进攻同一目标\n> 3. 资源援助：高战玩家可援助低战玩家资源，加速其发育\n> 4. 战斗结算：协防/集结参与玩家均可获得战斗奖励",
-      "coreRules": "",
-      "trigger": "联盟成员发起协防请求 / 发起集结 / 申请资源援助",
-      "painPoint": "解决中低付费玩家在SLG中缺乏参与感的问题，通过\"车头带车身\"让小R也能参与战斗，不再是只能看大佬打架",
-      "experienceGoal": "大R体验\"带头大哥\"的掌控感，小R获得\"跟对大哥\"的归属感，联盟形成紧密的利益共同体",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[SLG]-COK+车头车身机制.md",
-      "source": "人工",
-      "mechanismDesignByCategory": {
-        "category": [
-          "SLG"
-        ],
-        "fun": [
-          "社交",
-          "策略"
-        ],
-        "emotion": [
-          "成就感"
-        ],
-        "interaction": [
-          "合作"
-        ]
-      },
-      "flatTags": [
-        "SLG",
-        "社交",
-        "策略",
-        "成就感",
-        "合作",
-        "特色机制-车头车身机制",
-        "经济成本痛点"
-      ],
-      "specialMechanisms": [
-        "特色机制-车头车身机制"
-      ],
-      "painPoints": [
-        "经济成本痛点"
-      ],
-      "mechanismDesign": [
-        "SLG",
-        "社交",
-        "策略",
-        "成就感",
-        "合作"
-      ],
-      "mechanismDesignCategory": [
-        "SLG"
-      ],
-      "mechanismDesignFun": [
-        "社交",
-        "策略"
-      ],
-      "mechanismDesignEmotion": [
-        "成就感"
-      ],
-      "mechanismDesignInteraction": [
-        "合作"
-      ],
-      "playLevelTags": [
-        "单局联盟GVG",
-        "多人玩法",
-        "PvPvE",
         "可重复",
         "Endgame",
         "即时操作",
@@ -6510,29 +6401,79 @@
         "高耦合"
       ]
     },
-    "Cytus/[Qualify]动态判定线扫描系统.md": {
+    "Cytus/[Qualify]音游-Cytus-动态判定线扫描系统.md": {
       "title": "[音游]-Cytus-动态判定线扫描系统",
       "gameName": "Cytus",
       "tags": [],
-      "simpleDesc": "就像在弹奏一台\"会移动的钢琴\"——传统音游是音符往下落, 按键在固定位置；Cytus则是判定线（相当于你的\"手指\"）在屏幕上上下游走, 扫到哪个音符就弹哪个",
-      "mechanismDesc": "Cytus采用动态判定线设计, 判定线会在屏幕上下进行周期性的扫描移动。当判定线\"扫描\"到音符所在位置时, 玩家需要在此时点击, 长按, 滑屏来命中音符。与传统下落式音游不同, 音符不会从上方下落, 而是固定在屏幕各位置, 等待判定线扫过。",
+      "simpleDesc": "就像在弹奏一台\"会移动的钢琴\"——传统音游是音符往下落，按键在固定位置；Cytus则是判定线（相当于你的\"手指\"）在屏幕上上下游走，扫到哪个音符就弹哪个",
+      "mechanismDesc": "Cytus采用动态判定线设计，判定线会在屏幕上下进行周期性的扫描移动。当判定线\"扫描\"到音符所在位置时，玩家需要在此时点击、长按、滑屏来命中音符。与传统下落式音游不同，音符不会从上方下落，而是固定在屏幕各位置，等待判定线扫过。",
       "coreRules": "",
       "trigger": "- 音符出现在屏幕任意位置",
       "painPoint": "- 传统下落式音游双手被拘束在屏幕下方区域",
-      "experienceGoal": "- 释放双手自由度, 让操作更像\"随音乐起舞\"",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[Qualify]动态判定线扫描系统.md",
-      "source": "人工",
-      "flatTags": [
-        "特色机制-动态判定线扫描",
-        "内容枯竭痛点"
+      "experienceGoal": "- 释放双手自由度，让操作更像\"随音乐起舞\"",
+      "similarMechanisms": [
+        {
+          "game": "jubeat",
+          "mechanism": "方形按键矩阵点击玩法（静态判定点）"
+        },
+        {
+          "game": "Deemo",
+          "mechanism": "下落式钢琴按键判定"
+        }
       ],
-      "specialMechanisms": [
-        "特色机制-动态判定线扫描"
+      "demo": "https://www.bilibili.com/video/BV1Bx411s7Vt/ （Cytus 玩法演示）",
+      "filename": "[Qualify]音游-Cytus-动态判定线扫描系统.md",
+      "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/t7ztsepehcNq_CSW54wsQegLDDp3-DikHYqEnYnNjFfLxbp_Ck8Vj-cN0wlncfq9kEg",
+      "mechanismDesignByCategory": {
+        "category": [
+          "音游"
+        ],
+        "fun": [
+          "操作",
+          "节奏沉浸"
+        ],
+        "emotion": [
+          "节奏沉浸",
+          "爽快感"
+        ],
+        "interaction": [
+          "无交互"
+        ]
+      },
+      "flatTags": [
+        "音游",
+        "操作",
+        "节奏沉浸",
+        "爽快感",
+        "无交互",
+        "动态判定线扫描",
+        "内容枯竭痛点"
       ],
       "painPoints": [
         "内容枯竭痛点"
+      ],
+      "mechanismDesign": [
+        "音游",
+        "操作",
+        "节奏沉浸",
+        "爽快感",
+        "无交互",
+        "动态判定线扫描"
+      ],
+      "mechanismDesignCategory": [
+        "音游"
+      ],
+      "mechanismDesignFun": [
+        "操作",
+        "节奏沉浸"
+      ],
+      "mechanismDesignEmotion": [
+        "节奏沉浸",
+        "爽快感"
+      ],
+      "mechanismDesignInteraction": [
+        "无交互"
       ],
       "playLevelTags": [
         "PVE",
@@ -6852,6 +6793,7 @@
       "demo": "",
       "filename": "[Qualify]MOBA-DOTA2-反补机制.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/570/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "MOBA-5v5"
@@ -7646,6 +7588,119 @@
         "高耦合"
       ]
     },
+    "DeepRockGalactic/[Excellent][FPS]-DeepRockGalactic-职业系统.md": {
+      "title": "[Excellent][FPS]-DeepRockGalactic-职业系统",
+      "gameName": "DeepRockGalactic",
+      "tags": [],
+      "simpleDesc": "4名玩家分别扮演钻机手、枪手、工程师、侦察兵四种矮人职业，每种职业有独特的技能组和作战定位，必须互相配合才能完成采矿任务。",
+      "mechanismDesc": "- **四种职业定位**：\n  - Driller（钻机手）：攻坚突破，钻头可穿透地形，霰弹枪输出，擅长开路\n  - Gunner（枪手）：火力压制，配备重型机枪和护盾发生器，保护队友\n  - Engineer（工程师）：支援防御，搭建自动炮台和平台，辅助队友\n  - Scout（侦察兵）：侦查照明，装备照明弹和快速移动装置，精准射击\n\n- **职业技能系统**：\n  - 每种职业有3个主动技能+1个终极技能\n  - 技能涵盖位移、输出、防御、支援等多种功能\n  - 技能树允许玩家自定义升级方向\n\n- **职业武器差异**：\n  - 每种职业有专属武器库\n  - 武器类型决定玩法风格（近距离霰弹/压制机枪/精准步枪/速射手枪）",
+      "coreRules": "",
+      "trigger": "- 玩家进入游戏前选择职业",
+      "painPoint": "- 单一职业导致玩法单调，重复可玩性低",
+      "experienceGoal": "- 通过职业差异创造团队配合需求",
+      "similarMechanisms": [
+        {
+          "game": "Vermintide 2",
+          "mechanism": "职业系统"
+        },
+        {
+          "game": "Payday 3",
+          "mechanism": "职业配合"
+        }
+      ],
+      "demo": "https://www.youtube.com/watch?v=6K7E8x2j5i0",
+      "filename": "[Excellent][FPS]-DeepRockGalactic-职业系统.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/548430/header.jpg",
+      "mechanismDesignByCategory": {
+        "category": [
+          "FPS"
+        ],
+        "fun": [
+          "合作",
+          "成长变强"
+        ],
+        "emotion": [
+          "成就感"
+        ],
+        "interaction": [
+          "合作"
+        ]
+      },
+      "flatTags": [
+        "FPS",
+        "合作",
+        "成长变强",
+        "成就感",
+        "职业分工",
+        "技能树",
+        "内容枯竭痛点"
+      ],
+      "painPoints": [
+        "内容枯竭痛点"
+      ],
+      "mechanismDesign": [
+        "FPS",
+        "合作",
+        "成长变强",
+        "成就感",
+        "职业分工",
+        "技能树"
+      ],
+      "mechanismDesignCategory": [
+        "FPS"
+      ],
+      "mechanismDesignFun": [
+        "合作",
+        "成长变强"
+      ],
+      "mechanismDesignEmotion": [
+        "成就感"
+      ],
+      "mechanismDesignInteraction": [
+        "合作"
+      ],
+      "playLevelTags": [
+        "PVE",
+        "单局4人/单队4人",
+        "小队玩法",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "中规中矩（10-60分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
+    },
+    "DeepRockGalactic/[Qualify][FPS]-DeepRockGalactic-采矿系统.md": {
+      "title": "[Qualify][FPS]-DeepRockGalactic-采矿系统",
+      "gameName": "Deep Rock Galactic",
+      "tags": [],
+      "simpleDesc": "4名玩家分别扮演不同职业的矮人矿工，在程序化生成的地下洞穴中合作采矿、消灭外星生物，通过职业互补完成资源收集目标",
+      "mechanismDesc": "> Deep Rock Galactic的核心循环机制。玩家在程序化生成的地下洞穴中，使用镐（Pickaxe）或其他职业专用工具开采矿物。矿物是完成任务后撤离计分的关键资源，也是升级装备的货币。\n> \n> - **基础采矿**：所有职业都配备镐，按住右键挖掘矿石\n> - **职业差异**：\n>   - Driller（钻机手）：钻头可快速穿透地形采矿\n>   - Engineer（工程师）：平台枪可在悬崖上搭建采矿点\n>   - Scout（侦察兵）：快速移动，适合探索危险区域的矿物\n>   - Gunner（枪手）：火力压制，保护队友采矿\n> - **资源上限**：基础携带40个/种矿物，护甲升级和技能可提升至60个\n> - **矿物种类**：Nitra（氮素，召唤补给必需）、Gold（黄金）、Morkite（莫尔石）、等十余种",
+      "coreRules": "",
+      "trigger": "- 进入任务后，玩家可在任意可挖掘地形上使用镐采矿",
+      "painPoint": "解决合作射击游戏中\"干什么\"的问题——为玩家提供明确的行动目标（收集矿物），同时与战斗、探索形成闭环",
+      "experienceGoal": "- **紧张感**：在采矿时遭遇敌人攻击，需要队友保护",
+      "similarMechanisms": [
+        {
+          "game": "Minecraft",
+          "mechanism": "沙盒采矿（自由挖掘）"
+        },
+        {
+          "game": "星露谷物语",
+          "mechanism": "采矿与资源管理"
+        },
+        {
+          "game": "泰拉瑞亚",
+          "mechanism": "挖掘与探索结合"
+        }
+      ],
+      "demo": "https://store.steampowered.com/app/548430/Deep_Rock_Galactic/",
+      "filename": "[Qualify][FPS]-DeepRockGalactic-采矿系统.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/548430/header.jpg"
+    },
     "DeltaForce/FPS夺金-三角洲行动-玩家扮演BOSS赤枭巡猎.md": {
       "title": "[FPS夺金]-三角洲行动-玩家扮演 BOSS・赤枭巡猎",
       "gameName": "三角洲行动",
@@ -8019,6 +8074,94 @@
         "单人玩法",
         "双人玩法",
         "PvPvE",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "中规中矩（10-60分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
+    },
+    "Destiny2/[Excellent][FPS]-Destiny2-三职业元素分支系统.md": {
+      "title": "[FPS]-Destiny2-三职业元素分支系统",
+      "gameName": "Destiny 2",
+      "tags": [],
+      "simpleDesc": "三个基础职业×三种元素分支，让玩家在刷装备的同时体验角色养成的乐趣",
+      "mechanismDesc": "Destiny2的职业系统由三个基础职业组成，每个职业有独特的定位和战斗风格：\n- **泰坦(Titan)**：防护型，近战突击，可召唤护盾\n- **猎人(Hunter)**：敏捷型，精准射击，擅长快速位移\n- **术士(Warlock)**：魔法型，辅助治疗，擅长AOE和回复\n\n 每个职业又细分为三个元素子职业分支（基于光能/暗影），每个分支提供：\n- 不同的元素属性（电/火/冰/暗影）\n- 不同的职业技能（手雷/近战/超级技能）\n- 不同的战术定位",
+      "coreRules": "3个基础职业，每个职业有完全不同的移动技能（泰坦喷射背包、术士漂浮、猎人二段跳） 每个职业有3个元素子职业分支，共9个子职业 元素之间存在克制关系（电克冰、火克电、冰克火） 不同职业在团队副本中有明确的分工定位",
+      "trigger": "玩家创建角色时选择职业，升级后解锁元素子职业",
+      "painPoint": "传统射击游戏角色同质化严重，缺乏角色养成的深度和多样性",
+      "experienceGoal": "通过职业×元素的矩阵组合，提供高度差异化的角色扮演体验，同时保证团队协作的互补性",
+      "similarMechanisms": [
+        {
+          "game": "魔兽世界",
+          "mechanism": "职业系统"
+        },
+        {
+          "game": "无主之地",
+          "mechanism": "职业模组系统"
+        }
+      ],
+      "demo": "https://www.bungie.net/pubassets/pkgs/122/122828/01_d2_ability_overview_16x9.mp4",
+      "filename": "[Excellent][FPS]-Destiny2-三职业元素分支系统.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1085660/header.jpg",
+      "mechanismDesignByCategory": {
+        "category": [
+          "FPS"
+        ],
+        "fun": [
+          "策略",
+          "角色养成",
+          "团队协作"
+        ],
+        "emotion": [
+          "成就感"
+        ],
+        "interaction": [
+          "合作"
+        ]
+      },
+      "flatTags": [
+        "FPS",
+        "策略",
+        "角色养成",
+        "团队协作",
+        "成就感",
+        "合作",
+        "元素克制",
+        "角色同质化",
+        "缺乏养成深度"
+      ],
+      "mechanismDesign": [
+        "FPS",
+        "策略",
+        "角色养成",
+        "团队协作",
+        "成就感",
+        "合作",
+        "元素克制",
+        "角色同质化",
+        "缺乏养成深度"
+      ],
+      "mechanismDesignCategory": [
+        "FPS"
+      ],
+      "mechanismDesignFun": [
+        "策略",
+        "角色养成",
+        "团队协作"
+      ],
+      "mechanismDesignEmotion": [
+        "成就感"
+      ],
+      "mechanismDesignInteraction": [
+        "合作"
+      ],
+      "playLevelTags": [
+        "PvPvE",
+        "单局3人/单队3人",
+        "小队玩法",
         "可重复",
         "Endgame",
         "即时操作",
@@ -9196,6 +9339,97 @@
         "高耦合"
       ]
     },
+    "EldenRing/[Qualify][ARPG]-EldenRing-骨灰系统.md": {
+      "title": "[ARPG]-EldenRing-骨灰系统",
+      "gameName": "艾尔登法环",
+      "tags": [],
+      "simpleDesc": "玩家可以召唤已故英雄的灵魂协助作战，不同骨灰有不同的定位（DPS/坦克/辅助），用\"人海战术\"降低单人通关难度。",
+      "mechanismDesc": "- 玩家使用骨灰道具消耗FP（专注值）召唤灵魂协助作战\n- 骨灰分为多个等级（S+至B级），强度越高消耗FP越多\n- 骨灰类型包括：\n  - 精英型：模仿玩家装备和战技（Mimic Tear）\n  - 坦克型：持盾抵抗伤害（Greatshield Soldier）\n  - 输出型：近战/远程输出（Black Knife Tiche）\n  - 辅助型：治疗/Buff队友（Finger Maiden Therolina）\n- 召唤后骨灰会自主战斗，AI接管\n- 部分骨灰有特殊机制（如施加异常状态、触发战技）",
+      "coreRules": "",
+      "trigger": "- 玩家在赐福处使用骨灰铃铛",
+      "painPoint": "- 传统魂类游戏单人难度过高导致玩家流失",
+      "experienceGoal": "- 降低单人通关门槛，扩展受众群体",
+      "similarMechanisms": [
+        {
+          "game": "黑暗之魂3",
+          "mechanism": "余火机制（增加召唤NPC概率）"
+        },
+        {
+          "game": "血源诅咒",
+          "mechanism": "猎人梦境（召唤NPC协助）"
+        },
+        {
+          "game": "仁王",
+          "mechanism": "召唤阴阳术式神"
+        }
+      ],
+      "demo": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "filename": "[Qualify][ARPG]-EldenRing-骨灰系统.md",
+      "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1245620/header.jpg",
+      "mechanismDesignByCategory": {
+        "category": [
+          "RPG-ARPG"
+        ],
+        "fun": [
+          "挑战",
+          "成长变强"
+        ],
+        "emotion": [
+          "成就感"
+        ],
+        "interaction": [
+          "无交互"
+        ]
+      },
+      "flatTags": [
+        "RPG-ARPG",
+        "挑战",
+        "成长变强",
+        "成就感",
+        "无交互",
+        "骨灰召唤",
+        "多样化召唤物定位",
+        "难度过高",
+        "挫败感痛点"
+      ],
+      "painPoints": [
+        "挫败感痛点"
+      ],
+      "mechanismDesign": [
+        "RPG-ARPG",
+        "挑战",
+        "成长变强",
+        "成就感",
+        "无交互",
+        "骨灰召唤",
+        "多样化召唤物定位",
+        "难度过高"
+      ],
+      "mechanismDesignCategory": [
+        "RPG-ARPG"
+      ],
+      "mechanismDesignFun": [
+        "挑战",
+        "成长变强"
+      ],
+      "mechanismDesignEmotion": [
+        "成就感"
+      ],
+      "mechanismDesignInteraction": [
+        "无交互"
+      ],
+      "playLevelTags": [
+        "PVE",
+        "单人",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "中规中矩（10-60分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
+    },
     "EldenRing/[Qualify]开放世界探索.md": {
       "title": "[ARPG]-艾尔登法环-开放世界探索",
       "gameName": "艾尔登法环",
@@ -9336,6 +9570,125 @@
         "核心玩法",
         "高耦合"
       ]
+    },
+    "EscapeFromTarkov/[Excellent][撤离类]-EscapeFromTarkov-撤离机制.md": {
+      "title": "[撤离类]-[EscapeFromTarkov]-[撤离机制]",
+      "gameName": "EscapeFromTarkov",
+      "tags": [],
+      "simpleDesc": "\"活着出来才算赢\"：局内找到撤离点并成功撤离，才能把搜到的物资带出去，否则一切归零",
+      "mechanismDesc": "撤离机制是搜打撤（Extraction Shooter）品类的核心设计：\n\n1. **固定撤离点**：每张地图有多个撤离点，位置固定但需要玩家探索发现\n2. **撤离条件**：部分撤离点需要钥匙、击杀数、医疗状态等特定条件才能使用\n3. **窗口期**：撤离点有开放时间限制，非任何时候都能撤离\n4. **撤离失败**：超时未撤离、被击杀则撤离失败，携带的所有装备和搜刮物资全部丢失",
+      "coreRules": "",
+      "trigger": "- 玩家到达撤离点",
+      "painPoint": "- 解决\"打完就结束\"的单调体验",
+      "experienceGoal": "- 提供\"活着回来\"的极致成就感",
+      "similarMechanisms": [
+        {
+          "game": "ArenaBreakoutInfinite",
+          "mechanism": "撤离机制"
+        },
+        {
+          "game": "ARCRaiders",
+          "mechanism": "PvPvE撤离机制"
+        }
+      ],
+      "demo": "https://www.youtube.com/watch?v=O8fN2GWA8o4",
+      "filename": "[Excellent][撤离类]-EscapeFromTarkov-撤离机制.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/552520/header.jpg",
+      "mechanismDesignByCategory": {
+        "category": [
+          "搜打撤"
+        ],
+        "fun": [
+          "策略",
+          "PVP",
+          "目标驱动"
+        ],
+        "emotion": [
+          "紧张感"
+        ],
+        "interaction": [
+          "对抗"
+        ]
+      },
+      "flatTags": [
+        "搜打撤",
+        "策略",
+        "PVP",
+        "目标驱动",
+        "紧张感",
+        "对抗",
+        "撤离机制",
+        "装备带入带出",
+        "保险系统",
+        "挫败感痛点（死亡惩罚）",
+        "内容枯竭痛点"
+      ],
+      "painPoints": [
+        "挫败感痛点（死亡惩罚）",
+        "内容枯竭痛点"
+      ],
+      "mechanismDesign": [
+        "搜打撤",
+        "策略",
+        "PVP",
+        "目标驱动",
+        "紧张感",
+        "对抗",
+        "撤离机制",
+        "装备带入带出",
+        "保险系统"
+      ],
+      "mechanismDesignCategory": [
+        "搜打撤"
+      ],
+      "mechanismDesignFun": [
+        "策略",
+        "PVP",
+        "目标驱动"
+      ],
+      "mechanismDesignEmotion": [
+        "紧张感"
+      ],
+      "mechanismDesignInteraction": [
+        "对抗"
+      ],
+      "playLevelTags": [
+        "PvPvE",
+        "Total:1-4",
+        "Team:1-4",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "中规中矩（10-60分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
+    },
+    "EuroTrucksSimulator2/[Qualify][模拟经营]-EuroTrucksSimulator2-真实驾驶系统.md": {
+      "title": "[Qualify][模拟经营]-EuroTrucksSimulator2-真实驾驶系统",
+      "gameName": "Euro Truck Simulator 2",
+      "tags": [],
+      "simpleDesc": "玩家需要像真实卡车司机一样驾驶：注意限速、遵守交通规则、每驾驶11小时必须休息、时刻关注燃油和车损——不是在\"玩游戏\"，而是在\"开卡车\"。",
+      "mechanismDesc": "1. **物理仿真系统**：卡车的重量、惯性、转向半径与真实卡车一致，起步和刹车都有明显滞后感\n2. **燃油管理**：油耗与驾驶习惯、载重、路况相关，需要在长途行驶中规划加油\n3. **疲劳驾驶系统**：每驾驶11小时必须休息，否则会疲劳驾驶引发危险\n4. **车损系统**：车辆各部件（发动机、变速箱、轮胎等）会随使用磨损，影响性能\n5. **交通规则罚款**：超速、闯红灯、逆行、疲劳驾驶等行为会被罚款\n6. **定速巡航**：可设置定速巡航减轻长途驾驶疲劳\n7. **差速锁**：泥泞路段可开启差速锁提升脱困能力",
+      "coreRules": "",
+      "trigger": "- 玩家开始驾驶卡车时自动触发所有系统",
+      "painPoint": "- 传统赛车游戏\"一键漂移\"的虚假感",
+      "experienceGoal": "- 真实感：让玩家感受到卡车的物理重量和操控难度",
+      "similarMechanisms": [
+        {
+          "game": "Sea of Thieves",
+          "mechanism": "团队协作驾驶系统（侧重多人协作）"
+        },
+        {
+          "game": "Forza Horizon 5",
+          "mechanism": "开放世界驾驶（侧重自由探索）"
+        }
+      ],
+      "demo": "",
+      "filename": "[Qualify][模拟经营]-EuroTrucksSimulator2-真实驾驶系统.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/227300/header.jpg"
     },
     "Expedition33/回合制-远征33号-即时反应与弹反机制.md": {
       "title": "[回合制]-远征33号-即时反应与弹反机制",
@@ -9486,34 +9839,79 @@
         "高耦合"
       ]
     },
-    "F1Manager/RAC-F1-manager-赛季制资源管理策略.md": {
-      "title": "[RAC]-[F1 manager]-[赛季制资源管理策略]",
-      "gameName": "F1 manager ,  F1正作",
+    "F1Manager/[Excellent][模拟经营]-F1Manager-赛季制资源管理策略.md": {
+      "title": "[模拟经营]-F1Manager-赛季制资源管理策略",
+      "gameName": "F1 Manager 24",
       "tags": [],
       "simpleDesc": "比赛产出资源沿赛季线性积累, 玩家在\"短期投车性能\"与\"长期投设施效率\"之间分配投资",
-      "mechanismDesc": "> 1. 每场比赛根据名次产出研发资源, 沿赛历线性积累\n> 2. 双路径分配：资源投向车性能或设施, 人员\n> 3. 赛季内迭代：升级件上车后体现为性能参数变化\n> 4. 赛季过渡：小改年性能按比例衰减, 大改年规则重写性能归零",
+      "mechanismDesc": "> 1. 每场比赛根据名次产出研发资源, 沿赛历线性积累\n> 2. 双路径分配：资源投向车性能或设施/人员\n> 3. 赛季内迭代：升级件上车后体现为性能参数变化\n> 4. 赛季过渡：小改年性能按比例衰减, 大改年规则重写性能归零",
       "coreRules": "",
       "trigger": "跨多赛季制竞争玩法",
       "painPoint": "不同赛季之间车辆体验同质化问题",
       "experienceGoal": "为多赛季生涯提供持续策略决策",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "RAC-F1-manager-赛季制资源管理策略.md",
+      "similarMechanisms": [
+        {
+          "game": "足球经理",
+          "mechanism": "赛季阵容管理"
+        }
+      ],
+      "demo": "（待补充）",
+      "filename": "[Excellent][模拟经营]-F1Manager-赛季制资源管理策略.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/2375990/header.jpg",
+      "mechanismDesignByCategory": {
+        "category": [
+          "模拟经营"
+        ],
+        "fun": [
+          "策略",
+          "成长变强"
+        ],
+        "emotion": [
+          "成就感"
+        ],
+        "interaction": [
+          "对抗"
+        ]
+      },
       "flatTags": [
-        "特色机制-赛季制资源管理",
+        "模拟经营",
+        "策略",
+        "成长变强",
+        "成就感",
+        "对抗",
+        "赛季制资源管理",
         "策略深度痛点",
         "自由度痛点"
-      ],
-      "specialMechanisms": [
-        "特色机制-赛季制资源管理"
       ],
       "painPoints": [
         "策略深度痛点",
         "自由度痛点"
       ],
+      "mechanismDesign": [
+        "模拟经营",
+        "策略",
+        "成长变强",
+        "成就感",
+        "对抗",
+        "赛季制资源管理"
+      ],
+      "mechanismDesignCategory": [
+        "模拟经营"
+      ],
+      "mechanismDesignFun": [
+        "策略",
+        "成长变强"
+      ],
+      "mechanismDesignEmotion": [
+        "成就感"
+      ],
+      "mechanismDesignInteraction": [
+        "对抗"
+      ],
       "playLevelTags": [
         "PVP",
+        "单人",
         "周期性",
         "Endgame",
         "回合操作",
@@ -9522,36 +9920,38 @@
         "高耦合"
       ]
     },
-    "FCMobile/足球-FC足球世界-图鉴系统.md": {
-      "title": "[足球]-FC足球世界-图鉴系统",
-      "gameName": "FC Mobile ,  FC足球世界",
+    "FCMobile/[Excellent][足球]-FCMobile-图鉴系统.md": {
+      "title": "[Excellent][足球]-FCMobile-图鉴系统",
+      "gameName": "FCMobile",
       "tags": [],
-      "simpleDesc": "就像收集邮票一样, 收集特定主题的球员卡来点亮图鉴, 换取奖励",
-      "mechanismDesc": "> 1. 主题收集：获取符合特定主题活动的球员卡\n> 2. 点亮图鉴：开包, 合卡达成收集进度\n> 3. 奖励兑换：积分达标解锁图鉴奖励",
+      "simpleDesc": "就像收集邮票一样，收集特定主题的球员卡来点亮图鉴，换取奖励",
+      "mechanismDesc": "> 1. 主题收集：获取符合特定主题活动的球员卡\n> 2. 点亮图鉴：开包、合卡达成收集进度\n> 3. 奖励兑换：积分达标解锁图鉴奖励",
       "coreRules": "",
       "trigger": "图鉴积分达到特定阈值",
-      "painPoint": "解决闲置资源囤积问题, 将过期资源变废为宝",
+      "painPoint": "解决闲置资源囤积问题，将过期资源变废为宝",
       "experienceGoal": "提供收集即提升的爽感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "足球-FC足球世界-图鉴系统.md",
+      "similarMechanisms": [
+        {
+          "game": "游戏名",
+          "mechanism": "机制名"
+        }
+      ],
+      "demo": "（暂无）",
+      "filename": "[Excellent][足球]-FCMobile-图鉴系统.md",
       "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/t-g8jJPa85xGAqIyzOcCdGlZuvl0LIT4DmmN15DvXTiXsMOBeCNRuc9ztPsbUbKTiySgXpbEIvtKuBPbWq6T09Q",
       "flatTags": [
-        "特色机制-图鉴收集系统",
-        "内容枯竭痛点",
-        "经济成本痛点"
+        "内容枯竭",
+        "经济成本"
       ],
-      "specialMechanisms": [
-        "特色机制-图鉴收集系统"
-      ],
-      "painPoints": [
-        "内容枯竭痛点",
-        "经济成本痛点"
+      "mechanismDesign": [
+        "内容枯竭",
+        "经济成本"
       ],
       "playLevelTags": [
+        "PVP",
         "单局2人",
         "双人玩法",
-        "PVP",
         "周期性",
         "Endgame",
         "即时操作",
@@ -9562,16 +9962,21 @@
     },
     "FCMobile/足球-FC足球世界-进攻对战.md": {
       "title": "[足球]-FC足球世界-进攻对战",
-      "gameName": "FC Mobile ,  FC足球世界",
+      "gameName": "FC足球世界",
       "tags": [],
-      "simpleDesc": "就像打街机足球游戏, 90秒内只攻不守, 谁进的球多谁就赢",
+      "simpleDesc": "就像打街机足球游戏，90秒内只攻不守，谁进的球多谁就赢",
       "mechanismDesc": "> 1. 90秒限时：极短比赛时间\n> 2. 难度分配：根据战力分配进攻场景难度\n> 3. 比分结算：进球多者获胜",
       "coreRules": "",
       "trigger": "双方球队战力计算概率随机分配进攻残局",
       "painPoint": "解决碎片化时间无法体验完整足球游戏的问题",
       "experienceGoal": "用最短时间体验完整比赛爽感",
-      "similarMechanisms": [],
-      "demo": "",
+      "similarMechanisms": [
+        {
+          "game": "FC足球世界",
+          "mechanism": "防守对战"
+        }
+      ],
+      "demo": "https://example.com/demo.gif",
       "filename": "足球-FC足球世界-进攻对战.md",
       "source": "人工",
       "flatTags": [
@@ -9587,9 +9992,9 @@
         "沉浸感痛点"
       ],
       "playLevelTags": [
+        "PVP",
         "单局2人",
         "双人玩法",
-        "PVP",
         "可重复",
         "Endgame",
         "即时操作",
@@ -9658,19 +10063,25 @@
       ]
     },
     "FinalFantasy14/[Excellent]MentorNewbieSystem.md": {
-      "title": "[MMORPG]-最终幻想14-导师新人系统",
+      "title": "[MMORPG]-FinalFantasy14-导师新人系统",
       "gameName": "FinalFantasy14",
       "tags": [],
-      "simpleDesc": "新人头上顶个\"豆芽\"标识, 导师可以主动帮助新人解决困难, 像「导游带游客」一样引导新人融入游戏",
-      "mechanismDesc": "FF14的导师系统是游戏社交生态的核心组成部分：\n\n1. **身份标识**：\n   - 新人头顶\"豆芽\"标识, 所有玩家可见\n   - 导师名字前有特殊标志\n   - 双方身份在游戏中清晰可见\n\n2. **导师资格获取**：\n   - 需要满足一定游戏时长\n   - 通过\"年检\"（年度审查）\n   - 获得导师身份需要花费时间精力\n\n3. **新人频道**：\n   - 只有新人和导师可以加入\n   - 任何问题都可以提问\n   - 导师负责维护频道秩序\n   - 可以呼叫\"救护车\"请求帮助\n\n4. **指导内容**：\n   - 副本机制指导\n   - 任务流程帮助\n   - 跑图开图\n   - 提供资源支持\n\n5. **副本匹配**：\n   - 系统会为新人副本匹配导师\n   - 导师可以指导新人通关",
+      "simpleDesc": "新人头上顶个\"豆芽\"标识，导师可以主动帮助新人解决困难，像「导游带游客」一样引导新人融入游戏",
+      "mechanismDesc": "FF14的导师系统是游戏社交生态的核心组成部分：\n\n1. **身份标识**：\n   - 新人头顶\"豆芽\"标识，所有玩家可见\n   - 导师名字前有特殊标志\n   - 双方身份在游戏中清晰可见\n\n2. **导师资格获取**：\n   - 需要满足一定游戏时长\n   - 通过\"年检\"（年度审查）\n   - 获得导师身份需要花费时间精力\n\n3. **新人频道**：\n   - 只有新人和导师可以加入\n   - 任何问题都可以提问\n   - 导师负责维护频道秩序\n   - 可以呼叫\"救护车\"请求帮助\n\n4. **指导内容**：\n   - 副本机制指导\n   - 任务流程帮助\n   - 跑图开图\n   - 提供资源支持\n\n5. **副本匹配**：\n   - 系统会为新人副本匹配导师\n   - 导师可以指导新人通关",
       "coreRules": "",
       "trigger": "- 新人玩家自动获得\"豆芽\"标识",
       "painPoint": "- 解决「新人融入困难」问题——有人主动帮助",
       "experienceGoal": "- 创造「被关怀」的温暖体验",
-      "similarMechanisms": [],
-      "demo": "",
+      "similarMechanisms": [
+        {
+          "game": "WoW（魔兽世界）",
+          "mechanism": "导师系统"
+        }
+      ],
+      "demo": "待补充",
       "filename": "[Excellent]MentorNewbieSystem.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/39210/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "MMORPG"
@@ -9692,11 +10103,9 @@
         "成长变强",
         "成就感",
         "合作",
-        "特色机制-导师新人系统",
+        "导师新人系统",
+        "社交压力-野队配合",
         "内容枯竭痛点"
-      ],
-      "specialMechanisms": [
-        "特色机制-导师新人系统"
       ],
       "painPoints": [
         "内容枯竭痛点"
@@ -9706,7 +10115,9 @@
         "社交",
         "成长变强",
         "成就感",
-        "合作"
+        "合作",
+        "导师新人系统",
+        "社交压力-野队配合"
       ],
       "mechanismDesignCategory": [
         "MMORPG"
@@ -9724,27 +10135,28 @@
       "playLevelTags": [
         "PVE",
         "可重复",
-        "Endgame",
-        "即时操作",
+        "新手引导期",
+        "半即时操作",
         "中规中矩（10-60分钟）",
         "核心玩法",
-        "高耦合"
+        "低耦合"
       ]
     },
     "FinalFantasy14/[Excellent]RPStoreSystem.md": {
-      "title": "[MMORPG]-最终幻想14-RP店玩家经营系统",
+      "title": "[MMORPG]-FinalFantasy14-RP店玩家经营系统",
       "gameName": "FinalFantasy14",
       "tags": [],
-      "simpleDesc": "玩家买了房子装修成咖啡店, 女仆店, 自己或雇人扮演NPC招待顾客, 是游戏内「玩家自发形成」的社交商业模式",
-      "mechanismDesc": "RP店是FF14特有的玩家自发社交商业模式：\n\n1. **店铺形态**：\n   - 玩家购买游戏内房屋\n   - 装修成各种主题店铺\n   - 常见类型：咖啡店, 女仆店, 酒吧, 诊所等\n\n2. **角色扮演**：\n   - 店主, 店员扮演游戏内NPC\n   - 顾客扮演顾客角色\n   - 进行沉浸式互动体验\n\n3. **运营模式**：\n   - 营业时间：玩家自愿设定\n   - 接待顾客：扮演角色进行互动\n   - 收费方式：自愿打赏, 免费体验\n\n4. **衍生生态**：\n   - 装修需求 → 家具市场\n   - 服装需求 → 时装交易\n   - COSPLAY文化 → 深度角色扮演\n   - 牛郎店, 夜店等特殊形态\n\n5. **游戏支持**：\n   - 房屋系统支持装修\n   - 动作系统支持互动\n   - 好友, 参观系统支持社交",
+      "simpleDesc": "玩家买了房子装修成咖啡店、女仆店，雇人或自己扮演NPC招待顾客，是游戏内「玩家自发形成」的社交商业模式",
+      "mechanismDesc": "RP店是FF14特有的玩家自发社交商业模式：\n\n1. **店铺形态**：\n   - 玩家购买游戏内房屋\n   - 装修成各种主题店铺\n   - 常见类型：咖啡店、女仆店、酒吧、诊所等\n\n2. **角色扮演**：\n   - 店主、店员扮演游戏内NPC\n   - 顾客扮演顾客角色\n   - 进行沉浸式互动体验\n\n3. **运营模式**：\n   - 营业时间：玩家自愿设定\n   - 接待顾客：扮演角色进行互动\n   - 收费方式：自愿打赏、免费体验\n\n4. **衍生生态**：\n   - 装修需求 → 家具市场\n   - 服装需求 → 时装交易\n   - COSPLAY文化 → 深度角色扮演\n   - 牛郎店、夜店等特殊形态\n\n5. **游戏支持**：\n   - 房屋系统支持装修\n   - 动作系统支持互动\n   - 好友、参观系统支持社交",
       "coreRules": "",
       "trigger": "- 玩家拥有私人住宅",
-      "painPoint": "- 解决「游戏内容消耗完毕」问题——提供持续玩法",
+      "painPoint": "- 解决「内容枯竭痛点」——提供持续玩法",
       "experienceGoal": "- 创造「深度沉浸」的RPG体验",
       "similarMechanisms": [],
-      "demo": "",
+      "demo": "（待补充）",
       "filename": "[Excellent]RPStoreSystem.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/39210/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "MMORPG"
@@ -9766,11 +10178,8 @@
         "社交",
         "成就感",
         "合作",
-        "特色机制-RP店玩家经营系统",
+        "RP店玩家经营系统",
         "内容枯竭痛点"
-      ],
-      "specialMechanisms": [
-        "特色机制-RP店玩家经营系统"
       ],
       "painPoints": [
         "内容枯竭痛点"
@@ -9780,7 +10189,8 @@
         "创造",
         "社交",
         "成就感",
-        "合作"
+        "合作",
+        "RP店玩家经营系统"
       ],
       "mechanismDesignCategory": [
         "MMORPG"
@@ -9797,12 +10207,15 @@
       ],
       "playLevelTags": [
         "PVP",
+        "单局2-10人",
+        "双人玩法",
+        "多人玩法",
         "可重复",
         "Endgame",
         "即时操作",
         "中规中矩（10-60分钟）",
         "核心玩法",
-        "高耦合"
+        "低耦合"
       ]
     },
     "FinalFantasy14/[Excellent][MMORPG]-FinalFantasy14-兵装库特职系统.md": {
@@ -9881,6 +10294,94 @@
         "碎片化",
         "核心玩法",
         "高耦合"
+      ]
+    },
+    "FinalFantasy14/[Qualify][MMORPG]-FinalFantasy14-部族日常任务系统.md": {
+      "title": "[MMORPG]-FinalFantasy14-部族日常任务系统",
+      "gameName": "Final Fantasy XIV",
+      "tags": [],
+      "simpleDesc": "玩家每天可以完成各种族部族的日常任务来提升名望，解锁独特货币购买专属奖励，每个部族有不同玩法侧重（战斗/采集/制作）",
+      "mechanismDesc": "FF14的部族任务系统（Beast Tribe/Tribal Quests）是游戏日常内容的重要组成部分：\n\n1. **日常任务体系**：\n   - 多个不同种族（蛮族）提供日常任务\n   - 玩家每天最多完成12个部族任务\n   - 任务类型分为剧情任务和日常任务\n   - 完成后获得经验、金币和独特货币\n\n2. **名望系统（9个等级）**：\n   - Neutral → Recognized → Friendly → Trusted → Respected → Honored → Sworn → Allied/Bloodsworn\n   - 每个等级需要不同的名望点数（如Neutral需150，Recognized需360）\n   - 达到最高名望后可完成特殊联盟任务\n\n3. **独特货币**：\n   - 每个部族有专属货币\n   - 货币用于在部族商店购买稀有物品\n   - 部分物品需要特定名望等级才能购买\n\n4. **种族多样性**：\n   - 不同资料片有不同的部族\n   - 每个部族有不同主题和故事\n   - 玩法侧重不同：战斗型、制作型、采集型",
+      "coreRules": "",
+      "trigger": "- 玩家等级≥41并完成主线任务\"In Pursuit of the Past\"",
+      "painPoint": "- 解决「日常内容单调」问题——多种族多任务线提供丰富选择",
+      "experienceGoal": "- 创造「持续积累」的成长体验",
+      "similarMechanisms": [
+        {
+          "game": "魔兽World of Warcraft",
+          "mechanism": "日常任务+声望系统"
+        },
+        {
+          "game": "最终幻想11",
+          "mechanism": "部族任务系统（FF14的前身参考）"
+        }
+      ],
+      "demo": "",
+      "filename": "[Qualify][MMORPG]-FinalFantasy14-部族日常任务系统.md",
+      "source": "人工",
+      "mechanismDesignByCategory": {
+        "category": [
+          "MMORPG"
+        ],
+        "fun": [
+          "社交",
+          "探索",
+          "收集"
+        ],
+        "emotion": [
+          "成就感"
+        ],
+        "interaction": [
+          "合作"
+        ]
+      },
+      "flatTags": [
+        "MMORPG",
+        "社交",
+        "探索",
+        "收集",
+        "成就感",
+        "合作",
+        "部族日常任务系统",
+        "内容枯竭痛点",
+        "社交缺乏痛点"
+      ],
+      "painPoints": [
+        "内容枯竭痛点",
+        "社交缺乏痛点"
+      ],
+      "mechanismDesign": [
+        "MMORPG",
+        "社交",
+        "探索",
+        "收集",
+        "成就感",
+        "合作",
+        "部族日常任务系统"
+      ],
+      "mechanismDesignCategory": [
+        "MMORPG"
+      ],
+      "mechanismDesignFun": [
+        "社交",
+        "探索",
+        "收集"
+      ],
+      "mechanismDesignEmotion": [
+        "成就感"
+      ],
+      "mechanismDesignInteraction": [
+        "合作"
+      ],
+      "playLevelTags": [
+        "PVE",
+        "大型多人",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "碎片化（每次任务5-15分钟）",
+        "外围玩法",
+        "低耦合"
       ]
     },
     "FinalFight/[Qualify]街机-FinalFight-武器系统.md": {
@@ -10517,7 +11018,7 @@
     },
     "ForzaHorizon5/[Qualify]ForzaHorizon5-OpenWorld.md": {
       "title": "[RAC]-地平线5-开放世界探索",
-      "gameName": "极限竞速：地平线5",
+      "gameName": "ForzaHorizon5",
       "tags": [],
       "simpleDesc": "一个巨大的墨西哥地图, 玩家可以自由驾驶探索, 发现隐藏的赛车, 挑战和景点——像自驾游一样",
       "mechanismDesc": "游戏提供了一个完整的墨西哥开放世界地图, 面积约为地平线4的两倍。玩家可以：\n- 自由驾驶到任何地方\n- 发现散布在地图各处的\"快速旅行点\"\n- 找到隐藏的稀有车辆和挑战\n- 参加分散在地图各处的\"地平线嘉年华\"活动\n- 欣赏沿途的风景和地标\n\n地图设计了多种地形：沙漠, 山脉, 海滩, 雨林, 火山等, 每个区域都有独特的视觉风格和驾驶体验。",
@@ -10529,6 +11030,7 @@
       "demo": "",
       "filename": "[Qualify]ForzaHorizon5-OpenWorld.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1551360/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "竞速-街机竞速"
@@ -10955,6 +11457,99 @@
         "高耦合"
       ]
     },
+    "GenshinImpact/[Excellent]ARPG-GenshinImpact-抽卡与命座系统.md": {
+      "title": "[ARPG]-GenshinImpact-抽卡与命座系统",
+      "gameName": "Genshin Impact",
+      "tags": [],
+      "simpleDesc": "角色需要通过抽卡获取，重复获取可解锁\"命座\"提升技能效果——满命角色质变，但0命也能玩完整内容。",
+      "mechanismDesc": "- **抽卡系统**：限定池/常驻池双轨并行，保底90抽必出5星角色\n- **命座系统**：每个角色6个命座，重复获得角色时解锁命座，提升技能效果或解锁新机制\n- **武器池**：专武提升角色强度，与角色池分开\n- **原石资源**：抽卡货币，通过任务、活动、探索获取（非付费途径有限）",
+      "coreRules": "",
+      "trigger": "- 消耗纠缠之缘（角色/武器池）或相遇之缘（常驻池）进行抽卡",
+      "painPoint": "- 传统买断制的\"一次性消费\"——后续内容更新难变现",
+      "experienceGoal": "- 通过命座系统创造角色深度培养空间，满足收集党和强度党",
+      "similarMechanisms": [
+        {
+          "game": "明日方舟",
+          "mechanism": "抽卡-干员潜能系统"
+        },
+        {
+          "game": "崩坏3",
+          "mechanism": "抽卡-女武神碎片系统"
+        },
+        {
+          "game": "FGO",
+          "mechanism": "抽卡-圣杯转临系统"
+        }
+      ],
+      "demo": "https://example.com/constellation-demo.gif",
+      "filename": "[Excellent]ARPG-GenshinImpact-抽卡与命座系统.md",
+      "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/hnS5HttiJp4HznckTVSfxxAxtXWERwYvWUiufgYS-r4wSHcmMrFt7JpGdxFtwe5UXmU",
+      "mechanismDesignByCategory": {
+        "category": [
+          "RPG-ARPG"
+        ],
+        "fun": [
+          "收集",
+          "成长变强"
+        ],
+        "emotion": [
+          "惊喜随机"
+        ],
+        "interaction": [
+          "无交互"
+        ]
+      },
+      "flatTags": [
+        "RPG-ARPG",
+        "收集",
+        "成长变强",
+        "惊喜随机",
+        "无交互",
+        "保底机制",
+        "命座系统",
+        "双UP池",
+        "内容枯竭痛点",
+        "经济成本-课金压力"
+      ],
+      "painPoints": [
+        "内容枯竭痛点"
+      ],
+      "mechanismDesign": [
+        "RPG-ARPG",
+        "收集",
+        "成长变强",
+        "惊喜随机",
+        "无交互",
+        "保底机制",
+        "命座系统",
+        "双UP池",
+        "经济成本-课金压力"
+      ],
+      "mechanismDesignCategory": [
+        "RPG-ARPG"
+      ],
+      "mechanismDesignFun": [
+        "收集",
+        "成长变强"
+      ],
+      "mechanismDesignEmotion": [
+        "惊喜随机"
+      ],
+      "mechanismDesignInteraction": [
+        "无交互"
+      ],
+      "playLevelTags": [
+        "PVE",
+        "单人",
+        "周期性",
+        "Endgame",
+        "放置操作",
+        "碎片化（3-10分钟）",
+        "副玩法",
+        "低耦合"
+      ]
+    },
     "GenshinImpact/[Excellent]ARPG-GenshinImpact-武器定轨机制.md": {
       "title": "[ARPG]-GenshinImpact-武器定轨机制",
       "gameName": "Genshin Impact",
@@ -10974,6 +11569,7 @@
       "demo": "",
       "filename": "[Excellent]ARPG-GenshinImpact-武器定轨机制.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://play-lh.googleusercontent.com/hnS5HttiJp4HznckTVSfxxAxtXWERwYvWUiufgYS-r4wSHcmMrFt7JpGdxFtwe5UXmU",
       "mechanismDesignByCategory": {
         "category": [
           "RPG-ARPG"
@@ -11034,6 +11630,98 @@
         "极度碎片化",
         "副玩法",
         "高耦合"
+      ]
+    },
+    "GenshinImpact/[Excellent][ARPG]-GenshinImpact-元素反应系统.md": {
+      "title": "[ARPG]-GenshinImpact-元素反应系统",
+      "gameName": "原神",
+      "tags": [],
+      "simpleDesc": "火+水=蒸发伤害翻倍，火+冰=融化伤害翻倍——把元素组合像「化学实验」一样打出更高伤害。",
+      "mechanismDesc": "- 7种元素：火、水、雷、冰、风、岩、草\n- 元素反应类型：\n  - **增幅反应**：蒸发（火+水，伤害×1.5/2.0）、融化（火+冰，伤害×1.5/2.0）\n  - **剧变反应**：超载（火+雷，范围火伤）、感电（水+雷，范围雷伤）、燃烧（火+草，持续火伤）、冻结（水+冰+碎冰）、超导（冰+雷，减甲+范围冰伤）、扩散（风+任意，范围传播）、烈绽放（水+草，超绽放种子）、超绽放（雷+草，种子追踪）\n  - **结晶反应**：岩+任意元素→生成护盾\n- 元素精通数值影响反应伤害（0-1000+）",
+      "coreRules": "",
+      "trigger": "- 不同元素同时作用于同一目标时触发",
+      "painPoint": "2」",
+      "experienceGoal": "2」",
+      "similarMechanisms": [
+        {
+          "game": "神界原罪2",
+          "mechanism": "元素交互系统"
+        },
+        {
+          "game": "崩坏3",
+          "mechanism": "元素反应系统（早期借鉴参考）"
+        }
+      ],
+      "demo": "原神官方元素反应演示视频",
+      "filename": "[Excellent][ARPG]-GenshinImpact-元素反应系统.md",
+      "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/YQqyKaXX-63krqsfIzUEJWUWLINxcb5tbS6QVySdxbS7eZV7YB2dUjUvX27xA0TIGtfxQ5v-tQjwlT5tTB-O=w600-h300-pc0xffffff-pd",
+      "mechanismDesignByCategory": {
+        "category": [
+          "RPG-ARPG"
+        ],
+        "fun": [
+          "策略",
+          "成长变强"
+        ],
+        "emotion": [
+          "爽快感"
+        ],
+        "interaction": [
+          "无交互"
+        ]
+      },
+      "flatTags": [
+        "RPG-ARPG",
+        "策略",
+        "成长变强",
+        "爽快感",
+        "无交互",
+        "元素反应系统",
+        "增幅反应",
+        "剧变反应",
+        "结晶反应",
+        "解决\"无脑连招\"痛点——需要思考元素组合",
+        "解决\"简单属性相克\"痛点——创造策略深度"
+      ],
+      "painPoints": [
+        "解决\"无脑连招\"痛点——需要思考元素组合",
+        "解决\"简单属性相克\"痛点——创造策略深度"
+      ],
+      "mechanismDesign": [
+        "RPG-ARPG",
+        "策略",
+        "成长变强",
+        "爽快感",
+        "无交互",
+        "元素反应系统",
+        "增幅反应",
+        "剧变反应",
+        "结晶反应"
+      ],
+      "mechanismDesignCategory": [
+        "RPG-ARPG"
+      ],
+      "mechanismDesignFun": [
+        "策略",
+        "成长变强"
+      ],
+      "mechanismDesignEmotion": [
+        "爽快感"
+      ],
+      "mechanismDesignInteraction": [
+        "无交互"
+      ],
+      "playLevelTags": [
+        "PVE",
+        "单人/小组多人（1-4人）",
+        "持续运营",
+        "全周期（新手引导期→成长中期→Endgame）",
+        "即时操作",
+        "中规中矩（10-60分钟/副本）",
+        "核心玩法",
+        "高耦合（与角色养成",
+        "数值深度绑定）"
       ]
     },
     "GenshinImpact/[Excellent]体力系统.md": {
@@ -11119,98 +11807,6 @@
         "碎片化（3-10分钟）",
         "核心玩法",
         "高耦合"
-      ]
-    },
-    "GenshinImpact/[Qualify]ARPG-GenshinImpact-抽卡与命座系统.md": {
-      "title": "[ARPG]-GenshinImpact-抽卡与命座系统",
-      "gameName": "Genshin Impact",
-      "tags": [],
-      "simpleDesc": "角色需要通过抽卡获取，重复获取可解锁\"命座\"提升技能效果——满命角色质变，但0命也能玩完整内容。",
-      "mechanismDesc": "- **抽卡系统**：限定池/常驻池双轨并行，保底90抽必出5星角色\n- **命座系统**：每个角色6个命座，重复获得角色时解锁命座，提升技能效果或解锁新机制\n- **武器池**：专武提升角色强度，与角色池分开\n- **原石资源**：抽卡货币，通过任务、活动、探索获取（非付费途径有限）",
-      "coreRules": "",
-      "trigger": "- 消耗纠缠之缘（角色/武器池）或相遇之缘（常驻池）进行抽卡",
-      "painPoint": "- 传统买断制的\"一次性消费\"——后续内容更新难变现",
-      "experienceGoal": "- 通过命座系统创造角色深度培养空间，满足收集党和强度党",
-      "similarMechanisms": [
-        {
-          "game": "明日方舟",
-          "mechanism": "抽卡-干员潜能系统"
-        },
-        {
-          "game": "崩坏3",
-          "mechanism": "抽卡-女武神碎片系统"
-        },
-        {
-          "game": "FGO",
-          "mechanism": "抽卡-圣杯转临系统"
-        }
-      ],
-      "demo": "",
-      "filename": "[Qualify]ARPG-GenshinImpact-抽卡与命座系统.md",
-      "source": "AI生成-已甄别",
-      "mechanismDesignByCategory": {
-        "category": [
-          "RPG-ARPG"
-        ],
-        "fun": [
-          "收集",
-          "成长变强"
-        ],
-        "emotion": [
-          "惊喜随机"
-        ],
-        "interaction": [
-          "无交互"
-        ]
-      },
-      "flatTags": [
-        "RPG-ARPG",
-        "收集",
-        "成长变强",
-        "惊喜随机",
-        "无交互",
-        "保底机制",
-        "命座系统",
-        "双UP池",
-        "内容枯竭痛点",
-        "经济成本-课金压力"
-      ],
-      "painPoints": [
-        "内容枯竭痛点"
-      ],
-      "mechanismDesign": [
-        "RPG-ARPG",
-        "收集",
-        "成长变强",
-        "惊喜随机",
-        "无交互",
-        "保底机制",
-        "命座系统",
-        "双UP池",
-        "经济成本-课金压力"
-      ],
-      "mechanismDesignCategory": [
-        "RPG-ARPG"
-      ],
-      "mechanismDesignFun": [
-        "收集",
-        "成长变强"
-      ],
-      "mechanismDesignEmotion": [
-        "惊喜随机"
-      ],
-      "mechanismDesignInteraction": [
-        "无交互"
-      ],
-      "playLevelTags": [
-        "PVE",
-        "单人",
-        "周期性",
-        "Endgame",
-        "放置操作",
-        "碎片化（3-10分钟）",
-        "副玩法",
-        "低耦合"
       ]
     },
     "GenshinImpact/[Qualify]RPG-GenshinImpact-概率保底机制.md": {
@@ -11315,6 +11911,7 @@
       "demo": "",
       "filename": "[Qualify][ARPG]-GenshinImpact-深境螺旋双队挑战机制.md",
       "source": "AI生成-已甄别",
+      "coverImage": "![原神封面](https://play-lh.googleusercontent.com/YQqyKaXX-63krqsfIzUEJWUWLINxcb5tbS6QVySdxbS7eZV7YB2dUjUvX27xA0TIGtfxQ5v-tQjwlT5tTB-O=w600-h300-pc0xffffff-pd)",
       "mechanismDesignByCategory": {
         "category": [
           "RPG - ARPG"
@@ -11387,6 +11984,7 @@
       "demo": "",
       "filename": "[Qualify][ARPG]-GenshinImpact-深境螺旋星级系统.md",
       "source": "AI生成-已合并",
+      "coverImage": "![原神封面](https://play-lh.googleusercontent.com/YQqyKaXX-63krqsfIzUEJWUWLINxcb5tbS6QVySdxbS7eZV7YB2dUjUvX27xA0TIGtfxQ5v-tQjwlT5tTB-O=w600-h300-pc0xffffff-pd)",
       "mechanismDesignByCategory": {
         "fun": [
           "策略",
@@ -11429,80 +12027,6 @@
         "对抗"
       ],
       "playLevelTags": [
-        "PVE",
-        "可重复",
-        "Endgame",
-        "即时操作",
-        "中规中矩（10-60分钟）",
-        "核心玩法",
-        "高耦合"
-      ]
-    },
-    "GenshinImpact/[Qualify]元素反应系统.md": {
-      "title": "[ARPG]-原神-元素反应系统",
-      "gameName": "原神",
-      "tags": [],
-      "simpleDesc": "火, 水=蒸发伤害翻倍, 冰, 火=融化伤害翻倍——像「化学实验」一样把元素组合打出更高伤害。",
-      "mechanismDesc": "- 7种元素：火, 水, 雷, 冰, 风, 岩, 草\n- 元素反应类型：\n  - 增幅反应：蒸发（火, 水）, 融化（火, 冰）, 超导（冰, 雷）, 感电（水, 雷）, 燃烧（火, 草）, 冻结（水, 冰）\n  - 剧变反应：超载（火, 雷）, 扩散（风, 水, 火, 冰, 雷）, 碎冰（冰, 火）, 烈绽放（水, 草）, 超绽放（雷, 草）, 燃烧（火, 草）\n  - 结晶反应：岩, 水, 火, 冰, 雷 → 结晶护盾\n- 元素精通影响反应伤害",
-      "coreRules": "",
-      "trigger": "- 不同元素同时作用于同一目标时",
-      "painPoint": "2」",
-      "experienceGoal": "2」",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[Qualify]元素反应系统.md",
-      "source": "人工",
-      "mechanismDesignByCategory": {
-        "category": [
-          "RPG-ARPG"
-        ],
-        "fun": [
-          "策略",
-          "操作"
-        ],
-        "emotion": [
-          "爽快感"
-        ],
-        "interaction": [
-          "合作"
-        ]
-      },
-      "flatTags": [
-        "RPG-ARPG",
-        "策略",
-        "操作",
-        "爽快感",
-        "合作",
-        "元素反应系统",
-        "策略深度痛点"
-      ],
-      "painPoints": [
-        "策略深度痛点"
-      ],
-      "mechanismDesign": [
-        "RPG-ARPG",
-        "策略",
-        "操作",
-        "爽快感",
-        "合作",
-        "元素反应系统"
-      ],
-      "mechanismDesignCategory": [
-        "RPG-ARPG"
-      ],
-      "mechanismDesignFun": [
-        "策略",
-        "操作"
-      ],
-      "mechanismDesignEmotion": [
-        "爽快感"
-      ],
-      "mechanismDesignInteraction": [
-        "合作"
-      ],
-      "playLevelTags": [
-        "单局1人",
-        "单人玩法",
         "PVE",
         "可重复",
         "Endgame",
@@ -11907,6 +12431,91 @@
         "高耦合"
       ]
     },
+    "Hades/[Excellent]Roguelike-Hades-惩罚契约系统.md": {
+      "title": "[Roguelike]-[Hades]-[惩罚契约系统]",
+      "gameName": "Hades",
+      "tags": [],
+      "simpleDesc": "就像给自己加\"debuff\"换奖励——签订契约给自己增加各种惩罚（敌人变强, 祝福变少）, 难度越高给的稀有资源越多",
+      "mechanismDesc": "惩罚契约（Pact of Punishment）是 Hades 通关后解锁的\"热度\"系统：\n\n- **签订契约**：玩家在开始 RUN 前可以选择增加各种惩罚修改器\n- **热度等级**：0-64, 可叠加多个修改器, 数值越高难度越大\n- **修改器类型**：\n  - 敌人血量增加（+20%~+100%）\n  - 敌人伤害增加（+10%~+40%）\n  - 祝福获取减少（-10%~-30%）\n  - 房间敌人数量增加（+1~+3）\n  - Boss 强化（额外技能/血量提升）\n- **奖励机制**：难度越高, 通关后获得的\"黑暗\"\"泰坦之血\"等稀有资源越多",
+      "coreRules": "",
+      "trigger": "- 首次通关后解锁",
+      "painPoint": "- 通关后\"没事干\"——高难度提供持续挑战目标",
+      "experienceGoal": "- 难度与奖励挂钩——\"高风险高回报\"的永恒驱动力",
+      "similarMechanisms": [
+        {
+          "game": "暗黑破坏神4",
+          "mechanism": "噩梦地下城难度系统"
+        },
+        {
+          "game": "死亡细胞",
+          "mechanism": "每日挑战/深渊模式"
+        }
+      ],
+      "demo": "",
+      "filename": "[Excellent]Roguelike-Hades-惩罚契约系统.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1145360/header.jpg",
+      "mechanismDesignByCategory": {
+        "category": [
+          "Roguelike"
+        ],
+        "fun": [
+          "挑战",
+          "成长变强"
+        ],
+        "emotion": [
+          "紧张感",
+          "成就感"
+        ],
+        "interaction": [
+          "无交互"
+        ]
+      },
+      "flatTags": [
+        "Roguelike",
+        "挑战",
+        "成长变强",
+        "紧张感",
+        "成就感",
+        "无交互",
+        "惩罚契约系统",
+        "内容枯竭-后期无聊"
+      ],
+      "mechanismDesign": [
+        "Roguelike",
+        "挑战",
+        "成长变强",
+        "紧张感",
+        "成就感",
+        "无交互",
+        "惩罚契约系统",
+        "内容枯竭-后期无聊"
+      ],
+      "mechanismDesignCategory": [
+        "Roguelike"
+      ],
+      "mechanismDesignFun": [
+        "挑战",
+        "成长变强"
+      ],
+      "mechanismDesignEmotion": [
+        "紧张感",
+        "成就感"
+      ],
+      "mechanismDesignInteraction": [
+        "无交互"
+      ],
+      "playLevelTags": [
+        "PVE",
+        "单人",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "中规中矩（10-60分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
+    },
     "Hades/[Excellent]Roguelike-Hades-祝福Build系统.md": {
       "title": "[Roguelike]-Hades-祝福Build系统",
       "gameName": "Hades",
@@ -11920,16 +12529,17 @@
       "similarMechanisms": [
         {
           "game": "Hades",
-          "mechanism": "神明祝福系统（基础版）"
+          "mechanism": "神明祝福系统"
         },
         {
           "game": "Slay the Spire",
           "mechanism": "遗物组合系统"
         }
       ],
-      "demo": "https://example.com/hades-blessing-demo.gif",
+      "demo": "https://www.bilibili.com/video/BV1GJ411x7h7/",
       "filename": "[Excellent]Roguelike-Hades-祝福Build系统.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1145360/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "RPG-ARPG"
@@ -11955,8 +12565,8 @@
         "成就感",
         "惊喜随机",
         "无交互",
-        "祝福Build系统",
         "Duo组合机制",
+        "祝福Build系统",
         "内容枯竭痛点"
       ],
       "painPoints": [
@@ -11970,8 +12580,8 @@
         "成就感",
         "惊喜随机",
         "无交互",
-        "祝福Build系统",
-        "Duo组合机制"
+        "Duo组合机制",
+        "祝福Build系统"
       ],
       "mechanismDesignCategory": [
         "RPG-ARPG"
@@ -12011,7 +12621,170 @@
       "similarMechanisms": [],
       "demo": "",
       "filename": "[Qualify]Roguelike-Hades-多武器形态系统.md",
-      "source": "AI生成-已甄别"
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1145360/header.jpg",
+      "mechanismDesignByCategory": {
+        "category": [
+          "RPG-ARPG"
+        ],
+        "fun": [
+          "成长变强",
+          "挑战",
+          "操作"
+        ],
+        "emotion": [
+          "成就感",
+          "爽快感"
+        ],
+        "interaction": [
+          "无交互"
+        ]
+      },
+      "flatTags": [
+        "RPG-ARPG",
+        "成长变强",
+        "挑战",
+        "操作",
+        "成就感",
+        "爽快感",
+        "无交互",
+        "武器形态切换",
+        "重复内容多",
+        "重复劳动",
+        "内容枯竭痛点",
+        "时间成本痛点"
+      ],
+      "painPoints": [
+        "内容枯竭痛点",
+        "时间成本痛点"
+      ],
+      "mechanismDesign": [
+        "RPG-ARPG",
+        "成长变强",
+        "挑战",
+        "操作",
+        "成就感",
+        "爽快感",
+        "无交互",
+        "武器形态切换",
+        "重复内容多",
+        "重复劳动"
+      ],
+      "mechanismDesignCategory": [
+        "RPG-ARPG"
+      ],
+      "mechanismDesignFun": [
+        "成长变强",
+        "挑战",
+        "操作"
+      ],
+      "mechanismDesignEmotion": [
+        "成就感",
+        "爽快感"
+      ],
+      "mechanismDesignInteraction": [
+        "无交互"
+      ],
+      "playLevelTags": [
+        "PVE",
+        "单人",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "中规中矩（10-60分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
+    },
+    "Hades/[Qualify]Roguelike-Hades-死亡叙事融合系统.md": {
+      "title": "[Roguelike]-Hades-死亡叙事融合系统",
+      "gameName": "Hades",
+      "tags": [],
+      "simpleDesc": "就像死了还能听故事——每次\"死掉\"不是结束，而是回到老家和NPC聊聊天，推进剧情还能变强",
+      "mechanismDesc": "Hades 创新性地将死亡从\"惩罚\"转化为\"叙事驱动\"：\n\n- **死亡 = 回家**：玩家被击败后回到\"冥王圣殿\"（老家），这里是安全区\n- **叙事推进**：在圣殿中与 NPCs（父亲哈迪斯，母亲珀耳塞福涅，诸神等）对话，推进剧情\n- **关系解锁**：通过送礼、对话解锁新角色、新的支线剧情\n- **死亡积累**：每次死亡保留在本次RUN中获得的\"黑暗\"\"钥匙\"等货币\n- **多线叙事**：亲情线、友情线、爱情线并行推进\n\n死亡成为玩家最期待的时刻——不是\"又死了\"，而是\"又可以听新故事了\"。",
+      "coreRules": "",
+      "trigger": "- 玩家血量归零时触发死亡",
+      "painPoint": "- 传统 Roguelike 死亡带来挫败感，\"重来\"缺乏动力",
+      "experienceGoal": "- 死亡正面化：死亡不是失败，而是\"下一章\"",
+      "similarMechanisms": [
+        {
+          "game": "以撒",
+          "mechanism": "结合：道具驱动叙事"
+        },
+        {
+          "game": "死亡细胞",
+          "mechanism": "银河恶魔城式进程叙事"
+        }
+      ],
+      "demo": "https://www.bilibili.com/video/BV1GJ411x7h7/",
+      "filename": "[Qualify]Roguelike-Hades-死亡叙事融合系统.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1145360/header.jpg",
+      "mechanismDesignByCategory": {
+        "category": [
+          "Roguelike"
+        ],
+        "fun": [
+          "叙事",
+          "成长变强",
+          "角色关系"
+        ],
+        "emotion": [
+          "期待感",
+          "满足感"
+        ],
+        "interaction": [
+          "NPC互动"
+        ]
+      },
+      "flatTags": [
+        "Roguelike",
+        "叙事",
+        "成长变强",
+        "角色关系",
+        "期待感",
+        "满足感",
+        "NPC互动",
+        "死亡叙事融合系统",
+        "挫败感痛点"
+      ],
+      "painPoints": [
+        "挫败感痛点"
+      ],
+      "mechanismDesign": [
+        "Roguelike",
+        "叙事",
+        "成长变强",
+        "角色关系",
+        "期待感",
+        "满足感",
+        "NPC互动",
+        "死亡叙事融合系统"
+      ],
+      "mechanismDesignCategory": [
+        "Roguelike"
+      ],
+      "mechanismDesignFun": [
+        "叙事",
+        "成长变强",
+        "角色关系"
+      ],
+      "mechanismDesignEmotion": [
+        "期待感",
+        "满足感"
+      ],
+      "mechanismDesignInteraction": [
+        "NPC互动"
+      ],
+      "playLevelTags": [
+        "PVE",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "中规中矩（10-60分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
     },
     "Hades/[Qualify]Roguelike-Hades-神明祝福系统.md": {
       "title": "[Roguelike]-[Hades]-[神明祝福系统]",
@@ -12095,74 +12868,6 @@
       ],
       "mechanismDesignInteraction": [
         "无交互"
-      ],
-      "playLevelTags": [
-        "PVE",
-        "可重复",
-        "Endgame",
-        "即时操作",
-        "中规中矩（10-60分钟）",
-        "核心玩法",
-        "高耦合"
-      ]
-    },
-    "Hades/[Qualify]惩罚契约系统.md": {
-      "title": "[Roguelike]-[Hades]-[惩罚契约系统]",
-      "gameName": "Hades",
-      "tags": [],
-      "simpleDesc": "就像给自己加\"debuff\"换奖励——签订契约给自己增加各种惩罚（敌人变强, 祝福变少）, 难度越高给的稀有资源越多",
-      "mechanismDesc": "惩罚契约（Pact of Punishment）是 Hades 通关后解锁的\"热度\"系统：\n\n- **签订契约**：玩家在开始 RUN 前可以选择增加各种惩罚修改器\n- **热度等级**：0-64, 可叠加多个修改器, 数值越高难度越大\n- **修改器类型**：\n  - 敌人血量增加\n  - 敌人伤害增加\n  - 祝福获取减少\n  - 房间敌人数量增加\n  - Boss 强化等\n- **奖励机制**：难度越高, 通关后获得的\"黑暗\"\"泰坦之血\"等稀有资源越多",
-      "coreRules": "",
-      "trigger": "- 首次通关后解锁",
-      "painPoint": "- 通关后\"没事干\"——高难度提供持续挑战目标",
-      "experienceGoal": "- 难度与奖励挂钩——\"高风险高回报\"的永恒驱动力",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[Qualify]惩罚契约系统.md",
-      "source": "AI生成-已甄别",
-      "flatTags": [
-        "特色机制-惩罚契约系统",
-        "挫败感痛点"
-      ],
-      "specialMechanisms": [
-        "特色机制-惩罚契约系统"
-      ],
-      "painPoints": [
-        "挫败感痛点"
-      ],
-      "playLevelTags": [
-        "PVE",
-        "可重复",
-        "Endgame",
-        "即时操作",
-        "中规中矩（10-60分钟）",
-        "核心玩法",
-        "高耦合"
-      ]
-    },
-    "Hades/[Qualify]死亡叙事融合系统.md": {
-      "title": "[Roguelike]-[Hades]-[死亡叙事融合系统]",
-      "gameName": "Hades",
-      "tags": [],
-      "simpleDesc": "就像死了还能听故事——每次\"死掉\"不是结束, 而是回到老家和NPC聊聊天, 推进剧情还能变强",
-      "mechanismDesc": "Hades 创新性地将死亡从\"惩罚\"转化为\"叙事驱动\"：\n\n- **死亡 = 回家**：玩家被击败后回到\"冥王圣殿\"（老家）, 这里是安全区\n- **叙事推进**：在圣殿中与 NPCs（父亲哈迪斯, 母亲珀耳塞福涅, 诸神等）对话, 推进剧情\n- **关系解锁**：通过送礼, 对话解锁新角色, 新的支线剧情\n- **死亡积累**：每次死亡保留在本次RUN中获得的\"黑暗\"\"钥匙\"等货币\n- **多线叙事**：亲情线, 友情线, 爱情线并行推进\n\n死亡成为玩家最期待的时刻——不是\"又死了\", 而是\"又可以听新故事了\"。",
-      "coreRules": "",
-      "trigger": "- 玩家血量归零时触发死亡",
-      "painPoint": "- 传统 Roguelike 死亡带来挫败感, \"重来\"缺乏动力",
-      "experienceGoal": "- 死亡正面化：死亡不是失败, 而是\"下一章\"",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[Qualify]死亡叙事融合系统.md",
-      "source": "人工",
-      "flatTags": [
-        "特色机制-死亡叙事融合系统",
-        "挫败感痛点"
-      ],
-      "specialMechanisms": [
-        "特色机制-死亡叙事融合系统"
-      ],
-      "painPoints": [
-        "挫败感痛点"
       ],
       "playLevelTags": [
         "PVE",
@@ -13229,6 +13934,55 @@
       "filename": "[Qualify]HonkaiStarRail-虚构叙事波次评分系统.md",
       "source": "AI生成-已甄别"
     },
+    "HonkaiStarRail/[Qualify]RPG-HonkaiStarRail-光锥系统.md": {
+      "title": "[RPG]-HonkaiStarRail-光锥系统",
+      "gameName": "Honkai: Star Rail",
+      "tags": [],
+      "simpleDesc": "角色装备光锥来提升属性，通过抽卡获取，专用光锥只能给特定角色使用。",
+      "mechanismDesc": "> 每个角色可装备1个光锥，光锥分为1-5星。光锥分为专属光锥和通用光锥：专属光锥只能被特定角色装备，提供更高的属性加成；通用光锥可被任意角色装备。光锥可通过\"跃迁\"（抽卡）获取。光锥可强化至+15，每次强化提升属性。光锥还有\"叠影\"功能，可以提升光锥的等级上限。",
+      "coreRules": "",
+      "trigger": "> 开拓任务推进至一定阶段自动解锁",
+      "painPoint": "通过专属光锥设计提供角色差异化养成体验，通过抽卡获取光锥增加商业化收入",
+      "experienceGoal": "创造角色养成的深度和追求感，提供收集动力",
+      "similarMechanisms": [
+        {
+          "game": "原神",
+          "mechanism": "武器系统"
+        },
+        {
+          "game": "崩坏3",
+          "mechanism": "武器系统"
+        }
+      ],
+      "demo": "待补充",
+      "filename": "[Qualify]RPG-HonkaiStarRail-光锥系统.md",
+      "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/MSNbrVirOiDbL1NEQ4cMGzeL0ODJ_qjjwNTnkLQmfetF4JRjkO4mXm0IsSV-cor0PZY5Hr8Y57cuifFK33xztg"
+    },
+    "HonkaiStarRail/[Qualify]RPG-HonkaiStarRail-遗器系统.md": {
+      "title": "[RPG]-HonkaiStarRail-遗器系统",
+      "gameName": "Honkai: Star Rail",
+      "tags": [],
+      "simpleDesc": "角色装备6件遗物来提升属性，4件外围遗器套装+2件位面饰品，通过刷副本获取和强化。",
+      "mechanismDesc": "> 每个角色可装备6件遗器，分为外围遗器套装（四件套：头部、手部、躯干、脚部）和位面饰品（两件套：位面球、连结绳）。遗器星级为2-5星，属性对角色最终属性影响极大。遗器可强化至+15，每次强化提升属性。获取途径：刷侵蚀隧洞副本获取遗器套装，刷模拟宇宙副本获取位面饰品。",
+      "coreRules": "",
+      "trigger": "开拓任务推进至一定阶段自动解锁",
+      "painPoint": "传统RPG装备系统容易陷入固定搭配，遗器系统通过随机词条和多样化套装效果提供刷装动力",
+      "experienceGoal": "创造\"刷装-养成\"的长期游戏目标，提供角色养成的深度和追求感",
+      "similarMechanisms": [
+        {
+          "game": "原神",
+          "mechanism": "圣遗物系统"
+        },
+        {
+          "game": "暗黑破坏神",
+          "mechanism": "装备词缀系统"
+        }
+      ],
+      "demo": "待补充",
+      "filename": "[Qualify]RPG-HonkaiStarRail-遗器系统.md",
+      "source": "人工"
+    },
     "HonkaiStarRail/[Qualify]Roguelike-HonkaiStarRail-模拟宇宙.md": {
       "title": "[Roguelike]-HonkaiStarRail-模拟宇宙",
       "gameName": "崩坏：星穹铁道",
@@ -13860,6 +14614,35 @@
         "核心玩法",
         "高耦合"
       ]
+    },
+    "HonorOfKings/[Qualify]MOBA-HonorOfKings-英雄系统.md": {
+      "title": "[MOBA]-[王者荣耀]-英雄系统",
+      "gameName": "王者荣耀",
+      "tags": [],
+      "simpleDesc": "\"5v5对战中的角色选择系统\"：玩家从100+英雄中选择一个，每个英雄有独特技能组和角色定位（刺客/战士/法师/辅助/坦克/射手），通过技能配合和团队协作取得胜利",
+      "mechanismDesc": "王者荣耀的英雄系统是整个游戏的核心：\n1. **英雄池**：100+英雄，每个英雄拥有独特的3个主动技能+1个被动技能\n2. **角色定位**：6大分类——刺客（高爆发）、战士（均衡）、法师（魔法输出）、辅助（保护/增益）、坦克（承伤）、射手（物理输出）\n3. **技能设计**：每个英雄技能组服务于单一职能定位，如刺客侧重位移+爆发，辅助侧重治疗+控制\n4. **获取方式**：金币购买 + 英雄碎片合成 + 点券购买\n5. **成长曲线**：15级满级，属性随等级提升",
+      "coreRules": "",
+      "trigger": "- 玩家进入匹配/排位赛选人阶段",
+      "painPoint": "- 解决\"英雄同质化\"的问题——100+英雄，每个都有独特技能组",
+      "experienceGoal": "- 提供\"角色扮演\"沉浸感——每个英雄都有独特背景故事和玩法风格",
+      "similarMechanisms": [
+        {
+          "game": "英雄联盟",
+          "mechanism": "英雄系统"
+        },
+        {
+          "game": "DOTA2",
+          "mechanism": "英雄系统"
+        },
+        {
+          "game": "BrawlStars",
+          "mechanism": "英雄系统"
+        }
+      ],
+      "demo": "",
+      "filename": "[Qualify]MOBA-HonorOfKings-英雄系统.md",
+      "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/Y_Lyc8bHzeXXtGYiAlAAa15gMLWgrzuNuCv3HABINb73tEOAQd7iCQfKhYxdO6Zjgcpz4KiEsftilbrLNFka1g"
     },
     "HonorOfKings/[Qualify]MOBA-HonorOfKings-荣耀战令系统.md": {
       "title": "[经济系统]-王者荣耀-荣耀战令系统",
@@ -16184,7 +16967,8 @@
       ],
       "demo": "",
       "filename": "[Qualify]MOBA-LOL-召唤师技能.md",
-      "source": "AI生成-已甄别"
+      "source": "AI生成-已甄别",
+      "coverImage": "![LOL](https://cdn.worldvectorlogo.com/logos/league-of-legends-1.svg)"
     },
     "LeagueOfLegends/[Qualify]MOBA-LeagueOfLegends-符文系统.md": {
       "title": "[MOBA]-LeagueOfLegends-符文系统",
@@ -16209,6 +16993,35 @@
       "demo": "",
       "filename": "[Qualify]MOBA-LeagueOfLegends-符文系统.md",
       "source": "AI生成-已甄别"
+    },
+    "LeagueOfLegends/[Qualify]MOBA-LeagueOfLegends-英雄系统.md": {
+      "title": "[MOBA]-[英雄联盟]-英雄系统",
+      "gameName": "英雄联盟",
+      "tags": [],
+      "simpleDesc": "\"5v5对战中的角色选择系统\"：玩家从170+英雄中选择一个，每个英雄有独特技能组和角色定位（刺客/战士/法师/辅助/坦克/射手），通过技能配合和团队协作取得胜利",
+      "mechanismDesc": "英雄联盟的英雄系统是整个游戏的核心：\n1. **英雄池**：170+英雄，每个英雄拥有独特的4个主动技能+1个被动技能\n2. **角色定位**：6大分类——刺客（高爆发）、战士（均衡）、法师（魔法输出）、辅助（保护/增益）、坦克（承伤）、射手（物理输出）\n3. **技能设计**：每个英雄技能组服务于单一职能定位，如刺客侧重位移+爆发，辅助侧重治疗+控制\n4. **获取方式**：周免英雄轮换 + 蓝色精萃解锁 + 点券购买\n5. **成长曲线**：18级满级，属性随等级提升，召唤师技能槽随等级解锁",
+      "coreRules": "",
+      "trigger": "- 玩家进入匹配/排位赛选人阶段",
+      "painPoint": "- 解决\"英雄同质化\"的问题——170+英雄，每个都有独特技能组",
+      "experienceGoal": "- 提供\"角色扮演\"沉浸感——每个英雄都有独特背景故事和玩法风格",
+      "similarMechanisms": [
+        {
+          "game": "王者荣耀",
+          "mechanism": "英雄系统"
+        },
+        {
+          "game": "DOTA2",
+          "mechanism": "英雄系统"
+        },
+        {
+          "game": "BrawlStars",
+          "mechanism": "英雄系统"
+        }
+      ],
+      "demo": "",
+      "filename": "[Qualify]MOBA-LeagueOfLegends-英雄系统.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1010750/header.jpg"
     },
     "LegendsOfRuneterra/[Qualify]AttackResponse.md": {
       "title": "[策略卡牌]-[Legends of Runeterra]-[攻守响应机制]",
@@ -16943,23 +17756,29 @@
         "高耦合"
       ]
     },
-    "Marathon/[Excellent]三层构筑系统.md": {
+    "Marathon/[Excellent]FPS-Marathon-三层构筑系统.md": {
       "title": "[FPS]-[Marathon]-[三层构筑系统]",
       "gameName": "Marathon",
       "tags": [],
-      "simpleDesc": "就像同时调教\"职业, 天赋, 装备\"——Cores决定你会什么技能, Implants强化身体素质, 武器Mod改装枪械, 三者叠加产生丰富BD",
-      "mechanismDesc": "Marathon 的角色构筑分为三层, 彼此独立又相互影响：\n1. **Cores（核心）**：每个 Runner Shell 特有的强化模块, 强化角色固有技能, 每个 Shell 2个槽位\n2. **Implants（植入物）**：全通用属性加成, 任何 Shell 都能装备, 提供属性, 能力提升\n3. **武器Mod（武器改装）**：枪械配件改装, 影响武器性能",
+      "simpleDesc": "就像同时调教\"职业+天赋+装备\"——Cores决定你会什么技能，Implants强化身体素质，武器Mod改装枪械，三者叠加产生丰富BD",
+      "mechanismDesc": "Marathon 的角色构筑分为三层，彼此独立又相互影响：\n1. **Cores（核心）**：每个 Runner Shell 特有的强化模块，强化角色固有技能，每个 Shell 2个槽位\n2. **Implants（植入物）**：全通用属性加成，任何 Shell 都能装备，提供属性、能力提升\n3. **武器Mod（武器改装）**：枪械配件改装，影响武器性能",
       "coreRules": "",
       "trigger": "- 战备阶段可以自由搭配三层构筑",
-      "painPoint": "- 传统撤离射击只有装备驱动, 缺乏角色成长深度",
-      "experienceGoal": "- 每场战斗都有成长感——不仅是装备, 更是角色能力提升",
-      "similarMechanisms": [],
+      "painPoint": "- 传统撤离射击只有装备驱动，缺乏角色成长深度",
+      "experienceGoal": "- 每场战斗都有成长感——不仅是装备，更是角色能力提升",
+      "similarMechanisms": [
+        {
+          "game": "命运系列",
+          "mechanism": "装备与技能搭配系统"
+        }
+      ],
       "demo": "",
-      "filename": "[Excellent]三层构筑系统.md",
+      "filename": "[Excellent]FPS-Marathon-三层构筑系统.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1672280/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
-          "FPS-撤离射击"
+          "射击-搜打撤"
         ],
         "fun": [
           "成长变强",
@@ -16973,31 +17792,29 @@
         ]
       },
       "flatTags": [
-        "FPS-撤离射击",
+        "射击-搜打撤",
         "成长变强",
         "策略",
         "成就感",
         "对抗",
-        "特色机制-三层构筑系统",
+        "三层构筑系统",
         "成长痛点",
         "策略深度痛点"
-      ],
-      "specialMechanisms": [
-        "特色机制-三层构筑系统"
       ],
       "painPoints": [
         "成长痛点",
         "策略深度痛点"
       ],
       "mechanismDesign": [
-        "FPS-撤离射击",
+        "射击-搜打撤",
         "成长变强",
         "策略",
         "成就感",
-        "对抗"
+        "对抗",
+        "三层构筑系统"
       ],
       "mechanismDesignCategory": [
-        "FPS-撤离射击"
+        "射击-搜打撤"
       ],
       "mechanismDesignFun": [
         "成长变强",
@@ -17010,10 +17827,11 @@
         "对抗"
       ],
       "playLevelTags": [
-        "单局1-6人（3人组队）",
+        "PvPvE",
+        "单局1-6人/单队3人",
         "单人玩法",
         "双人玩法",
-        "PvPvE",
+        "小队玩法",
         "可重复",
         "Endgame",
         "即时操作",
@@ -17022,90 +17840,14 @@
         "高耦合"
       ]
     },
-    "MarioKart/RAC-非拟真赛车-名次道具分配.md": {
-      "title": "[RAC]-[非拟真赛车]-[名次道具分配]",
-      "gameName": "Mario Kart 系列 ,  跑跑卡丁车（道具赛）",
+    "MarioKart/[Excellent]RAC-MarioKart-漂移集气资源转化.md": {
+      "title": "[RAC]-[MarioKart]-[漂移集气资源转化]",
+      "gameName": "MarioKart",
       "tags": [],
-      "simpleDesc": "排名越靠后, 吃到道具箱开出的道具越强力；排名越靠前, 开出的道具越弱, 让落后的人有翻盘机会",
-      "mechanismDesc": "> 系统根据玩家当前实时名次从对应概率表中抽取道具：第1名大概率获得弱道具, 末名大概率获得强力翻盘道具",
+      "simpleDesc": "使用漂移技巧过弯积攒能量，释放后获得加速等增益效果",
+      "mechanismDesc": "> 玩家主动发起漂移，系统依据漂移时长、角度、车速等维度实时折算为能量注入能量槽，能量槽满后获得氮气等增益道具",
       "coreRules": "",
-      "trigger": "在特定道具模式中, 玩家驾驶经过赛道上的道具箱时触发",
-      "painPoint": "纯竞速比赛中一旦拉开差距就再难追回",
-      "experienceGoal": "压缩领先与落后的差距, 让每一局都有悬念",
-      "similarMechanisms": [
-        {
-          "game": "跑跑卡丁车",
-          "mechanism": "道具赛概率分配"
-        },
-        {
-          "game": "Sonic Racing",
-          "mechanism": "团队道具加成"
-        }
-      ],
-      "demo": "",
-      "filename": "RAC-非拟真赛车-名次道具分配.md",
-      "source": "人工",
-      "mechanismDesignByCategory": {
-        "category": [
-          "竞速-街机竞速"
-        ],
-        "fun": [
-          "策略",
-          "竞技"
-        ],
-        "emotion": [
-          "紧张感"
-        ],
-        "interaction": [
-          "对抗"
-        ]
-      },
-      "flatTags": [
-        "竞速-街机竞速",
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗"
-      ],
-      "mechanismDesign": [
-        "竞速-街机竞速",
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗"
-      ],
-      "mechanismDesignCategory": [
-        "竞速-街机竞速"
-      ],
-      "mechanismDesignFun": [
-        "策略",
-        "竞技"
-      ],
-      "mechanismDesignEmotion": [
-        "紧张感"
-      ],
-      "mechanismDesignInteraction": [
-        "对抗"
-      ],
-      "playLevelTags": [
-        "单局4人",
-        "PVP",
-        "可重复",
-        "Endgame",
-        "即时操作",
-        "中规中矩（10-60分钟）",
-        "核心玩法",
-        "高耦合"
-      ]
-    },
-    "MarioKart/RAC-非拟真赛车-漂移集气资源转化.md": {
-      "title": "[RAC]-[非拟真赛车]-[漂移集气, 资源转化]",
-      "gameName": "QQ飞车 ,  极品飞车 ,  马里奥赛车",
-      "tags": [],
-      "simpleDesc": "使用漂移技巧过弯积攒能量, 释放后获得加速等增益效果",
-      "mechanismDesc": "> 玩家主动发起漂移, 系统依据漂移时长, 角度, 车速等维度实时折算为能量注入能量槽, 能量槽满后获得氮气等增益道具",
-      "coreRules": "",
-      "trigger": "核心循环, 游戏中按键即可触发",
+      "trigger": "核心循环，游戏中按键即可触发",
       "painPoint": "传统拟真赛车游戏过弯操作单一",
       "experienceGoal": "建立\"以技巧换速度\"的核心循环",
       "similarMechanisms": [
@@ -17118,8 +17860,32 @@
           "mechanism": "撞击充能"
         }
       ],
-      "demo": "",
-      "filename": "RAC-非拟真赛车-漂移集气资源转化.md",
+      "demo": "（待补充GIF或视频链接）",
+      "filename": "[Excellent]RAC-MarioKart-漂移集气资源转化.md",
+      "source": "人工"
+    },
+    "MarioKart/[Excellent]RAC-MarioKart8-名次道具分配.md": {
+      "title": "[RAC]-[MarioKart8]-[名次道具分配]",
+      "gameName": "Mario Kart 8",
+      "tags": [],
+      "simpleDesc": "赛车比赛中，排名越靠后的玩家获得道具越强力，排名越靠前的玩家只能获得弱道具，让落后者有机会翻盘",
+      "mechanismDesc": "> 系统根据玩家当前实时名次从对应概率表中抽取道具。第1名大概率获得弱道具（如香蕉皮），末名大概率获得强力翻盘道具（如无敌星、导弹）。这种设计确保每场比赛都有悬念，即使落后也有翻盘希望。",
+      "coreRules": "",
+      "trigger": "在道具模式中，玩家驾驶经过赛道上的道具箱时触发",
+      "painPoint": "纯竞速比赛中一旦拉开差距就再难追回，导致比赛过早失去悬念",
+      "experienceGoal": "压缩领先与落后的差距，让每一局都有悬念，保持玩家持续投入",
+      "similarMechanisms": [
+        {
+          "game": "跑跑卡丁车",
+          "mechanism": "道具赛概率分配"
+        },
+        {
+          "game": "Sonic Racing",
+          "mechanism": "团队道具加成"
+        }
+      ],
+      "demo": "https://example.com/mariokart8-item-system.gif",
+      "filename": "[Excellent]RAC-MarioKart8-名次道具分配.md",
       "source": "人工",
       "mechanismDesignByCategory": {
         "category": [
@@ -17141,14 +17907,22 @@
         "策略",
         "竞技",
         "紧张感",
-        "对抗"
+        "对抗",
+        "橡皮筋机制",
+        "概率道具分配",
+        "挫败感痛点"
+      ],
+      "painPoints": [
+        "挫败感痛点"
       ],
       "mechanismDesign": [
         "竞速-街机竞速",
         "策略",
         "竞技",
         "紧张感",
-        "对抗"
+        "对抗",
+        "橡皮筋机制",
+        "概率道具分配"
       ],
       "mechanismDesignCategory": [
         "竞速-街机竞速"
@@ -17164,8 +17938,8 @@
         "对抗"
       ],
       "playLevelTags": [
-        "单局4人",
         "PVP",
+        "单局4人",
         "可重复",
         "Endgame",
         "即时操作",
@@ -17475,6 +18249,21 @@
         "高耦合"
       ]
     },
+    "MetalSlug/MetalSlug_SDD拆解.md": {
+      "title": "MetalSlug 游戏拆解分析",
+      "gameName": "",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "MetalSlug_SDD拆解.md",
+      "source": "人工"
+    },
     "MetalSlug/[Excellent]人质营救系统.md": {
       "title": "[街机]-MetalSlug-人质营救系统",
       "gameName": "Metal Slug",
@@ -17584,7 +18373,8 @@
       ],
       "demo": "https://www.bilibili.com/video/BV1Wx411f7Z1/ （合金弹头武器系统演示）",
       "filename": "[Qualify]街机-MetalSlug-武器升级系统.md",
-      "source": "AI生成-已甄别"
+      "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1230180/header.jpg"
     },
     "MetalSlug/[Qualify]街机-MetalSlug-载具系统.md": {
       "title": "[街机]-MetalSlug-载具系统",
@@ -17672,40 +18462,6 @@
         "高耦合"
       ]
     },
-    "MiaoMiaoTeaRestaurant/[Qualify]ModularBuilding.md": {
-      "title": "[模拟经营]-喵喵茶餐厅-模块化搭建系统",
-      "gameName": "喵喵茶餐厅",
-      "tags": [],
-      "simpleDesc": "50多种建筑组件可以像乐高一样自由拼搭, 厨房, 用餐区, 花园, 猫咪宿舍想怎么摆就怎么摆",
-      "mechanismDesc": "- 提供基础组件库：桌椅, 装饰, 设施, 植被\n- 组件可自由拖拽, 旋转, 叠加\n- 不同风格组件（森林系, 童话风, 现代风）可混搭\n- 组件之间可能有隐藏的联动效果",
-      "coreRules": "",
-      "trigger": "- 进入建造, 装修模式",
-      "painPoint": "- 传统餐厅经营游戏装修是固定模板, 缺乏个性化",
-      "experienceGoal": "- 满足玩家的\"装修dream house\"欲望, 打造个性化餐厅",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[Qualify]ModularBuilding.md",
-      "source": "人工",
-      "flatTags": [
-        "特色机制-模块化搭建系统",
-        "内容枯竭痛点"
-      ],
-      "specialMechanisms": [
-        "特色机制-模块化搭建系统"
-      ],
-      "painPoints": [
-        "内容枯竭痛点"
-      ],
-      "playLevelTags": [
-        "PVE",
-        "可重复",
-        "Endgame",
-        "半即时操作",
-        "碎片化（3-10分钟）",
-        "副玩法",
-        "低耦合"
-      ]
-    },
     "MiaoMiaoTeaRestaurant/[Qualify]模拟经营-MiaoMiaoTeaRestaurant-森林探险玩法.md": {
       "title": "[模拟经营]-喵喵茶餐厅-森林探险玩法",
       "gameName": "喵喵茶餐厅",
@@ -17745,6 +18501,97 @@
         "PVE",
         "可重复",
         "成长中期",
+        "半即时操作",
+        "碎片化（3-10分钟）",
+        "副玩法",
+        "低耦合"
+      ]
+    },
+    "MiaoMiaoTeaRestaurant/[Qualify]模拟经营-MiaoMiaoTeaRestaurant-模块化搭建系统.md": {
+      "title": "[模拟经营]-MiaoMiaoTeaRestaurant-模块化搭建系统",
+      "gameName": "喵喵茶餐厅",
+      "tags": [],
+      "simpleDesc": "50多种建筑组件可以像乐高一样自由拼搭，厨房、用餐区、花园、猫咪宿舍想怎么摆就怎么摆",
+      "mechanismDesc": "- 提供基础组件库：桌椅、装饰、设施、植被\n- 组件可自由拖拽、旋转、叠加\n- 不同风格组件（森林系、童话风、现代风）可混搭\n- 组件之间可能有隐藏的联动效果",
+      "coreRules": "",
+      "trigger": "- 进入建造、装修模式",
+      "painPoint": "- 传统餐厅经营游戏装修是固定模板，缺乏个性化",
+      "experienceGoal": "- 满足玩家的\"装修dream house\"欲望，打造个性化餐厅",
+      "similarMechanisms": [
+        {
+          "game": "动物森友会",
+          "mechanism": "岛屿规划与家具摆放"
+        },
+        {
+          "game": "模拟城市",
+          "mechanism": "城市规划系统"
+        },
+        {
+          "game": "梦幻家园",
+          "mechanism": "装修三消玩法"
+        }
+      ],
+      "demo": "",
+      "filename": "[Qualify]模拟经营-MiaoMiaoTeaRestaurant-模块化搭建系统.md",
+      "source": "人工",
+      "mechanismDesignByCategory": {
+        "category": [
+          "模拟经营-城建/装修"
+        ],
+        "fun": [
+          "创造",
+          "养成/装扮"
+        ],
+        "emotion": [
+          "成就感",
+          "治愈/放松"
+        ],
+        "interaction": [
+          "无交互"
+        ]
+      },
+      "flatTags": [
+        "模拟经营-城建/装修",
+        "创造",
+        "养成/装扮",
+        "成就感",
+        "治愈/放松",
+        "无交互",
+        "模块化搭建系统",
+        "内容枯竭痛点",
+        "自由度-限制过多"
+      ],
+      "painPoints": [
+        "内容枯竭痛点"
+      ],
+      "mechanismDesign": [
+        "模拟经营-城建/装修",
+        "创造",
+        "养成/装扮",
+        "成就感",
+        "治愈/放松",
+        "无交互",
+        "模块化搭建系统",
+        "自由度-限制过多"
+      ],
+      "mechanismDesignCategory": [
+        "模拟经营-城建/装修"
+      ],
+      "mechanismDesignFun": [
+        "创造",
+        "养成/装扮"
+      ],
+      "mechanismDesignEmotion": [
+        "成就感",
+        "治愈/放松"
+      ],
+      "mechanismDesignInteraction": [
+        "无交互"
+      ],
+      "playLevelTags": [
+        "PVE",
+        "可重复",
+        "Endgame",
         "半即时操作",
         "碎片化（3-10分钟）",
         "副玩法",
@@ -18305,39 +19152,46 @@
     },
     "Onmyoji/[Qualify]式神战斗区系统.md": {
       "title": "[策略卡牌]-阴阳师百闻牌-式神战斗区系统",
-      "gameName": "Onmyoji",
+      "gameName": "阴阳师百闻牌",
       "tags": [],
-      "simpleDesc": "就像4个位置的车间——每个位置可以放一个式神, 式神可以升级, 升级后更强",
-      "mechanismDesc": "战场分为4个式神位, 每个式神位可放置一个式神。式神在战斗区可以升级, 每次升级获得属性和效果提升。式神被击杀后该位置空出",
+      "simpleDesc": "就像4个位置的车间——每个位置可以放一个式神，式神可以升级，升级后更强",
+      "mechanismDesc": "战场分为4个式神位，每个式神位可放置一个式神。式神在战斗区可以升级，每次升级获得属性和效果提升。式神被击杀后该位置空出",
       "coreRules": "",
-      "trigger": "式神进入战斗区时触发, 升级需要消耗鬼火",
-      "painPoint": "解决传统卡牌游戏站位单一的问题, 通过\"可升级的单位\"创造养成爽感",
-      "experienceGoal": "创造\"养成, 对战\"的双重乐趣, 式神成长带来满足感",
-      "similarMechanisms": [],
-      "demo": "",
+      "trigger": "式神进入战斗区时触发，升级需要消耗鬼火",
+      "painPoint": "解决传统卡牌游戏站位单一的问题，通过\"可升级的单位\"创造养成爽感",
+      "experienceGoal": "创造\"养成、对战\"的双重乐趣，式神成长带来满足感",
+      "similarMechanisms": [
+        {
+          "game": "皇室战争",
+          "mechanism": "卡牌部署与升级系统"
+        }
+      ],
+      "demo": "（待补充）",
       "filename": "[Qualify]式神战斗区系统.md",
       "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/4I8_iz5y-NpgnurB6nGgZ69Y12ycPh-vizv-RuFnpm_3Ptps8C9ZYM0983wBbsLlBMg",
       "mechanismDesignByCategory": {
         "category": [
-          "策略-SLG"
+          "卡牌-策略卡牌"
         ],
         "fun": [
           "策略",
-          "竞技"
+          "成长变强"
         ],
         "emotion": [
-          "紧张感"
+          "成就感"
         ],
         "interaction": [
           "对抗"
         ]
       },
       "flatTags": [
-        "策略-SLG",
+        "卡牌-策略卡牌",
         "策略",
-        "竞技",
-        "紧张感",
+        "成长变强",
+        "成就感",
         "对抗",
+        "式神升级系统",
         "内容枯竭痛点",
         "成长痛点"
       ],
@@ -18346,21 +19200,22 @@
         "成长痛点"
       ],
       "mechanismDesign": [
-        "策略-SLG",
+        "卡牌-策略卡牌",
         "策略",
-        "竞技",
-        "紧张感",
-        "对抗"
+        "成长变强",
+        "成就感",
+        "对抗",
+        "式神升级系统"
       ],
       "mechanismDesignCategory": [
-        "策略-SLG"
+        "卡牌-策略卡牌"
       ],
       "mechanismDesignFun": [
         "策略",
-        "竞技"
+        "成长变强"
       ],
       "mechanismDesignEmotion": [
-        "紧张感"
+        "成就感"
       ],
       "mechanismDesignInteraction": [
         "对抗"
@@ -18369,7 +19224,7 @@
         "PVP",
         "可重复",
         "Endgame",
-        "即时操作",
+        "回合操作",
         "中规中矩（10-60分钟）",
         "核心玩法",
         "高耦合"
@@ -18543,7 +19398,74 @@
       ],
       "demo": "",
       "filename": "[Qualify][BR]-PUBG-资源获取与装备系统.md",
-      "source": "AI生成-已甄别"
+      "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1091500/header.jpg",
+      "mechanismDesignByCategory": {
+        "category": [
+          "射击-大逃杀"
+        ],
+        "fun": [
+          "随机",
+          "收集"
+        ],
+        "emotion": [
+          "惊喜随机",
+          "紧张感"
+        ],
+        "interaction": [
+          "对抗"
+        ]
+      },
+      "flatTags": [
+        "射击-大逃杀",
+        "随机",
+        "收集",
+        "惊喜随机",
+        "紧张感",
+        "对抗",
+        "随机刷新",
+        "装备搜集",
+        "舔包机制",
+        "时间成本-重复劳动（落地搜物资的重复体验）"
+      ],
+      "mechanismDesign": [
+        "射击-大逃杀",
+        "随机",
+        "收集",
+        "惊喜随机",
+        "紧张感",
+        "对抗",
+        "随机刷新",
+        "装备搜集",
+        "舔包机制",
+        "时间成本-重复劳动（落地搜物资的重复体验）"
+      ],
+      "mechanismDesignCategory": [
+        "射击-大逃杀"
+      ],
+      "mechanismDesignFun": [
+        "随机",
+        "收集"
+      ],
+      "mechanismDesignEmotion": [
+        "惊喜随机",
+        "紧张感"
+      ],
+      "mechanismDesignInteraction": [
+        "对抗"
+      ],
+      "playLevelTags": [
+        "PvPvE",
+        "单局100人/单队4人",
+        "小队玩法",
+        "多人玩法",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "中规中矩（10-60分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
     },
     "PUBG/[Qualify]缩圈博弈系统.md": {
       "title": "[FPS]PUBG-缩圈博弈系统",
@@ -18559,6 +19481,7 @@
       "demo": "",
       "filename": "[Qualify]缩圈博弈系统.md",
       "source": "人工",
+      "coverImage": "![cover](https://steamcdn-a.akamaihd.net/steam/apps/1091500/header.jpg)",
       "flatTags": [
         "特色机制-缩圈博弈系统",
         "内容枯竭痛点",
@@ -18584,89 +19507,120 @@
         "高耦合"
       ]
     },
-    "Palworld/[Qualify]pal-gear-system.md": {
-      "title": "[怪物养成]-幻兽帕鲁-帕鲁装备系统",
+    "Palworld/[Excellent]RPG-Palworld-帕鲁装备系统.md": {
+      "title": "[RPG]-Palworld-帕鲁装备系统",
       "gameName": "Palworld",
       "tags": [],
-      "simpleDesc": "给宠物配上武器和骑具——在专门的工作台制作\"帕鲁装备\", 让帕鲁既能当坐骑也能持枪战斗",
-      "mechanismDesc": "玩家可以在 Pal Gear Workbench（帕鲁装备工作台）制作各类帕鲁专属装备, 包括：\n- **Saddle（骑乘装备）**：让特定帕鲁变为可骑乘\n- **Weapon（武器）**：让帕鲁持有弓箭, 枪械等武器进行战斗\n- **Accessories（配饰）**：提供额外属性加成\n\n每个帕鲁都有独特的\"伙伴技能（Partner Skill）\", 可转变为武器形态或坐骑形态。玩家可以一边骑乘帕鲁飞行, 一边指挥帕鲁发起攻击。",
+      "simpleDesc": "在专属工作台制作帕鲁专属装备——骑乘装备让帕鲁可被骑行，武器让帕鲁持枪战斗，配饰提供属性加成，实现\"武装宠物\"的战斗体验",
+      "mechanismDesc": "玩家可以在 Pal Gear Workbench（帕鲁装备工作台）制作各类帕鲁专属装备，包括：\n- **Saddle（骑乘装备）**：让特定帕鲁变为可骑乘，实现飞行/陆地移动\n- **Weapon（武器）**：让帕鲁持有弓箭、枪械等武器进行远程战斗\n- **Accessories（配饰）**：提供额外属性加成（如攻击、防御、生命）\n\n每个帕鲁都有独特的\"伙伴技能（Partner Skill）\"，可转变为武器形态或坐骑形态。玩家可以一边骑乘帕鲁飞行，一边指挥帕鲁发起攻击，实现\"移动战斗一体化\"。",
       "coreRules": "",
       "trigger": "- 科技树解锁 Pal Gear Workbench",
       "painPoint": "- 传统宝可梦类游戏玩法单一（只能指挥宠物用技能打怪）",
-      "experienceGoal": "- 创造\"武装宠物\"的爽感——宠物不仅是战斗单位, 更是可武装的\"武器平台\"",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[Qualify]pal-gear-system.md",
-      "source": "人工",
-      "flatTags": [
-        "特色机制-帕鲁装备系统",
-        "内容枯竭痛点"
+      "experienceGoal": "- 创造\"武装宠物\"的爽感——宠物不仅是战斗单位，更是可武装的\"武器平台\"",
+      "similarMechanisms": [
+        {
+          "game": "宝可梦",
+          "mechanism": "宝可梦骑乘系统（仅移动，无武器）"
+        },
+        {
+          "game": "喷射战士",
+          "mechanism": "武器装备系统（但无宠物/坐骑）"
+        }
       ],
-      "specialMechanisms": [
-        "特色机制-帕鲁装备系统"
+      "demo": "https://example.com/pal-gear-demo.gif",
+      "filename": "[Excellent]RPG-Palworld-帕鲁装备系统.md",
+      "source": "人工",
+      "mechanismDesignByCategory": {
+        "category": [
+          "RPG-ARPG"
+        ],
+        "fun": [
+          "成长变强",
+          "挑战",
+          "操作"
+        ],
+        "emotion": [
+          "爽快感"
+        ],
+        "interaction": [
+          "无交互/合作"
+        ]
+      },
+      "flatTags": [
+        "RPG-ARPG",
+        "成长变强",
+        "挑战",
+        "操作",
+        "爽快感",
+        "无交互/合作",
+        "帕鲁装备系统",
+        "移动战斗一体化",
+        "内容枯竭痛点"
       ],
       "painPoints": [
         "内容枯竭痛点"
       ],
+      "mechanismDesign": [
+        "RPG-ARPG",
+        "成长变强",
+        "挑战",
+        "操作",
+        "爽快感",
+        "无交互/合作",
+        "帕鲁装备系统",
+        "移动战斗一体化"
+      ],
+      "mechanismDesignCategory": [
+        "RPG-ARPG"
+      ],
+      "mechanismDesignFun": [
+        "成长变强",
+        "挑战",
+        "操作"
+      ],
+      "mechanismDesignEmotion": [
+        "爽快感"
+      ],
+      "mechanismDesignInteraction": [
+        "无交互/合作"
+      ],
       "playLevelTags": [
         "PVE",
+        "单人/小组多人",
         "可重复",
         "Endgame",
         "即时操作",
-        "长时间（>60分钟）",
+        "中规中矩（10-60分钟）",
         "核心玩法",
         "高耦合"
       ]
     },
     "Palworld/[Qualify]pal-labor-system.md": {
-      "title": "[生存建造]-幻兽帕鲁-帕鲁生产劳动系统",
+      "title": "[生存建造]-Palworld-帕鲁生产劳动系统",
       "gameName": "Palworld",
       "tags": [],
-      "simpleDesc": "捕获怪物后指派它们从事建造, 种植, 采矿等劳动, 而非仅用于战斗",
-      "mechanismDesc": "玩家在开放世界中收集神奇的生物\"帕鲁\", 并指派它们从事各种生产活动。帕鲁可以参与战斗, 建造建筑, 种植农作物, 开采矿石, 发电, 做饭等工作。每个帕鲁有不同的属性和技能, 适合不同类型的工作。这种设计将传统宝可梦\"只用于战斗, 收集\"的玩法扩展为\"怪物奴隶, 劳工\"概念, 创造了一种独特的生存建造体验。",
+      "simpleDesc": "捕获怪物后指派它们从事建造、种植、采矿等劳动，而非仅用于战斗",
+      "mechanismDesc": "玩家在开放世界中收集神奇的生物\"帕鲁\"，并指派它们从事各种生产活动。帕鲁可以参与战斗、建造建筑、种植农作物、开采矿石、发电、做饭等工作。每个帕鲁有不同的属性和技能，适合不同类型的工作。这种设计将传统宝可梦\"只用于战斗、收集\"的玩法扩展为\"怪物奴隶、劳工\"概念，创造了一种独特的生存建造体验。",
       "coreRules": "",
-      "trigger": "捕获帕鲁后, 在基地分配工作指派",
-      "painPoint": "传统宝可梦游戏仅用于战斗, 生存建造游戏缺乏有趣的劳动单位",
-      "experienceGoal": "融合宝可梦收集养成与生存建造的乐趣, 创造\"使唤怪物工作\"的爽感",
-      "similarMechanisms": [
-        {
-          "game": "宝可梦战斗系统",
-          "mechanism": ",  方舟生存进化恐龙伙伴 ,  泰拉瑞亚NPC"
-        }
-      ],
-      "demo": "*(待补充GIF, 视频)*",
+      "trigger": "捕获帕鲁后，在基地分配工作指派",
+      "painPoint": "传统宝可梦游戏仅用于战斗，生存建造游戏缺乏有趣的劳动单位",
+      "experienceGoal": "融合宝可梦收集养成与生存建造的乐趣，创造\"使唤怪物工作\"的爽感",
+      "similarMechanisms": [],
+      "demo": "*(待补充GIF、视频)*",
       "filename": "[Qualify]pal-labor-system.md",
       "source": "人工",
-      "flatTags": [
-        "特色机制-帕鲁劳动系统",
-        "内容枯竭痛点"
-      ],
-      "specialMechanisms": [
-        "特色机制-帕鲁劳动系统"
-      ],
-      "painPoints": [
-        "内容枯竭痛点"
-      ],
-      "playLevelTags": [
-        "PVE",
-        "可重复",
-        "Endgame",
-        "即时操作",
-        "长时间（>60分钟）",
-        "核心玩法",
-        "高耦合"
-      ]
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1623730/header.jpg"
     },
-    "PathOfExile/ARPG-流放之路-技能天赋.md": {
-      "title": "[ARPG]-流放之路-技能天赋",
-      "gameName": "Path of Exile ,  流放之路",
+    "PathOfExile/[Excellent][ARPG]-PathOfExile-技能宝石系统.md": {
+      "title": "[ARPG]-PathOfExile-技能宝石系统",
+      "gameName": "Path of Exile / 流放之路",
       "tags": [],
-      "simpleDesc": "给技能装备不同的天赋宝石, 改变技能的释放逻辑, 形态和功能效果",
-      "mechanismDesc": "> 1. 触发：不同的技能上可以装配不同形状类型的天赋宝石孔位\n> 2. 交互：在孔位插入天赋宝石\n> 3. 生效：根据天赋宝石的类型和效果, 改变技能逻辑",
+      "simpleDesc": "玩家通过在技能上镶嵌不同类型的功能宝石，让同一个技能产生完全不同的效果，实现\"我的技能我做主\"的高度定制化体验",
+      "mechanismDesc": "> 1. 每个技能有固定形状的宝石孔位（圆形/方形/菱形等）\n> 2. 玩家可将对应形状的天赋宝石镶嵌到孔位中\n> 3. 天赋宝石分为三大类：力量（红）、智慧（蓝）、敏捷（绿）\n> 4. 不同宝石组合会改变技能的：释放方式、伤害类型、范围形态、附加效果\n> 5. 同一个技能，镶嵌不同宝石可产生数十种完全不同的玩法变体",
       "coreRules": "",
-      "trigger": "在技能天赋空位上插入天赋宝石",
-      "painPoint": "解决技能固定化的限制",
-      "experienceGoal": "实现\"我的技能我做主\"的高度定制化成就感",
+      "trigger": "玩家在技能栏的宝石孔位上镶嵌天赋宝石",
+      "painPoint": "解决技能固定化、缺乏变化的核心痛点",
+      "experienceGoal": "带给玩家\"我的技能我做主\"的高度定制化成就感，让每个玩家的技能都是独一无二的",
       "similarMechanisms": [
         {
           "game": "暗黑破坏神",
@@ -18677,48 +19631,62 @@
           "mechanism": "技能组合释放"
         }
       ],
-      "demo": "",
-      "filename": "ARPG-流放之路-技能天赋.md",
+      "demo": "（待补充）",
+      "filename": "[Excellent][ARPG]-PathOfExile-技能宝石系统.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/238960/header.jpg",
       "mechanismDesignByCategory": {
+        "category": [
+          "RPG-ARPG"
+        ],
         "fun": [
           "策略",
-          "竞技"
+          "成长变强"
         ],
         "emotion": [
-          "紧张感"
+          "成就感"
         ],
         "interaction": [
-          "对抗"
+          "无交互"
         ]
       },
       "flatTags": [
+        "RPG-ARPG",
         "策略",
-        "竞技",
-        "紧张感",
-        "对抗"
+        "成长变强",
+        "成就感",
+        "无交互",
+        "技能宝石系统",
+        "BD构筑",
+        "认知负担-学习曲线（系统复杂，上手难度高）"
       ],
       "mechanismDesign": [
+        "RPG-ARPG",
         "策略",
-        "竞技",
-        "紧张感",
-        "对抗"
+        "成长变强",
+        "成就感",
+        "无交互",
+        "技能宝石系统",
+        "BD构筑",
+        "认知负担-学习曲线（系统复杂，上手难度高）"
       ],
-      "mechanismDesignCategory": [],
+      "mechanismDesignCategory": [
+        "RPG-ARPG"
+      ],
       "mechanismDesignFun": [
         "策略",
-        "竞技"
+        "成长变强"
       ],
       "mechanismDesignEmotion": [
-        "紧张感"
+        "成就感"
       ],
       "mechanismDesignInteraction": [
-        "对抗"
+        "无交互"
       ],
       "playLevelTags": [
+        "PVE",
         "单局1人",
         "单人玩法",
-        "PVP",
         "可重复",
         "Endgame",
         "即时操作",
@@ -19488,6 +20456,21 @@
         "高耦合"
       ]
     },
+    "R6Siege/R6Siege-游戏拆解.md": {
+      "title": "彩虹六号：围攻 - 游戏拆解分析",
+      "gameName": "",
+      "tags": [],
+      "simpleDesc": "",
+      "mechanismDesc": "",
+      "coreRules": "",
+      "trigger": "",
+      "painPoint": "",
+      "experienceGoal": "",
+      "similarMechanisms": [],
+      "demo": "",
+      "filename": "R6Siege-游戏拆解.md",
+      "source": "人工"
+    },
     "R6Siege/[Qualify]FPS-R6Siege-干员技能系统.md": {
       "title": "[FPS]-R6Siege-干员技能系统",
       "gameName": "彩虹六号：围攻",
@@ -19510,7 +20493,8 @@
       ],
       "demo": "",
       "filename": "[Qualify]FPS-R6Siege-干员技能系统.md",
-      "source": "AI生成-已甄别",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/359550/header.jpg",
       "flatTags": [
         "特色机制-干员技能系统",
         "内容枯竭痛点"
@@ -20033,16 +21017,16 @@
       "filename": "[Qualify]模拟经营-过山车大亨3-设施编辑器.md",
       "source": "AI生成-已甄别"
     },
-    "Rust/[生存沙盒]-RUST-基地建造.md": {
-      "title": "[生存沙盒]-RUST-基地建造",
-      "gameName": "Rust ,  腐蚀",
+    "Rust/[Excellent][生存沙盒]-Rust-基地建造.md": {
+      "title": "[生存沙盒]-[Rust]-[基地建造]",
+      "gameName": "Rust",
       "tags": [],
-      "simpleDesc": "\"像搭乐高积木盖堡垒, 但每一块都能被炸药炸碎, 你要设计迷宫, 多层防御来最大化敌人破防成本\"",
-      "mechanismDesc": "> 玩家用采集的资源制作建筑方块, 在开放世界中自由拼接成基地；建筑有耐久与材质等级, 升级材质可提升抗爆能力",
+      "simpleDesc": "\"像搭乐高积木盖堡垒，但每一块都能被炸药炸碎，你要设计迷宫、多层防御来最大化敌人破防成本\"",
+      "mechanismDesc": "玩家用采集的资源制作建筑方块，在开放世界中自由拼接成基地；建筑有耐久与材质等级，升级材质可提升抗爆能力。\n\n玩家拥有建造锤子与对应资源后，进入建造模式放置、升级、拆除建筑。建筑可被敌人用爆炸物摧毁，创造出PVP对抗中的防御博弈空间。",
       "coreRules": "",
-      "trigger": "玩家拥有建造锤子与对应资源, 进入建造模式放置, 升级, 拆除建筑",
-      "painPoint": "解决生存游戏中\"无固定家园\"的漂泊感, 提供长期进度沉淀载体",
-      "experienceGoal": "提供\"家园归属感\"与\"防御成就感\", 让玩家通过精心设计的基地布局对抗掠夺",
+      "trigger": "- 玩家拥有建造锤子与对应资源",
+      "painPoint": "- 解决生存游戏中\"无固定家园\"的漂泊感",
+      "experienceGoal": "- 提供\"家园归属感\"与\"防御成就感\"",
       "similarMechanisms": [
         {
           "game": "Minecraft",
@@ -20055,50 +21039,78 @@
         {
           "game": "Valheim",
           "mechanism": "基地建造与升级"
+        },
+        {
+          "game": "The Forest",
+          "mechanism": "建造防御系统"
         }
       ],
-      "demo": "",
-      "filename": "[生存沙盒]-RUST-基地建造.md",
+      "demo": "https://www.youtube.com/watch?v=R5c5cD6Q7E8",
+      "filename": "[Excellent][生存沙盒]-Rust-基地建造.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/252490/header.jpg",
       "mechanismDesignByCategory": {
+        "category": [
+          "生存沙盒"
+        ],
         "fun": [
           "策略",
-          "竞技"
+          "创造"
         ],
         "emotion": [
-          "紧张感"
+          "成就感"
         ],
         "interaction": [
           "对抗"
         ]
       },
       "flatTags": [
+        "生存沙盒",
         "策略",
-        "竞技",
-        "紧张感",
-        "对抗"
+        "创造",
+        "成就感",
+        "对抗",
+        "方块建造",
+        "可摧毁建筑",
+        "材质升级",
+        "防御设计",
+        "漂泊感痛点（无固定家园）",
+        "进度丢失痛点",
+        "资源沉淀痛点"
+      ],
+      "painPoints": [
+        "漂泊感痛点（无固定家园）",
+        "进度丢失痛点",
+        "资源沉淀痛点"
       ],
       "mechanismDesign": [
+        "生存沙盒",
         "策略",
-        "竞技",
-        "紧张感",
-        "对抗"
+        "创造",
+        "成就感",
+        "对抗",
+        "方块建造",
+        "可摧毁建筑",
+        "材质升级",
+        "防御设计"
       ],
-      "mechanismDesignCategory": [],
+      "mechanismDesignCategory": [
+        "生存沙盒"
+      ],
       "mechanismDesignFun": [
         "策略",
-        "竞技"
+        "创造"
       ],
       "mechanismDesignEmotion": [
-        "紧张感"
+        "成就感"
       ],
       "mechanismDesignInteraction": [
         "对抗"
       ],
       "playLevelTags": [
+        "PVP",
         "单局1人/最多10人",
         "单人玩法",
-        "PVP",
         "可重复",
         "Endgame",
         "即时操作",
@@ -20325,79 +21337,26 @@
         "高耦合"
       ]
     },
-    "SanGuoZhanLue/[SLG]-三国志战略版-动态地图.md": {
-      "title": "[SLG]-三国志战略版-动态地图",
+    "SanGuoZhanLue/[SLG]-SanGuoZhanLue-动态地图.md": {
+      "title": "[SLG]-SanGuoZhanLue-动态地图",
       "gameName": "三国志战略版",
       "tags": [],
-      "simpleDesc": "有规律的周期性改变战场地形, 打开战场连通性, 迫使玩家打破传统战术方案, 根据地形改变实时制定专门的进攻, 防御计划",
-      "mechanismDesc": "> 1. 触发：随现实时间周期性触发（如每n天将战场指定区域由陆地变为水域）\n> 2. 交互：被动交互, 区域内陆战强制变为水战, 玩家需要实时调配队伍&战船\n> 3. 生效：改变地图通行规则（阻挡, 通过）",
+      "simpleDesc": "随时间周期性改变战场地形，打开/封锁地图路线，强制玩家根据地形变化实时调整战术",
+      "mechanismDesc": "> 1. 触发：随现实时间周期性触发（如每n天将战场指定区域由陆地变为水域）\n> 2. 交互：被动交互，区域内陆战强制变为水战，玩家需要实时调配队伍&战船\n> 3. 生效：改变地图通行规则（阻挡/通过）",
       "coreRules": "",
       "trigger": "区域降雨量达到阈值（各区域的每日降雨量随机）",
-      "painPoint": "解决\"地缘僵化\"。传统SLG地图是静态的, 关卡和码头一旦被堵死, 战局易陷入长期的拉锯战或垃圾时间。通过动态地图调整地图连通性, 让劣势方有机会利用\"天时地利\"打破僵局",
-      "experienceGoal": "还原\"天时地利\"的真实战争感。强制玩家跳出固定思维（如只能走码头, 关卡）, 利用环境变化创造\"奇袭\"高光（如：趁涨汛期无险可守直捣黄龙）, 增加战场的不可预测性和翻盘点",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[SLG]-三国志战略版-动态地图.md",
+      "painPoint": "解决\"地缘僵化\"。传统SLG地图是静态的，关卡和码头一旦被堵死，战局易陷入长期的拉锯战或垃圾时间。通过动态地图调整地图连通性，让劣势方有机会利用\"天时地利\"打破僵局",
+      "experienceGoal": "还原\"天时地利\"的真实战争感。强制玩家跳出固定思维（如只能走码头、关卡），利用环境变化创造\"奇袭\"高光（如：趁涨汛期无险可守直捣黄龙），增加战场的不可预测性和翻盘点",
+      "similarMechanisms": [
+        {
+          "game": "三国志战略版",
+          "mechanism": "动态天气与季节系统"
+        }
+      ],
+      "demo": "（待补充）",
+      "filename": "[SLG]-SanGuoZhanLue-动态地图.md",
       "source": "人工",
-      "mechanismDesignByCategory": {
-        "category": [
-          "策略-SLG"
-        ],
-        "fun": [
-          "策略",
-          "挑战"
-        ],
-        "emotion": [
-          "紧张感"
-        ],
-        "interaction": [
-          "对抗"
-        ]
-      },
-      "flatTags": [
-        "策略-SLG",
-        "策略",
-        "挑战",
-        "紧张感",
-        "对抗",
-        "动态地图系统",
-        "时间成本痛点"
-      ],
-      "painPoints": [
-        "时间成本痛点"
-      ],
-      "mechanismDesign": [
-        "策略-SLG",
-        "策略",
-        "挑战",
-        "紧张感",
-        "对抗",
-        "动态地图系统"
-      ],
-      "mechanismDesignCategory": [
-        "策略-SLG"
-      ],
-      "mechanismDesignFun": [
-        "策略",
-        "挑战"
-      ],
-      "mechanismDesignEmotion": [
-        "紧张感"
-      ],
-      "mechanismDesignInteraction": [
-        "对抗"
-      ],
-      "playLevelTags": [
-        "单局联盟GVG",
-        "多人玩法",
-        "PVP",
-        "周期性",
-        "Endgame",
-        "半即时操作",
-        "长时间（>60分钟）",
-        "核心玩法",
-        "高耦合"
-      ]
+      "coverImage": "https://play-lh.googleusercontent.com/43GX_yA_oapgNQpjKPKSCGGkOT3yF8S98cvjHlIzvvx2QZ5_xaVSvPwqIfX6w7Fp5NsuCYt-2BPW1JAHHOOK"
     },
     "SanGuoZhanLue/[SLG]-三国志战略版-季节主题玩法.md": {
       "title": "[SLG]-三国志战略版-季节主题玩法",
@@ -22055,10 +23014,16 @@
       "trigger": "玩家进入地图后一定范围内有其他玩家",
       "painPoint": "解决传统游戏社交变成\"功能索取\"的问题——加好友、组队要装备",
       "experienceGoal": "创造\"赠人玫瑰，手有余香\"的温暖体验，让社交回归情感本质",
-      "similarMechanisms": [],
-      "demo": "",
+      "similarMechanisms": [
+        {
+          "game": "游戏名",
+          "mechanism": "机制名"
+        }
+      ],
+      "demo": "https://example.com/demo.gif",
       "filename": "[Excellent]冒险社交-SkyChildrenOfTheLight-陌生人社交系统.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1294300/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "冒险社交"
@@ -22080,13 +23045,9 @@
         "探索",
         "治愈/放松",
         "合作",
-        "特色机制-陌生人点亮",
-        "特色机制-蜡烛馈赠",
+        "陌生人点亮",
+        "蜡烛馈赠",
         "社交压力痛点"
-      ],
-      "specialMechanisms": [
-        "特色机制-陌生人点亮",
-        "特色机制-蜡烛馈赠"
       ],
       "painPoints": [
         "社交压力痛点"
@@ -22096,7 +23057,9 @@
         "社交",
         "探索",
         "治愈/放松",
-        "合作"
+        "合作",
+        "陌生人点亮",
+        "蜡烛馈赠"
       ],
       "mechanismDesignCategory": [
         "冒险社交"
@@ -22112,11 +23075,13 @@
         "合作"
       ],
       "playLevelTags": [
-        "无对抗（PVE）",
-        "可重复（持续运营）",
+        "PVE",
+        "单局2人",
+        "双人玩法",
+        "可重复",
         "持续运营",
-        "放置操作（轻操作）",
-        "碎片化（5-15分钟）",
+        "放置操作",
+        "碎片化（3-10分钟）",
         "轻度玩法",
         "低耦合"
       ]
@@ -22595,39 +23560,26 @@
         "高耦合"
       ]
     },
-    "StardewValley/[Qualify]TimeManagement.md": {
-      "title": "[模拟经营]-星露谷物语-时间资源管理",
+    "StardewValley/[Qualify][模拟经营]-StardewValley-时间资源管理.md": {
+      "title": "[模拟经营]-StardewValley-时间资源管理",
       "gameName": "星露谷物语",
       "tags": [],
-      "simpleDesc": "每天只有这么多体力, 干太多活就累倒。不同季节作物生长时间不同, 冬天没东西种——和时间赛跑是核心挑战。",
-      "mechanismDesc": "游戏有双重时间约束：",
+      "simpleDesc": "每天体力有限，干太多活会累倒；不同季节作物生长时间不同，冬天无法耕种——玩家必须在时间约束下规划每天和每季的活动优先级。",
+      "mechanismDesc": "游戏设计了双重时间约束来制造紧迫感和规划深度：",
       "coreRules": "",
-      "trigger": "- 每次使用体力时",
-      "painPoint": "开放世界游戏容易\"想做太多但不知道干嘛\", 缺乏目标紧迫感",
-      "experienceGoal": "让玩家在约束中做选择——不是\"都能做\", 而是\"应该先做哪个\"",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[Qualify]TimeManagement.md",
+      "trigger": "- 每次执行消耗体力的行动时",
+      "painPoint": "开放世界农场游戏容易出现\"想做太多但不知道干嘛\"的迷茫感，缺乏目标紧迫感和优先级判断",
+      "experienceGoal": "让玩家在约束中做选择——不是\"什么都能做\"，而是\"应该先做哪个\"。通过体力限制制造\"不够用\"的紧迫感，通过季节循环制造\"错过等一年\"的错失感",
+      "similarMechanisms": [
+        {
+          "game": "星露谷物语",
+          "mechanism": "多维技能系统（同一游戏的另一机制）"
+        }
+      ],
+      "demo": "游戏内时间流逝演示：玩家在一天中奔跑赶时间https://www.youtube.com/watch?v=6lR2vjJ5b8Q",
+      "filename": "[Qualify][模拟经营]-StardewValley-时间资源管理.md",
       "source": "人工",
-      "flatTags": [
-        "特色机制-时间资源管理",
-        "内容枯竭痛点"
-      ],
-      "specialMechanisms": [
-        "特色机制-时间资源管理"
-      ],
-      "painPoints": [
-        "内容枯竭痛点"
-      ],
-      "playLevelTags": [
-        "PVE",
-        "周期性",
-        "Endgame",
-        "即时操作",
-        "中规中矩（10-60分钟）",
-        "核心玩法",
-        "高耦合"
-      ]
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/413150/header.jpg"
     },
     "StardewValley/[Qualify]模拟经营-StardewValley-多维技能系统.md": {
       "title": "[模拟经营]-星露谷物语-多维技能系统",
@@ -23007,7 +23959,7 @@
       ],
       "playLevelTags": [
         "PVE",
-        "一次性",
+        "可重复",
         "Endgame",
         "回合操作",
         "中规中矩（10-60分钟）",
@@ -23714,81 +24666,7 @@
         "高耦合"
       ]
     },
-    "TeamfightTactics/[Qualify]HaikesiQianghuaXitong.md": {
-      "title": "[自走棋]-云顶之弈-海克斯强化系统",
-      "gameName": "云顶之弈",
-      "tags": [],
-      "simpleDesc": "每回合随机给你三个\"天赋选择\", 选对了能瞬间逆转局势",
-      "mechanismDesc": "海克斯强化是云顶之弈独有的全局增益系统。每回合玩家可从三个随机海克斯中选择一个。海克斯效果多样：提供金币, 装备, 临时羁绊, 全局增益等。部分海克斯是阵营专属",
-      "coreRules": "",
-      "trigger": "- 4回合后首次出现",
-      "painPoint": "解决同质化阵容对战问题, 通过随机变数增加每局体验差异",
-      "experienceGoal": "制造\"刷到神级海克斯\"的惊喜感, 同时考验玩家根据随机资源调整策略的能力",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[Qualify]HaikesiQianghuaXitong.md",
-      "source": "人工",
-      "mechanismDesignByCategory": {
-        "category": [
-          "策略-SLG"
-        ],
-        "fun": [
-          "策略",
-          "竞技"
-        ],
-        "emotion": [
-          "紧张感"
-        ],
-        "interaction": [
-          "对抗"
-        ]
-      },
-      "flatTags": [
-        "策略-SLG",
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗",
-        "策略深度痛点",
-        "自由度痛点"
-      ],
-      "painPoints": [
-        "策略深度痛点",
-        "自由度痛点"
-      ],
-      "mechanismDesign": [
-        "策略-SLG",
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗"
-      ],
-      "mechanismDesignCategory": [
-        "策略-SLG"
-      ],
-      "mechanismDesignFun": [
-        "策略",
-        "竞技"
-      ],
-      "mechanismDesignEmotion": [
-        "紧张感"
-      ],
-      "mechanismDesignInteraction": [
-        "对抗"
-      ],
-      "playLevelTags": [
-        "单局8人",
-        "多人玩法",
-        "PVP",
-        "可重复",
-        "Endgame",
-        "即时操作",
-        "中规中矩（10-60分钟）",
-        "核心玩法",
-        "高耦合"
-      ]
-    },
-    "TeamfightTactics/[Qualify][策略]-TeamfightTactics-羁绊组合系统.md": {
+    "TeamfightTactics/[Qualify][策略]-云顶之弈-羁绊组合系统.md": {
       "title": "[策略]-[云顶之弈]-羁绊组合系统",
       "gameName": "云顶之弈",
       "tags": [],
@@ -23798,10 +24676,16 @@
       "trigger": "- 3个同种族/职业 → 1级效果",
       "painPoint": "- 解决阵容构建缺乏方向的问题",
       "experienceGoal": "- 收集乐趣：凑齐羁绊的满足感",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[Qualify][策略]-TeamfightTactics-羁绊组合系统.md",
+      "similarMechanisms": [
+        {
+          "game": "刀塔自走棋",
+          "mechanism": "羁绊系统"
+        }
+      ],
+      "demo": "暂无",
+      "filename": "[Qualify][策略]-云顶之弈-羁绊组合系统.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://play-lh.googleusercontent.com/L9XQPMiJ8Wa8pPNzU5hsJAnOqFhnmLT-uM063OytGbwJKjx6Wys75NVdg_rira7D7xGr",
       "mechanismDesignByCategory": {
         "category": [
           "策略-自走棋"
@@ -23860,162 +24744,7 @@
         "高耦合"
       ]
     },
-    "TeamfightTactics/[Qualify]共享选秀轮盘.md": {
-      "title": "[自走棋]-[云顶之弈]-共享选秀轮盘",
-      "gameName": "云顶之弈",
-      "tags": [],
-      "simpleDesc": "就像NBA选秀一样, 成绩差的队伍优先选人, 给落后者翻盘机会",
-      "mechanismDesc": "共享选秀是云顶之弈最具特色的机制创新。每隔6个回合, 所有玩家进入选秀环节, 从一个共享的随机棋子池中选择一个棋子。\n\n- 选秀轮盘：所有玩家被传送到选秀岛\n- 落后优先：当前血量越低, 选择顺序越靠前\n- 装备选秀：选秀棋子可能自带装备\n- 开局选秀：第一回合就是选秀环节",
-      "coreRules": "",
-      "trigger": "- 选秀回合：每6个回合一次",
-      "painPoint": "- 减少运气不好导致的纯碾压局面",
-      "experienceGoal": "- 翻盘快感：落后时获得好选择的机会",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[Qualify]共享选秀轮盘.md",
-      "source": "人工",
-      "mechanismDesignByCategory": {
-        "category": [
-          "策略-SLG"
-        ],
-        "fun": [
-          "策略",
-          "竞技"
-        ],
-        "emotion": [
-          "紧张感"
-        ],
-        "interaction": [
-          "对抗"
-        ]
-      },
-      "flatTags": [
-        "策略-SLG",
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗",
-        "内容枯竭痛点"
-      ],
-      "painPoints": [
-        "内容枯竭痛点"
-      ],
-      "mechanismDesign": [
-        "策略-SLG",
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗"
-      ],
-      "mechanismDesignCategory": [
-        "策略-SLG"
-      ],
-      "mechanismDesignFun": [
-        "策略",
-        "竞技"
-      ],
-      "mechanismDesignEmotion": [
-        "紧张感"
-      ],
-      "mechanismDesignInteraction": [
-        "对抗"
-      ],
-      "playLevelTags": [
-        "单局8人",
-        "多人玩法",
-        "PvPvE",
-        "可重复",
-        "Endgame",
-        "即时操作",
-        "中规中矩（10-60分钟）",
-        "核心玩法",
-        "高耦合"
-      ]
-    },
-    "TeamfightTactics/[Qualify]利息经济系统.md": {
-      "title": "[自走棋]-[云顶之弈]-利息经济系统",
-      "gameName": "云顶之弈",
-      "tags": [],
-      "simpleDesc": "就像银行存钱拿利息一样，存的金币越多，每回合获得的利息越多",
-      "mechanismDesc": "利息系统是自走棋经济系统的核心，激励玩家进行长期经济规划。\n\n- 利息计算：每拥有10金币，获得1金币利息\n- 利息上限：最多5金币/回合（50金币存款）\n- 额外来源：连胜、连败获得额外金币奖励\n- 基础收入：每回合固定获得金币",
-      "coreRules": "",
-      "trigger": "- 每回合开始时结算利息",
-      "painPoint": "- 避免玩家无脑D棋（刷新棋子）过度消费",
-      "experienceGoal": "- 规划感：存钱VS消费的策略选择",
-      "similarMechanisms": [
-        {
-          "game": "游戏王",
-          "mechanism": "抽卡资源积累"
-        },
-        {
-          "game": "皇室战争",
-          "mechanism": "圣水回复机制"
-        }
-      ],
-      "demo": "",
-      "filename": "[Qualify]利息经济系统.md",
-      "source": "AI生成-已甄别",
-      "mechanismDesignByCategory": {
-        "category": [
-          "策略-SLG"
-        ],
-        "fun": [
-          "策略",
-          "竞技"
-        ],
-        "emotion": [
-          "紧张感"
-        ],
-        "interaction": [
-          "对抗"
-        ]
-      },
-      "flatTags": [
-        "策略-SLG",
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗",
-        "利息经济系统",
-        "策略深度痛点"
-      ],
-      "painPoints": [
-        "策略深度痛点"
-      ],
-      "mechanismDesign": [
-        "策略-SLG",
-        "策略",
-        "竞技",
-        "紧张感",
-        "对抗",
-        "利息经济系统"
-      ],
-      "mechanismDesignCategory": [
-        "策略-SLG"
-      ],
-      "mechanismDesignFun": [
-        "策略",
-        "竞技"
-      ],
-      "mechanismDesignEmotion": [
-        "紧张感"
-      ],
-      "mechanismDesignInteraction": [
-        "对抗"
-      ],
-      "playLevelTags": [
-        "PVP",
-        "单局8人",
-        "多人玩法",
-        "可重复",
-        "Endgame",
-        "半即时操作",
-        "中规中矩（10-60分钟）",
-        "核心玩法",
-        "高耦合"
-      ]
-    },
-    "TeamfightTactics/[Qualify]自走棋-TeamfightTactics-公共牌池抓取.md": {
+    "TeamfightTactics/[Qualify]自走棋-云顶之弈-公共牌池抓取.md": {
       "title": "[自走棋]-[云顶之弈]-公共牌池抓取",
       "gameName": "云顶之弈",
       "tags": [],
@@ -24035,9 +24764,10 @@
           "mechanism": "公共牌池机制"
         }
       ],
-      "demo": "",
-      "filename": "[Qualify]自走棋-TeamfightTactics-公共牌池抓取.md",
+      "demo": "暂无",
+      "filename": "[Qualify]自走棋-云顶之弈-公共牌池抓取.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://play-lh.googleusercontent.com/L9XQPMiJ8Wa8pPNzU5hsJAnOqFhnmLT-uM063OytGbwJKjx6Wys75NVdg_rira7D7xGr",
       "mechanismDesignByCategory": {
         "category": [
           "策略-自走棋"
@@ -24102,7 +24832,253 @@
         "高耦合"
       ]
     },
-    "TeamfightTactics/[Qualify]装备合成系统.md": {
+    "TeamfightTactics/[Qualify]自走棋-云顶之弈-共享选秀轮盘.md": {
+      "title": "[自走棋]-[云顶之弈]-共享选秀轮盘",
+      "gameName": "云顶之弈",
+      "tags": [],
+      "simpleDesc": "就像NBA选秀一样, 成绩差的队伍优先选人, 给落后者翻盘机会",
+      "mechanismDesc": "共享选秀是云顶之弈最具特色的机制创新。每隔6个回合, 所有玩家进入选秀环节, 从一个共享的随机棋子池中选择一个棋子。\n\n- 选秀轮盘：所有玩家被传送到选秀岛\n- 落后优先：当前血量越低, 选择顺序越靠前\n- 装备选秀：选秀棋子可能自带装备\n- 开局选秀：第一回合就是选秀环节",
+      "coreRules": "",
+      "trigger": "- 选秀回合：每6个回合一次",
+      "painPoint": "- 减少运气不好导致的纯碾压局面",
+      "experienceGoal": "- 翻盘快感：落后时获得好选择的机会",
+      "similarMechanisms": [
+        {
+          "game": "金铲铲之战",
+          "mechanism": "共享选秀轮盘"
+        }
+      ],
+      "demo": "暂无",
+      "filename": "[Qualify]自走棋-云顶之弈-共享选秀轮盘.md",
+      "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/L9XQPMiJ8Wa8pPNzU5hsJAnOqFhnmLT-uM063OytGbwJKjx6Wys75NVdg_rira7D7xGr",
+      "mechanismDesignByCategory": {
+        "category": [
+          "策略-SLG"
+        ],
+        "fun": [
+          "策略",
+          "竞技"
+        ],
+        "emotion": [
+          "紧张感"
+        ],
+        "interaction": [
+          "对抗"
+        ]
+      },
+      "flatTags": [
+        "策略-SLG",
+        "策略",
+        "竞技",
+        "紧张感",
+        "对抗",
+        "内容枯竭痛点"
+      ],
+      "painPoints": [
+        "内容枯竭痛点"
+      ],
+      "mechanismDesign": [
+        "策略-SLG",
+        "策略",
+        "竞技",
+        "紧张感",
+        "对抗"
+      ],
+      "mechanismDesignCategory": [
+        "策略-SLG"
+      ],
+      "mechanismDesignFun": [
+        "策略",
+        "竞技"
+      ],
+      "mechanismDesignEmotion": [
+        "紧张感"
+      ],
+      "mechanismDesignInteraction": [
+        "对抗"
+      ],
+      "playLevelTags": [
+        "单局8人",
+        "多人玩法",
+        "PvPvE",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "中规中矩（10-60分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
+    },
+    "TeamfightTactics/[Qualify]自走棋-云顶之弈-利息经济系统.md": {
+      "title": "[自走棋]-[云顶之弈]-利息经济系统",
+      "gameName": "云顶之弈",
+      "tags": [],
+      "simpleDesc": "就像银行存钱拿利息一样，存的金币越多，每回合获得的利息越多",
+      "mechanismDesc": "利息系统是自走棋经济系统的核心，激励玩家进行长期经济规划。\n\n- 利息计算：每拥有10金币，获得1金币利息\n- 利息上限：最多5金币/回合（50金币存款）\n- 额外来源：连胜、连败获得额外金币奖励\n- 基础收入：每回合固定获得金币",
+      "coreRules": "",
+      "trigger": "- 每回合开始时结算利息",
+      "painPoint": "- 避免玩家无脑D棋（刷新棋子）过度消费",
+      "experienceGoal": "- 规划感：存钱VS消费的策略选择",
+      "similarMechanisms": [
+        {
+          "game": "刀塔自走棋",
+          "mechanism": "金币利息系统"
+        },
+        {
+          "game": "游戏王",
+          "mechanism": "抽卡资源积累"
+        },
+        {
+          "game": "皇室战争",
+          "mechanism": "圣水回复机制"
+        }
+      ],
+      "demo": "暂无",
+      "filename": "[Qualify]自走棋-云顶之弈-利息经济系统.md",
+      "source": "AI生成-已甄别",
+      "coverImage": "https://play-lh.googleusercontent.com/L9XQPMiJ8Wa8pPNzU5hsJAnOqFhnmLT-uM063OytGbwJKjx6Wys75NVdg_rira7D7xGr",
+      "mechanismDesignByCategory": {
+        "category": [
+          "策略-SLG"
+        ],
+        "fun": [
+          "策略",
+          "竞技"
+        ],
+        "emotion": [
+          "紧张感"
+        ],
+        "interaction": [
+          "对抗"
+        ]
+      },
+      "flatTags": [
+        "策略-SLG",
+        "策略",
+        "竞技",
+        "紧张感",
+        "对抗",
+        "利息经济系统",
+        "策略深度痛点"
+      ],
+      "painPoints": [
+        "策略深度痛点"
+      ],
+      "mechanismDesign": [
+        "策略-SLG",
+        "策略",
+        "竞技",
+        "紧张感",
+        "对抗",
+        "利息经济系统"
+      ],
+      "mechanismDesignCategory": [
+        "策略-SLG"
+      ],
+      "mechanismDesignFun": [
+        "策略",
+        "竞技"
+      ],
+      "mechanismDesignEmotion": [
+        "紧张感"
+      ],
+      "mechanismDesignInteraction": [
+        "对抗"
+      ],
+      "playLevelTags": [
+        "PVP",
+        "单局8人",
+        "多人玩法",
+        "可重复",
+        "Endgame",
+        "半即时操作",
+        "中规中矩（10-60分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
+    },
+    "TeamfightTactics/[Qualify]自走棋-云顶之弈-海克斯强化系统.md": {
+      "title": "[自走棋]-[云顶之弈]-海克斯强化系统",
+      "gameName": "云顶之弈",
+      "tags": [],
+      "simpleDesc": "每回合随机给你三个\"天赋选择\", 选对了能瞬间逆转局势",
+      "mechanismDesc": "海克斯强化是云顶之弈独有的全局增益系统。每回合玩家可从三个随机海克斯中选择一个。海克斯效果多样：提供金币, 装备, 临时羁绊, 全局增益等。部分海克斯是阵营专属",
+      "coreRules": "",
+      "trigger": "- 4回合后首次出现",
+      "painPoint": "解决同质化阵容对战问题, 通过随机变数增加每局体验差异",
+      "experienceGoal": "制造\"刷到神级海克斯\"的惊喜感, 同时考验玩家根据随机资源调整策略的能力",
+      "similarMechanisms": [
+        {
+          "game": "金铲铲之战",
+          "mechanism": "海克斯强化系统"
+        }
+      ],
+      "demo": "暂无",
+      "filename": "[Qualify]自走棋-云顶之弈-海克斯强化系统.md",
+      "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/L9XQPMiJ8Wa8pPNzU5hsJAnOqFhnmLT-uM063OytGbwJKjx6Wys75NVdg_rira7D7xGr",
+      "mechanismDesignByCategory": {
+        "category": [
+          "策略-SLG"
+        ],
+        "fun": [
+          "策略",
+          "竞技"
+        ],
+        "emotion": [
+          "紧张感"
+        ],
+        "interaction": [
+          "对抗"
+        ]
+      },
+      "flatTags": [
+        "策略-SLG",
+        "策略",
+        "竞技",
+        "紧张感",
+        "对抗",
+        "策略深度痛点",
+        "自由度痛点"
+      ],
+      "painPoints": [
+        "策略深度痛点",
+        "自由度痛点"
+      ],
+      "mechanismDesign": [
+        "策略-SLG",
+        "策略",
+        "竞技",
+        "紧张感",
+        "对抗"
+      ],
+      "mechanismDesignCategory": [
+        "策略-SLG"
+      ],
+      "mechanismDesignFun": [
+        "策略",
+        "竞技"
+      ],
+      "mechanismDesignEmotion": [
+        "紧张感"
+      ],
+      "mechanismDesignInteraction": [
+        "对抗"
+      ],
+      "playLevelTags": [
+        "单局8人",
+        "多人玩法",
+        "PVP",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "中规中矩（10-60分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
+    },
+    "TeamfightTactics/[Qualify]自走棋-云顶之弈-装备合成系统.md": {
       "title": "[自走棋]-[云顶之弈]-装备合成系统",
       "gameName": "云顶之弈",
       "tags": [],
@@ -24122,9 +25098,10 @@
           "mechanism": "装备合成系统"
         }
       ],
-      "demo": "",
-      "filename": "[Qualify]装备合成系统.md",
+      "demo": "暂无",
+      "filename": "[Qualify]自走棋-云顶之弈-装备合成系统.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://play-lh.googleusercontent.com/L9XQPMiJ8Wa8pPNzU5hsJAnOqFhnmLT-uM063OytGbwJKjx6Wys75NVdg_rira7D7xGr",
       "mechanismDesignByCategory": {
         "category": [
           "策略-自走棋"
@@ -24268,6 +25245,103 @@
         "PVP",
         "单局2人",
         "双人玩法",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "中规中矩（10-60分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
+    },
+    "Terraria/[Qualify][生存沙盒]-Terraria-建造系统.md": {
+      "title": "[生存沙盒]-[Terraria]-[建造系统]",
+      "gameName": "Terraria",
+      "tags": [],
+      "simpleDesc": "\"2D像素版的我的世界建造系统，玩家在有限高度的2D世界中通过采集资源建造房屋、制作家具、搭建防御工事，体验从零开始打造个人天地的自由与乐趣\"",
+      "mechanismDesc": "玩家使用采集的方块资源，在2D横版世界中自由拼接建造房屋、建筑结构、家具装饰和工作站。建造系统与制作系统深度耦合，玩家建造的工作站可以制作更高级的装备和道具。",
+      "coreRules": "",
+      "trigger": "- 玩家拥有建造工具（锤/斧/镐）",
+      "painPoint": "- 解决生存游戏中\"无固定基地\"的漂泊感",
+      "experienceGoal": "- 提供\"创造成就感\"与\"家园归属感\"",
+      "similarMechanisms": [
+        {
+          "game": "Minecraft",
+          "mechanism": "方块建造系统"
+        },
+        {
+          "game": "Rust",
+          "mechanism": "基地建造与升级"
+        },
+        {
+          "game": "Terraria vs Minecraft",
+          "mechanism": "2D vs 3D，横向延展 vs 立体空间"
+        }
+      ],
+      "demo": "",
+      "filename": "[Qualify][生存沙盒]-Terraria-建造系统.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/105600/header.jpg",
+      "mechanismDesignByCategory": {
+        "category": [
+          "生存沙盒"
+        ],
+        "fun": [
+          "策略",
+          "创造"
+        ],
+        "emotion": [
+          "成就感"
+        ],
+        "interaction": [
+          "无交互"
+        ]
+      },
+      "flatTags": [
+        "生存沙盒",
+        "策略",
+        "创造",
+        "成就感",
+        "无交互",
+        "方块建造",
+        "家具装饰",
+        "工作站制作",
+        "垂直探索（空岛/地下）",
+        "漂泊感痛点（无固定家园）",
+        "进度沉淀痛点",
+        "自由创作痛点"
+      ],
+      "painPoints": [
+        "漂泊感痛点（无固定家园）",
+        "进度沉淀痛点",
+        "自由创作痛点"
+      ],
+      "mechanismDesign": [
+        "生存沙盒",
+        "策略",
+        "创造",
+        "成就感",
+        "无交互",
+        "方块建造",
+        "家具装饰",
+        "工作站制作",
+        "垂直探索（空岛/地下）"
+      ],
+      "mechanismDesignCategory": [
+        "生存沙盒"
+      ],
+      "mechanismDesignFun": [
+        "策略",
+        "创造"
+      ],
+      "mechanismDesignEmotion": [
+        "成就感"
+      ],
+      "mechanismDesignInteraction": [
+        "无交互"
+      ],
+      "playLevelTags": [
+        "PVE",
+        "单人/最多8人（P2P联机）",
         "可重复",
         "Endgame",
         "即时操作",
@@ -24528,7 +25602,7 @@
       ]
     },
     "TheForest/[Excellent]FPS-TheForest-洞穴探索系统.md": {
-      "title": "[Excellent][FPS]-TheForest-洞穴探索系统",
+      "title": "[FPS]-TheForest-洞穴探索系统",
       "gameName": "The Forest",
       "tags": [],
       "simpleDesc": "地面只是生存的起点，真正的秘密和危机藏在复杂的地下洞穴网络中",
@@ -24537,55 +25611,76 @@
       "trigger": "- 玩家主动进入洞穴入口",
       "painPoint": "开放世界容易\"一眼看穿\"，缺乏深度和神秘感",
       "experienceGoal": "通过垂直维度扩展探索深度，洞穴的危险性制造紧张感，深处奖励鼓励玩家深入",
-      "similarMechanisms": [],
-      "demo": "",
+      "similarMechanisms": [
+        {
+          "game": "Subnautica",
+          "mechanism": "深海探索系统"
+        },
+        {
+          "game": "Elden Ring",
+          "mechanism": "地下墓穴探索"
+        }
+      ],
+      "demo": "https://example.com/theforest_cave_demo.gif",
       "filename": "[Excellent]FPS-TheForest-洞穴探索系统.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/242760/header.jpg",
       "mechanismDesignByCategory": {
+        "category": [
+          "生存-开放世界"
+        ],
         "fun": [
-          "策略",
-          "竞技"
+          "探索",
+          "挑战"
         ],
         "emotion": [
           "紧张感"
         ],
         "interaction": [
-          "对抗"
+          "无交互"
         ]
       },
       "flatTags": [
-        "策略",
-        "竞技",
+        "生存-开放世界",
+        "探索",
+        "挑战",
         "紧张感",
-        "对抗",
-        "策略深度痛点"
-      ],
-      "painPoints": [
-        "策略深度痛点"
+        "无交互",
+        "垂直地图",
+        "多层结构",
+        "氧气机制",
+        "内容枯竭-后期无聊"
       ],
       "mechanismDesign": [
-        "策略",
-        "竞技",
+        "生存-开放世界",
+        "探索",
+        "挑战",
         "紧张感",
-        "对抗"
+        "无交互",
+        "垂直地图",
+        "多层结构",
+        "氧气机制",
+        "内容枯竭-后期无聊"
       ],
-      "mechanismDesignCategory": [],
+      "mechanismDesignCategory": [
+        "生存-开放世界"
+      ],
       "mechanismDesignFun": [
-        "策略",
-        "竞技"
+        "探索",
+        "挑战"
       ],
       "mechanismDesignEmotion": [
         "紧张感"
       ],
       "mechanismDesignInteraction": [
-        "对抗"
+        "无交互"
       ],
       "playLevelTags": [
+        "PVE",
         "单局1-8人",
         "单人玩法",
         "双人玩法",
         "多人玩法",
-        "PVE",
         "可重复",
         "Endgame",
         "即时操作",
@@ -24604,17 +25699,23 @@
       "trigger": "- 玩家进入野人领地范围",
       "painPoint": "传统生存游戏的敌人多为\"无脑冲锋\"型，容易应对且缺乏紧张感",
       "experienceGoal": "通过智能敌人AI制造持续的心理压力和生存紧张感，让玩家时刻保持警惕",
-      "similarMechanisms": [],
+      "similarMechanisms": [
+        {
+          "game": "SonsOfTheForest",
+          "mechanism": "野人AI系统（续作升级版）"
+        }
+      ],
       "demo": "",
       "filename": "[Excellent]FPS-TheForest-野人AI系统.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/242760/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
-          "策略-SLG"
+          "FPS"
         ],
         "fun": [
           "策略",
-          "竞技"
+          "挑战"
         ],
         "emotion": [
           "紧张感"
@@ -24624,29 +25725,35 @@
         ]
       },
       "flatTags": [
-        "策略-SLG",
+        "FPS",
         "策略",
-        "竞技",
+        "挑战",
         "紧张感",
         "对抗",
+        "智能敌人AI",
+        "行为树系统",
+        "心理压力机制",
         "策略深度痛点"
       ],
       "painPoints": [
         "策略深度痛点"
       ],
       "mechanismDesign": [
-        "策略-SLG",
+        "FPS",
         "策略",
-        "竞技",
+        "挑战",
         "紧张感",
-        "对抗"
+        "对抗",
+        "智能敌人AI",
+        "行为树系统",
+        "心理压力机制"
       ],
       "mechanismDesignCategory": [
-        "策略-SLG"
+        "FPS"
       ],
       "mechanismDesignFun": [
         "策略",
-        "竞技"
+        "挑战"
       ],
       "mechanismDesignEmotion": [
         "紧张感"
@@ -24655,11 +25762,11 @@
         "对抗"
       ],
       "playLevelTags": [
+        "PVE",
         "单局1-8人",
         "单人玩法",
         "双人玩法",
         "多人玩法",
-        "PVE",
         "可重复",
         "Endgame",
         "即时操作",
@@ -25144,50 +26251,30 @@
         "高耦合"
       ]
     },
-    "UnicornOverlord/策略-圣兽之王-可定制战术逻辑系统.md": {
-      "title": "[策略]-圣兽之王-可定制战术逻辑系统",
-      "gameName": "Unicorn Overlord ,  圣兽之王",
+    "UnicornOverlord/[Qualify][策略]-UnicornOverlord-可定制战术逻辑系统.md": {
+      "title": "[策略]-UnicornOverlord-可定制战术逻辑系统",
+      "gameName": "Unicorn Overlord / 圣兽之王",
       "tags": [],
-      "simpleDesc": "战斗全是自动的, 但角色怎么打完全是你\"写\"出来的",
-      "mechanismDesc": "> 1. 条件设定：为角色的每个技能设定触发的先决条件\n> 2. 优先级排序：为设定的多个逻辑条目排序\n> 3. 自动结算：进入战斗后, 系统严格按照玩家编写的逻辑脚本结算",
+      "simpleDesc": "战斗全是自动的，但角色怎么打完全是由玩家通过条件语句（If-Then）与优先级排序\"编写\"的逻辑脚本决定的",
+      "mechanismDesc": "> 1. 条件设定：为角色的每个技能设定触发的先决条件（如\"血量低于30%时使用治疗\"）\n> 2. 优先级排序：为设定的多个逻辑条目排序，系统按优先级依次判断执行\n> 3. 自动结算：进入战斗后，系统严格按照玩家编写的逻辑脚本结算，玩家只能观看无法干预",
       "coreRules": "",
-      "trigger": "局外, 战前整备阶段配置, 进入战斗碰撞瞬间自动触发",
-      "painPoint": "解决后期队伍庞大带来的操作疲劳",
-      "experienceGoal": "将操作执行转变为顶层设计",
+      "trigger": "局外、战前整备阶段配置，进入战斗碰撞瞬间自动触发",
+      "painPoint": "解决后期队伍庞大带来的操作疲劳问题",
+      "experienceGoal": "将操作执行转变为顶层设计，体验\"程序员编写代码\"的满足感",
       "similarMechanisms": [
         {
           "game": "最终幻想12",
-          "mechanism": "Gambit"
+          "mechanism": "Gambit系统"
         },
         {
           "game": "龙腾世纪",
           "mechanism": "战术指令"
         }
       ],
-      "demo": "",
-      "filename": "策略-圣兽之王-可定制战术逻辑系统.md",
+      "demo": "（待补充）",
+      "filename": "[Qualify][策略]-UnicornOverlord-可定制战术逻辑系统.md",
       "source": "人工",
-      "flatTags": [
-        "特色机制-可定制战术逻辑系统",
-        "操控体验痛点",
-        "认知负担痛点"
-      ],
-      "specialMechanisms": [
-        "特色机制-可定制战术逻辑系统"
-      ],
-      "painPoints": [
-        "操控体验痛点",
-        "认知负担痛点"
-      ],
-      "playLevelTags": [
-        "PVE",
-        "一次性",
-        "Endgame",
-        "回合操作",
-        "中规中矩（10-60分钟）",
-        "核心玩法",
-        "高耦合"
-      ]
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/2237070/header.jpg"
     },
     "VAMPIR/AdrenalineBloodSuckSystem.md": {
       "title": "[MMORPG]-VAMPIR-肾上腺素吸血联动系统",
@@ -25282,70 +26369,82 @@
       "filename": "BloodPoolResourceSystem.md",
       "source": "AI生成-已甄别"
     },
-    "Valorant/[FPS]-无畏契约-经济请求（发枪）系统.md": {
-      "title": "[FPS]-无畏契约-经济请求（发枪）系统",
-      "gameName": "VALORANT",
-      "tags": [],
-      "simpleDesc": "\"快捷代购\"：没钱买枪时, 点下右键, 队友直接在菜单里帮你结账, 枪瞬间到你手里, 不用扔在地上怕被抢",
-      "mechanismDesc": "> 发起：购买阶段, 玩家在商店右键点击目标武器, 会在全队商店左侧生成\"请求栏\"\n> 响应：队友在自己的商店界面点击\"购买\"按钮, 即可消耗自身资金为请求者购买\n> 交付：武器直接出现在请求者的主武器栏, 无掉落, 拾取过程",
-      "coreRules": "",
-      "trigger": "仅限\"购买阶段\"；请求者需具备空余武器位；响应者资金充足",
-      "painPoint": "消除传统 FPS 中\"手动丢枪\"的低效率与风险。解决了路人对局中沟通成本高, 扔枪容易被路过队友误拾, 以及扔枪位置错误导致的拾取失败等负面体验",
-      "experienceGoal": "强化团队协作的即时正反馈。确保全队经济利用最大化, 提升\"强起轮\"或\"发枪轮\"的战术整齐度, 减少无效沟通引起的负面情绪",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[FPS]-无畏契约-经济请求（发枪）系统.md",
-      "source": "人工",
-      "flatTags": [
-        "特色机制-经济请求（发枪）系统",
-        "挫败感痛点",
-        "时间成本痛点",
-        "经济成本痛点"
-      ],
-      "specialMechanisms": [
-        "特色机制-经济请求（发枪）系统"
-      ],
-      "painPoints": [
-        "挫败感痛点",
-        "时间成本痛点",
-        "经济成本痛点"
-      ],
-      "playLevelTags": [
-        "PVP",
-        "可重复",
-        "Endgame",
-        "即时操作",
-        "中规中矩（10-60分钟）",
-        "核心玩法",
-        "高耦合"
-      ]
-    },
-    "Valorant/[Qualify]英雄技能系统.md": {
-      "title": "[FPS]Valorant-英雄技能系统",
+    "Valorant/[Excellent]FPS-Valorant-英雄技能系统.md": {
+      "title": "[FPS]-Valorant-英雄技能系统",
       "gameName": "无畏契约",
       "tags": [],
-      "simpleDesc": "FPS版英雄联盟——每个英雄有独特技能, 但枪法才是决定因素",
-      "mechanismDesc": "22, 英雄分为4种定位：哨兵（防守）, 控场（信息）, 先锋（突破）, 瓦解者（收割）。每个英雄有1个终极技能, 3个普通技能。技能伤害普遍较低, 无法直接击杀满血敌人, 需要配合枪法。",
+      "simpleDesc": "FPS版英雄联盟——每个英雄有独特技能，但枪法才是决定因素",
+      "mechanismDesc": "22个英雄分为4种定位：哨兵（防守）、控场（信息）、先锋（突破）、瓦解者（收割）。每个英雄有1个终极技能，3个普通技能。技能伤害普遍较低，无法直接击杀满血敌人，需要配合枪法。",
       "coreRules": "",
       "trigger": "使用技能按键或终极技能充能满时",
       "painPoint": "解决传统竞技FPS纯枪法对决的单一性",
-      "experienceGoal": "创造技能与枪法的博弈平衡, 增加策略深度",
-      "similarMechanisms": [],
-      "demo": "",
-      "filename": "[Qualify]英雄技能系统.md",
-      "source": "人工",
-      "flatTags": [
-        "特色机制-英雄技能系统",
-        "内容枯竭痛点"
+      "experienceGoal": "创造技能与枪法的博弈平衡，增加策略深度",
+      "similarMechanisms": [
+        {
+          "game": "守望先锋",
+          "mechanism": "英雄技能系统"
+        },
+        {
+          "game": "Apex Legends",
+          "mechanism": "英雄技能系统"
+        }
       ],
-      "specialMechanisms": [
-        "特色机制-英雄技能系统"
+      "demo": "",
+      "filename": "[Excellent]FPS-Valorant-英雄技能系统.md",
+      "source": "人工",
+      "mechanismDesignByCategory": {
+        "category": [
+          "射击-战术竞技"
+        ],
+        "fun": [
+          "策略",
+          "竞技"
+        ],
+        "emotion": [
+          "紧张感"
+        ],
+        "interaction": [
+          "对抗"
+        ]
+      },
+      "flatTags": [
+        "射击-战术竞技",
+        "策略",
+        "竞技",
+        "紧张感",
+        "对抗",
+        "英雄技能系统",
+        "内容枯竭痛点"
       ],
       "painPoints": [
         "内容枯竭痛点"
       ],
+      "mechanismDesign": [
+        "射击-战术竞技",
+        "策略",
+        "竞技",
+        "紧张感",
+        "对抗",
+        "英雄技能系统"
+      ],
+      "mechanismDesignCategory": [
+        "射击-战术竞技"
+      ],
+      "mechanismDesignFun": [
+        "策略",
+        "竞技"
+      ],
+      "mechanismDesignEmotion": [
+        "紧张感"
+      ],
+      "mechanismDesignInteraction": [
+        "对抗"
+      ],
       "playLevelTags": [
         "PVP",
+        "单局10人/单队5人",
+        "小队玩法",
+        "多人玩法",
         "可重复",
         "Endgame",
         "即时操作",
@@ -25354,9 +26453,98 @@
         "高耦合"
       ]
     },
-    "Warcraft3/[Excellent]RTS-地图控制与野怪系统.md": {
-      "title": "[RTS]-[魔兽争霸3]-地图控制与野怪系统",
-      "gameName": "魔兽争霸3",
+    "Valorant/[Qualify][FPS]-Valorant-经济请求发枪系统.md": {
+      "title": "[Qualify][FPS]-Valorant-经济请求发枪系统",
+      "gameName": "VALORANT",
+      "tags": [],
+      "simpleDesc": "\"快捷代购\"：没钱买枪时点下右键，队友直接在菜单里帮你结账，枪瞬间到你手里，不用扔在地上怕被抢",
+      "mechanismDesc": "> 发起：购买阶段，玩家在商店右键点击目标武器，会在全队商店左侧生成\"请求栏\"\n> 响应：队友在自己的商店界面点击\"购买\"按钮，即可消耗自身资金为请求者购买\n> 交付：武器直接出现在请求者的主武器栏，无掉落、拾取过程",
+      "coreRules": "",
+      "trigger": "仅限\"购买阶段\"；请求者需具备空余武器位；响应者资金充足",
+      "painPoint": "消除传统FPS中\"手动丢枪\"的低效率与风险。解决了路人对局中沟通成本高、扔枪容易被路过队友误拾、以及扔枪位置错误导致的拾取失败等负面体验",
+      "experienceGoal": "强化团队协作的即时正反馈。确保全队经济利用最大化，提升\"强起轮\"或\"发枪轮\"的战术整齐度，减少无效沟通引起的负面情绪",
+      "similarMechanisms": [
+        {
+          "game": "CS2",
+          "mechanism": "经济博弈系统（整局经济规划）"
+        },
+        {
+          "game": "守望先锋",
+          "mechanism": "武器共享系统"
+        }
+      ],
+      "demo": "（待补充）",
+      "filename": "[Qualify][FPS]-Valorant-经济请求发枪系统.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1097000/header.jpg",
+      "mechanismDesignByCategory": {
+        "category": [
+          "射击-战术竞技"
+        ],
+        "fun": [
+          "社交",
+          "策略"
+        ],
+        "emotion": [
+          "成就感"
+        ],
+        "interaction": [
+          "合作"
+        ]
+      },
+      "flatTags": [
+        "射击-战术竞技",
+        "社交",
+        "策略",
+        "成就感",
+        "合作",
+        "经济请求发枪系统",
+        "挫败感痛点",
+        "时间成本痛点",
+        "经济成本痛点"
+      ],
+      "painPoints": [
+        "挫败感痛点",
+        "时间成本痛点",
+        "经济成本痛点"
+      ],
+      "mechanismDesign": [
+        "射击-战术竞技",
+        "社交",
+        "策略",
+        "成就感",
+        "合作",
+        "经济请求发枪系统"
+      ],
+      "mechanismDesignCategory": [
+        "射击-战术竞技"
+      ],
+      "mechanismDesignFun": [
+        "社交",
+        "策略"
+      ],
+      "mechanismDesignEmotion": [
+        "成就感"
+      ],
+      "mechanismDesignInteraction": [
+        "合作"
+      ],
+      "playLevelTags": [
+        "PVP",
+        "单局10人/单队5人",
+        "小队玩法",
+        "多人玩法",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "中规中矩（10-60分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
+    },
+    "Warcraft3/[Excellent]RTS-Warcraft3-地图控制与野怪系统.md": {
+      "title": "[RTS]-Warcraft3-地图控制与野怪系统",
+      "gameName": "Warcraft3",
       "tags": [],
       "simpleDesc": "\"抢野区资源\"：地图上分布着不同等级的野怪，击杀后可获得经验、金钱和掉落装备，是前期发展的重要资源，也是双方博弈的战略点",
       "mechanismDesc": "地图控制是WC3的核心设计：\n1. **野怪分布**：地图各点位有不同等级野怪，越靠近敌方基地的野怪越强\n2. **击杀收益**：经验值（英雄升级）、掉落物品（装备道具）、金钱（购买道具）\n3. **雇佣兵**：部分野怪可招募为雇佣兵单位，加入玩家军队\n4. **中立建筑**：商店可购买道具、药水、传送卷轴",
@@ -25375,8 +26563,9 @@
         }
       ],
       "demo": "https://example.com/wc3-creep-farming.gif",
-      "filename": "[Excellent]RTS-地图控制与野怪系统.md",
-      "source": "AI生成-已甄别",
+      "filename": "[Excellent]RTS-Warcraft3-地图控制与野怪系统.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/557340/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "RTS"
@@ -25438,6 +26627,233 @@
         "核心玩法",
         "高耦合"
       ]
+    },
+    "Warframe/[Excellent]TPS-Warframe-武器MOD系统.md": {
+      "title": "[TPS]-Warframe-武器MOD系统",
+      "gameName": "Warframe",
+      "tags": [],
+      "simpleDesc": "像乐高积木一样自由组合——数百种MOD模块随意搭配，每把武器都能打出完全不同的build",
+      "mechanismDesc": "Warframe的武器MOD系统是其刷宝射击体验的核心支柱，包含以下层次：\n\n1. **基础MOD槽位**：每把武器有5-8个MOD槽位，可安装不同功能的MOD\n2. **元素MOD**：冰、火、电、毒、腐蚀、辐射、病毒、磁力8种基础元素，可通过组合形成4种复合元素\n3. **主要MOD类型**：\n   - 基础伤害MOD（多重射击、穿刺、冲击、切割）\n   - 元素伤害MOD（冰冻、火焰、电流、毒素等）\n   - 暴击MOD（暴击率、暴击伤害）\n   - 射速/弹药MOD\n   - 充能MOD（快速切换、子弹舞蹈）\n4. **紫卡（Riven）系统**：完成特定任务后解锁的随机属性MOD，具有词条随机性和强化空间\n5. **专精槽位**：部分武器拥有专精槽位，可装备特殊专精MOD\n\n玩家通过不断获取更优质的MOD来强化武器，组合不同MOD创造独特的战斗风格。",
+      "coreRules": "",
+      "trigger": "- 玩家获得武器后自动解锁MOD槽位",
+      "painPoint": "- 武器同质化→MOD系统让每把武器都有无限可能性",
+      "experienceGoal": "- 创造\"配装\"的策略乐趣",
+      "similarMechanisms": [
+        {
+          "game": "Destiny 2",
+          "mechanism": "武器模组系统"
+        },
+        {
+          "game": "Path of Exile",
+          "mechanism": "技能宝石+天赋树组合"
+        },
+        {
+          "game": "Borderlands 3",
+          "mechanism": "武器组件系统"
+        }
+      ],
+      "demo": "https://www.bilibili.com/video/BV1xx411c7XD/",
+      "filename": "[Excellent]TPS-Warframe-武器MOD系统.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/230410/header.jpg",
+      "mechanismDesignByCategory": {
+        "category": [
+          "TPS-刷宝射击"
+        ],
+        "fun": [
+          "策略",
+          "成长变强",
+          "收集"
+        ],
+        "emotion": [
+          "成就感",
+          "惊喜感"
+        ],
+        "interaction": [
+          "多人协作（可选）"
+        ]
+      },
+      "flatTags": [
+        "TPS-刷宝射击",
+        "策略",
+        "成长变强",
+        "收集",
+        "成就感",
+        "惊喜感",
+        "多人协作（可选）",
+        "武器MOD系统",
+        "BD构筑",
+        "元素组合",
+        "内容枯竭痛点",
+        "刷宝枯燥痛点"
+      ],
+      "painPoints": [
+        "内容枯竭痛点",
+        "刷宝枯燥痛点"
+      ],
+      "mechanismDesign": [
+        "TPS-刷宝射击",
+        "策略",
+        "成长变强",
+        "收集",
+        "成就感",
+        "惊喜感",
+        "多人协作（可选）",
+        "武器MOD系统",
+        "BD构筑",
+        "元素组合"
+      ],
+      "mechanismDesignCategory": [
+        "TPS-刷宝射击"
+      ],
+      "mechanismDesignFun": [
+        "策略",
+        "成长变强",
+        "收集"
+      ],
+      "mechanismDesignEmotion": [
+        "成就感",
+        "惊喜感"
+      ],
+      "mechanismDesignInteraction": [
+        "多人协作（可选）"
+      ],
+      "playLevelTags": [
+        "PVE",
+        "单人/多人",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "中规中矩（15-60分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
+    },
+    "Warframe/[Excellent][FPS]-Warframe-战甲技能系统.md": {
+      "title": "[FPS]-Warframe-战甲技能系统",
+      "gameName": "Warframe / 星际战甲",
+      "tags": [],
+      "simpleDesc": "每个战甲拥有独特技能组，技能与MOD系统深度耦合，通过能量消耗释放，形成\"战甲+技能+MOD\"三位一体的深度定制体验",
+      "mechanismDesc": "> 1. 40+战甲，每个战甲拥有4个独特技能（1个核心被动+3个主动技能）\n> 2. 技能分为四种类型：被动技能、主动技能、冲刺技能、协同技能\n> 3. 技能通过\"能量\"系统驱动（而非冷却时间），能量随时间自动恢复\n> 4. 技能可叠加MOD进行强化，不同MOD组合产生不同效果\n> 5. 技能可升级强化（通过游戏进程解锁更多强化等级）\n> 6. 部分技能可切换形态（如Prime版战甲有额外技能变体）",
+      "coreRules": "",
+      "trigger": "玩家通过按键释放技能，消耗能量值",
+      "painPoint": "解决传统FPS技能系统单一、缺乏深度的痛点，通过与MOD系统的深度耦合创造极高自由度的build构筑",
+      "experienceGoal": "带给玩家\"战甲即身份\"的深度定制成就感，每个战甲都是完全不同的玩法体验",
+      "similarMechanisms": [
+        {
+          "game": "命运2",
+          "mechanism": "职业技能系统"
+        },
+        {
+          "game": "无主之地",
+          "mechanism": "技能树+枪械MOD"
+        }
+      ],
+      "demo": "（待补充）",
+      "filename": "[Excellent][FPS]-Warframe-战甲技能系统.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/230410/header.jpg",
+      "mechanismDesignByCategory": {
+        "category": [
+          "FPS-刷宝射击"
+        ],
+        "fun": [
+          "成长变强",
+          "收集",
+          "定制"
+        ],
+        "emotion": [
+          "成就感",
+          "掌控感"
+        ],
+        "interaction": [
+          "轻度社交"
+        ]
+      },
+      "flatTags": [
+        "FPS-刷宝射击",
+        "成长变强",
+        "收集",
+        "定制",
+        "成就感",
+        "掌控感",
+        "轻度社交",
+        "战甲技能系统",
+        "MOD耦合",
+        "能量机制",
+        "角色同质化（通过40+战甲解决）",
+        "内容枯竭（通过深度MOD+技能组合解决）"
+      ],
+      "mechanismDesign": [
+        "FPS-刷宝射击",
+        "成长变强",
+        "收集",
+        "定制",
+        "成就感",
+        "掌控感",
+        "轻度社交",
+        "战甲技能系统",
+        "MOD耦合",
+        "能量机制",
+        "角色同质化（通过40+战甲解决）",
+        "内容枯竭（通过深度MOD+技能组合解决）"
+      ],
+      "mechanismDesignCategory": [
+        "FPS-刷宝射击"
+      ],
+      "mechanismDesignFun": [
+        "成长变强",
+        "收集",
+        "定制"
+      ],
+      "mechanismDesignEmotion": [
+        "成就感",
+        "掌控感"
+      ],
+      "mechanismDesignInteraction": [
+        "轻度社交"
+      ],
+      "playLevelTags": [
+        "PVE",
+        "单局1-4人",
+        "单人玩法",
+        "双人玩法",
+        "可重复",
+        "Endgame",
+        "即时操作",
+        "中规中矩（10-60分钟）",
+        "核心玩法",
+        "高耦合"
+      ]
+    },
+    "Warframe/[Qualify]刷宝射击-Warframe-战甲系统.md": {
+      "title": "[刷宝射击]-Warframe-战甲系统",
+      "gameName": "Warframe",
+      "tags": [],
+      "simpleDesc": "玩家在游戏中选择并培养不同类型的\"战甲\"（角色），每个战甲拥有独特的技能组合，形成差异化的玩法体验",
+      "mechanismDesc": "Warframe的战甲系统是游戏的核心角色系统，玩家可以获取和培养40+种不同类型的战甲。每种战甲都有：\n1. **基础属性**：生命值、护盾、护甲、能量等\n2. **独特技能**：4个主动/被动技能，每个战甲技能各不相同\n3. **极性槽位**：用于装备MOD（强化卡）\n4. **口癖**：不同战甲有不同的外观和音效风格\n\n玩家通过刷取游戏内资源来获得新战甲，并通过MOD和战甲升级来强化战斗力。",
+      "coreRules": "",
+      "trigger": "- 玩家在游戏中随时可以切换已拥有的战甲",
+      "painPoint": "- 解决刷宝射击游戏后期内容重复问题：通过不同战甲的技能组合提供多样化体验",
+      "experienceGoal": "- 角色收集与养成的成就感",
+      "similarMechanisms": [
+        {
+          "game": "无主之地",
+          "mechanism": "Vault Hunter系统"
+        },
+        {
+          "game": "命运2",
+          "mechanism": "职业/子职业系统"
+        },
+        {
+          "game": "星际战甲",
+          "mechanism": "战甲系统（同类竞品参考）"
+        }
+      ],
+      "demo": "",
+      "filename": "[Qualify]刷宝射击-Warframe-战甲系统.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/230410/header.jpg"
     },
     "WinterFall/[SLG]-无尽冬日-探险副本与放置挂机.md": {
       "title": "[SLG]-无尽冬日-探险副本与放置挂机",
@@ -27629,6 +29045,7 @@
       "demo": "*(待补充GIF, 视频)*",
       "filename": "[Qualify]slot-machine-symbol-engine.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1837070/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "Roguelike-卡牌构筑"
@@ -29963,7 +31380,7 @@
       "source": "人工"
     },
     "Cytus": {
-      "title": "Cytus / 音乐世界## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | Cytus || 一句话对标 | 雷亚创新动态判定线扫描式音游 || 游戏类型 | 音乐节奏游戏 || 开发商 | 雷亚游戏（Rayark Inc.） || 上线时间 | 2012年1月13日（iOS全球上线） || 商业成就 | iPhone音乐类14国第一、iPad 111国第一；累计下载量约1800万（含Cytus II） |---## X-Statement 公式**单人音乐节奏游戏 + 动态判定线扫描式玩法 + 判定线随节奏变速的创新设计**- 基础信息：单人游玩，按节奏点击/长按/滑屏音符- 品类：音乐节奏游戏- 核心差异点：动态判定线系统（判定线在屏幕上下移动，速度随音乐节奏变化）---## 玩法原型**玩法原型借鉴：**- **核心玩法**：借鉴街机音游 **jubeat** 的\"关门分\"概念，设计了\"连击分\"和TP（Technical Point）系统- **判定线设计**：借鉴传统下落式音游的判定概念，但反向创新——判定线移动而非音符下落，让玩家视线聚焦于扫描线而非音符- **音乐品质**：借鉴 **Deemo** 的高水准音乐选曲策略，每首曲目均为原创或精心挑选**Cytus的独特创新：**- 判定线在屏幕上下**动态扫描**（Active Scan Line），而非传统下落式- 判定线速度可**随音乐节奏动态变化**（Cytus II中更完善），让游戏体验更贴合音乐本身- 五种不同特性的拍点（点击、长按、滑屏等），丰富演奏表现力---## 核心支柱### 支柱1：动态判定线扫描系统**【核心体验】** -> **【设计手段】** -> **【具体参数】**- 判定线在屏幕上下往复运动，玩家在判定线扫描到音符时操作- 判定线移动速度可随音乐BPM动态调整- 判定时机精准对齐音乐节拍### 支柱2：剧情章节解锁系统**【核心体验】** -> **【设计手段】** -> **【具体参数】**- 玩家通过演奏曲目推进剧情，解锁新章节- 每个章节对应特定背景故事和音乐风格- 章节解锁需要达成特定TP分数门槛### 支柱3：音乐品质与选曲策略**【核心体验】** -> **【设计手段】** -> **【具体参数】**- 与知名音乐人合作，每首曲目均为原创- 曲风涵盖电子、摇滚、古典等多种类型- 曲目难度分级，满足不同水平玩家### 支柱4：成绩评价体系（TP系统）**【核心体验】** -> **【设计手段】** -> **【具体参数】**- 引入TP（Technical Point）衡量玩家技术水平- 连击系统带来额外分数加成- 成绩分为C/B/A/S/SS等级---## 核心体验### 以秒为单位的体验**【游戏镜头视角】** + **【玩家行为】** + **【乐趣】**- 2D平面视角，玩家注视上下移动的判定线- 判定线扫描到音符时点击/长按/滑屏- 享受音乐与操作完美契合的节奏感### 以分钟/小时为单位的节奏- **单局体验**：一首曲子3-5分钟，玩家完整演奏一首曲目- **长线追求**：解锁全部章节曲目，追求SSS全连评价- **收集乐趣**：收集不同风格背景的剧情章节---## 竞品对比| 维度 | Cytus | Deemo（雷亚） | jubeat（世嘉） || :--- | :--- | :--- | :--- || 判定方式 | 动态判定线扫描 | 下落式（钢琴按键） | 方形按键矩阵 || 判定线速度 | 可变速（随节奏） | 固定 | 无 || 操作类型 | 点击/长按/滑屏 | 单点/长按 | 单点 || 剧情系统 | 章节解锁 | 故事模式 | 无 || 平台 | 移动端 | 移动端 | 街机 |---## 商业成就- **下载量**：约1800万（与Deemo合计，含Cytus II）- **榜单成绩**：上线首日登顶iPhone音乐类14国第一、iPad 111国第一- **地区表现**：台湾、日本、韩国、泰国、港澳地区付费总榜冠军- **后续影响**：成功奠定雷亚游戏在移动端音游领域的标杆地位，后续推出Cytus II延续品牌## 关联资产**收录机制**：- 音游-Cytus-动态判定线扫描系统",
+      "title": "Cytus / 音乐世界## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | Cytus || 一句话对标 | 雷亚创新动态判定线扫描式音游 || 游戏类型 | 音乐节奏游戏 || 开发商 | 雷亚游戏（Rayark Inc.） || 上线时间 | 2012年1月13日（iOS全球上线） || 商业成就 | iPhone音乐类14国第一、iPad 111国第一；累计下载量约1800万（含Cytus II） |---## X-Statement 公式**单人音乐节奏游戏 + 动态判定线扫描式玩法 + 判定线随节奏变速的创新设计**- 基础信息：单人游玩，按节奏点击/长按/滑屏音符- 品类：音乐节奏游戏- 核心差异点：动态判定线系统（判定线在屏幕上下移动，速度随音乐节奏变化）---## 玩法原型**玩法原型借鉴：**- **核心玩法**：借鉴街机音游 **jubeat** 的\"关门分\"概念，设计了\"连击分\"和TP（Technical Point）系统- **判定线设计**：借鉴传统下落式音游的判定概念，但反向创新——判定线移动而非音符下落，让玩家视线聚焦于扫描线而非音符- **音乐品质**：借鉴 **Deemo** 的高水准音乐选曲策略，每首曲目均为原创或精心挑选**Cytus的独特创新：**- 判定线在屏幕上下**动态扫描**（Active Scan Line），而非传统下落式- 判定线速度可**随音乐节奏动态变化**（Cytus II中更完善），让游戏体验更贴合音乐本身- 五种不同特性的拍点（点击、长按、滑屏等），丰富演奏表现力---## 核心支柱### 支柱1：动态判定线扫描系统**【核心体验】** -> **【设计手段】** -> **【具体参数】**- 判定线在屏幕上下往复运动，玩家在判定线扫描到音符时操作- 判定线移动速度可随音乐BPM动态调整- 判定时机精准对齐音乐节拍### 支柱2：剧情章节解锁系统**【核心体验】** -> **【设计手段】** -> **【具体参数】**- 玩家通过演奏曲目推进剧情，解锁新章节- 每个章节对应特定背景故事和音乐风格- 章节解锁需要达成特定TP分数门槛### 支柱3：音乐品质与选曲策略**【核心体验】** -> **【设计手段】** -> **【具体参数】**- 与知名音乐人合作，每首曲目均为原创- 曲风涵盖电子、摇滚、古典等多种类型- 曲目难度分级，满足不同水平玩家### 支柱4：成绩评价体系（TP系统）**【核心体验】** -> **【设计手段】** -> **【具体参数】**- 引入TP（Technical Point）衡量玩家技术水平- 连击系统带来额外分数加成- 成绩分为C/B/A/S/SS等级---## 核心体验### 以秒为单位的体验**【游戏镜头视角】** + **【玩家行为】** + **【乐趣】**- 2D平面视角，玩家注视上下移动的判定线- 判定线扫描到音符时点击/长按/滑屏- 享受音乐与操作完美契合的节奏感### 以分钟/小时为单位的节奏- **单局体验**：一首曲子3-5分钟，玩家完整演奏一首曲目- **长线追求**：解锁全部章节曲目，追求SSS全连评价- **收集乐趣**：收集不同风格背景的剧情章节---## 竞品对比| 维度 | Cytus | Deemo（雷亚） | jubeat（世嘉） || :--- | :--- | :--- | :--- || 判定方式 | 动态判定线扫描 | 下落式（钢琴按键） | 方形按键矩阵 || 判定线速度 | 可变速（随节奏） | 固定 | 无 || 操作类型 | 点击/长按/滑屏 | 单点/长按 | 单点 || 剧情系统 | 章节解锁 | 故事模式 | 无 || 平台 | 移动端 | 移动端 | 街机 |---## 商业成就- **下载量**：约1800万（与Deemo合计，含Cytus II）- **榜单成绩**：上线首日登顶iPhone音乐类14国第一、iPad 111国第一- **地区表现**：台湾、日本、韩国、泰国、港澳地区付费总榜冠军- **后续影响**：成功奠定雷亚游戏在移动端音游领域的标杆地位，后续推出Cytus II延续品牌## 关联资产**收录机制**：- [Qualify]音游-Cytus-动态判定线扫描系统",
       "gameName": "",
       "developer": "",
       "publisher": "",
@@ -30233,6 +31650,7 @@
       "achievements": "",
       "relatedMechanisms": [
         "[Excellent]Roguelike-DeadCells-武器构建系统",
+        "[Excellent]Roguelike-DeadCells-突变技能系统",
         "[Excellent]Roguelike-DeadCells-1血保护与血瓶系统",
         "[Qualify]Roguelike-DeadCells-蓝图解锁系统",
         "[Qualify]Roguelike-DeadCells-RogueVania融合机制",
@@ -30263,6 +31681,34 @@
       "filename": "Deemo.md",
       "source": "人工"
     },
+    "DeepRockGalactic": {
+      "title": "深岩银河 / Deep Rock Galactic",
+      "gameName": "深岩银河 / Deep Rock Galactic",
+      "developer": "Ghost Ship Games",
+      "publisher": "",
+      "platform": "PC / Xbox / PS / NS",
+      "releaseDate": "2020年5月",
+      "genre": "FPS / 合作 / 采矿 / 射击",
+      "monetization": "",
+      "xStatement": "",
+      "tagline": "合作采矿射击游戏",
+      "playerStats": "",
+      "coreLoop": "4名矮人矿工组队深入星球采矿，击退外星生物，完成任务后带着矿物撤离",
+      "difficulty": "中 - 简单上手，深度精通",
+      "prototype": "",
+      "pillars": [],
+      "achievements": "",
+      "relatedMechanisms": [
+        "[Excellent][FPS]-DeepRockGalactic-职业系统",
+        "[Qualify][FPS]-DeepRockGalactic-采矿系统",
+        "[待创建]DeepRockGalactic-破坏系统",
+        "[FPS]-DeepRockGalactic-职业系统>",
+        "[FPS]-DeepRockGalactic-采矿系统>"
+      ],
+      "filename": "DeepRockGalactic.md",
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/548430/header.jpg"
+    },
     "DeltaForce": {
       "title": "Delta Force / 三角洲行动## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | 三角洲行动 / Delta Force || 开发者 | 腾讯琳琅天上 || 发行平台 | PC / 移动端 || 上线时间 | 2024年9月 || 游戏类型 | FPS / 战术射击 || 一句话对标 | 腾讯新一代FPS || 玩家数据 | 国服下载3810万，营收4.25亿 |---## 玩法环境**核心循环**：> 玩家进入战场搜集装备，击败敌人，成功撤离**操作门槛**：> 中等 - 比塔科夫更轻量---## 关联资产**收录机制**：> - FPS夺金-三角洲行动-玩家扮演BOSS赤枭巡猎- FPS夺金-三角洲行动-神秘脑机Ⅱ型渡鸦寻宝---## 补充信息（来自 game-analyse-sdd）### X-Statement> 腾讯琳琅天上FPS，融合大战场+轻量化搜打撤模式### 玩法原型| 系统 | 玩法原型 | 核心理念 | 独特改进 ||------|----------|----------|----------|| 搜打撤 | 《塔科夫》 | 轻量化 | 减少硬核 || 战场 | 《大战场》 | 32v32 | 占点 || 技能 | 《OW》 | 干员 | 四类 |### 核心支柱1. **烽火地带** - 体验：搜打撤 / 设计：三人小队，搜集撤离 / 参数：轻量化2. **全面战场** - 体验：大战场 / 设计：32v32占点 / 参数：大地图3. **干员系统** - 体验：技能 / 设计：突击/支援/工程/侦察 / 参数：各有技能4. **枪械改装** - 体验：自定义 / 设计：配件+精校 / 参数：高度自定义5. **黑鹰坠落** - 体验：IP联动 / 设计：经典电影 / 参数：免费DLC### 核心体验**以分钟为单位的体验**：> 搜打撤每局15-30分钟，大战场10-15分钟### 与竞品对比- vs 《塔科夫》：三角洲更轻量化，门槛低- vs 《COD》：三角洲更战术，有干员技能- [FPS]-三角洲行动-干员体系### 商业成就- 国服下载量3810万- 国内营收4.25亿- 国际版10天下载超1000万- 登顶169国iOS免费榜收录机制：> - FPS夺金-三角洲行动-玩家扮演BOSS赤枭巡猎> - FPS夺金-三角洲行动-神秘脑机Ⅱ型渡鸦寻宝- FPS-干员技能系统- FPS-曼德尔砖机制- FPS-载具作战系统- operator-skills- mendel-brick- operator-system- [FPS]-DeltaForce-干员技能系统",
       "gameName": "",
@@ -30285,25 +31731,29 @@
       "source": "人工"
     },
     "Destiny2": {
-      "title": "Destiny 2 / 命运2## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | Destiny 2 / 命运2 || 封面图 | https://steamcdn-a.akamaihd.net/steam/apps/1085660/header.jpg || 开发者 | Bungie || 发行平台 | PC / PS / Xbox / Switch || 上线时间 | 2017年9月6日 || 游戏类型 | 刷宝射击 / MMO / TPS || 一句话对标 | Bungie科幻刷宝射击，融合MMO与FPS |---## 玩法环境**核心循环**：> 玩家扮演\"守护者\"，在太阳系各大星球探索，击败敌人（堕落者、蜂群、Vex、卡巴尔等），获取装备（武器、防具、mod），提升战力，参与6人Raid副本和PVP竞技**操作门槛**：> 高 - 需要熟悉职业系统（泰坦/猎人/术士）、元素技能系统、装备配装、赛季内容节奏---## 关联资产**收录机制**：> （待关联该游戏下的机制卡）---## 补充信息### X-Statement公式> Bungie科幻刷宝射击，融合《光环》射击手感 + 《无主之地》装备驱动 + MMO团队副本，PVE+PVP混合，8年持续运营的赛季制服务型游戏### 玩法原型| 系统 | 玩法原型 | 核心理念 | 独特改进 ||------|----------|----------|----------|| 射击战斗 | 《光环》(Bungie前作) | 科幻射击 | 刷宝驱动的装备获取 || 职业系统 | 《MMO》 | 角色分工 | 三职业×三元素子职业 || Raid | 《MMO》团队副本 | 6人协作高难度 | 每年4个新Raid，机制复杂 || 装备驱动 | 《无主之地》 | 刷宝获取 | 随机词缀+光等/威能系统 |### 核心支柱1. **职业系统** - 体验：角色扮演 / 设计：泰坦(防护)/猎人(敏捷)/术士(魔法) / 参数：3职业×3元素分支2. **元素技能系统** - 体验：战斗 / 设计：光能(电/火/冰)+暗影 / 参数：技能树+超级技能+手雷3. **Raid系统** - 体验：团队协作 / 设计：6人副本 / 参数：每个Raid 6-7个BOSS，高难度机制4. **PVP模式** - 体验：竞技对抗 / 设计：4v4/6v6控制、熔炉、淘汰赛 / 参数：武器 meta 轮换5. **赛季制运营** - 体验：持续内容 / 设计：每赛季新剧情+新防具+新活动 / 参数：4赛季/年，年度资料片### 核心体验**以秒为单位的体验**：> 3D第一人称视角，玩家扮演守护者，在科幻星球上射击敌人，释放元素技能，享受\"突突突+放技能\"的爽快感**以分钟/小时为单位的体验**：> 日常：清周常任务（如副本、打击战役）→ 刷装备/刷钱 → 升级光等> 版本：开新赛季 → 做剧情任务 → 开荒新Raid/新地牢 → 刷新装备 → 打PVP### 与竞品对比- **vs 《无主之地》**：命运2更MMO化，更注重团队协作（Raid）和持续运营- **vs 《光环》**：命运2更像刷宝游戏，装备驱动更强- **vs 《Warframe》**：命运2更注重PVP内容和叙事### 商业成就- Steam历史峰值：316,750玩家（2023年2月）- 目前Steam在线约6,000-10,000玩家- PlayStation平台长期热门，据报道为Steam第8高玩家量/第3高收入- 7年+持续运营，多次获得年度游戏提名- 付费DLC+赛季通行证商业模式---## Steam数据| 指标 | 数据 || :--- | :--- || App ID | 1085660 || 历史峰值 | 316,750 || 当前在线 | ~6,000-10,000 || 评分 | 特别好评 |",
-      "gameName": "",
-      "developer": "",
+      "title": "Destiny 2 / 命运2",
+      "gameName": "Destiny 2 / 命运2",
+      "developer": "Bungie",
       "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "",
+      "platform": "PC / PS / Xbox / Switch",
+      "releaseDate": "2017年9月6日",
+      "genre": "刷宝射击 / MMO / TPS",
       "monetization": "",
       "xStatement": "",
-      "tagline": "",
+      "tagline": "Bungie科幻刷宝射击，融合MMO与FPS",
       "playerStats": "",
-      "coreLoop": "",
-      "difficulty": "",
+      "coreLoop": "玩家扮演\"守护者\"，在太阳系各大星球探索，击败敌人（堕落者、蜂群、Vex、卡巴尔等），获取装备（武器、防具、mod），提升战力，参与6人Raid副本和PVP竞技",
+      "difficulty": "高 - 需要熟悉职业系统（泰坦/猎人/术士）、元素技能系统、装备配装、赛季内容节奏",
       "prototype": "",
       "pillars": [],
-      "achievements": "",
-      "relatedMechanisms": [],
+      "achievements": "Steam历史峰值：316,750玩家（2023年2月）;  目前Steam在线约6,000 10,000玩家;  PlayStation平台长期热门，据报道为Steam第8高玩家量/第3高收入;  7年+持续运营，多次获得年度游戏提名;  付费DLC+赛季通行证商业模式;",
+      "relatedMechanisms": [
+        "[Excellent][MMORPG]-Destiny2-三职业元素分支系统",
+        "[MMORPG]-Destiny2-三职业元素分支系统"
+      ],
       "filename": "Destiny2.md",
-      "source": "人工"
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1085660/header.jpg"
     },
     "DiabloIIResurrected": {
       "title": "游戏名 / Diablo II Resurrected",
@@ -30596,7 +32046,8 @@
         "[开放世界探索]-[艾尔登法环]-赐福点存档机制",
         "ARPG-艾尔登法环-死亡惩罚与记忆系统",
         "grace-point",
-        "[ARPG]-EldenRing-死亡惩罚与记忆系统"
+        "[ARPG]-EldenRing-死亡惩罚与记忆系统",
+        "[ARPG]-EldenRing-骨灰系统"
       ],
       "filename": "EldenRing.md",
       "source": "人工",
@@ -30645,25 +32096,54 @@
       "source": "人工"
     },
     "EscapeFromTarkov": {
-      "title": "Escape from Tarkov / 逃离塔科夫## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | Escape from Tarkov (逃离塔科夫) || 封面图 | https://steamcdn-a.akamaihd.net/steam/apps/552520/header.jpg || 开发者 | Battlestate Games (俄罗斯圣彼得堡) || 上线时间 | 2017年正式发布 (Alpha 2016, Beta 2017) || 游戏类型 | 搜刮射击 (Looter Shooter) / 撤离类 (Extraction Shooter) / 硬核FPS || 一句话对标 | 极致硬核、主打\"搜刮-战斗-撤离\"的拟真军事射击游戏 |---## X-Statement 公式> 1-4名玩家在复杂军事废墟地图中搜集高价值物资并尝试撤离 → 通过高风险高回报的\"装备全损\"机制创造紧张刺激的博弈体验 → 局外永久养成提供长线成长动力---## 玩法原型**玩法原型**：《Escape from Tarkov》是基于**\"赌场一夜暴富\"的心理体验**设计的：- 核心体验：玩家携带装备进入赌场（战备），在赌桌间搜索物资（地图探索），可能满载而归、小赚一笔，也可能输光一切（被击杀损失所有物品）- 独特体验：硬核拟真军事题材 + 复杂枪械改装系统 + 拟真肢体伤害与医疗系统**设计参考来源**：- **Contract Wars**：Battlestate Games 前作，提供撤离类玩法雏形- **S.T.A.L.K.E.R. 系列**：废土氛围、开放世界探索- **Arma 系列**：军事模拟、复杂武器系统---## 核心支柱### 支柱1：搜刮-撤离经济循环 → 装备全损机制 → 带入装备+搜刮物资在死亡后全部掉落- **带出机制**：只有放入安全箱的物品（小型储物格）可安全带出- **保险系统**：死后可购买保险，有几率取回装备- **拍卖行**：玩家交易系统，物品可自由买卖### 支柱2：硬核拟真战斗系统 → 复杂枪械改装 + 弹道/护甲穿透 → 枪械有数十个可改装部位，子弹与护甲存在复杂穿透计算- 枪械改装：枪管、枪托、握把、瞄具、枪口等均可自由组合- 护甲系统：护甲有耐久度和部位保护，子弹有穿透值- 部位伤害：身体不同部位受伤有不同影响（头部一枪致命、四肢受伤影响移动）### 支柱3：拟真医疗与物资管理 → 生命值分多部位 + 复杂医疗道具 → 出血/骨折/脱水/体力等状态需对应处理- 状态系统：出血需要止血绷带，骨折需要骨折板，体力影响耐力- 物资管理：背包空间有限，需取舍带出物品的价值- 库存系统：仓库（Stash）存储局外物品，可交易/改装### 支柱4：地图探索与信息博弈 → 复杂地图结构 + 撤离点机制 → 每张地图有多个撤离点，部分需特定条件（如钥匙卡、击杀数）- 地图设计：室内外+地下混合，昼夜交替、天气系统- 撤离机制：部分撤离点有开放时间限制，需满足条件- 动态信息：AI敌人刷新、玩家位置不确定，信息不对等---## 核心体验**以秒为单位的体验**：> 第一人称视角，在废弃军事城市中潜行搜索高价值物资，遭遇敌人时进行高难度枪战，成功撤离后享受\"活着带出物资\"的极致快感**以分钟/小时为单位的节奏**：> 单局体验：进入战备（选择装备/消耗品）→ 降落在地图各点 → 搜索物资/击杀AI或玩家 → 规划路线前往撤离点 → 成功撤离后在仓库整理物品/出售/改装 → 购买更强装备进入下一局> > 长线循环：日常刷图积累资金 → 解锁更贵重物品 → 参与更高风险地图 → 循环往复---## 竞品对比| 维度 | Escape from Tarkov | Hunt: Showdown | Marauders | The Cycle: Frontier || :--- | :--- | :--- | :--- | :--- || **核心定位** | 硬核搜刮撤离 | 怪物猎杀+撤离 | 太空殖民+搜刮撤离 | 科幻刷宝撤离 || **题材** | 现代军事 | 1890年代怪物猎杀 | 太空殖民冷战 | 未来科幻 || **拟真度** | 极高（枪械改装、弹道） | 中等（武器简化） | 中等 | 中等 || **死亡惩罚** | 装备全损 | 角色等级重置 | 装备全损 | 装备掉落 || **特色系统** | 复杂医疗、肢体伤害 | 怪物机制、声望系统 | 飞船改装、贸易 | 任务合约系统 || **上手门槛** | 极高 | 中等 | 中等 | 中等 |**差异化定位**：- Tarkov = 最硬核的军事模拟 + 最极致的风险回报- Hunt = 恐怖氛围 + 怪物猎杀- Marauders = 太空题材 + 飞船战斗- Cycle = 科幻刷宝 + 快速节奏---## 商业成就- **Steam 峰值玩家**：47,800 人 (2025年11月)- **Steam 当前玩家**：约 18,000 人/日 (2025年11月)- **月收入估算**：约 $3,800万 (据VG Insights 2025年12月数据，Steam月流水约$3890万)- **发布年份**：2017年正式版，至今运营超8年- **评价**：Steam 口碑极佳，Critical Active 玩家群体稳定**数据来源**：SteamDB, SteamCharts, VG Insights (2025年12月)---## 关联资产**收录机制**：> - [撤离类]-逃离塔科夫-安全箱> - [撤离类]-逃离塔科夫-保险系统> - [撤离类]-逃离塔科夫-搜刮经济**关联标签**：FPS、刷宝、RPG、硬核军事、撤离类、搜刮射击---*最后更新：2026-03-15*- escape-mechanism- gear-BringInTakeOut- gold-items-system- 搜刮经济系统",
-      "gameName": "",
-      "developer": "",
+      "title": "Escape from Tarkov / 逃离塔科夫",
+      "gameName": "Escape from Tarkov (逃离塔科夫)",
+      "developer": "Battlestate Games (俄罗斯圣彼得堡)",
       "publisher": "",
       "platform": "",
-      "releaseDate": "",
-      "genre": "",
+      "releaseDate": "2017年正式发布 (Alpha 2016, Beta 2017)",
+      "genre": "搜刮射击 (Looter Shooter) / 撤离类 (Extraction Shooter) / 硬核FPS",
       "monetization": "",
       "xStatement": "",
-      "tagline": "",
+      "tagline": "极致硬核、主打\"搜刮-战斗-撤离\"的拟真军事射击游戏",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
-      "prototype": "",
-      "pillars": [],
+      "prototype": "玩法原型：《Escape from Tarkov》是基于\"赌场一夜暴富\"的心理体验设计的：\n\n- 核心体验：玩家携带装备进入赌场（战备），在赌桌间搜索物资（地图探索），可能满载而归、小赚一笔，也可能输光一切（被击杀损失所有物品）\n- 独特体验：硬核拟真军事题材 + 复杂枪械改装系统 + 拟真肢体伤害与医疗系统\n\n设计参考来源：\n\n- Contract Wars：Battlestate Games 前作，提供撤离类玩法雏形\n- S.T.A.L.K.E.R. 系列：废土氛围、开放世界探索\n- Arma 系列：军事模拟、复杂武器系统\n\n---",
+      "pillars": [
+        {
+          "title": "搜刮-撤离经济循环 → 装备全损机制",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "硬核拟真战斗系统 → 复杂枪械改装 + 弹道/护甲穿透",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "拟真医疗与物资管理 → 生命值分多部位 + 复杂医疗道具",
+          "experience": "",
+          "design": ""
+        },
+        {
+          "title": "地图探索与信息博弈 → 复杂地图结构 + 撤离点机制",
+          "experience": "",
+          "design": ""
+        }
+      ],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[Excellent][撤离类]-EscapeFromTarkov-撤离机制",
+        "escape-mechanism",
+        "gear-BringInTakeOut",
+        "gold-items-system",
+        "搜刮经济系统",
+        "[撤离类]-EscapeFromTarkov-撤离机制**关联标签**：FPS、刷宝、RPG、硬核军事、撤离类、搜刮射击"
+      ],
       "filename": "EscapeFromTarkov.md",
-      "source": "人工"
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/552520/header.jpg"
     },
     "EternalReturn": {
       "title": "游戏卡：永恒轮回：黑色幸存者 / Eternal Return / Black Survival## X-Statement 公式**公式**：一款2.5D俯视角的MOBA+吃鸡混合竞技游戏，通过18人生存乱斗+装备合成+角色技能，为玩家提供\"跑图打怪→合成装备→战斗存活\"的20分钟竞技体验。**简化版**：MOBA吃鸡 + 装备合成 + 18人竞技 + 角色技能---## 玩法原型**核心玩法原型**：- **MOBA+吃鸡混合**：借鉴《英雄联盟》的角色技能 + 吃鸡的生存淘汰机制- **装备合成系统**：借鉴ARPG的装备打造，需要在地图上搜集材料- **俯视角竞技**：2.5D俯视视角，类似DOTA的操作风格**独特体验/创新点**：- **角色技能驱动**：每个角色有独特技能，类似MOBA- **装备DIY**：需要自己搜集材料合成装备，而非直接购买- **跑图打怪**：在地图上打怪获取材料和经验---## 核心支柱### 支柱1：角色技能系统 → 角色深度- **体验**：每个角色有独特技能组，需要掌握角色特性- **设计手段**：类似MOBA的英雄技能设计- **具体参数**：数十个可解锁角色### 支柱2：装备合成系统 → 策略深度- **体验**：需要自己在地图上搜集材料，合成装备- **设计手段**：类似ARPG的合成系统，配方需要在探索中学习- **具体参数**：材料分布在地图各处### 支柱3：生存竞技 → 吃鸡体验- **体验**：18人同图，最后生存者获胜- **设计手段**：缩圈机制，迫使玩家对抗- **具体参数**：每局约20分钟### 支柱4：探索与战斗 → 资源争夺- **体验**：需要跑图打怪获取材料，同时警惕其他玩家- **设计手段**：主动出击还是猥琐发育的策略选择- **具体参数**：地图有安全区和危险区---## 核心体验**以秒为单位的体验**：2.5D俯视角，玩家在地图上搜集材料、合成装备、与敌人战斗，享受\"打怪升级→装备成型→吃鸡\"的成长快感**以分钟为单位的节奏**：前期跑图打怪（0-10分钟）→ 中期装备成型开始对抗（10-15分钟）→ 后期决赛圈激战（15-20分钟）---## 竞品对比| 对比维度 | 永恒轮回 | 英雄联盟 | 原神 || :--- | :--- | :--- | :--- || 视角 | 2.5D俯视 | 3D MOBA | 3D ARPG || 人数 | 18人吃鸡 | 5v5 | 单人 || 装备 | 合成系统 | 购买系统 | 圣遗物 || 时长 | 20分钟 | 30-40分钟 | 开放世界 |**差异化优势**：- 角色技能+装备合成的组合- 俯视角操作的精准性- 吃鸡模式的紧张感---## 补充信息### 商业成就- **Steam销量**：500万-1000万- **Steam峰值在线**：17,932人- **发行平台**：Steam（免费）- **开发**：NimbleBit（韩国）### 开发信息- **开发商**：NimbleBit- **发行商**：NimbleBit- **正式发布时间**：2020年10月### 系列地位- MOBA+吃鸡混合品类的先驱之一- 融合了英雄联盟的技能设计和吃鸡的生存机制### 信息来源- Steam商店页面- SteamCharts：玩家数据- 游民星空：攻略介绍- 百度百科：游戏背景",
@@ -30768,7 +32248,8 @@
       "achievements": "",
       "relatedMechanisms": [
         "待补充",
-        "RAC-F1-manager-赛季制资源管理策略"
+        "RAC-F1-manager-赛季制资源管理策略",
+        "[模拟经营]-F1Manager-赛季制资源管理策略"
       ],
       "filename": "F1Manager.md",
       "source": "人工",
@@ -31673,25 +33154,30 @@
       "source": "人工"
     },
     "HonkaiStarRail": {
-      "title": "Honkai: Star Rail / 崩坏星穹铁道## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | 崩坏：星穹铁道 / Honkai: Star Rail || 开发者 | 米哈游 || 发行平台 | PC / 移动端 / PS || 上线时间 | 2023年4月 || 游戏类型 | 回合制RPG / 银河冒险 || 一句话对标 | 米哈游回合制RPG || 玩家数据 | 移动端收入超20亿美元 || 封面图 | https://play-lh.googleusercontent.com/MSNbrVirOiDbL1NEQ4cMGzeL0ODJ_qjjwNTnkLQmfetF4JRjkO4mXm0IsSV-cor0PZY5Hr8Y57cuifFK33xztg |---## 玩法环境**核心循环**：> 玩家乘坐星穹列车，在各星球探索并战斗**操作门槛**：> 低 - 回合制休闲---## 关联资产**收录机制**：> - HonkaiStarRail-FictionNarrativeWaveScoring- HonkaiStarRail-FictionNarrativeBuffSystem- [Qualify]Roguelike-HonkaiStarRail-模拟宇宙---## 补充信息（来自 game-analyse-sdd）### X-Statement> 米哈游银河冒险回合制RPG，玩家乘坐星穹列车探索宇宙### 玩法原型| 系统 | 玩法原型 | 核心理念 | 独特改进 ||------|----------|----------|----------|| 探索 | 《原神》 | 箱庭 | 银河铁道 || 战斗 | 《回合制》 | 策略 | 四角色 |### 核心支柱1. **箱庭探索** - 体验：探索 / 设计：有限地图 / 参数：探索歧路2. **回合战斗** - 体验：策略 / 设计：四角色小队 / 参数：回合制3. **命途系统** - 体验：职业 / 设计：毁灭/存护/同谐 / 参数：多样定位4. **模拟宇宙** - 体验：Roguelike / 设计：随机事件 / 参数：肉鸽玩法5. **角色池** - 体验：抽卡 / 设计：限定/常驻 / 参数：跃迁### 核心体验**以小时为单位的体验**：> 玩家在银河中旅行，体验各星球剧情### 与竞品对比- vs 《原神》：星穹铁道更轻度，回合制- vs 《女神异闻录》：星穹铁道更手游化- RPG-HonkaiStarRail-模拟宇宙### 商业成就- 移动端收入超20亿美元- 上线10天1亿美元- 2023年度iPhone游戏- 2024年收入超原神- HonkaiStarRail-虚构叙事波次评分系统",
-      "gameName": "",
-      "developer": "",
+      "title": "Honkai: Star Rail / 崩坏星穹铁道",
+      "gameName": "崩坏：星穹铁道 / Honkai: Star Rail",
+      "developer": "米哈游",
       "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "",
+      "platform": "PC / 移动端 / PS",
+      "releaseDate": "2023年4月",
+      "genre": "回合制RPG / 银河冒险",
       "monetization": "",
-      "xStatement": "",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "",
-      "difficulty": "",
+      "xStatement": "米哈游银河冒险回合制RPG，玩家乘坐星穹列车探索宇宙",
+      "tagline": "米哈游回合制RPG",
+      "playerStats": "移动端收入超20亿美元",
+      "coreLoop": "玩家乘坐星穹列车，在各星球探索并战斗",
+      "difficulty": "低 - 回合制休闲",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[Qualify]RPG-HonkaiStarRail-遗器系统",
+        "[Qualify]RPG-HonkaiStarRail-光锥系统",
+        "[Qualify]Roguelike-HonkaiStarRail-模拟宇宙"
+      ],
       "filename": "HonkaiStarRail.md",
-      "source": "人工"
+      "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/MSNbrVirOiDbL1NEQ4cMGzeL0ODJ_qjjwNTnkLQmfetF4JRjkO4mXm0IsSV-cor0PZY5Hr8Y57cuifFK33xztg"
     },
     "HonorOfKings": {
       "title": "Honor of Kings / 王者荣耀## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | 王者荣耀 / Honor of Kings || 开发者 | 腾讯天美工作室 || 发行平台 | 移动端 || 上线时间 | 2015年 || 游戏类型 | MOBA / 手游 || 一句话对标 | 5v5 MOBA手游 || 封面图 | https://play-lh.googleusercontent.com/Y_Lyc8bHzeXXtGYiAlAAa15gMLWgrzuNuCv3HABINb73tEOAQd7iCQfKhYxdO6Zjgcpz4KiEsftilbrLNFka1g |---## 补充信息### X-Statement> 5v5 MOBA手游，玩家选择英雄推塔对抗### 核心支柱1. 英雄系统 / 100+英雄2. 装备系统 / 装备路线3. 兵线运营 / 对线团战4. 社交系统 / 好友战队## 关联资产**收录机制**：- MOBA-王者荣耀-社交匹配系统- AchievementSystem- [Qualify]MOBA-HonorOfKings-征召模式Ban选系统- [Qualify]MOBA-HonorOfKings-师徒系统- HonorOfKings-RankingELOSystem- [Qualify]MOBA-HonorOfKings-荣耀战令系统- [Qualify]MOBA-HonorOfKings-梦境地图崩塌系统- SocialMatchmaking- moba-hex-arena-rune- moba-arena-prebuy-gear- moba-arena-random-hero- [Qualify]MOBA-HonorOfKings-单路快节奏地图- [Qualify]MOBA-HonorOfKings-梦境大乱斗公用英雄池- HonorOfKings-AchievementSystem- MOBA-HonorOfKings-出门预购装备- MOBA-HonorOfKings-随机分配英雄机制",
@@ -32156,7 +33642,7 @@
       "source": "人工"
     },
     "LeagueOfLegends": {
-      "title": "League of Legends / 英雄联盟## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | League of Legends / 英雄联盟 || 开发者 | Riot Games || 发行平台 | PC / 移动端 || 上线时间 | 2009年 || 游戏类型 | MOBA || 收费模式 | 免费内购 |---## X-Statement**MOBA经典**5v5团队对抗 + 推塔获胜 + 丰富英雄角色全球最受欢迎的MOBA游戏。---## 玩法原型**玩法原型：《英雄联盟》基于《DOTA》的体验：**- **被借鉴游戏的核心理念/体验**：来源于《DOTA》（Defense of the Ancients），是一款基于 Warcraft III 自定义地图的多人在线战斗竞技场游戏，核心体验是**团队协作 + 策略博弈 + 英雄成长**- **本游戏在此基础上改出的独特体验**：  1. **更快的节奏**：单局时长从DOTA的40-60分钟缩短至20-30分钟  2. **更低的操作门槛**：取消反补机制、简化技能组合（4技能+1召唤师技能）、自动攻击辅助  3. **英雄设计差异化**：每个英雄有明确职责定位（刺客/战士/法师/辅助/坦克/射手），技能组服务于单一职能  4. **皮肤系统**：角色皮肤成为核心商业化和个性化表达---## 核心支柱### 支柱1：英雄设计与职业技能体系**体验目标**：玩家通过不同英雄获得差异化游戏体验**设计手段**：- 170+英雄池，每个英雄4技能+1被动- 英雄分6类定位：刺客、战士、法师、辅助、坦克、射手- 每周免费英雄轮换 + 付费解锁- 符文系统（3基石符文 + 9自定义槽位）**参数规格**：- 技能类型：位移、控制、爆发、持续伤害、护盾、治疗、增益- 成长曲线：18级满级，属性随等级提升- 装备系统：辅助装备（3个大件栏）+ 消耗品---### 支柱2：地图资源与战略目标**体验目标**：通过控制地图资源获取优势**设计手段**：- 3条兵线 + 野区 + 防御塔- 元素亚龙（4种元素龙：火/水/土/风）+ 龙魂 + 远古巨龙- 大龙buff + 小龙buff- 峡谷先锋**参数规格**：- 防御塔：11座（每路3座+2座门牙塔+1座水晶）- 小兵：每波6个（3近战+3远程），每30秒一波- 野怪：红蓝BUFF（5分钟刷新）、峡谷先锋（6分钟）、小龙（5分钟）、大龙（6分钟）---### 支柱3：团队协作与战术执行**体验目标**：通过团队配合实现战术目标**设计手段**：- 5个位置分工：上单、打野、中单、ADC、辅助- 召唤师技能：闪现、点燃、治疗、传送等- 视野系统：守卫/控制守卫- 标记信号系统**参数规格**：- 地图迷雾 + 插眼机制（最多3个饰品眼）- 团队经验分享机制- 补刀经济 + 击杀/助攻经济---### 支柱4：电竞生态与赛事体系**体验目标**：通过竞技赛事延长游戏生命周期**设计手段**：- 全球职业联赛（LCK、LPL、LEC、LCS等）- 世界总决赛（Worlds）- 季中冠军赛（MSI）- 开发者联赛/高校联赛**参数规格**：- 2024年全球赛事商业收入：7.5亿美元（赞助占62%）- 赛事奖金池：世界赛冠军奖金（2024年约250万美元）---## 核心体验### 以秒为单位的体验**游戏镜头视角**：俯视/第三人称锁定视角**玩家行为**：控制英雄在地图移动、释放技能、与敌方单位作战**乐趣**：通过操作技巧和团队配合击败对手、推掉敌方水晶获得胜利### 以分钟为单位的游戏节奏- **对线期（0-10分钟）**：各路对线发育，补刀积累经济，争夺地图资源- **资源团战期（10-20分钟）**：小龙团战、峡谷先锋争夺，防御塔推进- **后期团战期（20分钟+）**：围绕大龙、远古龙进行团战，决定胜负---## 竞品对比| 维度 | League of Legends | DOTA2 | 王者荣耀 || :--- | :--- | :--- | :--- || 操作门槛 | 中等 | 高 | 低 || 单局时长 | 20-30分钟 | 40-60分钟 | 15-20分钟 || 英雄数量 | 170+ | 124+ | 100+ || 付费点 | 皮肤、通行证 | 皮肤、订阅 | 皮肤、英雄 || 画风 | 欧美魔幻 | 硬核写实 | 卡通简化 || 符文系统 | 有（免费） | 无 | 有（简化） || 反补机制 | 无 | 有 | 无 |**核心差异**：- 相比DOTA2：LOL降低操作门槛，加快节奏，强调快节奏团战- 相比王者荣耀：LOL更注重操作深度和策略性，目标用户为硬核玩家---## 商业成就| 指标 | 数据 || :--- | :--- || 2024年全球营收 | 18.2亿美元（约130亿元人民币） || 主要收入来源 | 皮肤销售、战斗通行证 || 2024年赛事商业收入 | 7.5亿美元（赞助占62%） || 中国市场 | 2024年上半年电竞游戏收入超690亿元，LOL贡献显著 || 英雄联盟手游 | 2024年10月日均收入454万元 || 上线时间 | 2009年（持续运营超15年） |**商业化特点**：- 皮肤销售为核心收入（限定皮肤、联动皮肤溢价高）- 战斗通行证（Battle Pass）模式引领行业- 电竞赛事反哺游戏热度，形成良性循环---## 关联资产**收录机制**：> - [Qualify]MOBA-LOL-符文系统> - [Qualify]MOBA-LOL-召唤师技能> - 雪球位移（极地大乱斗模式）> - 医疗包机制**关联标签**：MOBA、竞技、团队对抗---**创建时间**：2026-03-10**更新时间**：2026-03-13- MOBA-LeagueOfLegends-符文系统",
+      "title": "League of Legends / 英雄联盟## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | League of Legends / 英雄联盟 || 开发者 | Riot Games || 发行平台 | PC / 移动端 || 上线时间 | 2009年 || 游戏类型 | MOBA || 收费模式 | 免费内购 |---## X-Statement**MOBA经典**5v5团队对抗 + 推塔获胜 + 丰富英雄角色全球最受欢迎的MOBA游戏。---## 玩法原型**玩法原型：《英雄联盟》基于《DOTA》的体验：**- **被借鉴游戏的核心理念/体验**：来源于《DOTA》（Defense of the Ancients），是一款基于 Warcraft III 自定义地图的多人在线战斗竞技场游戏，核心体验是**团队协作 + 策略博弈 + 英雄成长**- **本游戏在此基础上改出的独特体验**：  1. **更快的节奏**：单局时长从DOTA的40-60分钟缩短至20-30分钟  2. **更低的操作门槛**：取消反补机制、简化技能组合（4技能+1召唤师技能）、自动攻击辅助  3. **英雄设计差异化**：每个英雄有明确职责定位（刺客/战士/法师/辅助/坦克/射手），技能组服务于单一职能  4. **皮肤系统**：角色皮肤成为核心商业化和个性化表达---## 核心支柱### 支柱1：英雄设计与职业技能体系**体验目标**：玩家通过不同英雄获得差异化游戏体验**设计手段**：- 170+英雄池，每个英雄4技能+1被动- 英雄分6类定位：刺客、战士、法师、辅助、坦克、射手- 每周免费英雄轮换 + 付费解锁- 符文系统（3基石符文 + 9自定义槽位）**参数规格**：- 技能类型：位移、控制、爆发、持续伤害、护盾、治疗、增益- 成长曲线：18级满级，属性随等级提升- 装备系统：辅助装备（3个大件栏）+ 消耗品---### 支柱2：地图资源与战略目标**体验目标**：通过控制地图资源获取优势**设计手段**：- 3条兵线 + 野区 + 防御塔- 元素亚龙（4种元素龙：火/水/土/风）+ 龙魂 + 远古巨龙- 大龙buff + 小龙buff- 峡谷先锋**参数规格**：- 防御塔：11座（每路3座+2座门牙塔+1座水晶）- 小兵：每波6个（3近战+3远程），每30秒一波- 野怪：红蓝BUFF（5分钟刷新）、峡谷先锋（6分钟）、小龙（5分钟）、大龙（6分钟）---### 支柱3：团队协作与战术执行**体验目标**：通过团队配合实现战术目标**设计手段**：- 5个位置分工：上单、打野、中单、ADC、辅助- 召唤师技能：闪现、点燃、治疗、传送等- 视野系统：守卫/控制守卫- 标记信号系统**参数规格**：- 地图迷雾 + 插眼机制（最多3个饰品眼）- 团队经验分享机制- 补刀经济 + 击杀/助攻经济---### 支柱4：电竞生态与赛事体系**体验目标**：通过竞技赛事延长游戏生命周期**设计手段**：- 全球职业联赛（LCK、LPL、LEC、LCS等）- 世界总决赛（Worlds）- 季中冠军赛（MSI）- 开发者联赛/高校联赛**参数规格**：- 2024年全球赛事商业收入：7.5亿美元（赞助占62%）- 赛事奖金池：世界赛冠军奖金（2024年约250万美元）---## 核心体验### 以秒为单位的体验**游戏镜头视角**：俯视/第三人称锁定视角**玩家行为**：控制英雄在地图移动、释放技能、与敌方单位作战**乐趣**：通过操作技巧和团队配合击败对手、推掉敌方水晶获得胜利### 以分钟为单位的游戏节奏- **对线期（0-10分钟）**：各路对线发育，补刀积累经济，争夺地图资源- **资源团战期（10-20分钟）**：小龙团战、峡谷先锋争夺，防御塔推进- **后期团战期（20分钟+）**：围绕大龙、远古龙进行团战，决定胜负---## 竞品对比| 维度 | League of Legends | DOTA2 | 王者荣耀 || :--- | :--- | :--- | :--- || 操作门槛 | 中等 | 高 | 低 || 单局时长 | 20-30分钟 | 40-60分钟 | 15-20分钟 || 英雄数量 | 170+ | 124+ | 100+ || 付费点 | 皮肤、通行证 | 皮肤、订阅 | 皮肤、英雄 || 画风 | 欧美魔幻 | 硬核写实 | 卡通简化 || 符文系统 | 有（免费） | 无 | 有（简化） || 反补机制 | 无 | 有 | 无 |**核心差异**：- 相比DOTA2：LOL降低操作门槛，加快节奏，强调快节奏团战- 相比王者荣耀：LOL更注重操作深度和策略性，目标用户为硬核玩家---## 商业成就| 指标 | 数据 || :--- | :--- || 2024年全球营收 | 18.2亿美元（约130亿元人民币） || 主要收入来源 | 皮肤销售、战斗通行证 || 2024年赛事商业收入 | 7.5亿美元（赞助占62%） || 中国市场 | 2024年上半年电竞游戏收入超690亿元，LOL贡献显著 || 英雄联盟手游 | 2024年10月日均收入454万元 || 上线时间 | 2009年（持续运营超15年） |**商业化特点**：- 皮肤销售为核心收入（限定皮肤、联动皮肤溢价高）- 战斗通行证（Battle Pass）模式引领行业- 电竞赛事反哺游戏热度，形成良性循环---## 关联资产**收录机制**：> - [Qualify]MOBA-LOL-符文系统> - [Qualify]MOBA-LOL-召唤师技能",
       "gameName": "",
       "developer": "",
       "publisher": "",
@@ -32446,34 +33932,34 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[FPS]-[Marathon]-[三层构筑系统]收录机制：",
-        "FPS夺金-失落星船-植入物与核心",
-        "[FPS]-[Marathon]-[三层构筑系统]收录机制：>",
-        "[三层构筑系统]收录机制：",
-        "[三层构筑系统]收录机制：>"
+        "[Excellent]FPS-Marathon-三层构筑系统",
+        "FPS夺金-失落星船-植入物与核心"
       ],
       "filename": "Marathon.md",
       "source": "人工",
       "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1672280/header.jpg"
     },
     "MarioKart": {
-      "title": "Mario Kart / 马里奥赛车## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | Mario Kart / 马里奥赛车 || 开发者 | Nintendo || 发行平台 | 主机 / 移动端 || 上线时间 | 1992年 || 游戏类型 | 道具赛车、派对游戏 || 收费模式 | 买断制 |---## X-Statement**全家欢道具乱斗**全家欢的道具乱斗派对赛车游戏。---## 玩法环境**核心循环**：> 选择角色/赛车 -> 比赛中使用道具干扰对手 -> 争取名次 -> 解锁新角色/配件**操作门槛**：> 极低。操作简单，核心乐趣在于道具使用**用户画像**：> 全年龄段玩家、家庭聚会、任天堂IP粉丝---## 设计亮点1. **道具系统**2. **多人同乐**3. **漂移加速**---## 关联资产**收录机制**：> - 道具系统---**创建时间 | 2026-03-10 |关联标签**：道具赛、多人同乐、家庭友好、卡通风格收录机制：> - RAC-非拟真赛车-漂移集气资源转化收录机制：> - RAC-非拟真赛车-名次道具分配",
-      "gameName": "",
-      "developer": "",
+      "title": "Mario Kart / 马里奥赛车",
+      "gameName": "Mario Kart / 马里奥赛车",
+      "developer": "Nintendo",
       "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "",
-      "monetization": "",
-      "xStatement": "",
+      "platform": "主机 / 移动端",
+      "releaseDate": "1992年",
+      "genre": "道具赛车、派对游戏",
+      "monetization": "买断制",
+      "xStatement": "全家欢道具乱斗\n\n全家欢的道具乱斗派对赛车游戏。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "",
-      "difficulty": "",
+      "coreLoop": "选择角色/赛车 -> 比赛中使用道具干扰对手 -> 争取名次 -> 解锁新角色/配件",
+      "difficulty": "极低。操作简单，核心乐趣在于道具使用",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[Excellent]RAC-MarioKart-漂移集气资源转化",
+        "[Excellent]RAC-MarioKart8-名次道具分配"
+      ],
       "filename": "MarioKart.md",
       "source": "人工"
     },
@@ -33151,7 +34637,7 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[Qualify]pal-gear-system.md",
+        "[Excellent]RPG-Palworld-帕鲁装备系统",
         "[Qualify]pal-labor-system.md"
       ],
       "filename": "Palworld.md",
@@ -33159,25 +34645,29 @@
       "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1623730/header.jpg"
     },
     "PathOfExile": {
-      "title": "Path of Exile / 流放之路## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | Path of Exile / 流放之路 || 封面图 | https://steamcdn-a.akamaihd.net/steam/apps/238960/header.jpg || 开发者 | Grinding Gear Games || 发行平台 | PC || 上线时间 | 2013年 || 游戏类型 | ARPG、刷宝 || 收费模式 | 免费内购 |---## X-Statement**无限技能Build**拥有无限可能性的技能build的暗黑类刷宝游戏。---## 玩法环境**核心循环**：> 刷图打宝 -> 获取技能宝石/天赋点 -> 技能组合构建BD -> 挑战更高阶地图/Boss**操作门槛**：> 高。需要极强的数学逻辑和Build规划能力**用户画像**：> Build构建爱好者、喜欢深度钻研机制的硬核刷宝玩家---## 设计亮点1. **技能宝石系统**2. **天赋树Build**3. **BD构筑**---## 关联资产**收录机制**：> - 技能build---**创建时间 | 2026-03-10 |关联标签**：build、刷宝、数值成长收录机制：> - ARPG-流放之路-技能天赋",
-      "gameName": "",
-      "developer": "",
+      "title": "Path of Exile / 流放之路",
+      "gameName": "Path of Exile / 流放之路",
+      "developer": "Grinding Gear Games",
       "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "",
-      "monetization": "",
-      "xStatement": "",
+      "platform": "PC",
+      "releaseDate": "2013年",
+      "genre": "ARPG、刷宝",
+      "monetization": "免费内购",
+      "xStatement": "无限技能Build拥有无限可能性的技能build的暗黑类刷宝游戏。\n\n---",
       "tagline": "",
       "playerStats": "",
-      "coreLoop": "",
-      "difficulty": "",
+      "coreLoop": "刷图打宝 -> 获取技能宝石/天赋点 -> 技能组合构建BD -> 挑战更高阶地图/Boss",
+      "difficulty": "高。需要极强的数学逻辑和Build规划能力",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[Excellent][ARPG]-PathOfExile-技能宝石系统",
+        "[ARPG]-PathOfExile-技能宝石系统"
+      ],
       "filename": "PathOfExile.md",
-      "source": "人工"
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/238960/header.jpg"
     },
     "PathOfExile2": {
       "title": "流放之路2 (Path of Exile 2)- **类型**: 暗黑like ARPG- **开发商**: Grinding Gear Games- **发行时间**: 2023年## 核心机制- 技能宝石系统- 天赋树- 赛季机制## 入库评估❌ 无独特机制创新",
@@ -33522,9 +35012,10 @@
       "relatedMechanisms": [
         "[Qualify][FPS]R6Siege-可破坏环境系统",
         "[Qualify][FPS]R6Siege-干员技能系统",
-        "FPS-R6Siege-干员技能系统",
+        "[FPS]R6Siege-干员技能系统",
         "[FPS]R6Siege-可破坏环境系统",
-        "[FPS]R6Siege-干员技能系统"
+        "R6Siege-游戏拆解",
+        "FPS-R6Siege-干员技能系统"
       ],
       "filename": "R6Siege.md",
       "source": "人工",
@@ -33787,7 +35278,7 @@
       "source": "人工"
     },
     "Rust": {
-      "title": "Rust（腐蚀）- 游戏卡## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | Rust / 腐蚀 || 封面图 | https://steamcdn-a.akamaihd.net/steam/apps/252490/header.jpg || 开发者 | Facepunch Studios || 发行平台 | PC（Steam） || 发行时间 | 2018年2月（正式版） || 游戏类型 | 生存沙盒 / FPS / 建造 / PvPvE || 收费模式 | 买断制 + 内购（皮肤） |---## X-Statement**硬核 PvPvE 生存沙盒**类 DayZ + 七日杀的高对抗生存游戏，带生存与建造的硬核PvPvE沙盒射击。通过可被摧毁的基地建造、高风险资源采集、硬核枪械系统和服务器周期性清档四大支柱，为玩家提供弱肉强食的生存对抗体验。---## 玩法原型**1. 生存建造 → 借鉴《DayZ》《七日杀》**- 核心理念：生存建造与PvP对抗- 独特体验：  - 基地建造系统（可被摧毁）  - 辐射区机制  - 服务器清档机制  - 枪械后坐力控制**2. 基地建造与破坏 → 借鉴《七日杀》的建筑系统**- 核心理念：玩家自由建造基地，但面临被其他玩家摧毁的风险- 独特体验：方块式建筑体系，建筑有独立血量可被C4/火箭弹摧毁，真正的\"掠袭\"体验**3. 资源采集系统 → 借鉴生存游戏通用设计**- 核心理念：采集资源需要投入工具和时间的双重成本- 独特体验：采集小游戏机制，工具耐久度系统，高风险高回报区域（辐射区）**4. 硬核射击系统 → 借鉴军事模拟游戏**- 核心理念：枪械操作需要技巧，真实后坐力控制- 独特体验：垂直/水平后坐力控制，枪械改装系统，多种子弹类型（燃烧弹、穿甲弹等）---## 核心支柱### 支柱1：可摧毁基地建造- **体验**：玩家可以自由建造基地，但面临被其他玩家摧毁的风险- **手段**：  - 方块式建筑体系（木质→石质→金属→ armored四级）  - 工具台解锁更高等级建筑  - 建筑有独立血量（200-1500不等）  - 可被C4/火箭弹等爆炸物摧毁- **参数**：四级建筑分级，建筑材料可被彻底摧毁### 支柱2：高风险高回报资源采集- **体验**：采集资源需要投入工具和时间的双重成本- **手段**：  - 采集工具（如石镐）有耐久度（100-500）  - 资源点刷新机制  - 采集小游戏操作（2-10秒）  - 辐射区高风险高回报- **参数**：工具耐久、采集时间、辐射区稀有产出### 支柱3：硬核枪械系统- **体验**：枪械操作需要技巧，不同子弹有不同的穿透和伤害效果- **手段**：  - 垂直/水平后坐力控制（需要玩家手动压枪）  - 每把枪可改装多个配件  - 不同子弹类型（燃烧弹、穿甲弹、霰弹等）  - 配件影响精准度、射速、后坐力- **参数**：后坐力控制、枪械改装配件系统### 支柱4：服务器周期性清档- **体验**：每两周/一个月服务器清档，所有玩家从零开始- **手段**：  - 服务器周期性重置  - 玩家需要在新赛季重新建立基地和积累资源  - 保持竞争环境新鲜度- **参数**：清档周期通常2-4周---## 核心体验### 以秒为单位第一人称视角，玩家在开放世界中采集资源、建造基地、制作武器，与其他玩家进行高风险对抗，享受弱肉强食的刺激感。### 以分钟/小时为单位的节奏- **单局周期**：服务器清档后开始，生存周期通常2-4周- **日常循环**：采集资源 → 建造升级基地 → 制作装备 → 参与PvP战斗/掠夺其他玩家- **风险回报**：辐射区高风险区域产出稀有资源，玩家需权衡风险与收益---## 竞品对比| 维度 | Rust | DayZ | ARK：生存进化 | 七日杀 | The Forest || :--- | :--- | :--- | :--- | :--- | :--- || 平台 | PC | PC/主机 | PC/主机/移动 | PC | PC || 核心玩法 | PvPvE硬核对抗 | 沉浸式生存PvE | 恐龙宠物养成 | PVE僵尸围城 | 生存建造 || 建筑系统 | 可被摧毁 | 固定建筑 | 可被摧毁 | 可被摧毁 | 可被摧毁 || 射击系统 | 硬核后坐力 | 较简单 | 科幻武器 | 简单 | 简单 || 清档机制 | 有（2-4周） | 无 | 无 | 无 | 无 || 美术风格 | 写实 | 写实 | 科幻 | 写实 | 写实 |### 竞争优势- **纯PvP对抗体验**：相比DayZ更强调玩家间的直接对抗，节奏更快- **可摧毁建筑系统**：唯一实现建筑可被彻底摧毁的生存游戏，带来真正的\"掠袭\"体验- **服务器清档机制**：保持竞争环境新鲜度，降低老玩家优势- **枪械后坐力系统**：相比竞品更硬核的射击手感---## 商业成就- **销量**：截至2025年7月，销量2000万+份- **2024年**：年度玩家数550万（独立玩家）- **2025年1月**：收入高峰，单日收入超100万美元（多次）- **2025年峰值同时在线**：约19万玩家- **Steam评价**：好评如潮（好评率89%）- **市场地位**：生存沙盒品类的头部产品，被称为\"生存游戏天花板\"- **长线运营**：超过8年持续运营，持续保持高活跃度- **商业模式**：买断制（39.99美元）+ 外观皮肤内购 + 季节性通行证- **行业影响**：定义了硬核生存沙盒品类，是该品类的标杆产品---## 关联机制卡- [生存沙盒]-RUST-基地建造- [生存沙盒]-RUST-枪械后坐力控制- [生存沙盒]-RUST-爆炸物破防- [生存沙盒]-RUST-采集小游戏---**创建时间**：2026-03-12**标签**：生存沙盒、FPS、建造、PvPvE、硬核、Facepunch",
+      "title": "Rust（腐蚀）- 游戏卡## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | Rust / 腐蚀 || 封面图 | https://steamcdn-a.akamaihd.net/steam/apps/252490/header.jpg || 开发者 | Facepunch Studios || 发行平台 | PC（Steam） || 发行时间 | 2018年2月（正式版） || 游戏类型 | 生存沙盒 / FPS / 建造 / PvPvE || 收费模式 | 买断制 + 内购（皮肤） |---## X-Statement**硬核 PvPvE 生存沙盒**类 DayZ + 七日杀的高对抗生存游戏，带生存与建造的硬核PvPvE沙盒射击。通过可被摧毁的基地建造、高风险资源采集、硬核枪械系统和服务器周期性清档四大支柱，为玩家提供弱肉强食的生存对抗体验。---## 玩法原型**1. 生存建造 → 借鉴《DayZ》《七日杀》**- 核心理念：生存建造与PvP对抗- 独特体验：  - 基地建造系统（可被摧毁）  - 辐射区机制  - 服务器清档机制  - 枪械后坐力控制**2. 基地建造与破坏 → 借鉴《七日杀》的建筑系统**- 核心理念：玩家自由建造基地，但面临被其他玩家摧毁的风险- 独特体验：方块式建筑体系，建筑有独立血量可被C4/火箭弹摧毁，真正的\"掠袭\"体验**3. 资源采集系统 → 借鉴生存游戏通用设计**- 核心理念：采集资源需要投入工具和时间的双重成本- 独特体验：采集小游戏机制，工具耐久度系统，高风险高回报区域（辐射区）**4. 硬核射击系统 → 借鉴军事模拟游戏**- 核心理念：枪械操作需要技巧，真实后坐力控制- 独特体验：垂直/水平后坐力控制，枪械改装系统，多种子弹类型（燃烧弹、穿甲弹等）---## 核心支柱### 支柱1：可摧毁基地建造- **体验**：玩家可以自由建造基地，但面临被其他玩家摧毁的风险- **手段**：  - 方块式建筑体系（木质→石质→金属→ armored四级）  - 工具台解锁更高等级建筑  - 建筑有独立血量（200-1500不等）  - 可被C4/火箭弹等爆炸物摧毁- **参数**：四级建筑分级，建筑材料可被彻底摧毁### 支柱2：高风险高回报资源采集- **体验**：采集资源需要投入工具和时间的双重成本- **手段**：  - 采集工具（如石镐）有耐久度（100-500）  - 资源点刷新机制  - 采集小游戏操作（2-10秒）  - 辐射区高风险高回报- **参数**：工具耐久、采集时间、辐射区稀有产出### 支柱3：硬核枪械系统- **体验**：枪械操作需要技巧，不同子弹有不同的穿透和伤害效果- **手段**：  - 垂直/水平后坐力控制（需要玩家手动压枪）  - 每把枪可改装多个配件  - 不同子弹类型（燃烧弹、穿甲弹、霰弹等）  - 配件影响精准度、射速、后坐力- **参数**：后坐力控制、枪械改装配件系统### 支柱4：服务器周期性清档- **体验**：每两周/一个月服务器清档，所有玩家从零开始- **手段**：  - 服务器周期性重置  - 玩家需要在新赛季重新建立基地和积累资源  - 保持竞争环境新鲜度- **参数**：清档周期通常2-4周---## 核心体验### 以秒为单位第一人称视角，玩家在开放世界中采集资源、建造基地、制作武器，与其他玩家进行高风险对抗，享受弱肉强食的刺激感。### 以分钟/小时为单位的节奏- **单局周期**：服务器清档后开始，生存周期通常2-4周- **日常循环**：采集资源 → 建造升级基地 → 制作装备 → 参与PvP战斗/掠夺其他玩家- **风险回报**：辐射区高风险区域产出稀有资源，玩家需权衡风险与收益---## 竞品对比| 维度 | Rust | DayZ | ARK：生存进化 | 七日杀 | The Forest || :--- | :--- | :--- | :--- | :--- | :--- || 平台 | PC | PC/主机 | PC/主机/移动 | PC | PC || 核心玩法 | PvPvE硬核对抗 | 沉浸式生存PvE | 恐龙宠物养成 | PVE僵尸围城 | 生存建造 || 建筑系统 | 可被摧毁 | 固定建筑 | 可被摧毁 | 可被摧毁 | 可被摧毁 || 射击系统 | 硬核后坐力 | 较简单 | 科幻武器 | 简单 | 简单 || 清档机制 | 有（2-4周） | 无 | 无 | 无 | 无 || 美术风格 | 写实 | 写实 | 科幻 | 写实 | 写实 |### 竞争优势- **纯PvP对抗体验**：相比DayZ更强调玩家间的直接对抗，节奏更快- **可摧毁建筑系统**：唯一实现建筑可被彻底摧毁的生存游戏，带来真正的\"掠袭\"体验- **服务器清档机制**：保持竞争环境新鲜度，降低老玩家优势- **枪械后坐力系统**：相比竞品更硬核的射击手感---## 商业成就- **销量**：截至2025年7月，销量2000万+份- **2024年**：年度玩家数550万（独立玩家）- **2025年1月**：收入高峰，单日收入超100万美元（多次）- **2025年峰值同时在线**：约19万玩家- **Steam评价**：好评如潮（好评率89%）- **市场地位**：生存沙盒品类的头部产品，被称为\"生存游戏天花板\"- **长线运营**：超过8年持续运营，持续保持高活跃度- **商业模式**：买断制（39.99美元）+ 外观皮肤内购 + 季节性通行证- **行业影响**：定义了硬核生存沙盒品类，是该品类的标杆产品---## 关联机制卡- [Excellent][生存沙盒]-Rust-基地建造- [生存沙盒]-RUST-枪械后坐力控制- [生存沙盒]-RUST-爆炸物破防- [生存沙盒]-RUST-采集小游戏---**创建时间**：2026-03-12**标签**：生存沙盒、FPS、建造、PvPvE、硬核、Facepunch",
       "gameName": "",
       "developer": "",
       "publisher": "",
@@ -34295,25 +35786,30 @@
       "source": "人工"
     },
     "StardewValley": {
-      "title": "Stardew Valley / 星露谷物语## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | 星露谷物语 / Stardew Valley || 封面图 | https://steamcdn-a.akamaihd.net/steam/apps/413150/header.jpg || 开发者 | ConcernedApe || 发行平台 | PC / 主机 / 移动端 || 上线时间 | 2016年 || 游戏类型 | 农场模拟RPG || 一句话对标 | 单人开发农场 || 玩家数据 | 销量超2000万 |---## 补充信息### X-Statement> ConcernedApe单人开发，农场经营RPG### 核心支柱1. **农场** - 种植/畜牧2. **社交** - 结婚/村民3. **技能** - 耕种/采矿/战斗4. **季节** - 四季变化5. **矿洞** - 探索战斗## 关联资产**收录机制**：- 模拟经营-星露谷物语-时间资源管理- SkillSystem- TimeManagement- 模拟经营-StardewValley-多维技能系统",
-      "gameName": "",
-      "developer": "",
+      "title": "Stardew Valley / 星露谷物语",
+      "gameName": "星露谷物语 / Stardew Valley",
+      "developer": "ConcernedApe",
       "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "",
+      "platform": "PC / 主机 / 移动端",
+      "releaseDate": "2016年",
+      "genre": "农场模拟RPG",
       "monetization": "",
-      "xStatement": "",
-      "tagline": "",
-      "playerStats": "",
+      "xStatement": "ConcernedApe单人开发，农场经营RPG",
+      "tagline": "单人开发农场",
+      "playerStats": "销量超2000万",
       "coreLoop": "",
       "difficulty": "",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[Qualify][模拟经营]-StardewValley-时间资源管理",
+        "[Qualify]模拟经营-StardewValley-多维技能系统",
+        "[模拟经营]-StardewValley-时间资源管理"
+      ],
       "filename": "StardewValley.md",
-      "source": "人工"
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/413150/header.jpg"
     },
     "Starfield": {
       "title": "星空 / Starfield",
@@ -34551,25 +36047,33 @@
       "source": "人工"
     },
     "TeamfightTactics": {
-      "title": "Teamfight Tactics / 云顶之弈## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | 云顶之弈 / Teamfight Tactics || 封面图 | https://steamcdn-a.akamaihd.net/steam/apps/1449630/header.jpg || 开发者 | Riot Games（拳头游戏） || 发行平台 | PC / 移动端（iOS/Android） || 上线时间 | 2019年6月27日 || 游戏类型 | 自走棋 || 一句话对标 | 英雄联盟IP自走棋 |---## 补充信息### X-Statement> 8人实时对战的自走棋游戏，玩家通过构建英雄联盟角色阵容、合成装备、搭配羁绊来击败对手，基于“牌组构筑+资源管理”的心理体验设计---### 玩法原型**玩法原型：借鉴《Dota Auto Chess》的自走棋玩法**- **《Dota Auto Chess》的核心理念**：基于“卡牌收集+概率博弈”的体验，玩家通过抓取棋子、组合羁绊来构建阵容，感受到概率抽取的刺激与阵容成型的满足感- **《云顶之弈》的独特体验**：  1. **六边形棋盘设计**：不同于传统方形棋盘，六边形提供更多站位策略空间  2. **装备合成系统**：引入英雄联盟的装备合成系统，大幅提升策略深度  3. **英雄联盟IP**：使用玩家熟悉的英雄角色，降低上手门槛  4. **赛季更新机制**：每赛季调整羁绊、英雄、装备，保持长线新鲜感---### 核心支柱**支柱1：羁绊组合系统**- 体验：不同种族/职业的组合产生强大效果- 设计手段：每个英雄拥有1-2个羁绊，3/5/7/9不同数量激活不同效果- 具体参数：每赛季约50+英雄，15+种族，10+职业**支柱2：装备合成系统**- 体验：通过装备合成将棋子武装成核心战力- 设计手段：基础装备+进阶装备，8个基础装备可合成30+进阶装- 具体参数：装备可镶嵌、重铸、拆卸**支柱3：经济管理系统**- 体验：利息机制让资源规划成为核心策略- 设计手段：50金以上每回合获得利息（1-5金），连胜/连败额外获得- 具体参数：初始金币+连败最高8金币/回合**支柱4：公共牌池抓取**- 体验：卡池共享使得博弈更加紧张- 设计手段：所有玩家共享棋子池，同一棋子被购买后减少刷新概率- 具体参数：5个刷新回合，每次免费1次，后续2金币**支柱5：共享选秀轮盘**- 体验：运气与策略并存的公共事件- 设计手段：每局选秀阶段，所有玩家同时选择同一回合获得的装备/棋子- 具体参数：每4回合一次，棋子携带装备---### 核心体验**以秒为单位的体验**：3D等轴视角，玩家在六边形棋盘上拖拽棋子、调整站位，自动战斗阶段观看棋子释放技能，享受技能combo与暴击的视觉反馈**以分钟为单位的节奏**：- 前期（1-4回合）：抓取基础棋子，积累经济- 中期（5-8回合）：确定核心阵容，积累装备- 后期（9回合+）：阵容成型，参与决战---### 竞品对比| 维度 | 云顶之弈 | Dota Underlords | Chess Rush || :--- | :--- | :--- | :--- || IP基础 | 英雄联盟 | Dota 2 | 原创 || 棋盘 | 六边形 | 八角形 | 方形 || 装备系统 | 深度合成 | 简单继承 | 无 || 更新频率 | 赛季制（6周） | 赛季制 | 月度 || 发行商 | Riot Games | Valve | 腾讯 |**竞争优势**：1. 英雄联盟IP的认知度与情感基础2. 装备合成系统带来的策略深度3. 拳头游戏的持续运营与赛事化推广---### 商业成就- **移动端累计收入**：约2.99亿美元（截至2022年7月）- **国服《金铲铲之战》2024年流水**：约79.06亿人民币- **市场地位**：自走棋品类头部产品，腾讯游戏收入的重要组成部分- **长线表现**：运营超6年，持续保持高热度---## 关联资产**收录机制**：- 自走棋-云顶之弈-装备合成系统- 自走棋-云顶之弈-羁绊组合系统- 自走棋-云顶之弈-利息经济系统- [Qualify]自走棋-TeamfightTactics-公共牌池抓取- 自走棋-云顶之弈-共享选秀轮盘- HaikesiQianghuaXitong- [策略]-TeamfightTactics-羁绊组合系统",
-      "gameName": "",
-      "developer": "",
+      "title": "云顶之弈 / Teamfight Tactics",
+      "gameName": "云顶之弈 (Teamfight Tactics)",
+      "developer": "Riot Games",
       "publisher": "",
-      "platform": "",
-      "releaseDate": "",
-      "genre": "",
+      "platform": "PC (Riot Client) / iOS / Android",
+      "releaseDate": "2019年6月",
+      "genre": "自走棋 (Auto Battle Chess)",
       "monetization": "",
-      "xStatement": "",
-      "tagline": "",
-      "playerStats": "",
-      "coreLoop": "",
-      "difficulty": "",
+      "xStatement": "【基础信息】+【品类】+【核心差异点/独特卖点】",
+      "tagline": "8人实时对弈的自走棋游戏",
+      "playerStats": "据公开报道，2023年移动版累计收入超10亿美元",
+      "coreLoop": "选秀→购买棋子→组合羁绊→自动战斗→结算收入→循环",
+      "difficulty": "中等偏易，主要操作集中在备选阶段",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [],
+      "relatedMechanisms": [
+        "[Qualify]自走棋-TeamfightTactics-利息经济系统",
+        "[Qualify]策略-TeamfightTactics-羁绊组合系统",
+        "[Qualify]自走棋-TeamfightTactics-公共牌池抓取",
+        "[Qualify]自走棋-TeamfightTactics-装备合成系统",
+        "[Qualify]自走棋-TeamfightTactics-共享选秀轮盘",
+        "[Qualify]自走棋-TeamfightTactics-海克斯强化系统"
+      ],
       "filename": "TeamfightTactics.md",
-      "source": "人工"
+      "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/L9XQPMiJ8Wa8pPNzU5hsJAnOqFhnmLT-uM063OytGbwJKjx6Wys75NVdg_rira7D7xGr"
     },
     "Tekken7": {
       "title": "铁拳7 / Tekken 7## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | 铁拳7 (Tekken 7) || 封面图 | https://steamcdn-a.akamaihd.net/steam/apps/389730/header.jpg || 一句话对标 | 3D格斗代表作，Rage翻盘系统 || 游戏类型 | 格斗游戏 / 3D格斗 || 开发者 | Bandai Namco（万代南梦宫） || 发布时间 | 2017年3月（主机/PC），街机版2015年 || 商业成就 | 截至2024年7月，销量突破1200万份；系列总销量超6100万份 |---## X-Statement公式**公式**：> 单人对战 + 3D空间格斗 + 深度角色系统 = 高竞技性的硬核格斗体验**一句话解释**：> 通过3D空间中的侧闪、姿态和连招系统，为玩家提供深度且具竞技性的1v1格斗体验---## 玩法原型**核心借鉴**：- 玩法原型继承自经典街机格斗游戏系列（铁拳1-6代）- 3D移动系统借鉴了3D格斗的开创者Virtua Fighter（VR战士）的空间战斗理念- 姿态系统（Stance）借鉴了剑道格斗的真实姿态转换**独特卖点**：- **3D空间战斗**：不同于2D格斗的平面博弈，Tekken强调立体空间中的侧闪和位置控制- **角色深度**：每个角色拥有超过100招指令，角色池超过50人- **Rage翻盘系统**：残血时的翻盘机制增加比赛悬念---## 核心支柱### 支柱1：3D侧闪系统 → 立体空间博弈 → 8方向移动（前后左右+对角线）**设计意图**：区别于2D格斗的\"择\"（假动作），3D空间提供侧闪选项，增加博弈维度**实现参数**：- 8方向移动系统- 侧闪可躲避纵向攻击（无法躲避横spread攻击）- 侧闪后可衔接连招### 支柱2：Rage翻盘系统 → 残血激励 → 血量<20%时激活**设计意图**：解决大比分落后时玩家弃赛的问题，提升比赛悬念和观赏性**实现参数**：- 血量低于20%自动触发- 攻击力提升（约为1.3倍）- 获得Rage Art（爆气必杀技）：一次性高伤害技能- 获得Rage Drive：强化版特殊技### 支柱3：姿态系统（Stance）→ 角色差异化和深度 → 每个角色2-4种姿态**设计意图**：同一角色不同姿态提供多种战斗风格，增加角色可玩性和博弈深度**实现参数**：- 姿态转换有冷却时间- 不同姿态对应不同招式组- 姿态可衍生成独立的连招分支### 支柱4：连招系统 → 竞技深度 → 平均连招段数3-15段**设计意图**：通过可研究的深度连招系统，提供长期技术成长空间**实现参数**：- 基础连招：Launcher（击飞）→ Juggling（空中连击）→ Bound（倒地追击）→ Ender（结束技）- 最优连招存在帧数最优解- 不同角色连招上限不同---## 核心体验### 以秒为单位的体验：> 3D第三人称视角，玩家与对手在立体空间中近身搏斗，通过预判对手行动（防御/侧闪/反击）来取得优势，享受见招拆招的博弈乐趣### 以分钟为单位的体验：> 单局3分钟以内：试探期（相互试探对手习惯）→ 抢分期（尝试确立优势）→ 决胜期（Rage翻盘可能性）→ 结算---## 竞品对比| 对比维度 | Tekken 7 | Street Fighter 6 | 差异点 || :--- | :--- | :--- | :--- || 空间维度 | 3D（侧闪系统） | 2D为主 | Tekken更强调空间位置 || 角色深度 | 100+招式/人 | 相对精简 | Tekken上限更高 || 连招系统 | 复杂Juggling | 相对线性 | Tekken连击感更强 || 入门门槛 | 极高 | 中等 | SF6更易上手 || 竞技深度 | 极深 | 很深 | 两者都是顶级竞技游戏 |**市场定位差异**：- Tekken 7：面向追求极致深度的硬核格斗玩家- Street Fighter 6：在保持竞技性的同时降低入门门槛，吸引新玩家---## 商业成就- **销量**：截至2024年7月，Tekken 7 全球销量突破1200万份- **系列成就**：铁拳系列累计销量超过6100万份，是最成功的的3D格斗游戏IP- **电竞赛事**：EVO等顶级格斗赛事常驻项目- **评价**：Metacritic均分82，Steam好评率89%---## 玩法环境**核心循环**：练习连招→对战→排位→精进技术**操作门槛**：高 - 深度复杂，新手学习曲线陡峭---## 关联资产**收录机制**：- [格斗]-Tekken7-3D移动系统- 格斗-铁拳7-Rage系统- [格斗]-Tekken7-Rage系统- 街机-Tekken7-Rage系统",
@@ -34950,7 +36454,11 @@
       "pillars": [],
       "achievements": "",
       "relatedMechanisms": [
-        "[FPS]-无畏契约-经济请求（发枪）系统"
+        "[Excellent][FPS]-Valorant-英雄技能系统",
+        "[Qualify][FPS]-Valorant-经济请求发枪系统",
+        "FPS-Valorant-英雄技能系统",
+        "[FPS]-Valorant-英雄技能系统",
+        "[FPS]-Valorant-经济请求发枪系统"
       ],
       "filename": "Valorant.md",
       "source": "人工"
@@ -35019,7 +36527,7 @@
       "source": "人工"
     },
     "Warframe": {
-      "title": "Warframe / 星际战甲## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | 星际战甲 / Warframe || 封面图 | https://steamcdn-a.akamaihd.net/steam/apps/230410/header.jpg || 开发者 | Digital Extremes || 发行平台 | PC / 主机 / 移动端 || 上线时间 | 2013年 || 游戏类型 | 第三人称射击 || 一句话对标 | 免费刷宝射击 || 玩家数据 | 持续运营10年+ |---## 补充信息### X-Statement> Digital Extremes免费第三人称射击，40+战甲### 核心支柱1. **战甲** - 40+战甲2. **MOD** - 装备卡3. **星际** - 星球探索4. **技能** - 战甲技能5. **刷宝** - 装备获取",
+      "title": "Warframe / 星际战甲## 基本信息| 字段 | 内容 || :--- | :--- || 游戏名称 | 星际战甲 / Warframe || 封面图 | https://steamcdn-a.akamaihd.net/steam/apps/230410/header.jpg || 开发者 | Digital Extremes || 发行平台 | PC / 主机 / 移动端 || 上线时间 | 2013年 || 游戏类型 | 第三人称射击 || 一句话对标 | 免费刷宝射击 || 玩家数据 | 持续运营10年+ |---## 关联资产",
       "gameName": "",
       "developer": "",
       "publisher": "",
@@ -35969,7 +37477,7 @@
     }
   },
   "stats": {
-    "mechanismCount": 447,
-    "gameCount": 347
+    "mechanismCount": 463,
+    "gameCount": 348
   }
 }
