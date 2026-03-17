@@ -672,12 +672,148 @@
     let currentPage = 1;
     const PAGE_SIZE = 40;
     let filteredData = [];
+    let selectedFilters = {}; // 选中的筛选标签 { '玩法层级-对抗类型': ['PVP'], ... }
     
     // Load data
     async function loadData() {
       const response = await fetch('data.json?v=1773716565');
       data = await response.json();
       renderStats();
+      renderFilterPanel();
+      renderGrid();
+    }
+    
+    // 渲染筛选面板 - 使用分类后的标签
+    function renderFilterPanel() {
+      const categories = {
+        '玩法层级-对抗类型': {},
+        '玩法层级-玩法规模': {},
+        '玩法层级-内容消耗模式': {},
+        '玩法层级-生命周期阶段': {},
+        '玩法层级-操作属性': {},
+        '玩法层级-时间属性': {},
+        '玩法层级-玩法重度': {},
+        '玩法层级-玩法独立性': {},
+        '机制设计-品类': {},
+        '机制设计-16乐趣标签': {},
+        '机制设计-情绪反馈': {},
+        '机制设计-交互关系': {}
+      };
+      
+      // 统计各分类的标签
+      Object.values(data.mechanisms).forEach(m => {
+        // 玩法层级 - 从 playLevelTags 获取
+        if (m.playLevelTags) {
+          m.playLevelTags.forEach(t => {
+            if (['PVP', 'PvPvE', 'PVE', '无对抗'].includes(t)) {
+              categories['玩法层级-对抗类型'][t] = (categories['玩法层级-对抗类型'][t] || 0) + 1;
+            } else if (['单人玩法', '双人玩法', '小队玩法', '多人玩法'].includes(t)) {
+              categories['玩法层级-玩法规模'][t] = (categories['玩法层级-玩法规模'][t] || 0) + 1;
+            } else if (['可重复', '一次性', '周期性', '可重复（持续运营）', '持续运营'].includes(t)) {
+              categories['玩法层级-内容消耗模式'][t] = (categories['玩法层级-内容消耗模式'][t] || 0) + 1;
+            } else if (['Endgame', '新手引导期', '成长中期'].includes(t)) {
+              categories['玩法层级-生命周期阶段'][t] = (categories['玩法层级-生命周期阶段'][t] || 0) + 1;
+            } else if (['即时操作', '半即时操作', '回合操作', '放置操作', '放置操作（轻操作）'].includes(t)) {
+              categories['玩法层级-操作属性'][t] = (categories['玩法层级-操作属性'][t] || 0) + 1;
+            } else if (t.includes('分钟')) {
+              categories['玩法层级-时间属性'][t] = (categories['玩法层级-时间属性'][t] || 0) + 1;
+            } else if (['核心玩法', '副玩法', '轻度玩法'].includes(t)) {
+              categories['玩法层级-玩法重度'][t] = (categories['玩法层级-玩法重度'][t] || 0) + 1;
+            } else if (['高耦合', '低耦合'].includes(t)) {
+              categories['玩法层级-玩法独立性'][t] = (categories['玩法层级-玩法独立性'][t] || 0) + 1;
+            }
+          });
+        }
+        
+        // 机制设计 - 使用新的分类字段
+        if (m.mechanismDesignCategory) {
+          m.mechanismDesignCategory.forEach(t => {
+            categories['机制设计-品类'][t] = (categories['机制设计-品类'][t] || 0) + 1;
+          });
+        }
+        if (m.mechanismDesignFun) {
+          m.mechanismDesignFun.forEach(t => {
+            categories['机制设计-16乐趣标签'][t] = (categories['机制设计-16乐趣标签'][t] || 0) + 1;
+          });
+        }
+        if (m.mechanismDesignEmotion) {
+          m.mechanismDesignEmotion.forEach(t => {
+            categories['机制设计-情绪反馈'][t] = (categories['机制设计-情绪反馈'][t] || 0) + 1;
+          });
+        }
+        if (m.mechanismDesignInteraction) {
+          m.mechanismDesignInteraction.forEach(t => {
+            categories['机制设计-交互关系'][t] = (categories['机制设计-交互关系'][t] || 0) + 1;
+          });
+        }
+      });
+      
+      // 渲染
+      let html = '';
+      const catTitles = {
+        '玩法层级-对抗类型': '🎮 对抗类型',
+        '玩法层级-玩法规模': '👥 玩法规模',
+        '玩法层级-内容消耗模式': '🔄 内容消耗',
+        '玩法层级-生命周期阶段': '📈 生命周期',
+        '玩法层级-操作属性': '🕹️ 操作属性',
+        '玩法层级-时间属性': '⏱️ 时间属性',
+        '玩法层级-玩法重度': '⚡ 玩法重度',
+        '玩法层级-玩法独立性': '🔗 玩法独立性',
+        '机制设计-品类': '🏷️ 品类',
+        '机制设计-16乐趣标签': '✨ 乐趣标签',
+        '机制设计-情绪反馈': '💫 情绪反馈',
+        '机制设计-交互关系': '🤝 交互关系'
+      };
+      
+      Object.entries(categories).forEach(([cat, counts]) => {
+        if (Object.keys(counts).length === 0) return;
+        
+        html += '<div class="filter-category">';
+        html += '<div class="filter-category-title">' + catTitles[cat] + '</div>';
+        html += '<div class="filter-tags">';
+        
+        Object.entries(counts).sort((a,b) => b[1] - a[1]).forEach(([tag, count]) => {
+          const selected = selectedFilters[cat] && selectedFilters[cat].includes(tag);
+          html += '<span class="filter-tag ' + (selected ? 'selected' : '') + '" onclick="toggleFilterTag(\'' + cat + '\', \'' + tag + '\')">' + tag + '<span class="filter-tag-count">(' + count + ')</span></span>';
+        });
+        
+        html += '</div></div>';
+      });
+      
+      document.getElementById('filterBody').innerHTML = html;
+    }
+    
+    // 切换筛选面板显示
+    function toggleFilter() {
+      const panel = document.getElementById('filterPanel');
+      const btn = document.getElementById('filterBtn');
+      panel.classList.toggle('hidden');
+      btn.classList.toggle('active');
+    }
+    
+    // 切换单个标签
+    function toggleFilterTag(category, tag) {
+      if (!selectedFilters[category]) {
+        selectedFilters[category] = [];
+      }
+      
+      const idx = selectedFilters[category].indexOf(tag);
+      if (idx >= 0) {
+        selectedFilters[category].splice(idx, 1);
+      } else {
+        selectedFilters[category].push(tag);
+      }
+      
+      renderFilterPanel();
+      currentPage = 1;
+      renderGrid();
+    }
+    
+    // 清除筛选
+    function clearFilter() {
+      selectedFilters = {};
+      renderFilterPanel();
+      currentPage = 1;
       renderGrid();
     }
     
@@ -753,7 +889,27 @@
             m.simpleDesc?.toLowerCase().includes(kw) ||
             allTags.some(t => t.toLowerCase().includes(kw))
           );
-          return matchQuery;
+          
+          // 筛选：必须满足所有选中的分类
+          let matchFilter = true;
+          for (const [category, tags] of Object.entries(selectedFilters)) {
+            if (tags.length === 0) continue;
+            
+            // 检查该机制的标签是否包含任一选中的标签
+            let hasMatch = false;
+            for (const tag of tags) {
+              if (allTags.includes(tag)) {
+                hasMatch = true;
+                break;
+              }
+            }
+            if (!hasMatch) {
+              matchFilter = false;
+              break;
+            }
+          }
+          
+          return matchQuery && matchFilter;
         });
       } else {
         return Object.entries(data.games).filter(([key, g]) => {

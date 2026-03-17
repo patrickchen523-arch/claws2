@@ -591,6 +591,22 @@ function extractMechanismInfo(parsed, filename) {
               playLevelTags.push(...mappedTags);
             }
           } else {
+            // 机制设计层级 - 按字段分类存储
+            const mechanismDesignFields = {
+              '原型品类': 'category',
+              '16乐趣标签': 'fun',
+              '情绪反馈': 'emotion',
+              '交互关系': 'interaction'
+            };
+            
+            const fieldType = mechanismDesignFields[label];
+            if (fieldType) {
+              // 存储到对应分类
+              if (!info.mechanismDesignByCategory) info.mechanismDesignByCategory = {};
+              if (!info.mechanismDesignByCategory[fieldType]) info.mechanismDesignByCategory[fieldType] = [];
+              info.mechanismDesignByCategory[fieldType].push(...tags);
+            }
+            
             allTags.push(...tags);
           }
         }
@@ -634,6 +650,14 @@ function extractMechanismInfo(parsed, filename) {
       if (specialMechanisms.length > 0) info.specialMechanisms = specialMechanisms;
       if (painPoints.length > 0) info.painPoints = painPoints;
       if (mechanismDesign.length > 0) info.mechanismDesign = mechanismDesign;
+      
+      // 单独存储分类后的机制设计
+      if (info.mechanismDesignByCategory) {
+        info.mechanismDesignCategory = info.mechanismDesignByCategory.category || [];
+        info.mechanismDesignFun = info.mechanismDesignByCategory.fun || [];
+        info.mechanismDesignEmotion = info.mechanismDesignByCategory.emotion || [];
+        info.mechanismDesignInteraction = info.mechanismDesignByCategory.interaction || [];
+      }
     }
     
     // 单独保存玩法层级标签
