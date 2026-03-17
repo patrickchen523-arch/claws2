@@ -96,9 +96,37 @@
     
     /* Main */
     main {
-      max-width: 1400px;
+      max-width: 1200px;
       margin: 0 auto;
-      padding: 2rem;
+      padding: 2rem 1rem;
+    }
+    
+    .main-content {
+      display: flex;
+      gap: 1rem;
+    }
+    
+    .filter-panel {
+      width: 260px;
+      flex-shrink: 0;
+      max-height: calc(100vh - 140px);
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1rem;
+      overflow-y: auto;
+      position: sticky;
+      top: 100px;
+      align-self: flex-start;
+    }
+    
+    .filter-panel.hidden {
+      display: none;
+    }
+    
+    .main-right {
+      flex: 1;
+      min-width: 0;
     }
     
     /* Search */
@@ -107,6 +135,7 @@
       gap: 1rem;
       margin-bottom: 1rem;
       align-items: center;
+      padding: 0 1rem;
     }
     
     .search-input {
@@ -117,6 +146,7 @@
       font-size: 1rem;
       outline: none;
       transition: border-color 0.2s;
+      max-width: calc(100% - 100px);
     }
     
     .search-input:focus {
@@ -141,21 +171,6 @@
       background: var(--primary);
       color: white;
       border-color: var(--primary);
-    }
-    
-    /* 筛选面板 */
-    .filter-panel {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1rem;
-      margin-bottom: 1rem;
-      max-height: 400px;
-      overflow-y: auto;
-    }
-    
-    .filter-panel.hidden {
-      display: none;
     }
     
     .filter-header {
@@ -227,6 +242,7 @@
       margin-bottom: 1.5rem;
       color: var(--text-secondary);
       font-size: 0.9rem;
+      padding: 0 1rem;
     }
     
     .stat-item {
@@ -243,8 +259,9 @@
     /* Grid */
     .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      grid-template-columns: repeat(3, 1fr);
       gap: 1rem;
+      padding: 0 1rem;
     }
     
     .card {
@@ -433,7 +450,7 @@
       justify-content: center;
       gap: 0.5rem;
       margin-top: 2rem;
-      padding: 1rem 0;
+      padding: 1rem;
       flex-wrap: wrap;
     }
     
@@ -613,34 +630,38 @@
   <main>
     <div class="search-bar">
       <input type="text" class="search-input" id="searchInput" placeholder="搜索... (多个关键词用空格分隔，支持交集搜索)">
-      <button class="filter-btn" id="filterBtn" onclick="toggleFilter()">🔍 筛选</button>
+      <button class="filter-btn" id="filterBtn" onclick="toggleFilter()">👁️ 显示筛选</button>
     </div>
     
-    <!-- 筛选面板 -->
-    <div class="filter-panel hidden" id="filterPanel">
-      <div class="filter-header">
-        <span>标签筛选</span>
-        <span class="filter-clear" onclick="clearFilter()">清除</span>
+    <div class="main-content">
+      <!-- 筛选面板 -->
+      <div class="filter-panel" id="filterPanel">
+        <div class="filter-header">
+          <span>🏷️ 标签筛选</span>
+          <span class="filter-clear" onclick="clearFilter()">清除</span>
+        </div>
+        <div class="filter-body" id="filterBody"></div>
       </div>
-      <div class="filter-body" id="filterBody"></div>
-    </div>
-    
-    <div class="stats">
-      <div class="stat-item">
-        <span class="stat-num" id="mechCount">0</span> 个机制
+      
+      <div class="main-right">
+        <div class="stats">
+          <div class="stat-item">
+            <span class="stat-num" id="mechCount">0</span> 个机制
+          </div>
+          <div class="stat-item">
+            <span class="stat-num" id="gameCount">0</span> 个游戏
+          </div>
+        </div>
+        
+        <div class="grid" id="grid"></div>
+        
+        <!-- Pagination -->
+        <div class="pagination" id="pagination"></div>
+        
+        <div class="empty hidden" id="empty">
+          <p>没有找到相关内容</p>
+        </div>
       </div>
-      <div class="stat-item">
-        <span class="stat-num" id="gameCount">0</span> 个游戏
-      </div>
-    </div>
-    
-    <div class="grid" id="grid"></div>
-    
-    <!-- Pagination -->
-    <div class="pagination" id="pagination"></div>
-    
-    <div class="empty hidden" id="empty">
-      <p>没有找到相关内容</p>
     </div>
   </main>
   
@@ -670,13 +691,13 @@
     let data = { mechanisms: {}, games: {}, stats: {} };
     let currentTab = 'mechanisms';
     let currentPage = 1;
-    const PAGE_SIZE = 40;
+    const PAGE_SIZE = 30;
     let filteredData = [];
     let selectedFilters = {}; // 选中的筛选标签 { '玩法层级-对抗类型': ['PVP'], ... }
     
     // Load data
     async function loadData() {
-      const response = await fetch('data.json?v=1773716565');
+      const response = await fetch('data.json?v=' + Date.now());
       data = await response.json();
       renderStats();
       renderFilterPanel();
@@ -787,8 +808,16 @@
     function toggleFilter() {
       const panel = document.getElementById('filterPanel');
       const btn = document.getElementById('filterBtn');
-      panel.classList.toggle('hidden');
-      btn.classList.toggle('active');
+      
+      if (panel.classList.contains('hidden')) {
+        panel.classList.remove('hidden');
+        btn.innerHTML = '👁️ 隐藏筛选';
+        btn.classList.add('active');
+      } else {
+        panel.classList.add('hidden');
+        btn.innerHTML = '🔍 显示筛选';
+        btn.classList.remove('active');
+      }
     }
     
     // 切换单个标签
