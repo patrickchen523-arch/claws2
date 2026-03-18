@@ -2,13 +2,13 @@
 name: game-report-generator
 description: |
  生成游戏分析报告的 HTML/PDF 文档。
- 当需要将 game-analyse-sdd 的分析输出转换为可视化报告时使用此技能。
+ 当需要将 game-analyse-2-0 的分析输出转换为可视化报告时使用此技能。
  工作流程：收集分析数据 → 生成 HTML 预览 → 浏览器查看 → 打印为 PDF。
 ---
 
 # Game Report Generator - 游戏分析报告生成器
 
-根据 game-analyse-sdd 的分析输出，生成可视化的游戏分析报告。
+根据 game-analyse-2-0 的分析输出，生成可视化的游戏分析报告。
 
 ## 报告结构（两页）
 
@@ -30,7 +30,7 @@ description: |
 
 ### 1. 收集数据
 
-从 game-analyse-sdd 的分析结果中提取：
+从 game-analyse-2-0 的分析结果中提取：
 - 游戏名称
 - X-Statement 公式
 - 玩法原型（参考游戏 + 核心体验描述）

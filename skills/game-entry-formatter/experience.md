@@ -10,7 +10,7 @@
 **完整流程**：
 ```
 阶段一：收集（web_search + web_fetch）
-阶段二：拆解（game-analyse-sdd）
+阶段二：拆解（game-analyse-2-0）
 阶段三：分析筛选（判断哪些机制值得入库）
 阶段四：评分入库（game-entry-formatter + mechanism-scoring）
 ```

@@ -1,7 +1,7 @@
 # game-report-generator 经验总结
 
 ## 技能简介
-生成游戏分析报告的 HTML/PDF 文档。当需要将 game-analyse-sdd 的分析输出转换为可视化报告时使用此技能。
+生成游戏分析报告的 HTML/PDF 文档。当需要将 game-analyse-2-0 的分析输出转换为可视化报告时使用此技能。
 
 ## 使用经验
 

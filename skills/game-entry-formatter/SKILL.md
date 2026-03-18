@@ -9,7 +9,7 @@ description: 将游戏拆解分析结果格式化为 jizhi 机制库可入库的
 
 ## 适用场景
 
-- game-analyse-sdd 拆解完成后，需要生成入库格式
+- game-analyse-2-0 拆解完成后，需要生成入库格式
 - 用户确认哪些支柱可以入库后，生成最终条目
 
 ---
@@ -247,7 +247,7 @@ description: 将游戏拆解分析结果格式化为 jizhi 机制库可入库的
 
 ---
 
-## 补充信息（来自 game-analyse-sdd）
+## 补充信息（来自 game-analyse-2-0）
 
 ### X-Statement
 > 完整X-Statement公式
@@ -281,7 +281,7 @@ description: 将游戏拆解分析结果格式化为 jizhi 机制库可入库的
 | | 核心循环 | 简述单局怎么玩 |
 | | 操作门槛 | 评估受众群体的上手难度 |
 | 关联资产 | 收录机制 | 自动关联显示机制库中所有属于该游戏的条目 |
-| 补充信息 | X-Statement | 完整X-Statement公式（来自game-analyse-sdd） |
+| 补充信息 | X-Statement | 完整X-Statement公式（来自game-analyse-2-0） |
 | | 玩法原型 | 表格形式 |
 | | 核心支柱 | 支柱列表 |
 | | 商业成就 | 销量/收入数据 |
@@ -315,7 +315,7 @@ jizhi/workspace/
 ## 使用流程
 
 ### 步骤 1：接收任务
-接收 game-analyse-sdd 的分析结果，确认要入库的机制和游戏
+接收 game-analyse-2-0 的分析结果，确认要入库的机制和游戏
 
 ### 步骤 2：检查目录和命名（新增）
 **重要**：在入库前，必须验证目录结构和命名是否符合规范
