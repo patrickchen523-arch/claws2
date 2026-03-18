@@ -5,6 +5,162 @@ const MECHANISMS_DIR = '/root/.openclaw/agents/jizhi/workspace/mechanisms';
 const GAMES_DIR = '/root/.openclaw/agents/jizhi/workspace/games';
 
 /**
+ * 品类归一化映射表 - 对应 HTML GENRE_GROUPS
+ * mechanismDesignCategory 输出前需要归一化，确保能被品类 tab 识别
+ */
+const GENRE_GROUPS_NORMALIZE = {
+  // MOBA
+  'MOBA': 'MOBA',
+  'MOBA-5v5': 'MOBA-5v5',
+  'MOBA-7v7': 'MOBA',
+  
+  // FPS/射击
+  'FPS': '射击',
+  'FPS-撤离射击': '射击-搜打撤',
+  '搜打撤': '射击-搜打撤',
+  '撤离射击': '射击-搜打撤',
+  '大逃杀': '射击-大逃杀',
+  '战术竞技': '射击-战术竞技',
+  '射击': '射击',
+  '射击-搜打撤': '射击-搜打撤',
+  '射击-大逃杀': '射击-大逃杀',
+  '射击-战术竞技': '射击-战术竞技',
+  
+  // 竞速
+  '竞速': '竞速-街机竞速',
+  '街机竞速': '竞速-街机竞速',
+  '赛车': '竞速-街机竞速',
+  
+  // RPG
+  'RPG': 'RPG',
+  'ARPG': 'RPG-ARPG',
+  'RPG-ARPG': 'RPG-ARPG',
+  'RPG - ARPG': 'RPG - ARPG',
+  'MMORPG': 'MMORPG',
+  'RPG-MMORPG': 'RPG-MMORPG',
+  'JRPG': 'JRPG',
+  'RPG-角色定制': 'RPG-角色定制',
+  '放置RPG': '放置RPG',
+  
+  // SLG/策略
+  'SLG': 'SLG',
+  '策略-SLG': '策略-SLG',
+  '策略': '策略-SLG',
+  'RTS': '策略-RTS',
+  '策略-RTS': '策略-RTS',
+  '自走棋': '策略-自走棋',
+  '策略-自走棋': '策略-自走棋',
+  '战棋': '策略-战棋',
+  '策略-战棋': '策略-战棋',
+  '塔防': '策略-塔防',
+  '策略-塔防': '策略-塔防',
+  '策略卡牌': '策略-策略卡牌',
+  '策略-策略卡牌': '策略-策略卡牌',
+  
+  // 卡牌
+  '卡牌': '卡牌-策略卡牌',
+  '卡牌-策略卡牌': '卡牌-策略卡牌',
+  '卡牌-CCG': '卡牌-CCG',
+  'CCG': '卡牌-CCG',
+  'Roguelike-卡牌构筑': 'Roguelike-卡牌构筑',
+  '卡牌构筑': '卡牌-策略卡牌',
+  
+  // Roguelike
+  'Roguelike': 'Roguelike',
+  'Roguelite': 'Roguelike',
+  '肉鸽': 'Roguelike',
+  
+  // 模拟经营
+  '模拟经营': '模拟经营',
+  '模拟经营-养成': '模拟经营-养成',
+  '模拟经营-城建': '模拟经营-城建',
+  '模拟经营-自动化生产': '模拟经营-自动化生产',
+  '模拟经营-三消融合': '模拟经营-三消融合',
+  '农场经营': '模拟经营',
+  '医院经营': '模拟经营',
+  
+  // 动作
+  '动作': '动作',
+  '街机动作': '街机动作',
+  '街机-动作': '街机-动作',
+  '格斗': '动作',
+  '街机-格斗': '街机-格斗',
+  '格斗-3D格斗': '格斗-3D格斗',
+  '3D格斗': '格斗-3D格斗',
+  
+  // 冒险
+  '冒险': '冒险游戏',
+  '冒险游戏': '冒险游戏',
+  '冒险社交': '冒险社交',
+  
+  // 音游
+  '音游': '音游',
+  '音乐游戏': '音游',
+};
+
+/**
+ * 归一化 mechanismDesignCategory
+ */
+function normalizeCategory(cat) {
+  return GENRE_GROUPS_NORMALIZE[cat] || cat;
+}
+
+/**
+ * 归一化 playLevelTags - 将解析出的值标准化为白名单值
+ */
+function normalizePlayLevelTags(tags) {
+  const normalized = [];
+  const PLAY_LEVEL_WHITELIST = {
+    // 对抗类型
+    'PVE': 'PVE', 'PVP': 'PVP', 'PvPvE': 'PvPvE', '无对抗': '无对抗',
+    'PvE': 'PVE', 'pve': 'PVE', 'pvp': 'PVP',
+    
+    // 玩法规模
+    '单人': '单人玩法', '单人玩法': '单人玩法',
+    '双人': '双人玩法', '双人玩法': '双人玩法',
+    '小队': '小队玩法', '小队玩法': '小队玩法',
+    '多人': '多人玩法', '多人玩法': '多人玩法',
+    
+    // 内容消耗
+    '可重复': '可重复', '一次性': '一次性', '周期性': '周期性',
+    '持续运营': '持续运营', 'Endgame': 'Endgame',
+    
+    // 生命周期
+    '新手引导期': '新手引导期', '成长中期': '成长中期', 'Endgame': 'Endgame',
+    '全周期': 'Endgame',
+    
+    // 操作属性
+    '即时操作': '即时操作', '半即时操作': '半即时操作', '回合操作': '回合操作',
+    '放置操作': '放置操作',
+    
+    // 时间属性（包含分钟的都保留）
+    
+    // 玩法重度
+    '核心玩法': '核心玩法', '副玩法': '副玩法', '轻度玩法': '轻度玩法',
+    
+    // 玩法独立性
+    '高耦合': '高耦合', '低耦合': '低耦合',
+  };
+  
+  for (const tag of tags) {
+    // 先尝试精确匹配
+    if (PLAY_LEVEL_WHITELIST[tag]) {
+      normalized.push(PLAY_LEVEL_WHITELIST[tag]);
+    } else {
+      // 尝试模糊匹配
+      for (const [key, value] of Object.entries(PLAY_LEVEL_WHITELIST)) {
+        if (tag.includes(key) || key.includes(tag)) {
+          normalized.push(value);
+          break;
+        }
+      }
+    }
+  }
+  
+  return [...new Set(normalized)];
+}
+
+/**
  * 人数规模 → 玩法类型 映射函数
  * 
  * 规则：
@@ -223,7 +379,14 @@ function normalizeTags(tags) {
 }
 
 function parseMdFile(content) {
+  // 规范化：确保 # 标题后有换行
+  content = content.replace(/^(#\s+.+?)##/gm, '$1\n##');
+  
+  // 规范化：每个 | 单元格 后加换行
+  content = content.replace(/\|([^\n|]+)\|([^\n|]*)\|/g, '|$1|$2|\n|');
+  
   const lines = content.split('\n');
+  
   const result = { title: '', sections: {} };
   
   let currentSection = 'header';
@@ -245,7 +408,7 @@ function parseMdFile(content) {
     result.sections[currentSection] = sectionContent.join('\n').trim();
   }
   
-  const titleMatch = content.match(/^#\s+(.+)$/m);
+  const titleMatch = content.match(/^#\s+(.+?)(?:##|$)/m);
   if (titleMatch) result.title = titleMatch[1].trim();
   
   // 章节别名映射（兼容不同命名格式）
@@ -656,29 +819,40 @@ function extractMechanismInfo(parsed, filename) {
       
       // 单独存储分类后的机制设计
       if (info.mechanismDesignByCategory) {
-        info.mechanismDesignCategory = info.mechanismDesignByCategory.category || [];
+        // 归一化 mechanismDesignCategory
+        const rawCats = info.mechanismDesignByCategory.category || [];
+        info.mechanismDesignCategory = rawCats.map(cat => normalizeCategory(cat));
         info.mechanismDesignFun = info.mechanismDesignByCategory.fun || [];
         info.mechanismDesignEmotion = info.mechanismDesignByCategory.emotion || [];
         info.mechanismDesignInteraction = info.mechanismDesignByCategory.interaction || [];
       }
     }
     
-    // 单独保存玩法层级标签
+    // 单独保存玩法层级标签（归一化后）
     const uniquePlayTags = [...new Set(playLevelTags)];
     if (uniquePlayTags.length > 0) {
-      info.playLevelTags = uniquePlayTags;
+      info.playLevelTags = normalizePlayLevelTags(uniquePlayTags);
     }
+  }
+  
+  // 兼容旧格式：将 painPoint 字符串转为 painPoints 数组
+  if (!info.painPoints && info.painPoint) {
+    info.painPoints = [info.painPoint];
   }
   
   return info;
 }
 
-function extractGameInfo(parsed, filename) {
+function extractGameInfo(parsed, filename, rawContent = '') {
   const sections = parsed.sections;
   
+  // 如果 title 为空，用 filename
+  const fallbackTitle = filename.replace('.md', '').replace(/([A-Z])/g, ' $1').trim();
+  
   const info = {
-    title: parsed.title,
+    title: parsed.title || fallbackTitle,
     gameName: '',
+    developer: '',
     developer: '',
     publisher: '',
     platform: '',
@@ -718,6 +892,34 @@ function extractGameInfo(parsed, filename) {
       else if (key.includes('玩家数据')) info.playerStats = value;
       else if (key.includes('来源')) info.source = value;
     }
+  }
+  
+  // Fallback: 直接从 basicSection 文本提取
+  if (!info.genre && basicSection) {
+    const genreMatch = basicSection.match(/游戏类型[：:]\s*([^\n|]+)/);
+    if (genreMatch) info.genre = genreMatch[1].trim();
+  }
+  if (!info.developer && basicSection) {
+    const devMatch = basicSection.match(/开发者[：:]\s*([^\n|]+)/);
+    if (devMatch) info.developer = devMatch[1].trim();
+  }
+  
+  // Fallback: 直接从原始content提取 (处理表格格式问题)
+  if (!info.genre && rawContent) {
+    const genreMatch = rawContent.match(/游戏类型\s*\|\s*([^|]+)/);
+    if (genreMatch) info.genre = genreMatch[1].trim();
+  }
+  if (!info.developer && rawContent) {
+    const devMatch = rawContent.match(/开发者\s*\|\s*([^|]+)/);
+    if (devMatch) info.developer = devMatch[1].trim();
+  }
+  if (!info.platform && rawContent) {
+    const platformMatch = rawContent.match(/发行平台\s*\|\s*([^|]+)/);
+    if (platformMatch) info.platform = platformMatch[1].trim();
+  }
+  if (!info.gameName && rawContent) {
+    const nameMatch = rawContent.match(/游戏名称\s*\|\s*([^|]+)/);
+    if (nameMatch) info.gameName = nameMatch[1].trim();
   }
   
   // === X-Statement (could be in main section or 补充信息) ===
@@ -874,6 +1076,11 @@ function extractGameInfo(parsed, filename) {
     }
   }
   
+  // Fallback: 如果 gameName 为空，用 title
+  if (!info.gameName && info.title) {
+    info.gameName = info.title;
+  }
+  
   return info;
 }
 
@@ -904,9 +1111,9 @@ const gameFiles = fs.readdirSync(GAMES_DIR).filter(f => f.endsWith('.md'));
 let gameCount = 0;
 for (const file of gameFiles) {
   const filePath = path.join(GAMES_DIR, file);
-  const content = fs.readFileSync(filePath, 'utf-8');
-  const parsed = parseMdFile(content);
-  const info = extractGameInfo(parsed, file);
+  const rawContent = fs.readFileSync(filePath, 'utf-8');
+  const parsed = parseMdFile(rawContent);
+  const info = extractGameInfo(parsed, file, rawContent);
   games[file.replace('.md', '')] = info;
   gameCount++;
 }
@@ -1188,6 +1395,27 @@ const output = {
 };
 
 fs.writeFileSync(path.join(__dirname, 'data.json'), JSON.stringify(output, null, 2));
+
+// === 生成 covers.json 封面图映射文件 ===
+const covers = {};
+Object.values(games).forEach(g => {
+  if (g.coverImage) {
+    // 多种key格式：中英文名、英文key
+    if (g.gameName) {
+      covers[g.gameName] = g.coverImage;
+    }
+    if (g.title && g.title !== g.gameName) {
+      covers[g.title] = g.coverImage;
+    }
+    // 使用映射表的英文key
+    const folderKey = Object.entries(GAME_NAME_MAPPING).find(([k, v]) => g.gameName && g.gameName.includes(k));
+    if (folderKey) {
+      covers[folderKey[1]] = g.coverImage;
+    }
+  }
+});
+fs.writeFileSync(path.join(__dirname, 'covers.json'), JSON.stringify(covers, null, 2));
+console.log(`Generated covers.json: ${Object.keys(covers).length} mappings`);
 
 console.log(`Generated: ${mechCount} mechanisms, ${gameCount} games`);
 
