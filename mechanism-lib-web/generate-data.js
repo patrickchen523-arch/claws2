@@ -1024,7 +1024,168 @@ for (const dir of mechDirs) {
 
 console.log(`  ✓ 同步完成 (新增 ${syncAddCount} 条关联)`);
 
-const output = { mechanisms, games, stats: { mechanismCount: mechCount, gameCount: gameCount } };
+// === 版本号生成 ===
+const now = new Date();
+const dateStr = now.toISOString().slice(0, 10).replace(/-/g, ''); // 20260318
+const timeStr = now.toTimeString().slice(0, 5).replace(':', '');   // 1052
+
+// 读取旧版本号
+let versionCount = 1;
+const oldDataPath = path.join(__dirname, 'data.json');
+if (fs.existsSync(oldDataPath)) {
+  try {
+    const oldData = JSON.parse(fs.readFileSync(oldDataPath, 'utf8'));
+    if (oldData.version && oldData.version.date === dateStr) {
+      versionCount = oldData.version.count + 1;
+    }
+  } catch (e) {}
+}
+const version = `v${dateStr}-${String(versionCount).padStart(2, '0')}`; // v20260318-01
+
+console.log(`  生成版本: ${version}`);
+
+// === 游戏名称映射表 ===
+const GAME_NAME_MAPPING = {
+  '300英雄': '300Heroes',
+  '7 Days to Die / 七日杀': '7DaysToDie',
+  '七日杀': '7DaysToDie',
+  '帝国时代2：决定版': 'AgeOfEmpires2DE',
+  '帝国时代2决定版': 'AgeOfEmpires2DE',
+  '帝国时代3': 'AgeOfEmpires3',
+  '帝国时代4': 'AgeOfEmpires4',
+  '高级战争': 'AdvanceWars',
+  '集合啦！动物森友会': 'AnimalCrossing',
+  "Another Crab's Treasure": 'AnotherCrabsTreasure',
+  'Subnautica 2': 'Subnautica2',
+  'Mafia': 'Mafia',
+  '沙石镇时光': 'MyTimeAtSandrock',
+  '最后生还者': 'TheLastOfUs',
+  '最后生还者2': 'TheLastOfUsPart2',
+  '光环': 'Halo',
+  '极限竞速': 'ForzaHorizon',
+  '地平线': 'ForzaHorizon',
+  '盗贼之海': 'SeaOfThieves',
+  '战锤40K': 'Warhammer40K',
+  '博德之门3': 'BaldursGate3',
+  '星空': 'StarField',
+  'Starfield': 'StarField',
+  'S.T.A.L.K.E.R. 2': 'STALKER2',
+  '潜行者2': 'STALKER2',
+  '怪物猎人': 'MonsterHunter',
+  '怪物猎人世界': 'MonsterHunterWorld',
+  '怪物猎人崛起': 'MonsterHunterRise',
+  '艾尔登法环': 'EldenRing',
+  '装甲核心6': 'ArmoredCore6',
+  '装甲核心': 'ArmoredCore',
+  '空洞骑士': 'HollowKnight',
+  '蔚蓝': 'Celeste',
+  '哈迪斯': 'Hades',
+  '死亡细胞': 'DeadCells',
+  '黄金树幽影': 'ShadowOfTheErdtree',
+  '黑神话悟空': 'BlackMythWukong',
+  '黑神话：悟空': 'BlackMythWukong',
+  '原神': 'GenshinImpact',
+  '绝区零': 'ZenlessZoneZero',
+  '崩坏星穹铁道': 'HonkaiStarRail',
+  '崩坏3': 'HonkaiImpact3rd',
+  '鸣潮': 'WutheringWaves',
+  '王者荣耀': 'HonorOfKings',
+  '英雄联盟': 'LeagueOfLegends',
+  '无畏契约': 'Valorant',
+  '和平精英': 'GameForPeace',
+  '蛋仔派对': 'EggyParty',
+  '光遇': 'SkyChildren',
+  '逆水寒': 'Justice',
+  '剑网3': 'JX3',
+  '剑网3无界': 'JX3Mobile',
+  '幻唐志逍遥外传': 'HuaTangZhi',
+  '长安幻想': 'ChangAnFantasy',
+  '梦幻新诛仙': 'MXZX',
+  '阴阳师': 'Onmyoji',
+  '明日方舟': 'Arknights',
+  '碧蓝幻想': 'GranblueFantasy',
+  '碧蓝幻想Relink': 'GranblueFantasyRelink',
+  '火炬之光': 'Torchlight',
+  '火炬之光无限': 'TorchlightInfinite',
+  '暗黑破坏神4': 'Diablo4',
+  '命运2': 'Destiny2',
+  '无主之地': 'Borderlands',
+  '无主之地3': 'Borderlands3',
+  '全境封锁': 'TheDivision',
+  '全境封锁2': 'TheDivision2',
+  '枪火重生': 'GunfireReborn',
+  '猎杀对决': 'HuntShowdown',
+  '逃离塔科夫': 'EscapeFromTarkov',
+  '逃离塔科夫': 'EscapeFromTarkov',
+  'Apex英雄': 'ApexLegends',
+  'Apex Legends': 'ApexLegends',
+  '使命召唤': 'COD',
+  '使命召唤手游': 'CODMobile',
+  '战区': 'Warzone',
+  'CS2': 'CounterStrike2',
+  'CSGO': 'CSGO',
+  '绝地求生': 'PUBG',
+  '铁拳': 'Tekken',
+  '街霸': 'StreetFighter',
+  '真人快打': 'MortalKombat',
+  '拳皇': 'KOF',
+  '马里奥': 'Mario',
+  '塞尔达': 'Zelda',
+  '宝可梦': 'Pokemon',
+  '宝可梦传说Z-A': 'PokemonLegendsZA',
+  '宝可梦传说 阿尔宙斯': 'PokemonLegendsArceus',
+  '精灵宝可梦': 'Pokemon',
+  '喷射战士': 'Splatoon',
+  '喷射战士3': 'Splatoon3',
+  '马里奥赛车': 'MarioKart',
+  '索尼克': 'Sonic',
+  '极品飞车': 'NeedForSpeed',
+  '地平线': 'ForzaHorizon',
+  '极限竞速地平线': 'ForzaHorizon',
+  'GT赛车': 'GranTurismo',
+  'F1': 'F1',
+  'WRC': 'WRC',
+  'WRC拉力赛': 'WRC',
+  '尘埃': 'Dirt',
+  '雪地奔跑': 'SnowRunner',
+  '飙酷车神': 'TheCrew',
+  '创世灰烬': 'AshesOfCreation',
+  '永恒轮回': 'EternalReturn',
+  '午夜猎魂': 'MidnightGhostHunt',
+  '漫威争锋': 'MarvelRivals',
+  '永劫无间': 'NarakaBladepoint',
+  '鹅作剧': 'UntitledGooseGame',
+  'Among Us': 'AmongUs',
+  '太空狼人杀': 'AmongUs',
+  '糖豆人': 'FallGuys',
+  '动物派对': 'PartyAnimals',
+  'Party Animals': 'PartyAnimals',
+  '猛兽派对': 'PartyAnimals',
+  '元梦之星': 'MetaStar',
+  ' Arenas': '',
+};
+
+// 反向映射：从文件夹名到显示名
+const REVERSE_MAPPING = {};
+Object.entries(GAME_NAME_MAPPING).forEach(([display, folder]) => {
+  if (folder) REVERSE_MAPPING[folder] = display;
+});
+
+const output = { 
+  mechanisms, 
+  games, 
+  version: {
+    version,
+    date: dateStr,
+    count: versionCount,
+    generatedAt: now.toISOString()
+  },
+  mapping: {
+    toFolder: GAME_NAME_MAPPING,
+    toDisplay: REVERSE_MAPPING
+  },
+  stats: { mechanismCount: mechCount, gameCount: gameCount } 
+};
 
 fs.writeFileSync(path.join(__dirname, 'data.json'), JSON.stringify(output, null, 2));
 

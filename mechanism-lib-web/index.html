@@ -1396,9 +1396,15 @@
       document.getElementById('gameModal').classList.add('active');
     }
     
-    // 游戏名映射表（前端用）
-    // 格式：'显示名': '游戏卡key'
-    const GAME_NAME_MAP = {
+    // 游戏名映射表（从 data.json 加载）
+    // 优先使用 data.mapping.toFolder，如果不存在则使用硬编码的映射表
+    let GAME_NAME_MAP = {};
+    if (data.mapping && data.mapping.toFolder) {
+      // 从 data.json 的 mapping.toFolder 加载
+      GAME_NAME_MAP = { ...data.mapping.toFolder };
+    } else {
+      // 备用：硬编码映射表
+      GAME_NAME_MAP = {
       // 核心游戏（英文 key）
       'AgeOfEmpires2DE': 'AgeOfEmpires2DE', 'AgeOfEmpires3': 'AgeOfEmpires3', 'AgeOfEmpires4': 'AgeOfEmpires4',
       '7DaysToDie': '7DaysToDie', 'AlbionOnline': 'AlbionOnline', 'AshesOfCreation': 'AshesOfCreation',
