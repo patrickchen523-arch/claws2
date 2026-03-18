@@ -921,16 +921,24 @@ function extractGameInfo(parsed, filename, rawContent = '') {
     const nameMatch = rawContent.match(/游戏名称\s*\|\s*([^|]+)/);
     if (nameMatch) info.gameName = nameMatch[1].trim();
   }
+  if (!info.tagline && rawContent) {
+    const taglineMatch = rawContent.match(/一句话对标\s*\|\s*([^|]+)/);
+    if (taglineMatch) info.tagline = taglineMatch[1].trim();
+  }
   
   // === X-Statement (could be in main section or 补充信息) ===
   if (sections['X-Statement']) {
     info.xStatement = sections['X-Statement'].replace(/[*#>]/g, '').trim();
   } else {
-    // 尝试从 补充信息（来自 game-analyse-sdd） 获取
-    const suppKey = Object.keys(sections).find(k => k.includes('补充信息'));
-    if (suppKey) {
-      const match = sections[suppKey].match(/###\s*X-Statement\s*\n?>\s*([^#\n]+)/);
-      if (match) info.xStatement = match[1].trim();
+    // Fallback: 直接从rawContent提取
+    // 格式1: ### X-Statement> 内容
+    let xMatch = rawContent.match(/###\s*X-Statement\s*>\s*([^#\n]+)/);
+    if (xMatch) {
+      info.xStatement = xMatch[1].replace(/[*#>]/g, '').trim();
+    } else {
+      // 格式2: ## X-Statement** 内容 **
+      xMatch = rawContent.match(/##\s*X-Statement\s*[*]*([^*\n]+)/);
+      if (xMatch) info.xStatement = xMatch[1].replace(/[*#>]/g, '').trim();
     }
   }
   
@@ -1076,6 +1084,27 @@ function extractGameInfo(parsed, filename, rawContent = '') {
     }
   }
   
+  // Fallback: 直接从 rawContent 提取收录机制
+  if (info.relatedMechanisms.length === 0 && rawContent) {
+    // 查找 收录机制 部分
+    const idx1 = rawContent.indexOf('收录机制');
+    if (idx1 !== -1) {
+      const idx2 = rawContent.indexOf('---', idx1);
+      const section = rawContent.slice(idx1, idx2 > 0 ? idx2 : idx1 + 500);
+      // 用 '- ' 分割提取
+      const parts = section.split('- ');
+      const seen = new Set();
+      for (let i = 1; i < parts.length; i++) {
+        const mechName = parts[i].trim();
+        // 验证格式: 品类-游戏-机制
+        if (mechName && mechName.includes('-') && !mechName.includes('暂无') && !seen.has(mechName)) {
+          seen.add(mechName);
+          info.relatedMechanisms.push(mechName);
+        }
+      }
+    }
+  }
+  
   // Fallback: 如果 gameName 为空，用 title
   if (!info.gameName && info.title) {
     info.gameName = info.title;
@@ -1118,51 +1147,76 @@ for (const file of gameFiles) {
   gameCount++;
 }
 
-// 验证并清理无效的 relatedMechanisms
+// 验证并清理无效的 relatedMechanisms - 严格模式
 let validMechCount = 0;
 let invalidMechCount = 0;
 for (const [gameKey, gameInfo] of Object.entries(games)) {
   if (gameInfo.relatedMechanisms && gameInfo.relatedMechanisms.length > 0) {
     const validMechs = [];
+    let cleanedThisGame = 0;
+    const originalCount = gameInfo.relatedMechanisms.length;
     
     for (const mechRef of gameInfo.relatedMechanisms) {
-      const cleanRef = mechRef.replace(/[\[\]]/g, '').trim();
+      // 清理引用中的特殊字符
+      let cleanRef = mechRef
+        .replace(/[\[\]<>]/g, '')  // 移除 [] <>
+        .replace(/^\[.*?\]\s*/, '')  // 移除 [Excellent] 等前缀
+        .replace(/\s*$/, '')  // 移除尾部空格
+        .replace(/\s*$/, '')  // 再次移除
+        .trim();
       
-      // 宽松匹配：检查收录字符串是否包含在机制标题中
+      // 跳过明显无效的引用
+      if (!cleanRef || 
+          cleanRef.includes('game-card') || 
+          cleanRef.includes('gamecard') ||
+          cleanRef.includes('待关联') ||
+          cleanRef.includes('暂无') ||
+          cleanRef.includes('游戏名') ||
+          cleanRef.length < 5) {
+        cleanedThisGame++;
+        continue;
+      }
+      
+      // 严格匹配机制标题
       const mechEntry = Object.entries(mechanisms).find(([key, m]) => {
         if (!m.title) return false;
         const title = m.title;
         
-        // 方案1: 收录字符串是否包含在机制标题中
-        // 方案2: 机制标题是否包含收录字符串（去掉前缀后的核心名）
-        // 方案3: 提取核心机制名进行匹配
+        // 标准化后精确匹配
+        const titleNorm = title.toLowerCase().replace(/[\s\-\[\]]/g, '');
+        const refNorm = cleanRef.toLowerCase().replace(/[\s\-\[\]]/g, '');
         
-        // 提取机制卡标题中的核心名（去掉品类和英文名）
-        let coreName = title;
-        // 去掉 [品类] 前缀
-        coreName = coreName.replace(/^\[[^\]]+\]/, '');
-        // 去掉 英文名 - 或 英文名 / 部分
-        coreName = coreName.replace(/^[^-]+\s*[-/]\s*/, '');
+        // 精确匹配（标准化后完全相等）
+        if (titleNorm === refNorm) return true;
         
-        // 直接包含检查
-        return title.includes(cleanRef) || 
-               cleanRef.includes(title.replace(/[\[\]]/g, '')) ||
-               title.includes(coreName) ||
-               coreName.includes(cleanRef) ||
-               // 去掉所有空格和特殊符号后对比
-               title.replace(/[\s\-\[\]]/g, '').includes(cleanRef.replace(/[\s\-\[\]]/g, '')) ||
-               cleanRef.replace(/[\s\-\[\]]/g, '').includes(title.replace(/[\s\-\[\]]/g, '').replace(/^[^-]+\-[^-]+\-/, ''));
+        // 包含匹配（标准化后包含对方）
+        if (titleNorm.includes(refNorm) || refNorm.includes(titleNorm)) return true;
+        
+        // 关键词匹配（提取机制名最后一部分）
+        const titleKeywords = title.split('-').pop()?.toLowerCase().replace(/[\s\-\[\]]/g, '') || '';
+        const refKeywords = cleanRef.split('-').pop()?.toLowerCase().replace(/[\s\-\[\]]/g, '') || '';
+        
+        if (titleKeywords && refKeywords && (titleKeywords.includes(refKeywords) || refKeywords.includes(titleKeywords))) {
+          return true;
+        }
+        
+        return false;
       });
       
       if (mechEntry) {
         validMechs.push(mechRef);
         validMechCount++;
       } else {
-        invalidMechCount++;
+        cleanedThisGame++;
       }
     }
     
+    // 记录清理结果
+    if (cleanedThisGame > 0) {
+      console.log(`[Clean] ${gameKey}: ${originalCount} -> ${validMechs.length} (removed ${cleanedThisGame})`);
+    }
     gameInfo.relatedMechanisms = validMechs;
+    invalidMechCount += cleanedThisGame;
   }
 }
 

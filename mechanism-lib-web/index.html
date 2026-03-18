@@ -421,9 +421,9 @@
     }
     
     .category-tab.active {
-      background: var(--primary);
-      color: white;
-      border-color: var(--primary);
+      background: var(--primary) !important;
+      color: white !important;
+      border-color: var(--primary) !important;
     }
     
     .category-subtags {
@@ -1034,10 +1034,12 @@
       const allBtn = document.createElement('button');
       allBtn.className = 'category-tab genre-tab active';
       allBtn.innerHTML = '🎯 全部';
-      allBtn.addEventListener('click', function() {
+      allBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
         // 移除所有 tab 的 active
         document.querySelectorAll('.category-tab').forEach(t => t.classList.remove('active'));
-        allBtn.classList.add('active');
+        this.classList.add('active');
         delete selectedFilters['__genre__'];
         currentPage = 1;
         renderGrid();
