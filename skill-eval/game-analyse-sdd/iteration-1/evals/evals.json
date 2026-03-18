@@ -1,0 +1,11 @@
+{
+  "skill_name": "game-analyse-sdd",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "拆解《苏丹的游戏》",
+      "expected_output": "完整的游戏拆解报告，包含：X-Statement、玩法原型、核心支柱、核心体验、机制清单",
+      "files": []
+    }
+  ]
+}
