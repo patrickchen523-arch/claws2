@@ -965,6 +965,7 @@
   
   <script>
     let data = { mechanisms: {}, games: {}, stats: {} };
+    let allData = null; // 存储完整的 data.json 用于封面图查询
     let currentTab = 'mechanisms';
     let currentPage = 1;
     const PAGE_SIZE = 12;
@@ -976,6 +977,7 @@
     async function loadData() {
       const response = await fetch('data.json?v=' + Date.now());
       data = await response.json();
+      allData = data; // 用于 getCoverUrl 访问
       
       // Load covers mapping with silent fallback
       try {
@@ -1103,24 +1105,40 @@
     }
     
     // 获取游戏封面URL，支持中英文名映射
+    // 优先级：1. covers.json 2. data.json 中的 coverImage
     function getCoverUrl(gameName) {
       if (!gameName) return null;
       
-      // 直接查找 coverMap
+      // 1. 直接查找 coverMap (covers.json)
       if (coverMap[gameName]) {
         return coverMap[gameName];
       }
       
-      // 通过 GAME_NAME_MAP 查找别名
+      // 2. 通过 GAME_NAME_MAP 查找别名
       const mappedKey = GAME_NAME_MAP[gameName];
       if (mappedKey && coverMap[mappedKey]) {
         return coverMap[mappedKey];
       }
       
-      // 尝试通过反向映射查找
+      // 3. 尝试通过反向映射查找
       for (const [displayName, key] of Object.entries(GAME_NAME_MAP)) {
         if (key === gameName && coverMap[displayName]) {
           return coverMap[displayName];
+        }
+      }
+      
+      // 4. 从 data.json 的 games 中查找
+      if (allData && allData.games) {
+        // 精确匹配
+        const game = allData.games[gameName] || allData.games[gameName.replace(/\s/g, '')];
+        if (game && game.coverImage && game.coverImage.includes('http')) {
+          return game.coverImage;
+        }
+        // 模糊匹配
+        for (const [key, g] of Object.entries(allData.games)) {
+          if (g.title && g.title.includes(gameName) && g.coverImage && g.coverImage.includes('http')) {
+            return g.coverImage;
+          }
         }
       }
       

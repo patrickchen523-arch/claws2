@@ -583,6 +583,7 @@
       "demo": "",
       "filename": "[Qualify]RTS-帝国时代2-文明差异化系统.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/813780/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "策略-RTS"
@@ -960,6 +961,7 @@
       "demo": "",
       "filename": "[Qualify]MMORPG-AlbionOnline-沙盒式自由经济系统.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1279920/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "策略-SLG"
@@ -1709,6 +1711,7 @@
       "demo": "",
       "filename": "[Qualify][RPG]-Arknights-十连保底机制.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1256670/header.jpg",
       "painPoints": [
         "- 解决\"纯随机\"可能带来的\"蓝天白云\"（全是低星）问题"
       ]
@@ -1764,6 +1767,7 @@
       "demo": "",
       "filename": "[Qualify]策略-Arknights-阻挡范围系统.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1256670/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "策略-塔防"
@@ -1937,6 +1941,7 @@
       "demo": "",
       "filename": "[Excellent]街机-ArmoredCore6-扩充机能系统.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1888930/header.jpg",
       "mechanismDesignByCategory": {
         "fun": [
           "策略",
@@ -2077,6 +2082,7 @@
       "demo": "",
       "filename": "[Excellent]街机-ArmoredCore6-锁定机制.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1888930/header.jpg",
       "mechanismDesignByCategory": {
         "fun": [
           "策略",
@@ -2173,6 +2179,7 @@
       "demo": "",
       "filename": "[Qualify][街机]-Asphalt9-氮气加速系统.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1581250/header.jpg",
       "painPoints": [
         "- 为单调的直道加速增加操作维度"
       ]
@@ -2340,6 +2347,7 @@
       "demo": "https://example.com/interest_demo.gif",
       "filename": "[Excellent]自走棋-刀塔自走棋-金币利息系统.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1158310/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "策略-SLG"
@@ -2421,6 +2429,7 @@
       "demo": "",
       "filename": "[Qualify]AutoChess-QizishengxingXitong.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1158310/header.jpg",
       "painPoints": [
         "解决棋子强度单一成长问题，通过\"三合一\"机制提供明确的成长目标和收集乐趣"
       ]
@@ -2448,6 +2457,7 @@
       "demo": "",
       "filename": "[Qualify]JibadianXitong.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1158310/header.jpg",
       "painPoints": [
         "- 解决阵容构建缺乏方向的问题"
       ]
@@ -2475,6 +2485,7 @@
       "demo": "",
       "filename": "[Qualify][自走棋]-AutoChess-共用卡池机制.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1158310/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "策略-自走棋"
@@ -2661,6 +2672,7 @@
       "demo": "",
       "filename": "[Qualify]RPG-BaldursGate3-回合制战棋战斗.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1086940/header.jpg",
       "painPoints": [
         "- 传统CRPG战斗只是数值对轰，缺乏空间感和策略深度"
       ]
@@ -2967,6 +2979,7 @@
       "demo": "",
       "filename": "[Qualify][RPG]-BaldursGate3-角色出身背景系统.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1086940/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "RPG"
@@ -3877,6 +3890,7 @@
       "demo": "https://www.bilibili.com/video/BV1qS421w7o8/",
       "filename": "[Qualify]RPG-BlackMythWukong-法术系统.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/2358720/header.jpg",
       "painPoints": [
         "魂类游戏难度较高，为不同水平玩家提供策略性解决方案"
       ]
@@ -3895,6 +3909,7 @@
       "demo": "",
       "filename": "[Qualify]棍法系统.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/2358720/header.jpg",
       "mechanismDesignByCategory": {
         "fun": [
           "策略",
@@ -4347,6 +4362,7 @@
       "demo": "",
       "filename": "[Qualify]连杀奖励系统.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/2812520/header.jpg",
       "mechanismDesignByCategory": {
         "fun": [
           "策略",
@@ -4421,6 +4437,7 @@
       "demo": "https://play-lh.googleusercontent.com/T69-KGPuZwX6XnCDMWzupbK6FBERSqfhcDY-hFwluEl9gKYtmXb7A9pZw-63scz8pUk",
       "filename": "[Excellent][SLG]-COK-联盟宝箱.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1063440/header.jpg",
       "painPoints": [
         "将\"贫富差距\"转化为了\"共生关系\"，大佬氪金被赋予利他属性，平民玩家则通过联盟宝箱蹭奖励，自发维护大佬"
       ]
@@ -4448,6 +4465,7 @@
       "demo": "（待补充）",
       "filename": "[Excellent][SLG]-COK-车头车身机制.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1063440/header.jpg",
       "painPoints": [
         "解决中低付费玩家在SLG中缺乏参与感的问题，通过\"车头带车身\"让小R也能参与战斗，不再是只能看大佬打架"
       ]
@@ -4559,6 +4577,7 @@
       "demo": "https://play-lh.googleusercontent.com/T69-KGPuZwX6XnCDMWzupbK6FBERSqfhcDY-hFwluEl9gKYtmXb7A9pZw-63scz8pUk",
       "filename": "[Qualify][策略]-COK-武将系统.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1063440/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "策略-SLG"
@@ -5264,6 +5283,7 @@
       "demo": "",
       "filename": "[Qualify]街机-CaptainCommando-角色职业技能系统.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1363650/header.jpg",
       "painPoints": [
         "- **角色同质化问题**→ 4个角色玩法完全不同，玩家需要用不同策略"
       ]
@@ -5291,6 +5311,7 @@
       "demo": "",
       "filename": "[Qualify]策略-保卫萝卜-金萝卜评价系统.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/2022230/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "策略-塔防"
@@ -6816,6 +6837,7 @@
       "demo": "",
       "filename": "[Qualify]RogueVania融合机制.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/588650/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "RPG-ARPG"
@@ -6898,6 +6920,7 @@
       "demo": "",
       "filename": "[Qualify]Roguelike-DeadCells-RogueVania融合机制.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/588650/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "RPG-ARPG"
@@ -7058,6 +7081,7 @@
       "demo": "",
       "filename": "[Qualify]蓝图解锁系统.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/588650/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "街机动作"
@@ -8876,6 +8900,7 @@
       "demo": "玩家在史东薇尔城探索的典型流程：从城墙外部绕行发现侧门→击败门卫→进入内部发现捷径→通过赐福点快速移动",
       "filename": "[Excellent][ARPG]-EldenRing-弱引导递进式探索.md",
       "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1245620/header.jpg",
       "painPoints": [
         "- **传统开放世界\"打卡式探索\"**：玩家跟着任务跑，缺乏自主发现的乐趣"
       ]
@@ -8907,6 +8932,7 @@
       "demo": "（待补充）",
       "filename": "[Qualify][ARPG]-EldenRing-死亡惩罚与记忆系统.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1245620/header.jpg",
       "mechanismDesignByCategory": {
         "category": [
           "RPG-ARPG"
@@ -13316,6 +13342,7 @@
       "demo": "https://example.com/demo.gif",
       "filename": "[Excellent]MOBA-HonorOfKings-社交匹配系统.md",
       "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/Y_Lyc8bHzeXXtGYiAlAAa15gMLWgrzuNuCv3HABINb73tEOAQd7iCQfKhYxdO6Zjgcpz4KiEsftilbrLNFka1g",
       "painPoints": [
         "- 解决MOBA游戏\"单排无聊\"问题"
       ]
@@ -13371,6 +13398,7 @@
       "demo": "（待补充）",
       "filename": "[Qualify]HonorOfKings-AchievementSystem.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://play-lh.googleusercontent.com/Y_Lyc8bHzeXXtGYiAlAAa15gMLWgrzuNuCv3HABINb73tEOAQd7iCQfKhYxdO6Zjgcpz4KiEsftilbrLNFka1g",
       "mechanismDesignByCategory": {
         "category": [
           "MOBA"
@@ -13455,6 +13483,7 @@
       "demo": "",
       "filename": "[Qualify]HonorOfKings-RankingELOSystem.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://play-lh.googleusercontent.com/Y_Lyc8bHzeXXtGYiAlAAa15gMLWgrzuNuCv3HABINb73tEOAQd7iCQfKhYxdO6Zjgcpz4KiEsftilbrLNFka1g",
       "painPoints": [
         "- 解决实力差距过大导致的碾压局（炸鱼局）"
       ]
@@ -13482,6 +13511,7 @@
       "demo": "",
       "filename": "[Qualify]MOBA-HonorOfKings-出门预购装备.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://play-lh.googleusercontent.com/Y_Lyc8bHzeXXtGYiAlAAa15gMLWgrzuNuCv3HABINb73tEOAQd7iCQfKhYxdO6Zjgcpz4KiEsftilbrLNFka1g",
       "painPoints": [
         "- 传统MOBA可以随时回城购买，影响战斗连续性"
       ]
@@ -13505,6 +13535,7 @@
       "demo": "",
       "filename": "[Qualify]MOBA-HonorOfKings-单路快节奏地图.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://play-lh.googleusercontent.com/Y_Lyc8bHzeXXtGYiAlAAa15gMLWgrzuNuCv3HABINb73tEOAQd7iCQfKhYxdO6Zjgcpz4KiEsftilbrLNFka1g",
       "mechanismDesignByCategory": {
         "fun": [
           "策略",
@@ -13578,6 +13609,7 @@
       "demo": "（暂无）",
       "filename": "[Qualify]MOBA-HonorOfKings-师徒系统.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://play-lh.googleusercontent.com/Y_Lyc8bHzeXXtGYiAlAAa15gMLWgrzuNuCv3HABINb73tEOAQd7iCQfKhYxdO6Zjgcpz4KiEsftilbrLNFka1g",
       "painPoints": [
         "- MOBA游戏新手上手难度高，匹配到新手影响老玩家体验"
       ]
@@ -13605,6 +13637,7 @@
       "demo": "",
       "filename": "[Qualify]MOBA-HonorOfKings-征召模式Ban选系统.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://play-lh.googleusercontent.com/Y_Lyc8bHzeXXtGYiAlAAa15gMLWgrzuNuCv3HABINb73tEOAQd7iCQfKhYxdO6Zjgcpz4KiEsftilbrLNFka1g",
       "mechanismDesignByCategory": {
         "category": [
           "MOBA"
@@ -13685,6 +13718,7 @@
       "demo": "（待补充）",
       "filename": "[Qualify]MOBA-HonorOfKings-梦境地图崩塌系统.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://play-lh.googleusercontent.com/Y_Lyc8bHzeXXtGYiAlAAa15gMLWgrzuNuCv3HABINb73tEOAQd7iCQfKhYxdO6Zjgcpz4KiEsftilbrLNFka1g",
       "mechanismDesignByCategory": {
         "category": [
           "MOBA"
@@ -13765,6 +13799,7 @@
       "demo": "",
       "filename": "[Qualify]MOBA-HonorOfKings-梦境大乱斗公用英雄池.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://play-lh.googleusercontent.com/Y_Lyc8bHzeXXtGYiAlAAa15gMLWgrzuNuCv3HABINb73tEOAQd7iCQfKhYxdO6Zjgcpz4KiEsftilbrLNFka1g",
       "mechanismDesignByCategory": {
         "category": [
           "MOBA"
@@ -13879,6 +13914,7 @@
       "demo": "",
       "filename": "[Qualify]MOBA-HonorOfKings-荣耀战令系统.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://play-lh.googleusercontent.com/Y_Lyc8bHzeXXtGYiAlAAa15gMLWgrzuNuCv3HABINb73tEOAQd7iCQfKhYxdO6Zjgcpz4KiEsftilbrLNFka1g",
       "painPoints": [
         "- 传统付费模式：免费玩家毫无收益，付费玩家单独获取"
       ]
@@ -13906,6 +13942,7 @@
       "demo": "（待补充）",
       "filename": "[Qualify]MOBA-HonorOfKings-通行证阶梯定价.md",
       "source": "人工",
+      "coverImage": "https://play-lh.googleusercontent.com/Y_Lyc8bHzeXXtGYiAlAAa15gMLWgrzuNuCv3HABINb73tEOAQd7iCQfKhYxdO6Zjgcpz4KiEsftilbrLNFka1g",
       "painPoints": [
         "- 一刀切定价：68元档太贵流失轻度用户，388元档太便宜流失高付费用户"
       ]
@@ -13929,6 +13966,7 @@
       "demo": "",
       "filename": "[Qualify]MOBA-HonorOfKings-随机分配英雄机制.md",
       "source": "AI生成-已甄别",
+      "coverImage": "https://play-lh.googleusercontent.com/Y_Lyc8bHzeXXtGYiAlAAa15gMLWgrzuNuCv3HABINb73tEOAQd7iCQfKhYxdO6Zjgcpz4KiEsftilbrLNFka1g",
       "mechanismDesignByCategory": {
         "category": [
           "MOBA-5v5"
@@ -28328,13 +28366,13 @@
     "7DaysToDie": {
       "title": "7 Days to Die / 七日杀",
       "gameName": "7 Days to Die / 七日杀",
-      "developer": "The Fun Pimps",
+      "developer": "",
       "publisher": "",
-      "platform": "PC",
+      "platform": "",
       "releaseDate": "",
-      "genre": "末日生存、FPS、建造、开放世界、恐怖生存、多人联机",
+      "genre": "",
       "monetization": "",
-      "xStatement": "MC+DayZ+尸潮",
+      "xStatement": "",
       "tagline": "",
       "playerStats": "",
       "coreLoop": "",
@@ -28444,38 +28482,35 @@
     "AdvanceWars": {
       "title": "高级战争 / Advance Wars",
       "gameName": "高级战争 / Advance Wars",
-      "developer": "Intelligent Systems",
+      "developer": "",
       "publisher": "",
-      "platform": "Game Boy / GBA / NDS / Switch",
+      "platform": "",
       "releaseDate": "",
-      "genre": "军事回合制策略 / 战棋",
+      "genre": "",
       "monetization": "",
-      "xStatement": "回合制军事策略游戏，玩家指挥海陆空单位在网格地图上对战，每个指挥官有独特技能",
-      "tagline": "军事版《火焰纹章》/ 回合制军事策略",
+      "xStatement": "",
+      "tagline": "",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "[Excellent][策略]-AdvanceWars-兵种相克系统",
-        "[Qualify][策略]-AdvanceWars-指挥官技能系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "AdvanceWars.md",
       "source": "人工"
     },
     "AgeOfEmpires2DE": {
       "title": "帝国时代2：决定版 / Age of Empires II: Definitive Edition",
       "gameName": "帝国时代2：决定版 / Age of Empires II: DE",
-      "developer": "Forgotten Empires, Tantalus, Wicked Witch",
+      "developer": "",
       "publisher": "",
-      "platform": "PC (Steam, Microsoft Store)",
+      "platform": "",
       "releaseDate": "",
-      "genre": "即时战略 / RTS / 文明型",
+      "genre": "",
       "monetization": "",
-      "xStatement": "中世纪背景RTS游戏，玩家收集资源、升级时代、训练军队，在即时战场上指挥多兵种对抗",
-      "tagline": "中世纪背景文明RTS / 经典RTS重制",
+      "xStatement": "",
+      "tagline": "",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
@@ -28489,14 +28524,14 @@
     "AgeOfEmpires3": {
       "title": "帝国时代3 / Age of Empires III",
       "gameName": "帝国时代3 / Age of Empires III",
-      "developer": "Ensemble Studios / Tantalus Media, Forgotten Empires（决定版）",
+      "developer": "",
       "publisher": "",
-      "platform": "PC",
+      "platform": "",
       "releaseDate": "",
-      "genre": "即时战略 / RTS / 殖民时代",
+      "genre": "",
       "monetization": "",
-      "xStatement": "殖民时代背景RTS，玩家建立城镇、采集资源，通过主城船运卡牌系统获取支援",
-      "tagline": "殖民时代版《帝国时代》/ 带船运系统的RTS",
+      "xStatement": "",
+      "tagline": "",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
@@ -28558,14 +28593,14 @@
     "AlbionOnline": {
       "title": "Albion Online / 阿尔比恩 Online",
       "gameName": "Albion Online / 阿尔比恩 Online",
-      "developer": "Sandbox Interactive（德国）",
+      "developer": "",
       "publisher": "",
-      "platform": "PC / 移动端",
+      "platform": "",
       "releaseDate": "",
-      "genre": "MMORPG、沙盒、传奇like",
+      "genre": "",
       "monetization": "",
-      "xStatement": "全掉落沙盒MMO",
-      "tagline": "EVE Online 风格的的全掉落沙盒MMO",
+      "xStatement": "",
+      "tagline": "",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
@@ -28621,42 +28656,40 @@
         "[模拟经营]-AnimalCrossing-大头菜交易系统**关联标签**：大头菜、炒股、信息交流、经济系统、限时交易"
       ],
       "filename": "AnimalCrossing.md",
-      "source": "人工"
+      "source": "人工",
+      "coverImage": "https://steamcdn-a.akamaihd.net/steam/apps/1593500/header.jpg"
     },
     "AnotherCrabsTreasure": {
       "title": "蟹蟹寻宝奇遇 / Another Crab's Treasure",
       "gameName": "蟹蟹寻宝奇遇 / Another Crab's Treasure",
-      "developer": "AGGRO CRAB",
+      "developer": "",
       "publisher": "",
-      "platform": "PC / Switch / PS5",
+      "platform": "",
       "releaseDate": "",
-      "genre": "类魂 / 动作冒险 / 独立游戏",
+      "genre": "",
       "monetization": "",
-      "xStatement": "类魂动作游戏，玩家扮演寄居蟹Kril，用垃圾当外壳在海底世界冒险战斗",
-      "tagline": "寄居蟹版《黑暗之魂》/ 海洋类魂",
+      "xStatement": "",
+      "tagline": "",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "动作-AnotherCrabsTreasure-壳系统>",
-        "动作-AnotherCrabsTreasure-无体力闪避"
-      ],
+      "relatedMechanisms": [],
       "filename": "AnotherCrabsTreasure.md",
       "source": "人工"
     },
     "ApexLegends": {
       "title": "Apex Legends / APEX英雄",
       "gameName": "Apex Legends (Apex英雄)",
-      "developer": "Respawn Entertainment",
+      "developer": "",
       "publisher": "",
-      "platform": "PC/PS4/Xbox One/Switch/iOS/Android",
+      "platform": "",
       "releaseDate": "",
-      "genre": "大逃杀 (BR)、英雄射击、第一人称射击",
+      "genre": "",
       "monetization": "",
-      "xStatement": "公式",
+      "xStatement": "",
       "tagline": "",
       "playerStats": "",
       "coreLoop": "",
@@ -28698,7 +28731,7 @@
       "releaseDate": "",
       "genre": "FPS / 搜打撤 / 战术博弈",
       "monetization": "",
-      "xStatement": "腾讯魔方硬核FPS搜打撤手游，战术行动+伪装潜入两种模式，12种身体状态",
+      "xStatement": "",
       "tagline": "腾讯版硬核搜打撤",
       "playerStats": "",
       "coreLoop": "",
@@ -28748,7 +28781,7 @@
       "releaseDate": "",
       "genre": "策略塔防 / 卡牌RPG / 二次元手游",
       "monetization": "",
-      "xStatement": "公式",
+      "xStatement": "",
       "tagline": "",
       "playerStats": "",
       "coreLoop": "",
@@ -28763,26 +28796,21 @@
     "ArmoredCore6": {
       "title": "Armored Core 6 / 装甲核心6：境界天火",
       "gameName": "装甲核心6：境界天火 / ARMORED CORE VI FIRES OF RUBICON",
-      "developer": "FromSoftware",
+      "developer": "",
       "publisher": "",
-      "platform": "PC / PS / Xbox",
+      "platform": "",
       "releaseDate": "",
-      "genre": "动作 / 机甲 / 魂like",
+      "genre": "",
       "monetization": "",
-      "xStatement": "FromSoftware机甲动作游戏，玩家组装定制机甲进行3D战斗，结合魂系难度与机战浪漫",
-      "tagline": "FromSoftware机甲动作游戏",
+      "xStatement": "",
+      "tagline": "",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "[Excellent]街机-ArmoredCore6-机甲组装系统>",
-        "[Excellent]街机-ArmoredCore6-锁定机制>",
-        "[Excellent]街机-ArmoredCore6-扩充机能系统>",
-        "[Excellent][街机]-ArmoredCore6-地形纵深战斗"
-      ],
+      "relatedMechanisms": [],
       "filename": "ArmoredCore6.md",
       "source": "人工"
     },
@@ -28865,23 +28893,21 @@
     "AutoChess": {
       "title": "AutoChess / 多多自走棋",
       "gameName": "多多自走棋 / AutoChess",
-      "developer": "巨鸟多多工作室",
+      "developer": "",
       "publisher": "",
-      "platform": "移动端 / PC",
+      "platform": "",
       "releaseDate": "",
-      "genre": "自走棋 / 策略",
+      "genre": "",
       "monetization": "",
-      "xStatement": "回合制策略对战游戏，玩家从共享棋池选棋子组阵容，自动战斗结算",
-      "tagline": "品类开创者",
+      "xStatement": "",
+      "tagline": "",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
       "prototype": "",
       "pillars": [],
       "achievements": "",
-      "relatedMechanisms": [
-        "[Excellent]自走棋-刀塔自走棋-金币利息系统"
-      ],
+      "relatedMechanisms": [],
       "filename": "AutoChess.md",
       "source": "人工"
     },
@@ -28909,14 +28935,14 @@
     "BaldursGate3": {
       "title": "博德之门3 / Baldur's Gate 3",
       "gameName": "博德之门3 / Baldur's Gate 3",
-      "developer": "拉瑞安工作室",
+      "developer": "",
       "publisher": "",
-      "platform": "PC / PS5 / Xbox",
+      "platform": "",
       "releaseDate": "",
-      "genre": "CRPG / 战棋 / DND",
+      "genre": "",
       "monetization": "",
-      "xStatement": "公式【拉瑞安CRPG】+【DND5e规则】+【电影化叙事】玩家在DND（龙与地下城）规则世界创建角色，与队友组队冒险，通过回合制战棋战斗推进剧情，体验分支对话和多结局的RPG体验。--- 核心支柱1.",
-      "tagline": "DND规则CRPG",
+      "xStatement": "",
+      "tagline": "",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
@@ -28942,7 +28968,7 @@
       "releaseDate": "",
       "genre": "第一人称 Roguelike / 地牢探索",
       "monetization": "",
-      "xStatement": "公式",
+      "xStatement": "",
       "tagline": "第一人称合作Roguelike地牢探索",
       "playerStats": "",
       "coreLoop": "",
@@ -28987,14 +29013,14 @@
     "Battlegrounds": {
       "title": "Battlegrounds / 和平精英",
       "gameName": "和平精英 / Battlegrounds / 绝地求生手游",
-      "developer": "腾讯光子工作室群",
+      "developer": "",
       "publisher": "",
-      "platform": "iOS/Android",
+      "platform": "",
       "releaseDate": "",
-      "genre": "大逃杀 / 战术竞技射击",
+      "genre": "",
       "monetization": "",
-      "xStatement": "100人同屏对抗的战术竞技射击手游，信号区机制替代毒圈，核心差异点在于针对中国市场的本地化适配（信号区、击中反馈）和腾讯社交生态的深度整合。",
-      "tagline": "手游大逃杀",
+      "xStatement": "",
+      "tagline": "",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
@@ -29084,14 +29110,14 @@
     "BlackMythWukong": {
       "title": "Black Myth Wukong / 黑神话悟空",
       "gameName": "黑神话：悟空 / Black Myth: Wukong",
-      "developer": "游戏科学",
+      "developer": "",
       "publisher": "",
-      "platform": "PC / PS5",
+      "platform": "",
       "releaseDate": "",
-      "genre": "动作RPG / 冒险",
+      "genre": "",
       "monetization": "",
-      "xStatement": "游戏科学制作的首个国产3A动作游戏，玩家扮演\"天命人\"用棍法挑战西游记Boss",
-      "tagline": "首个国产3A",
+      "xStatement": "",
+      "tagline": "",
       "playerStats": "",
       "coreLoop": "",
       "difficulty": "",
@@ -36390,10 +36416,10 @@
     }
   },
   "version": {
-    "version": "v20260318-35",
+    "version": "v20260318-36",
     "date": "20260318",
-    "count": 35,
-    "generatedAt": "2026-03-18T04:20:40.275Z"
+    "count": 36,
+    "generatedAt": "2026-03-18T05:50:50.844Z"
   },
   "mapping": {
     "toFolder": {
