@@ -277,6 +277,38 @@
 
 ---
 
+---
+
+## 机制库解析器修复（2026-03-18）
+
+### 游戏卡解析修复
+**问题**：游戏markdown文件的表格没有换行，导致解析失败
+
+**修复方案**：
+1. 添加 `rawContent` 参数传递给 `extractGameInfo` 函数
+2. 使用正则从原始内容提取字段：`游戏类型\s*\|\s*([^|]+)`
+3. 修复 developer/platform/gameName 等字段提取
+
+**关键代码**：
+```javascript
+if (!info.genre && rawContent) {
+  const genreMatch = rawContent.match(/游戏类型\s*\|\s*([^|]+)/);
+  if (genreMatch) info.genre = genreMatch[1].trim();
+}
+```
+
+**结果**：游戏数据正确显示（genre/developer/platform）
+
+### HTML顶部筛选栏优化
+1. 添加 "🎯 全部" 按钮 - 点击取消品类筛选
+2. 添加选中状态样式 - 点击后变为橙色背景
+
+### 技术债务
+- pending-mechanism-cards.txt 仍有待处理机制卡
+- 需要继续优化HTML交互体验
+
+---
+
 ## 技能记录
 
 ### game-report-generator (2026-03-05)

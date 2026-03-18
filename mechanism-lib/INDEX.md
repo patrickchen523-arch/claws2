@@ -1,6 +1,6 @@
 # 机制库索引
 
-> 最后更新：2026-03-17
+> 最后更新：2026-03-19
 
 ---
 
@@ -8,48 +8,52 @@
 
 | 游戏 | 类型 | 机制数 |
 |------|------|--------|
-| 300Heroes | - | 2 |
+| 300Heroes | - | 1 |
 | 7DaysToDie | - | 1 |
 | AdvanceWars | - | 2 |
 | AFKJourney | - | 0 |
 | AgeOfEmpires2DE | - | 4 |
 | AgeOfEmpires3 | - | 1 |
-| AgeOfEmpires4 | - | 3 |
+| AgeOfEmpires4 | - | 2 |
 | Aladedu | - | 0 |
 | AlbionOnline | - | 3 |
+| AlbionOnline_SDD拆解 | - | 3 |
 | AnimalCrossing | - | 1 |
 | AnotherCrabsTreasure | - | 2 |
 | ApexLegends | - | 0 |
 | ArcaneOdyssey | - | 1 |
 | ARCRaiders | - | 3 |
-| ArenaBreakoutInfinite | - | 7 |
-| ArenaBreakout | - | 7 |
+| ArenaBreakoutInfinite | - | 5 |
+| ArenaBreakout | - | 5 |
 | ARK | - | 0 |
-| Arknights | - | 4 |
+| Arknights | - | 5 |
 | ark-nova | - | 2 |
 | ArmoredCore6 | - | 4 |
 | ARZAnomaly | - | 0 |
 | AshesOfCreation | - | 1 |
-| Asphalt9 | - | 0 |
-| AssassinsCreedShadows | - | 0 |
+| Asphalt9 | - | 1 |
+| AssassinsCreedShadows | - | 5 |
 | AutoChess | - | 4 |
 | BaiJingHuiLang | - | 0 |
 | balatro | - | 2 |
-| BaldursGate3 | - | 3 |
+| BaldursGate3 | - | 7 |
 | Barony | - | 5 |
+| Battlefield | - | 1 |
 | Battlegrounds | - | 0 |
+| BeatSaber | - | 1 |
 | BestEleven | - | 1 |
+| BindingOfIsaac | - | 2 |
 | BlackMythWukong | - | 2 |
 | BoomBeach | - | 0 |
 | Borderlands3 | - | 0 |
-| BrawlStars | - | 0 |
+| BrawlStars | - | 2 |
 | BuriedBornes2 | - | 4 |
 | CadillacsAndDinosaurs | - | 2 |
 | Calabiyau | - | 1 |
 | CallOfDutyBlackOps6 | - | 0 |
-| CallOfDuty | - | 6 |
+| CallOfDuty | - | 5 |
 | CallOfDutyMobile | - | 0 |
-| CallOfDutyWarzone | - | 6 |
+| CallOfDutyWarzone | - | 5 |
 | CaptainCommando | - | 1 |
 | CardGameDeckBuilding | - | 0 |
 | CarrotFantasy | - | 1 |
@@ -58,7 +62,7 @@
 | CFMobile | - | 0 |
 | ChanganFantasy | - | 2 |
 | CitiesSkylines | - | 2 |
-| CivilizationVI | - | 2 |
+| CivilizationVI | - | 4 |
 | ClashOfClans | - | 1 |
 | ClashRoyale | - | 4 |
 | CODM | - | 1 |
@@ -81,20 +85,21 @@
 | DaveTheDiver | - | 1 |
 | DayZ | - | 0 |
 | DeadByDaylight | - | 0 |
-| DeadCells | - | 3 |
+| DeadCells | - | 7 |
 | Deemo | - | 1 |
+| DeepRockGalactic | - | 2 |
 | DeltaForce | - | 6 |
-| Destiny2 | - | 0 |
+| Destiny2 | - | 1 |
 | DiabloIIResurrected | - | 0 |
 | DiabloIV | - | 2 |
 | DianFengJiSu | - | 4 |
 | DirtRally | - | 0 |
 | divinity2 | - | 2 |
 | DJMAX | - | 1 |
-| DNF | - | 4 |
-| DNFMobile | - | 4 |
+| DNF | - | 5 |
+| DNFMobile | - | 5 |
 | dnf-origins | - | 1 |
-| DNFOrigins | - | 4 |
+| DNFOrigins | - | 5 |
 | DontStarve | - | 0 |
 | DOTA2 | - | 1 |
 | DotaUnderlords | - | 0 |
@@ -103,12 +108,12 @@
 | DuoduoAutoChess | - | 4 |
 | DysonSphereProgram | - | 2 |
 | EASportsFC26 | - | 4 |
-| EldenRing | - | 2 |
-| EldenRingShadowOfTheErdtree | - | 2 |
+| EldenRing | - | 3 |
+| EldenRingShadowOfTheErdtree | - | 3 |
 | Enshrouded | - | 1 |
-| EscapeFromTarkov | - | 0 |
+| EscapeFromTarkov | - | 1 |
 | EternalReturn | - | 0 |
-| EVEOnline | - | 4 |
+| EVEOnline | - | 5 |
 | Expedition33 | - | 1 |
 | ExtractionShooter | - | 0 |
 | F1Manager | - | 1 |
@@ -120,12 +125,12 @@
 | FCMobile | - | 2 |
 | FF14 | - | 1 |
 | FF7Rebirth | - | 0 |
-| FinalFantasy14 | - | 3 |
+| FinalFantasy14 | - | 4 |
 | FinalFight | - | 2 |
 | FireEmblemHeroes | - | 0 |
 | FireEmblemThreeHouses | - | 1 |
-| Fortnite | - | 3 |
-| ForzaHorizon5 | - | 8 |
+| Fortnite | - | 2 |
+| ForzaHorizon5 | - | 5 |
 | Frostpunk2 | - | 0 |
 | Frostpunk | - | 0 |
 | GameForPeace | - | 3 |
@@ -150,14 +155,14 @@
 | Hearthstone | - | 3 |
 | HeartTown | - | 3 |
 | Hellblade2 | - | 0 |
-| Helldivers2 | - | 2 |
+| Helldivers2 | - | 1 |
 | HeroesOfTheStorm | - | 1 |
 | HogwartsLegacy | - | 0 |
 | HomesAndGardens | - | 1 |
 | Homeworld2 | - | 1 |
 | HonkaiImpact3rd | - | 1 |
-| HonkaiStarRail | - | 3 |
-| HonorOfKings | - | 12 |
+| HonkaiStarRail | - | 5 |
+| HonorOfKings | - | 14 |
 | HuaTangZhi | - | 7 |
 | IdleHeroes | - | 0 |
 | InazumaEleven | - | 1 |
@@ -167,9 +172,9 @@
 | ItTakesTwo | - | 0 |
 | JiaoCuoZhanXian | - | 0 |
 | JinChanChan | - | 0 |
-| Justice | - | 2 |
-| JusticeMobile | - | 2 |
-| JX3 | - | 4 |
+| Justice | - | 1 |
+| JusticeMobile | - | 1 |
+| JX3 | - | 3 |
 | Kards | - | 1 |
 | KartRider | - | 0 |
 | KingdomRush | - | 2 |
@@ -180,7 +185,7 @@
 | KOF98 | - | 0 |
 | Langrisser | - | 3 |
 | league-of-legends | - | 1 |
-| LeagueOfLegends | - | 2 |
+| LeagueOfLegends | - | 3 |
 | LegendsOfRuneterra | - | 4 |
 | LiarsBar | - | 2 |
 | LibraryOfRuina | - | 1 |
@@ -202,7 +207,7 @@
 | MarvelSnap | - | 2 |
 | MatchdayChampions | - | 0 |
 | MayBe | - | 1 |
-| MetalSlug | - | 3 |
+| MetalSlug | - | 4 |
 | mewgenics | - | 0 |
 | MiaoMiaoTeaRestaurant | - | 2 |
 | MidnightGhostHunt | - | 0 |
@@ -250,12 +255,12 @@
 | pokemon-pokopia | - | 2 |
 | ProjectZomboid | - | 1 |
 | PUBG | - | 3 |
-| QQFeiChe | - | 0 |
-| R6Siege | - | 2 |
+| QQFeiChe | - | 1 |
+| R6Siege | - | 3 |
 | Raft | - | 0 |
 | RainbowSixSiege | - | 0 |
-| RealRacing3 | - | 0 |
-| RedAlert2 | - | 0 |
+| RealRacing3 | - | 1 |
+| RedAlert2 | - | 1 |
 | RedAlert3 | - | 2 |
 | RedDeadRedemption2 | - | 0 |
 | RefereeSimulator | - | 1 |
@@ -304,7 +309,7 @@
 | TeamSonicRacing | - | 1 |
 | Tekken7 | - | 1 |
 | Tekken8 | - | 0 |
-| Terraria | - | 0 |
+| Terraria | - | 1 |
 | TexasChainsaw | - | 1 |
 | TheForest | - | 4 |
 | TheWitcher3 | - | 0 |
@@ -324,13 +329,14 @@
 | wangzherongyao | - | 0 |
 | WangZheRongYaoPoXiao | - | 0 |
 | Warcraft3 | - | 1 |
-| Warframe | - | 0 |
+| Warframe | - | 3 |
 | Wargroove | - | 0 |
 | Warhammer40KRogueTrader | - | 0 |
 | WinterFall | - | 2 |
 | WoJiaoMT | - | 2 |
-| WorldOfWarcraft | - | 7 |
+| WorldOfWarcraft | - | 8 |
 | WutheringWaves | - | 1 |
+| Wuxia | - | 1 |
 | xcom2 | - | 2 |
 | XCOM | - | 0 |
 | Xenoblade3 | - | 1 |
@@ -342,7 +348,7 @@
 | YuGiOhDuelLinks | - | 0 |
 | YuGiOhMasterDuel | - | 1 |
 | ZeldaBreathoftheWild | - | 6 |
-| Zelda | - | 6 |
+| Zelda | - | 1 |
 | ZeldaTearsoftheKingdom | - | 1 |
 | zenless-zone-zero | - | 1 |
 | ZenlessZoneZero | - | 0 |
@@ -357,41 +363,39 @@
 ## 机制索引
 
 ### 300Heroes
-- [Qualify]7v7团战模式
-- [Qualify]多模式并存设计
+- [Qualify][MOBA]-300Heroes-7v7团战模式
 
 ### 7DaysToDie
-- 生存FPS-7-Days-to-Die-血月丧尸潮系统
+- [Qualify][FPS]-7DaysToDie-血月丧尸潮系统
 
 ### AdvanceWars
 - [Excellent]兵种相克系统
-- [Qualify]指挥官技能系统
+- [Qualify][策略]-AdvanceWars-指挥官技能系统
 
 ### AgeOfEmpires2DE
-- [Excellent]孙子兵法教学系统
-- [Excellent]文明差异化系统
-- [Excellent]时代演进系统
-- [Excellent]资源采集系统
+- [Excellent]RTS-AgeOfEmpires2DE-时代演进系统
+- [Excellent][RTS]-AgeOfEmpires2DE-渐进式教学系统
+- [Excellent][RTS]-AgeOfEmpires2DE-资源采集系统
+- [Qualify]RTS-帝国时代2-文明差异化系统
 
 ### AgeOfEmpires3
 - [Qualify]HomeCityCards
 
 ### AgeOfEmpires4
-- [Excellent]RTS-时代升级体系
 - [Excellent]RTS-英雄系统
-- [Excellent]RTS-超级武器系统
+- [Qualify]RTS-AgeOfEmpires4-时代升级体系
 
 ### AlbionOnline
-- [Excellent]沙盒式自由经济系统
-- MMORPG-阿尔比恩-资源分区设计
+- [Excellent]MMORPG-AlbionOnline-资源分区设计
+- [Qualify]MMORPG-AlbionOnline-沙盒式自由经济系统
 - [Qualify]装备等于职业系统
 
 ### AnimalCrossing
-- 模拟经营-动物森友会-大头菜
+- [Excellent][模拟经营]-AnimalCrossing-大头菜交易系统
 
 ### AnotherCrabsTreasure
+- [Qualify]动作-AnotherCrabsTreasure-无体力闪避
 - 壳系统
-- 无体力闪避
 
 ### ArcaneOdyssey
 - RPG-杖剑传说-一键带副本
@@ -402,47 +406,60 @@
 - [Excellent]搜打撤-机械敌人AI系统
 
 ### ArenaBreakoutInfinite
-- [Excellent]搜打撤-大金收集系统
-- [Excellent]搜打撤-局外养成系统
-- [Excellent]搜打撤-撤离机制
-- [Excellent]搜打撤-枪械改装系统
 - [Excellent]搜打撤-硬核弹道护甲系统
-- [Excellent]搜打撤-装备带入带出系统
-- [Qualify]loadout-system
+- [Excellent][撤离类]-ArenaBreakoutInfinite-大金收集系统
+- [Excellent][撤离类]-ArenaBreakoutInfinite-局外养成系统
+- [Excellent][撤离类]-ArenaBreakoutInfinite-枪械改装系统
+- [Excellent][撤离类]-ArenaBreakoutInfinite-装备带入带出系统
 
 ### Arknights
-- [Excellent]ProbabilityProgression
-- [Excellent]TenPullGuarantee
-- [Qualify]BlockAndRangeSystem
-- [Qualify]OperatorSkillSystem
+- [Excellent]策略-Arknights-概率递进保底机制
+- [Qualify][RPG]-Arknights-十连保底机制
+- [Qualify]策略-Arknights-干员技能系统
+- [Qualify]策略-Arknights-阻挡范围系统
+- 游戏拆解-明日方舟
 
 ### ark-nova
-- [Qualify]card-position-strength
-- [Qualify]dual-track-competition
+- [Qualify][策略]-ark-nova-双轨竞争系统
+- [Qualify]策略桌游-ArkNova-卡位强度系统
 
 ### ArmoredCore6
-- [Excellent]街机-ArmoredCore6-地形纵深战斗
+- [Excellent][街机]-ArmoredCore6-地形纵深战斗
 - [Excellent]街机-ArmoredCore6-扩充机能系统
 - [Excellent]街机-ArmoredCore6-机甲组装系统
 - [Excellent]街机-ArmoredCore6-锁定机制
 
 ### AshesOfCreation
-- MMORPG-创世灰烬-节点城市系统
+- [Qualify][MMORPG]-AshesOfCreation-节点城市系统
+
+### Asphalt9
+- [Qualify][街机]-Asphalt9-氮气加速系统
+
+### AssassinsCreedShadows
+- [Excellent][动作冒险]-AssassinsCreedShadows-双重暗杀系统
+- [Excellent][动作冒险]-AssassinsCreedShadows-暗杀拒绝系统
+- [Excellent][动作冒险]-AssassinsCreedShadows-观察标记系统
+- [Excellent][动作冒险]-AssassinsCreedShadows-阴影隐藏系统
+- [Qualify][动作冒险]-AssassinsCreedShadows-攀爬系统
 
 ### AutoChess
-- [Excellent]QizishengxingXitong
-- [Qualify]GongyongKapchi
+- [Excellent]自走棋-刀塔自走棋-金币利息系统
+- [Qualify]AutoChess-QizishengxingXitong
 - [Qualify]JibadianXitong
-- [Qualify]JinbilixiXitong
+- [Qualify][自走棋]-AutoChess-共用卡池机制
 
 ### balatro
-- [Qualify]exponential-growth-system
-- [Qualify]poker-card-bd-system
+- [Excellent][DBG]-Balatro-指数成长系统
+- [Excellent][Roguelike]-Balatro-扑克牌型BD系统
 
 ### BaldursGate3
-- RPG-博德之门3-分支对话树
-- RPG-博德之门3-回合制战棋战斗
-- RPG-博德之门3-角色出身背景系统
+- [Excellent][RPG]-BaldursGate3-环境互动系统
+- [Qualify][RPG]-BaldursGate3-DND技能检定对话系统
+- [Qualify][RPG]-BaldursGate3-DND法术系统
+- [Qualify][RPG]-BaldursGate3-DND职业系统
+- [Qualify]RPG-BaldursGate3-回合制战棋战斗
+- [Qualify][RPG]-BaldursGate3-角色出身背景系统
+- [Qualify][RPG]-BaldursGate3-队友系统
 
 ### Barony
 - [Excellent][Roguelike]-Barony-死亡幽灵系统
@@ -451,178 +468,212 @@
 - [Qualify][Roguelike]-Barony-多人合作模式
 - [Qualify][RPG]-Barony-职业系统
 
+### Battlefield
+- [Excellent][FPS]-Battlefield-小队协同系统
+
+### BeatSaber
+- [Qualify][音游]-BeatSaber-BeatSaver自定义谱面系统
+
 ### BestEleven
-- 足球-最佳11人-模拟生涯
+- [Qualify][模拟经营]-BestEleven-模拟生涯
+
+### BindingOfIsaac
+- [Excellent][Roguelike]-BindingOfIsaac-道具效果叠加系统
+- [Qualify]Roguelike-BindingOfIsaac-道具合成系统
 
 ### BlackMythWukong
+- [Qualify]RPG-BlackMythWukong-法术系统
 - [Qualify]棍法系统
-- [Qualify]法术系统
 
 ### Borderlands3
 
+### BrawlStars
+- [Qualify]MOBA-BrawlStars-星徽之力系统
+- [Qualify]MOBA-BrawlStars-英雄系统
+
 ### BuriedBornes2
-- 肉鸽-BuriedBornes2-勇气值Burst技能系统
-- 肉鸽-BuriedBornes2-因子继承系统
-- 肉鸽-BuriedBornes2-工会战异步竞赛系统
-- 肉鸽-BuriedBornes2-离群亡魂异步PVP系统
+- [Excellent]Roguelike-BuriedBornes2-离群亡魂异步PVP系统
+- [Qualify]Roguelike-BuriedBornes2-勇气值Burst技能系统
+- [Qualify]Roguelike-BuriedBornes2-因子继承系统
+- [Qualify]Roguelike-BuriedBornes2-工会战异步竞赛系统
 
 ### CadillacsAndDinosaurs
-- [not_comfirmed]dinosaur-interaction
-- [Qualify]vehicle-summon
+- [Qualify]街机-恐龙快打-恐龙互动系统
+- [Qualify][街机]-恐龙快打-载具召唤系统
 
 ### Calabiyau
-- [TPS]-卡拉彼丘-弦化机制
+- [Excellent][TPS]-Calabiyau-弦化机制
 
 ### CallOfDutyBlackOps6
 
 ### CallOfDutyWarzone
 - [BR]-使命召唤战区-古拉格对决
-- [Excellent]大逃杀-古拉格复活系统
-- [Excellent]大逃杀-合约系统
-- [Excellent]大逃杀-装备舱Loadout系统
+- [Excellent][BR]-CallOfDutyWarzone-古拉格复活系统
+- [Excellent][BR]-CallOfDutyWarzone-合约系统
+- [Excellent][BR]-CallOfDutyWarzone-装备舱Loadout系统
 - [FPS]-使命召唤-连杀奖励系统
-- [Qualify]gulag-revive
 
 ### CaptainCommando
-- [Qualify]role-skills
+- [Qualify]街机-CaptainCommando-角色职业技能系统
 
 ### CarrotFantasy
-- [Qualify]GoldenCarrotSystem
+- [Qualify]策略-保卫萝卜-金萝卜评价系统
 
 ### CFLegends
 
 ### ChanganFantasy
-- 回合制MMO-长安幻想-天都争锋
-- 回合制MMO-长安幻想-赛季挑战
+- [Qualify]MMORPG-ChanganFantasy-天都争锋
+- [Qualify]MMORPG-ChanganFantasy-赛季挑战
 
 ### CitiesSkylines
 - [Qualify]TrafficAI
-- [Qualify]ZoningSystem
+- [Qualify][模拟经营]-CitiesSkylines-城市分区系统
 
 ### CivilizationVI
-- [not_comfirmed]CivilizationTraits
-- [not_comfirmed]DistrictPlanning
+- [Excellent][策略]-CivilizationVI-城区规划系统
+- [Qualify][策略]-CivilizationVI-总督系统
+- [Qualify][策略]-CivilizationVI-政体系统
+- [策略]-CivilizationVI-文明特质系统
 
 ### ClashOfClans
-- [Excellent]RTS-护盾保护机制
+- [Excellent][RTS]-ClashOfClans-护盾保护机制
 
 ### ClashRoyale
 - [Excellent]卡牌组合系统
-- [Excellent]双路推塔机制
 - [Excellent]圣水费用系统
+- [Excellent]策略-ClashRoyale-双路推塔机制
 - [Qualify]即时微操系统
 
 ### CODMW3
 - [Qualify]连杀奖励系统
 
 ### COK
-- [SLG]-COK+大地图行军系统
-- [SLG]-COK+武将系统
-- [SLG]-COK+联盟宝箱
-- [SLG]-COK+车头车身机制
+- [Excellent][SLG]-COK-联盟宝箱
+- [Excellent][SLG]-COK-车头车身机制
+- [Qualify][SLG]-COK-大地图行军系统
+- [Qualify][策略]-COK-武将系统
 
 ### CompanyOfHeroes
-- [not_comfirmed]DestructibleEnvironment
 - [Qualify]CoverSuppression
+- [Qualify][RTS]-CompanyOfHeroes-可破坏物理环境
 
 ### ConquerorsBlade
 
 ### CS2
-- [FPS]-Counter-Strike 2-体积烟雾互动系统
-- [Qualify]经济博弈系统
+- [Qualify][FPS]-CS2-体积烟雾互动系统
+- [Qualify][FPS]-CS2-经济博弈系统
 
 ### Cytus
-- [Qualify]动态判定线扫描系统
+- [Qualify]音游-Cytus-动态判定线扫描系统
 
 ### DarkestDungeon
-- RPG-暗黑地牢-理智值压力系统
+- [Excellent][Roguelike]-DarkestDungeon-理智值压力系统
 
 ### DaveTheDiver
-- [Qualify]DayNightLoop
+- [Qualify]模拟经营-潜水员戴夫-日夜双循环玩法
 
 ### DeadCells
-- [Excellent]武器构建系统
-- [Excellent]1血保护与血瓶系统
+- [Excellent]Roguelike-DeadCells-1血保护与血瓶系统
+- [Excellent]Roguelike-DeadCells-武器构建系统
+- [Excellent]Roguelike-DeadCells-突变技能系统
+- [Qualify]Roguelike-DeadCells-RogueVania融合机制
+- [Qualify]Roguelike-DeadCells-蓝图解锁系统
 - [Qualify]RogueVania融合机制
 - [Qualify]蓝图解锁系统
 
 ### Deemo
 - [Excellent]剧情叙事融合系统
 
+### DeepRockGalactic
+- [Excellent][FPS]-DeepRockGalactic-职业系统
+- [Qualify][FPS]-DeepRockGalactic-采矿系统
+
 ### DeltaForce
 - [Excellent][FPS]-DeltaForce-干员技能系统
+- [Excellent]FPS-DeltaForce-载具作战系统
 - [Excellent]FPS-曼德尔砖机制
-- [Excellent]FPS-载具作战系统
 - FPS夺金-三角洲行动-玩家扮演BOSS赤枭巡猎
 - FPS夺金-三角洲行动-神秘脑机Ⅱ型渡鸦寻宝
 - [Qualify]mendel-brick
 
+### Destiny2
+- [Excellent][FPS]-Destiny2-三职业元素分支系统
+
 ### DiabloIV
-- [Qualify]巅峰等级系统
-- [Qualify]暗金装备与词缀系统
+- [Excellent][ARPG]-DiabloIV-巅峰等级系统
+- [Excellent][ARPG]-DiabloIV-暗金装备与词缀系统
 
 ### DianFengJiSu
-- [not_comfirmed]DynamicWeather
+- [Qualify]RAC-DianFengJiSu-车辆改装系统
 - [Qualify]RealisticPhysics
 - [Qualify]StoryMode
-- [Qualify]VehicleMod
+- [Qualify]竞速-RacingMaster-动态天气系统
 
 ### divinity2
 - [Excellent]element-dip-system
-- [Qualify]free-character-build
+- [Qualify][策略]-Divinity2-自由角色构建系统
 
 ### DJMAX
-- [Excellent]BGA视听联动系统
+- [Qualify]音游-DJMAX-BGA视听联动系统
 
 ### DNF
 - MMORPG-DNF-变身怪物
-- [Qualify]深渊副本
+- [Qualify]MMORPG-DNF-变身怪物
+- [Qualify]MMORPG-DNF-装备交易时间锁
 - [Qualify]职业技能连招
-- [Qualify]装备交易时间锁
+- [Qualify][街机]-DNF-深渊副本
 
 ### dnf-origins
 - [Excellent]grinding-system
 
 ### DOTA2
-- [Qualify]LastHitDenial
+- [Qualify]MOBA-DOTA2-反补机制
 
 ### DragonsDogma2
 - [Qualify]随从系统
 
 ### DysonSphereProgram
 - [Qualify]AssemblyLine
-- [Qualify]InterstellarLogistics
+- [Qualify]模拟经营-戴森球计划-跨星球物流系统
 
 ### EASportsFC26
-- 足球-FC25-SquadBattles-45粒进球挑战
-- 足球-FC26-RUSH模式金球致胜制玩法
-- 足球-FC26-UT模式-进化系统
-- 足球-FC26-联赛模式欧冠赛制
+- [Excellent][体育竞技]-EASportsFC26-45粒进球挑战
+- [Excellent][体育竞技]-EASportsFC26-RUSH模式金球致胜制玩法
+- [Qualify][体育竞技]-EASportsFC26-UT模式进化系统
+- [Qualify][体育竞技]-EASportsFC26-联赛模式欧冠赛制
 
 ### EldenRing
-- [Qualify]开放世界探索
-- [Qualify]死亡惩罚与记忆系统
+- [Excellent][ARPG]-EldenRing-弱引导递进式探索
+- [Qualify][ARPG]-EldenRing-死亡惩罚与记忆系统
+- [Qualify][ARPG]-EldenRing-骨灰系统
 
 ### Enshrouded
-- [生存沙盒]-雾锁王国-水方块动态建造体
+- [Qualify][生存沙盒]-Enshrouded-水方块动态建造体
+
+### EscapeFromTarkov
+- [Excellent][撤离类]-EscapeFromTarkov-撤离机制
+
+### EuroTrucksSimulator2
+- [Qualify][模拟经营]-EuroTrucksSimulator2-真实驾驶系统
 
 ### EVEOnline
-- [Excellent]EVE-温和通胀货币系统
-- [Qualify]EVE-区域差异化市场
-- [Qualify]EVE-双向订单匹配市场
+- [Qualify]EVE Online-区域差异化市场
 - [Qualify]EVE-玩家生产制造链
+- [Qualify][MMORPG]-EVEOnline-双向订单匹配市场
+- [Qualify]MMORPG-EVEOnline-温和通胀货币系统
+- [Qualify][经济系统]-EVEOnline-玩家生产制造链
 
 ### Expedition33
-- 回合制-远征33号-即时反应与弹反机制
+- [Excellent][回合制RPG]-Expedition33-即时反应弹反机制
 
 ### F1
-- RAC-通用-防御驾驶
+- [Qualify][RAC]-[通用]-[防御驾驶]
 
 ### F1Manager
-- RAC-F1-manager-赛季制资源管理策略
+- [Excellent][模拟经营]-F1Manager-赛季制资源管理策略
 
 ### FCMobile
-- 足球-FC足球世界-图鉴系统
+- [Excellent][足球]-FCMobile-图鉴系统
 - 足球-FC足球世界-进攻对战
 
 ### FF14
@@ -630,30 +681,27 @@
 
 ### FinalFantasy14
 - [Excellent]MentorNewbieSystem
+- [Excellent][MMORPG]-FinalFantasy14-兵装库特职系统
 - [Excellent]RPStoreSystem
-- [not_comfirmed]兵装库特职系统
+- [Qualify][MMORPG]-FinalFantasy14-部族日常任务系统
 
 ### FinalFight
-- [Qualify]role-differentiation
-- [Qualify]weapon-system
+- [Qualify]街机-FinalFight-武器系统
+- [Qualify]街机-FinalFight-角色差异化系统
 
 ### FireEmblemThreeHouses
-- [Qualify]转职树系统
+- [Qualify]策略-FireEmblemThreeHouses-转职树系统
 
 ### Fortnite
-- [Excellent]ChallengeTaskSystem
-- [Qualify]DualPassSystem
-- [Qualify]PassTierPricing
+- [Excellent]BR-Fortnite-挑战任务系统
+- [Qualify]BR-Fortnite-双重通行证机制
 
 ### ForzaHorizon5
-- [Excellent]ForzaHorizon5-SkillTree
 - [Excellent]NFSHeat-DayNightHeat
-- [Qualify]Asphalt9-NitroBoost
+- [Excellent]街机-ForzaHorizon5-技术进阶系统
 - [Qualify]ForzaHorizon5-OpenWorld
-- [Qualify]QQFeiChe-DriftCharge
-- [Qualify]RealRacing3-AuthenticCars
-- RAC-极限竞速地平线-时间回溯
-- RAC-通用-幽灵车陪跑
+- [Qualify]RAC-通用-幽灵车陪跑
+- [Qualify]街机-ForzaHorizon5-时间回溯
 
 ### GameForPeace
 - [Excellent]大逃杀-100人同场竞技
@@ -661,16 +709,16 @@
 - [Excellent]大逃杀-缩圈博弈系统
 
 ### GenshinImpact
-- [Excellent]FateSystem
-- [Excellent]PitySystem
+- [Excellent][ARPG]-GenshinImpact-元素反应系统
+- [Excellent]ARPG-GenshinImpact-抽卡与命座系统
+- [Excellent]ARPG-GenshinImpact-武器定轨机制
 - [Excellent]体力系统
+- [Qualify][ARPG]-GenshinImpact-深境螺旋双队挑战机制
 - [Qualify][ARPG]-GenshinImpact-深境螺旋星级系统
-- [Qualify]GenshinImpact-SpiralAbyssDoubleTeamSystem
-- [Qualify]元素反应系统
-- [Qualify]抽卡与命座系统
+- [Qualify]RPG-GenshinImpact-概率保底机制
 
 ### GooseGooseDuck
-- [非对称]-鹅鸭杀-双中立阵营机制
+- [Excellent][社交推理]-GooseGooseDuck-双中立阵营机制
 
 ### GranblueFantasy
 - 联机共斗ARPG-碧蓝幻想Relink-LinkTime
@@ -679,31 +727,31 @@
 - RAC-GTAol-载具切换
 
 ### GuiltyGearStrive
-- [Qualify]RC取消
+- [Qualify]FTG-GuiltyGearStrive-RC取消
 
 ### gunfire-reborn
 - [Qualify]bd-share-system
 
 ### Gwent
-- [not_comfirmed]三行战场系统
-- [Qualify]DeckRestriction
+- [Excellent][策略]-Gwent-三行战场系统
+- [Qualify]Gwent-卡组限制系统
 
 ### Hades
-- [Qualify]叙事驱动机制
-- [Qualify]多武器形态系统
-- [Qualify]惩罚契约系统
-- [Qualify]死亡叙事融合系统
-- [Qualify]祝福Build系统
-- [Qualify]神明祝福系统
+- [Excellent]Roguelike-Hades-叙事驱动机制
+- [Excellent]Roguelike-Hades-惩罚契约系统
+- [Excellent]Roguelike-Hades-祝福Build系统
+- [Excellent]Roguelike-Hades-神明祝福系统
+- [Qualify]Roguelike-Hades-多武器形态系统
+- [Qualify]Roguelike-Hades-死亡叙事融合系统
 
 ### HappyCatCafe
-- [not_comfirmed]CatBreeding
-- [Qualify]CatDressUp
+- [Qualify]模拟经营-HappyCatCafe-猫咪培育系统
+- [Qualify]模拟经营-HappyCatCafe-猫咪换装系统
 
 ### Hearthstone
-- [Qualify]ClassRestriction
-- [Qualify]DustSystem
-- [Qualify]法力水晶系统
+- [Excellent]策略卡牌-Hearthstone-法力水晶系统
+- [Qualify]策略卡牌-Hearthstone-卡牌分解合成系统
+- [Qualify]策略卡牌-Hearthstone-职业限制机制
 
 ### HeartTown
 - [Excellent]模拟经营-HeartTown-无缝大世界
@@ -711,54 +759,57 @@
 - [Excellent]模拟经营-HeartTown-飞地机制
 
 ### Helldivers2
-- [Qualify]strategic-command-system
-- [TPS]-绝地潜兵2-战略配备指令输入
+- [Excellent][TPS]-Helldivers2-战略配备指令系统
 
 ### HeroesOfTheStorm
-- [not_comfirmed]SharedExperience
+- [Qualify][MOBA]-HeroesOfTheStorm-共享经验机制
 
 ### HomesAndGardens
 - [Excellent]Match3Decoration
 
 ### Homeworld2
-- [Excellent]RTS-3D空间作战系统
+- [Qualify]RTS-Homeworld2-3D空间作战系统
 
 ### HonkaiImpact3rd
-- [not_comfirmed]连招与QTE系统
+- [Excellent]ARPG-HonkaiImpact3rd-连招与QTE系统
 
 ### HonkaiStarRail
-- [Excellent]HonkaiStarRail-FictionNarrativeWaveScoring
-- [not_comfirmed]模拟宇宙
 - [Qualify]HonkaiStarRail-FictionNarrativeBuffSystem
+- [Qualify]HonkaiStarRail-虚构叙事波次评分系统
+- [Qualify]Roguelike-HonkaiStarRail-模拟宇宙
+- [Qualify]RPG-HonkaiStarRail-光锥系统
+- [Qualify]RPG-HonkaiStarRail-遗器系统
 
 ### HonorOfKings
-- [Excellent]AchievementSystem
-- [Excellent]HonorOfKings-BanPickSystem
-- [Excellent]MasterApprenticeSystem
-- [Excellent]moba-hex-arena-rune
-- [not_comfirmed]SocialMatchmaking
-- [Qualify]dream-map-collapse
+- [Excellent][MOBA]-HonorOfKings-海克斯符文系统
+- [Excellent]MOBA-HonorOfKings-社交匹配系统
+- [Qualify]HonorOfKings-AchievementSystem
 - [Qualify]HonorOfKings-RankingELOSystem
-- [Qualify]HonorPassSystem
-- [Qualify]moba-arena-prebuy-gear
-- [Qualify]moba-arena-random-hero
-- [Qualify]moba-arena-shared-pool
-- [Qualify]moba-dream-arena-single-lane
+- [Qualify]MOBA-HonorOfKings-出门预购装备
+- [Qualify]MOBA-HonorOfKings-单路快节奏地图
+- [Qualify]MOBA-HonorOfKings-师徒系统
+- [Qualify]MOBA-HonorOfKings-征召模式Ban选系统
+- [Qualify]MOBA-HonorOfKings-梦境地图崩塌系统
+- [Qualify]MOBA-HonorOfKings-梦境大乱斗公用英雄池
+- [Qualify]MOBA-HonorOfKings-英雄系统
+- [Qualify]MOBA-HonorOfKings-荣耀战令系统
+- [Qualify]MOBA-HonorOfKings-通行证阶梯定价
+- [Qualify]MOBA-HonorOfKings-随机分配英雄机制
 
 ### HuaTangZhi
-- 回合制MMO-幻唐志-精力系统
-- 回合制MMO-幻唐志逍遥外传-专属宠物天赋
-- 回合制MMO-幻唐志逍遥外传-启明之战
-- 回合制MMO-幻唐志逍遥外传-成就月
-- 回合制MMO-幻唐志逍遥外传-灵兽对战
-- 回合制MMO-幻唐志逍遥外传-玲珑遗迹
-- 回合制MMO-幻唐志逍遥外传-竖屏适配体验设计
+- [Excellent]MMORPG-HuaTangZhi-专属宠物天赋
+- [Excellent]MMORPG-HuaTangZhi-灵兽对战
+- [Qualify]MMORPG-HuaTangZhi-启明之战
+- [Qualify]MMORPG-HuaTangZhi-成就月
+- [Qualify]MMORPG-HuaTangZhi-竖屏适配体验设计
+- [Qualify]MMORPG-HuaTangZhi-精力系统
+- [Qualify]MMORPG-幻唐志逍遥外传-玲珑遗迹
 
 ### InazumaEleven
 - 足球-闪电十一人-工资帽
 
 ### InfiniteNikki
-- 开放世界-无限暖暖-大世界异步合影
+- [Qualify][开放世界]-InfiniteNikki-大世界异步合影
 
 ### Inkbound
 - [Excellent]Roguelike-Inkbound-临界充能系统
@@ -770,50 +821,49 @@
 ### IntoTheBreach
 - [Qualify]BuildingProtection
 - [Qualify]DisplacementOverKill
-- [Qualify]FullInfoCombat
+- [Qualify]策略-IntoTheBreach-敌人意图完全可见
 
 ### Justice
 - [Qualify]功力系统
-- [Qualify]身份系统
 
 ### JX3
-- [Qualify]JX3-TianGongTree
-- [Qualify]WoW-CrossFactionGuild
-- [Qualify]捏脸系统
-- [Qualify]轻功系统
+- [Qualify]MMO-JX3-捏脸系统
+- [Qualify]MMORPG-JX3-TianGongTree
+- [Qualify][MMORPG]-JX3-轻功系统
 
 ### Kards
-- Roguelike-卡厄思梦境-类肉鸽搜打撤的存档带出机制
+- [Qualify]Roguelike-Kards-类肉鸽搜打撤的存档带出机制
 
 ### KingdomRush
-- [Qualify]ActiveSkillSystem
-- [Qualify]BarracksSystem
+- [Qualify]TD-KingdomRush-主动技能系统
+- [Qualify]TD-KingdomRush-兵营拦截系统
 
 ### KnightmareTower
-- [Qualify]rpg-levelup
+- [Qualify]街机-KnightmareTower-RPG升级系统
 
 ### KnightsOfValour
-- [not_comfirmed]天书魔法系统
 - [Qualify]技能连招系统
-- [Qualify]爆气系统
+- [Qualify]街机-KnightsOfValour-天书魔法系统
+- [Qualify]街机-KnightsOfValour-爆气系统
 
 ### Langrisser
 - [Excellent]兵种相克系统
-- [Qualify]HeroSoldierDualProgression
 - [Qualify]UnitRockPaperScissors
+- [Qualify]策略-Langrisser-英雄士兵双养成
 
 ### league-of-legends
 - [Qualify]hextech-chaos
 
 ### LeagueOfLegends
-- [Qualify]RuneSystem
-- [Qualify]SummonerSpells
+- [Qualify]MOBA-LeagueOfLegends-符文系统
+- [Qualify]MOBA-LeagueOfLegends-英雄系统
+- [Qualify]MOBA-LOL-召唤师技能
 
 ### LegendsOfRuneterra
-- [not_comfirmed]BlockMechanism
 - [Qualify]AttackResponse
 - [Qualify]HeroUpgrade
-- [Qualify]SpellSpeed
+- [Qualify][策略卡牌]-LegendsOfRuneterra-格挡攻防机制
+- [Qualify]策略卡牌-LegendsOfRuneterra-法术速度系统
 
 ### LiarsBar
 - [Excellent]桌游-LiarsBar-俄罗斯轮盘赌惩罚机制
@@ -833,41 +883,42 @@
 - [Qualify]slot-machine-symbol-engine
 
 ### Marathon
-- [Excellent]三层构筑系统
-- FPS夺金-失落星船-植入物与核心
+- [Excellent]FPS-Marathon-三层构筑系统
+- [Excellent]FPS-Marathon-植入物与核心
 
 ### MarioKart
-- RAC-非拟真赛车-名次道具分配
-- RAC-非拟真赛车-漂移集气资源转化
+- [Excellent]RAC-MarioKart8-名次道具分配
+- [Excellent]RAC-MarioKart-漂移集气资源转化
 
 ### MarvelRivals
-- [TPS]-[漫威争锋]-[天赋强化]
+- [Excellent][TPS]-[漫威争锋]-[天赋强化]
 
 ### MarvelSnap
-- [Excellent]Snap加注机制
 - [Excellent]区域随机系统
+- [Excellent]策略卡牌-MarvelSnap-Snap加注机制
 
 ### MayBe
-- 放置RPG-出发吧麦芬-双人匹配挂机
+- [Excellent]RPG-MayBe-双人匹配挂机
 
 ### MetalSlug
-- [Qualify]人质营救系统
-- [Qualify]武器升级系统
-- [Qualify]载具系统
+- [Excellent]人质营救系统
+- MetalSlug_SDD拆解
+- [Qualify]街机-MetalSlug-武器升级系统
+- [Qualify]街机-MetalSlug-载具系统
 
 ### MiaoMiaoTeaRestaurant
-- [Qualify]ForestExploration
-- [Qualify]ModularBuilding
+- [Qualify]模拟经营-MiaoMiaoTeaRestaurant-森林探险玩法
+- [Qualify]模拟经营-MiaoMiaoTeaRestaurant-模块化搭建系统
 
 ### MoleManor
-- [Qualify]MoleCurrency
+- [Qualify][模拟经营]-MoleManor-摩尔豆经济系统
 
 ### MortalKombat11
 - [Qualify]定制连击
 
 ### my-garden-world
-- [Qualify]friend-assist-system
-- [Qualify]guild-cultivation-system
+- [Qualify]模拟经营-MyGardenWorld-公会共同培育系统
+- [Qualify]模拟经营-MyGardenWorld-好友助力系统
 
 ### MyGardenWorld
 - 模拟经营-我的花园世界-交换花
@@ -880,48 +931,48 @@
 - 夺金-永劫无间无间镖客-满江红商友良赌坊玩法
 
 ### Nioh
-- ARPG-仁王-三段架势系统
+- [Qualify][街机]-Nioh-三段架势系统
 
 ### NZ2
 - [Qualify][FPS]-NZ2-时空追猎系统
 - [Qualify][FPS]-NZ2-猎场竞速系统
 
 ### Onmyoji
-- [Qualify]RuneFreeSystem
+- [Qualify]MOBA-Onmyoji-无符文系统
 - [Qualify]式神战斗区系统
 
 ### osu
-- [Excellent]社区谱面创作系统
+- [Qualify]音游-osu!-社区谱面创作系统
 
 ### Palworld
-- [Qualify]pal-gear-system
+- [Excellent]RPG-Palworld-帕鲁装备系统
 - [Qualify]pal-labor-system
 
 ### PathOfExile
-- ARPG-流放之路-技能天赋
+- [Excellent][ARPG]-PathOfExile-技能宝石系统
 
 ### path-of-exile-2
-- [Excellent]season-economy-system
-- [Qualify]skill-gem-system
+- [Excellent][ARPG]-PathOfExile2-技能宝石系统
+- [Excellent]ARPG-PathOfExile2-赛季经济学
 
 ### Payday3
 - [Qualify]co-op-heist-gameplay
 
 ### PeaceEliteSubway
-- 夺金-和平精英地铁逃生-动力机甲玩法
+- [Qualify][FPS]-PeaceEliteSubway-动力机甲玩法
 
 ### PeaceEliteTomb
-- 夺金-和平精英古墓迷途-PVE式交互大金彩蛋
-- 夺金-和平精英古墓迷途-赛季制类MMO法宝
+- [Qualify][搜打撤]-PeaceElite-PVE式交互大金彩蛋
+- [Qualify][撤离类]-PeaceEliteTomb-赛季制法宝系统
 
 ### PEAK
 - 生存冒险-PEAK-队友整蛊
 
 ### Persona5
-- JRPG-女神异闻录5-One-More与极总攻击
+- [Qualify]JRPG-Persona5-One-More与极总攻击
 
 ### Phigros
-- [Qualify]判定线移动机制
+- [Qualify]音游-Phigros-判定线移动机制
 
 ### PlanetZoo
 - [Qualify]AnimalBehaviorAI
@@ -934,41 +985,51 @@
 - [Qualify]坐骑系统
 
 ### pokemon-pokopia
-- [Qualify]ditto-form-exploration
-- [Qualify]move-based-terrain-modification
+- [Qualify]模拟经营-PokemonPokopia-招式学习改造地形
+- [Qualify]生活模拟-PokemonPokopia-百变怪变身拓展
 
 ### ProjectZomboid
-- 生存沙盒-Project-Zomboid-声音视野系统
+- [Excellent][生存沙盒]-ProjectZomboid-声音视野系统
 
 ### PUBG
 - [Excellent]大逃杀-战术转移与载具系统
-- [Excellent]大逃杀-资源获取与装备系统
+- [Qualify][BR]-PUBG-资源获取与装备系统
 - [Qualify]缩圈博弈系统
 
+### QQFeiChe
+- [Qualify]街机-QQFeiChe-漂移集气系统
+
 ### R6Siege
+- [Qualify]FPS-R6Siege-干员技能系统
 - [Qualify]可破坏环境系统
-- [Qualify]干员技能系统
+- R6Siege-游戏拆解
+
+### RealRacing3
+- [Qualify]RAC-RealRacing3-真实车辆授权系统
+
+### RedAlert2
+- [Qualify]RTS-RedAlert2-超级武器系统
 
 ### RedAlert3
-- [not_comfirmed]NavalUnits
-- [Qualify]FactionDifference
+- [Qualify]RTS-RedAlert3-三阵营差异化设计
+- [Qualify][RTS]-RedAlert3-海军单位系统
 
 ### RefereeSimulator
-- 足球-裁判模拟器
+- [Qualify]模拟经营-RefereeSimulator-裁判判罚系统
 
 ### RidgeRacer
-- [not_comfirmed]NitroBoost
-- [Qualify]DriftNitrousSystem
+- [Qualify]街机-RidgeRacer-氮气加速系统
+- [Qualify]街机-RidgeRacer-甩尾氮气加速系统
 
 ### RollerCoasterTycoon3
-- [Qualify]FacilityEditor
-- [Qualify]VisitorAI
+- [Qualify]模拟经营-过山车大亨3-游客AI系统
+- [Qualify]模拟经营-过山车大亨3-设施编辑器
 
 ### Rust
-- [生存沙盒]-RUST-基地建造
-- [生存沙盒]-RUST-枪械后坐力控制
-- [生存沙盒]-RUST-爆炸物破防
-- [生存沙盒]-RUST-采集小游戏
+- [Excellent][FPS]-Rust-基地建造
+- [Excellent][FPS]-Rust-采集小游戏
+- [Qualify][FPS]-Rust-枪械后坐力控制
+- [Qualify][FPS]-Rust-爆炸物破防
 
 ### SanguoBinghe
 - [SLG]-COK+车头车身设定
@@ -979,17 +1040,17 @@
 - [SLG]-三国冰河时代-居民管理
 
 ### sanguo-mouding-tianxia
-- [Qualify]slg-profession-system
+- [Qualify]SLG-sanguo-mouding-tianxia-职业系统
 
 ### SanguoMoudingTianxia
-- [SLG]-三谋-六大职业分工PVP
-- [SLG]-三谋-智能铺路与连地机制
+- [Excellent][策略]-SanguoMoudingTianxia-六大职业分工系统
+- [Qualify][策略]-SanguoMoudingTianxia-智能铺路与连地机制
 
 ### SanGuoZhanLue
-- [SLG]-三国志战略版-动态地图
-- [SLG]-三国志战略版-季节主题玩法
-- [SLG]-三国志战略版-自由行军与碰撞交战
-- [SLG]-三战-兵种相克机制
+- [Qualify][策略]-SanGuoZhanLue-兵种相克机制
+- [SLG]-SanGuoZhanLue-动态地图
+- [SLG]-SanGuoZhanLue-季节主题玩法
+- [策略]-SanGuoZhanLue-自由行军与碰撞交战
 
 ### Satisfactory
 
@@ -998,7 +1059,7 @@
 - [Excellent]开放世界-SeaOfThieves-海战夺金循环
 
 ### ShadowOfMordor
-- RPG-中土世界-宿敌系统
+- [Excellent][RPG]-ShadowOfMordor-宿敌系统
 
 ### Shadowverse
 - [Qualify]SameNameCard
@@ -1009,8 +1070,8 @@
 - ACT-师父-年龄系统
 
 ### SkyArena
-- [Qualify]公平竞技设计
-- [Qualify]战术标记系统
+- [Qualify][MOBA]-SkyArena-公平竞技设计
+- [Qualify][MOBA]-SkyArena-战术标记系统
 - [Qualify]无锁定操作机制
 
 ### SkyChildrenOfTheLight
@@ -1019,22 +1080,22 @@
 - [Excellent]冒险社交-SkyChildrenOfTheLight-陌生人社交系统
 
 ### SonsOfTheForest
-- [生存恐怖沙盒]-森林之子-自由模块化建筑与防御工事
+- [Qualify]模拟经营-SonsOfTheForest-自由模块化建筑系统
 
 ### SoulcaliburVI
-- [not_comfirmed]武器系统
+- [Qualify]街机-SoulcaliburVI-武器系统
 
 ### Splatoon3
 - [TPS]-Splatoon 3-潜墨游动机制
 
 ### StarCraft2
 - [Excellent]RTS-兵种相克系统
-- [Excellent]RTS-实时战术微操
 - [Excellent]RTS-资源采集体系
+- [Qualify]RTS-星际争霸2-实时战术微操
 
 ### StardewValley
-- [Qualify]SkillSystem
-- [Qualify]TimeManagement
+- [Qualify]模拟经营-StardewValley-多维技能系统
+- [Qualify][模拟经营]-StardewValley-时间资源管理
 
 ### Stellaris
 - [Excellent][策略]-Stellaris-天灾飞升系统
@@ -1042,48 +1103,51 @@
 - [Excellent][策略]-Stellaris-终局危机系统
 
 ### StreetFighter6
-- [Qualify]Drive系统
-- [Qualify]现代模式
+- [Qualify][街机]-StreetFighter6-Drive系统
+- [Qualify][街机]-StreetFighter6-现代模式
 
 ### SultansGame
 - [Excellent]卡牌-苏丹的游戏-苏丹卡系统
 
 ### Supernatural
-- [非对称]-超自然行动组-双人牵手
-- [非对称]-超自然行动组-可附身角色
-- [非对称]-超自然行动组-宝宝模式
-- [非对称]-超自然行动组-龙珠房
+- [Excellent][非对称]-Supernatural-双人牵手
+- [Excellent][非对称]-Supernatural-可附身角色
+- [Excellent][非对称]-超自然行动组-宝宝模式
+- [Excellent][非对称]-超自然行动组-龙珠房
 
 ### SupremeCommander
-- [Qualify]DualView
+- [Qualify]RTS-SupremeCommander-战略战术双视角
 
 ### TacticsOgre
-- [not_comfirmed]WT行动顺序系统
+- [Excellent]策略-TacticsOgre-WT行动顺序系统
 - [Qualify]多结局政治剧情系统
-- [Qualify]高低差战场系统
+- [Qualify]策略-TacticsOgre-高低差战场系统
 
 ### TacticsOgreReborn
-- [Excellent]团队等级上限机制
-- [not_comfirmed]WT行动顺序系统
+- [Excellent]策略-TacticsOgreReborn-WT行动顺序系统
 - [Qualify]35种地形系统
-- [Qualify]高低差地形战场
+- [Qualify]策略-TacticsOgreReborn-团队等级上限机制
+- [Qualify]策略-TacticsOgreReborn-高低差地形战场
 
 ### TeamfightTactics
-- [Excellent]羁绊组合系统
-- [Qualify]HaikesiQianghuaXitong
-- [Qualify]公共牌池抓取
-- [Qualify]共享选秀轮盘
-- [Qualify]利息经济系统
-- [Qualify]装备合成系统
+- [Qualify][策略]-云顶之弈-羁绊组合系统
+- [Qualify]自走棋-云顶之弈-公共牌池抓取
+- [Qualify]自走棋-云顶之弈-共享选秀轮盘
+- [Qualify]自走棋-云顶之弈-利息经济系统
+- [Qualify]自走棋-云顶之弈-海克斯强化系统
+- [Qualify]自走棋-云顶之弈-装备合成系统
 
 ### TeamSonicRacing
 - RAC-索尼克赛车-地图拼接
 
 ### Tekken7
-- [Qualify]Rage系统
+- [Qualify]街机-Tekken7-Rage系统
+
+### Terraria
+- [Qualify][生存沙盒]-Terraria-建造系统
 
 ### TestGame
-- [Excellent]射击-TestGame-撤离机制
+- [Excellent]撤离类-TestGame-撤离机制
 - TestCard
 
 ### TexasChainsaw
@@ -1091,9 +1155,9 @@
 
 ### TheForest
 - [Excellent]FPS-TheForest-洞穴探索系统
+- [Excellent]FPS-TheForest-生存数值系统
 - [Excellent]FPS-TheForest-野人AI系统
 - [Qualify]FPS-TheForest-建造防御系统
-- [Qualify]FPS-TheForest-生存数值系统
 
 ### TianDiJie
 - [Excellent][策略]-TianDiJie-多维度养成系统
@@ -1104,17 +1168,17 @@
 - [Qualify]捏脸系统
 
 ### TwoPointHospital
-- [Qualify]DepartmentFlow
+- [Qualify]模拟经营-TwoPointHospital-科室流程优化系统
 
 ### UmaMusume
-- 养成-赛马娘类-逐代繁衍与因子继承机制
+- [Excellent]Roguelike-UmaMusume-逐代繁衍与因子继承机制
 
 ### UnicornOverlord
-- 策略-圣兽之王-可定制战术逻辑系统
+- [Qualify][策略]-UnicornOverlord-可定制战术逻辑系统
 
 ### Valorant
-- [FPS]-无畏契约-经济请求（发枪）系统
-- [Qualify]英雄技能系统
+- [Excellent]FPS-Valorant-英雄技能系统
+- [Qualify][FPS]-Valorant-经济请求发枪系统
 
 ### VAMPIR
 - AdrenalineBloodSuckSystem
@@ -1123,43 +1187,49 @@
 - BloodPoolResourceSystem
 
 ### Warcraft3
-- [Excellent]RTS-地图控制与野怪系统
+- [Excellent]RTS-Warcraft3-地图控制与野怪系统
+
+### Warframe
+- [Excellent][FPS]-Warframe-战甲技能系统
+- [Excellent]TPS-Warframe-武器MOD系统
+- [Qualify]刷宝射击-Warframe-战甲系统
 
 ### WinterFall
+- [Excellent][SLG]-WinterFall-联盟总动员
 - [SLG]-无尽冬日-探险副本与放置挂机
-- [SLG]-无尽冬日-联盟总动员
 
 ### WoJiaoMT
-- [Qualify]PetFusion
 - [Qualify]SummonGate
+- [Qualify][卡牌]-WoJiaoMT-宠物融合系统
 
 ### WorldOfWarcraft
 - [Excellent]DKP-TeamLootDistribution
-- [Excellent]GoldTeamAuction
-- [not_comfirmed]General-GuildWar
-- [Qualify]GKP-TeamLootDistribution
-- [Qualify]MountCollectionSystem
-- [Qualify]副本机制
-- [Qualify]天赋树系统
+- [Qualify]MMORPG-WorldOfWarcraft-GKP团队分配制度
+- [Qualify]MMORPG-WorldOfWarcraft-G团金团拍卖制度
+- [Qualify]MMORPG-WorldOfWarcraft-公会战竞技系统
+- [Qualify]MMORPG-WorldOfWarcraft-副本机制
+- [Qualify]MMORPG-WorldOfWarcraft-坐骑收集系统
+- [Qualify]MMORPG-WorldOfWarcraft-天赋树系统
+- [Qualify]MMORPG-WorldOfWarcraft-跨阵营公会系统
 
 ### WutheringWaves
-- [not_comfirmed]共鸣技能
+- [Qualify][RPG]-WutheringWaves-共鸣技能
+
+### Wuxia
+- [Qualify]MMORPG-Wuxia-身份系统
 
 ### xcom2
-- [Excellent]cover-flanking-system
-- [Excellent]rng-hit-system
+- [Excellent][策略]-XCOM2-掩体侧翼博弈系统
+- [Qualify]策略-XCOM2-极端RNG命中率系统
 
 ### Xenoblade3
-- JRPG-异度之刃3-职业精通与融合系统
+- [Qualify][JRPG]-Xenoblade3-职业精通与融合系统
 
 ### XutuZhizhan
 - [Qualify]ThreeSquads
 
 ### YuGiOhMasterDuel
-- [Qualify]连锁系统
-
-### Zelda
-- 开放世界-塞尔达传说-究极手UGC创造
+- [Qualify]策略卡牌-游戏王-连锁系统
 
 ### ZeldaBreathoftheWild
 - [Excellent][RPG]-ZeldaBreathoftheWild-120神庙系统
@@ -1169,12 +1239,15 @@
 - [Excellent][RPG]-ZeldaBreathoftheWild-武器耐久系统
 - [Qualify][RPG]-ZeldaBreathoftheWild-呀哈哈收集系统
 
+### ZeldaTearsoftheKingdom
+- [Qualify][RPG]-ZeldaTearsoftheKingdom-究极手UGC创造
+
 ### zenless-zone-zero
-- [Qualify]tv-battle-mode-system
+- [Qualify][街机]-ZenlessZoneZero-电视探索战斗双模式系统
 
 ### ZhangeArena
 
 ### ZhuXian
-- MMORPG-诛仙世界-车轮战机制
+- [Qualify][MMORPG]-ZhuXian-车轮战机制
 
 *本索引每天自动更新*
