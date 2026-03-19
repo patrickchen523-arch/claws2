@@ -2,10 +2,58 @@
 
 本文件定义机制知识库中每个游戏知识文件的标准格式。
 
+## 目录结构
+
+知识库按品类分文件夹存储：
+
+```
+knowledge/
+├── _index.md             # 全局机制索引（跨品类倒排索引，Phase 1.5 + V3 提问流使用）
+├── _template.md              # 本文件
+├── farming-sim/              # 农场经营
+│   ├── _summary.md           # 品类知识总结（每次新增游戏后更新）
+│   ├── stardew-valley.md
+│   └── ...
+├── life-sim/                 # 生活模拟
+├── city-builder/             # 城建
+├── automation/               # 自动化
+├── survival/                 # 生存
+├── match3/                   # 三消
+├── tycoon/                   # 主题经营
+├── extraction-shooter/       # 搜打撤
+└── [new-genre]/              # 新品类按需创建
+```
+
+### 全局索引 `_index.md`
+
+机制级倒排索引，按 5 个维度（痛点/体验/机制模式/约束/协同）索引所有 Mechanism Card。
+
+**用途**：
+- Phase 1.5 Step 1.5a：跨品类检索与当前游戏相关的机制卡
+- V3 提问流（预留）：根据用户描述推荐最匹配的机制卡
+
+**维护**：Phase 5 Step 5d 自动更新（新增机制卡时追加注册行+索引条目）
+
+## 品类文件夹命名规则
+
+使用英文小写 + 连字符，对应品类原型词典中的品类。新品类按需创建文件夹。
+
+| 文件夹名 | 品类中文 | 示例游戏 |
+|---------|---------|---------|
+| farming-sim | 农场经营 | Stardew Valley, Hay Day |
+| life-sim | 生活模拟 | Animal Crossing, Pokemon Pokopia |
+| city-builder | 城建 | Cities Skylines, SimCity |
+| automation | 自动化 | Factorio, Dyson Sphere |
+| survival | 生存 | Palworld |
+| match3 | 三消 | Homescapes |
+| tycoon | 主题经营 | Two Point Campus |
+| extraction-shooter | 搜打撤 | Marathon |
+
 ## 文件命名
 
-- 路径：`knowledge/[游戏名英文小写].md`
-- 示例：`knowledge/hades.md`、`knowledge/genshin-impact.md`、`knowledge/slay-the-spire.md`
+- 知识卡路径：`knowledge/[品类文件夹]/[游戏名英文小写].md`
+- 示例：`knowledge/farming-sim/stardew-valley.md`
+- 品类总结：`knowledge/[品类文件夹]/_summary.md`
 
 ## 文件结构
 
