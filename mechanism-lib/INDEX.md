@@ -1,6 +1,6 @@
 # 机制库索引
 
-> 最后更新：2026-03-21
+> 最后更新：2026-03-22
 
 ---
 
@@ -289,6 +289,7 @@
 | SkyChildrenOfTheLight | - | 3 |
 | SnowRunner | - | 0 |
 | SonsOfTheForest | - | 4 |
+| SoulAtStake | - | 4 |
 | SoulcaliburVI | - | 1 |
 | SpaceKillerClown | - | 0 |
 | SpaceMarine2 | - | 0 |
@@ -1081,6 +1082,12 @@
 
 ### SonsOfTheForest
 - [Qualify]模拟经营-SonsOfTheForest-自由模块化建筑系统
+
+### SoulAtStake
+- Excellent-endgame-free-item-refresh
+- Excellent-poker-buff-system
+- Qualify-aura-information-asymmetry
+- Qualify-demon-teleport-to-card-seat
 
 ### SoulcaliburVI
 - [Qualify]街机-SoulcaliburVI-武器系统
