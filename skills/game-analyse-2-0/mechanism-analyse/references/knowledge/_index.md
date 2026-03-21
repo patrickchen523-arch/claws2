@@ -1,7 +1,7 @@
 # 全局机制索引
 
-最后更新：2026-03-19
-机制卡总数：36 | 游戏数：14 | 品类数：4
+最后更新：2026-03-21
+机制卡总数：40 | 游戏数：15 | 品类数：5
 
 ---
 
@@ -80,6 +80,10 @@
 | M36 | 灵活队伍规模 | Marathon | FPS/搜打撤 | Qualify | 支持单/双/三人组队，最多6队18人 | mechanisms/Marathon/[Qualify]FPS-Marathon-灵活队伍规模.md |
 
 ---
+| M37 | 扑克牌BUFF组合系统 | SoulAtStake | 非对称对抗 | Excellent | 封印牌座收集扑克牌，达成特定牌型触发全局BUFF | mechanisms/SoulAtStake/Excellent-poker-buff-system.md |
+| M38 | 残局免费道具刷新 | SoulAtStake | 非对称对抗 | Excellent | 1v1残局时商店免费道具刷新，给弱势方翻盘机会 | mechanisms/SoulAtStake/Excellent-endgame-free-item-refresh.md |
+| M39 | 恶灵传送到牌座 | SoulAtStake | 非对称对抗 | Qualify | 恶灵可传送到已开启牌座，以逸待劳截断赌徒路线 | mechanisms/SoulAtStake/Qualify-demon-teleport-to-card-seat.md |
+| M40 | 气场信息不对称 | SoulAtStake | 非对称对抗 | Qualify | 恶灵可见赌徒方向但不能精确定位，赌徒看不到恶灵 | mechanisms/SoulAtStake/Qualify-aura-information-asymmetry.md |
 
 ## 2) 倒排索引
 
@@ -136,6 +140,7 @@
 - M23 市民生命周期模拟(CitiesSkylines2) — 市民有真实生命周期
 
 ---
+雪崩问题（资源差距导致无力感） | M38 残局免费道具刷新(SoulAtStake)
 
 ### 2.2 按体验（"我想让玩家感到……"）
 
@@ -181,6 +186,8 @@
 - M14 帕鲁骑乘战斗技能(Palworld)
 
 ---
+惊喜感 | M37 扑克牌BUFF组合系统(SoulAtStake)
+紧张感 | M37 扑克牌BUFF组合系统(SoulAtStake) · M38 残局免费道具刷新(SoulAtStake)
 
 ### 2.3 按机制模式（"有没有类似XX的做法"）
 
@@ -241,6 +248,7 @@
 - M15 同类合并升星系统(Palworld) — 重复捕获=指数收益
 
 ---
+BUFF触发机制（完成目标→触发额外效果） | M37 扑克牌BUFF组合系统(SoulAtStake)
 
 ### 2.4 约束筛选（按条件缩小范围）
 
@@ -299,6 +307,7 @@
 - M22×M23 模块化×市民生命周期(CitiesSkylines2) — 需求增长×扩容方案
 
 ---
+保险丝关系（核心目标+意外奖励） | M37 扑克牌BUFF组合系统(SoulAtStake)
 
 ## 3) 跨品类桥梁
 
