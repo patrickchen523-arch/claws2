@@ -1205,3 +1205,35 @@ Strikingly 平台建议直接用浏览器自动化处理，或换用其他无弹
 **唯一有效方案**：browser 工具自动化点击 Cookie 按钮（focus → snapshot → act:click）
 
 **经验**：Strikingly 平台建议直接用浏览器自动化处理，或换用其他无弹窗的数据源。
+
+---
+
+## 2026-03-23 小易迭代 - 多Agent架构
+
+### 架构设计
+俊亦希望小易从单一助手变成多Agent协作架构，提升专业度和效率。
+
+### Agent 角色
+| Agent | ID | 职责 |
+|-------|-----|------|
+| Commander | main | 分析需求、制定计划、分配任务、汇总结果 |
+| Explorer | explorer | 外部搜索（并行） |
+| Librarian | librarian | 本地精准查找 |
+| Doer | doer | 执行+自我纠错 |
+
+### 协作流程
+1. Commander 接收需求，分析复杂度
+2. 列出 TODO（分 Wave）
+3. 派发给 Explorer（外部）和 Librarian（本地）并行收集信息
+4. Commander 汇总，决定执行方案
+5. 派发给 Doer 执行
+6. Doer 遇到问题先分析再纠错，10分钟/20次上限
+
+### 危险操作判断
+- 危险：配置文件、SOUL.md、auth-profiles.json、系统命令
+- 安全：工作区文件、读取操作、常用工具
+- 快速通道：路径检查 → 工作区内直接执行
+
+### 文档位置
+- 架构详细文档：`/root/.openclaw/workspace/MULTI_AGENT.md`
+- 各 Agent SOUL.md：`/root/.openclaw/agents/{agent-id}/agent/SOUL.md`
