@@ -1237,3 +1237,38 @@ Strikingly 平台建议直接用浏览器自动化处理，或换用其他无弹
 ### 文档位置
 - 架构详细文档：`/root/.openclaw/workspace/MULTI_AGENT.md`
 - 各 Agent SOUL.md：`/root/.openclaw/agents/{agent-id}/agent/SOUL.md`
+
+---
+
+## 2026-03-23（下午）- gstack 借鉴
+
+### gstack Skills 集成
+俊亦让我参考 garrytan/gstack 的工作流，下载并集成到小易的 skills 中。
+
+**已完成：**
+- ✅ gstack skills 已复制到 `/root/.openclaw/workspace/skills/`
+- ✅ 梳理了各 Agent 可调用的 skills 清单
+- ✅ 更新了 MULTI_AGENT.md
+
+**gstack skills 清单：**
+| 类别 | Skills |
+|------|--------|
+| 规划 | office-hours, plan-ceo-review, plan-eng-review, plan-design-review, autoplan |
+| 评审 | review, design-review, design-consultation, investigate |
+| 执行 | qa, qa-only, ship, document-release, land-and-deploy |
+| 保护 | careful, freeze, guard, unfreeze |
+| 工具 | browse, setup-browser-cookies, setup-deploy, gstack-upgrade |
+| 辅助 | retro, benchmark, codex, cso, canary |
+
+**各 Agent 可用 Skills：**
+- Commander: office-hours, plan-*, investigate, autoplan
+- Explorer: review, browse, web_search, MCP
+- Librarian: review, investigate
+- Doer: review, careful, freeze, guard, ship, qa, design-review, document-release
+
+**待完成（gstack 借鉴）：**
+1. ⬜ Preamble 统一返回格式
+2. ⬜ Completeness 原则写进 Doer
+3. ⬜ AskUserQuestion 派发格式
+4. ⬜ TODO 格式优化（增加任务ID、状态追踪）
+5. ⬜ 版本检查机制

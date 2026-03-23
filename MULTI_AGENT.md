@@ -2,6 +2,7 @@
 
 > 记录日期：2026-03-23
 > 状态：使用中，持续迭代
+> gstack skills 已集成（2026-03-23）
 
 ---
 
@@ -63,6 +64,55 @@
 
 ---
 
+## 可用 Skills（gstack 集成）
+
+### Commander 可调用
+| Skill | 用途 |
+|-------|------|
+| `/office-hours` | 想法梳理、可行性分析 |
+| `/plan-ceo-review` | CEO级评审，找10星产品 |
+| `/plan-eng-review` | 架构、数据流、测试评审 |
+| `/plan-design-review` | 设计评分（0-10维度） |
+| `/investigate` | 调查分析 |
+| `/autoplan` | 自动规划 |
+
+### Explorer 可调用
+| Skill | 用途 |
+|-------|------|
+| `/review` | 代码评审 |
+| `/browse` | 浏览器操作 |
+| `web_search` | 搜索引擎 |
+| MCP tools | MiniMax 图片理解 |
+
+### Librarian 可调用
+| Skill | 用途 |
+|-------|------|
+| `/review` | 代码评审 |
+| `/investigate` | 调查分析 |
+
+### Doer 可调用
+| Skill | 用途 |
+|-------|------|
+| `/review` | 代码评审 |
+| `/careful` | 危险操作警告 |
+| `/freeze` | 锁定目录 |
+| `/guard` | 激活 careful + freeze |
+| `/unfreeze` | 解锁目录 |
+| `/ship` | 测试、发布 |
+| `/investigate` | 调试分析 |
+| `/design-review` | 设计评审 |
+| `/qa` | QA测试 |
+| `/qa-only` | QA仅报告 |
+| `/document-release` | 文档更新 |
+
+### 所有 Agent 可用
+| Skill | 用途 |
+|-------|------|
+| `/gstack-upgrade` | 更新 gstack |
+| `/retro` | 复盘 |
+
+---
+
 ## 危险操作判断
 
 ### 🚨 危险操作（拦截 → 问用户）
@@ -111,24 +161,38 @@ Doer 收到任务
 
 ```
 【TODO】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+生成时间: [YYYY-MM-DD HH:mm:ss]
+总Wave数: [X]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 □ Wave 1（并行）
-  1. [ ] Librarian：查找 XX 文件中的 XX 函数
-  2. [ ] Explorer：搜索 XX 相关外部资料
+  1. [ ] T001 | Librarian | 查找 XX 文件中的 XX 函数
+  2. [ ] T002 | Explorer  | 搜索 XX 相关外部资料
   
 □ Wave 2（等 Wave 1 完成）
-  3. [ ] Doer：修改 XX 文件
-  4. [ ] Doer：配置 XX
+  3. [ ] T003 | Doer | 修改 XX 文件
+  4. [ ] T004 | Doer | 配置 XX
 
 □ 等待用户确认后继续...
 □ Wave 3（等用户确认）
-  ...
+  5. [ ] T005 | Doer | 部署并验证
 ```
 
 ### 状态标注
 
-- `[√]` 已完成
-- `[•]` 进行中
 - `[ ]` 未开始
+- `[•]` 进行中
+- `[√]` 已完成
+- `[!]` 需升级/有问题
+
+### 追踪字段
+
+每个任务包含：
+- **任务ID**: T001, T002...（唯一标识）
+- **执行者**: Librarian / Explorer / Doer
+- **状态**: 未开始 / 进行中 / 完成 / 需升级
+- **依赖**: 依赖哪个 Wave（如有）
 
 ---
 
@@ -177,24 +241,15 @@ Doer 收到任务
 - Librarian: `/root/.openclaw/agents/librarian/agent/SOUL.md`
 - Doer: `/root/.openclaw/agents/doer/agent/SOUL.md`
 
-### MCP 配置
-- 配置文件: `/root/.openclaw/workspace/config/mcporter.json`
-- MiniMax MCP 服务器已配置
+### Skills 目录
+- 路径: `/root/.openclaw/workspace/skills/`
+- gstack skills 已集成
 
 ---
 
-## Agent SOUL.md 位置
+## 常用命令
 
-| Agent | 路径 |
-|-------|------|
-| Commander | `/root/.openclaw/agents/main/agent/SOUL.md` |
-| Explorer | `/root/.openclaw/agents/explorer/agent/SOUL.md` |
-| Librarian | `/root/.openclaw/agents/librarian/agent/SOUL.md` |
-| Doer | `/root/.openclaw/agents/doer/agent/SOUL.md` |
-
-## 派发指令格式
-
-### 派发给 Explorer
+### 派发任务给 Explorer
 ```
 派发任务给 Explorer：
 任务：[具体描述]
@@ -202,7 +257,7 @@ Doer 收到任务
 关键词：[搜索关键词]
 ```
 
-### 派发给 Librarian
+### 派发任务给 Librarian
 ```
 派发任务给 Librarian：
 任务：[查找什么]
@@ -210,7 +265,7 @@ Doer 收到任务
 关键词：[搜索关键词]
 ```
 
-### 派发给 Doer
+### 派发任务给 Doer
 ```
 派发任务给 Doer：
 任务：[具体执行内容]
@@ -233,3 +288,8 @@ Doer 收到任务
 - Explorer 超时处理：第一次超时重试，第二次标记缺失
 - 数据来源标注：具体数字必须标注来源
 - 汇报数据完整性：说明哪些完整、哪些缺失
+
+**gstack 集成（2026-03-23）：**
+- ✅ gstack skills 已安装到 `/root/.openclaw/workspace/skills/`
+- ✅ 各 Agent 可调用的 skills 已梳理
+- 待完成：Preamble 格式、Completeness 原则

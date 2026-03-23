@@ -52,3 +52,15 @@ Add whatever helps you do your job. This is your cheat sheet.
 `/root/.openclaw/agents/jizhi/workspace/mechanisms/`
 
 **注意**：不要写到 `/root/.openclaw/workspace/mechanism-lib/`（错误的旧路径，已删除）
+
+## 搜索工具优先级
+
+**默认搜索工具：MiniMax MCP web_search**
+- 工具：`mcporter call minimax.web_search query="..."`
+- 优势：Brave Search API 每日配额仅 2000 次，MiniMax MCP 无已知限额
+- 使用场景：所有需要实时信息的搜索任务（游戏数据、新闻、排行榜等）
+- 命令：`mcporter call minimax.web_search query="搜索关键词"`
+
+**降级方案**：
+- 若 MiniMax MCP 不可用，使用 `web_search` 工具（Brave Search，有 2000次/日限额）
+- 若需抓取网页内容，使用 `web_fetch` + Jina Reader（`https://r.jina.ai/<URL>`）
