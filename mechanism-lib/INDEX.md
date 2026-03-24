@@ -1,6 +1,6 @@
 # 机制库索引
 
-> 最后更新：2026-03-24
+> 最后更新：2026-03-25
 
 ---
 
@@ -1054,6 +1054,12 @@
 - [策略]-SanGuoZhanLue-自由行军与碰撞交战
 
 ### Satisfactory
+
+### scritchy-scratchy-risk-cards
+- scritchy-scratchy-risk-cards
+
+### scritchy-scratchy-scratch-bot
+- scritchy-scratchy-scratch-bot
 
 ### SeaOfThieves
 - [Excellent]开放世界-SeaOfThieves-团队协作驾驶系统
