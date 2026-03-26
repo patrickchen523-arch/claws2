@@ -1332,6 +1332,18 @@ Strikingly 平台建议直接用浏览器自动化处理，或换用其他无弹
 
 ---
 
+## 技术踩坑（持续更新）
+
+### Sub-agent 并行限流（2026-03-25）
+
+**问题**：MiniMax MCP API 并发较高时容易触发 429 限流
+
+**经验**：Sub-agent 并行数控制在 2 个以内，避免 API 限流
+
+**建议**：Sub-agent 搜索结果通过 session_history 获取，避免重复搜索
+
+---
+
 ## 新入库游戏（2026-03-25）
 
 ### 代号Space (DaohaoSpace)
@@ -1357,12 +1369,32 @@ Strikingly 平台建议直接用浏览器自动化处理，或换用其他无弹
 
 ---
 
-## 技术踩坑（持续更新）
+### Scritchy Scratchy (刮个爽) - 2026-03-24
 
-### Sub-agent 并行限流（2026-03-25）
+**X-Statement**：刮刮乐彩票题材放置增量游戏，玩家购买成叠刮刮乐彩票，刮开获得奖励，逐步解锁自动刮奖机器人（Scratch Bot）和"梭哈"式高风险高回报卡牌，在风险与稳定的博弈中冲击巨额头奖，通过Prestige积累Jack Points解锁永久升级。
 
-**问题**：MiniMax MCP API 并发较高时容易触发 429 限流
+**核心支柱**：
+1. 刮刮乐模拟的解压爽感
+2. 风险/回报梯度博弈（梭哈 vs 稳定）
+3. 渐进式自动化解锁（Scratch Bot）
+4. Prestige-永久升级循环
 
-**经验**：Sub-agent 并行数控制在 2 个以内，避免 API 限流
+**入库机制**：
+- 高风险卡牌博弈机制（高回报+惩罚设计）
+- Scratch Bot 自动化解锁机制
 
-**建议**：Sub-agent 搜索结果通过 session_history 获取，避免重复搜索
+**基础信息**：
+- 开发商：Funday Games（丹麦）
+- 品类：放置增量 / 刮刮乐彩票
+- 平台：Steam（PC）
+- 发行日期：2026-03-18
+
+---
+
+### workspace 路径整理（2026-03-25）
+
+**完成**：workspace 下各目录与 mechanism-lib-2-0 建立软链接
+- `reports/daohao-space/` → 软链接
+- `games/DaohaoSpace.md` → 软链接
+- `mechanisms/DaohaoSpace/` → 软链接
+- `gameplays/DaohaoSpace/` → 软链接
