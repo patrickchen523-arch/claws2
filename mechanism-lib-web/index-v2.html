@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jizhi Design Library</title>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --bg-base:      #0D0D14;
+      --bg-surface:   #141420;
+      --bg-elevated:  #1C1C2E;
+      --bg-hover:     #252540;
+      --primary:       #7C3AED;
+      --primary-light: #A78BFA;
+      --accent:        #F59E0B;
+      --qualify:       #06B6D4;
+      --text-primary:  #F1F5F9;
+      --text-secondary:#94A3B8;
+      --text-muted:    #475569;
+      --border:        #2D2D44;
+      --border-hover:  #3D3D5C;
+      --radius-sm: 6px;
+      --radius:    12px;
+      --radius-lg: 16px;
+      --ease: cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    body {
+      font-family: "PingFang SC", "Microsoft YaHei", "Inter", -apple-system, sans-serif;
+      background: var(--bg-base);
+      color: var(--text-primary);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    /* HEADER */
+    header { position: sticky; top: 0; z-index: 100; background: var(--bg-surface); border-bottom: 1px solid var(--border); }
+    .header-inner { max-width: 1400px; margin: 0 auto; height: 64px; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; flex-shrink: 0; }
+    .logo-icon { width: 30px; height: 30px; background: var(--primary); border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 14px; font-weight: 700; color: white; font-style: italic; }
+    .logo-text { font-size: 18px; font-weight: 700; letter-spacing: -0.5px; }
+    .logo-text span { color: var(--primary-light); }
+    /* TABS */
+    .tabs { display: flex; gap: 4px; background: var(--bg-base); border-radius: var(--radius); padding: 4px; }
+    .tab { padding: 6px 16px; border: none; background: transparent; color: var(--text-secondary); font-size: 13px; font-weight: 500; cursor: pointer; border-radius: var(--radius-sm); transition: all 150ms var(--ease); display: flex; align-items: center; gap: 6px; white-space: nowrap; }
+    .tab:hover { color: var(--text-primary); background: var(--bg-hover); }
+    .tab.active { background: var(--primary); color: white; }
+    .tab-count { font-size: 11px; background: rgba(255,255,255,0.15); padding: 1px 6px; border-radius: 10px; font-weight: 600; }
+    .tab.active .tab-count { background: rgba(255,255,255,0.25); }
+    /* STATS */
+    .stats { display: flex; gap: 12px; align-items: center; flex-shrink: 0; }
+    .stat-badge { font-size: 12px; color: var(--text-secondary); display: flex; align-items: center; gap: 4px; }
+    .stat-badge strong { color: var(--text-primary); font-weight: 600; }
+    /* TOOLBAR */
+    .toolbar { max-width: 1400px; margin: 0 auto; padding: 16px 24px; display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+    .search-wrap { position: relative; flex: 1; min-width: 200px; }
+    .search-icon { position: absolute; left: 12px; top: 50%; transform: translateY(-50%); color: var(--text-muted); pointer-events: none; font-size: 14px; }
+    .search-input { width: 100%; background: var(--bg-surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 9px 36px 9px 36px; font-size: 14px; color: var(--text-primary); outline: none; transition: border-color 150ms; }
+    .search-input::placeholder { color: var(--text-muted); }
+    .search-input:focus { border-color: var(--primary); }
+    .search-clear { position: absolute; right: 10px; top: 50%; transform: translateY(-50%); background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 13px; padding: 4px; display: none; line-height: 1; }
+    .search-clear.visible { display: block; }
+    .search-clear:hover { color: var(--text-primary); }
+    .filter-select { background: var(--bg-surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 9px 32px 9px 12px; font-size: 13px; color: var(--text-primary); cursor: pointer; outline: none; appearance: none; -webkit-appearance: none; transition: border-color 150ms; min-width: 120px; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2394A3B8' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 10px center; }
+    .filter-select:focus { border-color: var(--primary); }
+    .filter-select option { background: var(--bg-elevated); }
+    .filter-select.hidden { display: none; }
+    /* MAIN */
+    main { max-width: 1400px; margin: 0 auto; padding: 0 24px 48px; }
+    .card-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+    @media (max-width: 1200px) { .card-grid { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 900px)  { .card-grid { grid-template-columns: repeat(2, 1fr); } }
+    @media (max-width: 580px)  { .card-grid { grid-template-columns: 1fr; } }
+    /* CARDS */
+    .card { background: var(--bg-surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; cursor: pointer; transition: border-color 150ms var(--ease), transform 150ms var(--ease), box-shadow 150ms var(--ease); display: flex; flex-direction: column; gap: 8px; position: relative; overflow: hidden; outline: none; }
+    .card:hover, .card:focus-visible { border-color: var(--primary); transform: translateY(-2px); box-shadow: 0 0 0 1px var(--primary), 0 4px 20px rgba(124,58,237,0.15); }
+    .card-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+    .badge { font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: 4px; flex-shrink: 0; font-family: "JetBrains Mono", monospace; letter-spacing: 0.5px; }
+    .badge-excellent { background: rgba(245,158,11,0.15); color: var(--accent); border: 1px solid rgba(245,158,11,0.3); }
+    .badge-qualify   { background: rgba(6,182,212,0.15); color: var(--qualify); border: 1px solid rgba(6,182,212,0.3); }
+    .badge-genre     { background: rgba(124,58,237,0.15); color: var(--primary-light); border: 1px solid rgba(124,58,237,0.3); }
+    .badge-playtype  { background: rgba(255,255,255,0.05); color: var(--text-secondary); border: 1px solid var(--border); }
+    .card-title { font-size: 14px; font-weight: 600; color: var(--text-primary); line-height: 1.4; }
+    .card-sub { font-size: 12px; color: var(--text-muted); }
+    .card-desc { font-size: 12px; color: var(--text-secondary); line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; flex: 1; }
+    .card-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+    .tag { font-size: 10px; color: var(--text-muted); background: rgba(255,255,255,0.04); border: 1px solid var(--border); padding: 2px 7px; border-radius: 4px; cursor: pointer; transition: all 150ms; white-space: nowrap; }
+    .tag:hover { background: rgba(124,58,237,0.15); border-color: rgba(124,58,237,0.4); color: var(--primary-light); }
+    /* MODAL */
+    .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.75); backdrop-filter: blur(4px); z-index: 1000; display: flex; align-items: center; justify-content: center; padding: 24px; opacity: 0; pointer-events: none; transition: opacity 250ms var(--ease); }
+    .modal-overlay.open { opacity: 1; pointer-events: all; }
+    .modal { background: var(--bg-elevated); border: 1px solid var(--border); border-radius: var(--radius-lg); width: 100%; max-width: 960px; max-height: 85vh; display: flex; flex-direction: column; overflow: hidden; transform: translateY(16px); transition: transform 250ms var(--ease); }
+    .modal-overlay.open .modal { transform: translateY(0); }
+    .modal-header { display: flex; align-items: flex-start; justify-content: space-between; padding: 20px 24px; border-bottom: 1px solid var(--border); gap: 16px; flex-shrink: 0; }
+    .modal-title-wrap { flex: 1; min-width: 0; }
+    .modal-title { font-size: 18px; font-weight: 700; color: var(--text-primary); line-height: 1.3; margin-bottom: 8px; }
+    .modal-meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .modal-close { background: none; border: 1px solid var(--border); border-radius: var(--radius-sm); color: var(--text-secondary); width: 32px; height: 32px; cursor: pointer; font-size: 14px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: all 150ms; }
+    .modal-close:hover { background: var(--bg-hover); color: var(--text-primary); border-color: var(--border-hover); }
+    .modal-body { display: flex; flex: 1; overflow: hidden; }
+    .modal-sidebar { width: 200px; flex-shrink: 0; border-right: 1px solid var(--border); padding: 20px 16px; overflow-y: auto; display: flex; flex-direction: column; gap: 20px; }
+    .modal-sidebar-label { font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px; color: var(--text-muted); margin-bottom: 6px; }
+    .modal-sidebar-section { display: flex; flex-direction: column; }
+    .modal-sidebar-value { font-size: 12px; color: var(--text-secondary); line-height: 1.5; }
+    .modal-sidebar-tags { display: flex; flex-wrap: wrap; gap: 4px; }
+    .modal-content { flex: 1; overflow-y: auto; padding: 20px 24px; display: flex; flex-direction: column; gap: 20px; }
+    .modal-section-title { font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px; color: var(--text-muted); margin-bottom: 8px; }
+    .modal-text { font-size: 13px; color: var(--text-secondary); line-height: 1.75; }
+    .modal-section { display: flex; flex-direction: column; }
+    .modal-nav-link { color: var(--primary-light); font-size: 12px; cursor: pointer; text-decoration: underline; text-decoration-color: rgba(167,139,250,0.3); transition: text-decoration-color 150ms; margin-right: 8px; }
+    .modal-nav-link:hover { text-decoration-color: var(--primary-light); }
+    .modal-tags-row { display: flex; flex-wrap: wrap; gap: 6px; }
+    .modal-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+    .modal-table th { text-align: left; color: var(--text-muted); font-weight: 600; padding: 6px 10px; background: rgba(255,255,255,0.03); border-bottom: 1px solid var(--border); }
+    .modal-table td { padding: 8px 10px; color: var(--text-secondary); border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.5; }
+    .modal-table tr:last-child td { border-bottom: none; }
+    .check-yes { color: #22C55E; } .check-no { color: #EF4444; }
+    /* EMPTY */
+    .empty-state { grid-column: 1 / -1; text-align: center; padding: 80px 24px; }
+    .empty-icon { font-size: 48px; margin-bottom: 16px; opacity: 0.3; }
+    .empty-title { font-size: 16px; font-weight: 600; color: var(--text-secondary); margin-bottom: 8px; }
+    .empty-desc { font-size: 13px; color: var(--text-muted); }
+    /* SKELETON */
+    .loading-grid { grid-column: 1 / -1; display: grid; grid-template-columns: repeat(4,1fr); gap: 16px; }
+    @media (max-width: 1200px) { .loading-grid { grid-template-columns: repeat(3,1fr); } }
+    @media (max-width: 900px)  { .loading-grid { grid-template-columns: repeat(2,1fr); } }
+    .skeleton { background: var(--bg-surface); border: 1px solid var(--border); border-radius: var(--radius); height: 180px; animation: pulse 1.5s ease-in-out infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.5} }
+    /* SCROLLBAR */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--border-hover); }
+    /* FADE IN */
+    @keyframes fadeIn { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:translateY(0)} }
+    .card { animation: fadeIn 300ms var(--ease) both; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a class="logo" href="#">
+      <div class="logo-icon">J</div>
+      <div class="logo-text">jizhi<span>.</span>lib</div>
+    </a>
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-tab="games" role="tab" aria-selected="true">游戏 <span class="tab-count" id="tab-games-count">—</span></button>
+      <button class="tab" data-tab="mechanisms" role="tab" aria-selected="false">机制 <span class="tab-count" id="tab-mechanisms-count">—</span></button>
+      <button class="tab" data-tab="gameplays" role="tab" aria-selected="false">玩法 <span class="tab-count" id="tab-gameplays-count">—</span></button>
+    </div>
+    <div class="stats">
+      <span class="stat-badge">游戏 <strong id="stat-games">—</strong></span>
+      <span class="stat-badge">机制 <strong id="stat-mechanisms">—</strong></span>
+      <span class="stat-badge">玩法 <strong id="stat-gameplays">—</strong></span>
+    </div>
+  </div>
+</header>
+
+<div class="toolbar">
+  <div class="search-wrap">
+    <span class="search-icon">⌕</span>
+    <input class="search-input" id="searchInput" type="search" placeholder="搜索游戏、机制、玩法、标签……" autocomplete="off" spellcheck="false">
+    <button class="search-clear" id="searchClear" aria-label="清除搜索">✕</button>
+  </div>
+  <select class="filter-select hidden" id="filterPrefix">
+    <option value="">全部评级</option>
+    <option value="Excellent">Excellent</option>
+    <option value="Qualify">Qualify</option>
+  </select>
+  <select class="filter-select" id="filterGenre">
+    <option value="">全部品类</option>
+  </select>
+  <select class="filter-select" id="sortSelect">
+    <option value="default">默认排序</option>
+    <option value="prefix">评级排序</option>
+    <option value="alpha">字母排序</option>
+  </select>
+</div>
+
+<main>
+  <div class="card-grid" id="cardGrid">
+    <div class="loading-grid" id="loadingGrid">
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+      <div class="skeleton"></div>
+    </div>
+  </div>
+</main>
+
+<div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true">
+  <div class="modal" id="modal">
+    <div class="modal-header">
+      <div class="modal-title-wrap">
+        <div class="modal-title" id="modalTitle">—</div>
+        <div class="modal-meta" id="modalMeta"></div>
+      </div>
+      <button class="modal-close" id="modalClose" aria-label="关闭">✕</button>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<script>
+const DATA_URL = 'data.json';
+let DATA = { games: {}, mechanisms: {}, gameplays: {} };
+
+async function init() {
+  try {
+    const r = await fetch(DATA_URL);
+    if (!r.ok) throw new Error();
+    DATA = await r.json();
+  } catch {
+    document.getElementById('loadingGrid').innerHTML = '<div class="empty-state"><div class="empty-icon">⚠</div><div class="empty-title">数据加载失败</div><div class="empty-desc">请先运行 <code>node generate-data-v2.js</code> 生成 data.json</div></div>';
+    return;
+  }
+  buildGenreFilter();
+  updateStats();
+  renderCards();
+  setupEvents();
+}
+
+function updateStats() {
+  const mg = DATA.stats?.mechanismCount ?? Object.keys(DATA.mechanisms).length;
+  const gg = DATA.stats?.gameCount ?? Object.keys(DATA.games).length;
+  const gp = DATA.stats?.gameplayCount ?? Object.keys(DATA.gameplays).length;
+  const s = (id,v) => document.getElementById(id).textContent = v;
+  s('stat-games',gg); s('stat-mechanisms',mg); s('stat-gameplays',gp);
+  s('tab-games-count',gg); s('tab-mechanisms-count',mg); s('tab-gameplays-count',gp);
+}
+
+function buildGenreFilter() {
+  const genres = new Set();
+  Object.values(DATA.games).forEach(g => { if(g.genre) genres.add(g.genre.trim()); (g.tags||[]).forEach(t=>genres.add(t)); });
+  Object.values(DATA.mechanisms).forEach(m => { (m.tags||[]).forEach(t=>genres.add(t)); });
+  const sel = document.getElementById('filterGenre');
+  [...genres].sort((a,b)=>a.localeCompare(b,'zh')).forEach(g => {
+    const o = document.createElement('option'); o.value = g; o.textContent = g; sel.appendChild(o);
+  });
+}
+
+function esc(s) { if(!s) return ''; return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+function getFiltered() {
+  const q = document.getElementById('searchInput').value.toLowerCase().trim();
+  const terms = q ? q.split(/\s+/) : [];
+  const items = DATA[currentTab];
+  const prefix = document.getElementById('filterPrefix').value;
+  const genre = document.getElementById('filterGenre').value;
+  const sort = document.getElementById('sortSelect').value;
+  let result = Object.entries(items).filter(([k,item]) => {
+    if (terms.length) {
+      const hay = [item.title, item.game||'', item.englishName||'', item.oneLiner||'', item.mechanismDesc||'', item.coreLoop||'', item.xStatement||'', (item.tags||[]).join(' ')].join(' ').toLowerCase();
+      if (!terms.every(t=>hay.includes(t))) return false;
+    }
+    if (currentTab==='mechanisms' && prefix && item.prefix !== prefix) return false;
+    if (genre) {
+      const match = (item.tags||[]).includes(genre) || item.genre===genre || (item.game&&item.game.toLowerCase().includes(genre.toLowerCase()));
+      if (!match) return false;
+    }
+    return true;
+  });
+  if (sort==='prefix') result.sort((a,b)=>(a[1].prefix==='Excellent'?0:1)-(b[1].prefix==='Excellent'?0:1)||a[0].localeCompare(b[0]));
+  else if (sort==='alpha') result.sort((a,b)=>(a[1].title||'').localeCompare(b[1].title||'','zh'));
+  return result;
+}
+
+function renderCards() {
+  const grid = document.getElementById('cardGrid');
+  const all = getFiltered();
+  if (!all.length) {
+    grid.innerHTML = '<div class="empty-state"><div class="empty-icon">🔍</div><div class="empty-title">没有找到匹配的条目</div><div class="empty-desc">尝试调整搜索词或过滤器</div></div>';
+    return;
+  }
+  grid.innerHTML = all.map(([k,item],i)=>{
+    if (currentTab==='mechanisms') return renderMech(k,item,i);
+    if (currentTab==='games')     return renderGame(k,item,i);
+    return renderPlay(k,item,i);
+  }).join('');
+  document.getElementById(`tab-${currentTab}-count`).textContent = all.length;
+}
+
+function renderMech(k,item,i) {
+  const badge = item.prefix==='Excellent' ? '<span class="badge badge-excellent">E</span>' : item.prefix==='Qualify' ? '<span class="badge badge-qualify">Q</span>' : '';
+  const tags = (item.tags||[]).slice(0,4).map(t=>`<span class="tag" data-tag="${esc(t)}">${esc(t)}</span>`).join('');
+  const sub = item.game ? '来自 '+esc(item.game) : '';
+  const desc = item.oneLiner || item.mechanismDesc || '';
+  return `<div class="card" data-key="${esc(k)}" data-tab="mechanisms" style="animation-delay:${i*25}ms" tabindex="0" role="button" aria-label="${esc(item.title||k)}">
+    <div class="card-header">${badge}</div>
+    <div class="card-title">${esc(item.title||k)}</div>
+    ${sub?'<div class="card-sub">'+sub+'</div>':''}
+    <div class="card-desc">${esc(desc.slice(0,160))}</div>
+    ${tags?'<div class="card-tags">'+tags+'</div>':''}
+  </div>`;
+}
+
+function renderGame(k,item,i) {
+  const genre = item.genre || item.tags?.[0] || '';
+  const badge = genre ? `<span class="badge badge-genre">${esc(genre.slice(0,14))}</span>` : '';
+  const ename = item.englishName ? '<div class="card-sub">'+esc(item.englishName)+'</div>' : '';
+  const desc = item.xStatement || item.corePillars || '';
+  const tags = (item.tags||[]).slice(0,4).map(t=>`<span class="tag" data-tag="${esc(t)}">${esc(t)}</span>`).join('');
+  return `<div class="card" data-key="${esc(k)}" data-tab="games" style="animation-delay:${i*25}ms" tabindex="0" role="button" aria-label="${esc(item.title||k)}">
+    <div class="card-header">${badge}</div>
+    <div class="card-title">${esc(item.title||k)}</div>
+    ${ename}
+    <div class="card-desc">${esc(desc.slice(0,160))}</div>
+    ${tags?'<div class="card-tags">'+tags+'</div>':''}
+  </div>`;
+}
+
+function renderPlay(k,item,i) {
+  const type = item.type || item.pvpType || '';
+  const badge = type ? `<span class="badge badge-playtype">${esc(type.slice(0,10))}</span>` : '';
+  const sub = item.game ? '所属 '+esc(item.game) : '';
+  const desc = item.coreLoop || '';
+  const tags = (item.tags||[]).slice(0,4).map(t=>`<span class="tag" data-tag="${esc(t)}">${esc(t)}</span>`).join('');
+  return `<div class="card" data-key="${esc(k)}" data-tab="gameplays" style="animation-delay:${i*25}ms" tabindex="0" role="button" aria-label="${esc(item.title||k)}">
+    <div class="card-header">${badge}</div>
+    <div class="card-title">${esc(item.title||k)}</div>
+    ${sub?'<div class="card-sub">'+sub+'</div>':''}
+    <div class="card-desc">${esc(desc.slice(0,160))}</div>
+    ${tags?'<div class="card-tags">'+tags+'</div>':''}
+  </div>`;
+}
+
+function openModal(key) {
+  const item = DATA[currentTab][key];
+  if (!item) return;
+  document.getElementById('modalTitle').textContent = item.title || key;
+  let metaHtml = '';
+  if (item.prefix) metaHtml += `<span class="badge ${item.prefix==='Excellent'?'badge-excellent':'badge-qualify'}">${item.prefix}</span> `;
+  if (item.genre) metaHtml += `<span class="badge badge-genre">${esc(item.genre)}</span> `;
+  if (item.game) metaHtml += `<span style="font-size:12px;color:var(--text-muted)">来自 ${esc(item.game)}</span>`;
+  document.getElementById('modalMeta').innerHTML = metaHtml;
+  const body = document.getElementById('modalBody');
+  if (currentTab==='mechanisms') body.innerHTML = buildMechBody(key, item);
+  else if (currentTab==='games') body.innerHTML = buildGameBody(key, item);
+  else body.innerHTML = buildPlayBody(key, item);
+  document.getElementById('modalOverlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('modalOverlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function buildMechBody(k,item) {
+  const tags = (item.tags||[]).map(t=>`<span class="tag" data-tag="${esc(t)}">${esc(t)}</span>`).join('');
+  let h = `<div class="modal-sidebar">
+    <div class="modal-sidebar-section"><div class="modal-sidebar-label">评级</div><div class="modal-sidebar-value">${item.prefix||'—'}</div></div>
+    <div class="modal-sidebar-section"><div class="modal-sidebar-label">来源游戏</div><div class="modal-sidebar-value">${esc(item.game||'—')}</div></div>
+    <div class="modal-sidebar-section"><div class="modal-sidebar-label">标签</div><div class="modal-sidebar-tags">${tags||'—'}</div></div>
+    <div class="modal-sidebar-section"><div class="modal-sidebar-label">分析日期</div><div class="modal-sidebar-value">${esc(item.date||'—')}</div></div>
+  </div><div class="modal-content">`;
+  const add = (lbl,val) => val ? `<div class="modal-section"><div class="modal-section-title">${lbl}</div><div class="modal-text">${esc(val)}</div></div>` : '';
+  h += add('通俗转译', item.oneLiner);
+  h += add('机制说明', item.mechanismDesc);
+  h += add('触发条件', item.trigger);
+  h += add('服务体验目标', item.experienceGoal);
+  h += add('代价与取舍', item.tradeoffs);
+  if (item.similarMechanisms?.length) {
+    const links = item.similarMechanisms.map(s=>`<span class="modal-nav-link" data-nav="${esc(s)}" data-tab="mechanisms">${esc(s)}</span>`).join(' ');
+    h += `<div class="modal-section"><div class="modal-section-title">相似机制</div><div class="modal-tags-row">${links}</div></div>`;
+  }
+  h += '</div>';
+  return h;
+}
+
+function buildGameBody(k,item) {
+  const tags = (item.tags||[]).map(t=>`<span class="tag" data-tag="${esc(t)}">${esc(t)}</span>`).join('');
+  let h = `<div class="modal-sidebar">
+    <div class="modal-sidebar-section"><div class="modal-sidebar-label">品类</div><div class="modal-sidebar-value">${esc(item.genre||'—')}</div></div>
+    <div class="modal-sidebar-section"><div class="modal-sidebar-label">游玩人数</div><div class="modal-sidebar-value">${esc(item.players||'—')}</div></div>
+    <div class="modal-sidebar-section"><div class="modal-sidebar-label">品类原型</div><div class="modal-sidebar-value">${esc(item.prototype||'—')}</div></div>
+    <div class="modal-sidebar-section"><div class="modal-sidebar-label">创新定性</div><div class="modal-sidebar-value">${esc(item.innovationLevel||'—')}</div></div>
+    <div class="modal-sidebar-section"><div class="modal-sidebar-label">标签</div><div class="modal-sidebar-tags">${tags||'—'}</div></div>
+    <div class="modal-sidebar-section"><div class="modal-sidebar-label">分析日期</div><div class="modal-sidebar-value">${esc(item.date||'—')}</div></div>
+  </div><div class="modal-content">`;
+  const add = (lbl,val) => val ? `<div class="modal-section"><div class="modal-section-title">${lbl}</div><div class="modal-text">${esc(val)}</div></div>` : '';
+  h += add('X-Statement', item.xStatement);
+  h += add('核心支柱', item.corePillars);
+  if (item.relatedMechanisms?.length) {
+    const links = item.relatedMechanisms.map(m=>`<span class="modal-nav-link" data-nav="${esc(m)}" data-tab="mechanisms">${esc(m)}</span>`).join(' ');
+    h += `<div class="modal-section"><div class="modal-section-title">收录机制</div><div class="modal-tags-row">${links}</div></div>`;
+  }
+  h += '</div>';
+  return h;
+}
+
+function buildPlayBody(k,item) {
+  const tags = (item.tags||[]).map(t=>`<span class="tag" data-tag="${esc(t)}">${esc(t)}</span>`).join('');
+  let h = `<div class="modal-sidebar">
+    <div class="modal-sidebar-section"><div class="modal-sidebar-label">所属游戏</div><div class="modal-sidebar-value">${esc(item.game||'—')}</div></div>
+    <div class="modal-sidebar-section"><div class="modal-sidebar-label">玩法类型</div><div class="modal-sidebar-value">${esc(item.type||'—')}</div></div>
+    <div class="modal-sidebar-section"><div class="modal-sidebar-label">对抗类型</div><div class="modal-sidebar-value">${esc(item.pvpType||'—')}</div></div>
+    <div class="modal-sidebar-section"><div class="modal-sidebar-label">标签</div><div class="modal-sidebar-tags">${tags||'—'}</div></div>
+  </div><div class="modal-content">`;
+  const add = (lbl,val) => val ? `<div class="modal-section"><div class="modal-section-title">${lbl}</div><div class="modal-text">${esc(val)}</div></div>` : '';
+  h += add('核心循环', item.coreLoop);
+  h += '</div>';
+  return h;
+}
+
+function setupEvents() {
+  // Tabs
+  document.querySelectorAll('.tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tab').forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected','false'); });
+      btn.classList.add('active'); btn.setAttribute('aria-selected','true');
+      currentTab = btn.dataset.tab;
+      document.getElementById('filterPrefix').classList.toggle('hidden', currentTab !== 'mechanisms');
+      document.getElementById('searchInput').value = '';
+      renderCards();
+    });
+  });
+
+  // Search
+  const si = document.getElementById('searchInput');
+  const sc = document.getElementById('searchClear');
+
+  si.addEventListener('input', () => {
+    sc.classList.toggle('visible', si.value.length > 0);
+    renderCards();
+  });
+  sc.addEventListener('click', () => { si.value = ''; sc.classList.remove('visible'); renderCards(); });
+
+  // Filters
+  document.getElementById('filterPrefix').addEventListener('change', renderCards);
+  document.getElementById('filterGenre').addEventListener('change', renderCards);
+  document.getElementById('sortSelect').addEventListener('change', renderCards);
+
+  // Modal
+  document.getElementById('modalClose').addEventListener('click', closeModal);
+  document.getElementById('modalOverlay').addEventListener('click', e => { if(e.target === e.currentTarget) closeModal(); });
+  document.addEventListener('keydown', e => { if(e.key === 'Escape') closeModal(); });
+
+  // Card clicks (delegation)
+  document.getElementById('cardGrid').addEventListener('click', e => {
+    const card = e.target.closest('.card');
+    if(card) openModal(card.dataset.key);
+  });
+  document.getElementById('cardGrid').addEventListener('keydown', e => {
+    if(e.key === 'Enter' || e.key === ' ') {
+      const card = e.target.closest('.card');
+      if(card) { e.preventDefault(); openModal(card.dataset.key); }
+    }
+  });
+
+  // Tag click → search
+  document.addEventListener('click', e => {
+    const tag = e.target.closest('.tag');
+    if(tag && !e.target.closest('.modal')) {
+      document.getElementById('searchInput').value = tag.dataset.tag;
+      document.getElementById('searchClear').classList.add('visible');
+      renderCards();
+    }
+  });
+
+  // Nav link in modal
+  document.getElementById('modalBody').addEventListener('click', e => {
+    const link = e.target.closest('.modal-nav-link');
+    if(link) {
+      const key = link.dataset.nav;
+      const tab = link.dataset.tab || 'mechanisms';
+      if (tab !== currentTab) {
+        document.querySelectorAll('.tab').forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected','false'); });
+        document.querySelector(`.tab[data-tab="${tab}"]`).classList.add('active');
+        currentTab = tab;
+        document.getElementById('filterPrefix').classList.toggle('hidden', tab !== 'mechanisms');
+      }
+      closeModal();
+      setTimeout(() => openModal(key), 150);
+    }
+  });
+}
+
+init();
+</script>
+</body>
+</html>
