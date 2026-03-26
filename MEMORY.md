@@ -629,21 +629,58 @@ if (!info.genre && rawContent) {
 
 ---
 
-## 游戏拆解工作流更新 (2026-03-09)
+## 游戏拆解工作流 (2026-03-26 更新)
 
-### 新增流程要求
-- 俊亦要求按字母序检查 jizhi/workspace/games 目录下所有游戏卡
-- 按照 game-analyse-sdd 标准流程重新拆解
-- 每个游戏需要：搜索10条结果、发送TG消息、写入完整游戏卡
+### 触发词
+- "分析 [游戏名]" / "拆解 [游戏名]" / "看看 [游戏]" / "[游戏名] 怎么样"
 
-### 模板修正
-- 将核心支柱从基本信息区移到"补充信息"板块
+### 流程文件
+`/root/.openclaw/workspace/skills/game-analyse-2-0/game-analyse.md`
 
-### 命名规范修正
-- moba-dream-arena-single-lane 和 moba-hex-arena-rune 标注为子模式（王者荣耀/英雄联盟子模式）
+### 执行流程（5 Phase + Step 0）
 
-### 技术问题记录
-- 浏览器截图功能暂时不可用（端口18791被占用）
+**Step 0：并行 Sub-agent 信息收集**
+- 5-7 个关键词组并行搜索（G1-G5 必选 + G6-G7 按需）
+- 汇总到统一文档，供后续 Phase 复用
+
+**Phase 0：玩法拓扑**
+- 三条判定线（独立性/操作性/产出性）识别主副玩法
+- 输出：玩法拓扑报告
+
+**Phase 1：机制扫描**
+- 9 系统 × 62 子模块并发扫描
+- 合并 Step 0 搜索结果，不再独立搜索
+
+**Phase 1.5：知识库检索**
+- 全局索引跨品类检索 + 品类先验检索
+- 为评价和推理提供参考基线
+
+**Phase 2：创新评价**
+- 三层拆解（原型层/创新层/包装层）
+- 3 条硬性门槛筛选结构创新
+- 品类标配排除
+
+**Phase 3：机制推理**
+- 5 步推理链（设计意图/作用机制/核心循环影响/服务体验/代价取舍）
+- 识别体验支柱 + 机制协同图
+
+**Phase 4：单机制深挖（可选）**
+- 用户指定才触发，Phase 2/3 之后
+
+**Phase 5：标准化入库**
+- 知识卡片 / Game Card / Mechanism Cards / Gameplay Cards / 全局索引更新
+
+### 交付原则：轻量 TG + 完整文件
+- 每 Phase 完成 → 发 1 条 TG 消息（3-5 句关键结论）
+- 完整报告 → 全部存文件（`reports/[游戏名]/`）
+- 不发完整报告全文
+
+### 路径规范
+- 报告：`D:\mechanism-lib\reports\[GameEnglishName]\`
+- 游戏卡：`D:\mechanism-lib\games\[GameEnglishName].md`
+- 机制卡：`D:\mechanism-lib\mechanisms\[GameEnglishName]\`
+- 玩法卡：`D:\mechanism-lib\gameplays\[GameEnglishName]\`
+- 知识库：`~/.codemaker/skills/mechanism-analyse/references/knowledge/`
 
 ---
 
