@@ -1398,3 +1398,19 @@ Strikingly 平台建议直接用浏览器自动化处理，或换用其他无弹
 - `games/DaohaoSpace.md` → 软链接
 - `mechanisms/DaohaoSpace/` → 软链接
 - `gameplays/DaohaoSpace/` → 软链接
+
+---
+
+## gstack Skills 集成进展（2026-03-25 更新）
+
+### 已完成
+- ✅ gstack skills 已复制到 `/root/.openclaw/workspace/skills/`
+- ✅ 梳理了各 Agent 可调用的 skills 清单
+- ✅ 更新了 MULTI_AGENT.md
+
+### 待完成
+- ⬜ Preamble 统一返回格式
+- ⬜ Completeness 原则写进 Doer
+- ⬜ AskUserQuestion 派发格式
+- ⬜ TODO 格式优化（增加任务ID、状态追踪）
+- ⬜ 版本检查机制
