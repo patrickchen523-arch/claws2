@@ -1,0 +1,152 @@
+# 无期迷途 (Path to Nowhere) — 搜索摘要 / Search Summary
+
+> 关键词： 无期迷途 机制 系统 gameplay mechanics systems
+> 搜索语言：中文 + 英文（双语）
+> 主要来源：PocketGamer (pocketgamer.com)
+> 说明：大部分 Wiki / 游戏媒体站点（DuckDuckGo 爬取受限、Fandom Cloudflare 拦截、Bilibili Wiki 编码问题），
+> 实际可抓取的核心内容来自 PocketGamer 多个页面，下方综合整理。
+
+---
+
+## 1. 游戏整体概述 / Game Overview
+
+**无期迷途 (Path to Nowhere)** 是由 **AISNO Games** 开发并发行的**暗黑风格塔防 + 策略 RPG**（gacha 手游），采用回合制塔防 + 策略机制。
+
+- **类型**：塔防（tower defense）+ 角色收集 / 养成（gacha RPG）+ 策略
+- **世界观**：后世界末日（post-apocalyptic）都市 DisCity
+- **主角设定**：玩家扮演 **M.B.C.C.（Minos Bureau of Crisis Control，弥诺斯危机管理局）局长（Chief）**，拥有对被称为 **"罪人（Sinners）"** 的超能力罪犯施加红色枷锁（Shackle）并强制其服从的独特能力
+- **剧情主题**：「以恶制恶」——罪犯被招募为英雄，拯救濒临毁灭的世界
+- **美术风格**：暗黑哥特 + 动漫风格，Live2D 全动态角色立绘，视觉偏暗黑、坚韧；被评为「壁纸级别」的静态过场美术
+- **配音**：支持日语、韩语、英语、中文四种语言全配音
+- **平台**：iOS / Android，全球 Beta 后正式上线
+- **商业模式**：免费 + 内购（gacha 抽卡）
+
+---
+
+## 2. 核心玩法 / Core Gameplay
+
+### 2.1 战斗核心 — 网格塔防
+
+- **战场**：每个关卡呈现网格地图，布置多条路径与障碍物
+- **队伍规模**：最多同时上阵 **6 名罪人（Sinners）**
+- **任务目标**：保护「局长（Chief）」不被敌人接近
+- **操作方式**：
+  - **手动施放技能**（无自动战斗）
+  - **手动重新部署**罪人位置（每关有移动次数限制）
+  - 需要根据敌人生成点（spawn points）预判敌人路线并针对性布置
+- **难度设计**：不能仅靠角色等级压制通关，**策略、时机、走位**缺一不可
+
+### 2.2 走位与移动限制
+
+- 屏幕顶部显示**本关剩余移动次数**
+- 每次重新布置罪人位置都会消耗移动次数
+- 用尽后无法再移动——需要提前规划，特别是最后一波
+- 远距离敌人移动缓慢，给予玩家评估和反应时间
+
+### 2.3 核心 Break 机制（Core Break）
+
+- 部分精英敌人有**橙色菱形标记的核心（Corruptor Cores）**，部分敌人有多个核心
+- 在核心破坏前，敌人几乎不受显著伤害
+- 特定罪人的终极技能（Ultimate）可破坏核心，使敌人进入 **Break 状态**（倒地 + 受到更多伤害）
+- 核心敌人出现时机难以预测，需保留 Core Break 技能应对
+
+### 2.4 Potestas（异能）系统
+
+- 玩家作为局长的个人异能，可在战斗中施放
+- 效果多样：直接对敌人造成伤害、帮助罪人恢复体力等
+- 每场战斗只能携带**一个 Potestas**，战前需根据关卡敌人类型和己方阵容选择
+
+---
+
+## 3. 关键系统与机制 / Key Systems
+
+### 3.1 角色系统 — Sinners（罪人）
+
+| 要素 | 说明 |
+|------|------|
+| **角色稀有度** | S级（最高）> A/B/C 级；保底机制：80 抽必出 S 级角色 |
+| **角色定位** | 坦克（防御）、输出（远程/近战）、治疗等职业分工 |
+| **角色招募** | gacha 抽卡系统，主题包装为"Arrest（逮捕）" |
+| **养成线** | 等级、技能升级、Compliance（服从度）提升 |
+| **立绘 / 皮肤** | 每个罪人都有令人惊艳的角色原画，可更换皮肤 |
+| **互动系统** | Surveillance（监视）影响与角色关系；Interrogation（审讯）可了解角色背景故事并提升 Compliance |
+
+### 3.2 审讯系统（Interrogation）
+
+- 与罪人互动，深入了解其背景故事
+- 可提升角色的 Compliance（服从度）等级
+- 提供分支剧情结局（branching story endings）
+- 全语音支持
+
+### 3.3 基地建设 / Base Building
+
+- 建造生产设施（production facilities）
+- 设施定期产出游戏内道具
+- 离线也会继续生产
+
+### 3.4 派遣任务 / Dispatch Missions
+
+- 派遣罪人执行离线任务
+- 玩家离线一段时间后登录可领取奖励
+- 属于被动收益系统
+
+### 3.5 肉鸽（Roguelike）模式
+
+- 每期活动推出独立肉鸽关卡
+- 每次通关路径不同，包含随机事件、战斗、增益/减益效果
+- 类似于 Limbus Company 的 Mirror Dungeons 机制
+- 体力耗尽后可进入肉鸽模式继续游戏
+
+### 3.6 公会系统
+
+- 支持公会（Guild）社交
+- 暂无 PvP 竞技场（未来可能更新）
+
+### 3.7 体力系统
+
+- 采用体力（Stamina）限制每日游玩时长
+- 可用法币或游戏内货币补充体力
+- 评测反馈：体力限制较为严格
+
+---
+
+## 4. 设计亮点 / Design Highlights
+
+1. **「以恶制恶」主题一致性**：从剧情（招募罪犯）到 UI（抽卡 = 逮捕 Arrest），再到监视/审讯系统，主题贯穿始终，沉浸感强
+2. **纯手动战斗 + 高策略深度**：无自动战斗，战斗需手动施放技能 + 手动走位，难度曲线陡峭但策略感十足
+3. **角色设计水准高**：角色立绘为 Live2D 动态呈现，结合日韩动漫风格，每位罪人都有独特人设和背景故事
+4. **审讯互动系统**：通过 Surveillance 和 Interrogation 深入角色故事，增加角色收集的情感价值
+5. **多语言全配音**：四种语言高质量配音，显著提升剧情体验
+6. **视觉与听觉表现**：被评为「壁纸级别」的美术质量，主菜单音乐洗脑（bop-your-head-to-the-beat），评测者盛赞其视听体验
+7. **gacha 保底机制明确**：80 抽保底 S 级，对比同类手游相对良心
+8. **后末日世界观**：DisCity 的暗黑都市设定在手游中较为独特，非典型奇幻或科幻背景
+
+---
+
+## 5. 高质量参考链接 / Reference Links
+
+| 序号 | 标题 | 来源 | 链接 |
+|------|------|------|------|
+| 1 | Path to Nowhere review - "Literally and figuratively arresting gameplay" | PocketGamer | https://www.pocketgamer.com/path-to-nowhere/review/ |
+| 2 | Path to Nowhere: Beginner's guide | PocketGamer | https://www.pocketgamer.com/path-to-nowhere/guide/ |
+| 3 | Path to Nowhere lets you command a squad of superpowered Sinners to save a dying world, now in open beta | PocketGamer | https://www.pocketgamer.com/path-to-nowhere/open-beta/ |
+| 4 | Path to Nowhere — Eternal Nightmare event announcement | PocketGamer | https://www.pocketgamer.com/path-to-nowhere/eternal-nightmare/ |
+| 5 | Path to Nowhere — Phantom of the Mist event | PocketGamer | https://www.pocketgamer.com/path-to-nowhere/phantom-of-the-mist-launch/ |
+| 6 | 无期迷途 官方入口（英文） | AISNO Games | https://ptn.aisnogames.com/en-EN/home |
+| 7 | Path to Nowhere — 新增 Sinners 角色公告 | PocketGamer | https://www.pocketgamer.com/path-to-nowhere/new-sinners/ |
+
+---
+
+## 6. 备注 / Notes
+
+- **DuckDuckGo 爬取限制**：所有 web_search 请求均触发反爬虫挑战（bot-detection），未获取到搜索结果
+- **Fandom Wiki**：Cloudflare 403 拦截，path-to-nowhere.fandom.com 无法直接抓取
+- **Bilibili Wiki**：wiki.biligame.com 可访问但返回内容为通用模板，编码异常，未能提取正文
+- **其他来源**：Steam（重定向至首页）、IGN、Metacritic、Pocket Tactics 均被屏蔽
+- **核心内容来源**：PocketGamer 多个页面（review、guide、news）为主要可用信息源，内容覆盖玩法、系统、评测
+- **建议补充来源**：英文可直接访问 AISNO Games 官网（ptn.aisnogames.com）获取更完整的系统说明
+
+---
+
+*搜索完成时间：2026-04-17*
+*子任务：game-analyse-2-0 / 无期迷途 / search_g2.txt*
