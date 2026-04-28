@@ -20,6 +20,10 @@
     "capability-evolver-pro": {
       "version": "1.0.2",
       "installedAt": 1777257803868
+    },
+    "nox-grill-me": {
+      "version": "1.0.0",
+      "installedAt": 1777374050891
     }
   }
 }
