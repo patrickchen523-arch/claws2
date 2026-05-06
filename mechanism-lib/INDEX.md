@@ -1,6 +1,6 @@
 # 机制库索引
 
-> 最后更新：2026-05-03
+> 最后更新：2026-05-07
 
 ---
 
@@ -133,6 +133,7 @@
 | ForzaHorizon5 | - | 5 |
 | Frostpunk2 | - | 0 |
 | Frostpunk | - | 0 |
+| Gamble-With-Your-Friends | - | 0 |
 | GameForPeace | - | 3 |
 | GangLan | - | 0 |
 | GenshinImpact | - | 7 |
