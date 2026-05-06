@@ -24,6 +24,10 @@
     "nox-grill-me": {
       "version": "1.0.0",
       "installedAt": 1777374050891
+    },
+    "self-improving-agent": {
+      "version": "3.0.21",
+      "installedAt": 1778047840087
     }
   }
 }
